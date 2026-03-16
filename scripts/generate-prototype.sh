@@ -71,23 +71,27 @@ echo "$IDEA_JSON" > "$TARGET_DIR/idea.json"
 # --- Step 2: Generate prototype with Claude ---
 echo "[2/4] Generating prototype with Claude..."
 
-CLAUDE_PROMPT=$(cat <<PROMPT
+# Write prompt to temp file to avoid shell quoting issues
+PROMPT_FILE=$(mktemp)
+trap "rm -f $PROMPT_FILE" EXIT
+
+cat > "$PROMPT_FILE" <<PROMPT_EOF
 Generate an interactive mobile app prototype for the following app idea.
 
-**App Name:** $APP_NAME
-**Tagline:** $APP_TAGLINE
-**Description:** $APP_DESC
-**Key Features:** $APP_FEATURES
+**App Name:** ${APP_NAME}
+**Tagline:** ${APP_TAGLINE}
+**Description:** ${APP_DESC}
+**Key Features:** ${APP_FEATURES}
 
 ## Instructions
 
 Create a single-file React prototype (App.tsx) that runs with Babel standalone.
 
 **CRITICAL RULES for App.tsx:**
-1. NO import/export statements. Use: \`const { useState, useEffect, useRef } = React;\`
-2. Function must be: \`function App()\` (no export default)
+1. NO import/export statements. Use: const { useState, useEffect, useRef } = React;
+2. Function must be: function App() (no export default)
 3. All styles must be inline JavaScript objects
-4. Use Lucide icons from CDN: add \`<script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.min.js"></script>\` - access via \`window.lucide\` object
+4. Use Lucide icons from CDN - access icons via window.lucide object (e.g. window.lucide.Heart, window.lucide.Home)
 5. Load Google Fonts via a style tag in the component
 
 **Design Requirements:**
@@ -99,61 +103,98 @@ Create a single-file React prototype (App.tsx) that runs with Babel standalone.
 - Realistic placeholder content (not lorem ipsum)
 - Smooth transitions between screens
 - Micro-interactions (button press effects, toggle animations)
-- A cohesive color palette that matches the app's purpose
+- A cohesive color palette that matches the app purpose
 - Professional typography with proper hierarchy
 - Status bar with time, wifi, battery icons
 
 **Output:**
-Write ONLY the App.tsx file content to: $TARGET_DIR/App.tsx
+Write ONLY the App.tsx file content to: ${TARGET_DIR}/App.tsx
 
-After writing App.tsx, also write a design-spec.json to $TARGET_DIR/design-spec.json with:
-{
-  "appName": "$APP_NAME",
-  "tagline": "$APP_TAGLINE",
-  "description": "$APP_DESC",
-  "features": [...],
-  "designSystem": {
-    "primaryColor": "#hex",
-    "secondaryColor": "#hex",
-    "backgroundColor": "#hex",
-    "fontFamily": "font name",
-    "style": "design style description"
-  },
-  "screens": ["screen1", "screen2", ...]
-}
+After writing App.tsx, also write a design-spec.json to ${TARGET_DIR}/design-spec.json with:
+{"appName":"${APP_NAME}","tagline":"${APP_TAGLINE}","designSystem":{"primaryColor":"#hex","secondaryColor":"#hex","backgroundColor":"#hex","fontFamily":"font name","style":"design style description"},"screens":["screen1","screen2"]}
 
-Then copy the preview template from $HOME/.claude/skills/app-design-preview/templates/preview.html to $TARGET_DIR/preview.html
+Do NOT write preview.html - the script handles that separately.
+PROMPT_EOF
 
-But modify it to also include the Lucide React CDN script in the head:
-<script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.min.js"></script>
-PROMPT
-)
+CLAUDE_PROMPT=$(cat "$PROMPT_FILE")
 
 # Run Claude in print mode with permissions bypassed
+# Unset CLAUDECODE to allow running from within a Claude session
+unset CLAUDECODE
 claude -p "$CLAUDE_PROMPT" \
   --dangerously-skip-permissions \
-  --max-budget-usd 0.50 \
+  --max-budget-usd 1.00 \
   --model sonnet \
   --output-format text \
   --add-dir "$TARGET_DIR" \
-  --add-dir "$HOME/.claude/skills/app-design-preview/templates" \
   > "$TARGET_DIR/claude-output.log" 2>&1 || {
     log "FAIL:claude" "$APP_NAME"
     echo "Claude generation failed. See $TARGET_DIR/claude-output.log" >&2
     exit 1
   }
 
-# --- Step 3: Verify output ---
-echo "[3/4] Verifying output..."
+# --- Step 3: Verify and assemble output ---
+echo "[3/4] Verifying and assembling output..."
 
-MISSING=""
-[ ! -f "$TARGET_DIR/App.tsx" ] && MISSING="$MISSING App.tsx"
-[ ! -f "$TARGET_DIR/preview.html" ] && MISSING="$MISSING preview.html"
-
-if [ -n "$MISSING" ]; then
-  log "FAIL:missing" "$APP_NAME ($MISSING)"
-  echo "Missing files:$MISSING" >&2
+if [ ! -f "$TARGET_DIR/App.tsx" ]; then
+  log "FAIL:missing" "$APP_NAME (App.tsx)"
+  echo "App.tsx not generated" >&2
   exit 1
+fi
+
+# Copy and customize preview.html template
+TEMPLATE="$HOME/.claude/skills/app-design-preview/templates/preview.html"
+if [ -f "$TEMPLATE" ]; then
+  sed 's|</head>|<script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.min.js"></script>\n</head>|' \
+    "$TEMPLATE" > "$TARGET_DIR/preview.html"
+else
+  # Fallback: create minimal preview.html
+  cat > "$TARGET_DIR/preview.html" <<'HTML_EOF'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prototype Preview</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script>
+  Babel.registerPreset('tsx', {
+    presets: [
+      [Babel.availablePresets['typescript'], { isTSX: true, allExtensions: true }],
+      [Babel.availablePresets['react']]
+    ]
+  });
+</script>
+<script type="text/babel" data-presets="tsx" src="App.tsx"></script>
+<script type="text/babel" data-presets="tsx">
+  ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App));
+</script>
+</body>
+</html>
+HTML_EOF
+fi
+
+# Generate design-spec.json if Claude didn't
+if [ ! -f "$TARGET_DIR/design-spec.json" ]; then
+  echo "$IDEA_JSON" | python3 -c "
+import sys, json
+idea = json.load(sys.stdin)
+spec = {
+  'appName': idea['name'],
+  'tagline': idea['tagline'],
+  'description': idea['description'],
+  'features': idea['features'],
+  'audience': idea.get('audience', ''),
+  'category': idea.get('category', '')
+}
+print(json.dumps(spec, indent=2))
+" > "$TARGET_DIR/design-spec.json"
 fi
 
 # Clean up claude output log on success

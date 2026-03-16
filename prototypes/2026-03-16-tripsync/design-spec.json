@@ -1,0 +1,14 @@
+{
+  "appName": "TripSync",
+  "tagline": "Craft memories, not logistics.",
+  "description": "TripSync is your travel companion that helps families seamlessly coordinate and match their travel experiences. By pooling recommendations, personal schedules, and itineraries, family members can collaborate in real-time to enrich their ongoing trip and create unforgettable memories together.",
+  "features": [
+    "Real-time itinerary sharing",
+    "Collaborative planning tool",
+    "Custom travel alerts",
+    "Memory timeline gallery",
+    "Integrated local experiences"
+  ],
+  "audience": "Families planning shared trips",
+  "category": "travel"
+}
