@@ -1,0 +1,14 @@
+{
+  "name": "QuestEd",
+  "tagline": "Learn through adventure and storytelling!",
+  "description": "QuestEd transforms the traditional learning experience into an immersive adventure game. Users engage with educational content by embarking on quests that challenge their knowledge and skills, earning rewards as they progress. The app covers various subjects while fostering creativity and critical thinking in a fun and engaging way.",
+  "features": [
+    "Interactive storytelling quests",
+    "Real-time collaboration with classmates",
+    "Customizable character avatars",
+    "Gamified rewards system",
+    "Progress tracking and analytics"
+  ],
+  "audience": "Students ages 8-14",
+  "category": "education"
+}

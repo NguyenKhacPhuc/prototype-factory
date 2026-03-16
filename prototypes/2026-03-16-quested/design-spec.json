@@ -1,0 +1,20 @@
+{
+  "appName": "QuestEd",
+  "tagline": "Learn through adventure and storytelling!",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#0D0B1E",
+    "surfaceColor": "#1A1535",
+    "accentColor": "#10B981",
+    "fontFamily": "Nunito",
+    "style": "Dark fantasy RPG aesthetic with vibrant purple and gold accents. Deep navy background with glowing card surfaces, gradient quest banners, and gamified UI elements. Rounded corners, emoji-rich iconography, and XP-driven progress indicators throughout."
+  },
+  "screens": [
+    "Map — Quest board with active quest banner, XP level progress bar, available quests list with difficulty/subject tags, and daily challenges tracker",
+    "Quest — Immersive storytelling screen with gradient scene header, NPC dialogue bubble, knowledge challenge question, interactive multiple-choice answers with correct/incorrect feedback and XP reward",
+    "Hero — Character profile with customizable avatar color aura, level and class display, four character stats with progress bars, and 2x3 achievement badge grid",
+    "League — Weekly leaderboard with 3-player podium visualization, full ranked scholar list with streaks, and open Study Party invitation with join CTA",
+    "Progress — Analytics dashboard with stats summary row, weekly XP bar chart, subject mastery progress bars, and earned/locked achievement badge gallery"
+  ]
+}
