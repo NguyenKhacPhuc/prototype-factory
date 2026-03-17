@@ -1,0 +1,20 @@
+{
+  "appName": "Flavor Match",
+  "tagline": "Discover perfect food pairings.",
+  "designSystem": {
+    "primaryColor": "#8DB580",
+    "secondaryColor": "#D4AF37",
+    "backgroundColor": "#F5F5F0",
+    "accentColor": "#A89F91",
+    "fontFamily": "Noto Sans",
+    "style": "Zen garden — calm, spa-like aesthetic with off-white backgrounds, matcha green accents, warm gray tones, and soft gold highlights. Rounded corners, subtle borders, and gentle gradients create a serene, balanced atmosphere."
+  },
+  "screens": [
+    "Discover — Home feed with trending pairings, featured AI-curated combos, seasonal highlights, and a quick ingredient search bar",
+    "Match — Ingredient input workspace with dynamic flavor profile bars (umami, acidity, fat, herbal), quick-add suggestions, and AI analysis trigger",
+    "Match Results — AI-generated recipe suggestions with flavor match scores, cooking time, difficulty, flavor notes, side dish recommendations, and curated drink pairings",
+    "Recipes — Saved recipe collection with category filters (All, Quick, Vegetarian, Seafood, Dessert), star ratings, and AI recipe generator CTA",
+    "Community — Social feed with trending/recent/following tabs, pairing posts with combination highlights, tags, likes, comments, and save-to-try actions",
+    "Profile — User taste personality card, flavor preferences, saved combinations list, stats (pairings/saved/shared), and settings"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Flavor Match",
+  "tagline": "Discover perfect food pairings.",
+  "description": "Flavor Match uses AI to analyze individual ingredients and suggests complementary dishes or pairings that bring out their best flavors. By inputting what you have on hand or what you're craving, the app generates tailored recipes and suggests complementary sides and drinks, enhancing your dining experience.",
+  "features": [
+    "AI-driven flavor analytics",
+    "Ingredient input functionality",
+    "Tailored recipe generation",
+    "Pairing suggestions for sides and drinks",
+    "Community feature for sharing favorite combinations"
+  ],
+  "audience": "Home cooks and food enthusiasts",
+  "category": "food & cooking"
+}
