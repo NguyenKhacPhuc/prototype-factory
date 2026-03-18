@@ -83,6 +83,27 @@
     "category": "education"
   },
   {
+    "folder": "2026-03-18-flavor-switch",
+    "appName": "Flavor Switch",
+    "tagline": "Transform leftovers into gourmet meals!",
+    "designSystem": {
+      "primaryColor": "#8B5CF6",
+      "secondaryColor": "#EC4899",
+      "backgroundColor": "#FFF0F5",
+      "accentColor": "#6EE7B7",
+      "fontFamily": "Fredoka",
+      "style": "Candy pop \u2014 playful bubbly design with soft pastel backgrounds, electric violet and hot pink accents, mint highlights, rounded corners, and micro-interaction press effects"
+    },
+    "screens": [
+      "Home \u2014 Featured leftover recipe cards, meal category grid (Breakfast/Lunch/Dinner/Snacks), daily pro tip banner, and gradient header with greeting",
+      "Analyzer \u2014 Ingredient input with quick-add chips, ingredient tag management, animated analyze button with loading state, match results with zero-waste score, flavor enhancer suggestions",
+      "Recipes \u2014 Detailed recipe view with hero header, flavor profile tags, flavor pairing suggestions, scrollable ingredient list, interactive step-by-step guide with tips, save to cookbook",
+      "Community \u2014 Tip feed with user avatars, like/share interactions, trending hashtag chips, share your own hack CTA card",
+      "Profile \u2014 User stats (recipes/meals/food saved), achievement badges with lock states, saved cookbook list, notification & preferences settings rows"
+    ],
+    "category": "food & cooking"
+  },
+  {
     "folder": "2026-03-18-emotion-fit",
     "appName": "Emotion Fit",
     "tagline": "Train your mind and body together.",

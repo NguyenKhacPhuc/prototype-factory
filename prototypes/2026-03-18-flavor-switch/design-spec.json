@@ -1,0 +1,19 @@
+{
+  "appName": "Flavor Switch",
+  "tagline": "Transform leftovers into gourmet meals!",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#EC4899",
+    "backgroundColor": "#FFF0F5",
+    "accentColor": "#6EE7B7",
+    "fontFamily": "Fredoka",
+    "style": "Candy pop — playful bubbly design with soft pastel backgrounds, electric violet and hot pink accents, mint highlights, rounded corners, and micro-interaction press effects"
+  },
+  "screens": [
+    "Home — Featured leftover recipe cards, meal category grid (Breakfast/Lunch/Dinner/Snacks), daily pro tip banner, and gradient header with greeting",
+    "Analyzer — Ingredient input with quick-add chips, ingredient tag management, animated analyze button with loading state, match results with zero-waste score, flavor enhancer suggestions",
+    "Recipes — Detailed recipe view with hero header, flavor profile tags, flavor pairing suggestions, scrollable ingredient list, interactive step-by-step guide with tips, save to cookbook",
+    "Community — Tip feed with user avatars, like/share interactions, trending hashtag chips, share your own hack CTA card",
+    "Profile — User stats (recipes/meals/food saved), achievement badges with lock states, saved cookbook list, notification & preferences settings rows"
+  ]
+}

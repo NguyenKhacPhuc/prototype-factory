@@ -1,0 +1,14 @@
+{
+  "name": "Flavor Switch",
+  "tagline": "Transform leftovers into gourmet meals!",
+  "description": "Flavor Switch helps home cooks reinvent their leftovers into exciting, restaurant-quality dishes. By inputting what ingredients you have on hand, the app generates unique recipes, cooking tips, and complementary flavor profiles to enhance your meal experience. Say goodbye to wasting food and hello to culinary creativity!",
+  "features": [
+    "Leftover ingredient analyzer",
+    "Gourmet recipe generator",
+    "Flavor pairing suggestions",
+    "Step-by-step cooking guidance",
+    "User-submitted hacks and tips"
+  ],
+  "audience": "Home cooks and eco-conscious foodies",
+  "category": "food & cooking"
+}

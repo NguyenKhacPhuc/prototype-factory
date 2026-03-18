@@ -1,0 +1,27 @@
+{
+  "appName": "Flavor Switch",
+  "fontFamily": "Fredoka",
+  "colors": {
+    "primary": "#8B5CF6",
+    "secondary": "#EC4899",
+    "background": "#FFF0F5",
+    "accent": "#6EE7B7"
+  },
+  "icons": [
+    "bell",
+    "chef-hat",
+    "chevron-left",
+    "chevron-right",
+    "flask-conical",
+    "home",
+    "plus",
+    "search",
+    "settings",
+    "user",
+    "users",
+    "x"
+  ],
+  "fonts": [],
+  "iconCount": 12,
+  "fontFileCount": 0
+}
