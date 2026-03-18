@@ -1,0 +1,34 @@
+{
+  "appName": "Mood Echo",
+  "fontFamily": "Sora, Quicksand",
+  "colors": {
+    "primary": "#F6A623",
+    "secondary": "#FFB6C1",
+    "background": "#FFF5EE",
+    "accent": "#6B3A5B"
+  },
+  "icons": [
+    "bell",
+    "bookmark",
+    "download",
+    "headphones",
+    "heart",
+    "home",
+    "library",
+    "log-out",
+    "message-circle",
+    "more-vertical",
+    "pause",
+    "play",
+    "repeat",
+    "shield",
+    "shuffle",
+    "skip-back",
+    "skip-forward",
+    "user",
+    "users"
+  ],
+  "fonts": [],
+  "iconCount": 19,
+  "fontFileCount": 0
+}

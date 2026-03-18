@@ -21,6 +21,27 @@
     "category": "sustainability"
   },
   {
+    "folder": "2026-03-18-mood-echo",
+    "appName": "Mood Echo",
+    "tagline": "Your library of soundscapes for every mood.",
+    "designSystem": {
+      "primaryColor": "#F6A623",
+      "secondaryColor": "#FFB6C1",
+      "backgroundColor": "#FFF5EE",
+      "accentColor": "#6B3A5B",
+      "fontFamily": "Sora, Quicksand",
+      "style": "Sunset gradient with warm pastel palette \u2014 amber, soft pink, and deep plum accents. Rounded cards, gradient art blocks, glassmorphism Dynamic Island, smooth micro-interactions, and layered shadows for depth."
+    },
+    "screens": [
+      "Home/Discover \u2014 Mood selector grid with 6 emotional states, AI soundscape generator with animated loading, featured horizontal scroll cards, and trending list with play controls",
+      "Player \u2014 Full-screen soundscape player with animated art, waveform visualizer, scrubber with live progress, volume slider, playback controls, mood tag, and share action",
+      "Library \u2014 Personal soundscape collection with playlist shortcuts, mood filter chips, and saved echo cards with bookmark/save toggles",
+      "Social/Community \u2014 Creator spotlight carousel with follow toggles, community posts with soundscape previews, like/share/reply actions, and hashtag discovery",
+      "Profile \u2014 User stats banner, Apple Watch wearable integration toggle with biometrics display, AI preference sliders, and settings panel"
+    ],
+    "category": "entertainment"
+  },
+  {
     "folder": "2026-03-18-emotion-fit",
     "appName": "Emotion Fit",
     "tagline": "Train your mind and body together.",
