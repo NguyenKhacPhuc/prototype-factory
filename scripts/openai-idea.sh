@@ -14,7 +14,7 @@ fi
 
 # Rotate categories based on day-of-year to ensure variety
 CATEGORIES=("health & fitness" "personal finance" "social & community" "productivity" "education" "entertainment" "travel" "food & cooking" "sustainability" "creative tools")
-DAY_OF_YEAR=$(date +%j)
+DAY_OF_YEAR=$(date +%-j)
 CATEGORY_INDEX=$(( (DAY_OF_YEAR + ${RANDOM_OFFSET:-0}) % ${#CATEGORIES[@]} ))
 CATEGORY="${CATEGORIES[$CATEGORY_INDEX]}"
 
@@ -23,7 +23,7 @@ RESPONSE=$(curl -s https://api.openai.com/v1/chat/completions \
   -H "Authorization: Bearer $OPENAI_API_KEY" \
   -d "$(cat <<PAYLOAD
 {
-  "model": "gpt-4o-mini",
+  "model": "gpt-5.4-mini",
   "temperature": 1.2,
   "response_format": { "type": "json_object" },
   "messages": [
@@ -33,7 +33,7 @@ RESPONSE=$(curl -s https://api.openai.com/v1/chat/completions \
     },
     {
       "role": "user",
-      "content": "Generate a unique, innovative mobile app idea in the category: ${CATEGORY}. Be creative and specific - avoid generic ideas. The app should solve a real problem in an interesting way.\n\nReturn JSON with these fields:\n- name: catchy app name (2-3 words max)\n- tagline: one-line pitch (under 10 words)\n- description: 2-3 sentence description of what the app does\n- features: array of exactly 5 key features (short phrases)\n- audience: target audience (one phrase)\n- category: \"${CATEGORY}\""
+      "content": "Generate a unique, innovative mobile app idea in the category: ${CATEGORY}. Be creative and specific - avoid generic ideas. The app should solve a real problem in an interesting way.\n\nReturn JSON with these fields:\n- name: catchy app name (2-3 words max)\n- tagline: one-line pitch (under 10 words)\n- description: A rich, detailed paragraph (5-8 sentences) explaining: what the app does, the problem it solves, how it helps users in their daily life, key use cases with concrete examples, and what makes it unique compared to existing solutions.\n- features: array of exactly 5 key features. Each feature should be a full sentence explaining what it does and why it matters (not just a short phrase).\n- audience: target audience with demographics and context (1-2 sentences)\n- category: \"${CATEGORY}\"\n- useCases: array of 3 specific real-world scenarios where someone would open and use this app (each 1-2 sentences, written as mini user stories like 'Sarah just finished a stressful meeting and wants to...')"
     }
   ]
 }

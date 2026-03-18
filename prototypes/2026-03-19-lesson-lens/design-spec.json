@@ -1,0 +1,18 @@
+{
+  "appName": "Lesson Lens",
+  "tagline": "Turn daily moments into instant learning.",
+  "designSystem": {
+    "primaryColor": "#C67B5C",
+    "secondaryColor": "#4A7C59",
+    "backgroundColor": "#FFFDF5",
+    "accentColor": "#E8D5B7",
+    "fontFamily": "DM Sans",
+    "style": "Warm earth tones with ivory background, terracotta accents, forest green highlights, and organic soft shadows. Clean card-based layout with rounded corners and gentle gradients."
+  },
+  "screens": [
+    "Home — Context-aware lesson feed with streak card, location banner, and 4 categorized micro-lesson cards (Language, Finance, Health, Work) that open into a 3-step lesson modal",
+    "Scan — Camera scan interface with sample receipt, menu, and label items that decode unfamiliar terms using AI-style explanations with a lesson CTA",
+    "Skills Map — 2-column grid of 6 life-area skill cards (Money, Travel, Health, Work, Language, Food) with progress bars, levels, and recent achievement badges",
+    "Profile — User settings with toggle controls for context-aware triggers, notifications, and dark mode, plus focus area management and app preferences"
+  ]
+}

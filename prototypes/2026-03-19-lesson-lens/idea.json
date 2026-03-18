@@ -1,0 +1,19 @@
+{
+  "name": "Lesson Lens",
+  "tagline": "Turn daily moments into instant learning.",
+  "description": "Lesson Lens is an AI-powered microlearning app that helps people learn practical knowledge by transforming everyday experiences into short, personalized lessons. Instead of expecting users to sit down for long study sessions, it watches for contextual moments like a commute, a grocery trip, or a confusing work task and delivers a tiny lesson exactly when it is most useful. The app solves the common problem that people forget most of what they try to learn because it is disconnected from real life and delivered at the wrong time. A user could scan a restaurant menu while traveling and get a 90-second language lesson on ordering politely, or receive a quick finance lesson after seeing a confusing payroll deduction on a pay stub. What makes it unique is that it uses the user's surroundings, calendar, and recent activity to teach only what is immediately relevant, turning routine moments into memorable, applied education. Over time, Lesson Lens builds a personal ",
+  "features": [
+    "Context-aware lesson triggers detect situations like a commute, shopping trip, or work task and surface a lesson that matches the moment, which makes learning feel useful instead of abstract.",
+    "Micro-lessons are delivered in 60 to 90 seconds with one actionable takeaway, so users can learn even when they are busy and still apply the knowledge right away.",
+    "The app can read receipts, menus, forms, and labels to explain unfamiliar terms in plain language, helping users understand the world around them without leaving the app.",
+    "Adaptive review reminders revisit lessons only when the user is likely to need them again, which improves retention without overwhelming them with unnecessary notifications.",
+    "A personal skill map tracks what the user has learned across life areas like money, travel, health, and work, helping them see progress and spot gaps in their everyday knowledge."
+  ],
+  "audience": "Adults ages 18-45 who want practical learning that fits into busy schedules, including commuters, first-job professionals, travelers, and parents juggling limited free time. It is especially useful for people who prefer real-world application over traditional courses.",
+  "category": "education",
+  "useCases": [
+    "Sarah just finished a stressful meeting and notices a contract term she does not understand, so she opens Lesson Lens to get a plain-English explanation and a quick lesson on what to ask next.",
+    "Marcus is traveling in a country where he does not speak the language, and when he points his camera at a caf\u00e9 menu, the app teaches him the exact phrases he needs to order confidently.",
+    "Alyssa is shopping for her first apartment and gets overwhelmed by insurance jargon, so she uses the app to turn the lease and utility forms into short lessons she can understand before signing."
+  ]
+}

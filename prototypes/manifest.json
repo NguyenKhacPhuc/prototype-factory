@@ -1,5 +1,39 @@
 [
   {
+    "folder": "2026-03-19-lesson-lens",
+    "appName": "Lesson Lens",
+    "tagline": "Turn daily moments into instant learning.",
+    "designSystem": {
+      "primaryColor": "#C67B5C",
+      "secondaryColor": "#4A7C59",
+      "backgroundColor": "#FFFDF5",
+      "accentColor": "#E8D5B7",
+      "fontFamily": "DM Sans",
+      "style": "Warm earth tones with ivory background, terracotta accents, forest green highlights, and organic soft shadows. Clean card-based layout with rounded corners and gentle gradients."
+    },
+    "screens": [
+      "Home \u2014 Context-aware lesson feed with streak card, location banner, and 4 categorized micro-lesson cards (Language, Finance, Health, Work) that open into a 3-step lesson modal",
+      "Scan \u2014 Camera scan interface with sample receipt, menu, and label items that decode unfamiliar terms using AI-style explanations with a lesson CTA",
+      "Skills Map \u2014 2-column grid of 6 life-area skill cards (Money, Travel, Health, Work, Language, Food) with progress bars, levels, and recent achievement badges",
+      "Profile \u2014 User settings with toggle controls for context-aware triggers, notifications, and dark mode, plus focus area management and app preferences"
+    ],
+    "description": "Lesson Lens is an AI-powered microlearning app that helps people learn practical knowledge by transforming everyday experiences into short, personalized lessons. Instead of expecting users to sit down for long study sessions, it watches for contextual moments like a commute, a grocery trip, or a confusing work task and delivers a tiny lesson exactly when it is most useful. The app solves the common problem that people forget most of what they try to learn because it is disconnected from real life and delivered at the wrong time. A user could scan a restaurant menu while traveling and get a 90-second language lesson on ordering politely, or receive a quick finance lesson after seeing a confusing payroll deduction on a pay stub. What makes it unique is that it uses the user's surroundings, calendar, and recent activity to teach only what is immediately relevant, turning routine moments into memorable, applied education. Over time, Lesson Lens builds a personal ",
+    "features": [
+      "Context-aware lesson triggers detect situations like a commute, shopping trip, or work task and surface a lesson that matches the moment, which makes learning feel useful instead of abstract.",
+      "Micro-lessons are delivered in 60 to 90 seconds with one actionable takeaway, so users can learn even when they are busy and still apply the knowledge right away.",
+      "The app can read receipts, menus, forms, and labels to explain unfamiliar terms in plain language, helping users understand the world around them without leaving the app.",
+      "Adaptive review reminders revisit lessons only when the user is likely to need them again, which improves retention without overwhelming them with unnecessary notifications.",
+      "A personal skill map tracks what the user has learned across life areas like money, travel, health, and work, helping them see progress and spot gaps in their everyday knowledge."
+    ],
+    "audience": "Adults ages 18-45 who want practical learning that fits into busy schedules, including commuters, first-job professionals, travelers, and parents juggling limited free time. It is especially useful for people who prefer real-world application over traditional courses.",
+    "category": "education",
+    "useCases": [
+      "Sarah just finished a stressful meeting and notices a contract term she does not understand, so she opens Lesson Lens to get a plain-English explanation and a quick lesson on what to ask next.",
+      "Marcus is traveling in a country where he does not speak the language, and when he points his camera at a caf\u00e9 menu, the app teaches him the exact phrases he needs to order confidently.",
+      "Alyssa is shopping for her first apartment and gets overwhelmed by insurance jargon, so she uses the app to turn the lease and utility forms into short lessons she can understand before signing."
+    ]
+  },
+  {
     "folder": "2026-03-18-trash-trader",
     "appName": "Trash Trader",
     "tagline": "Swap waste for value!",
@@ -18,7 +52,17 @@
       "Community \u2014 Local trader stats, upcoming events with RSVP and eco-point rewards, eco tips and sustainability advice",
       "Profile \u2014 User stats (trades, points, kg saved), badge collection grid with locked/earned states, settings menu"
     ],
-    "category": "sustainability"
+    "description": "Trash Trader connects people who want to get rid of unused items with those looking for sustainable solutions. Users can trade things like empty glass jars, fabric scraps, or other waste materials for eco-points redeemable at local sustainable shops and businesses.",
+    "features": [
+      "Localized trading network",
+      "Eco-points rewards system",
+      "Detailed waste category tracking",
+      "Community events & workshops",
+      "QR code scanning for quick trades"
+    ],
+    "audience": "Eco-conscious individuals and communities",
+    "category": "sustainability",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-spendecho",
@@ -38,7 +82,17 @@
       "Predict \u2014 Impulse forecast with model accuracy meter, expandable risk window cards with confidence bars, intervention nudges, and past prediction history",
       "Goals \u2014 Habit-based savings goals with animated toggle switches, progress bars, total saved summary, and low-cost ritual suggestions"
     ],
-    "category": "personal finance"
+    "description": "SpendEcho turns bank transactions into a timeline of recurring life patterns, spotting hidden \u201ctrigger moments\u201d like stress-shopping Fridays, post-payday splurges, or commute-linked spending. It then predicts the next impulse window and offers tiny, context-aware interventions such as cooling-off goals, stash transfers, or alternative low-cost rituals.",
+    "features": [
+      "Trigger-moment spending detection",
+      "Impulse window predictions",
+      "Micro-intervention nudges",
+      "Habit-based savings goals",
+      "Weekly pattern replay"
+    ],
+    "audience": "People trying to break subtle overspending habits",
+    "category": "personal finance",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-pulse-palette",
@@ -72,7 +126,17 @@
       "barChart": "Custom SVG-free bar chart with per-day labels and active highlight",
       "toggleRow": "iOS-style pill toggle with smooth thumb animation"
     },
-    "category": "health & fitness"
+    "description": "Pulse Palette turns messy daily health signals into a simple color map that tells users what kind of workout their body is ready for. It combines wearable data, sleep, mood, soreness, hydration, and cycle tracking to recommend personalized micro-sessions, recovery plans, or rest days in a way that feels intuitive instead of data-heavy.",
+    "features": [
+      "Body-readiness color score",
+      "Mood-to-workout matching",
+      "Adaptive micro-workout plans",
+      "Recovery and hydration nudges",
+      "Trend spotting from wearables"
+    ],
+    "audience": "Busy adults who want smarter, safer fitness",
+    "category": "health & fitness",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-plotpulse",
@@ -93,7 +157,17 @@
       "Library \u2014 Three-tab view (Saved / In Progress / Finished), offline availability banner, compact story cards with bookmark toggle",
       "Profile \u2014 User stats grid (episodes, hours, choices, streak), genre preference chips, settings panel with animated toggles (notifications, offline, autoplay), recent listening history list"
     ],
-    "category": "entertainment"
+    "description": "PlotPulse turns idle moments like commutes, waiting rooms, and chores into personalized audio drama episodes that adapt to your mood, time, and interests. Instead of endlessly scrolling for something to watch or read, the app delivers bite-sized interactive stories where your choices shape the next scene and each session picks up where you left off.",
+    "features": [
+      "Mood-based story matching",
+      "5-minute branching episodes",
+      "Choice-driven plot twists",
+      "Offline audio playback",
+      "Smart recap on return"
+    ],
+    "audience": "Busy commuters and storytelling fans",
+    "category": "entertainment",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-neighbor-loop",
@@ -113,7 +187,17 @@
       "Matches \u2014 Active chat interface with anonymous-first messaging, past connections with star ratings, and trust stats dashboard (helped, requested, trust score)",
       "Profile \u2014 User identity card with trust score breakdown, earned badges grid, skills/items offered, and live availability toggle"
     ],
-    "category": "social & community"
+    "description": "Neighbor Loop helps people solve small, urgent daily problems by connecting them with trusted nearby residents who can lend a tool, share a ride, watch a package, or give quick local advice. Instead of public posts or broad groups, the app matches users through micro-requests based on time, distance, and skills, creating practical neighborhood connections without awkward searching.",
+    "features": [
+      "Urgent micro-request matching",
+      "Trust badges from real interactions",
+      "Hyperlocal skill and item lending",
+      "Time-window availability sync",
+      "Anonymous first contact chat"
+    ],
+    "audience": "Urban and suburban neighbors who need quick local help",
+    "category": "social & community",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-moodfit-monitor",
@@ -134,7 +218,17 @@
       "Community \u2014 Active challenges with join/progress tracking, community feed with mood-tagged workout posts, likes and replies, participant counts and countdowns",
       "Profile \u2014 User profile with stats summary, achievement badges, wearable device connection status, and preference toggles for notifications and auto mood detection"
     ],
-    "category": "health & fitness"
+    "description": "MoodFit Monitor tracks your emotional responses during workouts, helping you identify the mental benefits of different exercises. By syncing with wearables, it provides personalized feedback on how activities affect your mood, guiding you to choose workouts that enhance both fitness and mental health.",
+    "features": [
+      "Emotional trend analysis",
+      "Wearable device integration",
+      "Personalized workout suggestions",
+      "Real-time mood journaling",
+      "Community support and challenges"
+    ],
+    "audience": "Fitness enthusiasts prioritizing mental health",
+    "category": "health & fitness",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-mood-echo",
@@ -155,7 +249,17 @@
       "Social/Community \u2014 Creator spotlight carousel with follow toggles, community posts with soundscape previews, like/share/reply actions, and hashtag discovery",
       "Profile \u2014 User stats banner, Apple Watch wearable integration toggle with biometrics display, AI preference sliders, and settings panel"
     ],
-    "category": "entertainment"
+    "description": "Mood Echo curates personalized soundscapes based on your emotional state, using AI-driven algorithms to analyze your preferences and vibes. Simply input how you're feeling, and the app generates a unique audio experience combining ambient sound, music, and nature sounds to enhance your mood and provide a tranquil escape.",
+    "features": [
+      "Mood-based sound generation",
+      "Personalized recommendations",
+      "Social sharing for soundscapes",
+      "Integrates with wearables",
+      "User-created playlists and sounds"
+    ],
+    "audience": "Emotionally conscious individuals",
+    "category": "entertainment",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-mistake-atlas",
@@ -176,7 +280,17 @@
       "Quests \u2014 Remediation quest cards with XP rewards, progress bars, due timers; interactive step-by-step exercise modal with reveal answers",
       "Profile \u2014 Student avatar with stats header, subject progress breakdown, achievements grid, settings rows"
     ],
-    "category": "education"
+    "description": "Mistake Atlas helps students turn wrong answers into personalized learning maps. By scanning homework, quizzes, or practice problems, the app identifies the exact misconception behind each error and generates a visual trail of prerequisite gaps to fix first. Instead of reviewing entire chapters, learners get a targeted path that rebuilds understanding from the root.",
+    "features": [
+      "Error-to-concept scanner",
+      "Misconception heatmap",
+      "Prerequisite gap tracker",
+      "Adaptive micro-explanations",
+      "Spaced remediation quests"
+    ],
+    "audience": "Middle school to college students who struggle with repeated mistakes",
+    "category": "education",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-future-focus",
@@ -196,7 +310,17 @@
       "Mentors \u2014 Expert Q&A feed with like interactions, searchable mentor directory with availability status, tag chips, follow and book-session actions",
       "Pathway \u2014 Real-world challenge cards (expandable with descriptions and start CTA), career track progress bars with step-by-step milestone visualization for UX/Data/Product paths"
     ],
-    "category": "education"
+    "description": "Future Focus connects students with industry professionals for live virtual mentorship sessions. Users can engage in Q&A, receive personalized advice on career paths, and access real-time project challenges. This interactive platform fosters valuable connections, guiding students from academic knowledge to practical application.",
+    "features": [
+      "Live mentorship sessions",
+      "Real-time project challenges",
+      "Q&A with industry experts",
+      "Career pathway tracking",
+      "Networking opportunities"
+    ],
+    "audience": "high school and college students",
+    "category": "education",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-focuspal",
@@ -217,7 +341,17 @@
       "Playlists \u2014 AI-curated music playlists grid with play toggle, live now-playing card with progress bar and playback controls",
       "Profile \u2014 User card with level and streak badges, all-time stats grid, achievements gallery (unlocked/locked states), preference toggles with animated switches"
     ],
-    "category": "productivity"
+    "description": "FocusPal uses AI to analyze your behavior patterns and environments to identify common distractions. It then recommends personalized focus techniques and schedules to boost productivity throughout your day. Enhance your workflow with smart reminders, music playlists, and analytics designed just for you.",
+    "features": [
+      "AI-driven distraction analysis",
+      "Customizable focus techniques",
+      "Mood-boosting music playlists",
+      "Dynamic scheduling based on behavior",
+      "Productivity analytics dashboard"
+    ],
+    "audience": "Freelancers and students seeking efficiency",
+    "category": "productivity",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-flavor-switch",
@@ -238,7 +372,17 @@
       "Community \u2014 Tip feed with user avatars, like/share interactions, trending hashtag chips, share your own hack CTA card",
       "Profile \u2014 User stats (recipes/meals/food saved), achievement badges with lock states, saved cookbook list, notification & preferences settings rows"
     ],
-    "category": "food & cooking"
+    "description": "Flavor Switch helps home cooks reinvent their leftovers into exciting, restaurant-quality dishes. By inputting what ingredients you have on hand, the app generates unique recipes, cooking tips, and complementary flavor profiles to enhance your meal experience. Say goodbye to wasting food and hello to culinary creativity!",
+    "features": [
+      "Leftover ingredient analyzer",
+      "Gourmet recipe generator",
+      "Flavor pairing suggestions",
+      "Step-by-step cooking guidance",
+      "User-submitted hacks and tips"
+    ],
+    "audience": "Home cooks and eco-conscious foodies",
+    "category": "food & cooking",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-emotion-fit",
@@ -259,7 +403,17 @@
       "Journal \u2014 Emotion journaling with mood selector, energy slider, free-text entry, and scrollable past entries with mood emoji and energy visualization",
       "Community \u2014 Support group cards with join toggle, social feed with like/comment interactions, member counts and post activity"
     ],
-    "category": "health & fitness"
+    "description": "Emotion Fit is a revolutionary app that integrates emotional well-being with physical fitness by using AI to tailor workouts based on your mood. Users can engage in dynamic workouts that adapt in real-time, providing support for mental states while improving fitness levels. Experience a personalized blend of mindfulness and exercise every time you work out.",
+    "features": [
+      "AI-driven mood assessment",
+      "Adaptive workout suggestions",
+      "Mindfulness and meditation integration",
+      "Progress tracking and emotional journaling",
+      "Community support groups"
+    ],
+    "audience": "wellness-conscious individuals",
+    "category": "health & fitness",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-ecoswap",
@@ -281,7 +435,17 @@
       "Eco Insights \u2014 Environmental impact dashboard (CO\u2082, water, trees), weekly challenge progress ring, sustainability tip cards, and neighborhood leaderboard",
       "Profile \u2014 Avatar header with gradient, swap/points/listing stats, achievement badge grid (earned/locked), recent activity timeline, and settings"
     ],
-    "category": "sustainability"
+    "description": "EcoSwap connects local communities through a platform for trading unwanted items. Users can list items they wish to give away or swap, promoting recycling and reducing waste in creative ways. With filters for categories and exchange suggestions, finding the perfect item or home for your belongings has never been easier.",
+    "features": [
+      "Item swapping listings",
+      "Community chat for negotiation",
+      "Sustainability tips and insights",
+      "Location-based searches",
+      "Virtual rewards for participation"
+    ],
+    "audience": "Eco-conscious individuals and families",
+    "category": "sustainability",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-delay-drift",
@@ -301,7 +465,17 @@
       "Plan \u2014 Generated drift timeline with scored itinerary, stops, and share/redo actions",
       "Saved \u2014 Favorited experiences and past drift trip history with personal stats"
     ],
-    "category": "travel"
+    "description": "Delay Drift helps travelers salvage disrupted itineraries by instantly generating nearby, time-safe experiences matched to their exact layover, weather, budget, and energy level. It scans real-time transit changes and curates hyperlocal options like express museum loops, snack trails, skyline walks, and one-hour neighborhood missions that fit the gap perfectly.",
+    "features": [
+      "Live delay-to-itinerary matching",
+      "Time-boxed local experience cards",
+      "Walking/transit radius filters",
+      "Budget and weather-aware suggestions",
+      "One-tap backup plan sharing"
+    ],
+    "audience": "Frequent travelers and layover-bound explorers",
+    "category": "travel",
+    "useCases": []
   },
   {
     "folder": "2026-03-18-billecho",
@@ -321,7 +495,17 @@
       "Alerts \u2014 Smart spending intelligence hub with safe-to-spend card, dismissable alert cards for low balance warnings, payday countdowns, and irregular expense tips",
       "Simulate \u2014 What-if expense calculator with real-time impact analysis, quick amount shortcuts, common scenario presets, and post-payday recommendations"
     ],
-    "category": "personal finance"
+    "description": "BillEcho turns recurring bills, subscriptions, and expected purchases into a forward-looking cash-flow timeline, so users can spot money stress before it hits. It learns paydays, spending patterns, and irregular expenses to forecast safe-to-spend amounts in a highly visual, day-by-day view.",
+    "features": [
+      "Predicted balance timeline",
+      "Recurring charge detector",
+      "Safe-to-spend alerts",
+      "One-tap bill deferral suggestions",
+      "Upcoming expense simulation"
+    ],
+    "audience": "Workers and freelancers with irregular cash flow",
+    "category": "personal finance",
+    "useCases": []
   },
   {
     "folder": "2026-03-17-flavor-match",
@@ -343,7 +527,17 @@
       "Community \u2014 Social feed with trending/recent/following tabs, pairing posts with combination highlights, tags, likes, comments, and save-to-try actions",
       "Profile \u2014 User taste personality card, flavor preferences, saved combinations list, stats (pairings/saved/shared), and settings"
     ],
-    "category": "food & cooking"
+    "description": "Flavor Match uses AI to analyze individual ingredients and suggests complementary dishes or pairings that bring out their best flavors. By inputting what you have on hand or what you're craving, the app generates tailored recipes and suggests complementary sides and drinks, enhancing your dining experience.",
+    "features": [
+      "AI-driven flavor analytics",
+      "Ingredient input functionality",
+      "Tailored recipe generation",
+      "Pairing suggestions for sides and drinks",
+      "Community feature for sharing favorite combinations"
+    ],
+    "audience": "Home cooks and food enthusiasts",
+    "category": "food & cooking",
+    "useCases": []
   },
   {
     "folder": "2026-03-16-tripsync",
@@ -358,7 +552,8 @@
       "Integrated local experiences"
     ],
     "audience": "Families planning shared trips",
-    "category": "travel"
+    "category": "travel",
+    "useCases": []
   },
   {
     "folder": "2026-03-16-quested",
@@ -380,6 +575,16 @@
       "League \u2014 Weekly leaderboard with 3-player podium visualization, full ranked scholar list with streaks, and open Study Party invitation with join CTA",
       "Progress \u2014 Analytics dashboard with stats summary row, weekly XP bar chart, subject mastery progress bars, and earned/locked achievement badge gallery"
     ],
-    "category": "education"
+    "description": "QuestEd transforms the traditional learning experience into an immersive adventure game. Users engage with educational content by embarking on quests that challenge their knowledge and skills, earning rewards as they progress. The app covers various subjects while fostering creativity and critical thinking in a fun and engaging way.",
+    "features": [
+      "Interactive storytelling quests",
+      "Real-time collaboration with classmates",
+      "Customizable character avatars",
+      "Gamified rewards system",
+      "Progress tracking and analytics"
+    ],
+    "audience": "Students ages 8-14",
+    "category": "education",
+    "useCases": []
   }
 ]
