@@ -1,0 +1,18 @@
+{
+  "appName": "Future Focus",
+  "tagline": "Shape careers with real-world insights.",
+  "designSystem": {
+    "primaryColor": "#6B3A5B",
+    "secondaryColor": "#F6A623",
+    "backgroundColor": "#FFF5EE",
+    "accentColor": "#FFB6C1",
+    "fontFamily": "Sora",
+    "style": "Sunset gradient with warm ivory background, amber and soft pink gradients, deep plum primary. Rounded cards with subtle drop shadows, gradient accents on CTAs and highlights. Clean hierarchy with Sora typeface across all weights."
+  },
+  "screens": [
+    "Home — Dashboard with live session banner, quick stats (sessions/challenges/connections), horizontally scrollable mentor cards, and active challenge progress",
+    "Sessions — Live session browser with topic filters, active session controls (mute/raise hand/leave), session cards with RSVP, and a community Q&A input",
+    "Mentors — Expert Q&A feed with like interactions, searchable mentor directory with availability status, tag chips, follow and book-session actions",
+    "Pathway — Real-world challenge cards (expandable with descriptions and start CTA), career track progress bars with step-by-step milestone visualization for UX/Data/Product paths"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "appName": "Future Focus",
+  "fontFamily": "Sora",
+  "colors": {
+    "primary": "#6B3A5B",
+    "secondary": "#F6A623",
+    "background": "#FFF5EE",
+    "accent": "#FFB6C1"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

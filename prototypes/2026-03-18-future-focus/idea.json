@@ -1,0 +1,14 @@
+{
+  "name": "Future Focus",
+  "tagline": "Shape careers with real-world insights.",
+  "description": "Future Focus connects students with industry professionals for live virtual mentorship sessions. Users can engage in Q&A, receive personalized advice on career paths, and access real-time project challenges. This interactive platform fosters valuable connections, guiding students from academic knowledge to practical application.",
+  "features": [
+    "Live mentorship sessions",
+    "Real-time project challenges",
+    "Q&A with industry experts",
+    "Career pathway tracking",
+    "Networking opportunities"
+  ],
+  "audience": "high school and college students",
+  "category": "education"
+}
