@@ -1,0 +1,14 @@
+{
+  "name": "EcoSwap",
+  "tagline": "Turn waste into treasure together!",
+  "description": "EcoSwap connects local communities through a platform for trading unwanted items. Users can list items they wish to give away or swap, promoting recycling and reducing waste in creative ways. With filters for categories and exchange suggestions, finding the perfect item or home for your belongings has never been easier.",
+  "features": [
+    "Item swapping listings",
+    "Community chat for negotiation",
+    "Sustainability tips and insights",
+    "Location-based searches",
+    "Virtual rewards for participation"
+  ],
+  "audience": "Eco-conscious individuals and families",
+  "category": "sustainability"
+}

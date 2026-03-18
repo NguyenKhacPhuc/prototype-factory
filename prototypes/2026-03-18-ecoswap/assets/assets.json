@@ -1,0 +1,14 @@
+{
+  "appName": "EcoSwap",
+  "fontFamily": "Outfit",
+  "colors": {
+    "primary": "#5BA4A4",
+    "secondary": "#F08080",
+    "background": "#F0F4F8",
+    "accent": "#F4E1C1"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

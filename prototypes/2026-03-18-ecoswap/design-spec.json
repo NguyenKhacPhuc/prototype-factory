@@ -1,0 +1,20 @@
+{
+  "appName": "EcoSwap",
+  "tagline": "Turn waste into treasure together!",
+  "designSystem": {
+    "primaryColor": "#5BA4A4",
+    "secondaryColor": "#F08080",
+    "backgroundColor": "#F0F4F8",
+    "accentColor": "#F4E1C1",
+    "fontFamily": "Outfit",
+    "style": "Ocean breeze — clean, fresh, modern with soft pastels, teal/coral/sand palette, rounded cards, smooth micro-interactions, and a community-first visual tone"
+  },
+  "screens": [
+    "Home — Personalized feed with eco score banner, nearby items carousel, quick stats (swaps, CO₂ saved, neighbors helped), and recent listings list",
+    "Browse — Searchable item discovery with category filter chips, masonry grid of item cards with like toggle, condition badges, and swap preference tags",
+    "List — Multi-step listing form (Photos → Details → Exchange → Preview) with category picker, condition selector, and exchange preference field",
+    "Community — Chat inbox with unread indicators, per-thread conversation view with quick replies, and community activity feed",
+    "Eco Insights — Environmental impact dashboard (CO₂, water, trees), weekly challenge progress ring, sustainability tip cards, and neighborhood leaderboard",
+    "Profile — Avatar header with gradient, swap/points/listing stats, achievement badge grid (earned/locked), recent activity timeline, and settings"
+  ]
+}

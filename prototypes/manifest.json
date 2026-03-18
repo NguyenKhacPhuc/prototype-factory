@@ -21,6 +21,28 @@
     "category": "sustainability"
   },
   {
+    "folder": "2026-03-18-ecoswap",
+    "appName": "EcoSwap",
+    "tagline": "Turn waste into treasure together!",
+    "designSystem": {
+      "primaryColor": "#5BA4A4",
+      "secondaryColor": "#F08080",
+      "backgroundColor": "#F0F4F8",
+      "accentColor": "#F4E1C1",
+      "fontFamily": "Outfit",
+      "style": "Ocean breeze \u2014 clean, fresh, modern with soft pastels, teal/coral/sand palette, rounded cards, smooth micro-interactions, and a community-first visual tone"
+    },
+    "screens": [
+      "Home \u2014 Personalized feed with eco score banner, nearby items carousel, quick stats (swaps, CO\u2082 saved, neighbors helped), and recent listings list",
+      "Browse \u2014 Searchable item discovery with category filter chips, masonry grid of item cards with like toggle, condition badges, and swap preference tags",
+      "List \u2014 Multi-step listing form (Photos \u2192 Details \u2192 Exchange \u2192 Preview) with category picker, condition selector, and exchange preference field",
+      "Community \u2014 Chat inbox with unread indicators, per-thread conversation view with quick replies, and community activity feed",
+      "Eco Insights \u2014 Environmental impact dashboard (CO\u2082, water, trees), weekly challenge progress ring, sustainability tip cards, and neighborhood leaderboard",
+      "Profile \u2014 Avatar header with gradient, swap/points/listing stats, achievement badge grid (earned/locked), recent activity timeline, and settings"
+    ],
+    "category": "sustainability"
+  },
+  {
     "folder": "2026-03-17-flavor-match",
     "appName": "Flavor Match",
     "tagline": "Discover perfect food pairings.",
