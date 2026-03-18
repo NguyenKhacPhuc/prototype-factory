@@ -48,7 +48,7 @@ export function Landing({ prototypes, navigate }: Props) {
 
         <div className="hero-inner fade-in-up">
           <h1 className="hero-title">
-            Welcome to <span className="hero-highlight">Prototype Factory:</span>
+            Welcome to <span className="hero-highlight">Appdex:</span>
             <br />
             Your AI App Gallery
           </h1>

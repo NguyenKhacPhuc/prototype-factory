@@ -8,13 +8,13 @@ interface Props {
 export function About({ prototypeCount, navigate }: Props) {
   return (
     <div className="about-page">
-      <h1>About Prototype Factory</h1>
+      <h1>About Appdex</h1>
 
       <div className="about-content">
         <section className="about-section">
           <h2>What is this?</h2>
           <p>
-            Prototype Factory is an AI-powered platform that automatically generates interactive app prototypes. Every
+            Appdex is an AI-powered platform that automatically generates interactive app prototypes. Every
             day, new app ideas are created and turned into fully functional React previews with complete design systems.
           </p>
         </section>

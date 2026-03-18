@@ -38,7 +38,7 @@ export function Header({ navigate, currentPath }: HeaderProps) {
               <rect x="13" y="13" width="8" height="8" rx="2" opacity="0.3" />
             </svg>
           </span>
-          <span className="logo-text">Prototype Factory</span>
+          <span className="logo-text">Appdex</span>
         </a>
         <nav className="nav">
           {link("/", "Discover")}
