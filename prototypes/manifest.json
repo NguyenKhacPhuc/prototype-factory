@@ -1,0 +1,82 @@
+[
+  {
+    "folder": "2026-03-18-trash-trader",
+    "appName": "Trash Trader",
+    "tagline": "Swap waste for value!",
+    "designSystem": {
+      "primaryColor": "#F6A623",
+      "secondaryColor": "#FFB6C1",
+      "accentColor": "#6B3A5B",
+      "backgroundColor": "#FFF5EE",
+      "fontFamily": "Sora",
+      "style": "Sunset gradient with warm white base, amber-to-plum gradient accents, soft pink highlights, rounded corners throughout, glassmorphic cards, Dynamic Island notch, smooth fade-in transitions and micro-interaction button press effects"
+    },
+    "screens": [
+      "Home/Explore \u2014 Browse nearby trade listings with category filters, eco-points banner, QR quick-access, item cards with like/message actions",
+      "Trade Hub \u2014 Post new items with category picker and quantity selector, QR code quick-trade modal, waste category tracking with monthly stats and trade history",
+      "Eco-Points \u2014 Points balance card with level progress, shop redemption list with affordability check, earned/spent stats breakdown",
+      "Community \u2014 Local trader stats, upcoming events with RSVP and eco-point rewards, eco tips and sustainability advice",
+      "Profile \u2014 User stats (trades, points, kg saved), badge collection grid with locked/earned states, settings menu"
+    ],
+    "category": "sustainability"
+  },
+  {
+    "folder": "2026-03-17-flavor-match",
+    "appName": "Flavor Match",
+    "tagline": "Discover perfect food pairings.",
+    "designSystem": {
+      "primaryColor": "#8DB580",
+      "secondaryColor": "#D4AF37",
+      "backgroundColor": "#F5F5F0",
+      "accentColor": "#A89F91",
+      "fontFamily": "Noto Sans",
+      "style": "Zen garden \u2014 calm, spa-like aesthetic with off-white backgrounds, matcha green accents, warm gray tones, and soft gold highlights. Rounded corners, subtle borders, and gentle gradients create a serene, balanced atmosphere."
+    },
+    "screens": [
+      "Discover \u2014 Home feed with trending pairings, featured AI-curated combos, seasonal highlights, and a quick ingredient search bar",
+      "Match \u2014 Ingredient input workspace with dynamic flavor profile bars (umami, acidity, fat, herbal), quick-add suggestions, and AI analysis trigger",
+      "Match Results \u2014 AI-generated recipe suggestions with flavor match scores, cooking time, difficulty, flavor notes, side dish recommendations, and curated drink pairings",
+      "Recipes \u2014 Saved recipe collection with category filters (All, Quick, Vegetarian, Seafood, Dessert), star ratings, and AI recipe generator CTA",
+      "Community \u2014 Social feed with trending/recent/following tabs, pairing posts with combination highlights, tags, likes, comments, and save-to-try actions",
+      "Profile \u2014 User taste personality card, flavor preferences, saved combinations list, stats (pairings/saved/shared), and settings"
+    ],
+    "category": "food & cooking"
+  },
+  {
+    "folder": "2026-03-16-tripsync",
+    "appName": "TripSync",
+    "tagline": "Craft memories, not logistics.",
+    "description": "TripSync is your travel companion that helps families seamlessly coordinate and match their travel experiences. By pooling recommendations, personal schedules, and itineraries, family members can collaborate in real-time to enrich their ongoing trip and create unforgettable memories together.",
+    "features": [
+      "Real-time itinerary sharing",
+      "Collaborative planning tool",
+      "Custom travel alerts",
+      "Memory timeline gallery",
+      "Integrated local experiences"
+    ],
+    "audience": "Families planning shared trips",
+    "category": "travel"
+  },
+  {
+    "folder": "2026-03-16-quested",
+    "appName": "QuestEd",
+    "tagline": "Learn through adventure and storytelling!",
+    "designSystem": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#F59E0B",
+      "backgroundColor": "#0D0B1E",
+      "surfaceColor": "#1A1535",
+      "accentColor": "#10B981",
+      "fontFamily": "Nunito",
+      "style": "Dark fantasy RPG aesthetic with vibrant purple and gold accents. Deep navy background with glowing card surfaces, gradient quest banners, and gamified UI elements. Rounded corners, emoji-rich iconography, and XP-driven progress indicators throughout."
+    },
+    "screens": [
+      "Map \u2014 Quest board with active quest banner, XP level progress bar, available quests list with difficulty/subject tags, and daily challenges tracker",
+      "Quest \u2014 Immersive storytelling screen with gradient scene header, NPC dialogue bubble, knowledge challenge question, interactive multiple-choice answers with correct/incorrect feedback and XP reward",
+      "Hero \u2014 Character profile with customizable avatar color aura, level and class display, four character stats with progress bars, and 2x3 achievement badge grid",
+      "League \u2014 Weekly leaderboard with 3-player podium visualization, full ranked scholar list with streaks, and open Study Party invitation with join CTA",
+      "Progress \u2014 Analytics dashboard with stats summary row, weekly XP bar chart, subject mastery progress bars, and earned/locked achievement badge gallery"
+    ],
+    "category": "education"
+  }
+]

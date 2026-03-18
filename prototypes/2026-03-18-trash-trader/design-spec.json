@@ -1,0 +1,19 @@
+{
+  "appName": "Trash Trader",
+  "tagline": "Swap waste for value!",
+  "designSystem": {
+    "primaryColor": "#F6A623",
+    "secondaryColor": "#FFB6C1",
+    "accentColor": "#6B3A5B",
+    "backgroundColor": "#FFF5EE",
+    "fontFamily": "Sora",
+    "style": "Sunset gradient with warm white base, amber-to-plum gradient accents, soft pink highlights, rounded corners throughout, glassmorphic cards, Dynamic Island notch, smooth fade-in transitions and micro-interaction button press effects"
+  },
+  "screens": [
+    "Home/Explore — Browse nearby trade listings with category filters, eco-points banner, QR quick-access, item cards with like/message actions",
+    "Trade Hub — Post new items with category picker and quantity selector, QR code quick-trade modal, waste category tracking with monthly stats and trade history",
+    "Eco-Points — Points balance card with level progress, shop redemption list with affordability check, earned/spent stats breakdown",
+    "Community — Local trader stats, upcoming events with RSVP and eco-point rewards, eco tips and sustainability advice",
+    "Profile — User stats (trades, points, kg saved), badge collection grid with locked/earned states, settings menu"
+  ]
+}

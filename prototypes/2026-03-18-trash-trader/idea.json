@@ -1,0 +1,14 @@
+{
+  "name": "Trash Trader",
+  "tagline": "Swap waste for value!",
+  "description": "Trash Trader connects people who want to get rid of unused items with those looking for sustainable solutions. Users can trade things like empty glass jars, fabric scraps, or other waste materials for eco-points redeemable at local sustainable shops and businesses.",
+  "features": [
+    "Localized trading network",
+    "Eco-points rewards system",
+    "Detailed waste category tracking",
+    "Community events & workshops",
+    "QR code scanning for quick trades"
+  ],
+  "audience": "Eco-conscious individuals and communities",
+  "category": "sustainability"
+}
