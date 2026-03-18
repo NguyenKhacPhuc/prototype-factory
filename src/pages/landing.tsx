@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import type { Prototype } from "../types";
 import { PrototypeCard } from "../components/prototype-card";
 import { getCategories } from "../hooks/use-prototypes";
-import { useScrollReveal } from "../hooks/use-scroll-reveal";
+import { useScrollReveal, useCountUp } from "../hooks/use-scroll-reveal";
 
 interface Props {
   prototypes: Prototype[];
@@ -16,6 +16,16 @@ function Sparkle({ size = 20, style }: { size?: number; style: React.CSSProperti
         <path d="M12 0L14.59 8.41L23 12L14.59 15.59L12 24L9.41 15.59L1 12L9.41 8.41L12 0Z" />
       </svg>
     </span>
+  );
+}
+
+function CountStat({ value, label }: { value: number; label: string }) {
+  const { count, ref } = useCountUp(value);
+  return (
+    <div className="stat" ref={ref as React.Ref<HTMLDivElement>}>
+      <span className="stat-num">{count}</span>
+      <span className="stat-label">{label}</span>
+    </div>
   );
 }
 
@@ -47,6 +57,7 @@ export function Landing({ prototypes, navigate }: Props) {
         <Sparkle style={{ top: "50%", left: "15%", opacity: 0.12 }} size={10} />
 
         <div className="hero-inner fade-in-up">
+          <p className="hero-badge">AI-Powered App Gallery</p>
           <h1 className="hero-title">
             Welcome to <span className="hero-highlight">Appdex:</span>
             <br />
@@ -107,36 +118,52 @@ export function Landing({ prototypes, navigate }: Props) {
         </div>
       </section>
 
-      {/* Stats */}
-      <div className="stats-bar reveal">
-        <div className="stat">
-          <span className="stat-num">{prototypes.length}</span>
-          <span className="stat-label">Prototypes</span>
+      {/* Stats — pitch deck style with counters */}
+      <section className="stats-section reveal">
+        <div className="stats-bar">
+          <CountStat value={prototypes.length} label="Prototypes" />
+          <CountStat value={categories.length} label="Categories" />
+          <CountStat value={6} label="Added Daily" />
+          <CountStat value={10} label="Design Styles" />
         </div>
-        <div className="stat">
-          <span className="stat-num">{categories.length}</span>
-          <span className="stat-label">Categories</span>
+      </section>
+
+      {/* How it works — pitch deck slide */}
+      <section className="section pitch-section">
+        <div className="section-inner">
+          <div className="reveal">
+            <p className="section-eyebrow">How It Works</p>
+            <h2 className="section-title">From Idea to Prototype in Seconds</h2>
+          </div>
+          <div className="pitch-steps">
+            {[
+              { icon: "💡", title: "AI Ideation", desc: "GPT-4o-mini generates unique app ideas across 10 categories" },
+              { icon: "🎨", title: "Design & Build", desc: "Claude Sonnet creates interactive React prototypes with full design systems" },
+              { icon: "✅", title: "Validate & Ship", desc: "Headless Chrome validates rendering, then auto-deploys to the gallery" },
+            ].map((step, i) => (
+              <div key={i} className={`pitch-step reveal`} style={{ transitionDelay: `${i * 120}ms` }}>
+                <span className="pitch-step-icon">{step.icon}</span>
+                <h3>{step.title}</h3>
+                <p>{step.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="stat">
-          <span className="stat-num">6</span>
-          <span className="stat-label">Added Daily</span>
-        </div>
-        <div className="stat">
-          <span className="stat-num">10</span>
-          <span className="stat-label">Design Styles</span>
-        </div>
-      </div>
+      </section>
 
       {/* Categories */}
       <section className="section">
-        <div className="section-inner reveal">
-          <h2 className="section-title">Browse by Category</h2>
-          <div className="category-grid">
+        <div className="section-inner">
+          <div className="reveal">
+            <p className="section-eyebrow">Explore</p>
+            <h2 className="section-title">Browse by Category</h2>
+          </div>
+          <div className="category-grid reveal" style={{ transitionDelay: "100ms" }}>
             {categories.map((c, i) => (
               <button
                 key={c.name}
                 className="category-chip"
-                style={{ transitionDelay: `${i * 40}ms` }}
+                style={{ animationDelay: `${i * 50}ms` }}
                 onClick={() => navigate(`/gallery?category=${encodeURIComponent(c.name)}`)}
               >
                 <span className="category-name">{c.name}</span>
@@ -151,18 +178,32 @@ export function Landing({ prototypes, navigate }: Props) {
       <section className="section">
         <div className="section-inner">
           <div className="section-header reveal">
-            <h2 className="section-title">Latest Prototypes</h2>
+            <div>
+              <p className="section-eyebrow">Gallery</p>
+              <h2 className="section-title">Latest Prototypes</h2>
+            </div>
             <button className="btn-ghost" onClick={() => navigate("/gallery")}>
               View all &rarr;
             </button>
           </div>
           <div className="proto-grid">
             {featured.map((p, i) => (
-              <div key={p.folder} className="reveal" style={{ transitionDelay: `${i * 80}ms` }}>
+              <div key={p.folder} className="reveal" style={{ transitionDelay: `${i * 100}ms` }}>
                 <PrototypeCard prototype={p} navigate={navigate} />
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="section cta-section reveal">
+        <div className="cta-inner">
+          <h2>Ready to explore?</h2>
+          <p>Browse {prototypes.length}+ AI-generated prototypes with live interactive previews.</p>
+          <button className="btn-outline" onClick={() => navigate("/gallery")}>
+            Open Gallery &rarr;
+          </button>
         </div>
       </section>
     </div>
