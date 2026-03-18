@@ -1,0 +1,19 @@
+{
+  "appName": "FocusPal",
+  "tagline": "Your personal distraction buster!",
+  "designSystem": {
+    "primaryColor": "#F6A623",
+    "secondaryColor": "#FFB6C1",
+    "backgroundColor": "#FFF5EE",
+    "accentColor": "#6B3A5B",
+    "fontFamily": "Sora, Quicksand",
+    "style": "Sunset gradient with warm pastel palette — amber, soft pink, and deep plum. Rounded cards, gradient accents, and smooth micro-interactions. Clean typography hierarchy using Sora for headings and Quicksand for body text."
+  },
+  "screens": [
+    "Home — Dashboard with AI focus score, daily stats (deep work, breaks, tasks), AI behavior insights, and top distractions bar chart",
+    "Focus — Technique selector (Pomodoro, Deep Work, Quick Burst, Flow State), animated SVG ring timer with gradient stroke, play/pause/reset/break controls, current task display with tags",
+    "Analytics — Weekly summary cards, deep work bar chart, hourly focus intensity chart, AI behavior report with personalized pattern insights",
+    "Playlists — AI-curated music playlists grid with play toggle, live now-playing card with progress bar and playback controls",
+    "Profile — User card with level and streak badges, all-time stats grid, achievements gallery (unlocked/locked states), preference toggles with animated switches"
+  ]
+}

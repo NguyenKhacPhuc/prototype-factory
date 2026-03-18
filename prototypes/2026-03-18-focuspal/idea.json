@@ -1,0 +1,14 @@
+{
+  "name": "FocusPal",
+  "tagline": "Your personal distraction buster!",
+  "description": "FocusPal uses AI to analyze your behavior patterns and environments to identify common distractions. It then recommends personalized focus techniques and schedules to boost productivity throughout your day. Enhance your workflow with smart reminders, music playlists, and analytics designed just for you.",
+  "features": [
+    "AI-driven distraction analysis",
+    "Customizable focus techniques",
+    "Mood-boosting music playlists",
+    "Dynamic scheduling based on behavior",
+    "Productivity analytics dashboard"
+  ],
+  "audience": "Freelancers and students seeking efficiency",
+  "category": "productivity"
+}
