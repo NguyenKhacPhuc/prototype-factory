@@ -21,6 +21,27 @@
     "category": "sustainability"
   },
   {
+    "folder": "2026-03-18-moodfit-monitor",
+    "appName": "MoodFit Monitor",
+    "tagline": "Fitness meets emotional well-being.",
+    "designSystem": {
+      "primaryColor": "#FF8C42",
+      "secondaryColor": "#FFD166",
+      "backgroundColor": "#FFFFFF",
+      "accentColor": "#06D6A0",
+      "fontFamily": "Space Grotesk",
+      "style": "Citrus fresh, energetic, bold, modern. White backgrounds with vibrant orange, yellow, and mint green accents. Heavy typography with rounded card components and gradient hero sections."
+    },
+    "screens": [
+      "Home \u2014 Dashboard with mood score hero card (orange gradient), weekly mood bar chart, workout streak stats, recent workout history with before/after mood deltas, and AI-powered workout suggestion",
+      "Workout \u2014 Live workout tracker with real-time heart rate + calorie counter and timer, category filter chips, workout cards with mood boost ratings and expandable start flow",
+      "Trends \u2014 Emotional trend analysis with before/after bar charts, avg mood boost headline stat, per-activity mood impact bar rankings, and AI-generated personalized insights",
+      "Community \u2014 Active challenges with join/progress tracking, community feed with mood-tagged workout posts, likes and replies, participant counts and countdowns",
+      "Profile \u2014 User profile with stats summary, achievement badges, wearable device connection status, and preference toggles for notifications and auto mood detection"
+    ],
+    "category": "health & fitness"
+  },
+  {
     "folder": "2026-03-18-mood-echo",
     "appName": "Mood Echo",
     "tagline": "Your library of soundscapes for every mood.",

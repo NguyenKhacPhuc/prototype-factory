@@ -1,0 +1,14 @@
+{
+  "name": "MoodFit Monitor",
+  "tagline": "Fitness meets emotional well-being.",
+  "description": "MoodFit Monitor tracks your emotional responses during workouts, helping you identify the mental benefits of different exercises. By syncing with wearables, it provides personalized feedback on how activities affect your mood, guiding you to choose workouts that enhance both fitness and mental health.",
+  "features": [
+    "Emotional trend analysis",
+    "Wearable device integration",
+    "Personalized workout suggestions",
+    "Real-time mood journaling",
+    "Community support and challenges"
+  ],
+  "audience": "Fitness enthusiasts prioritizing mental health",
+  "category": "health & fitness"
+}

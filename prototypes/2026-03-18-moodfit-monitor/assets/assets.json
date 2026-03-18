@@ -1,0 +1,30 @@
+{
+  "appName": "MoodFit Monitor",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#FF8C42",
+    "secondary": "#FFD166",
+    "background": "#FFFFFF",
+    "accent": "#06D6A0"
+  },
+  "icons": [
+    "bell",
+    "brain",
+    "chevron-right",
+    "heart",
+    "home",
+    "message-circle",
+    "play",
+    "plus",
+    "signal",
+    "trending-up",
+    "user",
+    "users",
+    "watch",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 15,
+  "fontFileCount": 0
+}
