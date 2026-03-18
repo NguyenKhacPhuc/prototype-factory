@@ -1,0 +1,14 @@
+{
+  "appName": "Emotion Fit",
+  "fontFamily": "Sora",
+  "colors": {
+    "primary": "#F6A623",
+    "secondary": "#FFB6C1",
+    "background": "#FFF5EE",
+    "accent": "#6B3A5B"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

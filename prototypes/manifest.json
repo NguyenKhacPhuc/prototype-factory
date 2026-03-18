@@ -21,6 +21,27 @@
     "category": "sustainability"
   },
   {
+    "folder": "2026-03-18-emotion-fit",
+    "appName": "Emotion Fit",
+    "tagline": "Train your mind and body together.",
+    "designSystem": {
+      "primaryColor": "#F6A623",
+      "secondaryColor": "#FFB6C1",
+      "backgroundColor": "#FFF5EE",
+      "accentColor": "#6B3A5B",
+      "fontFamily": "Sora",
+      "style": "Sunset gradient with warm seashell background, amber and soft pink accents, deep plum for hierarchy. Rounded corners throughout, gradient card headers, glassmorphism overlays on hero sections."
+    },
+    "screens": [
+      "Home \u2014 Mood check-in grid, AI workout recommendation card, wellness score progress bar, today's schedule, and key stats (streak, workouts, mindful minutes)",
+      "Workout \u2014 Adaptive workout detail with live timer, exercise checklist with completion toggles, progress bar, and intensity/duration metadata",
+      "Mindful \u2014 Interactive box breathing exercise with animated orb and phase labels, guided meditation countdown timer with preset durations, curated mindfulness practice cards",
+      "Journal \u2014 Emotion journaling with mood selector, energy slider, free-text entry, and scrollable past entries with mood emoji and energy visualization",
+      "Community \u2014 Support group cards with join toggle, social feed with like/comment interactions, member counts and post activity"
+    ],
+    "category": "health & fitness"
+  },
+  {
     "folder": "2026-03-18-ecoswap",
     "appName": "EcoSwap",
     "tagline": "Turn waste into treasure together!",

@@ -1,0 +1,14 @@
+{
+  "name": "Emotion Fit",
+  "tagline": "Train your mind and body together.",
+  "description": "Emotion Fit is a revolutionary app that integrates emotional well-being with physical fitness by using AI to tailor workouts based on your mood. Users can engage in dynamic workouts that adapt in real-time, providing support for mental states while improving fitness levels. Experience a personalized blend of mindfulness and exercise every time you work out.",
+  "features": [
+    "AI-driven mood assessment",
+    "Adaptive workout suggestions",
+    "Mindfulness and meditation integration",
+    "Progress tracking and emotional journaling",
+    "Community support groups"
+  ],
+  "audience": "wellness-conscious individuals",
+  "category": "health & fitness"
+}
