@@ -1,0 +1,14 @@
+{
+  "appName": "Neighbor Loop",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#FF8C42",
+    "secondary": "#FFD166",
+    "background": "#FFFFFF",
+    "accent": "#06D6A0"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

@@ -1,0 +1,14 @@
+{
+  "appName": "Delay Drift",
+  "fontFamily": "DM Sans",
+  "colors": {
+    "primary": "#C67B5C",
+    "secondary": "#4A7C59",
+    "background": "#FFFDF5",
+    "accent": "#E8D5B7"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

@@ -1,0 +1,17 @@
+{
+  "appName": "SpendEcho",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#C3B1E1",
+    "secondary": "#E8A0BF",
+    "background": "#FFF8F0",
+    "accent": "#B4D4AA"
+  },
+  "icons": [
+    "plus",
+    "x"
+  ],
+  "fonts": [],
+  "iconCount": 2,
+  "fontFileCount": 0
+}

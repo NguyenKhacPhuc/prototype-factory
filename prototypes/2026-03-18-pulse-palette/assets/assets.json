@@ -1,0 +1,35 @@
+{
+  "appName": "Pulse Palette",
+  "fontFamily": "DM Sans",
+  "colors": {
+    "primary": "#E17055",
+    "secondary": "#6BAB8A",
+    "background": "#F5F0EB",
+    "accent": "#2D3436"
+  },
+  "icons": [
+    "activity",
+    "alert-circle",
+    "arrow-right",
+    "battery",
+    "check",
+    "chevron-down",
+    "circle",
+    "droplets",
+    "heart",
+    "heart-pulse",
+    "moon",
+    "play",
+    "plus",
+    "sparkles",
+    "star",
+    "thermometer",
+    "trending-up",
+    "wifi",
+    "wind",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 20,
+  "fontFileCount": 0
+}

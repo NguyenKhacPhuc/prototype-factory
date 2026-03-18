@@ -1,0 +1,18 @@
+{
+  "appName": "BillEcho",
+  "tagline": "See spending before it happens",
+  "designSystem": {
+    "primaryColor": "#6B3A5B",
+    "secondaryColor": "#F6A623",
+    "backgroundColor": "#FFF5EE",
+    "accentColor": "#FFB6C1",
+    "fontFamily": "Sora",
+    "style": "Sunset gradient with warm pastel palette — warm white background, amber and soft pink accents, deep plum as primary brand color. Rounded corners throughout, gradient pill buttons, card-based layout with subtle borders."
+  },
+  "screens": [
+    "Timeline — 30-day forward-looking cash-flow chart with interactive bar visualization, day-by-day balance list, payday markers, and stress alerts",
+    "Bills — Recurring charge detector with categorized bill list, defer suggestion feature, auto-detected subscription badges, and monthly total summary",
+    "Alerts — Smart spending intelligence hub with safe-to-spend card, dismissable alert cards for low balance warnings, payday countdowns, and irregular expense tips",
+    "Simulate — What-if expense calculator with real-time impact analysis, quick amount shortcuts, common scenario presets, and post-payday recommendations"
+  ]
+}

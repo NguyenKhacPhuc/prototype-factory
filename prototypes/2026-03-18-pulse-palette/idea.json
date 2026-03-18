@@ -1,0 +1,14 @@
+{
+  "name": "Pulse Palette",
+  "tagline": "Train by how your body feels.",
+  "description": "Pulse Palette turns messy daily health signals into a simple color map that tells users what kind of workout their body is ready for. It combines wearable data, sleep, mood, soreness, hydration, and cycle tracking to recommend personalized micro-sessions, recovery plans, or rest days in a way that feels intuitive instead of data-heavy.",
+  "features": [
+    "Body-readiness color score",
+    "Mood-to-workout matching",
+    "Adaptive micro-workout plans",
+    "Recovery and hydration nudges",
+    "Trend spotting from wearables"
+  ],
+  "audience": "Busy adults who want smarter, safer fitness",
+  "category": "health & fitness"
+}

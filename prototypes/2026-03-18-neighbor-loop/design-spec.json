@@ -1,0 +1,18 @@
+{
+  "appName": "Neighbor Loop",
+  "tagline": "Meet nearby help, instantly.",
+  "designSystem": {
+    "primaryColor": "#FF8C42",
+    "secondaryColor": "#FFD166",
+    "accentColor": "#06D6A0",
+    "backgroundColor": "#FFFFFF",
+    "fontFamily": "Space Grotesk",
+    "style": "Citrus fresh — energetic, bold, modern UI with bright orange primary, lemon yellow accents, and lime green trust indicators. White background with soft pastel tint surfaces. Heavy use of rounded cards, gradient CTAs, and emoji iconography for warmth and approachability."
+  },
+  "screens": [
+    "Home/Nearby — Live feed of hyperlocal micro-requests sorted by urgency and distance, with category filter chips, quick-post banner, and like/save interactions",
+    "Request — Step-by-step request creation with category grid, title/description inputs, time-window selector (Now/1hr/Today), and anonymous location info card",
+    "Matches — Active chat interface with anonymous-first messaging, past connections with star ratings, and trust stats dashboard (helped, requested, trust score)",
+    "Profile — User identity card with trust score breakdown, earned badges grid, skills/items offered, and live availability toggle"
+  ]
+}

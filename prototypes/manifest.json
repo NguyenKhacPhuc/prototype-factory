@@ -21,6 +21,101 @@
     "category": "sustainability"
   },
   {
+    "folder": "2026-03-18-spendecho",
+    "appName": "SpendEcho",
+    "tagline": "See your habits before they cost you.",
+    "designSystem": {
+      "primaryColor": "#C3B1E1",
+      "secondaryColor": "#E8A0BF",
+      "backgroundColor": "#FFF8F0",
+      "accentColor": "#B4D4AA",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Soft pastel airy minimal \u2014 light cream background with muted rose, sage green, and lavender accents. Rounded cards, gradient hero panels, micro-interaction toggles, and animated bar charts. Professional hierarchy with bold numeric callouts and subdued supporting text."
+    },
+    "screens": [
+      "Home \u2014 Dashboard with weekly spend summary card (gradient), trigger moment chips, and scrollable transaction timeline with trigger badges",
+      "Patterns \u2014 Interactive pattern replay with tabbed trigger selector, animated daily bar chart, related transactions list, and SpendEcho insight cards",
+      "Predict \u2014 Impulse forecast with model accuracy meter, expandable risk window cards with confidence bars, intervention nudges, and past prediction history",
+      "Goals \u2014 Habit-based savings goals with animated toggle switches, progress bars, total saved summary, and low-cost ritual suggestions"
+    ],
+    "category": "personal finance"
+  },
+  {
+    "folder": "2026-03-18-pulse-palette",
+    "appName": "Pulse Palette",
+    "tagline": "Train by how your body feels.",
+    "designSystem": {
+      "primaryColor": "#E17055",
+      "secondaryColor": "#6BAB8A",
+      "backgroundColor": "#F5F0EB",
+      "accentColor": "#2D3436",
+      "creamColor": "#FAF0E6",
+      "fontFamily": "DM Sans",
+      "monoFont": "DM Mono",
+      "style": "Monochrome warm \u2014 soft pastel palette with charcoal typography, warm accent orange, and semantic color coding (green=peak, yellow=good, orange=moderate, red=rest). Clean card-based layouts with subtle borders and rounded corners. Typographic hierarchy with uppercase tracking labels."
+    },
+    "screens": [
+      "Pulse (Home) \u2014 Body readiness score with animated donut ring, health signal cards (sleep/HRV/soreness/stress), and personalized daily workout recommendation",
+      "Move (Workout) \u2014 Mood selector grid (Energized/Calm/Stressed/Tired) that dynamically filters suggested workout sessions with expandable detail cards and session start",
+      "Recovery \u2014 Hydration tracker with tap-to-fill glass UI, recovery metric grid, and checklist-style stretching routine",
+      "Trends \u2014 Interactive 7-day bar chart for HRV/Sleep/Resting HR, connected data source toggles, and AI pattern insights"
+    ],
+    "components": {
+      "dynamicIsland": "Black pill with camera/sensor indicators at top of phone",
+      "statusBar": "Time + wifi + battery in DM Mono",
+      "bottomNav": "4-tab navigation with filled square icon backgrounds for active state",
+      "readinessScore": "Large numeric score with SVG donut ring, semantic color badge, and contextual description",
+      "signalCards": "2-column grid with icon, value, and thin progress bar",
+      "moodSelector": "2x2 emoji grid with border highlight on selection",
+      "workoutCards": "Expandable cards showing workout phases and start CTA",
+      "hydrationTracker": "8-segment bar fill with tap interaction",
+      "barChart": "Custom SVG-free bar chart with per-day labels and active highlight",
+      "toggleRow": "iOS-style pill toggle with smooth thumb animation"
+    },
+    "category": "health & fitness"
+  },
+  {
+    "folder": "2026-03-18-plotpulse",
+    "appName": "PlotPulse",
+    "tagline": "Turn downtime into interactive story episodes.",
+    "designSystem": {
+      "primaryColor": "#5B7B9A",
+      "secondaryColor": "#E8C4C4",
+      "backgroundColor": "#FAFBFC",
+      "accentColor": "#3D4F5F",
+      "fontFamily": "IBM Plex Sans",
+      "style": "Nordic minimal \u2014 generous whitespace, clean card layouts, soft pastel accents on a near-white base. Subtle shadows and hairline borders define structure without visual noise. Typography-first hierarchy with slate blue as the primary interactive color."
+    },
+    "screens": [
+      "Home \u2014 Mood picker (5 emotional states), horizontal continue-listening carousel, full story card list with genre/rating/listener metadata and inline progress bars",
+      "Now Playing \u2014 Hero cover art panel, playback progress bar with play/pause, Smart Recap card summarizing previous episodes, interactive branching choice cards that unlock at 72% progress with animated result reveal",
+      "Discover \u2014 Full-text search input, horizontal genre filter pills, Editor's Pick featured card, filtered story list responding to search and genre selection",
+      "Library \u2014 Three-tab view (Saved / In Progress / Finished), offline availability banner, compact story cards with bookmark toggle",
+      "Profile \u2014 User stats grid (episodes, hours, choices, streak), genre preference chips, settings panel with animated toggles (notifications, offline, autoplay), recent listening history list"
+    ],
+    "category": "entertainment"
+  },
+  {
+    "folder": "2026-03-18-neighbor-loop",
+    "appName": "Neighbor Loop",
+    "tagline": "Meet nearby help, instantly.",
+    "designSystem": {
+      "primaryColor": "#FF8C42",
+      "secondaryColor": "#FFD166",
+      "accentColor": "#06D6A0",
+      "backgroundColor": "#FFFFFF",
+      "fontFamily": "Space Grotesk",
+      "style": "Citrus fresh \u2014 energetic, bold, modern UI with bright orange primary, lemon yellow accents, and lime green trust indicators. White background with soft pastel tint surfaces. Heavy use of rounded cards, gradient CTAs, and emoji iconography for warmth and approachability."
+    },
+    "screens": [
+      "Home/Nearby \u2014 Live feed of hyperlocal micro-requests sorted by urgency and distance, with category filter chips, quick-post banner, and like/save interactions",
+      "Request \u2014 Step-by-step request creation with category grid, title/description inputs, time-window selector (Now/1hr/Today), and anonymous location info card",
+      "Matches \u2014 Active chat interface with anonymous-first messaging, past connections with star ratings, and trust stats dashboard (helped, requested, trust score)",
+      "Profile \u2014 User identity card with trust score breakdown, earned badges grid, skills/items offered, and live availability toggle"
+    ],
+    "category": "social & community"
+  },
+  {
     "folder": "2026-03-18-moodfit-monitor",
     "appName": "MoodFit Monitor",
     "tagline": "Fitness meets emotional well-being.",
@@ -61,6 +156,27 @@
       "Profile \u2014 User stats banner, Apple Watch wearable integration toggle with biometrics display, AI preference sliders, and settings panel"
     ],
     "category": "entertainment"
+  },
+  {
+    "folder": "2026-03-18-mistake-atlas",
+    "appName": "Mistake Atlas",
+    "tagline": "Learn from errors, not lessons.",
+    "designSystem": {
+      "primaryColor": "#C67B5C",
+      "secondaryColor": "#4A7C59",
+      "backgroundColor": "#FFFDF5",
+      "accentColor": "#E8D5B7",
+      "fontFamily": "DM Sans",
+      "style": "Warm earth tones with ivory background, terracotta highlights, forest green accents, soft shadows, organic rounded shapes, card-based layout with sand borders"
+    },
+    "screens": [
+      "Home \u2014 Dashboard with streak stats, accuracy bar, scan CTA, and recent mistake feed with severity indicators",
+      "Scanner \u2014 Camera viewfinder with grid overlay, upload options, scanning/analyzing/results flow with found errors and concept gaps",
+      "Atlas \u2014 Dark-themed misconception heatmap with glowing concept nodes, subject filter chips, prerequisite gap list with intensity bars",
+      "Quests \u2014 Remediation quest cards with XP rewards, progress bars, due timers; interactive step-by-step exercise modal with reveal answers",
+      "Profile \u2014 Student avatar with stats header, subject progress breakdown, achievements grid, settings rows"
+    ],
+    "category": "education"
   },
   {
     "folder": "2026-03-18-future-focus",
@@ -166,6 +282,46 @@
       "Profile \u2014 Avatar header with gradient, swap/points/listing stats, achievement badge grid (earned/locked), recent activity timeline, and settings"
     ],
     "category": "sustainability"
+  },
+  {
+    "folder": "2026-03-18-delay-drift",
+    "appName": "Delay Drift",
+    "tagline": "Turn travel delays into mini adventures.",
+    "designSystem": {
+      "primaryColor": "#C67B5C",
+      "secondaryColor": "#4A7C59",
+      "backgroundColor": "#FFFDF5",
+      "accentColor": "#E8D5B7",
+      "fontFamily": "DM Sans",
+      "style": "Warm earth tones with organic shapes, soft shadows, and terracotta accents on an ivory base. Features gradient headers, timeline-based layouts, and tactile card components."
+    },
+    "screens": [
+      "Home \u2014 Live flight delay dashboard with energy/budget selectors and one-tap plan generation CTA",
+      "Explore \u2014 Filterable experience cards with time, distance, cost, and weather context",
+      "Plan \u2014 Generated drift timeline with scored itinerary, stops, and share/redo actions",
+      "Saved \u2014 Favorited experiences and past drift trip history with personal stats"
+    ],
+    "category": "travel"
+  },
+  {
+    "folder": "2026-03-18-billecho",
+    "appName": "BillEcho",
+    "tagline": "See spending before it happens",
+    "designSystem": {
+      "primaryColor": "#6B3A5B",
+      "secondaryColor": "#F6A623",
+      "backgroundColor": "#FFF5EE",
+      "accentColor": "#FFB6C1",
+      "fontFamily": "Sora",
+      "style": "Sunset gradient with warm pastel palette \u2014 warm white background, amber and soft pink accents, deep plum as primary brand color. Rounded corners throughout, gradient pill buttons, card-based layout with subtle borders."
+    },
+    "screens": [
+      "Timeline \u2014 30-day forward-looking cash-flow chart with interactive bar visualization, day-by-day balance list, payday markers, and stress alerts",
+      "Bills \u2014 Recurring charge detector with categorized bill list, defer suggestion feature, auto-detected subscription badges, and monthly total summary",
+      "Alerts \u2014 Smart spending intelligence hub with safe-to-spend card, dismissable alert cards for low balance warnings, payday countdowns, and irregular expense tips",
+      "Simulate \u2014 What-if expense calculator with real-time impact analysis, quick amount shortcuts, common scenario presets, and post-payday recommendations"
+    ],
+    "category": "personal finance"
   },
   {
     "folder": "2026-03-17-flavor-match",

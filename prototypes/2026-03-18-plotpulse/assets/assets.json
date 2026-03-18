@@ -1,0 +1,37 @@
+{
+  "appName": "PlotPulse",
+  "fontFamily": "IBM Plex Sans",
+  "colors": {
+    "primary": "#5B7B9A",
+    "secondary": "#E8C4C4",
+    "background": "#FAFBFC",
+    "accent": "#3D4F5F"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "bookmark",
+    "bookmark-check",
+    "chevron-right",
+    "clock",
+    "compass",
+    "download",
+    "fast-forward",
+    "git-branch",
+    "headphones",
+    "home",
+    "library",
+    "music",
+    "pause",
+    "play",
+    "search",
+    "sparkles",
+    "star",
+    "user",
+    "wifi",
+    "wifi-off"
+  ],
+  "fonts": [],
+  "iconCount": 22,
+  "fontFileCount": 0
+}

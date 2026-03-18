@@ -1,0 +1,41 @@
+{
+  "appName": "Flavor Match",
+  "fontFamily": "Noto Sans",
+  "colors": {
+    "primary": "#8DB580",
+    "secondary": "#D4AF37",
+    "background": "#F5F5F0",
+    "accent": "#A89F91"
+  },
+  "icons": [
+    "arrow-left",
+    "arrow-right",
+    "bell",
+    "book-open",
+    "bookmark",
+    "bookmark-plus",
+    "chef-hat",
+    "chevron-right",
+    "clock",
+    "compass",
+    "globe",
+    "heart",
+    "help-circle",
+    "leaf",
+    "map-pin",
+    "message-circle",
+    "more-horizontal",
+    "plus",
+    "search",
+    "settings",
+    "signal",
+    "sparkles",
+    "user",
+    "users",
+    "wifi",
+    "wine"
+  ],
+  "fonts": [],
+  "iconCount": 26,
+  "fontFileCount": 0
+}

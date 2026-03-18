@@ -1,0 +1,14 @@
+{
+  "name": "EchoSketch",
+  "tagline": "Turn sounds into visual concepts",
+  "description": "EchoSketch lets users record ambient sounds, voices, or music and instantly transforms them into mood-driven visual sketches, color palettes, and composition ideas. It's designed for creators who struggle to translate inspiration from sound into a concrete visual direction, helping them build art, branding, or storyboard concepts from what they hear.",
+  "features": [
+    "Sound-to-color palette generator",
+    "Voice memo to concept boards",
+    "Mood-based sketch prompts",
+    "Ambient audio scene tagging",
+    "Exportable creative reference sheets"
+  ],
+  "audience": "Designers, illustrators, and content creators",
+  "category": "creative tools"
+}

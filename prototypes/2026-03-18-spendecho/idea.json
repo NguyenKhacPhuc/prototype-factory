@@ -1,0 +1,14 @@
+{
+  "name": "SpendEcho",
+  "tagline": "See your habits before they cost you.",
+  "description": "SpendEcho turns bank transactions into a timeline of recurring life patterns, spotting hidden \u201ctrigger moments\u201d like stress-shopping Fridays, post-payday splurges, or commute-linked spending. It then predicts the next impulse window and offers tiny, context-aware interventions such as cooling-off goals, stash transfers, or alternative low-cost rituals.",
+  "features": [
+    "Trigger-moment spending detection",
+    "Impulse window predictions",
+    "Micro-intervention nudges",
+    "Habit-based savings goals",
+    "Weekly pattern replay"
+  ],
+  "audience": "People trying to break subtle overspending habits",
+  "category": "personal finance"
+}

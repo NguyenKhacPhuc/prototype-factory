@@ -1,0 +1,18 @@
+{
+  "appName": "SpendEcho",
+  "tagline": "See your habits before they cost you.",
+  "designSystem": {
+    "primaryColor": "#C3B1E1",
+    "secondaryColor": "#E8A0BF",
+    "backgroundColor": "#FFF8F0",
+    "accentColor": "#B4D4AA",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Soft pastel airy minimal — light cream background with muted rose, sage green, and lavender accents. Rounded cards, gradient hero panels, micro-interaction toggles, and animated bar charts. Professional hierarchy with bold numeric callouts and subdued supporting text."
+  },
+  "screens": [
+    "Home — Dashboard with weekly spend summary card (gradient), trigger moment chips, and scrollable transaction timeline with trigger badges",
+    "Patterns — Interactive pattern replay with tabbed trigger selector, animated daily bar chart, related transactions list, and SpendEcho insight cards",
+    "Predict — Impulse forecast with model accuracy meter, expandable risk window cards with confidence bars, intervention nudges, and past prediction history",
+    "Goals — Habit-based savings goals with animated toggle switches, progress bars, total saved summary, and low-cost ritual suggestions"
+  ]
+}

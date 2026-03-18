@@ -1,0 +1,32 @@
+{
+  "appName": "Pulse Palette",
+  "tagline": "Train by how your body feels.",
+  "designSystem": {
+    "primaryColor": "#E17055",
+    "secondaryColor": "#6BAB8A",
+    "backgroundColor": "#F5F0EB",
+    "accentColor": "#2D3436",
+    "creamColor": "#FAF0E6",
+    "fontFamily": "DM Sans",
+    "monoFont": "DM Mono",
+    "style": "Monochrome warm — soft pastel palette with charcoal typography, warm accent orange, and semantic color coding (green=peak, yellow=good, orange=moderate, red=rest). Clean card-based layouts with subtle borders and rounded corners. Typographic hierarchy with uppercase tracking labels."
+  },
+  "screens": [
+    "Pulse (Home) — Body readiness score with animated donut ring, health signal cards (sleep/HRV/soreness/stress), and personalized daily workout recommendation",
+    "Move (Workout) — Mood selector grid (Energized/Calm/Stressed/Tired) that dynamically filters suggested workout sessions with expandable detail cards and session start",
+    "Recovery — Hydration tracker with tap-to-fill glass UI, recovery metric grid, and checklist-style stretching routine",
+    "Trends — Interactive 7-day bar chart for HRV/Sleep/Resting HR, connected data source toggles, and AI pattern insights"
+  ],
+  "components": {
+    "dynamicIsland": "Black pill with camera/sensor indicators at top of phone",
+    "statusBar": "Time + wifi + battery in DM Mono",
+    "bottomNav": "4-tab navigation with filled square icon backgrounds for active state",
+    "readinessScore": "Large numeric score with SVG donut ring, semantic color badge, and contextual description",
+    "signalCards": "2-column grid with icon, value, and thin progress bar",
+    "moodSelector": "2x2 emoji grid with border highlight on selection",
+    "workoutCards": "Expandable cards showing workout phases and start CTA",
+    "hydrationTracker": "8-segment bar fill with tap interaction",
+    "barChart": "Custom SVG-free bar chart with per-day labels and active highlight",
+    "toggleRow": "iOS-style pill toggle with smooth thumb animation"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "appName": "Delay Drift",
+  "tagline": "Turn travel delays into mini adventures.",
+  "designSystem": {
+    "primaryColor": "#C67B5C",
+    "secondaryColor": "#4A7C59",
+    "backgroundColor": "#FFFDF5",
+    "accentColor": "#E8D5B7",
+    "fontFamily": "DM Sans",
+    "style": "Warm earth tones with organic shapes, soft shadows, and terracotta accents on an ivory base. Features gradient headers, timeline-based layouts, and tactile card components."
+  },
+  "screens": [
+    "Home — Live flight delay dashboard with energy/budget selectors and one-tap plan generation CTA",
+    "Explore — Filterable experience cards with time, distance, cost, and weather context",
+    "Plan — Generated drift timeline with scored itinerary, stops, and share/redo actions",
+    "Saved — Favorited experiences and past drift trip history with personal stats"
+  ]
+}

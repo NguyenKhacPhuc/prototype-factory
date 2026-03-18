@@ -1,0 +1,14 @@
+{
+  "name": "Neighbor Loop",
+  "tagline": "Meet nearby help, instantly.",
+  "description": "Neighbor Loop helps people solve small, urgent daily problems by connecting them with trusted nearby residents who can lend a tool, share a ride, watch a package, or give quick local advice. Instead of public posts or broad groups, the app matches users through micro-requests based on time, distance, and skills, creating practical neighborhood connections without awkward searching.",
+  "features": [
+    "Urgent micro-request matching",
+    "Trust badges from real interactions",
+    "Hyperlocal skill and item lending",
+    "Time-window availability sync",
+    "Anonymous first contact chat"
+  ],
+  "audience": "Urban and suburban neighbors who need quick local help",
+  "category": "social & community"
+}

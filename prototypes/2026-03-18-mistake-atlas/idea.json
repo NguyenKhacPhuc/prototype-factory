@@ -1,0 +1,14 @@
+{
+  "name": "Mistake Atlas",
+  "tagline": "Learn from errors, not lessons.",
+  "description": "Mistake Atlas helps students turn wrong answers into personalized learning maps. By scanning homework, quizzes, or practice problems, the app identifies the exact misconception behind each error and generates a visual trail of prerequisite gaps to fix first. Instead of reviewing entire chapters, learners get a targeted path that rebuilds understanding from the root.",
+  "features": [
+    "Error-to-concept scanner",
+    "Misconception heatmap",
+    "Prerequisite gap tracker",
+    "Adaptive micro-explanations",
+    "Spaced remediation quests"
+  ],
+  "audience": "Middle school to college students who struggle with repeated mistakes",
+  "category": "education"
+}

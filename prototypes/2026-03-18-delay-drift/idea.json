@@ -1,0 +1,14 @@
+{
+  "name": "Delay Drift",
+  "tagline": "Turn travel delays into mini adventures.",
+  "description": "Delay Drift helps travelers salvage disrupted itineraries by instantly generating nearby, time-safe experiences matched to their exact layover, weather, budget, and energy level. It scans real-time transit changes and curates hyperlocal options like express museum loops, snack trails, skyline walks, and one-hour neighborhood missions that fit the gap perfectly.",
+  "features": [
+    "Live delay-to-itinerary matching",
+    "Time-boxed local experience cards",
+    "Walking/transit radius filters",
+    "Budget and weather-aware suggestions",
+    "One-tap backup plan sharing"
+  ],
+  "audience": "Frequent travelers and layover-bound explorers",
+  "category": "travel"
+}

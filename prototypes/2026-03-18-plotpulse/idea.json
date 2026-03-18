@@ -1,0 +1,14 @@
+{
+  "name": "PlotPulse",
+  "tagline": "Turn downtime into interactive story episodes.",
+  "description": "PlotPulse turns idle moments like commutes, waiting rooms, and chores into personalized audio drama episodes that adapt to your mood, time, and interests. Instead of endlessly scrolling for something to watch or read, the app delivers bite-sized interactive stories where your choices shape the next scene and each session picks up where you left off.",
+  "features": [
+    "Mood-based story matching",
+    "5-minute branching episodes",
+    "Choice-driven plot twists",
+    "Offline audio playback",
+    "Smart recap on return"
+  ],
+  "audience": "Busy commuters and storytelling fans",
+  "category": "entertainment"
+}

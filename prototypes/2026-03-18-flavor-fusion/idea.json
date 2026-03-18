@@ -1,0 +1,14 @@
+{
+  "name": "Flavor Fusion",
+  "tagline": "Elevate your meals with creative ingredient pairings.",
+  "description": "Flavor Fusion helps you discover unique flavor pairings based on the ingredients you already have at home. By inputting a few basic items, the app suggests surprising recipes and pairings that will elevate your cooking while minimizing food waste. Experiment with global cuisines and expand your palate without making extra trips to the grocery store.",
+  "features": [
+    "Ingredient bar scanner",
+    "Surprising pairing suggestions",
+    "User-generated recipe sharing",
+    "Weekly challenges and prompts",
+    "Global cuisine exploration tool"
+  ],
+  "audience": "home cooks and food enthusiasts",
+  "category": "food & cooking"
+}

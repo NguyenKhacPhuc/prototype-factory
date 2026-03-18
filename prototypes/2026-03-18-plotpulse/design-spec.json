@@ -1,0 +1,19 @@
+{
+  "appName": "PlotPulse",
+  "tagline": "Turn downtime into interactive story episodes.",
+  "designSystem": {
+    "primaryColor": "#5B7B9A",
+    "secondaryColor": "#E8C4C4",
+    "backgroundColor": "#FAFBFC",
+    "accentColor": "#3D4F5F",
+    "fontFamily": "IBM Plex Sans",
+    "style": "Nordic minimal — generous whitespace, clean card layouts, soft pastel accents on a near-white base. Subtle shadows and hairline borders define structure without visual noise. Typography-first hierarchy with slate blue as the primary interactive color."
+  },
+  "screens": [
+    "Home — Mood picker (5 emotional states), horizontal continue-listening carousel, full story card list with genre/rating/listener metadata and inline progress bars",
+    "Now Playing — Hero cover art panel, playback progress bar with play/pause, Smart Recap card summarizing previous episodes, interactive branching choice cards that unlock at 72% progress with animated result reveal",
+    "Discover — Full-text search input, horizontal genre filter pills, Editor's Pick featured card, filtered story list responding to search and genre selection",
+    "Library — Three-tab view (Saved / In Progress / Finished), offline availability banner, compact story cards with bookmark toggle",
+    "Profile — User stats grid (episodes, hours, choices, streak), genre preference chips, settings panel with animated toggles (notifications, offline, autoplay), recent listening history list"
+  ]
+}

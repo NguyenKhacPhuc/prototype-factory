@@ -7,9 +7,15 @@
   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  <script>window.react = window.React;</script>
+  <script>
+    // lucide-react UMD looks for window.react (lowercase) but React UMD sets window.React
+    window.react = window.React;
+  </script>
   <script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.min.js"></script>
-  <script>window.lucide = window.LucideReact || {};</script>
+  <script>
+    // App.tsx uses window.lucide.* but lucide-react UMD exports as window.LucideReact
+    window.lucide = window.LucideReact || {};
+  </script>
 </head>
 <body>
 <div id="root"></div>

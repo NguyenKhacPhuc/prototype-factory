@@ -1,0 +1,41 @@
+{
+  "appName": "Mistake Atlas",
+  "fontFamily": "DM Sans",
+  "colors": {
+    "primary": "#C67B5C",
+    "secondary": "#4A7C59",
+    "background": "#FFFDF5",
+    "accent": "#E8D5B7"
+  },
+  "icons": [
+    "alert-circle",
+    "arrow-left",
+    "arrow-right",
+    "bell",
+    "book-open",
+    "camera",
+    "check-circle",
+    "chevron-down",
+    "chevron-right",
+    "circle",
+    "clock",
+    "flame",
+    "home",
+    "info",
+    "layers",
+    "map",
+    "scan",
+    "scan-line",
+    "settings",
+    "star",
+    "trending-up",
+    "trophy",
+    "upload",
+    "user",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 26,
+  "fontFileCount": 0
+}

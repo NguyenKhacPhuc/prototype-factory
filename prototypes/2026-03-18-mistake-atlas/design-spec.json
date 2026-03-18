@@ -1,0 +1,19 @@
+{
+  "appName": "Mistake Atlas",
+  "tagline": "Learn from errors, not lessons.",
+  "designSystem": {
+    "primaryColor": "#C67B5C",
+    "secondaryColor": "#4A7C59",
+    "backgroundColor": "#FFFDF5",
+    "accentColor": "#E8D5B7",
+    "fontFamily": "DM Sans",
+    "style": "Warm earth tones with ivory background, terracotta highlights, forest green accents, soft shadows, organic rounded shapes, card-based layout with sand borders"
+  },
+  "screens": [
+    "Home — Dashboard with streak stats, accuracy bar, scan CTA, and recent mistake feed with severity indicators",
+    "Scanner — Camera viewfinder with grid overlay, upload options, scanning/analyzing/results flow with found errors and concept gaps",
+    "Atlas — Dark-themed misconception heatmap with glowing concept nodes, subject filter chips, prerequisite gap list with intensity bars",
+    "Quests — Remediation quest cards with XP rewards, progress bars, due timers; interactive step-by-step exercise modal with reveal answers",
+    "Profile — Student avatar with stats header, subject progress breakdown, achievements grid, settings rows"
+  ]
+}

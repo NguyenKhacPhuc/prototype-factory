@@ -1,0 +1,14 @@
+{
+  "name": "BillEcho",
+  "tagline": "See spending before it happens",
+  "description": "BillEcho turns recurring bills, subscriptions, and expected purchases into a forward-looking cash-flow timeline, so users can spot money stress before it hits. It learns paydays, spending patterns, and irregular expenses to forecast safe-to-spend amounts in a highly visual, day-by-day view.",
+  "features": [
+    "Predicted balance timeline",
+    "Recurring charge detector",
+    "Safe-to-spend alerts",
+    "One-tap bill deferral suggestions",
+    "Upcoming expense simulation"
+  ],
+  "audience": "Workers and freelancers with irregular cash flow",
+  "category": "personal finance"
+}
