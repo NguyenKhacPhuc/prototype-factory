@@ -7,6 +7,8 @@ import { Landing } from "./pages/landing";
 import { Gallery } from "./pages/gallery";
 import { PrototypeDetail } from "./pages/prototype-detail";
 import { About } from "./pages/about";
+import { Create } from "./pages/create";
+import { Styles } from "./pages/styles";
 
 export function App() {
   const { path, params, navigate } = useRouter();
@@ -52,6 +54,10 @@ export function App() {
       }
       case "/about":
         return <About prototypeCount={prototypes.length} navigate={navigate} />;
+      case "/create":
+        return <Create navigate={navigate} />;
+      case "/styles":
+        return <Styles navigate={navigate} />;
       default:
         return <Landing prototypes={prototypes} navigate={navigate} />;
     }

@@ -13,7 +13,7 @@ function matchRoute(pathname: string): Route {
   }
 
   // Static routes
-  const staticRoutes = ["/", "/gallery", "/about"];
+  const staticRoutes = ["/", "/gallery", "/about", "/create", "/styles"];
   const matched = staticRoutes.find((r) => r === pathname);
   return { path: matched || "/", params: {} };
 }

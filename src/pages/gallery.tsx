@@ -2,7 +2,6 @@ import React, { useState, useMemo } from "react";
 import type { Prototype } from "../types";
 import { PrototypeCard } from "../components/prototype-card";
 import { SearchBar } from "../components/search-bar";
-import { FilterBar } from "../components/filter-bar";
 import { getCategories, searchPrototypes } from "../hooks/use-prototypes";
 
 interface Props {
@@ -21,14 +20,42 @@ export function Gallery({ prototypes, navigate, initialCategory }: Props) {
 
   return (
     <div className="gallery-page">
-      <div className="gallery-header">
-        <h1>Prototype Gallery</h1>
-        <p>{prototypes.length} AI-generated app prototypes</p>
+      <div className="gallery-top">
+        <div className="gallery-header">
+          <h1>Explore</h1>
+          <p className="gallery-subtitle">{prototypes.length} AI-generated prototypes</p>
+        </div>
+        <div className="gallery-search">
+          <SearchBar value={query} onChange={setQuery} count={prototypes.length} />
+        </div>
       </div>
-      <div className="gallery-controls">
-        <SearchBar value={query} onChange={setQuery} count={prototypes.length} />
-        <FilterBar categories={categories} selected={category} onSelect={setCategory} sortBy={sortBy} onSort={setSortBy} />
+
+      <div className="gallery-filters">
+        <button
+          className={`gallery-pill ${!category ? "active" : ""}`}
+          onClick={() => setCategory(null)}
+        >
+          All
+        </button>
+        {categories.map((c) => (
+          <button
+            key={c.name}
+            className={`gallery-pill ${category === c.name ? "active" : ""}`}
+            onClick={() => setCategory(category === c.name ? null : c.name)}
+          >
+            {c.name}
+          </button>
+        ))}
+        <div className="gallery-sort">
+          <button className={`gallery-pill-sm ${sortBy === "date" ? "active" : ""}`} onClick={() => setSortBy("date")}>
+            Newest
+          </button>
+          <button className={`gallery-pill-sm ${sortBy === "name" ? "active" : ""}`} onClick={() => setSortBy("name")}>
+            A-Z
+          </button>
+        </div>
       </div>
+
       {filtered.length === 0 ? (
         <div className="empty-state">
           <p>No prototypes match your search.</p>
@@ -37,14 +64,11 @@ export function Gallery({ prototypes, navigate, initialCategory }: Props) {
           </button>
         </div>
       ) : (
-        <>
-          <p className="results-count">{filtered.length} result{filtered.length !== 1 ? "s" : ""}</p>
-          <div className="proto-grid">
-            {filtered.map((p) => (
-              <PrototypeCard key={p.folder} prototype={p} navigate={navigate} />
-            ))}
-          </div>
-        </>
+        <div className="shots-grid">
+          {filtered.map((p) => (
+            <PrototypeCard key={p.folder} prototype={p} navigate={navigate} />
+          ))}
+        </div>
       )}
     </div>
   );

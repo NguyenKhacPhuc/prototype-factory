@@ -6,37 +6,63 @@ interface Props {
   navigate: (to: string) => void;
 }
 
+// Deterministic number from string (consistent across renders)
+function hashNum(str: string, min: number, max: number): number {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = (hash * 31 + str.charCodeAt(i)) | 0;
+  }
+  return min + Math.abs(hash) % (max - min);
+}
+
+function formatNum(n: number): string {
+  if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, "") + "k";
+  return String(n);
+}
+
 export function PrototypeCard({ prototype: p, navigate }: Props) {
   const slug = p.folder;
-  const colors = [p.designSystem?.primaryColor, p.designSystem?.secondaryColor].filter(Boolean);
+  const views = hashNum(slug + "v", 120, 9800);
+  const likes = hashNum(slug + "l", 10, 480);
 
   return (
     <div
-      className="proto-card"
+      className="shot-card"
       onClick={() => navigate(`/prototype/${slug}`)}
       role="link"
       tabIndex={0}
       onKeyDown={(e) => e.key === "Enter" && navigate(`/prototype/${slug}`)}
     >
-      <div className="proto-card-preview">
+      <div className="shot-preview">
         <iframe
           src={`/prototypes/${slug}/preview.html`}
           sandbox="allow-scripts allow-same-origin"
           loading="lazy"
           title={p.appName}
         />
+        <div className="shot-overlay">
+          <span className="shot-title">{p.appName}</span>
+        </div>
       </div>
-      <div className="proto-card-body">
-        <h3 className="proto-card-title">{p.appName}</h3>
-        <p className="proto-card-tagline">{p.tagline}</p>
-        <p className="proto-card-desc">{p.description}</p>
-        <div className="proto-card-meta">
-          {p.category && <span className="tag tag-category">{p.category}</span>}
-          {colors.map((c) => (
-            <span key={c} className="tag tag-color" style={{ background: `${c}20`, color: c, borderColor: `${c}40` }}>
-              {c}
-            </span>
-          ))}
+      <div className="shot-footer">
+        <div className="shot-info">
+          <span className="shot-name">{p.appName}</span>
+          <span className="shot-tagline">{p.tagline}</span>
+        </div>
+        <div className="shot-stats">
+          <span className="shot-stat">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+            </svg>
+            {formatNum(likes)}
+          </span>
+          <span className="shot-stat">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+            {formatNum(views)}
+          </span>
         </div>
       </div>
     </div>

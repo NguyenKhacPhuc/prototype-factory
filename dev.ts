@@ -7,6 +7,8 @@ Bun.serve({
     "/gallery": index,
     "/gallery/*": index,
     "/about": index,
+    "/create": index,
+    "/styles": index,
     "/prototype/*": index,
   },
   static: {

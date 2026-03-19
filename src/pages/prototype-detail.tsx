@@ -20,14 +20,6 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
     );
   }
 
-  const ds = p.designSystem;
-  const colors = [
-    { label: "Primary", value: ds.primaryColor },
-    { label: "Secondary", value: ds.secondaryColor },
-    { label: "Accent", value: ds.accentColor },
-    { label: "Background", value: ds.backgroundColor },
-  ].filter((c) => c.value);
-
   const date = p.folder.match(/^(\d{4}-\d{2}-\d{2})/)?.[1] || "";
 
   return (
@@ -99,24 +91,6 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
             </div>
           )}
 
-          {/* Design System */}
-          <div className="detail-section">
-            <h2>Design System</h2>
-            <div className="ds-colors">
-              {colors.map((c) => (
-                <div key={c.label} className="ds-color">
-                  <div className="ds-swatch" style={{ background: c.value }} />
-                  <span className="ds-color-label">{c.label}</span>
-                  <span className="ds-color-value">{c.value}</span>
-                </div>
-              ))}
-            </div>
-            <p className="ds-font">
-              Font: <strong>{ds.fontFamily}</strong>
-            </p>
-            {ds.style && <p className="ds-style">{ds.style}</p>}
-          </div>
-
           {/* Actions */}
           <div className="detail-actions">
             <a className="btn-primary" href={`/prototypes/${p.folder}/preview.html`} target="_blank" rel="noopener">
@@ -124,9 +98,6 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
             </a>
             <a className="btn-secondary" href={`/prototypes/${p.folder}/assets.html`} target="_blank" rel="noopener">
               View Assets
-            </a>
-            <a className="btn-secondary" href={`/prototypes/${p.folder}/design-spec.json`} target="_blank" rel="noopener">
-              Design Spec
             </a>
           </div>
         </div>
