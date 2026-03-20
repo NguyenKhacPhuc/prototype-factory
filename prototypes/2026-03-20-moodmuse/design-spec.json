@@ -1,0 +1,14 @@
+{
+  "appName": "MoodMuse",
+  "tagline": "Turn feelings into usable creative direction.",
+  "description": "MoodMuse helps people transform vague emotions, moments, and messy ideas into clear creative prompts they can actually use. Instead of staring at a blank page, users can capture how they feel through a quick voice note, a photo, a few keywords, or a scribbled sketch, and the app translates that input into tailored creative assets like writing prompts, color palettes, design directions, social captions, moodboards, or brainstorm starters. It solves the common problem of creative paralysis, especially when someone knows the vibe they want but cannot articulate it well enough to begin. In daily life, it can help a freelancer define a brand mood for a client, a student jumpstart a poem after a rough day, or a small business owner generate cohesive content for a campaign in minutes. A concrete example would be turning \"I want this to feel hopeful but grounded\" into a set of image references, a 3-word art direction, and a sample headline. What makes it unique is that it does not just organize inspiration; it interprets emotional intent and converts it into actionable creative output that matches the user's context and tone.",
+  "features": [
+    "The app turns voice, text, photos, and sketches into an interpreted emotional brief that captures what the user is trying to express, even when they cannot put it into polished words.",
+    "It generates multiple creative directions from the same input, such as writing prompts, visual palettes, and brand voice options, so users can explore ideas without starting over.",
+    "The app learns each user's preferred aesthetic over time and adjusts its suggestions to fit their style, making the outputs feel personal instead of generic.",
+    "It includes a \"blank page rescue\" mode that asks a few smart questions and then produces a ready-to-use first draft, which helps users move past creative blocks quickly.",
+    "Users can save and combine outputs into a living mood archive, making it easy to revisit emotional states, reuse successful directions, and build consistency across projects."
+  ],
+  "audience": "Designed for writers, designers, social media creators, students, and solo entrepreneurs ages 16-40 who often need to turn feelings or abstract ideas into concrete creative work. It is especially useful for people who create under pressure, work alone, or struggle to explain the aesthetic or emotional direction they want.",
+  "category": "creative tools"
+}
