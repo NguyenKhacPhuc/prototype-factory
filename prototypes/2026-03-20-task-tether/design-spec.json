@@ -1,0 +1,30 @@
+{
+  "appName": "Task Tether",
+  "tagline": "Turn interruptions into next actions.",
+  "designSystem": {
+    "primaryColor": "#4F8EF7",
+    "secondaryColor": "#38BDF8",
+    "backgroundColor": "#0B0F1A",
+    "accentColor": "#34D399",
+    "fontFamily": "Plus Jakarta Sans",
+    "bodyFont": "Inter",
+    "monoFont": "JetBrains Mono",
+    "style": "Dark productivity UI with glowing accent indicators, card-based layout, and data-dense information hierarchy. Clean, focused aesthetic inspired by developer tools and focus apps. Uses subtle gradients and border glows to signal state and priority."
+  },
+  "screens": [
+    "Snapshots — list of paused tasks with next-action cards, filter pills, and resume detail view with context/decisions/files tabs",
+    "Capture — quick input with mode switcher (text, voice, screenshot, link), interruption detection banner, and recent captures list",
+    "Focus Windows — timeline visualization of available focus gaps with expandable windows matched to real tasks",
+    "Insights — interruption pattern stats, daily heatmap, top interrupt sources bar chart, and personalized weekly insight with action CTA"
+  ],
+  "navigation": {
+    "type": "bottom-tab",
+    "tabs": ["Snapshots", "Capture", "Windows", "Insights"]
+  },
+  "keyInteractions": [
+    "Tap snapshot card to open full resume detail",
+    "Switch capture mode (text/voice/screenshot/link)",
+    "Expand focus windows to see matched tasks",
+    "Accordion-style window expansion with suggested tasks"
+  ]
+}

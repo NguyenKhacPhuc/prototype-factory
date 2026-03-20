@@ -1,0 +1,19 @@
+{
+  "name": "Task Tether",
+  "tagline": "Turn interruptions into next actions.",
+  "description": "Task Tether is a productivity app that helps people recover instantly from interruptions, context switches, and half-finished work. Instead of asking users to manage full projects, it captures the exact next step of whatever they were doing, then generates a tiny re-entry map so they can resume in seconds later without mental friction. It solves the common problem of losing time and focus after a meeting, phone call, or sudden distraction by preserving not just the task, but the surrounding context, recent decisions, and a suggested restart cue. In daily life, a designer can leave a sketch mid-way, a manager can pause a budgeting review, and a parent can stop in the middle of an errand chain without worrying they will forget where to pick back up. The app also detects interruption patterns and suggests the best moments to complete lightweight tasks, like replying to a message before lunch or reviewing notes while waiting for a ride. What makes it unique is that it treats task recovery as the core productivity problem, using micro-context capture, interruption-aware reminders, and resumable \u201cstate snapshots\u201d instead of static to-do lists. This creates a more realistic workflow for busy people whose day is defined by frequent stops and starts.",
+  "features": [
+    "One-tap context snapshots let users save the exact state of a task, including notes, links, files, and the last action they took, so they can restart without rethinking everything.",
+    "Interruption-aware prompts identify when a user is being pulled away and automatically suggest a quick capture flow that preserves momentum before focus is lost.",
+    "Resumption cards show the next best action, the reason the task matters, and any recent decisions, making it easy to continue even after hours or days away.",
+    "Micro-window scheduling finds short, realistic openings in the day and recommends tasks that fit the available time instead of pushing unrealistic plans.",
+    "Distraction-to-task conversion turns copied text, screenshots, and voice snippets into actionable follow-ups so users can capture work as it happens, not later from memory."
+  ],
+  "audience": "Busy knowledge workers, managers, freelancers, and parents in their 20s to 50s who juggle meetings, messages, errands, and shifting priorities throughout the day. It is especially useful for people who frequently lose momentum when switching between tasks or who struggle to restart work after interruptions.",
+  "category": "productivity",
+  "useCases": [
+    "Sarah just finished a stressful meeting and needs to jump back into a report, but she only remembers half the action items. She opens Task Tether to restore the meeting context and see the next sentence she was about to write.",
+    "David is a freelance illustrator who keeps getting interrupted by client messages while working on a logo concept. He saves a snapshot with the current sketch, color choices, and next decision so he can return to it later without re-deriving his thinking.",
+    "Mina is running errands and gets a sudden call asking for a document she was editing earlier. She opens the app, taps the resumption card, and immediately sees the file, latest notes, and the exact paragraph she needed to finish."
+  ]
+}
