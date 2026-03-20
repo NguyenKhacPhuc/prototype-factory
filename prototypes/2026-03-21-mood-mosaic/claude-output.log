@@ -1,0 +1,16 @@
+Both files written. Here's what the prototype includes:
+
+**4 Screens:**
+- **Capture** — Text/Voice/Photo input tabs, animated waveform for voice mode, 5 suggested prompts, animated generate button with 4-step progress states
+- **Board** — Full visual mood board with gradient blob composition, 3 swappable creative directions (Soft Dissolution, Charged Stillness, Living Archive), color palette with pinning, mood keywords, texture swatches, and form language
+- **Gallery** — Saved boards with color strip headers, filter tabs, mood tags, and tap-to-open
+- **Export** — Board preview thumbnail, 4 format options (Mood Pack/PNG/Palette/PDF), success animation, share shortcuts
+
+**Key interactions:**
+- Pin any element (color, texture, keyword, board visual) with a label via a bottom sheet modal
+- Generate animates through 4 steps and routes to the Board screen
+- Direction tabs on the Board update all visuals live
+- Voice mode has an animated waveform that reacts to the recording toggle
+- Export button transitions to a green success state
+
+**Design:** Deep indigo-black base (`#09071A`), purple/pink gradient accents, DM Serif Display italic for direction names, Dynamic Island notch, proper battery/signal status bar.

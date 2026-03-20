@@ -1,0 +1,19 @@
+{
+  "name": "Pocket Lab",
+  "tagline": "Learn by turning your day into lessons.",
+  "description": "Pocket Lab is a mobile app that transforms ordinary moments into personalized micro-lessons based on what users are actually seeing, hearing, or doing. Instead of forcing learners to study abstract concepts in a vacuum, it lets them snap a photo, speak a question, or describe a situation, then instantly generates a context-aware explanation, practice prompt, and memory hook tied to that real-world moment. The app solves a common education problem: people forget what they learn because it is disconnected from daily life and delivered in long, generic chunks. A commuter can photograph a construction site to learn the math behind scaffolding angles, a parent can ask about a term they heard on the news, and a student can turn a confusing homework problem into a guided explanation using their own classroom context. What makes Pocket Lab unique is that it teaches through live context, not static curriculum, so learning feels immediate, relevant, and easier to retain. Over time, it builds a personal knowledge map from the user\u2019s surroundings and habits, helping them gradually strengthen practical literacy, critical thinking, and subject understanding without setting aside formal study blocks.",
+  "features": [
+    "The app lets users capture a moment with a photo, voice note, or short text, then converts it into a lesson tailored to the specific object, situation, or question they are facing.",
+    "It generates three-layer explanations\u2014simple, standard, and advanced\u2014so users can learn at the depth that fits their current time and confidence level.",
+    "A built-in 'real-life practice' engine creates quick follow-up challenges based on the user\u2019s environment, which helps them immediately apply what they just learned.",
+    "The app tracks recurring topics from the user\u2019s daily life and revisits them with spaced reminders, making retention stronger than one-off explanations.",
+    "It includes a confidence builder that turns misunderstood terms into plain-language analogies and examples, which matters because it helps users move from confusion to practical understanding faster."
+  ],
+  "audience": "Pocket Lab is designed for students ages 13-24, adult self-learners, and busy professionals who want to learn in small bursts throughout the day. It is especially useful for people who are curious but struggle to maintain study habits or connect school topics to real life.",
+  "category": "education",
+  "useCases": [
+    "Maya is walking past a subway construction site and wonders what all the machinery is doing, so she snaps a photo and gets a lesson on engineering principles, materials, and safety design in under two minutes.",
+    "Jordan is helping his younger sibling with science homework and keeps seeing a term he does not understand, so he speaks it into the app and gets a kid-friendly explanation plus an example using objects from the kitchen.",
+    "Asha hears a financial term during a podcast on her commute and opens Pocket Lab to turn it into a quick lesson, then saves a practice prompt that helps her remember it later when managing her own budget."
+  ]
+}

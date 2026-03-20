@@ -1,0 +1,13 @@
+{
+  "name": "Pantry Pulse",
+  "tagline": "Cook from what expires first.",
+  "description": "Pantry Pulse helps people decide what to cook by scanning what they already have and prioritizing ingredients that are closest to expiring. Instead of giving generic recipes, it turns your pantry, fridge, and freezer into a live, time-sensitive cooking plan that reduces food waste and last-minute takeout. The app solves a common daily problem: most people have ingredients at home, but they do not know how to combine them quickly before they spoil. It helps users with concrete meal ideas like \"use the spinach, mushrooms, and ricotta tonight\" or \"turn leftover roast chicken into two lunches and a soup base by Friday.\" What makes it unique is its freshness-first logic, which ranks recipes not by popularity but by urgency, available time, and effort level. It also suggests substitutions based on what is realistically on hand, so users can cook flexible meals even when they are missing one item. By focusing on timing, waste, and decision fatigue, it becomes a practical kitchen assistant rather than just another recipe app.",
+  "features": [
+    "The app scans receipts, barcodes, or manual entries to build a shelf-life timeline for every ingredient, so users instantly know what needs to be used first.",
+    "It generates meal plans based on freshness urgency, available time, and cooking skill, which matters because it removes the daily \"what should I make?\" stress.",
+    "The app suggests recipes that intentionally overlap ingredients across multiple meals, helping households reduce waste while shopping less often.",
+    "It offers smart substitution recommendations using items already in the kitchen, so users can still cook successfully when they are missing a common ingredient.",
+    "It sends adaptive reminders like \"use the cilantro tonight\" or \"freeze the berries now,\" which helps users prevent spoilage before it happens.",
+    "audience_order_note_but_not_field"
+  ]
+}

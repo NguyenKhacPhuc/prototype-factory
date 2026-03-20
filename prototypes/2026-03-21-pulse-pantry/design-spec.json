@@ -1,0 +1,17 @@
+{
+  "appName": "Pulse Pantry",
+  "tagline": "Turn meals into recovery.",
+  "designSystem": {
+    "primaryColor": "#7EE8A2",
+    "secondaryColor": "#F59E4A",
+    "backgroundColor": "#0f0f13",
+    "fontFamily": "Inter, Syne",
+    "style": "Dark health-tech UI with deep slate backgrounds, vibrant green primary accent for energy and recovery metrics, amber for warnings, subtle glassmorphism cards with soft glow borders, clean data visualization with animated progress rings and bar charts"
+  },
+  "screens": [
+    "Today (Home) — Daily energy score ring, wearable recovery metrics grid, today's meal log with impact tags, context-aware nudge card",
+    "Log Meal — 3-step guided flow: meal type selection, food search with recovery suggestions, context tagging with smart prediction",
+    "Patterns (Insights) — Weekly energy bar chart, filterable pattern cards with action CTAs, energy map teaser with habit triggers",
+    "Recovery Plan — Readiness score card with HRV/sleep data, day schedule timeline with completion states, habit streak grid"
+  ]
+}

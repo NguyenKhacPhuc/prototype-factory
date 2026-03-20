@@ -1,0 +1,17 @@
+{
+  "appName": "Task Tide",
+  "tagline": "Flow your day around reality.",
+  "designSystem": {
+    "primaryColor": "#00DFA2",
+    "secondaryColor": "#8B7FFF",
+    "backgroundColor": "#070B12",
+    "fontFamily": "Space Grotesk, Inter",
+    "style": "Deep ocean dark UI with bioluminescent mint-green accents. Glassmorphism cards with subtle glows and gradient overlays. High contrast typography hierarchy. Purple used for moment slots, orange for alerts, cyan for location context. Minimalist and calm to support focus."
+  },
+  "screens": [
+    "Now - Live context card with best-match task hero, context chips (location, energy, weather), expandable moment slots, and day repack notice",
+    "Tasks - Scored task list with energy-level dots, fit score progress bars, filter chips by type, and tap-to-complete checkbox interactions",
+    "Tide - Day timeline with past/current/future/slot event types, adaptive repack badges, matched task chips, and dot+line visual track",
+    "Insights - Productivity stats grid, focus bar chart by hour, weekly heatmap, and learned behavior pattern cards"
+  ]
+}

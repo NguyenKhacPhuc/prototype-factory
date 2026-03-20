@@ -1,0 +1,10 @@
+The prototype is ready at `/Users/steve/Documents/prototype-factory/prototypes/2026-03-21-pulse-pantry/`. Here's what was built:
+
+**Pulse Pantry — 4 fully interactive screens:**
+
+- **Today (Home)** — Animated energy score ring (74/100) with 4 breakdown bars, 2×2 wearable metrics grid (HRV, Sleep, Steps, Stress), today's meals with recovery impact tags, and a dismissable recovery nudge card
+- **Log Meal** — 3-step guided flow: meal type picker → food search with recovery-ranked suggestions → context tags ("Post-Workout", "High Stress") with a smart prediction panel. Completes with a success state + instant insight
+- **Patterns (Insights)** — 7-day energy bar chart with trend indicator, filterable insight cards (afternoon crash, best sleep combo, post-run window) with action CTAs, and a 14-day Energy Map teaser
+- **Recovery Plan** — Readiness score card with HRV/sleep breakdown, scrollable day schedule timeline with check-off states, and a 2×2 habit streaks grid with fire emoji streaks
+
+**Design system:** Dark slate (`#0f0f13`) + vibrant green (`#7EE8A2`) primary + amber accents. Inter + Syne fonts. Animated progress ring, bar fill transitions, modal-up log flow, tab press micro-interactions, Dynamic Island notch.

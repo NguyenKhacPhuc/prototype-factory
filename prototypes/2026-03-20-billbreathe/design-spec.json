@@ -1,0 +1,32 @@
+{
+  "appName": "BillBreathe",
+  "tagline": "Turn irregular bills into calm cash flow.",
+  "designSystem": {
+    "primaryColor": "#14B8A6",
+    "secondaryColor": "#38BDF8",
+    "backgroundColor": "#070D1A",
+    "accentColors": {
+      "success": "#34D399",
+      "warning": "#FBBF24",
+      "danger": "#F87171",
+      "purple": "#A78BFA"
+    },
+    "fontFamily": "Inter",
+    "style": "Dark glassmorphic with teal-sky gradient accents. Calm, clinical, and trustworthy aesthetic — soft glows instead of harsh borders. Balance indicators use semantic color zones (green/amber/red) to communicate financial stress visually. Typography is heavy (800–900 weight) for balances and actions to convey confidence and clarity."
+  },
+  "screens": [
+    "Home — Balance overview, mini cash flow chart, 3 micro-actions, upcoming bills preview",
+    "Forecast — Full 14-day SVG cash flow chart with colored risk zones, income predictions with probability bars, key date timeline",
+    "Bills — Bill list with Fixed/Semi-flex/Flexible tags, filter tabs, paid toggle, urgency warnings",
+    "Calm Plan — Breathing activation toggle, 5 prioritized actions with progress bar, outcome summary",
+    "Profile — Avatar, income sources with linked status, settings toggles"
+  ],
+  "keyInteractions": [
+    "Micro-action completion with tap-to-confirm CTA buttons",
+    "Bill paid/unpaid toggle per row",
+    "Calm mode breathing animation (scale pulse every 4s)",
+    "Bill flexibility filter tabs with smooth active state",
+    "Calm plan step checkboxes with progress bar",
+    "Tab navigation with scale press feedback"
+  ]
+}

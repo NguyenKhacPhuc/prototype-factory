@@ -1,0 +1,16 @@
+All files are in place. Here's what was built:
+
+---
+
+**PulsePatch prototype is ready** at `prototypes/2026-03-20-pulsepatch/preview.html`
+
+**4 fully interactive screens:**
+
+| Screen | Key Content |
+|--------|-------------|
+| **Today** | SVG strain gauge (67/100 moderate), biometric stats (HRV, sleep, HR), emoji mood check-in, dismissable strain alert with CTA, calendar schedule with auto-blocked recovery window, recovery readiness ring |
+| **Recovery** | 7-minute circular countdown timer with Play/Pause/Reset, tap-through exercise steps (5 exercises with descriptions), Mark Complete progression, post-session hydration + protein targets |
+| **Insights** | Weekly strain bar chart (SVG), 11-day recovery streak counter, detected pattern cards with risk badges (HIGH RISK, INJURY RISK, POSITIVE), habit efficacy bars with gradient |
+| **Profile** | User card with Pro badge, all-time stats, connected wearables (Apple Watch + Whoop), animated preference toggles, sign out |
+
+**Design system:** Dark clinical aesthetic — `#080B12` background, `#5DDFB4` mint primary for recovery states, `#F59E0B` amber for strain warnings, `#A78BFA` purple for insights, with glowing SVG data visualizations throughout.

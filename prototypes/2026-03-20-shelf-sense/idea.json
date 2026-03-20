@@ -1,0 +1,20 @@
+{
+  "name": "Shelf Sense",
+  "tagline": "Cook from what\u2019s about to spoil.",
+  "description": "Shelf Sense helps people turn forgotten ingredients into usable meals before they go bad. Instead of simply listing recipes, the app tracks what is in your fridge, freezer, and pantry, then prioritizes meals based on expiration windows, partial ingredients, and the time you actually have to cook. It solves the common problem of food waste caused by overbuying, forgetting leftovers, and not knowing what to make with a few random items. In daily life, it helps a parent quickly build a dinner from half a bell pepper, leftover rice, and yogurt nearing its date, or lets a busy worker find a 12-minute lunch using the spinach and eggs that need attention today. What makes it unique is its spoilage-first approach: it does not ask what you feel like cooking, it tells you what must be saved first and generates practical recipes around that urgency. It can also adapt suggestions to your kitchen tools, so if you only have a microwave or one pan, the recipes change accordingly. Compared with traditional recipe apps, Shelf Sense acts more like a smart food rescue planner than a recipe search engine.",
+  "features": [
+    "The app scans receipts, manual entries, or barcode inputs to build a live inventory of what you own and estimate which ingredients are closest to expiring.",
+    "It ranks meal ideas by urgency, so the most perishable items are used first and users can prevent waste before food spoils.",
+    "It generates step-by-step recipes from partial ingredients, helping users make complete meals even when they only have a few mismatched items on hand.",
+    "It adjusts recipe suggestions to available time, appliances, and skill level, which matters because a busy user may need a five-minute skillet meal while another wants a low-effort oven dinner.",
+    "It sends proactive rescue alerts with concrete actions like 'use the mushrooms tonight' or 'freeze the herbs now,' making it easier to act before food is lost.",
+    "audience"
+  ],
+  "audience": "Busy adults, parents, students, and budget-conscious households aged 18-50 who cook at home but often forget ingredients or end up throwing food away. It is especially useful for people who shop irregularly, live with roommates, or try to stretch groceries across a full week.",
+  "category": "food & cooking",
+  "useCases": [
+    "Maya comes home after work and opens the app because her spinach, mushrooms, and ricotta are all nearing expiration. Shelf Sense suggests a 15-minute stuffed flatbread dinner and tells her exactly what to use first.",
+    "Jamal has a nearly empty fridge before payday and wants to avoid another delivery order. He checks the app, which combines leftover rice, frozen peas, and eggs into a quick fried rice meal.",
+    "Elena just bought groceries but realizes she already has three open sauces and leftover chicken in the fridge. She opens the app to plan the next two dinners around what needs to be eaten immediately, reducing waste and saving money."
+  ]
+}

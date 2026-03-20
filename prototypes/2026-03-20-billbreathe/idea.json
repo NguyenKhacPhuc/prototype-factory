@@ -1,0 +1,19 @@
+{
+  "name": "BillBreathe",
+  "tagline": "Turn irregular bills into calm cash flow.",
+  "description": "BillBreathe helps people who get paid irregularly or live paycheck to paycheck smooth out their finances by turning every upcoming expense into a living cash-flow forecast. Instead of just showing a list of bills, it predicts when money will actually feel tight, then suggests tiny, timed adjustments like delaying discretionary spending, splitting a bill, or setting aside micro-reserves from a good day. The app solves the real problem of surprise overdrafts and mental stress caused by bills arriving at the wrong moment, especially for freelancers, gig workers, hourly employees, and parents juggling multiple payment dates. In daily life, it acts like a financial air traffic controller: if your rent is due in four days but a client payment is likely in six, it shows the safest path through the gap and tells you what to do today. A user could open it after a shift and see that buying groceries now is fine, but a streaming subscription should wait 48 hours, or it could warn a rideshare driver that three small purchases this week would trigger a risky balance dip next Tuesday. What makes it unique is that it models stress and timing, not just totals, so it focuses on preventing the moment when a person feels forced to choose between paying a bill and covering basics. It blends forecasting, behavior nudges, and flexible bill planning into one experience designed for real-life volatility rather than idealized budgets.",
+  "features": [
+    "The app builds a day-by-day cash-flow map that predicts when your balance will become uncomfortable, helping you avoid overdrafts before they happen.",
+    "It lets users tag bills and expenses as flexible, semi-flexible, or fixed, so the app can suggest realistic timing changes instead of generic budget cuts.",
+    "It sends micro-actions such as 'pause this purchase until Thursday' or 'move $18 to rent protection,' which makes good financial decisions easier to act on immediately.",
+    "It uses income likelihood forecasting for gig workers and freelancers, so upcoming payments are weighed by probability instead of assumed to arrive on time.",
+    "It offers a 'calm plan' mode that converts a stressful week into a short list of priority actions, reducing decision fatigue when money feels tight."
+  ],
+  "audience": "Adults ages 22-45 who have variable income, tight cash flow, or multiple due dates spread throughout the month. It is especially useful for freelancers, gig workers, hourly employees, single parents, and anyone who has ever been surprised by a bill hitting at the wrong time.",
+  "category": "personal finance",
+  "useCases": [
+    "Maya just got home from a long delivery shift and wants to know whether she can safely buy groceries tonight without risking her phone bill on Friday. She opens the app and sees a clear warning plus a suggestion to move a small amount into a bill buffer.",
+    "Andre is a freelance designer waiting on two client invoices and needs to decide whether to accept a last-minute weekend trip with friends. The app shows his likely balance path and tells him which expense to delay so he can still cover rent.",
+    "Janelle is a single mom staring at three different due dates and feeling overwhelmed before bedtime. She opens the app's calm plan mode, which turns the week into a simple action list and removes the guesswork from her money decisions."
+  ]
+}

@@ -1,0 +1,11 @@
+Both files written. Here's what was built:
+
+**Shelf Sense prototype** — 5 fully interactive screens:
+
+- **Home** — Urgency banner for expiring items today, hero rescue recipe card, horizontal expiring-soon scroll, weekly impact stats, alert previews
+- **Pantry** — Full inventory sorted by urgency with red/amber/green expiry badges, filter tabs (All / Expiring / Fridge / Freezer / Pantry), pantry health summary
+- **Recipes** — Cards ranked by spoilage urgency with ingredient match progress bars, filter by time/appliance, tappable detail view with step-by-step cooking instructions and "Start Cooking" CTA
+- **Alerts** — Grouped by severity (Critical / This Week / Upcoming), per-alert "Cook Now" and "Freeze" actions, dismissible with live badge count on nav
+- **Profile** — Impact stats, interactive kitchen appliance toggles, skill level selector, unlockable achievement badges
+
+**Design choices:** Deep forest green (`#0B1A0F`) base with a traffic-light urgency system — red for today, amber for 1–2 days, green for fine. Inter typeface, phone shadow with subtle green glow, all micro-interactions via press-scale state.

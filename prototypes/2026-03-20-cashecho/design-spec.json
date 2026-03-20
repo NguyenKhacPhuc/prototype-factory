@@ -1,0 +1,18 @@
+{
+  "appName": "CashEcho",
+  "tagline": "Turn spending into smarter habits.",
+  "designSystem": {
+    "primaryColor": "#7C6FF7",
+    "secondaryColor": "#F5A623",
+    "backgroundColor": "#0D0F1A",
+    "fontFamily": "Inter, Syne",
+    "style": "Dark behavioral finance UI with soft purple/indigo primary, amber accent, teal success tones. Card-based layout with subtle glow borders, gradient highlights, and emotional color-coding (rose=stress/risk, amber=caution, teal/green=positive). Heavy use of micro-interactions, animated progress bars, and a behavioral coaching visual language."
+  },
+  "screens": [
+    "Home — Dashboard with spending pulse, trigger alert banner, mood check-in flow, stats grid, and recent transactions with mood tags",
+    "Triggers — Detected spending pattern cards with expandable details, risk levels, frequency stats, and shield setup CTA",
+    "Timeline — Emotional vs planned spending bar chart, 4-week trend summary, mood breakdown with spend amounts, life event tags",
+    "Shields — Active trigger guards with timer, routine, and delay types; real-time countdown; enable/disable toggles",
+    "Goals — Progress toward savings goals tied to trigger interruptions, reward claiming, and motivational coaching tips"
+  ]
+}

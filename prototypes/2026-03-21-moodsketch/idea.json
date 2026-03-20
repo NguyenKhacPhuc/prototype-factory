@@ -1,0 +1,19 @@
+{
+  "name": "MoodSketch",
+  "tagline": "Turn feelings into usable ideas.",
+  "description": "MoodSketch is a creative companion that helps users capture fleeting emotions, half-formed thoughts, and sensory moments as visual prompts they can actually use later. Instead of asking people to write long journal entries or search through messy notes, it translates quick voice snippets, photos, color choices, and mood sliders into organized \"idea seeds\" for projects like journaling, content creation, branding, scrapbooking, and story development. This solves the common problem of losing creative momentum the moment inspiration or a strong feeling passes, especially for people who think visually but struggle to put words to their thoughts. In daily life, it helps a designer turn a rainy commute mood into a poster palette, a writer transform a late-night memory into a scene prompt, or a parent turn a child's drawing and a bedtime story into a keepsake page. What makes it unique is that it does not just store inspiration\u2014it interprets emotional context and builds reusable creative artifacts from it. Over time, MoodSketch becomes a personal library of moods, patterns, and visual metaphors that users can revisit whenever they need fresh ideas.",
+  "features": [
+    "The app converts short voice memos, photos, and quick mood inputs into visual 'idea cards' so users can capture inspiration in seconds before it fades.",
+    "It uses color, texture, and tone matching to suggest palettes and styles that fit the user's current emotion, making it easier to start creative work with the right atmosphere.",
+    "It groups saved moments into themed collections like 'calm winter ideas' or 'post-conversation reflections,' which helps users find relevant inspiration later instead of scrolling through scattered notes.",
+    "The app can turn an idea card into starter prompts for writing, design, social posts, or journaling, which saves time when a user knows the feeling they want but not the format.",
+    "It offers a 'memory remix' mode that combines several past mood cards into new compositions, helping users discover patterns and generate original creative directions from their own life."
+  ],
+  "audience": "MoodSketch is for teens and adults ages 16-40 who create content, journal, design, write, or simply want to preserve meaningful moments in a more expressive way. It is especially useful for people who are visual thinkers, emotionally driven creatives, and anyone who often says, 'I had an idea, but I lost it.'",
+  "category": "creative tools",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to capture the exact tense-but-focused feeling before it disappears. She records a 10-second voice note, snaps a photo of the gray sky outside her office, and MoodSketch turns it into a calm, muted palette she can use for a presentation slide deck.",
+    "Devon is a freelance writer staring at a blank page and wants to write a scene that feels nostalgic without being clich\u00e9. He opens MoodSketch, browses a past 'summer memory' card, and uses the app's generated sensory prompts to start a fresh chapter.",
+    "Maya\u2019s toddler made a chaotic crayon drawing that perfectly captured a funny family moment, and she wants to turn it into a keepsake. She scans the drawing, adds a short caption, and MoodSketch assembles a polished memory card she can print or share."
+  ]
+}

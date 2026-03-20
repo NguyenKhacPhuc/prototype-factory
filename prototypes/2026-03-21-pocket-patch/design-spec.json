@@ -1,0 +1,18 @@
+{
+  "appName": "Pocket Patch",
+  "tagline": "Patch leaks before your money slips away.",
+  "designSystem": {
+    "primaryColor": "#00D4AA",
+    "secondaryColor": "#7C6FFF",
+    "backgroundColor": "#0D0F1A",
+    "fontFamily": "Inter",
+    "style": "Dark fintech UI with teal/purple accent palette, card-based layout, data visualization, behavior cluster grids, and micro-interaction toggles. Combines urgency indicators (red leak dots, critical badges) with motivational recovery metrics (score ring, progress bars)."
+  },
+  "screens": [
+    "Home – Recovery score card with count-up animation, urgent alerts panel, behavior cluster grid, and top leaks preview",
+    "Leaks – Sortable list of detected money leaks with severity badges, expandable detail cards, and one-tap patch actions",
+    "Patch – Recovery roadmap with checkbox progress tracking, difficulty tags, and auto-patch opt-in banner",
+    "Insights – Bar chart trend visualization, habit cluster breakdown with weekly day-grid heatmap, and next-month forecast",
+    "Profile – Connected accounts manager, notification preference toggles, and impact stats summary"
+  ]
+}

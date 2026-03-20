@@ -1,0 +1,20 @@
+{
+  "appName": "Pocket Lab",
+  "tagline": "Learn by turning your day into lessons.",
+  "designSystem": {
+    "primaryColor": "#7C6FFF",
+    "secondaryColor": "#FF6B6B",
+    "backgroundColor": "#0A0A14",
+    "accentColor": "#4ECDC4",
+    "accentGold": "#FFD93D",
+    "fontFamily": "Inter, Space Grotesk",
+    "style": "Dark glassmorphic UI with vibrant accent colors, card-based layout, and progressive depth indicators. Inspired by Duolingo-meets-Notion aesthetic with a deep space color palette."
+  },
+  "screens": [
+    "Capture — Multi-mode input (photo/voice/text) with recent captures list",
+    "Learn — Lesson viewer with 3-depth switcher (Simple/Standard/Advanced), key terms, analogies",
+    "Practice — Quiz challenges with spaced repetition tracker and streak counter",
+    "My Map — Personal knowledge graph with topic strength bars and subtopic explorer",
+    "Profile — User stats, achievements, settings (notifications, daily goal, dark mode)"
+  ]
+}

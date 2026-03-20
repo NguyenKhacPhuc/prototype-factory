@@ -1,0 +1,19 @@
+{
+  "name": "LoopLedger",
+  "tagline": "Turn everyday waste into local reuse",
+  "description": "LoopLedger is a hyperlocal reuse and waste-minimization app that helps people divert usable household items from the trash by matching them to nearby neighbors, repair caf\u00e9s, mutual-aid groups, and community workshops in real time. The app solves the everyday problem of perfectly good things being thrown away simply because they are awkward to give away: half-used paint, spare tiles, jars, cable cords, moving boxes, furniture hardware, garden cuttings, and single-serve packaging leftovers. Users can scan or photograph items they no longer need, and the app translates them into practical reuse opportunities, such as \"offer to a student in the next building,\" \"drop at a tool library tonight,\" or \"bundle with similar waste for a community pickup.\" In daily life, it helps people declutter faster, spend less on replacements, and make lower-waste decisions at the point of disposal instead of after the fact. A parent renovating a room might find someone nearby who needs the leftover trim and screws, while a coffee enthusiast could list spare glass jars to a neighborhood pantry before tossing them. What makes LoopLedger unique is that it focuses not on recycling as a final step, but on pre-landfill matching of small, awkward, often-overlooked items that most platforms ignore because they are low-value individually yet huge in aggregate. It turns disposal into an instant local routing system for stuff with a second life.",
+  "features": [
+    "Smart Item Capture uses a photo and quick prompts to identify the material, quantity, and remaining usability of an item so the app can suggest the best next step instead of a generic donation option.",
+    "Hyperlocal Matching finds neighbors, repair groups, makerspaces, schools, and food-sharing networks within walking or short transit distance, which reduces friction and increases the chance that the item is actually reused.",
+    "Waste-to-Use Suggestions recommends creative but practical uses for unusual leftovers, such as turning fabric scraps into cleaning rags or redirecting clean takeout containers to a zero-waste pantry, which helps users act immediately.",
+    "Neighborhood Drop Windows shows real-time times when nearby locations can accept items, preventing unnecessary trips and making it easier to fit reuse into a normal commute or errand route.",
+    "Impact Ledger tracks kilograms diverted, transport miles saved, and estimated emissions avoided, giving users a visible reward loop that makes sustainable behavior feel concrete and motivating."
+  ],
+  "audience": "Urban and suburban adults ages 20\u201350 who actively manage households, move frequently, renovate, garden, or participate in community sharing. It is especially useful for renters, young families, DIY hobbyists, and people living in apartments where storage is limited and waste pickup is infrequent.",
+  "useCases": [
+    "Sarah just finished repainting her apartment and has half a gallon of usable paint plus a bag of clean roller covers. She opens LoopLedger to find a nearby tenant group that can pick it up tonight for a shared hallway project.",
+    "Diego is packing for a move and discovers a box of random screws, brackets, and furniture dowels from old flat-pack furniture. He scans the box, and the app suggests a local repair caf\u00e9 and a maker space that accept mixed hardware for community repair kits.",
+    "Mina runs a small home bakery and has dozens of washed glass jars left over from ingredients. She lists them in LoopLedger and gets matched with a neighborhood refill store that will reuse them for dry goods."
+  ],
+  "category": "sustainability"
+}

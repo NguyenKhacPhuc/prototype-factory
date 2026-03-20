@@ -1,0 +1,12 @@
+The prototype is open in your browser. Here's what was built:
+
+**Layover Lens** — 4 fully interactive screens:
+
+| Screen | What it does |
+|--------|-------------|
+| **Layover** (Home) | Flight card (SQ321 → LHR) with safe exit window indicator, layover progress bar, weather/visa/weather chips, and "Plan My Mini Adventure" CTA |
+| **Plan** | Mood selector (Foodie/Culture/Chill/Shop), budget picker ($/$$/\$\$\$), luggage toggle, AI-generation animation, then ranked itinerary cards with inline step-by-step timeline |
+| **Return** | Large countdown to latest safe city departure (18:30), 8-step return timeline with buffered milestones, live security wait times, smart reminder toggle |
+| **Amenities** | Luggage storage, showers, charging lounge, prayer room, sleep pods — with walk times, pricing, availability, and accessibility mode toggle |
+
+**Design system:** Deep navy (`#0B1120`) · Electric blue primary (`#3B82F6`) · Amber accents (`#F59E0B`) · Sora + Inter typography · Glassmorphism cards with border highlights.

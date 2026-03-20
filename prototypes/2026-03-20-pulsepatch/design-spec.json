@@ -1,0 +1,45 @@
+{
+  "appName": "PulsePatch",
+  "tagline": "Turn stress into a personalized recovery plan.",
+  "designSystem": {
+    "primaryColor": "#5DDFB4",
+    "secondaryColor": "#A78BFA",
+    "accentColor": "#F59E0B",
+    "dangerColor": "#F06060",
+    "backgroundColor": "#080B12",
+    "cardColor": "#0E1118",
+    "fontFamily": "Inter",
+    "style": "Dark health dashboard with glowing neon accents, glassmorphic cards, SVG data visualizations, and a clinical-yet-warm aesthetic suited for recovery and wellness tracking"
+  },
+  "screens": [
+    "Today (Home) — Strain gauge SVG, biometric stats row, mood check-in, strain alert card with dismiss, today's schedule with auto-blocked recovery window, recovery readiness score ring",
+    "Recovery Plan — 7-minute mobility timer with circular SVG progress, exercise step list with tap-to-advance, post-session hydration and protein targets",
+    "Insights — Weekly strain bar chart, recovery streak counter, detected pattern cards with risk badges, what's working habit tracker with gradient progress bars",
+    "Profile — User avatar card with Pro badge, all-time stats row, connected wearable devices list, preference toggles for notifications/calendar/sleep, sign out"
+  ],
+  "colorPalette": {
+    "primary": "#5DDFB4",
+    "purple": "#A78BFA",
+    "amber": "#F59E0B",
+    "red": "#F06060",
+    "blue": "#60A5FA",
+    "background": "#080B12",
+    "card": "#0E1118",
+    "cardAlt": "#131820",
+    "border": "#1C2336",
+    "text": "#F1F5F9",
+    "subtext": "#8896AA",
+    "muted": "#3D4A5C"
+  },
+  "interactions": [
+    "Mood emoji tap → records check-in and replaces widget with confirmation",
+    "Strain alert CTA → navigates to Recovery tab",
+    "Dismiss button on alert → removes alert card",
+    "Recovery timer Play/Pause toggle → live countdown with circular SVG animation",
+    "Exercise step tap → highlights selected exercise",
+    "Mark Complete & Next → advances exercise step index",
+    "Reset button → resets timer and step to initial state",
+    "Preference toggles → animate between on/off state with color change",
+    "Tab navigation → switches screens with active indicator dot and color change"
+  ]
+}

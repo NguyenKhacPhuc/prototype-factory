@@ -1,0 +1,20 @@
+{
+  "name": "Muse Map",
+  "tagline": "Turn daily scraps into creative systems.",
+  "description": "Muse Map is a mobile idea-organizing studio that helps people capture half-formed thoughts, messy inspirations, and useful observations before they disappear. Instead of storing notes as flat text, it turns them into a living web of ideas by linking voice memos, photos, sketches, locations, and recurring themes into a visual \"mind garden.\" It solves the common problem of creative clutter, where good ideas get lost across screenshots, notebooks, and random apps, by automatically grouping related fragments and suggesting connections users may not have noticed. In daily life, it helps a designer collect color inspiration from a caf\u00e9 mural, a writer connect a overheard line to a story concept, or a founder turn customer complaints into product opportunities. The app is especially useful for people who think in fragments and need a way to refine raw input into something usable later. What makes it unique is that it does not just capture ideas; it gently transforms them into structured creative pathways that reveal patterns over time. It feels less like a note app and more like a companion that helps your mind make better sense of itself.",
+  "features": [
+    "The app automatically turns voice notes, photos, and typed snippets into connected idea cards, so users can capture inspiration in whatever format is fastest in the moment.",
+    "It uses theme-matching to suggest links between old and new entries, which helps users discover patterns and develop ideas instead of starting from scratch every time.",
+    "A visual mind garden view shows ideas as clusters that grow over time, making it easier to spot unfinished projects, repeating obsessions, and promising directions.",
+    "Location-aware prompts let users attach context such as where an idea came from, which matters because many creative insights only make sense when paired with the moment that sparked them.",
+    "The app can generate curated weekly synthesis pages that summarize top ideas, potential next steps, and creative collisions, helping users move from inspiration to action.",
+    "audience"
+  ],
+  "audience": "Creative professionals, indie makers, students, writers, and hobbyists ages 18\u201345 who often collect inspiration on the go and struggle to organize it later. It is especially helpful for people with fast-moving, nonlinear thinking who need a low-friction way to preserve and develop ideas.",
+  "category": "creative tools",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to capture a product insight before she forgets it. She speaks one sentence into Muse Map, and the app links it to two earlier complaints, revealing a bigger feature opportunity.",
+    "Dev is walking home when he notices a neon sign, a song lyric, and a conversation fragment that all feel like they belong in the same poem. He snaps a photo, records the lyric, and later sees them grouped into a single mood cluster.",
+    "Mina is planning a freelance brand project and has collected dozens of screenshots, color swatches, and client quotes. She opens Muse Map to sort the chaos into a visual concept board and identify which direction feels strongest."
+  ]
+}

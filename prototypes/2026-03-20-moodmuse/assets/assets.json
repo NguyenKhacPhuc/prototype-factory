@@ -1,0 +1,23 @@
+{
+  "appName": "MoodMuse",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#6366f1",
+    "secondary": "#ec4899",
+    "background": "#ffffff",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "bell",
+    "bookmark",
+    "brain",
+    "chevron-down",
+    "chevron-right",
+    "mic",
+    "search",
+    "sparkles"
+  ],
+  "fonts": [],
+  "iconCount": 8,
+  "fontFileCount": 0
+}

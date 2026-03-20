@@ -1,0 +1,18 @@
+{
+  "appName": "Balance Bloom",
+  "tagline": "Money habits that grow with your life.",
+  "designSystem": {
+    "primaryColor": "#2FD98C",
+    "secondaryColor": "#F5C030",
+    "backgroundColor": "#06101C",
+    "accentColor": "#9A78F0",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark glassmorphic finance app with organic growth metaphors. Deep navy backgrounds, mint-green primary for growth/success, amber-gold for urgency, soft purple for premium moments. Circular progress rings (petals), timeline-style life event maps, and micro-animated bar charts convey financial health as a living ecosystem. Rounded corners (18-22px cards, 52px phone frame) and subtle gradient overlays create depth without clutter."
+  },
+  "screens": [
+    "Garden — Home dashboard with protected balance card, urgency nudge banner, and 2-column petal grid showing circular progress rings for each savings goal",
+    "Life Map — Timeline view of upcoming life events grouped by urgency (Urgent / Soon / Growing) with funding progress bars and daily savings requirements",
+    "Petals — Garden overview with stats row, Active/Completed tabs, detailed list of all savings goals with sub-goal breakdowns accessible via bottom sheet modal",
+    "Insights — Bloom Score ring (72/100), 6-month savings velocity bar chart, monthly snapshot stats, and AI-predicted irregular expenses with confidence indicators"
+  ]
+}

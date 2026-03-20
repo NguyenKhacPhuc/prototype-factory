@@ -1,0 +1,17 @@
+{
+  "appName": "Fridge Alibi",
+  "tagline": "Cook from what's about to expire.",
+  "designSystem": {
+    "primaryColor": "#4ADE80",
+    "secondaryColor": "#FF5C35",
+    "backgroundColor": "#09111A",
+    "fontFamily": "Inter",
+    "style": "Dark food-tech UI with urgency-coded ingredient system. Deep navy/black surfaces, neon green primary action color, orange-red urgency indicators for expiring items, amber warnings for soon-to-expire. Card-based layout with subtle borders and glow accents. Premium mobile-first design language."
+  },
+  "screens": [
+    "Fridge — Live kitchen map sorted by urgency, horizontal 'Use First' scroll strip for critical items, full ingredient list with color-coded expiry badges",
+    "Cook — Battle plan meal cards ranked by ingredient match %, urgency tags showing which expiring items each recipe uses, tap-through to full recipe with steps and pantry patch list",
+    "Scan — Camera scanner with live detection overlay, receipt photo mode with past scan history, manual entry form with quick-add chip shortcuts",
+    "Insights — Kitchen Health Score (0–100), weekly waste savings tracker with progress bars, household habit analysis, zero-waste win log"
+  ]
+}

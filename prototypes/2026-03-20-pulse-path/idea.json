@@ -1,0 +1,19 @@
+{
+  "name": "Pulse Path",
+  "tagline": "Train by how your body feels.",
+  "description": "Pulse Path is a micro-coaching app that turns your daily body signals into personalized movement guidance, helping users exercise safely and effectively without overtraining or guessing what workout to do next. It solves the common problem of inconsistent energy, stress, poor sleep, and minor aches that make standard fitness plans feel unrealistic and hard to stick with. Each morning, the app asks for a quick check-in using simple inputs like sleep quality, soreness, mood, and resting heart rate trends, then recommends a workout style, intensity, and duration that matches the user's actual readiness. For example, after a rough night and stiff legs, it might suggest a 12-minute mobility reset instead of a hard run, while on a high-energy day it could guide the user through a progressive interval session. It also helps users understand patterns over time, showing how poor recovery impacts performance, motivation, and injury risk, so daily decisions become smarter and more sustainable. What makes Pulse Path unique is that it focuses on adaptive fitness timing rather than generic goals, making exercise feel responsive to the body instead of forced by a fixed plan.",
+  "features": [
+    "A readiness scan combines sleep, soreness, stress, and heart-rate trends to recommend the best type of movement for that day.",
+    "Adaptive workout suggestions adjust automatically between recovery, maintenance, and performance sessions so users avoid burning out or skipping exercise entirely.",
+    "A body signal journal tracks patterns like tight shoulders after desk work or sluggish afternoons, helping users understand what influences their energy.",
+    "Micro-workout timers deliver short, specific routines that fit real schedules, such as a 7-minute mobility reset or a 20-minute low-impact cardio session.",
+    "Recovery alerts warn users when repeated signs of fatigue or strain suggest they should dial back intensity, which helps reduce injury risk and build consistency."
+  ],
+  "audience": "Adults ages 18-45 who want to stay active but struggle with unpredictable energy, stressful jobs, irregular sleep, or recurring minor aches. It is especially useful for busy professionals, casual fitness enthusiasts, and people returning to exercise after a break.",
+  "category": "health & fitness",
+  "useCases": [
+    "Maya just woke up after four hours of sleep and feels stiff from sitting at a desk all week, so she opens Pulse Path and asks for a low-strain plan before work. The app suggests a short mobility flow and a walking target instead of her usual HIIT session.",
+    "Jordan finished a long commute and wants to work out, but his legs feel unusually heavy after yesterday's run. He checks his readiness score and gets a recovery-focused routine that keeps him moving without pushing into injury territory.",
+    "Elena is trying to build a consistent fitness habit but keeps missing workouts because her schedule changes daily. She opens the app at lunch, gets a 15-minute adaptive session based on her energy level, and fits it in before her next meeting."
+  ]
+}

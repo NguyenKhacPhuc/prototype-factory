@@ -1,5 +1,990 @@
 [
   {
+    "folder": "2026-03-21-task-tide",
+    "appName": "Task Tide",
+    "tagline": "Flow your day around reality.",
+    "designSystem": {
+      "primaryColor": "#00DFA2",
+      "secondaryColor": "#8B7FFF",
+      "backgroundColor": "#070B12",
+      "fontFamily": "Space Grotesk, Inter",
+      "style": "Deep ocean dark UI with bioluminescent mint-green accents. Glassmorphism cards with subtle glows and gradient overlays. High contrast typography hierarchy. Purple used for moment slots, orange for alerts, cyan for location context. Minimalist and calm to support focus."
+    },
+    "screens": [
+      "Now - Live context card with best-match task hero, context chips (location, energy, weather), expandable moment slots, and day repack notice",
+      "Tasks - Scored task list with energy-level dots, fit score progress bars, filter chips by type, and tap-to-complete checkbox interactions",
+      "Tide - Day timeline with past/current/future/slot event types, adaptive repack badges, matched task chips, and dot+line visual track",
+      "Insights - Productivity stats grid, focus bar chart by hour, weekly heatmap, and learned behavior pattern cards"
+    ],
+    "description": "Task Tide is a productivity app that reshapes your to-do list around the way your day actually unfolds, instead of how you hoped it would. It connects with your calendar, location, weather, commute, and focus patterns to automatically suggest the best next task when you have an unexpected gap, low-energy moment, or sudden change in plans. The app solves a common problem: most task managers fail because they treat every task as equally doable at any time, which leads to decision fatigue and abandoned plans. In daily life, it helps users make smarter micro-decisions like choosing a 7-minute email cleanup while waiting for coffee, moving a deep-work task to a quieter time after a noisy morning, or surfacing errands near their next appointment. What makes it unique is that it plans work in \u201cmoment slots\u201d rather than rigid blocks, matching task type to the real-world conditions you are in right now. For example, a user in a noisy train station might get admin tasks, while a person with 25 free minutes and perfect concentration might get a writing task they have been postponing. Instead of asking users to build an ideal schedule, Task Tide quietly adapts the day as life changes, turning fragments of time into meaningful progress.",
+    "features": [
+      "The app continuously scores tasks by duration, energy level, location relevance, and interruption tolerance so it can recommend the most realistic next action at any moment.",
+      "It detects sudden schedule changes, like meetings ending early or a delayed commute, and instantly repacks your day around the new available time.",
+      "It offers a 'moment slot' mode that turns tiny openings of 3 to 30 minutes into actionable task suggestions, which helps users stop wasting in-between time.",
+      "The app learns your personal productivity patterns over time, such as when you write best, when you answer messages fastest, and when you tend to procrastinate.",
+      "It groups nearby errands and context-specific tasks together, reducing mental overhead by suggesting what to do while you are already in the right place."
+    ],
+    "audience": "Busy professionals, freelance workers, graduate students, and parents aged roughly 22-45 who juggle shifting schedules and need a smarter way to use fragmented time. It is especially useful for people whose days are often disrupted by meetings, caregiving, travel, or irregular work patterns.",
+    "category": "productivity",
+    "useCases": [
+      "Sarah just finished a stressful meeting 15 minutes early and opens the app to see that her best option is a quick invoice review, because her next appointment is too short for deep work but perfect for admin tasks.",
+      "Jamal is stuck on a delayed train and wants to avoid wasting the commute, so he opens the app and gets a phone-friendly suggestion to clear low-priority emails and draft a grocery list for later.",
+      "Priya has one free hour between classes and an afternoon weather alert says it will rain soon, so she uses the app to combine a pharmacy run, a library drop-off, and a focused reading session into one efficient plan."
+    ]
+  },
+  {
+    "folder": "2026-03-21-pulse-pantry",
+    "appName": "Pulse Pantry",
+    "tagline": "Turn meals into recovery.",
+    "designSystem": {
+      "primaryColor": "#7EE8A2",
+      "secondaryColor": "#F59E4A",
+      "backgroundColor": "#0f0f13",
+      "fontFamily": "Inter, Syne",
+      "style": "Dark health-tech UI with deep slate backgrounds, vibrant green primary accent for energy and recovery metrics, amber for warnings, subtle glassmorphism cards with soft glow borders, clean data visualization with animated progress rings and bar charts"
+    },
+    "screens": [
+      "Today (Home) \u2014 Daily energy score ring, wearable recovery metrics grid, today's meal log with impact tags, context-aware nudge card",
+      "Log Meal \u2014 3-step guided flow: meal type selection, food search with recovery suggestions, context tagging with smart prediction",
+      "Patterns (Insights) \u2014 Weekly energy bar chart, filterable pattern cards with action CTAs, energy map teaser with habit triggers",
+      "Recovery Plan \u2014 Readiness score card with HRV/sleep data, day schedule timeline with completion states, habit streak grid"
+    ],
+    "description": "Pulse Pantry helps people understand how their food, stress, sleep, and movement are affecting their energy, recovery, and overall fitness in everyday life. Instead of just counting calories or steps, it uses quick meal logging, wearable data, and simple context prompts to identify patterns like why you feel sluggish after lunch, why your evening workouts underperform, or which breakfast keeps your focus steady. The app solves a real problem for busy users who want better health decisions but do not have time for complicated nutrition tracking or vague wellness advice. For example, it can suggest a post-run snack when your heart rate recovery is slow, recommend a lighter lunch before an afternoon meeting, or flag that a heavy meal is affecting sleep quality before your next workout. Its unique twist is that it translates your daily routine into recovery-aware recommendations, so users get practical guidance tied to how they actually feel and perform. Over time, Pulse Pantry builds a personalized \u201cenergy map\u201d that shows which food and habit combinations help you stay strong, focused, and consistent without strict dieting.",
+    "features": [
+      "The app creates a daily energy score by combining meals, sleep, stress, movement, and wearable recovery data, so users can see what is helping or hurting their body in one place.",
+      "It offers instant meal-to-recovery suggestions after you log food, helping you decide whether you need hydration, protein, or a lighter next meal based on your recent activity.",
+      "It learns your personal patterns over time and highlights specific triggers, such as afternoon crashes after certain lunches or poor sleep after late intense workouts.",
+      "It provides context-aware nudges before key moments in the day, like recommending a pre-commute snack, a walking break after a large meal, or a recovery dinner after training.",
+      "It turns insights into simple action plans, giving users small habit changes they can follow without calorie counting, macro obsession, or complicated tracking."
+    ],
+    "audience": "Busy adults ages 22-45 who want practical fitness and nutrition guidance without heavy manual tracking. It is especially useful for gym-goers, runners, remote workers, and people trying to manage energy, recovery, and consistency around demanding schedules.",
+    "category": "health & fitness",
+    "useCases": [
+      "Sarah just finished a stressful meeting and feels drained before her evening workout, so she opens the app to see whether a quick snack or hydration plan would improve her recovery and performance.",
+      "Jason had a heavy lunch before an afternoon of client calls and keeps getting sleepy, so he checks the app for a pattern and gets a recommendation for a better lunch combo tomorrow.",
+      "Maya is training for a 10K and wants to know why her sleep has been poor, so she uses the app to see whether late meals, intense workouts, or low recovery days are affecting her overnight rest."
+    ]
+  },
+  {
+    "folder": "2026-03-21-pocket-patch",
+    "appName": "Pocket Patch",
+    "tagline": "Patch leaks before your money slips away.",
+    "designSystem": {
+      "primaryColor": "#00D4AA",
+      "secondaryColor": "#7C6FFF",
+      "backgroundColor": "#0D0F1A",
+      "fontFamily": "Inter",
+      "style": "Dark fintech UI with teal/purple accent palette, card-based layout, data visualization, behavior cluster grids, and micro-interaction toggles. Combines urgency indicators (red leak dots, critical badges) with motivational recovery metrics (score ring, progress bars)."
+    },
+    "screens": [
+      "Home \u2013 Recovery score card with count-up animation, urgent alerts panel, behavior cluster grid, and top leaks preview",
+      "Leaks \u2013 Sortable list of detected money leaks with severity badges, expandable detail cards, and one-tap patch actions",
+      "Patch \u2013 Recovery roadmap with checkbox progress tracking, difficulty tags, and auto-patch opt-in banner",
+      "Insights \u2013 Bar chart trend visualization, habit cluster breakdown with weekly day-grid heatmap, and next-month forecast",
+      "Profile \u2013 Connected accounts manager, notification preference toggles, and impact stats summary"
+    ],
+    "description": "Pocket Patch is a proactive money-management app that detects the small, recurring financial leaks in your life and turns them into actionable recovery plans. Instead of just categorizing spending after the fact, it scans subscriptions, repeat delivery orders, bank fees, forgotten free trials, and lifestyle habits that quietly drain cash, then suggests specific ways to patch each leak. It helps users in daily life by sending timely nudges like \"You ordered coffee three times this week at the same place\" or \"Your streaming bundle overlaps with two services you never open,\" paired with one-tap options to cancel, downgrade, negotiate, or replace. A college graduate, for example, might discover that three forgotten trials are converting next week, while a parent could learn that school lunch app top-ups are causing constant tiny overdrafts. What makes it unique is its focus on behavior-based leak detection rather than generic budgeting, combining transaction patterns, calendar context, and merchant habits to predict where money is escaping before the month ends. It also creates a personalized recovery score that shows how much cash could be reclaimed in the next 30 days, making savings feel immediate and tangible. Over time, the app becomes a personal financial maintenance tool that helps users protect cash with minimal effort and less guilt.",
+    "features": [
+      "The app identifies recurring money leaks, such as unused subscriptions, duplicated services, and hidden fees, so users can recover money they did not realize they were losing.",
+      "It predicts future drains by analyzing spending patterns and calendars, which helps users spot problems before charges hit their account.",
+      "One-tap patch actions let users cancel, downgrade, freeze, or negotiate recurring expenses without navigating multiple websites or support chats.",
+      "The app groups tiny, frequent purchases into behavior clusters, making it easier to understand habits like weekday coffee runs or late-night delivery spending that add up over time.",
+      "A recovery dashboard estimates how much money users could save in the next month if they applied the recommended fixes, which turns vague advice into concrete motivation."
+    ],
+    "audience": "Young adults and busy households aged 22-45 who want better control over cash flow but do not have the time or patience for traditional budgeting. It is especially useful for people with multiple subscriptions, irregular income, or small habitual purchases that quietly erode savings.",
+    "category": "personal finance",
+    "useCases": [
+      "Maya just got paid and wants to know why her checking account feels low even though she has not made any big purchases. She opens Pocket Patch and discovers two overlapping music services, a food delivery pass she forgot to cancel, and a string of small convenience-store runs that are costing her more than she thought.",
+      "Jordan is moving into a new apartment and wants to avoid the financial chaos of setting up his life all over again. He uses the app to map recurring expenses from his old place, cancel duplicated utilities add-ons, and set reminders for trial subscriptions before they convert.",
+      "Elena is a freelance designer with uneven income and needs to protect her cash during slower months. She opens Pocket Patch after a busy week and sees a forecast that her app-based grocery deliveries and ride-share subscriptions could create a cash squeeze next week, so she downgrades them before it becomes a problem."
+    ]
+  },
+  {
+    "folder": "2026-03-21-pocket-lab",
+    "appName": "Pocket Lab",
+    "tagline": "Learn by turning your day into lessons.",
+    "designSystem": {
+      "primaryColor": "#7C6FFF",
+      "secondaryColor": "#FF6B6B",
+      "backgroundColor": "#0A0A14",
+      "accentColor": "#4ECDC4",
+      "accentGold": "#FFD93D",
+      "fontFamily": "Inter, Space Grotesk",
+      "style": "Dark glassmorphic UI with vibrant accent colors, card-based layout, and progressive depth indicators. Inspired by Duolingo-meets-Notion aesthetic with a deep space color palette."
+    },
+    "screens": [
+      "Capture \u2014 Multi-mode input (photo/voice/text) with recent captures list",
+      "Learn \u2014 Lesson viewer with 3-depth switcher (Simple/Standard/Advanced), key terms, analogies",
+      "Practice \u2014 Quiz challenges with spaced repetition tracker and streak counter",
+      "My Map \u2014 Personal knowledge graph with topic strength bars and subtopic explorer",
+      "Profile \u2014 User stats, achievements, settings (notifications, daily goal, dark mode)"
+    ],
+    "description": "Pocket Lab is a mobile app that transforms ordinary moments into personalized micro-lessons based on what users are actually seeing, hearing, or doing. Instead of forcing learners to study abstract concepts in a vacuum, it lets them snap a photo, speak a question, or describe a situation, then instantly generates a context-aware explanation, practice prompt, and memory hook tied to that real-world moment. The app solves a common education problem: people forget what they learn because it is disconnected from daily life and delivered in long, generic chunks. A commuter can photograph a construction site to learn the math behind scaffolding angles, a parent can ask about a term they heard on the news, and a student can turn a confusing homework problem into a guided explanation using their own classroom context. What makes Pocket Lab unique is that it teaches through live context, not static curriculum, so learning feels immediate, relevant, and easier to retain. Over time, it builds a personal knowledge map from the user\u2019s surroundings and habits, helping them gradually strengthen practical literacy, critical thinking, and subject understanding without setting aside formal study blocks.",
+    "features": [
+      "The app lets users capture a moment with a photo, voice note, or short text, then converts it into a lesson tailored to the specific object, situation, or question they are facing.",
+      "It generates three-layer explanations\u2014simple, standard, and advanced\u2014so users can learn at the depth that fits their current time and confidence level.",
+      "A built-in 'real-life practice' engine creates quick follow-up challenges based on the user\u2019s environment, which helps them immediately apply what they just learned.",
+      "The app tracks recurring topics from the user\u2019s daily life and revisits them with spaced reminders, making retention stronger than one-off explanations.",
+      "It includes a confidence builder that turns misunderstood terms into plain-language analogies and examples, which matters because it helps users move from confusion to practical understanding faster."
+    ],
+    "audience": "Pocket Lab is designed for students ages 13-24, adult self-learners, and busy professionals who want to learn in small bursts throughout the day. It is especially useful for people who are curious but struggle to maintain study habits or connect school topics to real life.",
+    "category": "education",
+    "useCases": [
+      "Maya is walking past a subway construction site and wonders what all the machinery is doing, so she snaps a photo and gets a lesson on engineering principles, materials, and safety design in under two minutes.",
+      "Jordan is helping his younger sibling with science homework and keeps seeing a term he does not understand, so he speaks it into the app and gets a kid-friendly explanation plus an example using objects from the kitchen.",
+      "Asha hears a financial term during a podcast on her commute and opens Pocket Lab to turn it into a quick lesson, then saves a practice prompt that helps her remember it later when managing her own budget."
+    ]
+  },
+  {
+    "folder": "2026-03-21-pantry-pulse",
+    "appName": "Pantry Pulse",
+    "tagline": "Cook from what expires first.",
+    "designSystem": {
+      "primaryColor": "#48C46E",
+      "secondaryColor": "#F0A030",
+      "backgroundColor": "#090E09",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Dark organic minimalism with urgency-coded freshness indicators. Deep forest-green backgrounds, vibrant green primary, amber and red urgency signals, card-based layout with subtle left-border freshness rails."
+    },
+    "screens": [
+      "Home (Today) \u2014 waste stat card, urgent ingredient scroll, tonight's featured recipe, adaptive reminder banner, week preview",
+      "Pantry \u2014 searchable ingredient list sorted by expiry, freshness bars, location filter tabs (Fridge/Pantry/Freezer), scan + manual add",
+      "Recipes \u2014 freshness-ranked recipe cards with urgency badges and expiring ingredient chips, detail view with full ingredient list",
+      "Plan \u2014 7-day horizontal date selector, meal slots per day (Breakfast/Lunch/Dinner), shopping list nudge"
+    ],
+    "description": "Pantry Pulse helps people decide what to cook by scanning what they already have and prioritizing ingredients that are closest to expiring. Instead of giving generic recipes, it turns your pantry, fridge, and freezer into a live, time-sensitive cooking plan that reduces food waste and last-minute takeout. The app solves a common daily problem: most people have ingredients at home, but they do not know how to combine them quickly before they spoil. It helps users with concrete meal ideas like \"use the spinach, mushrooms, and ricotta tonight\" or \"turn leftover roast chicken into two lunches and a soup base by Friday.\" What makes it unique is its freshness-first logic, which ranks recipes not by popularity but by urgency, available time, and effort level. It also suggests substitutions based on what is realistically on hand, so users can cook flexible meals even when they are missing one item. By focusing on timing, waste, and decision fatigue, it becomes a practical kitchen assistant rather than just another recipe app.",
+    "features": [
+      "The app scans receipts, barcodes, or manual entries to build a shelf-life timeline for every ingredient, so users instantly know what needs to be used first.",
+      "It generates meal plans based on freshness urgency, available time, and cooking skill, which matters because it removes the daily \"what should I make?\" stress.",
+      "The app suggests recipes that intentionally overlap ingredients across multiple meals, helping households reduce waste while shopping less often.",
+      "It offers smart substitution recommendations using items already in the kitchen, so users can still cook successfully when they are missing a common ingredient.",
+      "It sends adaptive reminders like \"use the cilantro tonight\" or \"freeze the berries now,\" which helps users prevent spoilage before it happens.",
+      "audience_order_note_but_not_field"
+    ],
+    "audience": "",
+    "category": "",
+    "useCases": []
+  },
+  {
+    "folder": "2026-03-21-moodsketch",
+    "appName": "MoodSketch",
+    "tagline": "Turn feelings into usable ideas.",
+    "designSystem": {
+      "primaryColor": "#B49FCC",
+      "secondaryColor": "#E8956D",
+      "backgroundColor": "#0F0D14",
+      "fontFamily": "DM Sans + DM Serif Display",
+      "style": "Dark, atmospheric, artisan-creative. Soft lavender primary with warm coral accents. Organic card shapes, subtle gradients, and serif typography for emotional tone. Designed for reflective, creative users who think visually."
+    },
+    "screens": [
+      "Capture \u2014 Quick mood seed input with mood slider, voice, color picker, and photo modes",
+      "Library \u2014 Idea cards organized into themed collections with full card detail modal",
+      "Remix \u2014 Select up to 3 past seeds to combine into a new creative prompt",
+      "Insights \u2014 Mood patterns, emotional tone chart, color palette analysis, and top themes"
+    ],
+    "description": "MoodSketch is a creative companion that helps users capture fleeting emotions, half-formed thoughts, and sensory moments as visual prompts they can actually use later. Instead of asking people to write long journal entries or search through messy notes, it translates quick voice snippets, photos, color choices, and mood sliders into organized \"idea seeds\" for projects like journaling, content creation, branding, scrapbooking, and story development. This solves the common problem of losing creative momentum the moment inspiration or a strong feeling passes, especially for people who think visually but struggle to put words to their thoughts. In daily life, it helps a designer turn a rainy commute mood into a poster palette, a writer transform a late-night memory into a scene prompt, or a parent turn a child's drawing and a bedtime story into a keepsake page. What makes it unique is that it does not just store inspiration\u2014it interprets emotional context and builds reusable creative artifacts from it. Over time, MoodSketch becomes a personal library of moods, patterns, and visual metaphors that users can revisit whenever they need fresh ideas.",
+    "features": [
+      "The app converts short voice memos, photos, and quick mood inputs into visual 'idea cards' so users can capture inspiration in seconds before it fades.",
+      "It uses color, texture, and tone matching to suggest palettes and styles that fit the user's current emotion, making it easier to start creative work with the right atmosphere.",
+      "It groups saved moments into themed collections like 'calm winter ideas' or 'post-conversation reflections,' which helps users find relevant inspiration later instead of scrolling through scattered notes.",
+      "The app can turn an idea card into starter prompts for writing, design, social posts, or journaling, which saves time when a user knows the feeling they want but not the format.",
+      "It offers a 'memory remix' mode that combines several past mood cards into new compositions, helping users discover patterns and generate original creative directions from their own life."
+    ],
+    "audience": "MoodSketch is for teens and adults ages 16-40 who create content, journal, design, write, or simply want to preserve meaningful moments in a more expressive way. It is especially useful for people who are visual thinkers, emotionally driven creatives, and anyone who often says, 'I had an idea, but I lost it.'",
+    "category": "creative tools",
+    "useCases": [
+      "Sarah just finished a stressful meeting and wants to capture the exact tense-but-focused feeling before it disappears. She records a 10-second voice note, snaps a photo of the gray sky outside her office, and MoodSketch turns it into a calm, muted palette she can use for a presentation slide deck.",
+      "Devon is a freelance writer staring at a blank page and wants to write a scene that feels nostalgic without being clich\u00e9. He opens MoodSketch, browses a past 'summer memory' card, and uses the app's generated sensory prompts to start a fresh chapter.",
+      "Maya\u2019s toddler made a chaotic crayon drawing that perfectly captured a funny family moment, and she wants to turn it into a keepsake. She scans the drawing, adds a short caption, and MoodSketch assembles a polished memory card she can print or share."
+    ]
+  },
+  {
+    "folder": "2026-03-21-mood-mosaic",
+    "appName": "Mood Mosaic",
+    "tagline": "Turn fleeting feelings into visual ideas.",
+    "designSystem": {
+      "primaryColor": "#8B5CF6",
+      "secondaryColor": "#F472B6",
+      "backgroundColor": "#09071A",
+      "fontFamily": "Plus Jakarta Sans, DM Serif Display",
+      "style": "Dark glassmorphism with deep indigo-black base, gradient blobs, soft glow shadows, and organic-meets-geometric aesthetic. Typography pairs a modern geometric sans (Plus Jakarta Sans) with an italic editorial serif (DM Serif Display) for expressive direction names."
+    },
+    "screens": [
+      "Capture \u2014 Multi-modal input (text, voice, photo) with suggested prompts and generate button",
+      "Board \u2014 Visual mood board with gradient blob visualization, color palette, mood words, textures, form language, and pinnable elements",
+      "Gallery \u2014 Saved boards grid with color strip previews, mood tags, and direction labels",
+      "Export \u2014 Format picker (Mood Pack, PNG, Palette, PDF) with board preview and share shortcuts"
+    ],
+    "description": "Mood Mosaic helps people transform messy emotions, vague inspirations, and half-formed thoughts into clear visual direction boards they can actually use. Instead of asking users to search endlessly for the \u201cright\u201d aesthetic, the app starts with a simple prompt like a feeling, a memory, a deadline, or a conversation and turns it into a living collage of colors, textures, shapes, reference prompts, and mood cues. This solves a real problem for creatives and everyday planners alike: it is hard to articulate an idea when you only have an emotional starting point. In daily life, it can help a freelance designer define a client direction in minutes, help a writer capture the atmosphere of a scene, or help someone plan a room makeover based on the feeling they want at home. Users can feed it a voice note after a walk, a photo from the street, or a stressful event from work, and the app builds a visual concept that evolves as more context is added. What makes it unique is that it behaves like a creative translator rather than a content generator, preserving the user's intent while making abstract feelings actionable.",
+    "features": [
+      "The app converts voice notes, short texts, and photos into an editable visual mood board so users can start from whatever they have in the moment.",
+      "It detects emotional tone and recommends colors, forms, and image styles that match the user\u2019s intent, which helps turn vague feelings into usable creative direction.",
+      "Users can pin individual elements with labels like 'calm but premium' or 'messy but warm,' making the board a practical tool for communicating ideas to others.",
+      "The app generates multiple creative interpretations of the same input so users can compare directions quickly instead of getting stuck on a single aesthetic.",
+      "It exports polished mood packs for presentations, home projects, writing scenes, or brand explorations, which makes the output useful beyond inspiration.",
+      "audience"
+    ],
+    "audience": "",
+    "category": "creative tools",
+    "useCases": [
+      "Sarah just finished a stressful meeting and wants to redesign her home office, so she opens the app, speaks her mood aloud, and gets a calming board with soft neutrals, rounded shapes, and lighting ideas she can actually shop for.",
+      "Jamal is a freelance brand designer and needs to show a client three possible visual directions before lunch, so he drops in a few product photos and the app turns them into distinct, presentation-ready mood concepts.",
+      "Mina is writing a short film and can only describe the scene as 'lonely but beautiful,' so she uses the app to build a visual atmosphere that helps her keep the tone consistent while drafting."
+    ]
+  },
+  {
+    "folder": "2026-03-21-looplens",
+    "appName": "LoopLens",
+    "tagline": "See waste before it happens.",
+    "designSystem": {
+      "primaryColor": "#4EBF72",
+      "secondaryColor": "#26C6DA",
+      "backgroundColor": "#0B170B",
+      "accentColor": "#FFB74D",
+      "fontFamily": "Inter",
+      "style": "Dark green eco-tech UI with radial ambient glows, card-based layouts, and organic rounded corners. Nature-inspired color palette contrasting vibrant greens and teals against a near-black forest background. Micro-interactions on scan simulation with progress bars and sweep animation."
+    },
+    "screens": [
+      "Scan \u2014 Camera viewfinder with corner brackets, scan sweep animation, and tappable demo item grid",
+      "Result \u2014 Full sustainability breakdown with Green Decision Score (0\u2013100), repairability stat, resale value, recyclable info, repair tips, materials breakdown, lifespan banner, and nearby location cards",
+      "Map \u2014 Pseudo-map with animated location pins, category filter chips, and a full list of nearby repair/recycle/donate/refill/resell spots",
+      "History \u2014 Loop Journal with monthly impact stats (CO\u2082, items, money), weekly bar chart, and scrollable scan history",
+      "Profile \u2014 User card with eco level, monthly impact grid, achievement badges, and interactive preference toggles"
+    ],
+    "description": "LoopLens helps people make smarter buying, repair, and reuse decisions by scanning everyday items and showing their hidden sustainability \"afterlife.\" When you point your camera at a product in a store, at home, or in your trash bin, the app identifies the item, estimates its repairability, resale value, recyclable components, and likely landfill impact, then suggests the best next action. It solves the common problem that people want to act sustainably but lack clear, item-level guidance in the moment they\u2019re deciding whether to buy, keep, fix, donate, or discard something. In daily life, it can help someone compare two similar jackets before purchasing, decide whether a blender is worth repairing, or figure out whether a cracked phone case should go into mixed recycling or e-waste. What makes it unique is its focus on real-time, object-specific decision support rather than broad eco-tips, combining visual recognition with local options like nearby repair cafes, resale drop-offs, refill stations, and municipal recycling rules. The app turns sustainability from an abstract goal into a practical habit by making the greener choice the easiest one at the exact point of action.",
+    "features": [
+      "The camera scanner identifies household and consumer products and instantly explains their repair, reuse, and disposal pathways so users can act correctly in seconds.",
+      "The Green Decision Score compares options like repair versus replace, helping users understand the environmental and financial tradeoff before they spend money.",
+      "The local action map shows nearby repair shops, donation centers, refill stations, and recycling drop-offs matched to the scanned item, which reduces search friction.",
+      "The bin-check assistant verifies whether an item is acceptable in local recycling or compost streams, lowering contamination and increasing the chances that waste is handled properly.",
+      "The purchase lens overlays sustainability information on products in stores and online marketplaces so users can choose durable, low-waste alternatives before buying."
+    ],
+    "audience": "Environmentally conscious consumers, apartment dwellers, students, and young families who want practical sustainability guidance without spending time researching each item. It is especially useful for people in cities who frequently buy secondhand, repair broken goods, or navigate confusing local recycling rules.",
+    "category": "sustainability",
+    "useCases": [
+      "Maya is standing in a home goods aisle deciding between two food containers and wants to know which one will last longer and be easier to recycle later. She scans both and picks the option with the lower waste footprint.",
+      "Dev notices his headphones are crackling after months of use and wonders if they are worth fixing or should be replaced. He scans them, sees a repair cost estimate, and finds a nearby electronics repair shop instead of immediately buying new ones.",
+      "Elena is cleaning out her apartment before moving and has a pile of mixed items she does not know how to dispose of responsibly. She scans each item and gets a step-by-step plan for donation, resale, composting, or local drop-off."
+    ]
+  },
+  {
+    "folder": "2026-03-21-loop-pantry",
+    "appName": "Loop Pantry",
+    "tagline": "Turn leftovers into daily impact.",
+    "designSystem": {
+      "primaryColor": "#3EC76D",
+      "secondaryColor": "#F4845F",
+      "backgroundColor": "#0D1A10",
+      "accentColor": "#F5C842",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Dark organic dashboard \u2014 deep forest-green backgrounds with vivid green primary accents, warm orange urgency indicators, and yellow highlights. Card-based layout with subtle borders and soft glow effects. High-contrast typography with clear urgency hierarchy. Earthy, sustainability-forward palette that feels alive without being harsh."
+    },
+    "screens": [
+      "Home / Rescue Queue \u2014 urgent consume-first checklist, quick stats, best rescue recipe suggestion, scan CTA",
+      "Pantry \u2014 full inventory list with freshness bars, expiry urgency color coding, category filters, search",
+      "Rescue Meals \u2014 recipe cards ranked by urgency, ingredient tags, step-by-step modal with cook confirmation",
+      "Sharing Board \u2014 offer surplus food, claim neighbor listings, donation pickup scheduling",
+      "Impact Dashboard \u2014 money/meals/CO2 saved stats by week/month/all-time, streak, rank progression"
+    ],
+    "description": "Loop Pantry helps households and small offices rescue food before it turns into waste by turning what is already in the fridge into a live, shared action plan. Users scan groceries, leftovers, and pantry items, then the app predicts spoilage timing, suggests exact recipes based on what must be used next, and builds a minute-by-minute consume-first checklist. It solves a real daily problem: people do not waste food because they do not care, but because they forget what they bought, lose track of freshness, and cannot think of a meal fast enough on a busy day. In practice, a parent can open the app after work and instantly see that spinach, yogurt, and tortillas need to be used tonight, while an office manager can redirect surplus catering trays to employees or donation pickup before they spoil. The app stands out by combining expiration tracking, meal planning, and household behavior nudges into one tight system instead of just offering another shopping list or recipe app. Its most unique feature is a \u201crescue queue\u201d that ranks items by urgency and suggests the smallest possible cooking or sharing action, such as making smoothie packs, freezing chopped vegetables, or offering extra portions to a neighbor. By making food waste visible and actionable at the moment decisions happen, Loop Pantry turns sustainability into an everyday habit rather than a separate chore.",
+    "features": [
+      "The app scans receipts, barcodes, and simple manual photos to build an accurate inventory of food items and estimate when each one should be used, which reduces forgotten purchases and accidental spoilage.",
+      "It generates rescue-first meal ideas using only ingredients that are already at risk of being wasted, so users can cook quickly without needing a full grocery run.",
+      "It sends context-aware reminders tied to real routines, such as prompting lunch prep the night before or reminding a roommate group to use shared dairy before the weekend.",
+      "It includes a household sharing board that lets users offer surplus portions to neighbors, roommates, or coworkers, which helps prevent edible food from being thrown away.",
+      "It shows a waste-saved dashboard with money, meals, and carbon impact estimates, which makes the environmental and financial benefits visible and motivating over time."
+    ],
+    "audience": "Urban renters, busy families, and small office teams ages 25\u201345 who shop weekly, cook intermittently, and often lose track of fresh food. It is especially useful for people trying to reduce grocery costs and waste without dramatically changing their routines.",
+    "category": "sustainability",
+    "useCases": [
+      "Sarah just finished a stressful meeting and opens the app to see that her mushrooms, cream, and thyme are expiring tonight, so it suggests a 15-minute pasta dish she can make before her next call.",
+      "A four-person apartment shares a fridge, and Malik checks Loop Pantry on Sunday evening to find two open yogurts and a bag of spinach nearing spoilage, then assigns a quick breakfast smoothie rescue plan to the house chat.",
+      "An office manager notices leftover boxed lunches from a client event and uses the app to mark them as available for employees in the break room before they become waste by the afternoon."
+    ]
+  },
+  {
+    "folder": "2026-03-21-layover-lens",
+    "appName": "Layover Lens",
+    "tagline": "Turn airport downtime into local discovery.",
+    "designSystem": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#F59E0B",
+      "backgroundColor": "#0B1120",
+      "fontFamily": "Inter, Sora",
+      "style": "Dark glassmorphism with a deep navy base, electric blue primary accents, and amber highlights. Professional transit/travel aesthetic with clean card layouts, subtle gradients, and real-time status indicators. High-contrast typography using Sora for headings and Inter for body text."
+    },
+    "screens": [
+      "Home / Layover Dashboard \u2013 Flight card with safe exit window, progress bar, weather, visa status, and primary CTA to start planning",
+      "Plan \u2013 Mood selector (Foodie, Culture, Chill, Shop), budget range picker, luggage toggle, AI itinerary generation with ranked cards and inline step-by-step detail view",
+      "Return \u2013 Departure countdown, buffered return timeline with 8 sequential milestones, notification toggle, live security wait times and gate walk durations",
+      "Amenities \u2013 Airport facilities grid (luggage storage, showers, charging, prayer room, sleep pods) with availability, pricing, walk time, and accessibility mode toggle"
+    ],
+    "description": "Layover Lens helps travelers turn long, boring layovers into safe, hyper-personalized mini adventures without the usual planning stress. The app detects your flight schedule, airport location, visa constraints, weather, and how much time you actually have, then builds a realistic short-trip plan you can trust. It solves the common problem of being trapped in an airport for 4 to 10 hours and wasting that time, while also reducing the risk of missing a connection. In daily life, it helps users decide whether they can leave the airport, what neighborhood is worth visiting, and exactly when to head back based on live traffic and security wait times. For example, a traveler in Singapore with a six-hour layover might get a seafood hawker-center route with a train timetable and a reminder to return 2 hours before boarding, while someone in Istanbul might get a museum-and-kebab walk that avoids peak traffic. What makes it unique is that it converts all the hidden constraints of transit travel into a simple, confidence-building itinerary instead of just showing generic attractions.",
+    "features": [
+      "The app calculates an exit-safe window from your flight, terminal transfer time, visa status, and live traffic so you only see trips you can realistically complete.",
+      "It generates micro-itineraries tied to your mood, budget, and energy level, such as a 90-minute coffee crawl, a quick market visit, or a quiet park reset.",
+      "It sends a timed return plan with buffered reminders based on security lines, gate distance, and transportation delays, which reduces the anxiety of missing your next flight.",
+      "It recommends luggage-friendly stops nearby, including lockers, stroller-accessible routes, and places where you can comfortably sit, charge your phone, or freshen up.",
+      "It adapts in real time if your flight changes, rerouting your plan instantly and suggesting the best new option rather than forcing you to start over."
+    ],
+    "audience": "Frequent flyers, business travelers, digital nomads, and solo travelers ages 22-55 who often face long layovers or unexpected transit delays. It is especially useful for people traveling through major hub airports in cities with strong transit connections and nearby attractions.",
+    "category": "travel",
+    "useCases": [
+      "Priya has a seven-hour layover in Seoul after an overnight flight and wants to avoid spending the whole morning at the gate, so she opens the app to find a short food-and-walk itinerary that fits her tired energy level. It shows her a subway-based route, a restaurant with storage for her backpack, and a safe return time to the airport.",
+      "Marcus\u2019s flight to Lisbon gets delayed, shrinking his connection to barely five hours, and he wonders if he can still leave the airport. He opens the app, which recalculates his window and suggests a nearby waterfront caf\u00e9 visit instead of the museum plan it originally built.",
+      "Elena lands in Doha with a suitcase, a remote work deadline, and a few free hours before her next flight, so she uses the app to find a quiet lounge-like neighborhood stop with strong Wi-Fi, coffee, and a reliable airport-return buffer."
+    ]
+  },
+  {
+    "folder": "2026-03-21-echocraft",
+    "appName": "EchoCraft",
+    "tagline": "Turn moments into made-from-life ideas.",
+    "designSystem": {
+      "primaryColor": "#8B5CF6",
+      "secondaryColor": "#F59E0B",
+      "backgroundColor": "#08080F",
+      "accentColors": [
+        "#06B6D4",
+        "#F43F5E",
+        "#10B981"
+      ],
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Dark creative studio aesthetic with violet-led palette. Deep near-black backgrounds with vivid accent layers. Card-based inspiration feed with gradient visual headers. Micro-interaction focus with press animations, toggles, and expandable sections. Clean typographic hierarchy with 800-weight display headings and muted metadata labels."
+    },
+    "screens": [
+      "Echo Feed \u2014 Scrollable inspiration card feed with quick-capture strip, filter tags, multi-select for board generation, and a live CTA to generate boards from selected cards",
+      "Capture \u2014 Multi-modal input screen with photo/voice/ambient/place modes, live waveform visualization, mood tag selector, and one-tap save with AI auto-tagging indicator",
+      "Boards \u2014 Personal and shared mood board gallery with generated AI concept copy, extracted color palettes, writing prompts, and drill-down board detail view with source echo list",
+      "Spark Trail \u2014 Daily resurface feed of forgotten captures with context-aware reasons, streak tracker, expandable cards with add-to-board and view actions, and today's context summary card",
+      "Profile \u2014 User stats grid, top themes visualization, preference toggles (notifications, AI tagging), and settings list for subscription and data management"
+    ],
+    "components": {
+      "dynamicIsland": true,
+      "statusBar": true,
+      "bottomNav": "5-tab with floating Capture CTA button",
+      "modals": [
+        "Card Detail sheet",
+        "Generate Output modal with progress state"
+      ],
+      "microInteractions": [
+        "Button press scale",
+        "Tag selection toggle",
+        "Recording waveform animation",
+        "Spark card expand/collapse",
+        "Settings toggle slide"
+      ]
+    },
+    "description": "EchoCraft is a mobile creative workspace that transforms everyday sounds, photos, voice notes, and location cues into visual story prompts, mood boards, and concept drafts. It solves the common problem of creative block by helping people capture raw inspiration the instant it appears, then organizing those fragments into usable creative direction instead of leaving them buried in camera rolls and memo apps. A commuter might record a subway rhythm, snap a neon-lit street corner, and tag it as \"tension\" to generate a poster palette or writing prompt for later. A small business owner could document a store window, a customer quote, and a product texture to instantly build a campaign mood board for a seasonal launch. The app is unique because it does not simply store inspiration; it interprets sensory inputs as creative building blocks and combines them into structured outputs that are ready to use. Unlike generic note-taking or mood-board apps, EchoCraft bridges the gap between real-world observation and finished concept development, making creativity faster, more personal, and less dependent on starting from scratch.",
+    "features": [
+      "The app converts voice, image, and ambient sound clips into tagged inspiration cards, making it easy to save fleeting ideas before they disappear.",
+      "It analyzes saved material into themes, colors, textures, and emotions, which helps users see patterns across scattered moments of inspiration.",
+      "It generates editable creative prompts, brief concept outlines, and mood boards from selected cards, so users can move from capture to creation in seconds.",
+      "It includes a daily \"spark trail\" that resurfaced forgotten clips based on context, reminding users of ideas they recorded when they are most relevant again.",
+      "It supports collaborative boards for sharing raw inspiration with teammates or clients, which matters because creative work is often better when everyone builds from the same source material."
+    ],
+    "audience": "Designed for writers, designers, marketers, content creators, and founders ages 18-45 who regularly need fresh ideas but collect inspiration in fragmented, hard-to-reuse ways. It is especially useful for people who are visually or emotionally driven and often notice concepts in everyday environments.",
+    "category": "creative tools",
+    "useCases": [
+      "Maya just got off a crowded train and heard a rhythmic announcement, saw reflective ad panels, and felt the energy of the commute, so she opens EchoCraft to turn those fragments into a moody poem prompt for her newsletter.",
+      "Andre is planning a launch campaign for a boutique coffee brand, and after noticing a wooden storefront, a handwritten sign, and the smell of roasted beans, he saves them into EchoCraft to generate a rustic visual direction for the team.",
+      "Lina is an illustrator who suddenly spots a dramatic sky during lunch, records its sound with wind in the trees, and uses the app to transform the moment into a color palette and sketch idea before the feeling fades."
+    ]
+  },
+  {
+    "folder": "2026-03-21-driftsync",
+    "appName": "DriftSync",
+    "tagline": "Turn scattered tasks into calm momentum.",
+    "designSystem": {
+      "primaryColor": "#7C6FFF",
+      "secondaryColor": "#4ECDC4",
+      "backgroundColor": "#0C0B18",
+      "accentColor": "#FFB347",
+      "dangerColor": "#FF6B8A",
+      "fontFamily": "Inter",
+      "style": "Dark glassmorphism with soft gradients \u2014 deep navy base, violet primary, teal secondary, subtle surface cards with low-opacity borders. Calm, focused, minimal UI hierarchy that feels like clearing fog rather than managing lists."
+    },
+    "screens": [
+      "Today \u2014 Unfinished Business digest with progress bar, moment-match nudge card, and checkable loose-end task list",
+      "Capture \u2014 Multi-mode quick capture (Text / Voice / Photo) with auto-clustering badge and recent captures list",
+      "Clusters \u2014 Accordion-style grouped loose ends: Reply Later, Buy on Next Outing, Do When Home, Meeting Follow-ups",
+      "Moments \u2014 Context-aware time windows with matched micro-tasks and a 'Start Now' CTA for the active moment"
+    ],
+    "description": "DriftSync is a productivity app that detects the small, unfinished fragments of your day\u2014half-written texts, forgotten errands, unread replies, and drifting commitments\u2014and turns them into a calm, prioritized action stream. It solves the common problem of mental clutter, where people waste energy remembering what they meant to do instead of actually doing it. The app works by letting users quickly capture loose ends through voice, text, screenshots, and calendar context, then automatically groups them by location, time, urgency, and effort. In daily life, it helps someone leave the grocery store with a complete errand list, reply to a coworker at the right moment, or remember to submit a reimbursement after a meeting without relying on memory alone. A unique feature is its \u201cmoment matching\u201d engine, which notices when you have a spare 3 minutes, a quiet commute, or are already in a relevant context and surfaces the best micro-task to complete. Unlike traditional to-do apps that simply store tasks, DriftSync focuses on rescuing unfinished thoughts and attaching them to the exact moment they are easiest to finish. This makes productivity feel less like managing a list and more like clearing friction from real life.",
+    "features": [
+      "Loose ends can be captured from voice, text, screenshots, or copied content in seconds, so users never have to fully stop what they are doing to remember a task later.",
+      "The app automatically clusters forgotten items into practical groups like 'reply later,' 'buy on next outing,' and 'do when home,' which reduces decision fatigue and makes the next step obvious.",
+      "A moment-matching engine predicts short windows of availability and suggests tasks that fit the user's current context, helping them make progress during tiny pockets of time.",
+      "Location-aware nudges surface reminders only when they are relevant, such as prompting a pharmacy pickup when the user is near the store instead of at random times.",
+      "A daily 'unfinished business' digest summarizes the most important loose ends into a short, calm checklist, giving users closure without overwhelming them with an endless task list."
+    ],
+    "audience": "Busy professionals, remote workers, students, and parents ages 18-45 who juggle constant interruptions and often rely on memory to track small obligations. It is especially useful for people who feel mentally overloaded by many tiny tasks rather than one large project.",
+    "category": "productivity",
+    "useCases": [
+      "Sarah just finished a stressful meeting and remembered she promised to send one file, update her notes, and book a room for next week. She opens DriftSync, snaps a photo of the whiteboard, and lets the app turn those scattered obligations into a prioritized follow-up plan.",
+      "Marcus is rushing through errands with only ten minutes before picking up his kids, and he wants to use that gap wisely. DriftSync spots that he has a short free window nearby and suggests the one task that fits, like confirming a shipment or replying to a quick email.",
+      "Leila is on her commute home when she remembers she needs to submit a reimbursement, buy printer ink, and email a landlord. She adds all three in one voice note, and DriftSync schedules each task for the most logical time and place so she can finish them without keeping them in her head."
+    ]
+  },
+  {
+    "folder": "2026-03-21-billwhisper",
+    "appName": "BillWhisper",
+    "tagline": "Predict bills before they disrupt life.",
+    "designSystem": {
+      "primaryColor": "#00C2A8",
+      "secondaryColor": "#6366F1",
+      "backgroundColor": "#080C14",
+      "fontFamily": "Inter",
+      "style": "Dark fintech dashboard with teal primary accents, risk-coded color states (green/amber/red), glassmorphism card surfaces, subtle radial gradients, and data-forward typography hierarchy"
+    },
+    "screens": [
+      "Forecast \u2014 30-day cash flow bar chart, financial weather banner with risk score, upcoming bills timeline",
+      "Alerts \u2014 Categorized smart alerts (urgent/caution/green-light) with timing-based action buttons",
+      "Simulate \u2014 What-if purchase simulator with quick scenario presets and risk assessment results",
+      "Insights \u2014 Subscription radar with collision detection, monthly overview, spending pattern cards",
+      "Profile \u2014 Paycheck settings, connected bank accounts, notification preference toggles"
+    ],
+    "description": "BillWhisper turns ordinary spending into a live \"financial weather forecast\" by detecting upcoming cash-flow pressure before it hits. Instead of simply categorizing transactions, it learns each user\u2019s paycheck rhythm, irregular bills, subscriptions, fees, and recurring life patterns to predict when money will be tight or unusually comfortable. The app then translates those predictions into everyday guidance, like suggesting the safest day to buy groceries, whether a streaming upgrade is low-risk this week, or how much a user can spend on a night out without causing a later overdraft. A renter who gets paid biweekly might see a \"paycheck gap\" alert three days before rent clears, while a freelancer could get a warning that their upcoming utility bill and rideshare spending will exceed the cushion in checking. What makes it unique is that it focuses on timing, not just budgeting, using risk-based nudges and scenario planning rather than rigid category limits. It also provides context-aware actions such as postponing nonessential payments, moving a small amount to a bills buffer, or flagging a likely subscription collision before it becomes a problem. In daily life, that means fewer overdrafts, less anxiety about \"can I afford this right now?\", and more confident spending decisions in the moment.",
+    "features": [
+      "The app forecasts cash flow over the next 30 days using paycheck dates, recurring bills, and real spending patterns, so users can see trouble before it happens.",
+      "It sends timing-based alerts like \"safe to spend\" and \"hold off for 48 hours,\" which helps users make day-to-day decisions instead of only reviewing monthly reports.",
+      "It creates a protected bills buffer automatically by recommending micro-transfers when the app predicts a high-risk period, reducing the chance of missed payments.",
+      "It offers what-if simulations for purchases and events, allowing users to test real scenarios such as \"Can I buy concert tickets Friday if my car payment hits Monday?\"",
+      "It detects hidden friction like subscription renewals, bank fees, or unusual merchant timing, then explains exactly why the forecast changed and what to do next."
+    ],
+    "audience": "Adults aged 20-45 who live paycheck-to-paycheck, freelance or work irregular hours, or simply want less stress around timing bills and spending. It is especially useful for people managing shared expenses, uneven income, or recurring charges that do not line up neatly with paydays.",
+    "category": "personal finance",
+    "useCases": [
+      "Jasmine gets paid every other Friday and is about to order food after work, but BillWhisper shows her that rent and a gym membership will hit before her next paycheck. She decides to keep the takeout order small and avoid a costly overdraft fee.",
+      "Marco is a rideshare driver whose income swings wildly week to week, so he opens the app each Sunday to see whether he should move money into a bills buffer. When the forecast shows a tight week ahead, he delays a nonessential purchase and stays current on utilities.",
+      "Leila notices a \"risk spike\" alert two days before a streaming bundle renews and a credit card payment posts. She uses the app\u2019s what-if tool to test a weekend trip, then postpones it because the simulation shows it would push her into a negative balance."
+    ]
+  },
+  {
+    "folder": "2026-03-21-bill-echo",
+    "appName": "Bill Echo",
+    "tagline": "Turn every bill into a plan.",
+    "designSystem": {
+      "primaryColor": "#00D4AA",
+      "secondaryColor": "#F5A623",
+      "backgroundColor": "#0A0D14",
+      "dangerColor": "#FF4D6D",
+      "cardColor": "#1A2235",
+      "fontFamily": "Inter",
+      "style": "Dark fintech UI with teal-green primary accents, warm amber warnings, and coral red danger indicators. Glassmorphism-inspired cards on a near-black background. High-contrast typography with strong visual hierarchy. Micro-interaction animations on button presses and tab transitions."
+    },
+    "screens": [
+      "Home \u2014 Balance overview, 30-day cash flow mini-bars, danger alert strip, quick actions, upcoming bills preview",
+      "Flow \u2014 30-day cash flow simulation calendar with interactive day selector, reshaping suggestions with one-tap actions",
+      "Bills \u2014 Monthly bills list with micro-savings progress tracker, snooze toggles, status indicators",
+      "Check \u2014 Purchase safety checker with preset amounts, real-time cash flow impact analysis, plain-English guidance",
+      "Insights \u2014 Spending breakdown, plain-language financial patterns, monthly cash health score"
+    ],
+    "description": "Bill Echo is a personal finance app that helps people avoid late fees and paycheck panic by turning upcoming expenses into a living, day-by-day spending plan. Instead of simply listing bills, it reads your due dates, income timing, and recurring obligations, then simulates the next 30 days to show when money will actually be available and where the pressure points are. If your rent, phone bill, and a weekly grocery run all cluster before payday, the app highlights the gap early and suggests realistic actions like moving a subscription, splitting a payment, or trimming discretionary spending for just those few days. It also turns irregular expenses into micro-savings targets, so a car insurance bill due in six weeks becomes a small daily set-aside rather than a surprise. What makes it unique is that it models cash flow around human life rhythms, not just account balances, and it explains financial decisions in plain language without shame or complexity. In daily life, that means you can glance at the app before making a purchase and know whether it is safe, risky, or likely to trigger a domino effect later in the month. It is especially useful for people living paycheck to paycheck, gig workers with uneven income, and anyone who gets blindsided by bills even though they technically earn enough overall.",
+    "features": [
+      "The app builds a rolling cash-flow calendar that shows exactly when money enters and leaves your accounts, which helps you see trouble before a balance goes negative.",
+      "It detects bill pileups and flags the most dangerous weeks, so users can take action early instead of reacting to overdraft fees or missed payments.",
+      "It converts large or irregular expenses into daily micro-goals, making it easier to save for things like car repairs, insurance, or annual subscriptions.",
+      "It offers one-tap reshaping suggestions, such as moving a payment date or pausing a nonessential subscription, so users can improve their month without spending hours budgeting.",
+      "It gives plain-English purchase guidance based on your real upcoming obligations, helping you decide whether a purchase is harmless, delayed-risk, or likely to cause a shortfall."
+    ],
+    "audience": "Adults 22-45 who live on variable or tightly timed income, including gig workers, freelancers, hourly employees, and families managing multiple bills. It is also useful for anyone who wants a clearer view of cash flow without using a traditional spreadsheet budget.",
+    "category": "personal finance",
+    "useCases": [
+      "Maya gets paid every other Friday and notices her rent, daycare, and utility bills all hit before her next paycheck. She opens Bill Echo to see the shortfall coming and uses the app\u2019s suggestions to delay a streaming subscription and reduce grocery spending for four days.",
+      "Andre, a rideshare driver, has a strong weekend but a slow weekday income pattern. He checks the app after Monday morning gas fill-up and sees that his car insurance payment next week will squeeze him, so he starts a micro-savings plan that spreads the cost across daily earnings.",
+      "Tanya is about to buy concert tickets on a Wednesday night and is unsure if the purchase is safe. She opens Bill Echo, which shows that her credit card and phone bill cluster before payday, helping her decide to wait until after Thursday\u2019s deposit."
+    ]
+  },
+  {
+    "folder": "2026-03-20-task-tide",
+    "appName": "Task Tide",
+    "tagline": "Turn chaos into calm actions.",
+    "designSystem": {
+      "primaryColor": "#38BDF8",
+      "secondaryColor": "#34D399",
+      "backgroundColor": "#080D1A",
+      "accentColor": "#A78BFA",
+      "fontFamily": "DM Sans",
+      "monoFont": "DM Mono",
+      "style": "Dark ocean-inspired UI with deep navy backgrounds, sky-blue and emerald accents, wave-themed micro-animations, and a calm yet purposeful aesthetic designed to reduce cognitive load"
+    },
+    "screens": [
+      "Tide (Home) - Dashboard with tide meter showing interruption level, daily stats, recent interruptions with urgency indicators, and quick action buttons",
+      "Capture - Multi-mode input (type/voice/photo) for fast thought dumping, recent captures list with sort status, success feedback animation",
+      "Recovery Mode - 3-step guided prompts (what were you doing / what interrupted / what counts as progress) with suggestion chips, progress bar, and auto-generated restart plan",
+      "Actions - Filtered task list (Now/Waiting/Later) with effort tags, context icons, time estimates, and tap-to-complete interactions",
+      "Schedule - Reality-aware timeline with energy curve visualization, color-coded time blocks by type, and current-block highlight"
+    ],
+    "description": "Task Tide is a productivity app that helps people recover from interruptions by transforming messy, fragmented thoughts into the next best action. Instead of making users build perfect to-do lists, it captures half-formed tasks, vague worries, and sudden reminders exactly as they appear, then sorts them into context, urgency, and mental effort. The app solves the common problem of losing focus after meetings, messages, and surprise requests by giving users a fast way to dump thoughts and immediately see what to do next. In daily life, it helps someone leaving a meeting, sitting in traffic, or juggling family logistics quickly convert mental clutter into a realistic plan for the rest of the day. One unique feature is its \u201ccognitive recovery\u201d mode, which uses a short prompt sequence to ask what the user was doing, what got interrupted, and what would count as progress, rather than asking for a complete task setup. Compared with standard task managers, Task Tide is built around interruption resilience and decision relief, making it especially useful for people whose biggest productivity problem is getting back on track. It feels less like a list app and more like a reset button for the mind.",
+    "features": [
+      "Interruption Capture lets users speak, type, or snap a quick note the moment their attention breaks, so nothing gets lost in the shuffle.",
+      "Cognitive Recovery Mode asks three fast questions to reconstruct the interrupted task and identify the smallest meaningful next step, which helps users restart without overwhelm.",
+      "Action Sorting automatically tags items by location, effort, and dependency, making it easy to see what can be done now versus what needs someone else or a later moment.",
+      "Focus Resets generate a 5-minute restart plan after meetings, errands, or notifications, helping users regain momentum instead of spending 20 minutes re-orienting themselves.",
+      "Reality-Aware Scheduling adjusts reminders based on actual time blocks, commute windows, and energy level, so plans stay usable in messy real-world routines."
+    ],
+    "audience": "Busy professionals, students, caregivers, and freelancers aged 18-45 who are constantly interrupted and need a better way to regain focus. It is especially valuable for people with packed calendars, high message volume, or ADHD-like attention challenges.",
+    "category": "productivity",
+    "useCases": [
+      "Sarah just finished a stressful meeting and realizes she promised to send two documents, follow up with a client, and review tomorrow\u2019s deck. She opens Task Tide, dumps the scattered thoughts into one screen, and gets a clean restart plan with the fastest action first.",
+      "Marcus is cooking dinner when his boss sends an urgent voice note, a friend texts about weekend plans, and he suddenly remembers a bill due tomorrow. He captures all three in Task Tide in under a minute, then the app separates immediate tasks from can-wait items so he can finish dinner without mental load.",
+      "Aisha is a college student switching between classes, part-time work, and group project coordination. After each class she uses Task Tide\u2019s recovery prompts to reconnect to what she was doing and see exactly what can be handled in her 15-minute gaps."
+    ]
+  },
+  {
+    "folder": "2026-03-20-task-tether",
+    "appName": "Task Tether",
+    "tagline": "Turn interruptions into next actions.",
+    "designSystem": {
+      "primaryColor": "#4F8EF7",
+      "secondaryColor": "#38BDF8",
+      "backgroundColor": "#0B0F1A",
+      "accentColor": "#34D399",
+      "fontFamily": "Plus Jakarta Sans",
+      "bodyFont": "Inter",
+      "monoFont": "JetBrains Mono",
+      "style": "Dark productivity UI with glowing accent indicators, card-based layout, and data-dense information hierarchy. Clean, focused aesthetic inspired by developer tools and focus apps. Uses subtle gradients and border glows to signal state and priority."
+    },
+    "screens": [
+      "Snapshots \u2014 list of paused tasks with next-action cards, filter pills, and resume detail view with context/decisions/files tabs",
+      "Capture \u2014 quick input with mode switcher (text, voice, screenshot, link), interruption detection banner, and recent captures list",
+      "Focus Windows \u2014 timeline visualization of available focus gaps with expandable windows matched to real tasks",
+      "Insights \u2014 interruption pattern stats, daily heatmap, top interrupt sources bar chart, and personalized weekly insight with action CTA"
+    ],
+    "navigation": {
+      "type": "bottom-tab",
+      "tabs": [
+        "Snapshots",
+        "Capture",
+        "Windows",
+        "Insights"
+      ]
+    },
+    "keyInteractions": [
+      "Tap snapshot card to open full resume detail",
+      "Switch capture mode (text/voice/screenshot/link)",
+      "Expand focus windows to see matched tasks",
+      "Accordion-style window expansion with suggested tasks"
+    ],
+    "description": "Task Tether is a productivity app that helps people recover instantly from interruptions, context switches, and half-finished work. Instead of asking users to manage full projects, it captures the exact next step of whatever they were doing, then generates a tiny re-entry map so they can resume in seconds later without mental friction. It solves the common problem of losing time and focus after a meeting, phone call, or sudden distraction by preserving not just the task, but the surrounding context, recent decisions, and a suggested restart cue. In daily life, a designer can leave a sketch mid-way, a manager can pause a budgeting review, and a parent can stop in the middle of an errand chain without worrying they will forget where to pick back up. The app also detects interruption patterns and suggests the best moments to complete lightweight tasks, like replying to a message before lunch or reviewing notes while waiting for a ride. What makes it unique is that it treats task recovery as the core productivity problem, using micro-context capture, interruption-aware reminders, and resumable \u201cstate snapshots\u201d instead of static to-do lists. This creates a more realistic workflow for busy people whose day is defined by frequent stops and starts.",
+    "features": [
+      "One-tap context snapshots let users save the exact state of a task, including notes, links, files, and the last action they took, so they can restart without rethinking everything.",
+      "Interruption-aware prompts identify when a user is being pulled away and automatically suggest a quick capture flow that preserves momentum before focus is lost.",
+      "Resumption cards show the next best action, the reason the task matters, and any recent decisions, making it easy to continue even after hours or days away.",
+      "Micro-window scheduling finds short, realistic openings in the day and recommends tasks that fit the available time instead of pushing unrealistic plans.",
+      "Distraction-to-task conversion turns copied text, screenshots, and voice snippets into actionable follow-ups so users can capture work as it happens, not later from memory."
+    ],
+    "audience": "Busy knowledge workers, managers, freelancers, and parents in their 20s to 50s who juggle meetings, messages, errands, and shifting priorities throughout the day. It is especially useful for people who frequently lose momentum when switching between tasks or who struggle to restart work after interruptions.",
+    "category": "productivity",
+    "useCases": [
+      "Sarah just finished a stressful meeting and needs to jump back into a report, but she only remembers half the action items. She opens Task Tether to restore the meeting context and see the next sentence she was about to write.",
+      "David is a freelance illustrator who keeps getting interrupted by client messages while working on a logo concept. He saves a snapshot with the current sketch, color choices, and next decision so he can return to it later without re-deriving his thinking.",
+      "Mina is running errands and gets a sudden call asking for a document she was editing earlier. She opens the app, taps the resumption card, and immediately sees the file, latest notes, and the exact paragraph she needed to finish."
+    ]
+  },
+  {
+    "folder": "2026-03-20-shelf-sense",
+    "appName": "Shelf Sense",
+    "tagline": "Cook from what's about to spoil.",
+    "designSystem": {
+      "primaryColor": "#4ADE80",
+      "secondaryColor": "#FB923C",
+      "backgroundColor": "#0B1A0F",
+      "fontFamily": "Inter",
+      "style": "Dark organic UI with urgency-coded color layers \u2014 deep forest green base with red/amber/green traffic-light system for expiry states. Rounded cards, subtle gradients, and micro-interactions reinforce the food rescue theme."
+    },
+    "screens": [
+      "Home \u2014 urgency banner, today's rescue recipe hero card, expiring-soon horizontal scroll, weekly stats, alert previews",
+      "Pantry \u2014 inventory list sorted by expiry, category filters (All/Expiring/Fridge/Freezer/Pantry), health summary widget, add item FAB",
+      "Recipes \u2014 urgency-ranked recipe cards with ingredient match meter, filter by time/appliance, full detail view with step-by-step instructions",
+      "Alerts \u2014 grouped rescue notifications (Critical/This Week/Upcoming), dismiss and act actions, cook-now and freeze shortcuts",
+      "Profile \u2014 user stats, impact summary, kitchen appliance toggles, cooking skill selector, achievement badges"
+    ],
+    "description": "Shelf Sense helps people turn forgotten ingredients into usable meals before they go bad. Instead of simply listing recipes, the app tracks what is in your fridge, freezer, and pantry, then prioritizes meals based on expiration windows, partial ingredients, and the time you actually have to cook. It solves the common problem of food waste caused by overbuying, forgetting leftovers, and not knowing what to make with a few random items. In daily life, it helps a parent quickly build a dinner from half a bell pepper, leftover rice, and yogurt nearing its date, or lets a busy worker find a 12-minute lunch using the spinach and eggs that need attention today. What makes it unique is its spoilage-first approach: it does not ask what you feel like cooking, it tells you what must be saved first and generates practical recipes around that urgency. It can also adapt suggestions to your kitchen tools, so if you only have a microwave or one pan, the recipes change accordingly. Compared with traditional recipe apps, Shelf Sense acts more like a smart food rescue planner than a recipe search engine.",
+    "features": [
+      "The app scans receipts, manual entries, or barcode inputs to build a live inventory of what you own and estimate which ingredients are closest to expiring.",
+      "It ranks meal ideas by urgency, so the most perishable items are used first and users can prevent waste before food spoils.",
+      "It generates step-by-step recipes from partial ingredients, helping users make complete meals even when they only have a few mismatched items on hand.",
+      "It adjusts recipe suggestions to available time, appliances, and skill level, which matters because a busy user may need a five-minute skillet meal while another wants a low-effort oven dinner.",
+      "It sends proactive rescue alerts with concrete actions like 'use the mushrooms tonight' or 'freeze the herbs now,' making it easier to act before food is lost.",
+      "audience"
+    ],
+    "audience": "Busy adults, parents, students, and budget-conscious households aged 18-50 who cook at home but often forget ingredients or end up throwing food away. It is especially useful for people who shop irregularly, live with roommates, or try to stretch groceries across a full week.",
+    "category": "food & cooking",
+    "useCases": [
+      "Maya comes home after work and opens the app because her spinach, mushrooms, and ricotta are all nearing expiration. Shelf Sense suggests a 15-minute stuffed flatbread dinner and tells her exactly what to use first.",
+      "Jamal has a nearly empty fridge before payday and wants to avoid another delivery order. He checks the app, which combines leftover rice, frozen peas, and eggs into a quick fried rice meal.",
+      "Elena just bought groceries but realizes she already has three open sauces and leftover chicken in the fridge. She opens the app to plan the next two dinners around what needs to be eaten immediately, reducing waste and saving money."
+    ]
+  },
+  {
+    "folder": "2026-03-20-pulsepatch",
+    "appName": "PulsePatch",
+    "tagline": "Turn stress into a personalized recovery plan.",
+    "designSystem": {
+      "primaryColor": "#5DDFB4",
+      "secondaryColor": "#A78BFA",
+      "accentColor": "#F59E0B",
+      "dangerColor": "#F06060",
+      "backgroundColor": "#080B12",
+      "cardColor": "#0E1118",
+      "fontFamily": "Inter",
+      "style": "Dark health dashboard with glowing neon accents, glassmorphic cards, SVG data visualizations, and a clinical-yet-warm aesthetic suited for recovery and wellness tracking"
+    },
+    "screens": [
+      "Today (Home) \u2014 Strain gauge SVG, biometric stats row, mood check-in, strain alert card with dismiss, today's schedule with auto-blocked recovery window, recovery readiness score ring",
+      "Recovery Plan \u2014 7-minute mobility timer with circular SVG progress, exercise step list with tap-to-advance, post-session hydration and protein targets",
+      "Insights \u2014 Weekly strain bar chart, recovery streak counter, detected pattern cards with risk badges, what's working habit tracker with gradient progress bars",
+      "Profile \u2014 User avatar card with Pro badge, all-time stats row, connected wearable devices list, preference toggles for notifications/calendar/sleep, sign out"
+    ],
+    "colorPalette": {
+      "primary": "#5DDFB4",
+      "purple": "#A78BFA",
+      "amber": "#F59E0B",
+      "red": "#F06060",
+      "blue": "#60A5FA",
+      "background": "#080B12",
+      "card": "#0E1118",
+      "cardAlt": "#131820",
+      "border": "#1C2336",
+      "text": "#F1F5F9",
+      "subtext": "#8896AA",
+      "muted": "#3D4A5C"
+    },
+    "interactions": [
+      "Mood emoji tap \u2192 records check-in and replaces widget with confirmation",
+      "Strain alert CTA \u2192 navigates to Recovery tab",
+      "Dismiss button on alert \u2192 removes alert card",
+      "Recovery timer Play/Pause toggle \u2192 live countdown with circular SVG animation",
+      "Exercise step tap \u2192 highlights selected exercise",
+      "Mark Complete & Next \u2192 advances exercise step index",
+      "Reset button \u2192 resets timer and step to initial state",
+      "Preference toggles \u2192 animate between on/off state with color change",
+      "Tab navigation \u2192 switches screens with active indicator dot and color change"
+    ],
+    "description": "PulsePatch is a recovery-first fitness app that detects when your body is under strain and tells you exactly what to do next. It combines quick self-check-ins, wearable data, and context from your calendar to spot hidden burnout patterns like \u201clate-night workout plus poor sleep plus back-to-back meetings.\u201d Instead of generic workout goals, it recommends micro-recovery actions such as a 7-minute mobility reset, a breathing drill timed to your heart rate, or a hydration and protein reminder after intense activity. In daily life, it helps users avoid the trap of pushing harder when their body actually needs restoration, which is a common cause of stalled progress, fatigue, and injury. A runner might get a prompt to swap a run for a knee-saving recovery circuit after detecting unusual strain, while an office worker could receive a midday energy rescue plan after prolonged sitting and stress. What makes it unique is that it treats recovery as a dynamic, data-driven habit rather than an afterthought, translating bodily signals into immediate, practical actions instead of abstract wellness advice.",
+    "features": [
+      "Adaptive strain tracking combines wearable metrics, sleep quality, and user mood inputs to identify when the body is trending toward overload, because catching fatigue early helps prevent setbacks.",
+      "Micro-recovery prescriptions generate short, specific interventions like stretching sequences, hydration targets, or breathing exercises, so users always know the best next step in under ten minutes.",
+      "Calendar-aware coaching scans meetings, workouts, and travel to predict high-stress periods and suggests pre-emptive recovery windows before the day becomes too draining.",
+      "Injury-risk nudges flag patterns such as repeated heavy leg days or consecutive poor-sleep nights, helping users reduce the chance of overtraining and minor injuries.",
+      "Recovery streaks and reflection logs show which habits actually improve energy, soreness, and mood over time, making the app feel personalized rather than generic."
+    ],
+    "audience": "Busy professionals, amateur athletes, and fitness-focused adults ages 20\u201345 who struggle with balancing training, work stress, and recovery. It is especially useful for people who wear fitness trackers but don\u2019t know how to act on the data.",
+    "category": "health & fitness",
+    "useCases": [
+      "Sarah just finished a stressful meeting marathon and is tempted to hit a hard workout, but the app notices poor sleep and elevated stress and suggests a short recovery flow instead.",
+      "Marcus trained legs two days in a row and now his step count and heart rate patterns look off, so he opens the app to get a knee-friendly alternative and a soreness-reduction routine.",
+      "Leila has a long flight followed by an evening run, and the app warns her that dehydration and travel fatigue will hurt performance, so it recommends a hydration plan and a lower-impact session."
+    ]
+  },
+  {
+    "folder": "2026-03-20-pulse-path",
+    "appName": "Pulse Path",
+    "tagline": "Train by how your body feels.",
+    "designSystem": {
+      "primaryColor": "#00D4AA",
+      "secondaryColor": "#FF6B35",
+      "backgroundColor": "#080C14",
+      "accentColor": "#6366F1",
+      "cardColor": "#111827",
+      "fontFamily": "Space Grotesk",
+      "style": "Dark fitness UI with glassmorphism cards, teal primary accents, coral recovery alerts, and indigo accent gradients. Clean data visualization with radial readiness score, bar charts, and adaptive color coding based on performance state."
+    },
+    "screens": [
+      "home",
+      "checkin",
+      "workout",
+      "journal",
+      "profile"
+    ],
+    "description": "Pulse Path is a micro-coaching app that turns your daily body signals into personalized movement guidance, helping users exercise safely and effectively without overtraining or guessing what workout to do next. It solves the common problem of inconsistent energy, stress, poor sleep, and minor aches that make standard fitness plans feel unrealistic and hard to stick with. Each morning, the app asks for a quick check-in using simple inputs like sleep quality, soreness, mood, and resting heart rate trends, then recommends a workout style, intensity, and duration that matches the user's actual readiness. For example, after a rough night and stiff legs, it might suggest a 12-minute mobility reset instead of a hard run, while on a high-energy day it could guide the user through a progressive interval session. It also helps users understand patterns over time, showing how poor recovery impacts performance, motivation, and injury risk, so daily decisions become smarter and more sustainable. What makes Pulse Path unique is that it focuses on adaptive fitness timing rather than generic goals, making exercise feel responsive to the body instead of forced by a fixed plan.",
+    "features": [
+      "A readiness scan combines sleep, soreness, stress, and heart-rate trends to recommend the best type of movement for that day.",
+      "Adaptive workout suggestions adjust automatically between recovery, maintenance, and performance sessions so users avoid burning out or skipping exercise entirely.",
+      "A body signal journal tracks patterns like tight shoulders after desk work or sluggish afternoons, helping users understand what influences their energy.",
+      "Micro-workout timers deliver short, specific routines that fit real schedules, such as a 7-minute mobility reset or a 20-minute low-impact cardio session.",
+      "Recovery alerts warn users when repeated signs of fatigue or strain suggest they should dial back intensity, which helps reduce injury risk and build consistency."
+    ],
+    "audience": "Adults ages 18-45 who want to stay active but struggle with unpredictable energy, stressful jobs, irregular sleep, or recurring minor aches. It is especially useful for busy professionals, casual fitness enthusiasts, and people returning to exercise after a break.",
+    "category": "health & fitness",
+    "useCases": [
+      "Maya just woke up after four hours of sleep and feels stiff from sitting at a desk all week, so she opens Pulse Path and asks for a low-strain plan before work. The app suggests a short mobility flow and a walking target instead of her usual HIIT session.",
+      "Jordan finished a long commute and wants to work out, but his legs feel unusually heavy after yesterday's run. He checks his readiness score and gets a recovery-focused routine that keeps him moving without pushing into injury territory.",
+      "Elena is trying to build a consistent fitness habit but keeps missing workouts because her schedule changes daily. She opens the app at lunch, gets a 15-minute adaptive session based on her energy level, and fits it in before her next meeting."
+    ]
+  },
+  {
+    "folder": "2026-03-20-muse-map",
+    "appName": "Muse Map",
+    "tagline": "Turn daily scraps into creative systems.",
+    "designSystem": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#F59E0B",
+      "backgroundColor": "#080612",
+      "fontFamily": "Inter + Playfair Display",
+      "style": "Dark ambient creative studio \u2014 deep cosmic purple background with violet and amber accents, floating cluster nodes, glassmorphism cards, and Playfair Display serif headings for an artisan notebook feel"
+    },
+    "screens": [
+      "Garden \u2014 Visual mind garden with floating idea clusters on an ambient canvas, recent captures list, cluster exploration drill-down, and card detail with AI-suggested connections",
+      "Capture \u2014 Multi-mode input (text, voice with waveform recorder, photo upload, location tagging), cluster context selector, Muse prompt for reflective capture",
+      "Discover \u2014 Weekly synthesis card, creative collision detector with match-strength bars, suggested next steps, recurring themes bar chart",
+      "Profile \u2014 User stats (ideas, clusters, syntheses), 91-day capture activity heatmap, settings rows for reminders and preferences"
+    ],
+    "description": "Muse Map is a mobile idea-organizing studio that helps people capture half-formed thoughts, messy inspirations, and useful observations before they disappear. Instead of storing notes as flat text, it turns them into a living web of ideas by linking voice memos, photos, sketches, locations, and recurring themes into a visual \"mind garden.\" It solves the common problem of creative clutter, where good ideas get lost across screenshots, notebooks, and random apps, by automatically grouping related fragments and suggesting connections users may not have noticed. In daily life, it helps a designer collect color inspiration from a caf\u00e9 mural, a writer connect a overheard line to a story concept, or a founder turn customer complaints into product opportunities. The app is especially useful for people who think in fragments and need a way to refine raw input into something usable later. What makes it unique is that it does not just capture ideas; it gently transforms them into structured creative pathways that reveal patterns over time. It feels less like a note app and more like a companion that helps your mind make better sense of itself.",
+    "features": [
+      "The app automatically turns voice notes, photos, and typed snippets into connected idea cards, so users can capture inspiration in whatever format is fastest in the moment.",
+      "It uses theme-matching to suggest links between old and new entries, which helps users discover patterns and develop ideas instead of starting from scratch every time.",
+      "A visual mind garden view shows ideas as clusters that grow over time, making it easier to spot unfinished projects, repeating obsessions, and promising directions.",
+      "Location-aware prompts let users attach context such as where an idea came from, which matters because many creative insights only make sense when paired with the moment that sparked them.",
+      "The app can generate curated weekly synthesis pages that summarize top ideas, potential next steps, and creative collisions, helping users move from inspiration to action.",
+      "audience"
+    ],
+    "audience": "Creative professionals, indie makers, students, writers, and hobbyists ages 18\u201345 who often collect inspiration on the go and struggle to organize it later. It is especially helpful for people with fast-moving, nonlinear thinking who need a low-friction way to preserve and develop ideas.",
+    "category": "creative tools",
+    "useCases": [
+      "Sarah just finished a stressful meeting and wants to capture a product insight before she forgets it. She speaks one sentence into Muse Map, and the app links it to two earlier complaints, revealing a bigger feature opportunity.",
+      "Dev is walking home when he notices a neon sign, a song lyric, and a conversation fragment that all feel like they belong in the same poem. He snaps a photo, records the lyric, and later sees them grouped into a single mood cluster.",
+      "Mina is planning a freelance brand project and has collected dozens of screenshots, color swatches, and client quotes. She opens Muse Map to sort the chaos into a visual concept board and identify which direction feels strongest."
+    ]
+  },
+  {
+    "folder": "2026-03-20-moodmuse",
+    "appName": "MoodMuse",
+    "tagline": "Turn feelings into usable creative direction.",
+    "description": "MoodMuse helps people transform vague emotions, moments, and messy ideas into clear creative prompts they can actually use. Instead of staring at a blank page, users can capture how they feel through a quick voice note, a photo, a few keywords, or a scribbled sketch, and the app translates that input into tailored creative assets like writing prompts, color palettes, design directions, social captions, moodboards, or brainstorm starters. It solves the common problem of creative paralysis, especially when someone knows the vibe they want but cannot articulate it well enough to begin. In daily life, it can help a freelancer define a brand mood for a client, a student jumpstart a poem after a rough day, or a small business owner generate cohesive content for a campaign in minutes. A concrete example would be turning \"I want this to feel hopeful but grounded\" into a set of image references, a 3-word art direction, and a sample headline. What makes it unique is that it does not just organize inspiration; it interprets emotional intent and converts it into actionable creative output that matches the user's context and tone.",
+    "features": [
+      "The app turns voice, text, photos, and sketches into an interpreted emotional brief that captures what the user is trying to express, even when they cannot put it into polished words.",
+      "It generates multiple creative directions from the same input, such as writing prompts, visual palettes, and brand voice options, so users can explore ideas without starting over.",
+      "The app learns each user's preferred aesthetic over time and adjusts its suggestions to fit their style, making the outputs feel personal instead of generic.",
+      "It includes a \"blank page rescue\" mode that asks a few smart questions and then produces a ready-to-use first draft, which helps users move past creative blocks quickly.",
+      "Users can save and combine outputs into a living mood archive, making it easy to revisit emotional states, reuse successful directions, and build consistency across projects."
+    ],
+    "audience": "Designed for writers, designers, social media creators, students, and solo entrepreneurs ages 16-40 who often need to turn feelings or abstract ideas into concrete creative work. It is especially useful for people who create under pressure, work alone, or struggle to explain the aesthetic or emotional direction they want.",
+    "category": "creative tools",
+    "useCases": [
+      "Sarah just finished a stressful meeting and wants to write a newsletter that feels calm but confident. She opens MoodMuse, records a quick voice note about her mood, and gets a soft color palette, three headline ideas, and a draft opening paragraph.",
+      "Miguel is a freelance brand designer whose client says they want something \"modern, warm, and a little nostalgic\" but cannot explain more. He uses the app to turn that vague brief into visual references, tone keywords, and a concise creative direction he can present in the next call.",
+      "Asha is sitting on the train after class and wants to write a poem but feels emotionally scattered. She snaps a photo of the rainy window, types a few fragments, and the app gives her a poetic prompt plus imagery suggestions that help her start writing immediately."
+    ]
+  },
+  {
+    "folder": "2026-03-20-loopledger",
+    "appName": "LoopLedger",
+    "tagline": "Turn everyday waste into local reuse",
+    "designSystem": {
+      "primaryColor": "#3A9E5C",
+      "secondaryColor": "#F4A623",
+      "backgroundColor": "#0C1810",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Dark organic sustainability UI with deep forest greens, warm amber accents, card-based layout, rounded corners, subtle glow effects, and data-rich impact displays"
+    },
+    "screens": [
+      "Home - Live neighborhood feed with drop window alerts, quick stats, and tappable item cards",
+      "Nearby - Interactive map view of local reuse hubs with filter tabs and open/close status",
+      "List Item - AI-powered scan flow with category selection, item identification, and ranked reuse suggestions",
+      "Impact Ledger - Environmental stats dashboard with bar chart, achievement badges, and period toggle",
+      "Profile - User overview, listing history with status tracking, and app settings"
+    ],
+    "description": "LoopLedger is a hyperlocal reuse and waste-minimization app that helps people divert usable household items from the trash by matching them to nearby neighbors, repair caf\u00e9s, mutual-aid groups, and community workshops in real time. The app solves the everyday problem of perfectly good things being thrown away simply because they are awkward to give away: half-used paint, spare tiles, jars, cable cords, moving boxes, furniture hardware, garden cuttings, and single-serve packaging leftovers. Users can scan or photograph items they no longer need, and the app translates them into practical reuse opportunities, such as \"offer to a student in the next building,\" \"drop at a tool library tonight,\" or \"bundle with similar waste for a community pickup.\" In daily life, it helps people declutter faster, spend less on replacements, and make lower-waste decisions at the point of disposal instead of after the fact. A parent renovating a room might find someone nearby who needs the leftover trim and screws, while a coffee enthusiast could list spare glass jars to a neighborhood pantry before tossing them. What makes LoopLedger unique is that it focuses not on recycling as a final step, but on pre-landfill matching of small, awkward, often-overlooked items that most platforms ignore because they are low-value individually yet huge in aggregate. It turns disposal into an instant local routing system for stuff with a second life.",
+    "features": [
+      "Smart Item Capture uses a photo and quick prompts to identify the material, quantity, and remaining usability of an item so the app can suggest the best next step instead of a generic donation option.",
+      "Hyperlocal Matching finds neighbors, repair groups, makerspaces, schools, and food-sharing networks within walking or short transit distance, which reduces friction and increases the chance that the item is actually reused.",
+      "Waste-to-Use Suggestions recommends creative but practical uses for unusual leftovers, such as turning fabric scraps into cleaning rags or redirecting clean takeout containers to a zero-waste pantry, which helps users act immediately.",
+      "Neighborhood Drop Windows shows real-time times when nearby locations can accept items, preventing unnecessary trips and making it easier to fit reuse into a normal commute or errand route.",
+      "Impact Ledger tracks kilograms diverted, transport miles saved, and estimated emissions avoided, giving users a visible reward loop that makes sustainable behavior feel concrete and motivating."
+    ],
+    "audience": "Urban and suburban adults ages 20\u201350 who actively manage households, move frequently, renovate, garden, or participate in community sharing. It is especially useful for renters, young families, DIY hobbyists, and people living in apartments where storage is limited and waste pickup is infrequent.",
+    "category": "sustainability",
+    "useCases": [
+      "Sarah just finished repainting her apartment and has half a gallon of usable paint plus a bag of clean roller covers. She opens LoopLedger to find a nearby tenant group that can pick it up tonight for a shared hallway project.",
+      "Diego is packing for a move and discovers a box of random screws, brackets, and furniture dowels from old flat-pack furniture. He scans the box, and the app suggests a local repair caf\u00e9 and a maker space that accept mixed hardware for community repair kits.",
+      "Mina runs a small home bakery and has dozens of washed glass jars left over from ingredients. She lists them in LoopLedger and gets matched with a neighborhood refill store that will reuse them for dry goods."
+    ]
+  },
+  {
+    "folder": "2026-03-20-layover-lens",
+    "appName": "Layover Lens",
+    "tagline": "Turn dead time into smart city moments.",
+    "designSystem": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#F59E0B",
+      "backgroundColor": "#080D1A",
+      "fontFamily": "Inter, Syne",
+      "style": "Dark glass-morphism with deep navy surfaces, vibrant accent colors, and data-dense but calm card layouts optimized for anxious travelers scanning quickly"
+    },
+    "screens": [
+      "Home (Now) \u2014 Live layover countdown, flight status, stress mode toggle, weather/visa/luggage conditions, quick action buttons",
+      "Plan \u2014 Timeline-based micro-itinerary with step-by-step stops, return buffer warning, navigation CTA, tap to mark steps done",
+      "Explore \u2014 Nearby place browser with category filters, real-time travel time, open/closed status, luggage-friendly tags",
+      "Profile \u2014 Luggage type selector, preference toggles (stress mode, weather swaps, alerts), past layover history with ratings"
+    ],
+    "description": "Layover Lens helps travelers make the most of short, unpredictable gaps between flights, trains, and check-ins by building hyper-practical mini itineraries around the exact time they actually have. Instead of generic city guides, it uses your arrival terminal, baggage status, visa constraints, weather, transit speed, and even opening hours to suggest realistic one-to-three-hour experiences you can complete without anxiety. It solves the common problem of feeling stranded during layovers, early hotel arrivals, or long station transfers by turning downtime into low-stress, high-value local experiences. For example, if you land in Singapore with two free hours and carry-on only, the app might recommend a one-stop hawker stall, a nearby skyline viewpoint, and the fastest return route to security. If your baggage is delayed, it can instantly replace shopping-heavy plans with museum stops, public parks, or cafes with storage-friendly seating. What makes it unique is that it optimizes not just for places to visit, but for emotional state, risk tolerance, and schedule volatility, so every recommendation feels doable rather than aspirational. It acts like a travel planner built for real travel friction, not ideal conditions.",
+    "features": [
+      "The app builds time-boxed city plans from live flight, rail, and traffic data so every suggestion fits the minutes you truly have, not the hours you wish you had.",
+      "It adjusts recommendations based on luggage, visa requirements, opening hours, and security wait times to prevent users from choosing experiences they cannot realistically complete.",
+      "It offers 'stress mode' routing that favors simple, low-decision activities like a single cafe stop or a park walk when travelers are tired, anxious, or recovering from delays.",
+      "It creates micro-itineraries with precise departure times, transit instructions, and return buffers so users can explore without constantly checking the clock.",
+      "It swaps plans instantly when conditions change, such as a delayed flight or sudden rain, keeping the trip useful even when the original schedule falls apart."
+    ],
+    "audience": "Frequent flyers, business travelers, digital nomads, and vacationers aged 20-55 who regularly face layovers, transit gaps, or awkward time windows between travel commitments. It is especially useful for people who want to explore a city a little without risking missed connections or adding stress.",
+    "category": "travel",
+    "useCases": [
+      "Sarah just finished a stressful meeting in Chicago and has a 90-minute gap before her train home, so she opens the app to find a nearby bakery, a fast scenic walk, and the exact latest time she needs to leave to catch her platform.",
+      "Omar lands in Dubai with a three-hour layover, no checked bags, and strong jet lag, so he asks for a low-effort plan that includes a quiet cafe, a local snack stop, and a route back that avoids long security lines.",
+      "Mina\u2019s flight gets delayed after she has already checked out of her hotel in Tokyo, so she uses the app to generate a rain-safe plan with luggage storage, one nearby museum, and a transit backup if the delay changes again."
+    ]
+  },
+  {
+    "folder": "2026-03-20-fridge-alibi",
+    "appName": "Fridge Alibi",
+    "tagline": "Cook from what's about to expire.",
+    "designSystem": {
+      "primaryColor": "#4ADE80",
+      "secondaryColor": "#FF5C35",
+      "backgroundColor": "#09111A",
+      "fontFamily": "Inter",
+      "style": "Dark food-tech UI with urgency-coded ingredient system. Deep navy/black surfaces, neon green primary action color, orange-red urgency indicators for expiring items, amber warnings for soon-to-expire. Card-based layout with subtle borders and glow accents. Premium mobile-first design language."
+    },
+    "screens": [
+      "Fridge \u2014 Live kitchen map sorted by urgency, horizontal 'Use First' scroll strip for critical items, full ingredient list with color-coded expiry badges",
+      "Cook \u2014 Battle plan meal cards ranked by ingredient match %, urgency tags showing which expiring items each recipe uses, tap-through to full recipe with steps and pantry patch list",
+      "Scan \u2014 Camera scanner with live detection overlay, receipt photo mode with past scan history, manual entry form with quick-add chip shortcuts",
+      "Insights \u2014 Kitchen Health Score (0\u2013100), weekly waste savings tracker with progress bars, household habit analysis, zero-waste win log"
+    ],
+    "description": "Fridge Alibi helps people decide what to cook based on what they already have, but with a twist: it prioritizes ingredients that are closest to spoiling, in awkward quantities, or buried in the back of the fridge. Users scan receipts, snap photos of leftovers, or quickly log groceries, and the app builds a live \"use-first\" kitchen map that updates daily. It solves the common problem of food waste and the daily stress of opening the fridge without a plan, especially when ingredients are incomplete or nearly expired. For example, if you have half a bag of spinach, one lonely lemon, and leftover rotisserie chicken, the app can generate a realistic dinner plan with exact steps and timing. In busy households, it can suggest kid-friendly lunchbox fixes, rescue ingredients before they go bad, and even re-time meal ideas around what\u2019s freshest and what needs immediate attention. What makes it unique is that it acts like a time-sensitive cooking strategist, not just a recipe search engine, optimizing meals around spoilage urgency, portion gaps, and actual household habits.",
+    "features": [
+      "The app automatically ranks ingredients by urgency, so users always know which foods need to be used first before they spoil.",
+      "It turns mixed leftovers and partial ingredients into meal plans with exact portions, which matters because most households don\u2019t have complete recipe ingredients on hand.",
+      "A camera-based fridge scan identifies produce, leftovers, and open containers, saving users from manually entering everything and making the system realistic to maintain.",
+      "It suggests \"patch recipes\" that intelligently fill gaps with common pantry items, helping users cook complete meals from incomplete ingredient sets.",
+      "The app learns household routines and predicts when certain foods will be eaten, which reduces waste by aligning recommendations with actual weekday energy and schedule constraints."
+    ],
+    "audience": "Busy adults, young families, and budget-conscious home cooks ages 22\u201350 who shop regularly but often end up with half-used ingredients and forgotten produce. It is especially useful for people trying to reduce food waste without spending extra time planning meals.",
+    "category": "food & cooking",
+    "useCases": [
+      "Maya gets home after work and sees a nearly wilted bunch of cilantro, leftover rice, and one chicken thigh. She opens the app to find a quick dinner that uses the cilantro tonight instead of letting it go bad.",
+      "Jordan is preparing groceries for a family of four and wants to avoid buying duplicates. He scans the fridge before heading to the store so the app can tell him what he already has and what must be used first this week.",
+      "Priya notices a container of soup in the back of the fridge that she forgot about two days ago. She checks the app, which flags it as urgent and suggests a fast lunch plan before it\u2019s too late."
+    ]
+  },
+  {
+    "folder": "2026-03-20-cashecho",
+    "appName": "CashEcho",
+    "tagline": "Turn spending into smarter habits.",
+    "designSystem": {
+      "primaryColor": "#7C6FF7",
+      "secondaryColor": "#F5A623",
+      "backgroundColor": "#0D0F1A",
+      "fontFamily": "Inter, Syne",
+      "style": "Dark behavioral finance UI with soft purple/indigo primary, amber accent, teal success tones. Card-based layout with subtle glow borders, gradient highlights, and emotional color-coding (rose=stress/risk, amber=caution, teal/green=positive). Heavy use of micro-interactions, animated progress bars, and a behavioral coaching visual language."
+    },
+    "screens": [
+      "Home \u2014 Dashboard with spending pulse, trigger alert banner, mood check-in flow, stats grid, and recent transactions with mood tags",
+      "Triggers \u2014 Detected spending pattern cards with expandable details, risk levels, frequency stats, and shield setup CTA",
+      "Timeline \u2014 Emotional vs planned spending bar chart, 4-week trend summary, mood breakdown with spend amounts, life event tags",
+      "Shields \u2014 Active trigger guards with timer, routine, and delay types; real-time countdown; enable/disable toggles",
+      "Goals \u2014 Progress toward savings goals tied to trigger interruptions, reward claiming, and motivational coaching tips"
+    ],
+    "description": "CashEcho is a mobile app that helps people understand not just what they spend, but why they spend it, by linking purchases to moods, contexts, and recurring life triggers. Instead of only showing charts and categories, it gently asks for a one-tap emotion check-in after risky moments like late nights, commuting, or stressful workdays, then maps those emotional patterns to spending habits over time. The app solves a common but overlooked problem: many people know their budget numbers, but still keep making the same impulsive purchases when they are tired, anxious, lonely, or celebrating. In daily life, CashEcho can alert someone that they tend to order expensive delivery after 9 PM on Tuesdays, or that weekend scrolling leads to boutique shopping app splurges after stressful meetings. It also offers \u201ctrigger shields,\u201d such as cooling-off timers, alternate routines, or pre-written low-cost replacement actions when a pattern is about to repeat. What makes it unique is that it treats personal finance like behavioral coaching, not just expense tracking, turning invisible emotional spending loops into actionable, human-centered insights.",
+    "features": [
+      "The app tags purchases with optional mood and context check-ins so users can see which emotions and situations repeatedly lead to overspending.",
+      "It detects personal spending triggers, such as paydays, late-night browsing, or post-work stress, and sends timely nudges before a likely impulse purchase happens.",
+      "It creates custom replacement routines like 'take a 10-minute walk' or 'buy tomorrow instead' when it recognizes a familiar spending pattern in progress.",
+      "It summarizes emotional spending trends in a private timeline that shows how habits change across weeks, pay cycles, and life events, making patterns easier to understand.",
+      "It turns recurring leaks into small goals, showing users exactly how much they could save by interrupting one trigger per week and translating that into concrete rewards."
+    ],
+    "audience": "Young professionals, freelancers, and busy adults ages 22\u201340 who already use budgeting apps but still struggle with impulse spending driven by stress or routine. It is especially useful for people who want better money habits without feeling shamed or overwhelmed by strict budgets.",
+    "category": "personal finance",
+    "useCases": [
+      "Sarah just finished a stressful meeting and notices she usually opens food delivery apps right after work. She opens CashEcho, sees her 'stress-to-snack' pattern, and uses a one-tap substitute plan to delay the order and make a cheaper meal at home instead.",
+      "Marcus is on his commute home and feels the familiar urge to browse sneaker drops on payday. CashEcho recognizes his payday-triggered shopping window and reminds him that this habit has cost him over $400 in three months.",
+      "Lena is trying to pay off credit card debt but keeps making tiny comfort purchases after lonely evenings. She opens the app to review her emotional spending timeline, then sets a rule to trigger a cooling-off timer and a low-cost alternative when the same pattern appears again."
+    ]
+  },
+  {
+    "folder": "2026-03-20-billbreathe",
+    "appName": "BillBreathe",
+    "tagline": "Turn irregular bills into calm cash flow.",
+    "designSystem": {
+      "primaryColor": "#14B8A6",
+      "secondaryColor": "#38BDF8",
+      "backgroundColor": "#070D1A",
+      "accentColors": {
+        "success": "#34D399",
+        "warning": "#FBBF24",
+        "danger": "#F87171",
+        "purple": "#A78BFA"
+      },
+      "fontFamily": "Inter",
+      "style": "Dark glassmorphic with teal-sky gradient accents. Calm, clinical, and trustworthy aesthetic \u2014 soft glows instead of harsh borders. Balance indicators use semantic color zones (green/amber/red) to communicate financial stress visually. Typography is heavy (800\u2013900 weight) for balances and actions to convey confidence and clarity."
+    },
+    "screens": [
+      "Home \u2014 Balance overview, mini cash flow chart, 3 micro-actions, upcoming bills preview",
+      "Forecast \u2014 Full 14-day SVG cash flow chart with colored risk zones, income predictions with probability bars, key date timeline",
+      "Bills \u2014 Bill list with Fixed/Semi-flex/Flexible tags, filter tabs, paid toggle, urgency warnings",
+      "Calm Plan \u2014 Breathing activation toggle, 5 prioritized actions with progress bar, outcome summary",
+      "Profile \u2014 Avatar, income sources with linked status, settings toggles"
+    ],
+    "keyInteractions": [
+      "Micro-action completion with tap-to-confirm CTA buttons",
+      "Bill paid/unpaid toggle per row",
+      "Calm mode breathing animation (scale pulse every 4s)",
+      "Bill flexibility filter tabs with smooth active state",
+      "Calm plan step checkboxes with progress bar",
+      "Tab navigation with scale press feedback"
+    ],
+    "description": "BillBreathe helps people who get paid irregularly or live paycheck to paycheck smooth out their finances by turning every upcoming expense into a living cash-flow forecast. Instead of just showing a list of bills, it predicts when money will actually feel tight, then suggests tiny, timed adjustments like delaying discretionary spending, splitting a bill, or setting aside micro-reserves from a good day. The app solves the real problem of surprise overdrafts and mental stress caused by bills arriving at the wrong moment, especially for freelancers, gig workers, hourly employees, and parents juggling multiple payment dates. In daily life, it acts like a financial air traffic controller: if your rent is due in four days but a client payment is likely in six, it shows the safest path through the gap and tells you what to do today. A user could open it after a shift and see that buying groceries now is fine, but a streaming subscription should wait 48 hours, or it could warn a rideshare driver that three small purchases this week would trigger a risky balance dip next Tuesday. What makes it unique is that it models stress and timing, not just totals, so it focuses on preventing the moment when a person feels forced to choose between paying a bill and covering basics. It blends forecasting, behavior nudges, and flexible bill planning into one experience designed for real-life volatility rather than idealized budgets.",
+    "features": [
+      "The app builds a day-by-day cash-flow map that predicts when your balance will become uncomfortable, helping you avoid overdrafts before they happen.",
+      "It lets users tag bills and expenses as flexible, semi-flexible, or fixed, so the app can suggest realistic timing changes instead of generic budget cuts.",
+      "It sends micro-actions such as 'pause this purchase until Thursday' or 'move $18 to rent protection,' which makes good financial decisions easier to act on immediately.",
+      "It uses income likelihood forecasting for gig workers and freelancers, so upcoming payments are weighed by probability instead of assumed to arrive on time.",
+      "It offers a 'calm plan' mode that converts a stressful week into a short list of priority actions, reducing decision fatigue when money feels tight."
+    ],
+    "audience": "Adults ages 22-45 who have variable income, tight cash flow, or multiple due dates spread throughout the month. It is especially useful for freelancers, gig workers, hourly employees, single parents, and anyone who has ever been surprised by a bill hitting at the wrong time.",
+    "category": "personal finance",
+    "useCases": [
+      "Maya just got home from a long delivery shift and wants to know whether she can safely buy groceries tonight without risking her phone bill on Friday. She opens the app and sees a clear warning plus a suggestion to move a small amount into a bill buffer.",
+      "Andre is a freelance designer waiting on two client invoices and needs to decide whether to accept a last-minute weekend trip with friends. The app shows his likely balance path and tells him which expense to delay so he can still cover rent.",
+      "Janelle is a single mom staring at three different due dates and feeling overwhelmed before bedtime. She opens the app's calm plan mode, which turns the week into a simple action list and removes the guesswork from her money decisions."
+    ]
+  },
+  {
+    "folder": "2026-03-20-balance-bloom",
+    "appName": "Balance Bloom",
+    "tagline": "Money habits that grow with your life.",
+    "designSystem": {
+      "primaryColor": "#2FD98C",
+      "secondaryColor": "#F5C030",
+      "backgroundColor": "#06101C",
+      "accentColor": "#9A78F0",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Dark glassmorphic finance app with organic growth metaphors. Deep navy backgrounds, mint-green primary for growth/success, amber-gold for urgency, soft purple for premium moments. Circular progress rings (petals), timeline-style life event maps, and micro-animated bar charts convey financial health as a living ecosystem. Rounded corners (18-22px cards, 52px phone frame) and subtle gradient overlays create depth without clutter."
+    },
+    "screens": [
+      "Garden \u2014 Home dashboard with protected balance card, urgency nudge banner, and 2-column petal grid showing circular progress rings for each savings goal",
+      "Life Map \u2014 Timeline view of upcoming life events grouped by urgency (Urgent / Soon / Growing) with funding progress bars and daily savings requirements",
+      "Petals \u2014 Garden overview with stats row, Active/Completed tabs, detailed list of all savings goals with sub-goal breakdowns accessible via bottom sheet modal",
+      "Insights \u2014 Bloom Score ring (72/100), 6-month savings velocity bar chart, monthly snapshot stats, and AI-predicted irregular expenses with confidence indicators"
+    ],
+    "description": "Balance Bloom is a personal finance app that turns irregular life expenses into a living, visual money plan instead of a rigid monthly budget. It solves the common problem of people overspending because they forget about things like birthdays, travel, school fees, vet visits, car repairs, or holiday shopping until they suddenly hit. The app learns from your transactions and calendar to predict upcoming expenses, then creates tiny \"petals\" of savings goals that grow over time, so users can see exactly what each small transfer is preparing for. In daily life, it nudges you with context-aware prompts like \"Your niece\u2019s birthday is in 3 weeks\" or \"Your tires are aging faster than expected,\" helping you move money before the surprise arrives. For example, if you book flights for a wedding, it can automatically spin up related petals for gift spending, outfit costs, and ride-share budgets so the whole event stays manageable. What makes it unique is that it treats finances like a connected ecosystem of life events rather than isolated categories, using gentle planning visuals, timing predictions, and automatic micro-reallocations to reduce financial stress without forcing users into spreadsheet-style budgeting.",
+    "features": [
+      "The app reads spending patterns and calendar events to predict irregular expenses before they happen, so users can prepare for real life instead of reacting to surprises.",
+      "It creates event-based savings petals that automatically collect small amounts over time for specific goals like weddings, pet care, or annual subscriptions, which makes saving feel manageable and visible.",
+      "It sends context-aware reminders tied to upcoming life moments, helping users make decisions when they are most relevant, such as setting aside money before a trip or holiday.",
+      "It can reassign leftover money from completed goals into the next most urgent expense, preventing savings from sitting idle while other predictable costs are still uncovered.",
+      "It shows a simple life-season map that groups expenses by event type and urgency, making it easier to understand where money is going and what financial pressure is coming next."
+    ],
+    "audience": "Young professionals, freelancers, and families with irregular or event-driven expenses who struggle with traditional budgets. It is especially useful for people in their 20s to 40s juggling variable income, social obligations, and recurring but unpredictable life costs.",
+    "category": "personal finance",
+    "useCases": [
+      "Sarah just finished a stressful meeting and remembers her sister\u2019s baby shower is coming up next month. She opens Balance Bloom to see a gift petal, travel costs, and meal spending already projected, then moves a small amount from discretionary spending so the event won\u2019t derail her budget.",
+      "Marcus is a freelance designer whose income changes every week, and he wants to avoid panic when annual insurance and software renewals hit. He opens the app to see which petals need topping up this month and automatically shifts extra income from a strong client payment into those future bills.",
+      "Aisha has two kids, a vacation planned, and a car that may need maintenance soon. She opens Balance Bloom to check the life-season map, then uses it to decide whether to delay the trip booking or increase her car-repair petal so she does not get caught off guard."
+    ]
+  },
+  {
     "folder": "2026-03-19-lesson-lens",
     "appName": "Lesson Lens",
     "tagline": "Turn daily moments into instant learning.",

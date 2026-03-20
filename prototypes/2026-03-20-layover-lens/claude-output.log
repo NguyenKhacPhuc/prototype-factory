@@ -1,0 +1,14 @@
+The Layover Lens prototype is ready. Here's what was built:
+
+**4 fully interactive screens:**
+
+- **Now (Home)** — Live countdown timer (2h 15m, ticking in real-time), flight status badge, weather/visa/luggage condition pills, a stress mode toggle with animation, and quick-action buttons
+- **Plan** — Visual timeline with tap-to-complete steps. Two modes: full experience (hawker + skyline + MRT) vs. stress mode (coffee + butterfly garden). Shows departure buffer warning
+- **Explore** — Category-filtered nearby places with open/closed status, travel time, ratings, and luggage-friendly tags. Time constraint banner shows reachable spots only
+- **Profile** — Luggage type selector, 4 preference toggles, past layover history with ratings
+
+**Design details:**
+- Deep navy (`#080D1A`) with `#3B82F6` primary and `#F59E0B` amber accents
+- Inter + Syne fonts, Dynamic Island notch, live clock in status bar
+- Stress mode changes the entire plan content (not just UI) when toggled
+- Ping animation on the live conditions banner, slide-up screen transitions

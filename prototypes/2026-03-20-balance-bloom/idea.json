@@ -1,0 +1,19 @@
+{
+  "name": "Balance Bloom",
+  "tagline": "Money habits that grow with your life.",
+  "description": "Balance Bloom is a personal finance app that turns irregular life expenses into a living, visual money plan instead of a rigid monthly budget. It solves the common problem of people overspending because they forget about things like birthdays, travel, school fees, vet visits, car repairs, or holiday shopping until they suddenly hit. The app learns from your transactions and calendar to predict upcoming expenses, then creates tiny \"petals\" of savings goals that grow over time, so users can see exactly what each small transfer is preparing for. In daily life, it nudges you with context-aware prompts like \"Your niece\u2019s birthday is in 3 weeks\" or \"Your tires are aging faster than expected,\" helping you move money before the surprise arrives. For example, if you book flights for a wedding, it can automatically spin up related petals for gift spending, outfit costs, and ride-share budgets so the whole event stays manageable. What makes it unique is that it treats finances like a connected ecosystem of life events rather than isolated categories, using gentle planning visuals, timing predictions, and automatic micro-reallocations to reduce financial stress without forcing users into spreadsheet-style budgeting.",
+  "features": [
+    "The app reads spending patterns and calendar events to predict irregular expenses before they happen, so users can prepare for real life instead of reacting to surprises.",
+    "It creates event-based savings petals that automatically collect small amounts over time for specific goals like weddings, pet care, or annual subscriptions, which makes saving feel manageable and visible.",
+    "It sends context-aware reminders tied to upcoming life moments, helping users make decisions when they are most relevant, such as setting aside money before a trip or holiday.",
+    "It can reassign leftover money from completed goals into the next most urgent expense, preventing savings from sitting idle while other predictable costs are still uncovered.",
+    "It shows a simple life-season map that groups expenses by event type and urgency, making it easier to understand where money is going and what financial pressure is coming next."
+  ],
+  "audience": "Young professionals, freelancers, and families with irregular or event-driven expenses who struggle with traditional budgets. It is especially useful for people in their 20s to 40s juggling variable income, social obligations, and recurring but unpredictable life costs.",
+  "category": "personal finance",
+  "useCases": [
+    "Sarah just finished a stressful meeting and remembers her sister\u2019s baby shower is coming up next month. She opens Balance Bloom to see a gift petal, travel costs, and meal spending already projected, then moves a small amount from discretionary spending so the event won\u2019t derail her budget.",
+    "Marcus is a freelance designer whose income changes every week, and he wants to avoid panic when annual insurance and software renewals hit. He opens the app to see which petals need topping up this month and automatically shifts extra income from a strong client payment into those future bills.",
+    "Aisha has two kids, a vacation planned, and a car that may need maintenance soon. She opens Balance Bloom to check the life-season map, then uses it to decide whether to delay the trip booking or increase her car-repair petal so she does not get caught off guard."
+  ]
+}

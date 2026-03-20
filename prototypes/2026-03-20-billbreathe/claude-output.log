@@ -1,0 +1,15 @@
+The BillBreathe prototype is complete. Here's what was built:
+
+---
+
+**BillBreathe** — 5 fully interactive screens:
+
+| Screen | What it does |
+|--------|-------------|
+| **Home** | Balance card with live mini chart, warning banner ("tight spot in 5 days"), 3 tappable micro-actions, upcoming bills preview |
+| **Forecast** | Full 14-day SVG cash flow chart with colored risk zones (safe/tight/risk), income predictions with probability bars, key date timeline |
+| **Bills** | Filterable bill list (All/Fixed/Semi/Flex), paid toggle per bill, urgency warnings for bills overlapping the risk window |
+| **Calm Plan** | Breathing mode toggle with pulse animation, 5 prioritized actions with a progress bar, expected outcome summary |
+| **Profile** | Income sources with linked/manual status, toggle settings |
+
+**Design system:** Dark navy (#070D1A) with teal (#14B8A6) as primary calm color, semantic amber/red/green zones for financial stress levels, Inter 800–900 weight for numbers to convey confidence.

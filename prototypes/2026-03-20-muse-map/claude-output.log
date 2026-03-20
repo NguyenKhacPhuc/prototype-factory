@@ -1,0 +1,13 @@
+Done. The **Muse Map** prototype is live at `prototypes/2026-03-20-muse-map/preview.html`.
+
+**What's inside:**
+
+- **Garden** — Floating idea clusters on a dark ambient canvas (5 clusters: Café Mural Series, Novel Fragment Pool, Product Insight Loop, Morning Walk Sparks, Sound & Texture). Tap a cluster to drill into its cards. Tap a card to see detail + AI-suggested connections.
+
+- **Capture** — 4-mode switcher (Text / Voice / Photo / Location). Voice mode shows a live waveform recorder with timer. Photo mode has a camera upload zone. Location shows a detected place card. Cluster context tagging + Muse prompt.
+
+- **Discover** — Weekly synthesis card with 34-capture count, creative collision detector with animated match-strength bars, suggested next steps, and a recurring themes chart.
+
+- **Profile** — User stats, 91-day capture activity heatmap (purple intensity), settings rows for reminders, synthesis schedule, and export.
+
+**Design system:** Deep cosmic `#080612` background, violet `#7C3AED` primary, amber `#F59E0B` secondary, Inter + Playfair Display serif for that artisan notebook feel.

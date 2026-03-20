@@ -1,0 +1,19 @@
+{
+  "name": "DriftSync",
+  "tagline": "Turn scattered tasks into calm momentum.",
+  "description": "DriftSync is a productivity app that detects the small, unfinished fragments of your day\u2014half-written texts, forgotten errands, unread replies, and drifting commitments\u2014and turns them into a calm, prioritized action stream. It solves the common problem of mental clutter, where people waste energy remembering what they meant to do instead of actually doing it. The app works by letting users quickly capture loose ends through voice, text, screenshots, and calendar context, then automatically groups them by location, time, urgency, and effort. In daily life, it helps someone leave the grocery store with a complete errand list, reply to a coworker at the right moment, or remember to submit a reimbursement after a meeting without relying on memory alone. A unique feature is its \u201cmoment matching\u201d engine, which notices when you have a spare 3 minutes, a quiet commute, or are already in a relevant context and surfaces the best micro-task to complete. Unlike traditional to-do apps that simply store tasks, DriftSync focuses on rescuing unfinished thoughts and attaching them to the exact moment they are easiest to finish. This makes productivity feel less like managing a list and more like clearing friction from real life.",
+  "features": [
+    "Loose ends can be captured from voice, text, screenshots, or copied content in seconds, so users never have to fully stop what they are doing to remember a task later.",
+    "The app automatically clusters forgotten items into practical groups like 'reply later,' 'buy on next outing,' and 'do when home,' which reduces decision fatigue and makes the next step obvious.",
+    "A moment-matching engine predicts short windows of availability and suggests tasks that fit the user's current context, helping them make progress during tiny pockets of time.",
+    "Location-aware nudges surface reminders only when they are relevant, such as prompting a pharmacy pickup when the user is near the store instead of at random times.",
+    "A daily 'unfinished business' digest summarizes the most important loose ends into a short, calm checklist, giving users closure without overwhelming them with an endless task list."
+  ],
+  "audience": "Busy professionals, remote workers, students, and parents ages 18-45 who juggle constant interruptions and often rely on memory to track small obligations. It is especially useful for people who feel mentally overloaded by many tiny tasks rather than one large project.",
+  "category": "productivity",
+  "useCases": [
+    "Sarah just finished a stressful meeting and remembered she promised to send one file, update her notes, and book a room for next week. She opens DriftSync, snaps a photo of the whiteboard, and lets the app turn those scattered obligations into a prioritized follow-up plan.",
+    "Marcus is rushing through errands with only ten minutes before picking up his kids, and he wants to use that gap wisely. DriftSync spots that he has a short free window nearby and suggests the one task that fits, like confirming a shipment or replying to a quick email.",
+    "Leila is on her commute home when she remembers she needs to submit a reimbursement, buy printer ink, and email a landlord. She adds all three in one voice note, and DriftSync schedules each task for the most logical time and place so she can finish them without keeping them in her head."
+  ]
+}

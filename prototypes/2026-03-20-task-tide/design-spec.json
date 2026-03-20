@@ -1,0 +1,20 @@
+{
+  "appName": "Task Tide",
+  "tagline": "Turn chaos into calm actions.",
+  "designSystem": {
+    "primaryColor": "#38BDF8",
+    "secondaryColor": "#34D399",
+    "backgroundColor": "#080D1A",
+    "accentColor": "#A78BFA",
+    "fontFamily": "DM Sans",
+    "monoFont": "DM Mono",
+    "style": "Dark ocean-inspired UI with deep navy backgrounds, sky-blue and emerald accents, wave-themed micro-animations, and a calm yet purposeful aesthetic designed to reduce cognitive load"
+  },
+  "screens": [
+    "Tide (Home) - Dashboard with tide meter showing interruption level, daily stats, recent interruptions with urgency indicators, and quick action buttons",
+    "Capture - Multi-mode input (type/voice/photo) for fast thought dumping, recent captures list with sort status, success feedback animation",
+    "Recovery Mode - 3-step guided prompts (what were you doing / what interrupted / what counts as progress) with suggestion chips, progress bar, and auto-generated restart plan",
+    "Actions - Filtered task list (Now/Waiting/Later) with effort tags, context icons, time estimates, and tap-to-complete interactions",
+    "Schedule - Reality-aware timeline with energy curve visualization, color-coded time blocks by type, and current-block highlight"
+  ]
+}

@@ -1,0 +1,13 @@
+The Pulse Path prototype is ready. Here's what was built:
+
+**5 fully interactive screens:**
+- **Home** — Readiness score ring (SVG), adaptive workout recommendation card with color-coded intensity, weekly stats grid, and recovery alert
+- **Check-in** — 4-step morning readiness scan (sleep, soreness, mood, energy) with progress bar and result summary screen
+- **Workout** — Live countdown timer with start/pause/reset, exercise list with completion checkboxes, workout metadata
+- **Journal** — Detected body pattern cards with progress bars, 7-day readiness bar chart (color-coded), daily log entries
+- **Profile** — Stats grid, animated toggle switches for settings, profile management menu
+
+**Design system:**
+- Dark navy background (`#080C14`) with teal primary (`#00D4AA`), coral alerts (`#FF6B35`), indigo accent (`#6366F1`)
+- Space Grotesk typography via Google Fonts
+- Readiness score drives everything — check-in changes the workout recommendation dynamically

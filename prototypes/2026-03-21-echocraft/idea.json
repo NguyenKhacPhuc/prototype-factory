@@ -1,0 +1,19 @@
+{
+  "name": "EchoCraft",
+  "tagline": "Turn moments into made-from-life ideas.",
+  "description": "EchoCraft is a mobile creative workspace that transforms everyday sounds, photos, voice notes, and location cues into visual story prompts, mood boards, and concept drafts. It solves the common problem of creative block by helping people capture raw inspiration the instant it appears, then organizing those fragments into usable creative direction instead of leaving them buried in camera rolls and memo apps. A commuter might record a subway rhythm, snap a neon-lit street corner, and tag it as \"tension\" to generate a poster palette or writing prompt for later. A small business owner could document a store window, a customer quote, and a product texture to instantly build a campaign mood board for a seasonal launch. The app is unique because it does not simply store inspiration; it interprets sensory inputs as creative building blocks and combines them into structured outputs that are ready to use. Unlike generic note-taking or mood-board apps, EchoCraft bridges the gap between real-world observation and finished concept development, making creativity faster, more personal, and less dependent on starting from scratch.",
+  "features": [
+    "The app converts voice, image, and ambient sound clips into tagged inspiration cards, making it easy to save fleeting ideas before they disappear.",
+    "It analyzes saved material into themes, colors, textures, and emotions, which helps users see patterns across scattered moments of inspiration.",
+    "It generates editable creative prompts, brief concept outlines, and mood boards from selected cards, so users can move from capture to creation in seconds.",
+    "It includes a daily \"spark trail\" that resurfaced forgotten clips based on context, reminding users of ideas they recorded when they are most relevant again.",
+    "It supports collaborative boards for sharing raw inspiration with teammates or clients, which matters because creative work is often better when everyone builds from the same source material."
+  ],
+  "audience": "Designed for writers, designers, marketers, content creators, and founders ages 18-45 who regularly need fresh ideas but collect inspiration in fragmented, hard-to-reuse ways. It is especially useful for people who are visually or emotionally driven and often notice concepts in everyday environments.",
+  "category": "creative tools",
+  "useCases": [
+    "Maya just got off a crowded train and heard a rhythmic announcement, saw reflective ad panels, and felt the energy of the commute, so she opens EchoCraft to turn those fragments into a moody poem prompt for her newsletter.",
+    "Andre is planning a launch campaign for a boutique coffee brand, and after noticing a wooden storefront, a handwritten sign, and the smell of roasted beans, he saves them into EchoCraft to generate a rustic visual direction for the team.",
+    "Lina is an illustrator who suddenly spots a dramatic sky during lunch, records its sound with wind in the trees, and uses the app to transform the moment into a color palette and sketch idea before the feeling fades."
+  ]
+}

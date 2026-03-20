@@ -1,0 +1,19 @@
+{
+  "name": "Mood Mosaic",
+  "tagline": "Turn fleeting feelings into visual ideas.",
+  "description": "Mood Mosaic helps people transform messy emotions, vague inspirations, and half-formed thoughts into clear visual direction boards they can actually use. Instead of asking users to search endlessly for the \u201cright\u201d aesthetic, the app starts with a simple prompt like a feeling, a memory, a deadline, or a conversation and turns it into a living collage of colors, textures, shapes, reference prompts, and mood cues. This solves a real problem for creatives and everyday planners alike: it is hard to articulate an idea when you only have an emotional starting point. In daily life, it can help a freelance designer define a client direction in minutes, help a writer capture the atmosphere of a scene, or help someone plan a room makeover based on the feeling they want at home. Users can feed it a voice note after a walk, a photo from the street, or a stressful event from work, and the app builds a visual concept that evolves as more context is added. What makes it unique is that it behaves like a creative translator rather than a content generator, preserving the user's intent while making abstract feelings actionable.",
+  "features": [
+    "The app converts voice notes, short texts, and photos into an editable visual mood board so users can start from whatever they have in the moment.",
+    "It detects emotional tone and recommends colors, forms, and image styles that match the user\u2019s intent, which helps turn vague feelings into usable creative direction.",
+    "Users can pin individual elements with labels like 'calm but premium' or 'messy but warm,' making the board a practical tool for communicating ideas to others.",
+    "The app generates multiple creative interpretations of the same input so users can compare directions quickly instead of getting stuck on a single aesthetic.",
+    "It exports polished mood packs for presentations, home projects, writing scenes, or brand explorations, which makes the output useful beyond inspiration.",
+    "audience"
+  ],
+  "category": "creative tools",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to redesign her home office, so she opens the app, speaks her mood aloud, and gets a calming board with soft neutrals, rounded shapes, and lighting ideas she can actually shop for.",
+    "Jamal is a freelance brand designer and needs to show a client three possible visual directions before lunch, so he drops in a few product photos and the app turns them into distinct, presentation-ready mood concepts.",
+    "Mina is writing a short film and can only describe the scene as 'lonely but beautiful,' so she uses the app to build a visual atmosphere that helps her keep the tone consistent while drafting."
+  ]
+}

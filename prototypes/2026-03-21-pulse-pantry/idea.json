@@ -1,0 +1,19 @@
+{
+  "name": "Pulse Pantry",
+  "tagline": "Turn meals into recovery.",
+  "description": "Pulse Pantry helps people understand how their food, stress, sleep, and movement are affecting their energy, recovery, and overall fitness in everyday life. Instead of just counting calories or steps, it uses quick meal logging, wearable data, and simple context prompts to identify patterns like why you feel sluggish after lunch, why your evening workouts underperform, or which breakfast keeps your focus steady. The app solves a real problem for busy users who want better health decisions but do not have time for complicated nutrition tracking or vague wellness advice. For example, it can suggest a post-run snack when your heart rate recovery is slow, recommend a lighter lunch before an afternoon meeting, or flag that a heavy meal is affecting sleep quality before your next workout. Its unique twist is that it translates your daily routine into recovery-aware recommendations, so users get practical guidance tied to how they actually feel and perform. Over time, Pulse Pantry builds a personalized \u201cenergy map\u201d that shows which food and habit combinations help you stay strong, focused, and consistent without strict dieting.",
+  "features": [
+    "The app creates a daily energy score by combining meals, sleep, stress, movement, and wearable recovery data, so users can see what is helping or hurting their body in one place.",
+    "It offers instant meal-to-recovery suggestions after you log food, helping you decide whether you need hydration, protein, or a lighter next meal based on your recent activity.",
+    "It learns your personal patterns over time and highlights specific triggers, such as afternoon crashes after certain lunches or poor sleep after late intense workouts.",
+    "It provides context-aware nudges before key moments in the day, like recommending a pre-commute snack, a walking break after a large meal, or a recovery dinner after training.",
+    "It turns insights into simple action plans, giving users small habit changes they can follow without calorie counting, macro obsession, or complicated tracking."
+  ],
+  "audience": "Busy adults ages 22-45 who want practical fitness and nutrition guidance without heavy manual tracking. It is especially useful for gym-goers, runners, remote workers, and people trying to manage energy, recovery, and consistency around demanding schedules.",
+  "category": "health & fitness",
+  "useCases": [
+    "Sarah just finished a stressful meeting and feels drained before her evening workout, so she opens the app to see whether a quick snack or hydration plan would improve her recovery and performance.",
+    "Jason had a heavy lunch before an afternoon of client calls and keeps getting sleepy, so he checks the app for a pattern and gets a recommendation for a better lunch combo tomorrow.",
+    "Maya is training for a 10K and wants to know why her sleep has been poor, so she uses the app to see whether late meals, intense workouts, or low recovery days are affecting her overnight rest."
+  ]
+}

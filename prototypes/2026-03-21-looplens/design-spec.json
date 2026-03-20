@@ -1,0 +1,19 @@
+{
+  "appName": "LoopLens",
+  "tagline": "See waste before it happens.",
+  "designSystem": {
+    "primaryColor": "#4EBF72",
+    "secondaryColor": "#26C6DA",
+    "backgroundColor": "#0B170B",
+    "accentColor": "#FFB74D",
+    "fontFamily": "Inter",
+    "style": "Dark green eco-tech UI with radial ambient glows, card-based layouts, and organic rounded corners. Nature-inspired color palette contrasting vibrant greens and teals against a near-black forest background. Micro-interactions on scan simulation with progress bars and sweep animation."
+  },
+  "screens": [
+    "Scan — Camera viewfinder with corner brackets, scan sweep animation, and tappable demo item grid",
+    "Result — Full sustainability breakdown with Green Decision Score (0–100), repairability stat, resale value, recyclable info, repair tips, materials breakdown, lifespan banner, and nearby location cards",
+    "Map — Pseudo-map with animated location pins, category filter chips, and a full list of nearby repair/recycle/donate/refill/resell spots",
+    "History — Loop Journal with monthly impact stats (CO₂, items, money), weekly bar chart, and scrollable scan history",
+    "Profile — User card with eco level, monthly impact grid, achievement badges, and interactive preference toggles"
+  ]
+}

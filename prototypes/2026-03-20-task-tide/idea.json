@@ -1,0 +1,19 @@
+{
+  "name": "Task Tide",
+  "tagline": "Turn chaos into calm actions.",
+  "description": "Task Tide is a productivity app that helps people recover from interruptions by transforming messy, fragmented thoughts into the next best action. Instead of making users build perfect to-do lists, it captures half-formed tasks, vague worries, and sudden reminders exactly as they appear, then sorts them into context, urgency, and mental effort. The app solves the common problem of losing focus after meetings, messages, and surprise requests by giving users a fast way to dump thoughts and immediately see what to do next. In daily life, it helps someone leaving a meeting, sitting in traffic, or juggling family logistics quickly convert mental clutter into a realistic plan for the rest of the day. One unique feature is its \u201ccognitive recovery\u201d mode, which uses a short prompt sequence to ask what the user was doing, what got interrupted, and what would count as progress, rather than asking for a complete task setup. Compared with standard task managers, Task Tide is built around interruption resilience and decision relief, making it especially useful for people whose biggest productivity problem is getting back on track. It feels less like a list app and more like a reset button for the mind.",
+  "features": [
+    "Interruption Capture lets users speak, type, or snap a quick note the moment their attention breaks, so nothing gets lost in the shuffle.",
+    "Cognitive Recovery Mode asks three fast questions to reconstruct the interrupted task and identify the smallest meaningful next step, which helps users restart without overwhelm.",
+    "Action Sorting automatically tags items by location, effort, and dependency, making it easy to see what can be done now versus what needs someone else or a later moment.",
+    "Focus Resets generate a 5-minute restart plan after meetings, errands, or notifications, helping users regain momentum instead of spending 20 minutes re-orienting themselves.",
+    "Reality-Aware Scheduling adjusts reminders based on actual time blocks, commute windows, and energy level, so plans stay usable in messy real-world routines."
+  ],
+  "audience": "Busy professionals, students, caregivers, and freelancers aged 18-45 who are constantly interrupted and need a better way to regain focus. It is especially valuable for people with packed calendars, high message volume, or ADHD-like attention challenges.",
+  "category": "productivity",
+  "useCases": [
+    "Sarah just finished a stressful meeting and realizes she promised to send two documents, follow up with a client, and review tomorrow\u2019s deck. She opens Task Tide, dumps the scattered thoughts into one screen, and gets a clean restart plan with the fastest action first.",
+    "Marcus is cooking dinner when his boss sends an urgent voice note, a friend texts about weekend plans, and he suddenly remembers a bill due tomorrow. He captures all three in Task Tide in under a minute, then the app separates immediate tasks from can-wait items so he can finish dinner without mental load.",
+    "Aisha is a college student switching between classes, part-time work, and group project coordination. After each class she uses Task Tide\u2019s recovery prompts to reconnect to what she was doing and see exactly what can be handled in her 15-minute gaps."
+  ]
+}

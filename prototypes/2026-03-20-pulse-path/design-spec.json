@@ -1,0 +1,20 @@
+{
+  "appName": "Pulse Path",
+  "tagline": "Train by how your body feels.",
+  "designSystem": {
+    "primaryColor": "#00D4AA",
+    "secondaryColor": "#FF6B35",
+    "backgroundColor": "#080C14",
+    "accentColor": "#6366F1",
+    "cardColor": "#111827",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark fitness UI with glassmorphism cards, teal primary accents, coral recovery alerts, and indigo accent gradients. Clean data visualization with radial readiness score, bar charts, and adaptive color coding based on performance state."
+  },
+  "screens": [
+    "home",
+    "checkin",
+    "workout",
+    "journal",
+    "profile"
+  ]
+}

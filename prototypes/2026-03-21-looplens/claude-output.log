@@ -1,0 +1,11 @@
+Both files are written. Here's what the prototype includes:
+
+**5 screens with full interactivity:**
+
+- **Scan** — Camera viewfinder with corner brackets + sweep line animation. Tap any of the 4 demo items (Levi's jeans, Vitamix blender, cracked phone case, North Face jacket) to trigger a simulated scan with progress bar
+- **Result** — Full sustainability breakdown showing the Green Decision Score (0–100 with color coding), repairability %, resale value, recyclable info, repair pathway tips, materials, expected lifespan, and 2 nearby location cards. Save button with heart toggle
+- **Map** — Pseudo-map with glowing pins, category filter chips (All/Repair/Recycle/Donate/Refill/Resell), and detailed location list with type-color coding
+- **History** — Impact stats (CO₂, items, savings), weekly bar chart, scrollable scan history with scores
+- **Profile** — Eco avatar + level, 2×2 monthly impact grid, achievement badges (locked/unlocked), and functional toggle switches
+
+**Design system:** Dark forest green (`#0B170B`) + vibrant primary green (`#4EBF72`) + teal + amber accents, Inter font, radial ambient glows, 18–22px border radii throughout.

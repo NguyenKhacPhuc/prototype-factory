@@ -1,0 +1,18 @@
+{
+  "appName": "LoopLedger",
+  "tagline": "Turn everyday waste into local reuse",
+  "designSystem": {
+    "primaryColor": "#3A9E5C",
+    "secondaryColor": "#F4A623",
+    "backgroundColor": "#0C1810",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark organic sustainability UI with deep forest greens, warm amber accents, card-based layout, rounded corners, subtle glow effects, and data-rich impact displays"
+  },
+  "screens": [
+    "Home - Live neighborhood feed with drop window alerts, quick stats, and tappable item cards",
+    "Nearby - Interactive map view of local reuse hubs with filter tabs and open/close status",
+    "List Item - AI-powered scan flow with category selection, item identification, and ranked reuse suggestions",
+    "Impact Ledger - Environmental stats dashboard with bar chart, achievement badges, and period toggle",
+    "Profile - User overview, listing history with status tracking, and app settings"
+  ]
+}

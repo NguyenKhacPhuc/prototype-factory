@@ -1,0 +1,26 @@
+{
+  "appName": "EchoCraft",
+  "tagline": "Turn moments into made-from-life ideas.",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#08080F",
+    "accentColors": ["#06B6D4", "#F43F5E", "#10B981"],
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark creative studio aesthetic with violet-led palette. Deep near-black backgrounds with vivid accent layers. Card-based inspiration feed with gradient visual headers. Micro-interaction focus with press animations, toggles, and expandable sections. Clean typographic hierarchy with 800-weight display headings and muted metadata labels."
+  },
+  "screens": [
+    "Echo Feed — Scrollable inspiration card feed with quick-capture strip, filter tags, multi-select for board generation, and a live CTA to generate boards from selected cards",
+    "Capture — Multi-modal input screen with photo/voice/ambient/place modes, live waveform visualization, mood tag selector, and one-tap save with AI auto-tagging indicator",
+    "Boards — Personal and shared mood board gallery with generated AI concept copy, extracted color palettes, writing prompts, and drill-down board detail view with source echo list",
+    "Spark Trail — Daily resurface feed of forgotten captures with context-aware reasons, streak tracker, expandable cards with add-to-board and view actions, and today's context summary card",
+    "Profile — User stats grid, top themes visualization, preference toggles (notifications, AI tagging), and settings list for subscription and data management"
+  ],
+  "components": {
+    "dynamicIsland": true,
+    "statusBar": true,
+    "bottomNav": "5-tab with floating Capture CTA button",
+    "modals": ["Card Detail sheet", "Generate Output modal with progress state"],
+    "microInteractions": ["Button press scale", "Tag selection toggle", "Recording waveform animation", "Spark card expand/collapse", "Settings toggle slide"]
+  }
+}

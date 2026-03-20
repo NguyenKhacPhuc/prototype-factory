@@ -1,0 +1,21 @@
+Done. Here's what was built for **MoodSketch**:
+
+---
+
+**Files created:**
+- `prototypes/2026-03-21-moodsketch/App.tsx` — Full interactive prototype
+- `prototypes/2026-03-21-moodsketch/preview.html` — Babel runner
+- `prototypes/2026-03-21-moodsketch/design-spec.json` — Design tokens
+
+---
+
+**4 screens with real interactions:**
+
+| Screen | What it does |
+|--------|-------------|
+| **Capture** | 4 input modes (Mood slider, Voice recorder, Color picker, Photo) — tap the mode chips to switch, drag the slider, pick colors, save triggers a notification |
+| **Library** | Grid of themed collections → tap one to filter seeds → tap any card for a full detail modal with "Use Prompt" and format selectors |
+| **Remix** | Select 2–3 past seeds → tap "Remix" → generates a combined creative prompt; result can be saved as a new seed |
+| **Insights** | Bar chart for weekly mood tone, color palette breakdown, theme frequency bars, and personal profile card |
+
+**Design language:** Deep dark base (`#0F0D14`) with soft lavender primary (`#B49FCC`), warm coral accent (`#E8956D`), DM Serif Display for emotional headings, DM Sans for UI text.

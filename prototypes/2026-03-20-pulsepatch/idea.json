@@ -1,0 +1,19 @@
+{
+  "name": "PulsePatch",
+  "tagline": "Turn stress into a personalized recovery plan.",
+  "description": "PulsePatch is a recovery-first fitness app that detects when your body is under strain and tells you exactly what to do next. It combines quick self-check-ins, wearable data, and context from your calendar to spot hidden burnout patterns like \u201clate-night workout plus poor sleep plus back-to-back meetings.\u201d Instead of generic workout goals, it recommends micro-recovery actions such as a 7-minute mobility reset, a breathing drill timed to your heart rate, or a hydration and protein reminder after intense activity. In daily life, it helps users avoid the trap of pushing harder when their body actually needs restoration, which is a common cause of stalled progress, fatigue, and injury. A runner might get a prompt to swap a run for a knee-saving recovery circuit after detecting unusual strain, while an office worker could receive a midday energy rescue plan after prolonged sitting and stress. What makes it unique is that it treats recovery as a dynamic, data-driven habit rather than an afterthought, translating bodily signals into immediate, practical actions instead of abstract wellness advice.",
+  "features": [
+    "Adaptive strain tracking combines wearable metrics, sleep quality, and user mood inputs to identify when the body is trending toward overload, because catching fatigue early helps prevent setbacks.",
+    "Micro-recovery prescriptions generate short, specific interventions like stretching sequences, hydration targets, or breathing exercises, so users always know the best next step in under ten minutes.",
+    "Calendar-aware coaching scans meetings, workouts, and travel to predict high-stress periods and suggests pre-emptive recovery windows before the day becomes too draining.",
+    "Injury-risk nudges flag patterns such as repeated heavy leg days or consecutive poor-sleep nights, helping users reduce the chance of overtraining and minor injuries.",
+    "Recovery streaks and reflection logs show which habits actually improve energy, soreness, and mood over time, making the app feel personalized rather than generic."
+  ],
+  "audience": "Busy professionals, amateur athletes, and fitness-focused adults ages 20\u201345 who struggle with balancing training, work stress, and recovery. It is especially useful for people who wear fitness trackers but don\u2019t know how to act on the data.",
+  "category": "health & fitness",
+  "useCases": [
+    "Sarah just finished a stressful meeting marathon and is tempted to hit a hard workout, but the app notices poor sleep and elevated stress and suggests a short recovery flow instead.",
+    "Marcus trained legs two days in a row and now his step count and heart rate patterns look off, so he opens the app to get a knee-friendly alternative and a soreness-reduction routine.",
+    "Leila has a long flight followed by an evening run, and the app warns her that dehydration and travel fatigue will hurt performance, so it recommends a hydration plan and a lower-impact session."
+  ]
+}

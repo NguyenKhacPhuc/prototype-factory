@@ -1,0 +1,19 @@
+{
+  "name": "CashEcho",
+  "tagline": "Turn spending into smarter habits.",
+  "description": "CashEcho is a mobile app that helps people understand not just what they spend, but why they spend it, by linking purchases to moods, contexts, and recurring life triggers. Instead of only showing charts and categories, it gently asks for a one-tap emotion check-in after risky moments like late nights, commuting, or stressful workdays, then maps those emotional patterns to spending habits over time. The app solves a common but overlooked problem: many people know their budget numbers, but still keep making the same impulsive purchases when they are tired, anxious, lonely, or celebrating. In daily life, CashEcho can alert someone that they tend to order expensive delivery after 9 PM on Tuesdays, or that weekend scrolling leads to boutique shopping app splurges after stressful meetings. It also offers \u201ctrigger shields,\u201d such as cooling-off timers, alternate routines, or pre-written low-cost replacement actions when a pattern is about to repeat. What makes it unique is that it treats personal finance like behavioral coaching, not just expense tracking, turning invisible emotional spending loops into actionable, human-centered insights.",
+  "features": [
+    "The app tags purchases with optional mood and context check-ins so users can see which emotions and situations repeatedly lead to overspending.",
+    "It detects personal spending triggers, such as paydays, late-night browsing, or post-work stress, and sends timely nudges before a likely impulse purchase happens.",
+    "It creates custom replacement routines like 'take a 10-minute walk' or 'buy tomorrow instead' when it recognizes a familiar spending pattern in progress.",
+    "It summarizes emotional spending trends in a private timeline that shows how habits change across weeks, pay cycles, and life events, making patterns easier to understand.",
+    "It turns recurring leaks into small goals, showing users exactly how much they could save by interrupting one trigger per week and translating that into concrete rewards."
+  ],
+  "audience": "Young professionals, freelancers, and busy adults ages 22\u201340 who already use budgeting apps but still struggle with impulse spending driven by stress or routine. It is especially useful for people who want better money habits without feeling shamed or overwhelmed by strict budgets.",
+  "category": "personal finance",
+  "useCases": [
+    "Sarah just finished a stressful meeting and notices she usually opens food delivery apps right after work. She opens CashEcho, sees her 'stress-to-snack' pattern, and uses a one-tap substitute plan to delay the order and make a cheaper meal at home instead.",
+    "Marcus is on his commute home and feels the familiar urge to browse sneaker drops on payday. CashEcho recognizes his payday-triggered shopping window and reminds him that this habit has cost him over $400 in three months.",
+    "Lena is trying to pay off credit card debt but keeps making tiny comfort purchases after lonely evenings. She opens the app to review her emotional spending timeline, then sets a rule to trigger a cooling-off timer and a low-cost alternative when the same pattern appears again."
+  ]
+}

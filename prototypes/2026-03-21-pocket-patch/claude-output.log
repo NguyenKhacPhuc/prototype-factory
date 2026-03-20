@@ -1,0 +1,10 @@
+Both files written. Here's what the prototype includes:
+
+**5 Screens:**
+- **Home** — Recovery score with count-up animation ($847), urgent alerts with dismiss, behavior cluster cards (streaming/coffee/delivery), top leaks preview
+- **Leaks** — All 7 detected leaks sorted by severity (critical first), expandable detail cards with one-tap patch actions that mark leaks as resolved
+- **Patch** — Checkbox-driven recovery roadmap with progress bar, difficulty tags, savings per action, and auto-patch banner
+- **Insights** — 6-month bar chart trend, habit cluster heatmaps (day-of-week grid), next-month cost forecast
+- **Profile** — Connected bank accounts, animated toggle switches for notifications/auto-scan, impact stats grid
+
+**Design system:** Dark fintech (`#0D0F1A`) with teal primary (`#00D4AA`), purple secondary (`#7C6FFF`), red danger (`#FF4D6D`) for leaks. Inter font, Dynamic Island notch, working bottom nav with red pulse dot on Leaks tab.

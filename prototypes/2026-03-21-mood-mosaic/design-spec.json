@@ -1,0 +1,17 @@
+{
+  "appName": "Mood Mosaic",
+  "tagline": "Turn fleeting feelings into visual ideas.",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#F472B6",
+    "backgroundColor": "#09071A",
+    "fontFamily": "Plus Jakarta Sans, DM Serif Display",
+    "style": "Dark glassmorphism with deep indigo-black base, gradient blobs, soft glow shadows, and organic-meets-geometric aesthetic. Typography pairs a modern geometric sans (Plus Jakarta Sans) with an italic editorial serif (DM Serif Display) for expressive direction names."
+  },
+  "screens": [
+    "Capture — Multi-modal input (text, voice, photo) with suggested prompts and generate button",
+    "Board — Visual mood board with gradient blob visualization, color palette, mood words, textures, form language, and pinnable elements",
+    "Gallery — Saved boards grid with color strip previews, mood tags, and direction labels",
+    "Export — Format picker (Mood Pack, PNG, Palette, PDF) with board preview and share shortcuts"
+  ]
+}

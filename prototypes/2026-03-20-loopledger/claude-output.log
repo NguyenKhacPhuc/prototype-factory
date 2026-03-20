@@ -1,0 +1,11 @@
+Done. Here's what was built:
+
+**LoopLedger prototype** — 5 fully interactive screens:
+
+- **Home** — Live neighborhood feed with drop window alerts, per-item match counts, quick stats row, and tappable cards that open a match detail bottom sheet
+- **Nearby** — Schematic map with animated location pins, filter tabs by hub type (tool libraries, maker spaces, food sharing, repair cafés), and detailed location cards with needs/hours
+- **List Item** — 3-step flow: category quick-select or simulated AI scan with progress bar → item identification card → ranked reuse suggestions with match percentage
+- **Impact Ledger** — Week/Month/All-time toggle, 4 stat tiles with trend indicators, a bar chart, and achievement badges (locked/unlocked states)
+- **Profile** — User card with level system, listing history with status badges (matched/pending/completed), and settings list
+
+**Design system:** Deep forest green (`#0C1810` bg, `#3A9E5C` primary) with warm amber accents, Plus Jakarta Sans typography, card-based dark UI with glow effects on active elements.

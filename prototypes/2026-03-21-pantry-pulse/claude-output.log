@@ -1,0 +1,12 @@
+Both files written. The prototype is ready at `prototypes/2026-03-21-pantry-pulse/App.tsx`.
+
+Here's what's included:
+
+**4 fully interactive screens:**
+
+- **Today (Home)** — Waste reduction stat card (73% less waste / $24 saved), horizontal scroll of expiring ingredients color-coded by urgency (red today, amber tomorrow, green 2-3d), a featured "Tonight's Pick" recipe card with a Start Cooking CTA, an adaptive reminder banner ("Freeze the blueberries now") that can be dismissed, and a this-week meal preview
+- **Pantry** — Stats row (expiring/this week/total), live search input, location filter chips (All / Fridge / Pantry / Freezer), ingredient list sorted by expiry with left-border urgency rails and freshness progress bars
+- **Recipes** — Filter chips (All / Urgent / Easy / Quick), freshness-ranked cards with urgency badges and expiring-ingredient chips; tapping a card opens a full detail view with ingredient checklist and "EXPIRING" badges
+- **Plan** — 7-day horizontal day selector with meal-presence dots, breakfast/lunch/dinner slots for the selected day, empty slot add buttons, shopping list nudge card
+
+**Design system:** Deep forest-green dark theme (`#090E09`), vibrant green primary (`#48C46E`), amber warnings, red urgency, Plus Jakarta Sans typography.

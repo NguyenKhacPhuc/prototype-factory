@@ -1,0 +1,17 @@
+{
+  "appName": "Layover Lens",
+  "tagline": "Turn dead time into smart city moments.",
+  "designSystem": {
+    "primaryColor": "#3B82F6",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#080D1A",
+    "fontFamily": "Inter, Syne",
+    "style": "Dark glass-morphism with deep navy surfaces, vibrant accent colors, and data-dense but calm card layouts optimized for anxious travelers scanning quickly"
+  },
+  "screens": [
+    "Home (Now) — Live layover countdown, flight status, stress mode toggle, weather/visa/luggage conditions, quick action buttons",
+    "Plan — Timeline-based micro-itinerary with step-by-step stops, return buffer warning, navigation CTA, tap to mark steps done",
+    "Explore — Nearby place browser with category filters, real-time travel time, open/closed status, luggage-friendly tags",
+    "Profile — Luggage type selector, preference toggles (stress mode, weather swaps, alerts), past layover history with ratings"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "appName": "Task Tether",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#4F8EF7",
+    "secondary": "#38BDF8",
+    "background": "#0B0F1A",
+    "accent": "#34D399"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

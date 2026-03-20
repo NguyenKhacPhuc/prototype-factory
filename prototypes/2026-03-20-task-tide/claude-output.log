@@ -1,0 +1,10 @@
+Both files written:
+
+**App.tsx** — Full interactive prototype with 5 screens:
+- **Tide** (Home): Animated tide meter showing interruption load, daily stats, quick capture/recover CTAs, recent interruptions with urgency dots
+- **Capture**: Type/Voice/Photo mode switcher, textarea with live feedback, voice recording simulation with waveform animation, recent captures list
+- **Recovery Mode**: 3-step guided sequence with suggestion chips, progress bar, auto-generated 10-minute restart plan
+- **Actions**: Now/Waiting/Later filter tabs, task cards with effort/context/time tags, tap-to-complete with strikethrough
+- **Schedule**: Energy curve chart, scrollable timeline with color-coded blocks by type (focus/meeting/break), current-block pulse indicator
+
+Design: Dark ocean palette (`#080D1A` bg, `#38BDF8` primary, `#34D399` secondary, `#A78BFA` accent), DM Sans + DM Mono fonts, wave animations, micro-interactions on all buttons.

@@ -1,0 +1,15 @@
+All files are in place. The prototype is complete:
+
+**Fridge Alibi** prototype generated at `prototypes/2026-03-20-fridge-alibi/`
+
+**4 screens with full interactivity:**
+
+1. **Fridge** — Live urgency map with a horizontal "Use First" scroll strip (5 critical items highlighted in orange-red), full ingredient list sorted by days remaining, color-coded expiry badges (Today / Soon / This Week / Fresh), alert banner linking directly to Cook screen
+
+2. **Cook** — Meal cards ranked by ingredient match % (96% → 76%), each shows which expiring items it rescues as orange tags, tap into any recipe for full step-by-step view with pantry "patch" items listed, "Start Cooking" CTA
+
+3. **Scan** — 3-mode tab (Camera / Receipt / Manual); camera view with animated scan-line effect that resolves to detected items with confidence scores; receipt mode with past scan history; manual entry with quick-add chips
+
+4. **Insights** — Kitchen Health Score (82/100) with animated bar, monthly savings tracker ($55), weekly breakdown with progress bars, habit analysis cards (favorite meal time, biggest waste risk, best streak)
+
+**Design system:** Dark navy `#09111A` background, neon green `#4ADE80` primary, orange-red `#FF5C35` urgency indicators, Inter font. Open `preview.html` in a local server to view it.

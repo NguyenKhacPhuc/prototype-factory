@@ -1,0 +1,11 @@
+The Pocket Lab prototype is ready at `prototypes/2026-03-21-pocket-lab/`. Here's what was built:
+
+**5 fully interactive screens:**
+
+- **Capture** — Three input modes (Photo/Voice/Text) with mode switcher, recent captures list, and quick text prompts. Tapping a capture navigates to the Learn tab.
+- **Learn** — Full lesson view with a 3-depth switcher (Simple 🌱 / Standard 📚 / Advanced 🔬), analogy callout blocks, key terms, bookmark/like actions, and a CTA to jump to Practice.
+- **Practice** — Quiz challenge with A/B/C/D answers, reveal/explanation mechanic, retry/next flow, 7-day streak tracker, and upcoming spaced repetition reminders.
+- **My Map** — Personal knowledge graph with category filters, expandable topic cards showing subtopics, strength progress bars, and lesson counts.
+- **Profile** — XP level progress, 4 stats, 6 achievements (earned/locked), toggle settings (notifications, dark mode), and adjustable daily goal selector.
+
+**Design system:** Deep space dark theme (`#0A0A14`) with purple primary (`#7C6FFF`), coral secondary (`#FF6B6B`), teal accent (`#4ECDC4`), and gold highlights (`#FFD93D`). Inter + Space Grotesk typography.

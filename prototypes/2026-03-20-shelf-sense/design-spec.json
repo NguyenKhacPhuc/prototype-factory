@@ -1,0 +1,18 @@
+{
+  "appName": "Shelf Sense",
+  "tagline": "Cook from what's about to spoil.",
+  "designSystem": {
+    "primaryColor": "#4ADE80",
+    "secondaryColor": "#FB923C",
+    "backgroundColor": "#0B1A0F",
+    "fontFamily": "Inter",
+    "style": "Dark organic UI with urgency-coded color layers — deep forest green base with red/amber/green traffic-light system for expiry states. Rounded cards, subtle gradients, and micro-interactions reinforce the food rescue theme."
+  },
+  "screens": [
+    "Home — urgency banner, today's rescue recipe hero card, expiring-soon horizontal scroll, weekly stats, alert previews",
+    "Pantry — inventory list sorted by expiry, category filters (All/Expiring/Fridge/Freezer/Pantry), health summary widget, add item FAB",
+    "Recipes — urgency-ranked recipe cards with ingredient match meter, filter by time/appliance, full detail view with step-by-step instructions",
+    "Alerts — grouped rescue notifications (Critical/This Week/Upcoming), dismiss and act actions, cook-now and freeze shortcuts",
+    "Profile — user stats, impact summary, kitchen appliance toggles, cooking skill selector, achievement badges"
+  ]
+}

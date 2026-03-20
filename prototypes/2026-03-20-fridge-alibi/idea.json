@@ -1,0 +1,19 @@
+{
+  "name": "Fridge Alibi",
+  "tagline": "Cook from what\u2019s about to expire.",
+  "description": "Fridge Alibi helps people decide what to cook based on what they already have, but with a twist: it prioritizes ingredients that are closest to spoiling, in awkward quantities, or buried in the back of the fridge. Users scan receipts, snap photos of leftovers, or quickly log groceries, and the app builds a live \"use-first\" kitchen map that updates daily. It solves the common problem of food waste and the daily stress of opening the fridge without a plan, especially when ingredients are incomplete or nearly expired. For example, if you have half a bag of spinach, one lonely lemon, and leftover rotisserie chicken, the app can generate a realistic dinner plan with exact steps and timing. In busy households, it can suggest kid-friendly lunchbox fixes, rescue ingredients before they go bad, and even re-time meal ideas around what\u2019s freshest and what needs immediate attention. What makes it unique is that it acts like a time-sensitive cooking strategist, not just a recipe search engine, optimizing meals around spoilage urgency, portion gaps, and actual household habits.",
+  "features": [
+    "The app automatically ranks ingredients by urgency, so users always know which foods need to be used first before they spoil.",
+    "It turns mixed leftovers and partial ingredients into meal plans with exact portions, which matters because most households don\u2019t have complete recipe ingredients on hand.",
+    "A camera-based fridge scan identifies produce, leftovers, and open containers, saving users from manually entering everything and making the system realistic to maintain.",
+    "It suggests \"patch recipes\" that intelligently fill gaps with common pantry items, helping users cook complete meals from incomplete ingredient sets.",
+    "The app learns household routines and predicts when certain foods will be eaten, which reduces waste by aligning recommendations with actual weekday energy and schedule constraints."
+  ],
+  "audience": "Busy adults, young families, and budget-conscious home cooks ages 22\u201350 who shop regularly but often end up with half-used ingredients and forgotten produce. It is especially useful for people trying to reduce food waste without spending extra time planning meals.",
+  "category": "food & cooking",
+  "useCases": [
+    "Maya gets home after work and sees a nearly wilted bunch of cilantro, leftover rice, and one chicken thigh. She opens the app to find a quick dinner that uses the cilantro tonight instead of letting it go bad.",
+    "Jordan is preparing groceries for a family of four and wants to avoid buying duplicates. He scans the fridge before heading to the store so the app can tell him what he already has and what must be used first this week.",
+    "Priya notices a container of soup in the back of the fridge that she forgot about two days ago. She checks the app, which flags it as urgent and suggests a fast lunch plan before it\u2019s too late."
+  ]
+}

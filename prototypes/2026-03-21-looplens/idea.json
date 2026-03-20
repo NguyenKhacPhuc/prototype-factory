@@ -1,0 +1,19 @@
+{
+  "name": "LoopLens",
+  "tagline": "See waste before it happens.",
+  "description": "LoopLens helps people make smarter buying, repair, and reuse decisions by scanning everyday items and showing their hidden sustainability \"afterlife.\" When you point your camera at a product in a store, at home, or in your trash bin, the app identifies the item, estimates its repairability, resale value, recyclable components, and likely landfill impact, then suggests the best next action. It solves the common problem that people want to act sustainably but lack clear, item-level guidance in the moment they\u2019re deciding whether to buy, keep, fix, donate, or discard something. In daily life, it can help someone compare two similar jackets before purchasing, decide whether a blender is worth repairing, or figure out whether a cracked phone case should go into mixed recycling or e-waste. What makes it unique is its focus on real-time, object-specific decision support rather than broad eco-tips, combining visual recognition with local options like nearby repair cafes, resale drop-offs, refill stations, and municipal recycling rules. The app turns sustainability from an abstract goal into a practical habit by making the greener choice the easiest one at the exact point of action.",
+  "features": [
+    "The camera scanner identifies household and consumer products and instantly explains their repair, reuse, and disposal pathways so users can act correctly in seconds.",
+    "The Green Decision Score compares options like repair versus replace, helping users understand the environmental and financial tradeoff before they spend money.",
+    "The local action map shows nearby repair shops, donation centers, refill stations, and recycling drop-offs matched to the scanned item, which reduces search friction.",
+    "The bin-check assistant verifies whether an item is acceptable in local recycling or compost streams, lowering contamination and increasing the chances that waste is handled properly.",
+    "The purchase lens overlays sustainability information on products in stores and online marketplaces so users can choose durable, low-waste alternatives before buying."
+  ],
+  "audience": "Environmentally conscious consumers, apartment dwellers, students, and young families who want practical sustainability guidance without spending time researching each item. It is especially useful for people in cities who frequently buy secondhand, repair broken goods, or navigate confusing local recycling rules.",
+  "category": "sustainability",
+  "useCases": [
+    "Maya is standing in a home goods aisle deciding between two food containers and wants to know which one will last longer and be easier to recycle later. She scans both and picks the option with the lower waste footprint.",
+    "Dev notices his headphones are crackling after months of use and wonders if they are worth fixing or should be replaced. He scans them, sees a repair cost estimate, and finds a nearby electronics repair shop instead of immediately buying new ones.",
+    "Elena is cleaning out her apartment before moving and has a pile of mixed items she does not know how to dispose of responsibly. She scans each item and gets a step-by-step plan for donation, resale, composting, or local drop-off."
+  ]
+}

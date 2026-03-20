@@ -1,0 +1,16 @@
+No imports or exports — rules compliant. Both files are written.
+
+---
+
+**EchoCraft prototype is ready** at `prototypes/2026-03-21-echocraft/`.
+
+Here's what was built:
+
+**5 Screens:**
+- **Echo Feed** — Scrollable inspiration card feed with type badges (photo/audio/voice), color palette swatches, mood tags, multi-select mode, and a sticky "Generate Board" CTA when 2+ cards are selected
+- **Capture** — Mode switcher (Photo / Voice / Ambient / Sound / Place), live waveform animation with recording timer, mood tag picker, and one-tap save with AI tagging indicator
+- **Boards** — Board gallery with drill-down detail: AI-generated concept copy, extracted color palette strip, writing prompts, and source echo list. Shared/collab boards listed separately with role badges
+- **Spark Trail** — Context-aware resurface feed with expandable cards showing *why* each clip is resurfaced today, a streak tracker, and today's location/weather context card
+- **Profile** — Stats grid (127 echoes, 11-day streak), top themes visualization, notification/AI-tagging toggles, and settings
+
+**Design system:** Deep near-black (`#08080F`) + violet primary (`#8B5CF6`) + amber secondary (`#F59E0B`) + cyan/rose accents. Plus Jakarta Sans 800 display weight headings. All micro-interactions (press scale, tag toggles, expand/collapse, recording waveform, generate modal with loading state) built in.

@@ -1,0 +1,12 @@
+Done. Created:
+
+- **`App.tsx`** — Full interactive prototype with 5 screens:
+  - **Home** — Trigger alert banner, live mood check-in flow (3-step), spending stats grid, tagged transactions
+  - **Triggers** — 4 detected patterns with expandable details, risk badges, annual savings impact
+  - **Timeline** — Emotional vs. planned spending bar chart, mood breakdown by dollar amount, life event tags
+  - **Shields** — 4 behavioral guardrails (delay/routine/replace types), live countdown timer when activated
+  - **Goals** — Savings progress tied to trigger interruptions, claimable reward button
+
+- **`design-spec.json`** — Design system metadata
+
+Color palette: deep navy `#0D0F1A` bg, purple `#7C6FF7` primary, amber `#F5A623` caution, teal `#4ECDC4` success, rose `#FF6B8A` risk — all color-coded to emotional states.

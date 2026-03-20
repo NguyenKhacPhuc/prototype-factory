@@ -1,0 +1,19 @@
+{
+  "name": "Layover Lens",
+  "tagline": "Turn dead time into smart city moments.",
+  "description": "Layover Lens helps travelers make the most of short, unpredictable gaps between flights, trains, and check-ins by building hyper-practical mini itineraries around the exact time they actually have. Instead of generic city guides, it uses your arrival terminal, baggage status, visa constraints, weather, transit speed, and even opening hours to suggest realistic one-to-three-hour experiences you can complete without anxiety. It solves the common problem of feeling stranded during layovers, early hotel arrivals, or long station transfers by turning downtime into low-stress, high-value local experiences. For example, if you land in Singapore with two free hours and carry-on only, the app might recommend a one-stop hawker stall, a nearby skyline viewpoint, and the fastest return route to security. If your baggage is delayed, it can instantly replace shopping-heavy plans with museum stops, public parks, or cafes with storage-friendly seating. What makes it unique is that it optimizes not just for places to visit, but for emotional state, risk tolerance, and schedule volatility, so every recommendation feels doable rather than aspirational. It acts like a travel planner built for real travel friction, not ideal conditions.",
+  "features": [
+    "The app builds time-boxed city plans from live flight, rail, and traffic data so every suggestion fits the minutes you truly have, not the hours you wish you had.",
+    "It adjusts recommendations based on luggage, visa requirements, opening hours, and security wait times to prevent users from choosing experiences they cannot realistically complete.",
+    "It offers 'stress mode' routing that favors simple, low-decision activities like a single cafe stop or a park walk when travelers are tired, anxious, or recovering from delays.",
+    "It creates micro-itineraries with precise departure times, transit instructions, and return buffers so users can explore without constantly checking the clock.",
+    "It swaps plans instantly when conditions change, such as a delayed flight or sudden rain, keeping the trip useful even when the original schedule falls apart."
+  ],
+  "audience": "Frequent flyers, business travelers, digital nomads, and vacationers aged 20-55 who regularly face layovers, transit gaps, or awkward time windows between travel commitments. It is especially useful for people who want to explore a city a little without risking missed connections or adding stress.",
+  "category": "travel",
+  "useCases": [
+    "Sarah just finished a stressful meeting in Chicago and has a 90-minute gap before her train home, so she opens the app to find a nearby bakery, a fast scenic walk, and the exact latest time she needs to leave to catch her platform.",
+    "Omar lands in Dubai with a three-hour layover, no checked bags, and strong jet lag, so he asks for a low-effort plan that includes a quiet cafe, a local snack stop, and a route back that avoids long security lines.",
+    "Mina\u2019s flight gets delayed after she has already checked out of her hotel in Tokyo, so she uses the app to generate a rain-safe plan with luggage storage, one nearby museum, and a transit backup if the delay changes again."
+  ]
+}

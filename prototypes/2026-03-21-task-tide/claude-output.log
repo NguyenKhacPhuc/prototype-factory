@@ -1,0 +1,10 @@
+Both files written. Here's what was built:
+
+**Task Tide prototype** — 4 fully interactive screens:
+
+- **Now** — Live context header with energy/location chips, a hero "Best Match" card with fit score bar and start button, expandable moment slots showing task suggestions for each time gap, and a day-repack alert when schedule shifts
+- **Tasks** — Filter chips (All / Quick / Deep Work / Errand / Admin), scored task cards with energy dots, animated fit score bars, location tags, and tap-to-complete with strikethrough
+- **Tide** — Visual timeline with past/current/future/slot states, pulsing dot on current window, purple slot blocks with matched task chips, and "ended early · repacked" badges on adapted events
+- **Insights** — Stats grid (tasks done, time saved, streak, accuracy), pixel-height focus bar chart by hour, weekly productivity heatmap, and learned pattern cards
+
+**Design system:** Deep ocean dark (`#070B12`) with bioluminescent mint-green (`#00DFA2`) as primary, purple for moment slots, orange for adaptive alerts. Space Grotesk for headings, Inter for body.

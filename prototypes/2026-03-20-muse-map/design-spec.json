@@ -1,0 +1,17 @@
+{
+  "appName": "Muse Map",
+  "tagline": "Turn daily scraps into creative systems.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#080612",
+    "fontFamily": "Inter + Playfair Display",
+    "style": "Dark ambient creative studio — deep cosmic purple background with violet and amber accents, floating cluster nodes, glassmorphism cards, and Playfair Display serif headings for an artisan notebook feel"
+  },
+  "screens": [
+    "Garden — Visual mind garden with floating idea clusters on an ambient canvas, recent captures list, cluster exploration drill-down, and card detail with AI-suggested connections",
+    "Capture — Multi-mode input (text, voice with waveform recorder, photo upload, location tagging), cluster context selector, Muse prompt for reflective capture",
+    "Discover — Weekly synthesis card, creative collision detector with match-strength bars, suggested next steps, recurring themes bar chart",
+    "Profile — User stats (ideas, clusters, syntheses), 91-day capture activity heatmap, settings rows for reminders and preferences"
+  ]
+}

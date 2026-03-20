@@ -1,0 +1,19 @@
+{
+  "name": "Layover Lens",
+  "tagline": "Turn airport downtime into local discovery.",
+  "description": "Layover Lens helps travelers turn long, boring layovers into safe, hyper-personalized mini adventures without the usual planning stress. The app detects your flight schedule, airport location, visa constraints, weather, and how much time you actually have, then builds a realistic short-trip plan you can trust. It solves the common problem of being trapped in an airport for 4 to 10 hours and wasting that time, while also reducing the risk of missing a connection. In daily life, it helps users decide whether they can leave the airport, what neighborhood is worth visiting, and exactly when to head back based on live traffic and security wait times. For example, a traveler in Singapore with a six-hour layover might get a seafood hawker-center route with a train timetable and a reminder to return 2 hours before boarding, while someone in Istanbul might get a museum-and-kebab walk that avoids peak traffic. What makes it unique is that it converts all the hidden constraints of transit travel into a simple, confidence-building itinerary instead of just showing generic attractions.",
+  "features": [
+    "The app calculates an exit-safe window from your flight, terminal transfer time, visa status, and live traffic so you only see trips you can realistically complete.",
+    "It generates micro-itineraries tied to your mood, budget, and energy level, such as a 90-minute coffee crawl, a quick market visit, or a quiet park reset.",
+    "It sends a timed return plan with buffered reminders based on security lines, gate distance, and transportation delays, which reduces the anxiety of missing your next flight.",
+    "It recommends luggage-friendly stops nearby, including lockers, stroller-accessible routes, and places where you can comfortably sit, charge your phone, or freshen up.",
+    "It adapts in real time if your flight changes, rerouting your plan instantly and suggesting the best new option rather than forcing you to start over."
+  ],
+  "audience": "Frequent flyers, business travelers, digital nomads, and solo travelers ages 22-55 who often face long layovers or unexpected transit delays. It is especially useful for people traveling through major hub airports in cities with strong transit connections and nearby attractions.",
+  "category": "travel",
+  "useCases": [
+    "Priya has a seven-hour layover in Seoul after an overnight flight and wants to avoid spending the whole morning at the gate, so she opens the app to find a short food-and-walk itinerary that fits her tired energy level. It shows her a subway-based route, a restaurant with storage for her backpack, and a safe return time to the airport.",
+    "Marcus\u2019s flight to Lisbon gets delayed, shrinking his connection to barely five hours, and he wonders if he can still leave the airport. He opens the app, which recalculates his window and suggests a nearby waterfront caf\u00e9 visit instead of the museum plan it originally built.",
+    "Elena lands in Doha with a suitcase, a remote work deadline, and a few free hours before her next flight, so she uses the app to find a quiet lounge-like neighborhood stop with strong Wi-Fi, coffee, and a reliable airport-return buffer."
+  ]
+}

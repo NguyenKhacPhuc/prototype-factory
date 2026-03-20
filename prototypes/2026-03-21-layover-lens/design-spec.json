@@ -1,0 +1,17 @@
+{
+  "appName": "Layover Lens",
+  "tagline": "Turn airport downtime into local discovery.",
+  "designSystem": {
+    "primaryColor": "#3B82F6",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#0B1120",
+    "fontFamily": "Inter, Sora",
+    "style": "Dark glassmorphism with a deep navy base, electric blue primary accents, and amber highlights. Professional transit/travel aesthetic with clean card layouts, subtle gradients, and real-time status indicators. High-contrast typography using Sora for headings and Inter for body text."
+  },
+  "screens": [
+    "Home / Layover Dashboard – Flight card with safe exit window, progress bar, weather, visa status, and primary CTA to start planning",
+    "Plan – Mood selector (Foodie, Culture, Chill, Shop), budget range picker, luggage toggle, AI itinerary generation with ranked cards and inline step-by-step detail view",
+    "Return – Departure countdown, buffered return timeline with 8 sequential milestones, notification toggle, live security wait times and gate walk durations",
+    "Amenities – Airport facilities grid (luggage storage, showers, charging, prayer room, sleep pods) with availability, pricing, walk time, and accessibility mode toggle"
+  ]
+}

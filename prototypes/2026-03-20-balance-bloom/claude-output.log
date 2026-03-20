@@ -1,0 +1,14 @@
+Both files written. Here's what the prototype includes:
+
+**4 fully interactive screens:**
+
+- **Garden** — Balance card with animated funding progress, dismissable urgency nudge ("Lily's birthday in 19 days — $75 short"), 2-column petal grid with circular SVG progress rings, and a quick auto-distribute button
+- **Life Map** — Timeline with section dividers (Urgent / Soon / Growing), filter pills, per-event daily savings requirement, and sub-goal tags
+- **Petals** — Stats row, Active/Completed tabs, full list view with progress bars, FAB, and a bottom sheet detail modal per petal showing breakdown + per-day cost
+- **Insights** — Bloom Score ring (72/100), animated 6-month velocity bar chart, monthly snapshot stats, and smart predicted irregular expenses with confidence bars + one-tap "Petal" creation
+
+**Design details:**
+- Color palette: mint green (`#2FD98C`) for growth, amber (`#F5C030`) for urgency, soft purple (`#9A78F0`) for premium moments, deep navy background
+- Font: Plus Jakarta Sans (loaded via Google Fonts)
+- Micro-interactions: tab press scale, card hover lift, animated progress rings on mount, staggered bar chart reveal
+- Dynamic Island notch, status bar with Signal/Wifi/Battery icons

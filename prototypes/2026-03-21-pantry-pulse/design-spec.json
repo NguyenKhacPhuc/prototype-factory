@@ -1,0 +1,17 @@
+{
+  "appName": "Pantry Pulse",
+  "tagline": "Cook from what expires first.",
+  "designSystem": {
+    "primaryColor": "#48C46E",
+    "secondaryColor": "#F0A030",
+    "backgroundColor": "#090E09",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark organic minimalism with urgency-coded freshness indicators. Deep forest-green backgrounds, vibrant green primary, amber and red urgency signals, card-based layout with subtle left-border freshness rails."
+  },
+  "screens": [
+    "Home (Today) — waste stat card, urgent ingredient scroll, tonight's featured recipe, adaptive reminder banner, week preview",
+    "Pantry — searchable ingredient list sorted by expiry, freshness bars, location filter tabs (Fridge/Pantry/Freezer), scan + manual add",
+    "Recipes — freshness-ranked recipe cards with urgency badges and expiring ingredient chips, detail view with full ingredient list",
+    "Plan — 7-day horizontal date selector, meal slots per day (Breakfast/Lunch/Dinner), shopping list nudge"
+  ]
+}

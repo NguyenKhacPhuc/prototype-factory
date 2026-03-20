@@ -1,0 +1,19 @@
+{
+  "name": "Task Tide",
+  "tagline": "Flow your day around reality.",
+  "description": "Task Tide is a productivity app that reshapes your to-do list around the way your day actually unfolds, instead of how you hoped it would. It connects with your calendar, location, weather, commute, and focus patterns to automatically suggest the best next task when you have an unexpected gap, low-energy moment, or sudden change in plans. The app solves a common problem: most task managers fail because they treat every task as equally doable at any time, which leads to decision fatigue and abandoned plans. In daily life, it helps users make smarter micro-decisions like choosing a 7-minute email cleanup while waiting for coffee, moving a deep-work task to a quieter time after a noisy morning, or surfacing errands near their next appointment. What makes it unique is that it plans work in \u201cmoment slots\u201d rather than rigid blocks, matching task type to the real-world conditions you are in right now. For example, a user in a noisy train station might get admin tasks, while a person with 25 free minutes and perfect concentration might get a writing task they have been postponing. Instead of asking users to build an ideal schedule, Task Tide quietly adapts the day as life changes, turning fragments of time into meaningful progress.",
+  "features": [
+    "The app continuously scores tasks by duration, energy level, location relevance, and interruption tolerance so it can recommend the most realistic next action at any moment.",
+    "It detects sudden schedule changes, like meetings ending early or a delayed commute, and instantly repacks your day around the new available time.",
+    "It offers a 'moment slot' mode that turns tiny openings of 3 to 30 minutes into actionable task suggestions, which helps users stop wasting in-between time.",
+    "The app learns your personal productivity patterns over time, such as when you write best, when you answer messages fastest, and when you tend to procrastinate.",
+    "It groups nearby errands and context-specific tasks together, reducing mental overhead by suggesting what to do while you are already in the right place."
+  ],
+  "audience": "Busy professionals, freelance workers, graduate students, and parents aged roughly 22-45 who juggle shifting schedules and need a smarter way to use fragmented time. It is especially useful for people whose days are often disrupted by meetings, caregiving, travel, or irregular work patterns.",
+  "category": "productivity",
+  "useCases": [
+    "Sarah just finished a stressful meeting 15 minutes early and opens the app to see that her best option is a quick invoice review, because her next appointment is too short for deep work but perfect for admin tasks.",
+    "Jamal is stuck on a delayed train and wants to avoid wasting the commute, so he opens the app and gets a phone-friendly suggestion to clear low-priority emails and draft a grocery list for later.",
+    "Priya has one free hour between classes and an afternoon weather alert says it will rain soon, so she uses the app to combine a pharmacy run, a library drop-off, and a focused reading session into one efficient plan."
+  ]
+}

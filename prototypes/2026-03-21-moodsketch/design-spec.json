@@ -1,0 +1,17 @@
+{
+  "appName": "MoodSketch",
+  "tagline": "Turn feelings into usable ideas.",
+  "designSystem": {
+    "primaryColor": "#B49FCC",
+    "secondaryColor": "#E8956D",
+    "backgroundColor": "#0F0D14",
+    "fontFamily": "DM Sans + DM Serif Display",
+    "style": "Dark, atmospheric, artisan-creative. Soft lavender primary with warm coral accents. Organic card shapes, subtle gradients, and serif typography for emotional tone. Designed for reflective, creative users who think visually."
+  },
+  "screens": [
+    "Capture — Quick mood seed input with mood slider, voice, color picker, and photo modes",
+    "Library — Idea cards organized into themed collections with full card detail modal",
+    "Remix — Select up to 3 past seeds to combine into a new creative prompt",
+    "Insights — Mood patterns, emotional tone chart, color palette analysis, and top themes"
+  ]
+}

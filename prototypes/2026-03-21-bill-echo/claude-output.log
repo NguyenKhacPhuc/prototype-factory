@@ -1,0 +1,12 @@
+Both files written. Here's what was built:
+
+**Bill Echo prototype** — `/prototypes/2026-03-21-bill-echo/`
+
+**5 screens:**
+- **Home** — Current balance ($847), 30-day cash flow bar chart, danger alert for Mar 26–31 gap (only $107 buffer before rent), quick action grid, upcoming bills
+- **Flow** — Interactive 30-day simulation calendar (tap any day to see projected balance + transactions), one-tap reshaping suggestions (move Spotify, pause Netflix, trim groceries)
+- **Bills** — Full bill list with danger/warning/safe status tags, micro-savings progress bar for car insurance ($72/$180 saved @ $6/day), snooze toggles per bill
+- **Check** — Purchase safety checker with preset amounts ($29–$249), instant plain-English verdict (safe / risky / danger) with specific balance impact detail
+- **Insights** — Monthly spending breakdown with progress bars, 4 pattern cards with plain-language explanations, March Cash Health Score (72/100)
+
+**Design system:** Dark fintech with teal-green (#00D4AA) primary, amber warnings, coral danger — optimized for at-a-glance scanning under financial stress.
