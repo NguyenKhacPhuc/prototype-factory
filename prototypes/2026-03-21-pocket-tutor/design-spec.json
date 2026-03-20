@@ -1,0 +1,18 @@
+{
+  "appName": "Pocket Tutor",
+  "tagline": "Learn from the moments you already live.",
+  "designSystem": {
+    "primaryColor": "#7C6FF7",
+    "secondaryColor": "#F5A623",
+    "backgroundColor": "#0D0B1E",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark space-inspired theme with vibrant indigo-purple primary and warm amber accents. Card-based layout with subtle gradient borders, rounded corners, and micro-interactions. Emphasizes knowledge and growth through a deep cosmic aesthetic with glowing accent colors."
+  },
+  "screens": [
+    "Today - Context Cue Detection with real-time moment detection, 7-day streak tracker, and expandable lesson cues tied to calendar/location",
+    "Learn - Micro-Lesson Cards browser with subject filtering, step-by-step lesson detail view with progress dots and quick facts",
+    "Scan - Photo-to-Concept Mode with viewfinder UI, sample scan objects, and instant lesson unlock flow",
+    "Curriculum - Daily Life Curriculum with subject tracks, progress bars, streak counters, and next lesson previews",
+    "Review - Memory Boost Reviews with retention scoring, new real-world context delivery, and spaced repetition feedback"
+  ]
+}

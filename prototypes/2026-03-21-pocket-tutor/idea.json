@@ -1,0 +1,19 @@
+{
+  "name": "Pocket Tutor",
+  "tagline": "Learn from the moments you already live.",
+  "description": "Pocket Tutor turns everyday life into a personalized learning lab by spotting teachable moments in the world around you and converting them into tiny, useful lessons. The app uses your calendar, location, photos, and voice notes to suggest context-aware learning tied to what you're doing right now, such as a quick grammar refresher before a client email, a chemistry concept explained through a recipe in your kitchen, or a history mini-lesson linked to a museum visit. It solves the common problem of forgetting what you learn in apps because the lesson feels disconnected from real life and arrives at the wrong time. By delivering micro-lessons exactly when they matter, it helps students, busy professionals, and lifelong learners build knowledge without setting aside large blocks of study time. For example, someone commuting through a train station could get a two-minute lesson on probability using arrival delays, while a parent helping with homework could scan a worksheet and get a plain-language breakdown. What makes it unique is that it doesn't just react to what you search for; it proactively maps learning to your actual environment, turning mundane routines into memorable instruction. Over time, it builds a personal \u201clife-linked\u201d curriculum that feels practical, timely, and surprisingly sticky.",
+  "features": [
+    "Context Cue Detection identifies moments in your day, such as a meeting, grocery run, or museum visit, and recommends lessons that fit what you are experiencing right now.",
+    "Micro-Lesson Cards deliver concise explanations, examples, and one quick action so users can learn in under three minutes without losing momentum.",
+    "Photo-to-Concept Mode lets users snap a picture of a label, sign, worksheet, or object and receive an immediate lesson connected to it.",
+    "Daily Life Curriculum builds a custom learning path from your habits, goals, and frequent environments so the app teaches skills you will actually use.",
+    "Memory Boost Reviews resurface the same concept later in a new real-world context, helping users retain knowledge by seeing it applied again and again."
+  ],
+  "audience": "Students ages 14\u201330, busy professionals, and adult learners who want to keep learning without committing to long study sessions. It is especially useful for people juggling work, commuting, caregiving, or irregular schedules who need education to fit into fragmented moments.",
+  "category": "education",
+  "useCases": [
+    "Sarah just finished a stressful client meeting and wants to improve her business writing, so Pocket Tutor suggests a two-minute lesson on clear email subject lines while she walks back to her desk.",
+    "Jamal is shopping for dinner and sees a recipe ingredient he has never used before, so he scans the package and gets a quick lesson on the food science behind it along with a simple cooking tip.",
+    "Mina is visiting a museum with her child and wants to answer their questions confidently, so she opens the app and gets short, age-appropriate explanations about the artifacts in front of them."
+  ]
+}
