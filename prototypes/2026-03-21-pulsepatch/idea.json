@@ -1,0 +1,19 @@
+{
+  "name": "PulsePatch",
+  "tagline": "Turn everyday strain into smart recovery.",
+  "description": "PulsePatch is a micro-recovery coach that helps people prevent burnout by spotting the hidden physical toll of daily life before it becomes a bigger problem. Using a short morning check-in, optional wearable data, and quick contextual prompts, it estimates how your body is handling stress from sitting, commuting, meetings, workouts, and poor sleep. The app then turns vague fatigue into concrete actions like a 90-second neck reset after back-to-back calls, a paced breathing break before an afternoon crash, or a post-run mobility sequence tailored to your tightest movement patterns. It solves the common problem of people knowing they feel \"off\" but not knowing what to do about it in the moment. In daily life, it acts like a recovery traffic light, surfacing simple interventions at the exact times you need them, instead of offering generic wellness advice you never use. What makes it unique is that it links stress, posture, movement load, and recovery into one adaptive system, so the recommendations reflect your real routine rather than abstract fitness goals.",
+  "features": [
+    "The app runs a 20-second strain scan that asks about sleep, soreness, stress, and schedule pressure, then translates that into a daily recovery forecast that is easy to act on.",
+    "It detects common \"overload moments\" like long screen sessions, intense workouts, or commute-heavy days and suggests the smallest effective reset for that exact context.",
+    "It builds custom micro-routines from your habits, so a user who sits all day might get desk-based spinal mobility work while a runner gets calf and hip release drills.",
+    "It tracks whether suggested interventions actually improve energy, pain, and focus over time, which matters because users can see which recovery habits are genuinely helping them.",
+    "It nudges users with location- and calendar-aware reminders, such as prompting a decompression walk after a stressful meeting or a hydration break before an evening training session."
+  ],
+  "audience": "Busy professionals, remote workers, fitness enthusiasts, and hybrid workers aged 22-45 who often feel physically drained but do not have time for long wellness routines. It is especially useful for people balancing desk work, exercise, and high stress schedules.",
+  "category": "health & fitness",
+  "useCases": [
+    "Sarah just finished a stressful meeting marathon and feels mentally fried, so she opens PulsePatch to get a 2-minute reset before her next call. The app recommends breath pacing and a shoulder release sequence based on her high stress and low movement score.",
+    "Marcus ran after work but notices his calves are tight and his energy is low, so he checks the app to see what recovery is most important tonight. PulsePatch suggests a short calf mobility flow, hydration timing, and an earlier wind-down because his body load is higher than usual.",
+    "Leila has been working from home with back-to-back screen sessions and a headache starting behind her eyes, so she uses the app during lunch. It identifies her pattern as prolonged desk strain and guides her through a posture reset, eye break, and a walking interval tailored to her calendar."
+  ]
+}

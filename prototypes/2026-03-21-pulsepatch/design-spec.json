@@ -1,0 +1,19 @@
+{
+  "appName": "PulsePatch",
+  "tagline": "Turn everyday strain into smart recovery.",
+  "designSystem": {
+    "primaryColor": "#FF6B35",
+    "secondaryColor": "#2D3561",
+    "backgroundColor": "#F4F2EF",
+    "accentColor": "#4ECDC4",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern health app with warm orange brand color, clean card-based layout, circular progress indicators, and micro-interaction feedback. Light/dark adaptive with vibrant accent highlights."
+  },
+  "screens": [
+    "Home - Recovery forecast, daily strain interventions, streak tracker",
+    "Scan - 4-question morning strain scan with progress, breathe reset tool",
+    "Routines - Guided micro-routines with step-by-step timer (neck reset, hip release, desk spinal, breathe)",
+    "Insights - Recovery pattern analysis with mini bar charts and detailed drill-down",
+    "Settings - Profile, theme toggle, notification/calendar/location/wearable toggles"
+  ]
+}
