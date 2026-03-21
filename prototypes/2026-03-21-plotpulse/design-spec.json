@@ -1,0 +1,18 @@
+{
+  "appName": "PlotPulse",
+  "tagline": "Turn idle moments into micro-adventures.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#A78BFA",
+    "backgroundColor": "#1A1025",
+    "fontFamily": "Inter",
+    "style": "Dark glassmorphism with deep purple/indigo tones, gradient overlays, glowing card effects, and frosted glass panels. Cinematic atmosphere with micro-interactions and smooth transitions."
+  },
+  "screens": [
+    "Home - Context-aware story launcher with mood selector and featured micro-episode",
+    "Story/Play - Interactive narrative experience with decision points and branching outcomes",
+    "Explore - Browse story categories by mood and genre with time estimates",
+    "Library - Personal collection of completed and in-progress story arcs with stats",
+    "Profile - User stats, achievements, mood preferences, and settings"
+  ]
+}

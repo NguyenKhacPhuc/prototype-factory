@@ -1,0 +1,19 @@
+{
+  "name": "PlotPulse",
+  "tagline": "Turn idle moments into micro-adventures.",
+  "description": "PlotPulse is a location-aware entertainment app that turns ordinary waiting time into personalized, bite-sized story experiences. When users are stuck in a line, riding a train, or taking a break between errands, the app serves interactive micro-episodes that adapt to their surroundings, mood, and available time. The real problem it solves is boredom fragmentation: people often have five to fifteen unused minutes that are too short for a show, game, or podcast but too long to just stare at their phone. PlotPulse fills those gaps with compact narrative experiences that can be completed in one sitting, helping users feel entertained without getting sucked into endless scrolling. For example, a commuter might unlock a 7-minute sci-fi rescue mission tailored to a rainy subway ride, while someone waiting at a caf\u00e9 could play through a mystery scene inspired by the neighborhood around them. What makes it unique is that it blends entertainment with context, using timing, place, and mood to generate stories that feel like they were made for that exact moment rather than repackaged content from a generic feed.",
+  "features": [
+    "The app generates adaptive micro-stories that match the user's available time, so a three-minute wait yields a tight scene while a fifteen-minute break becomes a richer episode.",
+    "It uses location cues to influence the story setting and details, making each experience feel local and surprising without requiring the user to do any extra work.",
+    "Users can choose a mood such as funny, spooky, heroic, or calming, and the app adjusts the tone so the entertainment fits their mental state.",
+    "The app includes interactive decision points that change the outcome of each story, giving users a sense of agency and replay value instead of passive consumption.",
+    "It saves completed story arcs into a personal library, allowing users to revisit favorite moments or continue connected narrative threads during future idle moments."
+  ],
+  "audience": "Busy adults and commuters ages 18-40 who regularly experience short pockets of downtime in cities, transit systems, cafes, and office environments. It also appeals to students and gig workers who want quick entertainment without committing to long-form content.",
+  "category": "entertainment",
+  "useCases": [
+    "Sarah just finished a stressful meeting and has eight minutes before her next call, so she opens PlotPulse and starts a witty detective mini-story to reset her mood.",
+    "Marco is waiting for his train during a rainy commute and wants something more engaging than scrolling social media, so he plays a location-based sci-fi episode set in a shadowy transit hub.",
+    "Amina is sitting at a coffee shop while her friend is late, and she uses the app to enjoy a spooky choose-your-own-ending story that fits the cozy, dim environment around her."
+  ]
+}

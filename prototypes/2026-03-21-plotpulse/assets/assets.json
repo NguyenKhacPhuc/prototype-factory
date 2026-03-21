@@ -1,0 +1,31 @@
+{
+  "appName": "PlotPulse",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#A78BFA",
+    "background": "#1A1025",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-left",
+    "book-open",
+    "check",
+    "chevron-right",
+    "clock",
+    "compass",
+    "map-pin",
+    "moon",
+    "play",
+    "shield",
+    "smile",
+    "star",
+    "trophy",
+    "user",
+    "wind",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}
