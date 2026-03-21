@@ -1,0 +1,19 @@
+{
+  "name": "Compost City",
+  "tagline": "Turn trash into a thriving neighborhood.",
+  "description": "Compost City is a simulation game that lets players run a tiny urban ecosystem where food waste, rainwater, energy, and community habits all interact in real time. It solves the common problem of people not knowing how everyday choices affect sustainability by turning those invisible systems into a playful, hands-on model. Users manage apartment blocks, caf\u00e9s, gardens, and recycling lanes, watching how decisions like separating scraps, timing dishwasher use, or planting shade trees change the whole district\u2019s health. The app helps in daily life by teaching practical waste-reduction, energy-saving, and urban-gardening habits through short scenarios that mirror real routines at home or in shared buildings. For example, a player might redesign a family kitchen\u2019s compost flow to reduce odor, optimize a condo\u2019s recycling pickup, or keep a balcony garden alive during a heat wave. What makes it unique is that it is not just a city-builder; it simulates the hidden logistics of neighborhood sustainability with consequences that feel immediate, realistic, and surprisingly personal. Each session produces actionable insights that map directly to the user\u2019s actual household habits, making the game both entertaining and genuinely useful.",
+  "features": [
+    "The waste-flow simulator models compost, recycling, and landfill streams so players can see exactly how small sorting mistakes create bigger community problems.",
+    "The routine planner turns real daily schedules into simulation events, showing how choices like meal prep, laundry timing, and grocery habits affect water and energy demand.",
+    "The neighborhood AI generates unpredictable local challenges such as pests, drought, or pickup delays, which teaches players how to adapt sustainable habits under pressure.",
+    "The habit transfer system translates successful in-game strategies into simple real-world nudges, helping users apply lessons like reducing food spoilage or improving bin organization at home.",
+    "The collaborative district mode lets roommates, families, or classmates manage one shared neighborhood, which makes sustainability feel social and easier to maintain in real life."
+  ],
+  "audience": "Urban millennials, college students, young families, and eco-curious adults aged roughly 18\u201340 who want practical sustainability habits without feeling lectured. It also fits people living in apartments, dorms, or shared housing where waste and energy decisions affect everyone.",
+  "category": "game: simulation",
+  "useCases": [
+    "Maya just moved into a shared apartment and wants to figure out why the kitchen compost keeps smelling. She opens Compost City to test different bin placements, food-scrap rules, and pickup schedules before talking to her roommates.",
+    "Jordan is trying to cut utility costs without making his family feel like they are sacrificing comfort. He uses the app during his commute to simulate cheaper laundry, cooking, and cooling routines that still keep the house running smoothly.",
+    "Alyssa is preparing a classroom lesson on sustainability and wants something more engaging than a slideshow. She opens the game to run a mini neighborhood challenge with her students, showing how everyday choices can improve or damage the district."
+  ]
+}

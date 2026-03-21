@@ -1,0 +1,25 @@
+{
+  "appName": "Compost City",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#16A34A",
+    "secondary": "#84CC16",
+    "background": "#F0FDF4",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "battery",
+    "bell",
+    "chevron-right",
+    "lightbulb",
+    "moon",
+    "signal",
+    "sun",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 10,
+  "fontFileCount": 0
+}

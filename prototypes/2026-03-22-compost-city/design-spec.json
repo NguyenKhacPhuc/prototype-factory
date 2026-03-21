@@ -1,0 +1,18 @@
+{
+  "appName": "Compost City",
+  "tagline": "Turn trash into a thriving neighborhood.",
+  "designSystem": {
+    "primaryColor": "#16A34A",
+    "secondaryColor": "#84CC16",
+    "backgroundColor": "#F0FDF4",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean urban sustainability game UI with vibrant green accent palette, card-based layout, gradient hero banners, and micro-interaction feedback. Light and dark themes with earth-tone color harmony."
+  },
+  "screens": [
+    "City — overview map with 9 city blocks, health score banner, quick stats (compost/recycle/energy), active challenge alert, and notification panel",
+    "Waste — interactive waste stream flow visualizer with live split bar, sorting mini-game (tap correct bin for random items with real facts), and real-world sustainability insights",
+    "Routine — daily schedule timeline with toggleable events, impact score calculator, off-peak energy tips, and habit transfer summary panel",
+    "District — collaborative neighborhood mode with team member leaderboard, 3 active challenges with progress bars, and AI-generated neighborhood alert cards",
+    "Profile — player card with stats, habit transfer progress bars, achievement grid (6 badges), settings panel, and light/dark theme toggle"
+  ]
+}
