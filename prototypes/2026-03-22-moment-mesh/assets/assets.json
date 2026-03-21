@@ -1,0 +1,31 @@
+{
+  "appName": "Moment Mesh",
+  "fontFamily": "Outfit",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#F59E0B",
+    "background": "#F0ECFF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "check",
+    "check-circle",
+    "chevron-left",
+    "chevron-right",
+    "circle",
+    "clock",
+    "moon",
+    "pause",
+    "play",
+    "plus",
+    "settings",
+    "star",
+    "sun",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}

@@ -1,0 +1,18 @@
+{
+  "appName": "Moment Mesh",
+  "tagline": "Turn scattered time into useful momentum.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#F0ECFF",
+    "fontFamily": "Outfit",
+    "style": "Vibrant violet-purple accent with warm amber secondary. Clean card-based layout with gradient hero sections, soft purple tints on surfaces, energy-aware color indicators (green/amber/red), and a seamless light/dark theme system built around deep indigo-black dark surfaces."
+  },
+  "screens": [
+    "Home — greeting hero with energy selector, next gap detector card, recommended task with micro-step preview, and today's gap map timeline",
+    "Tasks — filterable task shard library with time window chips (2/5/10/15 min), energy level badges, context tags, step breakdowns, and quick start/complete actions",
+    "Focus — active session view with live elapsed timer, progress bar, sequential micro-step checklist with visual state indicators, next/back step controls, and pause/resume timer",
+    "Insights — weekly momentum dashboard with per-day bar chart, stat cards (time recovered, shards completed, avg size, streak), category breakdown with progress bars, and 7-day streak celebration card",
+    "Settings — theme toggle with animated pill switch, default energy level selector, context preference toggles (calendar detection, energy matching, rhythm learning), gap alert notifications, and app info panel"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Moment Mesh",
+  "tagline": "Turn scattered time into useful momentum.",
+  "description": "Moment Mesh helps people use the odd, fragmented minutes that usually get wasted between meetings, errands, and tasks. Instead of offering another generic to-do list, it detects tiny pockets of time and suggests the exact right micro-task to fit the moment, such as answering one email, prepping three bullet points for a call, or reviewing a single document section. The app solves the common productivity problem of context switching by organizing work into small, pre-sliced actions that match real-life availability. Users can tag tasks by energy level, mental load, and estimated interruption risk, so the app can recommend something achievable even when they are tired or on the move. A commuter might use it to clear admin tasks during a train ride, while a manager could handle low-stakes follow-ups between back-to-back meetings without opening a full work sprint. What makes it unique is its \u201ctime-shard\u201d system: it learns your daily rhythm and rewrites tasks into bite-sized options that fit the exact amount of time and focus you have right now, rather than forcing you to find a perfect block of time.",
+  "features": [
+    "Time-shard planning breaks larger tasks into micro-actions sized for 2, 5, 10, or 15 minute windows so users can make real progress during short gaps.",
+    "Energy-aware recommendations match tasks to the user\u2019s current mental state, which helps prevent burnout and makes it easier to start work when motivation is low.",
+    "Calendar gap detection scans open pockets between appointments and automatically suggests the best task to complete before the next commitment arrives.",
+    "Task slicing lets users convert a single project into a sequence of tiny steps, making intimidating work feel manageable and reducing procrastination.",
+    "Context-safe mode filters for tasks that can be completed in public, on a commute, or with interruptions, so users never get stuck with the wrong kind of work at the wrong time."
+  ],
+  "audience": "Busy professionals, freelancers, students, and parents aged 18-45 who juggle fragmented schedules and often lose momentum between obligations. It is especially useful for people with packed calendars who want to recover productive time without needing long, uninterrupted focus sessions.",
+  "category": "productivity",
+  "useCases": [
+    "Sarah just finished a stressful client meeting and has 12 minutes before her next call, so she opens the app to find a low-energy micro-task like drafting a follow-up email and sending the meeting summary.",
+    "Daniel is commuting by train and only has spotty internet, so he uses the app to tackle offline-friendly tasks such as reviewing two resume bullets and preparing notes for his afternoon interview.",
+    "Priya is waiting outside her child\u2019s swimming lesson and wants to stay productive without getting overwhelmed, so she chooses a small context-safe task like organizing receipts and scheduling one appointment."
+  ]
+}
