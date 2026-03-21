@@ -1,0 +1,19 @@
+{
+  "appName": "Mosaic Bluff",
+  "tagline": "Win conflicts by reading the room.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#F97316",
+    "backgroundColor": "#F4F1FF",
+    "accentColor": "#EC4899",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Vibrant violet-centric card game UI with rich gradients, layered surfaces, and high-contrast EQ score displays. Light mode uses a soft lavender base with white cards; dark mode uses deep navy-purple with glowing accent states."
+  },
+  "screens": [
+    "Home — dashboard with streak, stats grid, featured scenario card, category browser, recent rounds",
+    "Play — multi-phase card game: scenario reveal → intent/tone/context card selection → response choice → AI referee result with score animation",
+    "Drills — daily 3-minute burst drill with countdown timer, progress bar, instant answer feedback, and end-of-drill EQ XP summary",
+    "Party — cooperative mode with room code sharing, player lobby, and scenario pack selection for interview prep/family/dating/difficult conversations",
+    "Profile — EQ breakdown bars, achievement tracker with progress, settings panel, and light/dark theme toggle"
+  ]
+}

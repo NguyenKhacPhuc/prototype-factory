@@ -1,0 +1,35 @@
+{
+  "appName": "Mosaic Bluff",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#F97316",
+    "background": "#F4F1FF",
+    "accent": "#EC4899"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "check",
+    "chevron-left",
+    "chevron-right",
+    "eye",
+    "flame",
+    "home",
+    "info",
+    "layers",
+    "moon",
+    "plus",
+    "sparkles",
+    "sun",
+    "trending-up",
+    "trophy",
+    "user",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 20,
+  "fontFileCount": 0
+}
