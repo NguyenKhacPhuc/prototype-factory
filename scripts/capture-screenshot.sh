@@ -51,28 +51,45 @@ try {
   // Extra settle time for fonts and animations
   await new Promise(r => setTimeout(r, 2000));
 
-  // Find the phone frame element (div with ~375x812 dimensions) and screenshot it
+  // Find the phone frame element and screenshot just that element.
+  // Prototypes render a phone div (375x812) centered on a larger page.
   const phoneFrame = await page.evaluateHandle(() => {
     const allDivs = document.querySelectorAll('#root div');
+
+    // Pass 1: match inline style width=375, height 800-850
     for (const div of allDivs) {
-      const style = div.style;
-      const w = parseInt(style.width);
-      const h = parseInt(style.height);
-      if (w === 375 && (h >= 800 && h <= 850)) return div;
+      const w = parseInt(div.style.width);
+      const h = parseInt(div.style.height);
+      if (w === 375 && h >= 800 && h <= 850) return div;
     }
-    // Fallback: find by computed size
+
+    // Pass 2: match by computed bounding rect
     for (const div of allDivs) {
       const rect = div.getBoundingClientRect();
-      if (rect.width >= 370 && rect.width <= 380 && rect.height >= 800 && rect.height <= 850) return div;
+      if (rect.width >= 370 && rect.width <= 380 && rect.height >= 790 && rect.height <= 860) return div;
     }
-    return null;
+
+    // Pass 3: find the tallest element with phone-like aspect ratio (~0.46)
+    let best = null;
+    let bestHeight = 0;
+    for (const div of allDivs) {
+      const rect = div.getBoundingClientRect();
+      if (rect.height < 500 || rect.width < 300) continue;
+      const ratio = rect.width / rect.height;
+      if (ratio >= 0.4 && ratio <= 0.55 && rect.height > bestHeight) {
+        best = div;
+        bestHeight = rect.height;
+      }
+    }
+    return best;
   });
 
   if (phoneFrame.asElement()) {
     await phoneFrame.asElement().screenshot({ path: output, type: 'png' });
   } else {
-    // Fallback: full page screenshot if phone frame not found
-    await page.screenshot({ path: output, type: 'png' });
+    // Final fallback: clip a phone-sized region from center of page
+    const clip = { x: 212, y: 44, width: 375, height: 812 };
+    await page.screenshot({ path: output, type: 'png', clip });
   }
   await browser.close();
 
