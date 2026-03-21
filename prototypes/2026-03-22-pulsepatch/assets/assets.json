@@ -1,0 +1,25 @@
+{
+  "appName": "PulsePatch",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#00D4AA",
+    "secondary": "#7C6FFF",
+    "background": "#080C18",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "activity",
+    "battery",
+    "check",
+    "chevron-down",
+    "chevron-right",
+    "chevron-up",
+    "moon",
+    "plus",
+    "sun",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 10,
+  "fontFileCount": 0
+}

@@ -1,0 +1,19 @@
+{
+  "name": "PulsePatch",
+  "tagline": "Your body\u2019s early warning whisper",
+  "description": "PulsePatch is a symptom-pattern companion that helps people catch subtle health changes before they become emergencies. Instead of asking users to track everything manually, it learns their normal baseline from tiny daily signals like resting heart rate, sleep shifts, medication timing, temperature trends, pain notes, and activity changes, then flags combinations that may point to infection, dehydration, medication side effects, flare-ups, or worsening chronic conditions. It solves the common problem of vague symptoms being dismissed until they get serious, especially for people who often say, 'I don\u2019t feel right, but I can\u2019t explain why.' In daily life, the app turns scattered clues into clear, practical guidance, such as suggesting a hydration check after a night of poor sleep plus elevated resting heart rate, or prompting a user to message their clinician when several risk signals stack up over two days. A parent managing a child with asthma could notice a pattern of nighttime cough, lower activity, and rising rescue inhaler use, while a person on new medication could see when side effects are drifting from expected to concerning. What makes PulsePatch unique is that it focuses on pattern detection rather than symptom logging, using contextual explanations and confidence levels to help users know when to watch, when to rest, and when to seek medical care.",
+  "features": [
+    "The app builds a personal health baseline over time so it can detect meaningful deviations instead of treating every symptom as equal.",
+    "It combines wearable data, manual symptom notes, and medication schedules to identify patterns that may reveal hidden illness earlier.",
+    "It translates complex signals into plain-language risk summaries so users can understand what changed and why it matters.",
+    "It offers smart action prompts, such as hydration reminders, rest suggestions, or a message-ready summary for a doctor or caregiver.",
+    "It tracks recurring episodes and searchable timelines so users can spot triggers, such as stress, travel, specific foods, or missed medication doses."
+  ],
+  "audience": "Adults managing chronic conditions, busy parents, and patients starting new medications who want early warning signs without constant self-monitoring. It is especially useful for people ages 18-65 who use a smartwatch or health tracker and need help interpreting subtle changes in daily health.",
+  "category": "medical",
+  "useCases": [
+    "Sarah just finished a stressful meeting and notices her smartwatch showing a higher-than-usual resting heart rate for two days. She opens PulsePatch to see that the spike, poor sleep, and skipped lunch together suggest dehydration and overexertion rather than a random blip.",
+    "Miguel started a new blood pressure medication last week and feels unusually lightheaded in the afternoons. He uses the app to compare symptoms with medication timing and gets a clear summary suggesting he should contact his clinician about possible side effects.",
+    "Amina\u2019s child has asthma, and after soccer practice she sees the app flagging a pattern of more coughing, lower nightly sleep, and increasing rescue inhaler use. She opens PulsePatch to review the trend and decides to monitor closely and prepare a concise update for the pediatrician."
+  ]
+}

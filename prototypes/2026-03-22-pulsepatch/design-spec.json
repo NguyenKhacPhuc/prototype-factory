@@ -1,0 +1,18 @@
+{
+  "appName": "PulsePatch",
+  "tagline": "Your body's early warning whisper",
+  "designSystem": {
+    "primaryColor": "#00D4AA",
+    "secondaryColor": "#7C6FFF",
+    "backgroundColor": "#080C18",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first health tech UI with teal/violet accent palette, glassmorphic cards, confidence indicators, and clean data visualization for symptom pattern detection"
+  },
+  "screens": [
+    "Home - Health Pulse Score dashboard with vitals grid and stacked alerts",
+    "Patterns - AI-detected signal combinations with expandable explanations and action prompts",
+    "Log - Symptom entry with intensity scale, quick context tags, and submission flow",
+    "Insights - Heart rate chart, trigger analysis bar chart, and episode history timeline",
+    "Settings - Profile card, dark/light theme toggle, wearable sync, and condition tracking"
+  ]
+}
