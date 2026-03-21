@@ -1,0 +1,18 @@
+{
+  "appName": "FlowForge",
+  "tagline": "Turn chaos into your next best action.",
+  "designSystem": {
+    "primaryColor": "#7B6FFF",
+    "secondaryColor": "#00CFAA",
+    "backgroundColor": "#07070F",
+    "accentColor": "#FFB347",
+    "fontFamily": "Inter",
+    "style": "Dark glassmorphism with deep purple/violet primary palette, teal secondary, and amber accents. Card-based layout with subtle gradient borders, pill labels, and layered surfaces on near-black background. Micro-interactions with scale press effects."
+  },
+  "screens": [
+    "Today — Context-aware home screen showing transition detection banner, next best action card with contextual chips and dependency alerts, and a prioritized task list",
+    "Flow Plan — Time-boxed re-entry mode selector (5/15/30 min) with interactive step-by-step recovery path, tap-to-complete steps, and a begin flow CTA",
+    "Capture — Voice recording interface with animated mic button, quick text input, source filter tabs, and a scrollable list of captures with one-tap convert action",
+    "Insights — Weekly interruption bar chart, key stats (interruptions count, avg recovery time), top derailers with progress bars, circular adaptation score, and usage streak"
+  ]
+}

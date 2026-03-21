@@ -1,0 +1,14 @@
+{
+  "appName": "FlowForge",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#7B6FFF",
+    "secondary": "#00CFAA",
+    "background": "#07070F",
+    "accent": "#FFB347"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

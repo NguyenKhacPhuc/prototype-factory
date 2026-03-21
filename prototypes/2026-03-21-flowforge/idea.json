@@ -1,0 +1,19 @@
+{
+  "name": "FlowForge",
+  "tagline": "Turn chaos into your next best action.",
+  "description": "FlowForge is a context-aware productivity app that helps people recover momentum after interruptions, meetings, and task overload. Instead of showing another static to-do list, it listens to how your day is actually unfolding and converts scattered notes, emails, calendar events, and reminders into the most practical next step. The app solves the common problem of \"work amnesia,\" where people lose time reorienting after switching tasks or returning to unfinished work. It helps users by building a dynamic restart plan in seconds, such as summarizing a meeting into action items, identifying the next file or person needed, and creating a 10-minute re-entry path to get moving again. For example, after a client call it might surface the follow-up email draft, the attached proposal, and the deadline in one card, so you can act immediately. What makes FlowForge unique is that it focuses on transition moments rather than broad productivity tracking, making it feel like a personal operations assistant for getting back on track fast. Over time, it learns which interruptions derail you most and proactively prepares your next-best move before you even ask.",
+  "features": [
+    "The app automatically detects transition moments, such as the end of a meeting or the opening of a work session, and generates a focused restart plan so users do not waste time deciding where to begin.",
+    "It turns messy inputs like voice notes, screenshots, emails, and calendar events into actionable steps, which matters because real work is usually captured across multiple formats.",
+    "It creates time-boxed recovery paths, such as a 5-minute, 15-minute, or 30-minute re-entry mode, helping users resume work even when they feel mentally drained.",
+    "The app flags the exact dependencies blocking a task, like waiting on a reply, missing a file, or needing approval, so users can remove friction instead of staring at a stalled project.",
+    "It learns personal interruption patterns and adapts its suggestions to the user\u2019s habits, making the system more accurate and useful the more it is used."
+  ],
+  "audience": "Knowledge workers, managers, freelancers, and founders ages 22-45 who juggle meetings, messaging, and project work throughout the day. It is especially useful for people in fast-paced remote or hybrid environments where constant context switching is the norm.",
+  "category": "productivity",
+  "useCases": [
+    "Maya just got out of a 45-minute Zoom call and feels mentally scattered, so she opens FlowForge to get a 3-step re-entry plan that turns the discussion into follow-up emails, document edits, and a clear next action.",
+    "Andre is switching back to a client proposal after answering nonstop Slack messages, and the app surfaces the latest version of the deck, the outstanding approval, and a 15-minute focus path to restart without friction.",
+    "Lena is finishing work late and cannot remember what she planned to do next, so FlowForge pulls together her calendar, notes, and unread messages into a single 'resume here' screen that helps her end the day with progress instead of confusion."
+  ]
+}
