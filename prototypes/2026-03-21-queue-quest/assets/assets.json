@@ -1,0 +1,27 @@
+{
+  "appName": "Queue Quest",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#A78BFA",
+    "background": "#F5F0FF",
+    "accent": "#F59E0B"
+  },
+  "icons": [
+    "arrow-left",
+    "arrow-right",
+    "battery",
+    "check",
+    "circle",
+    "map-pin",
+    "moon",
+    "signal",
+    "star",
+    "sun",
+    "wifi",
+    "wind"
+  ],
+  "fonts": [],
+  "iconCount": 12,
+  "fontFileCount": 0
+}

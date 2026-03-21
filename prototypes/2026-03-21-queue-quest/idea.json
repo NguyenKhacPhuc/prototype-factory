@@ -1,0 +1,19 @@
+{
+  "name": "Queue Quest",
+  "tagline": "Turn waiting time into tiny wins.",
+  "description": "Queue Quest transforms the dead time people spend waiting in line, commuting, or sitting through delays into short, playful missions that help them handle real-life tasks with less friction. Instead of random mini-games, it gives users 30 to 90 second quests tied to useful outcomes, like organizing three unread emails, drafting a grocery list from memory, or calming down with a breathing challenge before a stressful appointment. The app solves the problem of wasted micro-moments by turning them into satisfying progress, so users feel like they are getting something done even when they are stuck somewhere. In daily life, this means a person can clear a small admin task at the pharmacy, mentally prepare for a presentation while riding the train, or beat phone-scrolling boredom at the airport without feeling guilty. Each quest is designed like a casual game level with points, streaks, and charming rewards, but every action also nudges the user toward a useful real-world habit or task. What makes it unique is that the game is not the goal itself; the game mechanic is the delivery system for tiny, practical wins that fit naturally into fragmented parts of the day.",
+  "features": [
+    "The app generates ultra-short quests based on your current situation, so a crowded waiting room, a lunch break, or a delayed train each gets different tasks that actually fit the moment.",
+    "It connects game rewards to practical outcomes, letting users earn points for finishing tiny real-life actions like sorting receipts, replying to one message, or making a quick to-do list.",
+    "It includes a calm-mode quest library with breathing games, attention resets, and posture challenges, which helps users reduce stress instead of mindlessly doomscrolling.",
+    "The app tracks micro-progress across the week with streaks and collectible badges, which matters because small wins add up and make unfinished tasks feel less overwhelming.",
+    "It uses smart reminders that wait for idle moments, so users are prompted when they are most likely to benefit from a brief task or game instead of being interrupted at bad times."
+  ],
+  "audience": "Busy adults ages 18 to 40 who spend a lot of time in transit, waiting, or juggling fragmented schedules will get the most value from it. It is especially useful for students, commuters, freelancers, and parents who want a lighter way to stay productive between obligations.",
+  "category": "game: casual",
+  "useCases": [
+    "Mia is waiting 18 minutes for her doctor appointment, so she opens Queue Quest and completes three tiny quests: update one note, drink a glass of water, and do a 60-second breathing challenge.",
+    "Jordan is on a delayed train home and feels the urge to scroll endlessly, so he plays a quest that helps him plan dinner, archive two old notifications, and earn a reward chest before arriving.",
+    "Elena just stepped away from a stressful meeting and needs to reset, so she uses the app for a calm-mode mission that guides her through a posture check, a short grounding game, and one next-step reminder for her follow-up email."
+  ]
+}

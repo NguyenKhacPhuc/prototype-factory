@@ -1,0 +1,43 @@
+{
+  "appName": "Queue Quest",
+  "tagline": "Turn waiting time into tiny wins.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#A78BFA",
+    "accentColor": "#F59E0B",
+    "backgroundColor": "#F5F0FF",
+    "darkBackground": "#0D0820",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Vibrant gamified productivity app with purple-violet brand color. Clean card-based layout with gradient headers, subtle borders, and smooth micro-interactions. Light default theme with rich dark mode variant. Playful yet professional with emoji accents and progress visualization."
+  },
+  "screens": [
+    "Home / Quest Hub — situation selector, featured quest card, quest list with points",
+    "Active Quest — circular timer, step tracker, start/pause control, completion celebration",
+    "Progress — weekly bar chart, quest type breakdown, badge collection, stats summary",
+    "Calm Mode — interactive box breathing animation, calm quest library, quick reset tips",
+    "Profile / Settings — theme toggle, notification toggles, situation preferences, account stats"
+  ],
+  "themes": {
+    "light": {
+      "bg": "#F5F0FF",
+      "surface": "#FFFFFF",
+      "primary": "#7C3AED",
+      "text": "#1A0A3D"
+    },
+    "dark": {
+      "bg": "#0D0820",
+      "surface": "#1A1035",
+      "primary": "#9D6FF5",
+      "text": "#F0EBFF"
+    }
+  },
+  "keyInteractions": [
+    "Situation chip selector filters quest list in real time",
+    "Circular SVG timer animates during active quest",
+    "Breathing circle scales with CSS transform based on inhale/hold/exhale phase",
+    "Theme toggle animates pill switch between light and dark",
+    "Notification toggles animate independently",
+    "Button press micro-animation via scale(0.96) on all interactive elements",
+    "Quest completion triggers celebration screen with points earned summary"
+  ]
+}
