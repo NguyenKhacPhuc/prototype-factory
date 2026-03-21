@@ -1,0 +1,14 @@
+{
+  "appName": "Layover Loop",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#1a1f3a",
+    "secondary": "#f59e0b",
+    "background": "#0f1224",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

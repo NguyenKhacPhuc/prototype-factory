@@ -1,0 +1,19 @@
+{
+  "name": "Layover Loop",
+  "tagline": "Turn dead time into local mini-adventures.",
+  "description": "Layover Loop is a travel app that transforms long airport layovers, delayed connections, and unplanned wait times into curated micro-adventures outside the terminal. It solves the frustrating problem of being stuck in an unfamiliar city for hours with no idea whether you have enough time to leave the airport safely and still make your flight. The app analyzes your passport requirements, airport location, live traffic, security wait times, and gate-change risk to build a personalized \"time-safe\" plan with exact departure and return windows. It helps users in daily life by turning wasted transit time into memorable experiences, like grabbing a famous bowl of ramen near Haneda, walking a waterfront trail near Lisbon airport, or visiting a museum caf\u00e9 during a six-hour stopover in Singapore. What makes it unique is its safety-first timing engine combined with hyperlocal, task-based itineraries that adapt in real time if your flight is delayed, your gate moves, or traffic suddenly spikes. Instead of generic city guides, it gives you only the experiences that fit the precise length of your gap, your budget, and your risk tolerance. The result is a travel companion that makes short breaks feel intentional rather than stressful.",
+  "features": [
+    "The app calculates a personalized \"safe-to-leave\" window using live airport queues, transit times, and your boarding cutoff, so you know exactly when you can explore without risking your flight.",
+    "It recommends time-sized adventures such as a 90-minute noodle crawl, a 2-hour spa reset, or a 3-hour museum loop, which makes spontaneous outings practical instead of overwhelming.",
+    "It sends real-time alerts for delays, gate changes, and traffic congestion, and then automatically rewrites your plan so you can still make the most of the layover.",
+    "It includes passport and visa-aware suggestions that filter out locations you cannot legally or logistically reach, preventing wasted time and avoidable travel mistakes.",
+    "It offers micro-itineraries with one-tap navigation, baggage storage options, and return-trip reminders, which matters because it reduces decision fatigue during already hectic travel days."
+  ],
+  "audience": "Frequent flyers, business travelers, digital nomads, and adventurous vacationers aged 20-55 who often face 2-8 hour layovers or unexpected travel delays. It is especially useful for people traveling through major hubs who want to leave the airport but avoid the stress of manually planning every detail.",
+  "category": "travel",
+  "useCases": [
+    "Sarah just finished a stressful meeting in Dubai and has a four-hour layover before her next flight, so she opens Layover Loop to find a safe 2-hour desert-view caf\u00e9 stop and gets back with time to spare.",
+    "Marcus lands in Tokyo three hours early because of an airline delay, and the app suggests a quick ramen shop and a nearby shrine visit that fit his exact return window.",
+    "Priya is stuck in Singapore overnight after a schedule change, and she uses the app to build a late-evening micro-adventure with a baggage storage drop-off, a night garden walk, and automatic alerts if her gate changes."
+  ]
+}
