@@ -1,0 +1,30 @@
+{
+  "appName": "FridgeForge",
+  "fontFamily": "Sora",
+  "colors": {
+    "primary": "#E8A020",
+    "secondary": "#5EBF4A",
+    "background": "#0D0F0B",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "arrow-left",
+    "battery",
+    "bell",
+    "camera",
+    "chef-hat",
+    "chevron-right",
+    "clock",
+    "package",
+    "plus",
+    "recycle",
+    "settings",
+    "signal",
+    "user",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 15,
+  "fontFileCount": 0
+}

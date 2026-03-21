@@ -1,0 +1,17 @@
+{
+  "appName": "FridgeForge",
+  "tagline": "Cook from chaos, not from recipes.",
+  "designSystem": {
+    "primaryColor": "#E8A020",
+    "secondaryColor": "#5EBF4A",
+    "backgroundColor": "#0D0F0B",
+    "fontFamily": "Sora",
+    "style": "Dark organic UI with warm amber and green accents, earthy kitchen-inspired palette, card-based layout with urgency color coding (red/amber/blue/green), clean Sora typography"
+  },
+  "screens": [
+    "Fridge — Live ingredient map with expiry urgency tiers (Use Today / Use Soon / Still Good), quick scan CTA, stat summary",
+    "Cook — AI-generated meal suggestions ordered by expiry urgency with step-by-step cook mode and progress tracker",
+    "Rescue — Rescue mode transforming leftovers into new meals, waste savings bar chart, weekly stats",
+    "Profile — Flavor profile bars, equipment selector toggles, dietary preferences, personal cooking stats"
+  ]
+}

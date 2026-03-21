@@ -1,0 +1,19 @@
+{
+  "name": "FridgeForge",
+  "tagline": "Cook from chaos, not from recipes.",
+  "description": "FridgeForge turns whatever is actually in your kitchen into realistic, step-by-step meals that fit your time, tools, and dietary limits. Instead of just suggesting recipes by one ingredient, it scans a quick inventory of leftovers, nearly expired groceries, pantry basics, and even half-used sauces to build meals designed to prevent waste. It solves the common problem of staring at random ingredients at 7 p.m. and feeling stuck, especially when energy is low and grocery runs are not an option. The app helps in daily life by planning meals around what must be used first, estimating what you can make before food spoils, and adapting instructions to the cookware you own. For example, it can turn wilted spinach, one chicken breast, and rice into a fast skillet dinner, or transform leftover taco toppings into a frittata with a precise \u201cuse this today\u201d order. What makes it unique is that it does not start from a recipe database alone; it generates a dinner plan from your actual fridge state, prioritizing salvage, timing, and feasibility over culinary perfection.",
+  "features": [
+    "The app builds a live ingredient map from quick manual entry or photo-based fridge checks, so users can see what needs attention before food goes bad.",
+    "It generates meals based on expiry urgency, cooking time, and equipment, which helps users make realistic decisions instead of aspirational ones.",
+    "It includes a 'rescue mode' that finds creative ways to repurpose leftovers into completely different meals, reducing waste and repetition.",
+    "It adjusts every instruction to the user's available tools, such as a microwave, air fryer, or one-pan setup, making cooking accessible in small kitchens.",
+    "It learns flavor patterns the household likes and avoids repetitive suggestions, so users get personalized ideas that feel practical rather than random."
+  ],
+  "audience": "Busy adults aged 22-45, especially renters, students, and families who cook at home but struggle with food waste, meal indecision, and irregular schedules. It is especially useful for people with small kitchens, limited pantry space, or variable work hours.",
+  "category": "food & cooking",
+  "useCases": [
+    "Maya gets home late from work and opens FridgeForge because she has one zucchini, two eggs, and half a tub of ricotta that needs to be used tonight. The app suggests a 15-minute skillet bake and orders the steps so dinner is ready before she gives up and orders delivery.",
+    "Jordan notices that his meal prep spinach and cooked rice are about to spoil, so he uses the app to search for a fast rescue meal. FridgeForge turns the leftovers into a ginger rice bowl with a simple sauce, saving money and preventing waste.",
+    "Amina is hosting friends and realizes she has random ingredients but not enough for a planned recipe. She opens the app to generate a shareable menu from what is on hand, including one appetizer and one dessert that work with her air fryer and stove."
+  ]
+}
