@@ -1,0 +1,18 @@
+{
+  "appName": "Signal Slice",
+  "tagline": "News ranked by impact, not noise.",
+  "designSystem": {
+    "primaryColor": "#4D8BFF",
+    "secondaryColor": "#06D6FF",
+    "backgroundColor": "#070A14",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first data-dense news dashboard with electric blue/cyan accent palette, impact score badges, color-coded urgency system (red critical → orange high → amber medium → green low), and card-based layout with left-edge urgency indicators"
+  },
+  "screens": [
+    "Feed — Personal impact-ranked news feed with expandable cards, urgency badges, impact scores (0–100), consequence summaries, and category filters",
+    "Alerts — Live local disruption alerts (transit, weather, school, air quality) with severity color bars, countdown timers, and dismiss actions",
+    "Timeline — Accordion-style impact timelines showing how stories (transit strike, storm, tax deadlines) unfold step-by-step over hours and days",
+    "Actions — Prioritized actionable next steps panel with progress tracking, step-by-step guidance, and completion state",
+    "Profile — User settings with impact category preferences, notification toggles, calendar sync, light/dark theme switcher, and usage stats"
+  ]
+}

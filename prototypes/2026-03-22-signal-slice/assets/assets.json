@@ -1,0 +1,31 @@
+{
+  "appName": "Signal Slice",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#4D8BFF",
+    "secondary": "#06D6FF",
+    "background": "#070A14",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-circle",
+    "alert-triangle",
+    "arrow-right",
+    "battery",
+    "bell",
+    "check",
+    "chevron-down",
+    "chevron-right",
+    "chevron-up",
+    "clock",
+    "map-pin",
+    "moon",
+    "sun",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}

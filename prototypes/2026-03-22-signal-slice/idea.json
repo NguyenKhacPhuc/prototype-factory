@@ -1,0 +1,19 @@
+{
+  "name": "Signal Slice",
+  "tagline": "News ranked by impact, not noise.",
+  "description": "Signal Slice is a mobile news app that turns the day\u2019s flood of headlines into a personal, location-aware impact feed. Instead of simply showing what is trending, it explains what is likely to affect your commute, money, health, job, and plans within the next few hours or days. The app combines breaking news, government alerts, local updates, and market shifts, then filters them through a user\u2019s profile to surface only the stories that matter in context. For example, a parent might get a clear alert that a transit strike will delay school pickup, while a freelancer could see a local tax policy change translated into estimated cost impact. It also offers \u201cwhy this matters\u201d summaries, so users can understand the practical consequence of an event without reading ten articles. What makes it unique is that it doesn\u2019t optimize for clicks or volume; it ranks news by real-world impact, urgency, and relevance to the individual\u2019s life. This helps people make better daily decisions faster, especially when they are busy, overwhelmed, or trying to ignore doomscrolling.",
+  "features": [
+    "The app creates a personal impact score for each story based on your location, calendar, interests, and routine, so the most relevant news rises to the top when it can actually affect your day.",
+    "It converts complex headlines into plain-language consequence summaries, which helps users quickly understand what changed, why it matters, and what action they may need to take.",
+    "It sends time-sensitive alerts for local disruptions like transit delays, school closures, severe weather, or service outages, so users can react before they are inconvenienced.",
+    "It includes a 'What should I do?' panel that suggests practical next steps such as leaving earlier, adjusting a budget, or checking a policy deadline, making news actionable instead of just informative.",
+    "It tracks ongoing stories as impact timelines, showing how a political decision, market move, or public health update may unfold over the next hours or weeks, which helps users plan ahead with confidence."
+  ],
+  "audience": "Busy adults ages 22 to 55 who want news that saves time and helps them make decisions, especially commuters, parents, freelancers, urban professionals, and people managing packed schedules. It is also useful for anyone who feels overwhelmed by traditional news apps and prefers practical, localized information over endless headlines.",
+  "category": "news",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to know whether the subway delay she heard about will affect her pickup time, so she opens Signal Slice to see the disruption mapped to her route and schedule.",
+    "Jamal is a freelancer about to invoice a client and wants to understand a new tax or payment policy he saw mentioned briefly online, so he checks the app for a plain-English summary of how it could change his cash flow.",
+    "Mina is planning to drive her kids to school in the morning and sees a severe weather alert, so she uses Signal Slice to compare the likely impact on her neighborhood, commute, and school closures before leaving home."
+  ]
+}
