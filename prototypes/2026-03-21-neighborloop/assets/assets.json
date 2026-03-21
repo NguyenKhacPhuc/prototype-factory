@@ -1,0 +1,26 @@
+{
+  "appName": "NeighborLoop",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#4ADE80",
+    "secondary": "#FBBF24",
+    "background": "#080D1A",
+    "accent": "#38BDF8"
+  },
+  "icons": [
+    "bell",
+    "chevron-down",
+    "chevron-left",
+    "chevron-right",
+    "chevron-up",
+    "home",
+    "plus",
+    "user",
+    "users",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 11,
+  "fontFileCount": 0
+}

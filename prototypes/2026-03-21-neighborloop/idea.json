@@ -1,0 +1,19 @@
+{
+  "name": "NeighborLoop",
+  "tagline": "Local help, without awkwardness.",
+  "description": "NeighborLoop is a neighborhood exchange app that helps people request and offer tiny, practical favors without the social friction of asking in public groups. It solves the common problem of wanting help with small tasks\u2014borrowing a ladder, finding a trusted sitter for one hour, needing a ride to urgent errands, or asking who can receive a package\u2014while avoiding the noise, clutter, and performative nature of typical community feeds. Users post needs as \"micro-needs\" with clear time, skill, and trust tags, and nearby neighbors can respond through discreet one-tap offers or match requests to people who have already volunteered for similar help. In daily life, it turns isolated inconveniences into quick local connections, especially for newcomers, busy parents, older adults, and anyone who lacks a strong support network. For example, a parent can find a same-building neighbor to watch a sleeping toddler while they run downstairs, or a student can borrow an air pump before a bike commute. What makes NeighborLoop unique is its focus on small, reciprocal acts with privacy-preserving matching and reputation built from completed favors rather than public popularity. Instead of feeling like a social network, it feels like a neighborhood operating system for everyday life.",
+  "features": [
+    "Micro-need posts let users describe a small problem in under 60 seconds, so people can ask for help quickly without writing a long public message.",
+    "Trust tags show relevant context like verified building resident, frequent lender, or background-checked caregiver, which helps users choose the right person for each task.",
+    "Reciprocity credits track helpful actions as community currency, making it easy to give help now and receive help later without cash changing hands.",
+    "Silent matching recommends nearby members who are likely available based on past behavior, location radius, and chosen comfort level, reducing awkward back-and-forth messaging.",
+    "Neighborhood circles create smaller sub-communities for apartment buildings, blocks, or parent groups, which keeps interactions relevant and builds trust faster than large citywide feeds."
+  ],
+  "audience": "Urban renters, apartment dwellers, young parents, freelancers, students, and older adults ages 18-65 who live near others but lack strong local ties. It is especially useful for people who want practical support and safer community connection without the intensity of traditional social platforms.",
+  "category": "social & community",
+  "useCases": [
+    "Sarah just finished a stressful meeting and realizes her child\u2019s school form needs a printer in the next ten minutes, so she opens NeighborLoop to find a neighbor nearby who can print one page.",
+    "Jamal moved into a new apartment last week and needs to borrow a drill for 20 minutes to hang shelves, so he posts a micro-need instead of knocking on random doors.",
+    "Mrs. Lee, who lives alone, wants someone to receive a grocery delivery while she is at a doctor\u2019s appointment, so she checks her building circle for a trusted neighbor who is home."
+  ]
+}

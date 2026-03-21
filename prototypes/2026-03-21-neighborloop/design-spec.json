@@ -1,0 +1,28 @@
+{
+  "appName": "NeighborLoop",
+  "tagline": "Local help, without awkwardness.",
+  "designSystem": {
+    "primaryColor": "#4ADE80",
+    "secondaryColor": "#FBBF24",
+    "backgroundColor": "#080D1A",
+    "surfaceColor": "#0F1729",
+    "cardColor": "#152035",
+    "accentColor": "#38BDF8",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark neighborhood OS — deep navy backgrounds with vibrant green primary accent and warm amber for credits/urgency. Layered card surfaces with subtle borders create depth. Rounded corners (14–16px) throughout for approachability. Trust and warmth conveyed through emoji-rich content and soft glow effects."
+  },
+  "screens": [
+    "Home Feed — micro-need posts with urgency tags, filter chips, and one-tap help responses",
+    "Silent Matches — ranked neighbor cards with match percentage, skills, and availability",
+    "Circles — sub-community hubs for buildings, blocks, and parent groups with active needs",
+    "Profile — reciprocity credits bar, exchange history, trust badges, and stats"
+  ],
+  "interactions": [
+    "Post modal with 3-step flow: category selection → details → privacy radius",
+    "Filter chips for Feed by urgency and category",
+    "Match detail drawer with full profile view",
+    "Circle drill-down showing active needs within that community",
+    "Toast notifications for earned credits",
+    "Collapsible exchange history in profile"
+  ]
+}
