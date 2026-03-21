@@ -37,7 +37,8 @@ try {
   });
 
   const page = await browser.newPage();
-  await page.setViewport({ width: 375, height: 812, deviceScaleFactor: 2 });
+  // Use a large viewport so the phone frame (375x812) is fully visible and centered
+  await page.setViewport({ width: 800, height: 900, deviceScaleFactor: 2 });
 
   await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
 
@@ -50,7 +51,29 @@ try {
   // Extra settle time for fonts and animations
   await new Promise(r => setTimeout(r, 2000));
 
-  await page.screenshot({ path: output, type: 'png' });
+  // Find the phone frame element (div with ~375x812 dimensions) and screenshot it
+  const phoneFrame = await page.evaluateHandle(() => {
+    const allDivs = document.querySelectorAll('#root div');
+    for (const div of allDivs) {
+      const style = div.style;
+      const w = parseInt(style.width);
+      const h = parseInt(style.height);
+      if (w === 375 && (h >= 800 && h <= 850)) return div;
+    }
+    // Fallback: find by computed size
+    for (const div of allDivs) {
+      const rect = div.getBoundingClientRect();
+      if (rect.width >= 370 && rect.width <= 380 && rect.height >= 800 && rect.height <= 850) return div;
+    }
+    return null;
+  });
+
+  if (phoneFrame.asElement()) {
+    await phoneFrame.asElement().screenshot({ path: output, type: 'png' });
+  } else {
+    // Fallback: full page screenshot if phone frame not found
+    await page.screenshot({ path: output, type: 'png' });
+  }
   await browser.close();
 
   console.log(JSON.stringify({ success: true, path: output }));
