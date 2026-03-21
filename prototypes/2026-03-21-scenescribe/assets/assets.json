@@ -1,0 +1,35 @@
+{
+  "appName": "SceneScribe",
+  "fontFamily": "Cormorant Garant + DM Sans",
+  "colors": {
+    "primary": "#A855F7",
+    "secondary": "#FB923C",
+    "background": "#0C0B15",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "bell",
+    "camera",
+    "chevron-left",
+    "chevron-right",
+    "copy",
+    "git-branch",
+    "globe",
+    "lightbulb",
+    "lock",
+    "mic",
+    "moon",
+    "palette",
+    "pen-line",
+    "plus",
+    "sparkles",
+    "square",
+    "sun",
+    "type",
+    "user",
+    "x"
+  ],
+  "fonts": [],
+  "iconCount": 20,
+  "fontFileCount": 0
+}

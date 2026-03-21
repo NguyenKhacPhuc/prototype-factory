@@ -1,0 +1,18 @@
+{
+  "appName": "SceneScribe",
+  "tagline": "Turn moments into creative prompts.",
+  "designSystem": {
+    "primaryColor": "#A855F7",
+    "secondaryColor": "#FB923C",
+    "backgroundColor": "#0C0B15",
+    "fontFamily": "Cormorant Garant + DM Sans",
+    "style": "Dark editorial with serif display headings and a purple-coral gradient accent system. High-contrast ink-on-void aesthetic that feels like a creative writer's journal meets a modern AI tool. Light theme flips to cream-white with deep violet — equally polished."
+  },
+  "screens": [
+    "Home / Capture — Quick capture row (Photo, Voice, Text), filterable moment feed with mood tags and color palettes",
+    "Prompt Alchemy — Select a moment, choose creative medium (Writing/Design/Brainstorm) and tone, generate structured prompts with story openings, dialogue, scene fragments, palette directions",
+    "Creative Trails — Visual timeline of idea threads linking related moments; drill into individual trails with branching timeline UI",
+    "Mood Map — Per-moment emotional spectrum bars (Tension/Warmth/Mystery/Energy), extracted color palettes, style cues, and Scene Builder preview",
+    "Profile — User stats, appearance toggle (dark/light), creative focus settings, notification preferences"
+  ]
+}

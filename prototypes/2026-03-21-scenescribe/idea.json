@@ -1,0 +1,19 @@
+{
+  "name": "SceneScribe",
+  "tagline": "Turn moments into creative prompts.",
+  "description": "SceneScribe is a mobile app that helps people capture real-life moments and instantly transform them into creative writing, design, or storytelling prompts. It solves the common problem of losing inspiration after a vivid experience by letting users record a quick voice note, photo, or short text, then converting that input into structured prompts, mood boards, character ideas, and scene fragments. In daily life, it helps poets, novelists, content creators, and hobbyists turn a commute view, a conversation snippet, or a strange object they notice into usable creative material before the idea disappears. For example, a user can snap a photo of a neon-lit diner and receive three different story openings, a palette suggestion, and a dialogue prompt based on the image. A freelance designer might record the feeling of a client's brand and get visual metaphors, typography directions, and campaign concepts. What makes SceneScribe unique is that it does not just store inspiration like a notes app; it interprets everyday moments into creative building blocks tailored to the user\u2019s chosen medium and tone.",
+  "features": [
+    "Moment Capture lets users quickly save a photo, voice memo, or short text note from a real-world experience, because the app is designed to catch inspiration before it fades.",
+    "Prompt Alchemy transforms each captured moment into custom writing, art, or brainstorming prompts, helping users jump from observation to creation in seconds.",
+    "Mood Mapping analyzes colors, words, and ambience from a saved moment to generate emotional themes and style cues, which matters when users want their work to feel cohesive.",
+    "Scene Builder assembles captured fragments into editable outlines for stories, ad concepts, or social posts, saving time for users who struggle to organize raw inspiration.",
+    "Creative Trails links related moments over time into evolving idea threads, so users can revisit and develop a theme from a single spark into a full project."
+  ],
+  "audience": "Writers, visual artists, students, marketers, and independent creators ages 18-45 who frequently draw inspiration from everyday life. It is especially useful for people who are mobile, busy, and want a fast way to preserve and reshape ideas while on the go.",
+  "category": "creative tools",
+  "useCases": [
+    "Maya is on her train home when she overhears a strange, emotional conversation and wants to use it in a short story later. She records a voice note, and SceneScribe turns it into character conflict ideas and a setting prompt.",
+    "Jordan is a social media manager walking past a rain-soaked storefront with dramatic reflections and needs fresh campaign visuals. He snaps a photo, and the app generates color palette suggestions, headline angles, and aesthetic references.",
+    "Elena, a college student, feels inspired after a chaotic late-night market visit but knows she will forget the details by morning. She saves quick notes and later opens the app to find a ready-made poem outline and sensory imagery prompts."
+  ]
+}
