@@ -1,0 +1,19 @@
+{
+  "name": "Chore Quest",
+  "tagline": "Turn daily chores into epic adventures.",
+  "description": "Chore Quest transforms everyday kid chores into interactive story missions that unfold through voice, camera, and simple real-world tasks. Instead of a plain checklist, children complete age-appropriate missions like \"rescue the laundry kingdom\" by sorting socks or \"help the kitchen dragon\" by putting dishes away, earning progress in a personalized fantasy world. The app solves the common problem of kids losing motivation, forgetting responsibilities, or needing constant reminders by making tasks feel like play rather than punishment. Parents can assign routines, timers, and rewards while the app guides kids step by step with playful narration and visual cues. It helps families reduce morning chaos, bedtime resistance, and the endless back-and-forth of reminder messages. What makes it unique is that it blends imaginative storytelling with real household tasks and quick AI-powered prompts that adapt to a child\u2019s age, attention span, and current mood. Unlike generic reward charts, every completed chore changes the story world, so kids see immediate cause and effect in a way that feels magical and personal.",
+  "features": [
+    "Mission-based chores turn each task into a tiny adventure, which helps kids stay engaged and understand what to do without feeling overwhelmed.",
+    "Voice-guided prompts walk children through multi-step routines like getting dressed or cleaning a room, which reduces parent nagging and frustration.",
+    "Camera-based completion checks let kids show the app a tidy backpack or sorted toys, making progress feel tangible and giving parents lightweight verification.",
+    "Adaptive story worlds change based on the child\u2019s age and performance, which keeps the app challenging but never discouraging.",
+    "Parent controls let caregivers set schedules, difficulty levels, and reward rules, which makes the app useful for real family routines instead of just entertainment."
+  ],
+  "audience": "Parents of kids ages 4-10 who want smoother home routines, plus children who respond better to play, stories, and visual guidance than to traditional chore charts. It is especially useful for busy households, neurodivergent children, and families trying to build independence without constant reminders.",
+  "category": "kids",
+  "useCases": [
+    "Maya is 6 and always resists getting ready for school, so her dad opens Chore Quest to start the \"Rocket Launch\" mission, where brushing teeth, finding shoes, and packing her bag become steps in a space adventure.",
+    "After dinner, eight-year-old Leo keeps forgetting to clear the table, so his mom launches the app and he completes the \"Banquet Cleanup\" quest with visual prompts and a final camera check of the tidy dining room.",
+    "On Saturday morning, Priya wants her twins to clean their shared bedroom without a meltdown, so she assigns two sibling missions that split the room into zones and reward them with progress toward unlocking a new castle level."
+  ]
+}

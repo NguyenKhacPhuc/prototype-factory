@@ -1,0 +1,14 @@
+{
+  "appName": "Chore Quest",
+  "fontFamily": "Outfit",
+  "colors": {
+    "primary": "#8B5CF6",
+    "secondary": "#F59E0B",
+    "background": "#0D0B1A",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

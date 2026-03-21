@@ -1,0 +1,18 @@
+{
+  "appName": "Chore Quest",
+  "tagline": "Turn daily chores into epic adventures.",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#0D0B1A",
+    "fontFamily": "Outfit",
+    "style": "Dark fantasy RPG aesthetic with vibrant purple and gold accents. Deep midnight backgrounds, glowing card surfaces, gradient banners, and emoji-driven iconography to appeal to children while maintaining a premium feel. Micro-interactions include press-scale animations, toggle slides, floating elements, and fade-in transitions."
+  },
+  "screens": [
+    "Quest Log — Today's missions with hero stats banner, XP bar, streak tracker, and quest cards with difficulty/reward tags",
+    "Quest Detail — Active mission view with narrative briefing, step-by-step progress tracker, voice narration toggle, camera verification panel, and complete CTA",
+    "My Kingdom — Fantasy world map with animated area icons, unlock progress bars for 5 distinct world regions",
+    "Rewards — Stats grid, badge collection (earned/locked states), and redeemable reward store with coin balance check",
+    "Profile & Settings — Hero avatar card, dark/light theme toggle, notification/voice toggles, parent PIN-locked controls section"
+  ]
+}
