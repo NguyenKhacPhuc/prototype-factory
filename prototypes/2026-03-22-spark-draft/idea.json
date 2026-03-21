@@ -1,0 +1,19 @@
+{
+  "name": "Spark Draft",
+  "tagline": "Turn rough ideas into polished creative directions.",
+  "description": "Spark Draft is a mobile creative companion that helps people turn scattered inspiration into concrete creative briefs, moodboards, and next-step plans in minutes. It solves the common problem of having a good idea but not knowing how to shape it, organize it, or communicate it clearly to others. Users can snap a photo, paste a voice note, drop in a sketch, or type a messy thought, and the app intelligently converts it into a structured creative draft with themes, references, color directions, and action prompts. In daily life, it helps designers, marketers, content creators, founders, and hobbyists quickly capture inspiration on the go before it disappears. For example, someone spotting an interesting caf\u00e9 sign could instantly turn it into a logo exploration brief, while a podcaster could transform a brainstorm into episode segments and visual concepts. Unlike generic note apps or standard AI writing tools, Spark Draft is built specifically to bridge the gap between inspiration and executable creative direction, making it feel like a portable creative director rather than just a text generator.",
+  "features": [
+    "It transforms rough input like voice notes, photos, sketches, and fragments of text into a clean creative brief, which matters because users can move from inspiration to structure without switching apps.",
+    "It generates tailored moodboards with style keywords, color palettes, and visual references, helping users communicate an aesthetic quickly and clearly to collaborators or clients.",
+    "It includes a 'next move' generator that suggests practical next steps such as drafting a shot list, outlining a social post, or building a presentation slide, so ideas become actionable instead of staying abstract.",
+    "It stores every draft as a searchable idea thread that links related concepts over time, which matters for people who revisit old sparks and want to build on them later.",
+    "It offers a fast collaboration mode that lets users share a polished concept card with comments and approvals, making it easier to get feedback from teammates, clients, or friends in one place."
+  ],
+  "audience": "Designed for creative professionals and ambitious hobbyists ages 18-45, especially designers, marketers, content creators, freelancers, founders, and students who frequently capture ideas in transit or under deadline pressure. It fits people who need to think visually and communicate concepts quickly in collaborative or solo creative workflows.",
+  "category": "creative tools",
+  "useCases": [
+    "Maya, a freelance brand designer, leaves a caf\u00e9 after seeing a striking poster and opens Spark Draft to turn a photo and a voice memo into a logo direction board before the idea fades. She shares the concept card with a client later that evening instead of starting from a blank page.",
+    "Jordan, a social media manager, gets a last-minute campaign request during lunch and uses Spark Draft to convert scattered notes into a content angle, palette, and three post concepts. By the time he returns to his desk, he already has a workable creative brief.",
+    "Lina, a hobby filmmaker, wakes up with a scene idea after a dream and uses Spark Draft to structure it into a visual tone, character mood, and shot-list starter. She saves the thread so she can expand it into a short film script over the weekend."
+  ]
+}

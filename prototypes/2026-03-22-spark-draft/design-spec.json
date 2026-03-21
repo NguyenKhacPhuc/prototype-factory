@@ -1,0 +1,18 @@
+{
+  "appName": "Spark Draft",
+  "tagline": "Turn rough ideas into polished creative directions.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#F5F3FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern creative tool with vibrant violet-purple accent, warm amber highlights, and clean card-based layout. Supports full light and dark themes with polished gradients and subtle borders."
+  },
+  "screens": [
+    "Create (Home) — multi-mode input (text, photo, voice, sketch) with AI brief generation and animated loading state",
+    "Drafts — searchable, filterable list of saved creative briefs with color palette previews",
+    "Moodboard — detailed visual direction explorer with palette strips, style keywords, and reference cards",
+    "Collaboration — shared concept cards with comment threads, collaborator avatars, and approval flow",
+    "Settings — profile overview, light/dark theme toggle, preferences, and account management"
+  ]
+}
