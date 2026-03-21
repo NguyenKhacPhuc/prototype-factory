@@ -1,0 +1,18 @@
+{
+  "appName": "DriftMap",
+  "tagline": "Weather routes around your life.",
+  "designSystem": {
+    "primaryColor": "#0EA5E9",
+    "secondaryColor": "#06B6D4",
+    "backgroundColor": "#EFF6FF",
+    "fontFamily": "Space Grotesk",
+    "style": "Clean, data-rich mobile UI with sky-blue accent palette. Uses card-based layouts with subtle shadows, color-coded weather zone indicators, SVG route visualization, and smooth toggle interactions. Light mode defaults to airy blues; dark mode uses deep navy surfaces with vibrant cyan highlights."
+  },
+  "screens": [
+    "Route — Interactive block-level route map with SVG waypoints, weather zone color coding, stat strip, active block detail card, and Weather Smart Shortcuts",
+    "Compare — Side-by-side route comparison cards with comfort score rings, rain/wind/sun metrics, animated bar chart for rain exposure, and recommendation badge",
+    "Timeline — Departure time picker with comfort scores, block-by-block zone forecast grid, full-day overview heat-map, and best window highlight",
+    "Alerts — Live crowd-sourced condition reports with thumbs-up voting, active rain banner, categorized alert cards with location and reporter attribution",
+    "Settings — User profile card, dark mode toggle, notification preferences, route mode toggles (cyclist, units), and data source info"
+  ]
+}

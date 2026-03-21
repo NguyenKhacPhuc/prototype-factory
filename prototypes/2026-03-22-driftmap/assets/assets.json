@@ -1,0 +1,31 @@
+{
+  "appName": "DriftMap",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#0EA5E9",
+    "secondary": "#06B6D4",
+    "background": "#EFF6FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-circle",
+    "alert-triangle",
+    "arrow-left-right",
+    "battery",
+    "chevron-right",
+    "circle",
+    "clock",
+    "cloud",
+    "navigation",
+    "plus",
+    "search",
+    "settings",
+    "signal",
+    "thumbs-up",
+    "wifi",
+    "wind"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}

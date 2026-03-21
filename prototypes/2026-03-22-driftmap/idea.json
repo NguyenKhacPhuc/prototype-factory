@@ -1,0 +1,19 @@
+{
+  "name": "DriftMap",
+  "tagline": "Weather routes around your life.",
+  "description": "DriftMap is a hyperlocal weather app that doesn\u2019t just tell you what the forecast is; it tells you how the weather will affect your actual movement through the city. Instead of giving a single forecast for a zip code, it maps wind tunnels, sun exposure, rain pockets, and temperature shifts block by block along your route, helping you choose the most comfortable path for walking, biking, commuting, or running errands. It solves the common problem of being technically \u201cprepared\u201d for the weather while still getting caught in a surprise downpour, a brutal headwind, or a sun-blasted sidewalk that makes a short trip miserable. In daily life, it helps users decide when to leave, which streets to take, whether to bring an umbrella, and even which side of the building will stay shaded for a lunch break. A parent can use it to pick the driest school pickup path, a cyclist can avoid a headwind-heavy avenue, and a delivery worker can plan a safer route around slippery corners. What makes it unique is that it combines local weather data, terrain, building geometry, and live user reports into a route-aware forecast instead of a static summary. The app turns weather into a navigational problem, making it far more actionable than traditional forecast apps.",
+  "features": [
+    "Block-level microforecasting shows rain, wind, heat, and shade changes along a street-by-street route, so users can avoid the worst conditions before they step outside.",
+    "Route Weather Compare lets users pit multiple paths against each other and see which one is driest, coolest, or least windy, which matters when comfort and timing are both important.",
+    "Exposure Timeline predicts when a user will cross direct sun, tree shade, or wind-exposed intersections during a trip, helping them choose the safest and most tolerable departure time.",
+    "Crowd-Sensed Condition Alerts pull in live reports from nearby users about puddles, gusts, icy patches, and sudden drizzle, which adds real-world accuracy beyond radar alone.",
+    "Weather Smart Shortcuts recommend practical actions like 'take the east entrance,' 'wait 18 minutes,' or 'bring a hood, not an umbrella,' turning forecasts into immediate decisions."
+  ],
+  "audience": "Urban commuters, cyclists, walkers, parents, and gig workers ages 18-55 who regularly move between destinations in cities or dense suburbs. It is especially useful for people whose daily plans are sensitive to comfort, timing, and microclimate changes over just a few blocks.",
+  "category": "weather",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to walk to the train without arriving soaked, so she checks DriftMap to pick the route with the fewest exposed blocks and the best chance of staying dry.",
+    "Miguel bikes to work every morning and hates headwinds, so before leaving he uses DriftMap to choose a side-street path that trades two extra minutes for much calmer wind.",
+    "Ava is picking up her child from school during a sudden heat wave and wants to avoid walking in direct sun, so she opens DriftMap to find the shadiest route and the coolest pickup timing."
+  ]
+}
