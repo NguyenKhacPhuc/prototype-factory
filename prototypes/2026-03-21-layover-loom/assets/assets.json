@@ -1,0 +1,14 @@
+{
+  "appName": "Layover Loom",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#f4a130",
+    "secondary": "#4b9cf5",
+    "background": "#09101f",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

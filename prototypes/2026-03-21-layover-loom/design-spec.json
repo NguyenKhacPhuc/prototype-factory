@@ -1,0 +1,18 @@
+{
+  "appName": "Layover Loom",
+  "tagline": "Turn dead travel time into useful time.",
+  "designSystem": {
+    "primaryColor": "#f4a130",
+    "secondaryColor": "#4b9cf5",
+    "backgroundColor": "#09101f",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first functional travel UI with warm amber accents, clean card-based layouts, and a timeline-driven itinerary pattern. Micro-constraint inputs (luggage, energy, pace) drive a confidence-scored, time-pocket plan with live alert overlays."
+  },
+  "screens": [
+    "Home — Time Pocket hero with 47-min countdown, luggage + energy selectors, mini stats, and Loom My Time CTA",
+    "Plan — Confidence-scored timeline itinerary with walk/stop nodes, regenerate option, and on-time status",
+    "Explore — Category tabs (Food, Rest, Errands, Wander) with filter chips and constraint-aware place cards",
+    "Alerts — Live buffer status bar, gate change warnings, weather updates, and ranked alert feed",
+    "Settings — Theme toggle (dark/light), travel profile preferences, walking pace selector"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Layover Loom",
+  "tagline": "Turn dead travel time into useful time.",
+  "description": "Layover Loom helps travelers make the most of awkward gaps between flights, trains, and check-ins by building hyper-practical, time-aware micro-itineraries around their exact location, baggage situation, and energy level. Instead of suggesting generic attractions, it calculates what you can realistically do in 47 minutes with carry-on only, a rainstorm outside, and a boarding gate 18 minutes away. The app solves the real problem of wasted, stressful in-between time that often leaves travelers exhausted, bored, or anxious about missing their next connection. It helps daily by instantly translating travel downtime into options like a 12-minute local coffee crawl, a quick museum loop, a quiet nap pod, or a nearby pharmacy run before a long-haul flight. A business traveler at Tokyo Station might use it to find a power outlet and ramen spot within one transfer stop, while a family with a delayed connection in Dallas could locate a stroller-friendly walking path plus a kid-safe snack stop. What makes it unique is that it plans around micro-constraints most apps ignore, such as luggage drag, walking fatigue, re-entry time, weather shifts, and real-world transit buffers. Instead of trying to be a map or a booking engine, it behaves like a smart travel companion that turns uncertain gaps into calm, curated mini-adventures.",
+  "features": [
+    "The app generates a live 'time pocket' plan based on your exact minutes available, so it only suggests actions you can complete without stress.",
+    "It factors in luggage type, airport security re-entry times, weather, and walking pace to avoid recommending anything that is unrealistic.",
+    "It offers nearby options grouped by intent, such as food, rest, errands, or exploration, so users can choose based on what they actually need in the moment.",
+    "It sends automatic buffer warnings and route updates if delays, gate changes, or transit issues threaten your return on time.",
+    "It includes lightweight local recommendations like quiet cafes, shower rooms, luggage storage, and mini attractions that are often more useful than major tourist sights during short layovers."
+  ],
+  "audience": "Frequent flyers, business travelers, solo backpackers, and families who often face long layovers, train transfers, or pre-check-in gaps. It is especially useful for adults ages 18-55 who value convenience, timing, and low-stress travel planning.",
+  "category": "travel",
+  "useCases": [
+    "Maya lands in Singapore with a 3-hour layover and only a backpack, so she opens the app to see a 90-minute food loop, a nearby MRT route, and a safe return buffer that gets her back before boarding.",
+    "Jordan's train is delayed in Berlin, and he needs to stretch, charge his phone, and find coffee without wandering too far, so the app gives him a walkable sequence of a charger-friendly cafe, a park bench, and the correct platform exit.",
+    "A family of four arrives early for a resort check-in in Mexico City, and the parents use the app to find a stroller-friendly lunch stop, a clean restroom, and a short indoor activity that fits the kids' energy level."
+  ]
+}
