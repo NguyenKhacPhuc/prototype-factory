@@ -1,0 +1,19 @@
+{
+  "name": "Signal Brief",
+  "tagline": "News that fits your moment.",
+  "description": "Signal Brief is a context-aware news app that learns what kind of information you need based on your current situation, not just your interests. Instead of dumping a generic feed on you, it turns breaking news, local updates, and topic coverage into compact, actionable briefs tailored to the moment, such as a commute, a school pickup, or a business trip. The app solves the problem of news overload by filtering stories through urgency, relevance, and practical impact, so users can quickly understand what matters now and what can wait. In daily life, it helps users decide whether a transit delay will affect their route, whether a severe weather alert changes evening plans, or whether a policy update impacts their job or finances. One unique use case is an \u201cimpact lens\u201d that translates major stories into plain-language consequences for different life roles, like parent, renter, freelancer, or traveler. Another is location-sensitive summaries that surface neighborhood-specific developments only when they are relevant, instead of relying on broad geographies. Compared with existing news apps, Signal Brief is less about reading more and more about making faster, smarter decisions with less cognitive effort.",
+  "features": [
+    "The app generates adaptive news briefs that shorten or expand based on the user\u2019s available time, making it easy to stay informed during a two-minute break or a longer reading session.",
+    "An impact lens rewrites articles into practical implications for different life situations, helping users see how a headline may affect their commute, budget, school plans, or work schedule.",
+    "Context-based alerts trigger only when a story intersects with the user\u2019s location, calendar, or saved priorities, which reduces notification fatigue and keeps attention on what truly matters.",
+    "Neighborhood pulse maps combine local news, weather, transit, and civic updates into a single view, so users can quickly assess whether their immediate area is changing in ways that affect daily life.",
+    "Plain-language source trails show where each brief came from and how the app connected the dots, giving users transparency without forcing them to sift through multiple articles themselves."
+  ],
+  "audience": "Busy professionals, parents, commuters, and students ages 18 to 55 who want news that is immediately useful rather than overwhelming. It is especially valuable for people living in fast-changing cities or balancing work, family, and travel.",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to know whether the flood warning affects her evening pickup route. She opens Signal Brief and sees a one-paragraph update tailored to her neighborhood with a faster detour suggestion.",
+    "Marcus is boarding a train for a work trip and needs to understand a major policy headline before his next call. The app gives him a three-minute brief showing how the change may impact his industry and what questions he should be ready to answer.",
+    "Leila is a parent checking her phone before school drop-off and wants to know if a transit strike or severe weather could disrupt the morning schedule. Signal Brief surfaces only the updates that matter to her family\u2019s routine and hides the rest until later."
+  ],
+  "category": "news"
+}

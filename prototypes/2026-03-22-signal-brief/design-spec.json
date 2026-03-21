@@ -1,0 +1,18 @@
+{
+  "appName": "Signal Brief",
+  "tagline": "News that fits your moment.",
+  "designSystem": {
+    "primaryColor": "#0EA5E9",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#F2F4F7",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean information-dense card layout with vibrant sky-blue accent, urgency-coded color indicators, and adaptive brief density. Light mode features crisp whites with cyan-blue highlights; dark mode uses deep navy surfaces with electric blue accents for a premium editorial feel."
+  },
+  "screens": [
+    "Home / Briefs — Adaptive news feed with context selector (Commute, Work, Travel), brief length toggle (2/5/10 min), urgency-coded cards, and inline brief detail with source trail",
+    "Impact Lens — Role-based news rewriting (Commuter, Parent, Renter, Freelancer, Traveler) showing plain-language consequences for each story",
+    "Neighborhood Pulse — Visual map with pinned local alerts, zone selector (Your Block, Mission, Civic Center, Weather), and real-time local updates",
+    "Smart Alerts — Context-based notification feed with per-category toggles (Transit, Weather, Civic, Finance) and priority alert highlighting",
+    "Settings — Profile & role management, appearance toggle (light/dark with animated switch), coverage area config, and calendar integration status"
+  ]
+}

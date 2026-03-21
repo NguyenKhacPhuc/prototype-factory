@@ -1,0 +1,34 @@
+{
+  "appName": "Signal Brief",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#0EA5E9",
+    "secondary": "#F59E0B",
+    "background": "#F2F4F7",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "align-left",
+    "arrow-left",
+    "bell",
+    "bookmark",
+    "chevron-right",
+    "circle",
+    "clock",
+    "git-branch",
+    "info",
+    "layers",
+    "map-pin",
+    "moon",
+    "navigation",
+    "newspaper",
+    "signal",
+    "sun",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 19,
+  "fontFileCount": 0
+}
