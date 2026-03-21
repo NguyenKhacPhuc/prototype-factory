@@ -1,0 +1,17 @@
+{
+  "appName": "RallyPulse",
+  "tagline": "Turn free time into game time.",
+  "designSystem": {
+    "primaryColor": "#FF6B35",
+    "secondaryColor": "#10B981",
+    "backgroundColor": "#F0F2FA",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern sports-focused UI with vibrant orange-gradient hero cards, glass-like card surfaces, activity-level dot indicators, multi-stat mini-grids, and strong typographic hierarchy. Clean pill filters, colored left-border alert strips, and a persistent check-in banner drive engagement. Dual light/dark themes with a purple-tinted neutral palette in light mode and deep navy-black surfaces in dark mode."
+  },
+  "screens": [
+    "Home — Best match hero card, time-window picker, nearby opportunities list, weather conditions row",
+    "Discover — Sport filter pills, venue browser with openness bars and activity dot indicators",
+    "Alerts — Live opportunity feed with colored accent borders, dismissable cards, check-in banner",
+    "Profile — User stats grid, sport preferences, skill-level selector, settings list with dark mode toggle"
+  ]
+}

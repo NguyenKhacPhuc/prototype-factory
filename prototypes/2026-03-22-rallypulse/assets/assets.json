@@ -1,0 +1,33 @@
+{
+  "appName": "RallyPulse",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#FF6B35",
+    "secondary": "#10B981",
+    "background": "#F0F2FA",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "calendar",
+    "check-circle",
+    "chevron-right",
+    "clock",
+    "compass",
+    "home",
+    "map-pin",
+    "moon",
+    "search",
+    "sun",
+    "user",
+    "users",
+    "wifi",
+    "wind",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 18,
+  "fontFileCount": 0
+}

@@ -1,0 +1,13 @@
+{
+  "name": "RallyPulse",
+  "tagline": "Turn free time into game time.",
+  "description": "RallyPulse helps people find the best spontaneous sports opportunity around them, matching open courts, fields, weather, skill level, and the exact time they have available. Instead of endlessly texting group chats or showing up to crowded facilities, users can instantly discover where a pickup game is likely to happen, when a court will be open, and whether they can realistically join without waiting around. The app solves the common problem of wasted time and missed games by using live signals from parks, rec centers, local leagues, and community check-ins to predict the best place to play. It fits into daily life by helping commuters, students, and busy workers squeeze in exercise and social time between errands, meetings, or family obligations. A basketball player can find a half-full court near the office at 6:10 p.m., a soccer parent can locate an open field after school pickup, and a tennis player can see which nearby courts typically clear out after 7 p.m. What makes it unique is that it doesn't just list facilities; it anticipates actual playable moments and explains the best match based on your skill, energy, and available window. This turns sports planning from a guessing game into a real-time opportunity engine.",
+  "features": [
+    "The app predicts playable sports windows by combining location data, local activity patterns, weather, and facility schedules so users can see when a court or field is most likely to be usable.",
+    "It matches users with games based on skill level, pace preference, and time commitment, which helps beginners avoid intimidating runs and advanced players avoid mismatched pickup sessions.",
+    "A live check-in system lets players confirm crowd size, equipment availability, and current game status, reducing the frustration of arriving somewhere only to find it unusable.",
+    "Smart alerts notify users when nearby opportunities open up, such as a tennis court clearing early or a basketball game forming within the next 20 minutes, so they can act quickly.",
+    "The app suggests the fastest-fit option based on commute time, daylight, weather, and how long the user can stay, which makes it practical for people with tight schedules.",
+    "audience"
+  ]
+}
