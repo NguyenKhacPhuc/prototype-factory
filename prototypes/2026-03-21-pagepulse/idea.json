@@ -1,0 +1,19 @@
+{
+  "name": "PagePulse",
+  "tagline": "Turn headlines into your next smart move.",
+  "description": "PagePulse is a mobile reading app that transforms magazines and newspapers into a personalized daily decision engine. Instead of simply feeding users more articles, it maps stories to their immediate context\u2014like commuting, parenting, job hunting, or managing money\u2014and highlights what is actually useful right now. A busy parent could see which school policy story affects their district, while a freelancer could get a concise digest of economic headlines tied to upcoming invoices and tax deadlines. The app solves the common problem of news overload by filtering content into actionable, situational briefs that help users make better choices throughout the day. What makes it unique is its \"context lens,\" which rewrites editorial content into practical takeaways without losing the original reporting, and lets users save, compare, or revisit stories based on life situations rather than categories alone. It also blends magazine-style depth with newspaper timeliness, so users get both the bigger picture and the immediate next step.",
+  "features": [
+    "The context lens automatically groups stories by real-life situations, such as commuting, family planning, or career moves, so users see news that matches what they are dealing with right now.",
+    "The app converts long-form articles into layered summaries that start with a two-line answer, then expand into key facts and source excerpts for users who want more depth.",
+    "A daily action feed turns selected stories into practical suggestions, such as reminder prompts, checklist items, or follow-up questions, which helps readers apply the news instead of just consuming it.",
+    "Users can pin stories to personal boards like 'home buying' or 'school district,' making it easy to track developing coverage across newspapers and magazines in one place.",
+    "An impact meter shows how relevant each story is to a user's location, finances, job, or interests, which matters because it helps people prioritize attention in a crowded media environment."
+  ],
+  "audience": "PagePulse is for busy adults ages 22-50 who regularly skim news but struggle to keep up with what matters most. It fits commuters, parents, freelancers, managers, and early-career professionals who want smarter reading without spending hours searching.",
+  "category": "magazines & newspapers",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to know whether the new housing policy article affects her upcoming apartment search, so she opens PagePulse and jumps straight to the relevant takeaway.",
+    "Marcus is riding the train to work and has only ten minutes, so he asks the app for a short, work-focused digest of business headlines that might influence his client's budget decision.",
+    "Nina is planning next month's family expenses and opens PagePulse to track consumer-price coverage, saving the stories that could help her decide when to renew subscriptions or delay a purchase."
+  ]
+}

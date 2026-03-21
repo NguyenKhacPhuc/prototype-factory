@@ -1,0 +1,17 @@
+{
+  "appName": "PagePulse",
+  "tagline": "Turn headlines into your next smart move.",
+  "designSystem": {
+    "primaryColor": "#6C47FF",
+    "secondaryColor": "#10B981",
+    "backgroundColor": "#F5F3FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern editorial with vibrant violet-purple accent. Clean card-based layout with layered information hierarchy, soft gradient headers, and micro-interaction press effects. Light mode features soft lavender backgrounds with white cards; dark mode uses deep navy-purple surfaces with elevated contrast."
+  },
+  "screens": [
+    "Today Feed — Daily action feed with impact-scored stories, expandable depth layers, and actionable checklist",
+    "Context Lens — Situational story groupings (Commuting, Family, Career, Money, Home, Health) with active context banner",
+    "My Boards — Pinned story boards for tracking developing coverage across life situations",
+    "Settings — Profile overview, light/dark theme toggle, content source management, and notification preferences"
+  ]
+}
