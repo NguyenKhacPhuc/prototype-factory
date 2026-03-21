@@ -1,0 +1,31 @@
+{
+  "appName": "Alert Run",
+  "tagline": "Turn urgency into a playable escape.",
+  "designSystem": {
+    "primaryColor": "#FF4500",
+    "secondaryColor": "#FFB347",
+    "accentColor": "#FF1744",
+    "backgroundColor": "#F6F1EC",
+    "darkBackground": "#0C0805",
+    "fontFamily": "Space Grotesk",
+    "style": "High-energy action game UI with warm flame-orange primary palette, deep charcoal dark mode, bold typography, glowing CTAs, and mission-card layouts. Combines productivity urgency with adrenaline game aesthetics."
+  },
+  "screens": [
+    "Home - Dashboard with streak banner, critical mission alert, and today's mission list",
+    "Missions - Task-to-mission converter with urgency-grouped list and add-task form",
+    "Play - Interactive escape run with countdown timer, action button, combo scoring, and visual runner track",
+    "Rewards - XP progress, weekly streak calendar, badge grid, and completed mission history",
+    "Settings - Theme toggle (light/dark), sound/haptics/gameplay toggles, and profile card"
+  ],
+  "features": [
+    "Light and dark theme with flame-orange accent palette",
+    "Interactive game session with real countdown timer",
+    "Combo multiplier system on ACTION button presses",
+    "Task-to-mission conversion form with urgency/time selection",
+    "Post-mission debrief with XP calculation and next-step prompt",
+    "Weekly streak calendar visualization",
+    "Badge achievement system",
+    "Floating Action Button (FAB) Play tab with elevated glow",
+    "Dynamic Island notch and realistic status bar"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "appName": "Alert Run",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#FF4500",
+    "secondary": "#FFB347",
+    "background": "#F6F1EC",
+    "accent": "#FF1744"
+  },
+  "icons": [
+    "battery",
+    "chevron-right",
+    "flag",
+    "moon",
+    "plus",
+    "signal",
+    "star",
+    "sun",
+    "timer",
+    "user",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 11,
+  "fontFileCount": 0
+}

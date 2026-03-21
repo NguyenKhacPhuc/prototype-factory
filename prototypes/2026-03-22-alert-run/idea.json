@@ -1,0 +1,19 @@
+{
+  "name": "Alert Run",
+  "tagline": "Turn urgency into a playable escape.",
+  "description": "Alert Run is a fast-paced action game that transforms real-life task pressure into short, mission-based adrenaline bursts. It helps people break out of procrastination, regain focus, and tackle stressful responsibilities by turning them into \u201cescape runs\u201d where every completed real-world action unlocks progress in the game. For example, a user can convert a pile of unanswered emails into a timed city chase, or make cleaning a room feel like dodging obstacles to power down an incoming threat. The app solves the problem of motivation collapse by making boring, anxiety-inducing tasks feel urgent, physical, and rewarding without requiring long play sessions. Its daily-life value is in helping users start tasks they\u2019ve been avoiding, especially when they feel overwhelmed or mentally stuck. Unlike typical productivity apps or simple gamified to-do lists, Alert Run uses action-game mechanics, reactive sound design, and session pacing that mirrors real stress, making the user feel like they are fighting through resistance instead of just checking boxes. The experience is designed for quick use between meetings, before bed, or whenever someone needs a jolt of momentum to get moving.",
+  "features": [
+    "Task-to-mission conversion lets users turn any real-world chore or responsibility into an action objective, which makes starting intimidating tasks feel immediately more manageable.",
+    "Dynamic escape levels adapt to the user\u2019s urgency and time available, so a five-minute phone call or a 30-minute cleanup becomes a tense but achievable game session.",
+    "Real-time streak pressure rewards follow-through with combo bonuses, which matters because it keeps users engaged long enough to complete tasks they would otherwise delay.",
+    "Ambient focus mode syncs with timers, sound effects, and visual intensity to reduce distraction while reinforcing a sense of forward motion during work sprints.",
+    "Post-mission debriefs convert completed tasks into earned rewards and next-step prompts, helping users build momentum instead of stopping after a single burst of productivity."
+  ],
+  "audience": "Designed for teens and adults ages 16\u201335 who struggle with procrastination, overwhelm, or task initiation, especially students, remote workers, and busy urban professionals. It also appeals to action-game fans who want a high-energy way to stay productive in short daily windows.",
+  "category": "game: action",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to answer three important emails, so she starts an Alert Run mission and treats each reply like surviving a timed rooftop chase.",
+    "Jamal is avoiding cleaning his apartment before guests arrive, so he opens the app, assigns each room a danger zone, and uses the game\u2019s momentum to power through the mess.",
+    "Mina is stuck studying for an exam and keeps doom-scrolling, so she launches a five-minute escape run that turns one reading chapter into a high-pressure action segment."
+  ]
+}
