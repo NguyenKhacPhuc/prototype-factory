@@ -1,0 +1,18 @@
+{
+  "appName": "MoodNest",
+  "tagline": "Turn chaos into calm rituals.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#A855F7",
+    "backgroundColor": "#F4F1FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Soft card-based UI with violet/purple accent palette, rounded corners (18-24px), gradient hero elements, and a calm, intentional visual hierarchy. Light mode uses warm lavender backgrounds; dark mode uses deep navy-purple surfaces. Micro-interactions via press scale effects and smooth toggle animations."
+  },
+  "screens": [
+    "Home / Check-in (3-step mood + situation + time flow leading to a personalized ritual)",
+    "Active Ritual (step-by-step ritual runner with countdown timer, progress bar, and completion celebration)",
+    "Discover (category grid, featured rituals carousel, and trending rituals list)",
+    "Playbook (personal saved ritual collection with usage stats and mood insights)",
+    "Settings / Profile (theme toggle, notification preferences, streak display, and app info)"
+  ]
+}

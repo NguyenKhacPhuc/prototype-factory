@@ -1,0 +1,15 @@
+{
+  "name": "MoodNest",
+  "tagline": "Turn chaos into calm rituals.",
+  "description": "MoodNest is a lifestyle app that helps people create micro-rituals for everyday moments of emotional overwhelm, decision fatigue, and scattered routines. Instead of tracking habits in a generic way, it detects the kind of situation you're in, such as a tense workday, post-argument slump, or Sunday night dread, and offers a tiny, personalized reset plan that fits the moment. The app solves the common problem of knowing you need to feel better but not knowing what to do that actually works in real life. It helps users by turning vague intentions like \"relax more\" into concrete actions, such as a three-minute desk decompression, a frictionless grocery-day wind-down, or a pre-sleep ritual built around their energy level, environment, and available time. A person preparing for a big presentation might get a breathing prompt, a 90-second posture reset, and a confidence cue; someone recovering from a hard social interaction might get a sensory grounding routine and a short boundary-setting reflection. What makes MoodNest unique is that it treats emotional maintenance like a contextual design problem, blending mood signals, time constraints, and daily habits into highly specific, practical rituals instead of generic meditation or to-do lists.",
+  "features": [
+    "The app creates instant micro-rituals based on your current situation, so users get something realistic they can do in under five minutes when life feels too busy.",
+    "It learns which resets actually help you, then adapts future suggestions to match your stress patterns, energy level, and preferred style of support.",
+    "It uses a moment-based check-in system that asks what just happened, what you have next, and how much time you can spare, which keeps recommendations useful instead of abstract.",
+    "It includes tailored rituals for common life friction points like post-commute decompression, social anxiety before events, and late-night overthinking, making it practical for daily use.",
+    "It saves your best rituals as a personal playbook, so you can quickly reuse the things that help most without having to remember them in the moment.",
+    "audience",
+    "category",
+    "useCases"
+  ]
+}
