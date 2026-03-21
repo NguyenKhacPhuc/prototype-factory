@@ -34,12 +34,21 @@ export function PrototypeCard({ prototype: p, navigate }: Props) {
       onKeyDown={(e) => e.key === "Enter" && navigate(`/prototype/${slug}`)}
     >
       <div className="shot-preview">
-        <iframe
-          src={`/prototypes/${slug}/preview.html`}
-          sandbox="allow-scripts allow-same-origin"
-          loading="lazy"
-          title={p.appName}
-        />
+        {p.hasScreenshot ? (
+          <img
+            src={`/prototypes/${slug}/screenshot.png`}
+            alt={p.appName}
+            loading="lazy"
+            draggable={false}
+          />
+        ) : (
+          <iframe
+            src={`/prototypes/${slug}/preview.html`}
+            sandbox="allow-scripts allow-same-origin"
+            loading="lazy"
+            title={p.appName}
+          />
+        )}
         <div className="shot-overlay">
           <span className="shot-title">{p.appName}</span>
         </div>

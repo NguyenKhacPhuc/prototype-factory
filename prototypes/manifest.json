@@ -16,6 +16,7 @@
       "Tide - Day timeline with past/current/future/slot event types, adaptive repack badges, matched task chips, and dot+line visual track",
       "Insights - Productivity stats grid, focus bar chart by hour, weekly heatmap, and learned behavior pattern cards"
     ],
+    "hasScreenshot": true,
     "description": "Task Tide is a productivity app that reshapes your to-do list around the way your day actually unfolds, instead of how you hoped it would. It connects with your calendar, location, weather, commute, and focus patterns to automatically suggest the best next task when you have an unexpected gap, low-energy moment, or sudden change in plans. The app solves a common problem: most task managers fail because they treat every task as equally doable at any time, which leads to decision fatigue and abandoned plans. In daily life, it helps users make smarter micro-decisions like choosing a 7-minute email cleanup while waiting for coffee, moving a deep-work task to a quieter time after a noisy morning, or surfacing errands near their next appointment. What makes it unique is that it plans work in \u201cmoment slots\u201d rather than rigid blocks, matching task type to the real-world conditions you are in right now. For example, a user in a noisy train station might get admin tasks, while a person with 25 free minutes and perfect concentration might get a writing task they have been postponing. Instead of asking users to build an ideal schedule, Task Tide quietly adapts the day as life changes, turning fragments of time into meaningful progress.",
     "features": [
       "The app continuously scores tasks by duration, energy level, location relevance, and interruption tolerance so it can recommend the most realistic next action at any moment.",
@@ -49,6 +50,7 @@
       "Patterns (Insights) \u2014 Weekly energy bar chart, filterable pattern cards with action CTAs, energy map teaser with habit triggers",
       "Recovery Plan \u2014 Readiness score card with HRV/sleep data, day schedule timeline with completion states, habit streak grid"
     ],
+    "hasScreenshot": true,
     "description": "Pulse Pantry helps people understand how their food, stress, sleep, and movement are affecting their energy, recovery, and overall fitness in everyday life. Instead of just counting calories or steps, it uses quick meal logging, wearable data, and simple context prompts to identify patterns like why you feel sluggish after lunch, why your evening workouts underperform, or which breakfast keeps your focus steady. The app solves a real problem for busy users who want better health decisions but do not have time for complicated nutrition tracking or vague wellness advice. For example, it can suggest a post-run snack when your heart rate recovery is slow, recommend a lighter lunch before an afternoon meeting, or flag that a heavy meal is affecting sleep quality before your next workout. Its unique twist is that it translates your daily routine into recovery-aware recommendations, so users get practical guidance tied to how they actually feel and perform. Over time, Pulse Pantry builds a personalized \u201cenergy map\u201d that shows which food and habit combinations help you stay strong, focused, and consistent without strict dieting.",
     "features": [
       "The app creates a daily energy score by combining meals, sleep, stress, movement, and wearable recovery data, so users can see what is helping or hurting their body in one place.",
@@ -83,6 +85,7 @@
       "Curriculum - Daily Life Curriculum with subject tracks, progress bars, streak counters, and next lesson previews",
       "Review - Memory Boost Reviews with retention scoring, new real-world context delivery, and spaced repetition feedback"
     ],
+    "hasScreenshot": true,
     "description": "Pocket Tutor turns everyday life into a personalized learning lab by spotting teachable moments in the world around you and converting them into tiny, useful lessons. The app uses your calendar, location, photos, and voice notes to suggest context-aware learning tied to what you're doing right now, such as a quick grammar refresher before a client email, a chemistry concept explained through a recipe in your kitchen, or a history mini-lesson linked to a museum visit. It solves the common problem of forgetting what you learn in apps because the lesson feels disconnected from real life and arrives at the wrong time. By delivering micro-lessons exactly when they matter, it helps students, busy professionals, and lifelong learners build knowledge without setting aside large blocks of study time. For example, someone commuting through a train station could get a two-minute lesson on probability using arrival delays, while a parent helping with homework could scan a worksheet and get a plain-language breakdown. What makes it unique is that it doesn't just react to what you search for; it proactively maps learning to your actual environment, turning mundane routines into memorable instruction. Over time, it builds a personal \u201clife-linked\u201d curriculum that feels practical, timely, and surprisingly sticky.",
     "features": [
       "Context Cue Detection identifies moments in your day, such as a meeting, grocery run, or museum visit, and recommends lessons that fit what you are experiencing right now.",
@@ -119,6 +122,7 @@
       "My Map \u2014 Personal knowledge graph with topic strength bars and subtopic explorer",
       "Profile \u2014 User stats, achievements, settings (notifications, daily goal, dark mode)"
     ],
+    "hasScreenshot": true,
     "description": "Pocket Lab is a mobile app that transforms ordinary moments into personalized micro-lessons based on what users are actually seeing, hearing, or doing. Instead of forcing learners to study abstract concepts in a vacuum, it lets them snap a photo, speak a question, or describe a situation, then instantly generates a context-aware explanation, practice prompt, and memory hook tied to that real-world moment. The app solves a common education problem: people forget what they learn because it is disconnected from daily life and delivered in long, generic chunks. A commuter can photograph a construction site to learn the math behind scaffolding angles, a parent can ask about a term they heard on the news, and a student can turn a confusing homework problem into a guided explanation using their own classroom context. What makes Pocket Lab unique is that it teaches through live context, not static curriculum, so learning feels immediate, relevant, and easier to retain. Over time, it builds a personal knowledge map from the user\u2019s surroundings and habits, helping them gradually strengthen practical literacy, critical thinking, and subject understanding without setting aside formal study blocks.",
     "features": [
       "The app lets users capture a moment with a photo, voice note, or short text, then converts it into a lesson tailored to the specific object, situation, or question they are facing.",
@@ -153,6 +157,7 @@
       "Library - Personal collection of completed and in-progress story arcs with stats",
       "Profile - User stats, achievements, mood preferences, and settings"
     ],
+    "hasScreenshot": true,
     "description": "PlotPulse is a location-aware entertainment app that turns ordinary waiting time into personalized, bite-sized story experiences. When users are stuck in a line, riding a train, or taking a break between errands, the app serves interactive micro-episodes that adapt to their surroundings, mood, and available time. The real problem it solves is boredom fragmentation: people often have five to fifteen unused minutes that are too short for a show, game, or podcast but too long to just stare at their phone. PlotPulse fills those gaps with compact narrative experiences that can be completed in one sitting, helping users feel entertained without getting sucked into endless scrolling. For example, a commuter might unlock a 7-minute sci-fi rescue mission tailored to a rainy subway ride, while someone waiting at a caf\u00e9 could play through a mystery scene inspired by the neighborhood around them. What makes it unique is that it blends entertainment with context, using timing, place, and mood to generate stories that feel like they were made for that exact moment rather than repackaged content from a generic feed.",
     "features": [
       "The app generates adaptive micro-stories that match the user's available time, so a three-minute wait yields a tight scene while a fifteen-minute break becomes a richer episode.",
@@ -188,6 +193,7 @@
       "Messages \u2014 Inbox with direct threads, community updates, and badge notifications grouped by type",
       "Profile \u2014 User trust profile with stat strip, earned badges grid, skills list, and recent activity feed"
     ],
+    "hasScreenshot": true,
     "description": "NeighborThread is a hyperlocal social app that connects people based on immediate, practical needs instead of generic profiles or endless feeds. Users post small real-life requests like borrowing a ladder, finding a last-minute babysitter recommendation, getting directions to the accessible entrance, or asking who knows a trustworthy appliance repair person in the building. The app solves the everyday isolation problem many people face in apartments, suburbs, and dense city neighborhoods, where help is physically close but socially disconnected. It makes daily life easier by turning nearby neighbors into a fast, trust-based support network with context-aware matching, reputation built from specific acts of help, and temporary request rooms that disappear after the task is done. For example, a new resident can ask which grocery store stays open latest, a parent can locate a playdate group within walking distance, or someone recovering from surgery can arrange help carrying groceries up stairs. What makes it unique is that it is designed around situational community support rather than friendship-building, so interactions stay useful, local, and low-pressure. Instead of rewarding posting or popularity, it rewards being reliably helpful in ways that matter in the moment.",
     "features": [
       "The app lets users post time-bound help requests pinned to a precise neighborhood radius, which ensures responses are relevant, fast, and genuinely local.",
@@ -233,6 +239,7 @@
       "Toast notifications for earned credits",
       "Collapsible exchange history in profile"
     ],
+    "hasScreenshot": true,
     "description": "NeighborLoop is a neighborhood exchange app that helps people request and offer tiny, practical favors without the social friction of asking in public groups. It solves the common problem of wanting help with small tasks\u2014borrowing a ladder, finding a trusted sitter for one hour, needing a ride to urgent errands, or asking who can receive a package\u2014while avoiding the noise, clutter, and performative nature of typical community feeds. Users post needs as \"micro-needs\" with clear time, skill, and trust tags, and nearby neighbors can respond through discreet one-tap offers or match requests to people who have already volunteered for similar help. In daily life, it turns isolated inconveniences into quick local connections, especially for newcomers, busy parents, older adults, and anyone who lacks a strong support network. For example, a parent can find a same-building neighbor to watch a sleeping toddler while they run downstairs, or a student can borrow an air pump before a bike commute. What makes NeighborLoop unique is its focus on small, reciprocal acts with privacy-preserving matching and reputation built from completed favors rather than public popularity. Instead of feeling like a social network, it feels like a neighborhood operating system for everyday life.",
     "features": [
       "Micro-need posts let users describe a small problem in under 60 seconds, so people can ask for help quickly without writing a long public message.",
@@ -266,6 +273,7 @@
       "Remix \u2014 Select up to 3 past seeds to combine into a new creative prompt",
       "Insights \u2014 Mood patterns, emotional tone chart, color palette analysis, and top themes"
     ],
+    "hasScreenshot": true,
     "description": "MoodSketch is a creative companion that helps users capture fleeting emotions, half-formed thoughts, and sensory moments as visual prompts they can actually use later. Instead of asking people to write long journal entries or search through messy notes, it translates quick voice snippets, photos, color choices, and mood sliders into organized \"idea seeds\" for projects like journaling, content creation, branding, scrapbooking, and story development. This solves the common problem of losing creative momentum the moment inspiration or a strong feeling passes, especially for people who think visually but struggle to put words to their thoughts. In daily life, it helps a designer turn a rainy commute mood into a poster palette, a writer transform a late-night memory into a scene prompt, or a parent turn a child's drawing and a bedtime story into a keepsake page. What makes it unique is that it does not just store inspiration\u2014it interprets emotional context and builds reusable creative artifacts from it. Over time, MoodSketch becomes a personal library of moods, patterns, and visual metaphors that users can revisit whenever they need fresh ideas.",
     "features": [
       "The app converts short voice memos, photos, and quick mood inputs into visual 'idea cards' so users can capture inspiration in seconds before it fades.",
@@ -299,6 +307,7 @@
       "Gallery \u2014 Saved boards grid with color strip previews, mood tags, and direction labels",
       "Export \u2014 Format picker (Mood Pack, PNG, Palette, PDF) with board preview and share shortcuts"
     ],
+    "hasScreenshot": true,
     "description": "Mood Mosaic helps people transform messy emotions, vague inspirations, and half-formed thoughts into clear visual direction boards they can actually use. Instead of asking users to search endlessly for the \u201cright\u201d aesthetic, the app starts with a simple prompt like a feeling, a memory, a deadline, or a conversation and turns it into a living collage of colors, textures, shapes, reference prompts, and mood cues. This solves a real problem for creatives and everyday planners alike: it is hard to articulate an idea when you only have an emotional starting point. In daily life, it can help a freelance designer define a client direction in minutes, help a writer capture the atmosphere of a scene, or help someone plan a room makeover based on the feeling they want at home. Users can feed it a voice note after a walk, a photo from the street, or a stressful event from work, and the app builds a visual concept that evolves as more context is added. What makes it unique is that it behaves like a creative translator rather than a content generator, preserving the user's intent while making abstract feelings actionable.",
     "features": [
       "The app converts voice notes, short texts, and photos into an editable visual mood board so users can start from whatever they have in the moment.",
@@ -335,6 +344,7 @@
       "History \u2014 Loop Journal with monthly impact stats (CO\u2082, items, money), weekly bar chart, and scrollable scan history",
       "Profile \u2014 User card with eco level, monthly impact grid, achievement badges, and interactive preference toggles"
     ],
+    "hasScreenshot": true,
     "description": "LoopLens helps people make smarter buying, repair, and reuse decisions by scanning everyday items and showing their hidden sustainability \"afterlife.\" When you point your camera at a product in a store, at home, or in your trash bin, the app identifies the item, estimates its repairability, resale value, recyclable components, and likely landfill impact, then suggests the best next action. It solves the common problem that people want to act sustainably but lack clear, item-level guidance in the moment they\u2019re deciding whether to buy, keep, fix, donate, or discard something. In daily life, it can help someone compare two similar jackets before purchasing, decide whether a blender is worth repairing, or figure out whether a cracked phone case should go into mixed recycling or e-waste. What makes it unique is its focus on real-time, object-specific decision support rather than broad eco-tips, combining visual recognition with local options like nearby repair cafes, resale drop-offs, refill stations, and municipal recycling rules. The app turns sustainability from an abstract goal into a practical habit by making the greener choice the easiest one at the exact point of action.",
     "features": [
       "The camera scanner identifies household and consumer products and instantly explains their repair, reuse, and disposal pathways so users can act correctly in seconds.",
@@ -368,6 +378,7 @@
       "Recipes \u2014 ranked recipe cards with match percentage, rescue notes, urgency color-coding, and full detail modal with step-by-step cook mode",
       "Leftover Lore \u2014 leftover transformation tracker showing multi-meal chains (e.g. roast chicken \u2192 tacos \u2192 soup \u2192 sandwich) with savings stats"
     ],
+    "hasScreenshot": true,
     "description": "Leftover Lore helps people cook from what they already have by identifying ingredients in their fridge, freezer, and pantry through quick scans or simple voice input, then generating recipes built around combinations that are actually usable, not just inspirational. It solves the common problem of food waste and last-minute meal paralysis, especially when users have random leftovers, partial ingredients, or too little time to plan. The app suggests realistic dishes based on freshness, quantity, dietary needs, and cooking equipment, so a half onion, a jar of pesto, and two eggs can become a specific dinner instead of a vague idea. In daily life, it helps users rescue ingredients before they spoil, stretch grocery budgets, and decide what to cook on a busy weeknight without endless searching. A unique feature is its \u201crescue logic,\u201d which prioritizes ingredients nearing expiration and explains why a recipe fits the exact contents of the user\u2019s kitchen. Unlike generic recipe apps, it does not start with a perfect grocery list; it starts with the messy, incomplete reality of home cooking and turns it into something practical and delicious.",
     "features": [
       "The app scans receipts, ingredient labels, or handwritten notes and turns them into a live pantry inventory, so users always know what they have before buying duplicates.",
@@ -399,6 +410,7 @@
       "Alerts",
       "Profile"
     ],
+    "hasScreenshot": true,
     "description": "Layover Loop is a travel app that transforms long airport layovers, delayed connections, and unplanned wait times into curated micro-adventures outside the terminal. It solves the frustrating problem of being stuck in an unfamiliar city for hours with no idea whether you have enough time to leave the airport safely and still make your flight. The app analyzes your passport requirements, airport location, live traffic, security wait times, and gate-change risk to build a personalized \"time-safe\" plan with exact departure and return windows. It helps users in daily life by turning wasted transit time into memorable experiences, like grabbing a famous bowl of ramen near Haneda, walking a waterfront trail near Lisbon airport, or visiting a museum caf\u00e9 during a six-hour stopover in Singapore. What makes it unique is its safety-first timing engine combined with hyperlocal, task-based itineraries that adapt in real time if your flight is delayed, your gate moves, or traffic suddenly spikes. Instead of generic city guides, it gives you only the experiences that fit the precise length of your gap, your budget, and your risk tolerance. The result is a travel companion that makes short breaks feel intentional rather than stressful.",
     "features": [
       "The app calculates a personalized \"safe-to-leave\" window using live airport queues, transit times, and your boarding cutoff, so you know exactly when you can explore without risking your flight.",
@@ -432,6 +444,7 @@
       "Return \u2013 Departure countdown, buffered return timeline with 8 sequential milestones, notification toggle, live security wait times and gate walk durations",
       "Amenities \u2013 Airport facilities grid (luggage storage, showers, charging, prayer room, sleep pods) with availability, pricing, walk time, and accessibility mode toggle"
     ],
+    "hasScreenshot": true,
     "description": "Layover Lens helps travelers turn long, boring layovers into safe, hyper-personalized mini adventures without the usual planning stress. The app detects your flight schedule, airport location, visa constraints, weather, and how much time you actually have, then builds a realistic short-trip plan you can trust. It solves the common problem of being trapped in an airport for 4 to 10 hours and wasting that time, while also reducing the risk of missing a connection. In daily life, it helps users decide whether they can leave the airport, what neighborhood is worth visiting, and exactly when to head back based on live traffic and security wait times. For example, a traveler in Singapore with a six-hour layover might get a seafood hawker-center route with a train timetable and a reminder to return 2 hours before boarding, while someone in Istanbul might get a museum-and-kebab walk that avoids peak traffic. What makes it unique is that it converts all the hidden constraints of transit travel into a simple, confidence-building itinerary instead of just showing generic attractions.",
     "features": [
       "The app calculates an exit-safe window from your flight, terminal transfer time, visa status, and live traffic so you only see trips you can realistically complete.",
@@ -465,6 +478,7 @@
       "Rescue \u2014 Rescue mode transforming leftovers into new meals, waste savings bar chart, weekly stats",
       "Profile \u2014 Flavor profile bars, equipment selector toggles, dietary preferences, personal cooking stats"
     ],
+    "hasScreenshot": true,
     "description": "FridgeForge turns whatever is actually in your kitchen into realistic, step-by-step meals that fit your time, tools, and dietary limits. Instead of just suggesting recipes by one ingredient, it scans a quick inventory of leftovers, nearly expired groceries, pantry basics, and even half-used sauces to build meals designed to prevent waste. It solves the common problem of staring at random ingredients at 7 p.m. and feeling stuck, especially when energy is low and grocery runs are not an option. The app helps in daily life by planning meals around what must be used first, estimating what you can make before food spoils, and adapting instructions to the cookware you own. For example, it can turn wilted spinach, one chicken breast, and rice into a fast skillet dinner, or transform leftover taco toppings into a frittata with a precise \u201cuse this today\u201d order. What makes it unique is that it does not start from a recipe database alone; it generates a dinner plan from your actual fridge state, prioritizing salvage, timing, and feasibility over culinary perfection.",
     "features": [
       "The app builds a live ingredient map from quick manual entry or photo-based fridge checks, so users can see what needs attention before food goes bad.",
@@ -499,6 +513,7 @@
       "Capture \u2014 Voice recording interface with animated mic button, quick text input, source filter tabs, and a scrollable list of captures with one-tap convert action",
       "Insights \u2014 Weekly interruption bar chart, key stats (interruptions count, avg recovery time), top derailers with progress bars, circular adaptation score, and usage streak"
     ],
+    "hasScreenshot": true,
     "description": "FlowForge is a context-aware productivity app that helps people recover momentum after interruptions, meetings, and task overload. Instead of showing another static to-do list, it listens to how your day is actually unfolding and converts scattered notes, emails, calendar events, and reminders into the most practical next step. The app solves the common problem of \"work amnesia,\" where people lose time reorienting after switching tasks or returning to unfinished work. It helps users by building a dynamic restart plan in seconds, such as summarizing a meeting into action items, identifying the next file or person needed, and creating a 10-minute re-entry path to get moving again. For example, after a client call it might surface the follow-up email draft, the attached proposal, and the deadline in one card, so you can act immediately. What makes FlowForge unique is that it focuses on transition moments rather than broad productivity tracking, making it feel like a personal operations assistant for getting back on track fast. Over time, it learns which interruptions derail you most and proactively prepares your next-best move before you even ask.",
     "features": [
       "The app automatically detects transition moments, such as the end of a meeting or the opening of a work session, and generates a focused restart plan so users do not waste time deciding where to begin.",
@@ -554,6 +569,7 @@
         "Settings toggle slide"
       ]
     },
+    "hasScreenshot": true,
     "description": "EchoCraft is a mobile creative workspace that transforms everyday sounds, photos, voice notes, and location cues into visual story prompts, mood boards, and concept drafts. It solves the common problem of creative block by helping people capture raw inspiration the instant it appears, then organizing those fragments into usable creative direction instead of leaving them buried in camera rolls and memo apps. A commuter might record a subway rhythm, snap a neon-lit street corner, and tag it as \"tension\" to generate a poster palette or writing prompt for later. A small business owner could document a store window, a customer quote, and a product texture to instantly build a campaign mood board for a seasonal launch. The app is unique because it does not simply store inspiration; it interprets sensory inputs as creative building blocks and combines them into structured outputs that are ready to use. Unlike generic note-taking or mood-board apps, EchoCraft bridges the gap between real-world observation and finished concept development, making creativity faster, more personal, and less dependent on starting from scratch.",
     "features": [
       "The app converts voice, image, and ambient sound clips into tagged inspiration cards, making it easy to save fleeting ideas before they disappear.",
@@ -590,6 +606,7 @@
       "Actions - Filtered task list (Now/Waiting/Later) with effort tags, context icons, time estimates, and tap-to-complete interactions",
       "Schedule - Reality-aware timeline with energy curve visualization, color-coded time blocks by type, and current-block highlight"
     ],
+    "hasScreenshot": true,
     "description": "Task Tide is a productivity app that helps people recover from interruptions by transforming messy, fragmented thoughts into the next best action. Instead of making users build perfect to-do lists, it captures half-formed tasks, vague worries, and sudden reminders exactly as they appear, then sorts them into context, urgency, and mental effort. The app solves the common problem of losing focus after meetings, messages, and surprise requests by giving users a fast way to dump thoughts and immediately see what to do next. In daily life, it helps someone leaving a meeting, sitting in traffic, or juggling family logistics quickly convert mental clutter into a realistic plan for the rest of the day. One unique feature is its \u201ccognitive recovery\u201d mode, which uses a short prompt sequence to ask what the user was doing, what got interrupted, and what would count as progress, rather than asking for a complete task setup. Compared with standard task managers, Task Tide is built around interruption resilience and decision relief, making it especially useful for people whose biggest productivity problem is getting back on track. It feels less like a list app and more like a reset button for the mind.",
     "features": [
       "Interruption Capture lets users speak, type, or snap a quick note the moment their attention breaks, so nothing gets lost in the shuffle.",
@@ -641,6 +658,7 @@
       "Expand focus windows to see matched tasks",
       "Accordion-style window expansion with suggested tasks"
     ],
+    "hasScreenshot": true,
     "description": "Task Tether is a productivity app that helps people recover instantly from interruptions, context switches, and half-finished work. Instead of asking users to manage full projects, it captures the exact next step of whatever they were doing, then generates a tiny re-entry map so they can resume in seconds later without mental friction. It solves the common problem of losing time and focus after a meeting, phone call, or sudden distraction by preserving not just the task, but the surrounding context, recent decisions, and a suggested restart cue. In daily life, a designer can leave a sketch mid-way, a manager can pause a budgeting review, and a parent can stop in the middle of an errand chain without worrying they will forget where to pick back up. The app also detects interruption patterns and suggests the best moments to complete lightweight tasks, like replying to a message before lunch or reviewing notes while waiting for a ride. What makes it unique is that it treats task recovery as the core productivity problem, using micro-context capture, interruption-aware reminders, and resumable \u201cstate snapshots\u201d instead of static to-do lists. This creates a more realistic workflow for busy people whose day is defined by frequent stops and starts.",
     "features": [
       "One-tap context snapshots let users save the exact state of a task, including notes, links, files, and the last action they took, so they can restart without rethinking everything.",
@@ -675,6 +693,7 @@
       "Alerts \u2014 grouped rescue notifications (Critical/This Week/Upcoming), dismiss and act actions, cook-now and freeze shortcuts",
       "Profile \u2014 user stats, impact summary, kitchen appliance toggles, cooking skill selector, achievement badges"
     ],
+    "hasScreenshot": true,
     "description": "Shelf Sense helps people turn forgotten ingredients into usable meals before they go bad. Instead of simply listing recipes, the app tracks what is in your fridge, freezer, and pantry, then prioritizes meals based on expiration windows, partial ingredients, and the time you actually have to cook. It solves the common problem of food waste caused by overbuying, forgetting leftovers, and not knowing what to make with a few random items. In daily life, it helps a parent quickly build a dinner from half a bell pepper, leftover rice, and yogurt nearing its date, or lets a busy worker find a 12-minute lunch using the spinach and eggs that need attention today. What makes it unique is its spoilage-first approach: it does not ask what you feel like cooking, it tells you what must be saved first and generates practical recipes around that urgency. It can also adapt suggestions to your kitchen tools, so if you only have a microwave or one pan, the recipes change accordingly. Compared with traditional recipe apps, Shelf Sense acts more like a smart food rescue planner than a recipe search engine.",
     "features": [
       "The app scans receipts, manual entries, or barcode inputs to build a live inventory of what you own and estimate which ingredients are closest to expiring.",
@@ -737,6 +756,7 @@
       "Preference toggles \u2192 animate between on/off state with color change",
       "Tab navigation \u2192 switches screens with active indicator dot and color change"
     ],
+    "hasScreenshot": true,
     "description": "PulsePatch is a recovery-first fitness app that detects when your body is under strain and tells you exactly what to do next. It combines quick self-check-ins, wearable data, and context from your calendar to spot hidden burnout patterns like \u201clate-night workout plus poor sleep plus back-to-back meetings.\u201d Instead of generic workout goals, it recommends micro-recovery actions such as a 7-minute mobility reset, a breathing drill timed to your heart rate, or a hydration and protein reminder after intense activity. In daily life, it helps users avoid the trap of pushing harder when their body actually needs restoration, which is a common cause of stalled progress, fatigue, and injury. A runner might get a prompt to swap a run for a knee-saving recovery circuit after detecting unusual strain, while an office worker could receive a midday energy rescue plan after prolonged sitting and stress. What makes it unique is that it treats recovery as a dynamic, data-driven habit rather than an afterthought, translating bodily signals into immediate, practical actions instead of abstract wellness advice.",
     "features": [
       "Adaptive strain tracking combines wearable metrics, sleep quality, and user mood inputs to identify when the body is trending toward overload, because catching fatigue early helps prevent setbacks.",
@@ -773,6 +793,7 @@
       "journal",
       "profile"
     ],
+    "hasScreenshot": true,
     "description": "Pulse Path is a micro-coaching app that turns your daily body signals into personalized movement guidance, helping users exercise safely and effectively without overtraining or guessing what workout to do next. It solves the common problem of inconsistent energy, stress, poor sleep, and minor aches that make standard fitness plans feel unrealistic and hard to stick with. Each morning, the app asks for a quick check-in using simple inputs like sleep quality, soreness, mood, and resting heart rate trends, then recommends a workout style, intensity, and duration that matches the user's actual readiness. For example, after a rough night and stiff legs, it might suggest a 12-minute mobility reset instead of a hard run, while on a high-energy day it could guide the user through a progressive interval session. It also helps users understand patterns over time, showing how poor recovery impacts performance, motivation, and injury risk, so daily decisions become smarter and more sustainable. What makes Pulse Path unique is that it focuses on adaptive fitness timing rather than generic goals, making exercise feel responsive to the body instead of forced by a fixed plan.",
     "features": [
       "A readiness scan combines sleep, soreness, stress, and heart-rate trends to recommend the best type of movement for that day.",
@@ -806,6 +827,7 @@
       "Discover \u2014 Weekly synthesis card, creative collision detector with match-strength bars, suggested next steps, recurring themes bar chart",
       "Profile \u2014 User stats (ideas, clusters, syntheses), 91-day capture activity heatmap, settings rows for reminders and preferences"
     ],
+    "hasScreenshot": true,
     "description": "Muse Map is a mobile idea-organizing studio that helps people capture half-formed thoughts, messy inspirations, and useful observations before they disappear. Instead of storing notes as flat text, it turns them into a living web of ideas by linking voice memos, photos, sketches, locations, and recurring themes into a visual \"mind garden.\" It solves the common problem of creative clutter, where good ideas get lost across screenshots, notebooks, and random apps, by automatically grouping related fragments and suggesting connections users may not have noticed. In daily life, it helps a designer collect color inspiration from a caf\u00e9 mural, a writer connect a overheard line to a story concept, or a founder turn customer complaints into product opportunities. The app is especially useful for people who think in fragments and need a way to refine raw input into something usable later. What makes it unique is that it does not just capture ideas; it gently transforms them into structured creative pathways that reveal patterns over time. It feels less like a note app and more like a companion that helps your mind make better sense of itself.",
     "features": [
       "The app automatically turns voice notes, photos, and typed snippets into connected idea cards, so users can capture inspiration in whatever format is fastest in the moment.",
@@ -837,6 +859,7 @@
     ],
     "audience": "Designed for writers, designers, social media creators, students, and solo entrepreneurs ages 16-40 who often need to turn feelings or abstract ideas into concrete creative work. It is especially useful for people who create under pressure, work alone, or struggle to explain the aesthetic or emotional direction they want.",
     "category": "creative tools",
+    "hasScreenshot": true,
     "useCases": [
       "Sarah just finished a stressful meeting and wants to write a newsletter that feels calm but confident. She opens MoodMuse, records a quick voice note about her mood, and gets a soft color palette, three headline ideas, and a draft opening paragraph.",
       "Miguel is a freelance brand designer whose client says they want something \"modern, warm, and a little nostalgic\" but cannot explain more. He uses the app to turn that vague brief into visual references, tone keywords, and a concise creative direction he can present in the next call.",
@@ -861,6 +884,7 @@
       "Impact Ledger - Environmental stats dashboard with bar chart, achievement badges, and period toggle",
       "Profile - User overview, listing history with status tracking, and app settings"
     ],
+    "hasScreenshot": true,
     "description": "LoopLedger is a hyperlocal reuse and waste-minimization app that helps people divert usable household items from the trash by matching them to nearby neighbors, repair caf\u00e9s, mutual-aid groups, and community workshops in real time. The app solves the everyday problem of perfectly good things being thrown away simply because they are awkward to give away: half-used paint, spare tiles, jars, cable cords, moving boxes, furniture hardware, garden cuttings, and single-serve packaging leftovers. Users can scan or photograph items they no longer need, and the app translates them into practical reuse opportunities, such as \"offer to a student in the next building,\" \"drop at a tool library tonight,\" or \"bundle with similar waste for a community pickup.\" In daily life, it helps people declutter faster, spend less on replacements, and make lower-waste decisions at the point of disposal instead of after the fact. A parent renovating a room might find someone nearby who needs the leftover trim and screws, while a coffee enthusiast could list spare glass jars to a neighborhood pantry before tossing them. What makes LoopLedger unique is that it focuses not on recycling as a final step, but on pre-landfill matching of small, awkward, often-overlooked items that most platforms ignore because they are low-value individually yet huge in aggregate. It turns disposal into an instant local routing system for stuff with a second life.",
     "features": [
       "Smart Item Capture uses a photo and quick prompts to identify the material, quantity, and remaining usability of an item so the app can suggest the best next step instead of a generic donation option.",
@@ -894,6 +918,7 @@
       "Explore \u2014 Nearby place browser with category filters, real-time travel time, open/closed status, luggage-friendly tags",
       "Profile \u2014 Luggage type selector, preference toggles (stress mode, weather swaps, alerts), past layover history with ratings"
     ],
+    "hasScreenshot": true,
     "description": "Layover Lens helps travelers make the most of short, unpredictable gaps between flights, trains, and check-ins by building hyper-practical mini itineraries around the exact time they actually have. Instead of generic city guides, it uses your arrival terminal, baggage status, visa constraints, weather, transit speed, and even opening hours to suggest realistic one-to-three-hour experiences you can complete without anxiety. It solves the common problem of feeling stranded during layovers, early hotel arrivals, or long station transfers by turning downtime into low-stress, high-value local experiences. For example, if you land in Singapore with two free hours and carry-on only, the app might recommend a one-stop hawker stall, a nearby skyline viewpoint, and the fastest return route to security. If your baggage is delayed, it can instantly replace shopping-heavy plans with museum stops, public parks, or cafes with storage-friendly seating. What makes it unique is that it optimizes not just for places to visit, but for emotional state, risk tolerance, and schedule volatility, so every recommendation feels doable rather than aspirational. It acts like a travel planner built for real travel friction, not ideal conditions.",
     "features": [
       "The app builds time-boxed city plans from live flight, rail, and traffic data so every suggestion fits the minutes you truly have, not the hours you wish you had.",
@@ -927,6 +952,7 @@
       "Scan \u2014 Camera scanner with live detection overlay, receipt photo mode with past scan history, manual entry form with quick-add chip shortcuts",
       "Insights \u2014 Kitchen Health Score (0\u2013100), weekly waste savings tracker with progress bars, household habit analysis, zero-waste win log"
     ],
+    "hasScreenshot": true,
     "description": "Fridge Alibi helps people decide what to cook based on what they already have, but with a twist: it prioritizes ingredients that are closest to spoiling, in awkward quantities, or buried in the back of the fridge. Users scan receipts, snap photos of leftovers, or quickly log groceries, and the app builds a live \"use-first\" kitchen map that updates daily. It solves the common problem of food waste and the daily stress of opening the fridge without a plan, especially when ingredients are incomplete or nearly expired. For example, if you have half a bag of spinach, one lonely lemon, and leftover rotisserie chicken, the app can generate a realistic dinner plan with exact steps and timing. In busy households, it can suggest kid-friendly lunchbox fixes, rescue ingredients before they go bad, and even re-time meal ideas around what\u2019s freshest and what needs immediate attention. What makes it unique is that it acts like a time-sensitive cooking strategist, not just a recipe search engine, optimizing meals around spoilage urgency, portion gaps, and actual household habits.",
     "features": [
       "The app automatically ranks ingredients by urgency, so users always know which foods need to be used first before they spoil.",
@@ -961,6 +987,7 @@
       "Shields \u2014 Active trigger guards with timer, routine, and delay types; real-time countdown; enable/disable toggles",
       "Goals \u2014 Progress toward savings goals tied to trigger interruptions, reward claiming, and motivational coaching tips"
     ],
+    "hasScreenshot": true,
     "description": "CashEcho is a mobile app that helps people understand not just what they spend, but why they spend it, by linking purchases to moods, contexts, and recurring life triggers. Instead of only showing charts and categories, it gently asks for a one-tap emotion check-in after risky moments like late nights, commuting, or stressful workdays, then maps those emotional patterns to spending habits over time. The app solves a common but overlooked problem: many people know their budget numbers, but still keep making the same impulsive purchases when they are tired, anxious, lonely, or celebrating. In daily life, CashEcho can alert someone that they tend to order expensive delivery after 9 PM on Tuesdays, or that weekend scrolling leads to boutique shopping app splurges after stressful meetings. It also offers \u201ctrigger shields,\u201d such as cooling-off timers, alternate routines, or pre-written low-cost replacement actions when a pattern is about to repeat. What makes it unique is that it treats personal finance like behavioral coaching, not just expense tracking, turning invisible emotional spending loops into actionable, human-centered insights.",
     "features": [
       "The app tags purchases with optional mood and context check-ins so users can see which emotions and situations repeatedly lead to overspending.",
@@ -1009,6 +1036,7 @@
       "Calm plan step checkboxes with progress bar",
       "Tab navigation with scale press feedback"
     ],
+    "hasScreenshot": true,
     "description": "BillBreathe helps people who get paid irregularly or live paycheck to paycheck smooth out their finances by turning every upcoming expense into a living cash-flow forecast. Instead of just showing a list of bills, it predicts when money will actually feel tight, then suggests tiny, timed adjustments like delaying discretionary spending, splitting a bill, or setting aside micro-reserves from a good day. The app solves the real problem of surprise overdrafts and mental stress caused by bills arriving at the wrong moment, especially for freelancers, gig workers, hourly employees, and parents juggling multiple payment dates. In daily life, it acts like a financial air traffic controller: if your rent is due in four days but a client payment is likely in six, it shows the safest path through the gap and tells you what to do today. A user could open it after a shift and see that buying groceries now is fine, but a streaming subscription should wait 48 hours, or it could warn a rideshare driver that three small purchases this week would trigger a risky balance dip next Tuesday. What makes it unique is that it models stress and timing, not just totals, so it focuses on preventing the moment when a person feels forced to choose between paying a bill and covering basics. It blends forecasting, behavior nudges, and flexible bill planning into one experience designed for real-life volatility rather than idealized budgets.",
     "features": [
       "The app builds a day-by-day cash-flow map that predicts when your balance will become uncomfortable, helping you avoid overdrafts before they happen.",
@@ -1043,6 +1071,7 @@
       "Petals \u2014 Garden overview with stats row, Active/Completed tabs, detailed list of all savings goals with sub-goal breakdowns accessible via bottom sheet modal",
       "Insights \u2014 Bloom Score ring (72/100), 6-month savings velocity bar chart, monthly snapshot stats, and AI-predicted irregular expenses with confidence indicators"
     ],
+    "hasScreenshot": true,
     "description": "Balance Bloom is a personal finance app that turns irregular life expenses into a living, visual money plan instead of a rigid monthly budget. It solves the common problem of people overspending because they forget about things like birthdays, travel, school fees, vet visits, car repairs, or holiday shopping until they suddenly hit. The app learns from your transactions and calendar to predict upcoming expenses, then creates tiny \"petals\" of savings goals that grow over time, so users can see exactly what each small transfer is preparing for. In daily life, it nudges you with context-aware prompts like \"Your niece\u2019s birthday is in 3 weeks\" or \"Your tires are aging faster than expected,\" helping you move money before the surprise arrives. For example, if you book flights for a wedding, it can automatically spin up related petals for gift spending, outfit costs, and ride-share budgets so the whole event stays manageable. What makes it unique is that it treats finances like a connected ecosystem of life events rather than isolated categories, using gentle planning visuals, timing predictions, and automatic micro-reallocations to reduce financial stress without forcing users into spreadsheet-style budgeting.",
     "features": [
       "The app reads spending patterns and calendar events to predict irregular expenses before they happen, so users can prepare for real life instead of reacting to surprises.",
@@ -1077,6 +1106,7 @@
       "Skills Map \u2014 2-column grid of 6 life-area skill cards (Money, Travel, Health, Work, Language, Food) with progress bars, levels, and recent achievement badges",
       "Profile \u2014 User settings with toggle controls for context-aware triggers, notifications, and dark mode, plus focus area management and app preferences"
     ],
+    "hasScreenshot": true,
     "description": "Lesson Lens is an AI-powered microlearning app that helps people learn practical knowledge by transforming everyday experiences into short, personalized lessons. Instead of expecting users to sit down for long study sessions, it watches for contextual moments like a commute, a grocery trip, or a confusing work task and delivers a tiny lesson exactly when it is most useful. The app solves the common problem that people forget most of what they try to learn because it is disconnected from real life and delivered at the wrong time. A user could scan a restaurant menu while traveling and get a 90-second language lesson on ordering politely, or receive a quick finance lesson after seeing a confusing payroll deduction on a pay stub. What makes it unique is that it uses the user's surroundings, calendar, and recent activity to teach only what is immediately relevant, turning routine moments into memorable, applied education. Over time, Lesson Lens builds a personal ",
     "features": [
       "Context-aware lesson triggers detect situations like a commute, shopping trip, or work task and surface a lesson that matches the moment, which makes learning feel useful instead of abstract.",
@@ -1112,6 +1142,7 @@
       "Community \u2014 Local trader stats, upcoming events with RSVP and eco-point rewards, eco tips and sustainability advice",
       "Profile \u2014 User stats (trades, points, kg saved), badge collection grid with locked/earned states, settings menu"
     ],
+    "hasScreenshot": true,
     "description": "Trash Trader connects people who want to get rid of unused items with those looking for sustainable solutions. Users can trade things like empty glass jars, fabric scraps, or other waste materials for eco-points redeemable at local sustainable shops and businesses.",
     "features": [
       "Localized trading network",
@@ -1142,6 +1173,7 @@
       "Predict \u2014 Impulse forecast with model accuracy meter, expandable risk window cards with confidence bars, intervention nudges, and past prediction history",
       "Goals \u2014 Habit-based savings goals with animated toggle switches, progress bars, total saved summary, and low-cost ritual suggestions"
     ],
+    "hasScreenshot": true,
     "description": "SpendEcho turns bank transactions into a timeline of recurring life patterns, spotting hidden \u201ctrigger moments\u201d like stress-shopping Fridays, post-payday splurges, or commute-linked spending. It then predicts the next impulse window and offers tiny, context-aware interventions such as cooling-off goals, stash transfers, or alternative low-cost rituals.",
     "features": [
       "Trigger-moment spending detection",
@@ -1186,6 +1218,7 @@
       "barChart": "Custom SVG-free bar chart with per-day labels and active highlight",
       "toggleRow": "iOS-style pill toggle with smooth thumb animation"
     },
+    "hasScreenshot": true,
     "description": "Pulse Palette turns messy daily health signals into a simple color map that tells users what kind of workout their body is ready for. It combines wearable data, sleep, mood, soreness, hydration, and cycle tracking to recommend personalized micro-sessions, recovery plans, or rest days in a way that feels intuitive instead of data-heavy.",
     "features": [
       "Body-readiness color score",
@@ -1217,6 +1250,7 @@
       "Library \u2014 Three-tab view (Saved / In Progress / Finished), offline availability banner, compact story cards with bookmark toggle",
       "Profile \u2014 User stats grid (episodes, hours, choices, streak), genre preference chips, settings panel with animated toggles (notifications, offline, autoplay), recent listening history list"
     ],
+    "hasScreenshot": true,
     "description": "PlotPulse turns idle moments like commutes, waiting rooms, and chores into personalized audio drama episodes that adapt to your mood, time, and interests. Instead of endlessly scrolling for something to watch or read, the app delivers bite-sized interactive stories where your choices shape the next scene and each session picks up where you left off.",
     "features": [
       "Mood-based story matching",
@@ -1247,6 +1281,7 @@
       "Matches \u2014 Active chat interface with anonymous-first messaging, past connections with star ratings, and trust stats dashboard (helped, requested, trust score)",
       "Profile \u2014 User identity card with trust score breakdown, earned badges grid, skills/items offered, and live availability toggle"
     ],
+    "hasScreenshot": true,
     "description": "Neighbor Loop helps people solve small, urgent daily problems by connecting them with trusted nearby residents who can lend a tool, share a ride, watch a package, or give quick local advice. Instead of public posts or broad groups, the app matches users through micro-requests based on time, distance, and skills, creating practical neighborhood connections without awkward searching.",
     "features": [
       "Urgent micro-request matching",
@@ -1278,6 +1313,7 @@
       "Community \u2014 Active challenges with join/progress tracking, community feed with mood-tagged workout posts, likes and replies, participant counts and countdowns",
       "Profile \u2014 User profile with stats summary, achievement badges, wearable device connection status, and preference toggles for notifications and auto mood detection"
     ],
+    "hasScreenshot": true,
     "description": "MoodFit Monitor tracks your emotional responses during workouts, helping you identify the mental benefits of different exercises. By syncing with wearables, it provides personalized feedback on how activities affect your mood, guiding you to choose workouts that enhance both fitness and mental health.",
     "features": [
       "Emotional trend analysis",
@@ -1309,6 +1345,7 @@
       "Social/Community \u2014 Creator spotlight carousel with follow toggles, community posts with soundscape previews, like/share/reply actions, and hashtag discovery",
       "Profile \u2014 User stats banner, Apple Watch wearable integration toggle with biometrics display, AI preference sliders, and settings panel"
     ],
+    "hasScreenshot": true,
     "description": "Mood Echo curates personalized soundscapes based on your emotional state, using AI-driven algorithms to analyze your preferences and vibes. Simply input how you're feeling, and the app generates a unique audio experience combining ambient sound, music, and nature sounds to enhance your mood and provide a tranquil escape.",
     "features": [
       "Mood-based sound generation",
@@ -1340,6 +1377,7 @@
       "Quests \u2014 Remediation quest cards with XP rewards, progress bars, due timers; interactive step-by-step exercise modal with reveal answers",
       "Profile \u2014 Student avatar with stats header, subject progress breakdown, achievements grid, settings rows"
     ],
+    "hasScreenshot": true,
     "description": "Mistake Atlas helps students turn wrong answers into personalized learning maps. By scanning homework, quizzes, or practice problems, the app identifies the exact misconception behind each error and generates a visual trail of prerequisite gaps to fix first. Instead of reviewing entire chapters, learners get a targeted path that rebuilds understanding from the root.",
     "features": [
       "Error-to-concept scanner",
@@ -1370,6 +1408,7 @@
       "Mentors \u2014 Expert Q&A feed with like interactions, searchable mentor directory with availability status, tag chips, follow and book-session actions",
       "Pathway \u2014 Real-world challenge cards (expandable with descriptions and start CTA), career track progress bars with step-by-step milestone visualization for UX/Data/Product paths"
     ],
+    "hasScreenshot": true,
     "description": "Future Focus connects students with industry professionals for live virtual mentorship sessions. Users can engage in Q&A, receive personalized advice on career paths, and access real-time project challenges. This interactive platform fosters valuable connections, guiding students from academic knowledge to practical application.",
     "features": [
       "Live mentorship sessions",
@@ -1401,6 +1440,7 @@
       "Playlists \u2014 AI-curated music playlists grid with play toggle, live now-playing card with progress bar and playback controls",
       "Profile \u2014 User card with level and streak badges, all-time stats grid, achievements gallery (unlocked/locked states), preference toggles with animated switches"
     ],
+    "hasScreenshot": true,
     "description": "FocusPal uses AI to analyze your behavior patterns and environments to identify common distractions. It then recommends personalized focus techniques and schedules to boost productivity throughout your day. Enhance your workflow with smart reminders, music playlists, and analytics designed just for you.",
     "features": [
       "AI-driven distraction analysis",
@@ -1432,6 +1472,7 @@
       "Community \u2014 Tip feed with user avatars, like/share interactions, trending hashtag chips, share your own hack CTA card",
       "Profile \u2014 User stats (recipes/meals/food saved), achievement badges with lock states, saved cookbook list, notification & preferences settings rows"
     ],
+    "hasScreenshot": true,
     "description": "Flavor Switch helps home cooks reinvent their leftovers into exciting, restaurant-quality dishes. By inputting what ingredients you have on hand, the app generates unique recipes, cooking tips, and complementary flavor profiles to enhance your meal experience. Say goodbye to wasting food and hello to culinary creativity!",
     "features": [
       "Leftover ingredient analyzer",
@@ -1463,6 +1504,7 @@
       "Journal \u2014 Emotion journaling with mood selector, energy slider, free-text entry, and scrollable past entries with mood emoji and energy visualization",
       "Community \u2014 Support group cards with join toggle, social feed with like/comment interactions, member counts and post activity"
     ],
+    "hasScreenshot": true,
     "description": "Emotion Fit is a revolutionary app that integrates emotional well-being with physical fitness by using AI to tailor workouts based on your mood. Users can engage in dynamic workouts that adapt in real-time, providing support for mental states while improving fitness levels. Experience a personalized blend of mindfulness and exercise every time you work out.",
     "features": [
       "AI-driven mood assessment",
@@ -1495,6 +1537,7 @@
       "Eco Insights \u2014 Environmental impact dashboard (CO\u2082, water, trees), weekly challenge progress ring, sustainability tip cards, and neighborhood leaderboard",
       "Profile \u2014 Avatar header with gradient, swap/points/listing stats, achievement badge grid (earned/locked), recent activity timeline, and settings"
     ],
+    "hasScreenshot": true,
     "description": "EcoSwap connects local communities through a platform for trading unwanted items. Users can list items they wish to give away or swap, promoting recycling and reducing waste in creative ways. With filters for categories and exchange suggestions, finding the perfect item or home for your belongings has never been easier.",
     "features": [
       "Item swapping listings",
@@ -1525,6 +1568,7 @@
       "Plan \u2014 Generated drift timeline with scored itinerary, stops, and share/redo actions",
       "Saved \u2014 Favorited experiences and past drift trip history with personal stats"
     ],
+    "hasScreenshot": true,
     "description": "Delay Drift helps travelers salvage disrupted itineraries by instantly generating nearby, time-safe experiences matched to their exact layover, weather, budget, and energy level. It scans real-time transit changes and curates hyperlocal options like express museum loops, snack trails, skyline walks, and one-hour neighborhood missions that fit the gap perfectly.",
     "features": [
       "Live delay-to-itinerary matching",
@@ -1555,6 +1599,7 @@
       "Alerts \u2014 Smart spending intelligence hub with safe-to-spend card, dismissable alert cards for low balance warnings, payday countdowns, and irregular expense tips",
       "Simulate \u2014 What-if expense calculator with real-time impact analysis, quick amount shortcuts, common scenario presets, and post-payday recommendations"
     ],
+    "hasScreenshot": true,
     "description": "BillEcho turns recurring bills, subscriptions, and expected purchases into a forward-looking cash-flow timeline, so users can spot money stress before it hits. It learns paydays, spending patterns, and irregular expenses to forecast safe-to-spend amounts in a highly visual, day-by-day view.",
     "features": [
       "Predicted balance timeline",
@@ -1587,6 +1632,7 @@
       "Community \u2014 Social feed with trending/recent/following tabs, pairing posts with combination highlights, tags, likes, comments, and save-to-try actions",
       "Profile \u2014 User taste personality card, flavor preferences, saved combinations list, stats (pairings/saved/shared), and settings"
     ],
+    "hasScreenshot": true,
     "description": "Flavor Match uses AI to analyze individual ingredients and suggests complementary dishes or pairings that bring out their best flavors. By inputting what you have on hand or what you're craving, the app generates tailored recipes and suggests complementary sides and drinks, enhancing your dining experience.",
     "features": [
       "AI-driven flavor analytics",
@@ -1613,6 +1659,7 @@
     ],
     "audience": "Families planning shared trips",
     "category": "travel",
+    "hasScreenshot": true,
     "useCases": []
   },
   {
@@ -1635,6 +1682,7 @@
       "League \u2014 Weekly leaderboard with 3-player podium visualization, full ranked scholar list with streaks, and open Study Party invitation with join CTA",
       "Progress \u2014 Analytics dashboard with stats summary row, weekly XP bar chart, subject mastery progress bars, and earned/locked achievement badge gallery"
     ],
+    "hasScreenshot": true,
     "description": "QuestEd transforms the traditional learning experience into an immersive adventure game. Users engage with educational content by embarking on quests that challenge their knowledge and skills, earning rewards as they progress. The app covers various subjects while fostering creativity and critical thinking in a fun and engaging way.",
     "features": [
       "Interactive storytelling quests",

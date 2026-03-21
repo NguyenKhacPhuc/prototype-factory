@@ -57,7 +57,7 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
             <p>{p.description}</p>
           </div>
 
-          {p.features.length > 0 && (
+          {p.features?.length > 0 && (
             <div className="detail-section">
               <h2>Features</h2>
               <ul className="detail-features">
@@ -68,7 +68,7 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
             </div>
           )}
 
-          {p.screens.length > 0 && (
+          {p.screens?.length > 0 && (
             <div className="detail-section">
               <h2>Screens</h2>
               <div className="detail-screens">
@@ -82,7 +82,7 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
             </div>
           )}
 
-          {p.useCases.length > 0 && (
+          {p.useCases?.length > 0 && (
             <div className="detail-section">
               <h2>Use Cases</h2>
               {p.useCases.map((uc, i) => (

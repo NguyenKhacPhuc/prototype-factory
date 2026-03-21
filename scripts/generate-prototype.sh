@@ -10,21 +10,9 @@ PROTOTYPES_DIR="$REPO_DIR/prototypes"
 LOGS_DIR="$REPO_DIR/logs"
 LOG_FILE="$LOGS_DIR/runs.log"
 DRY_RUN="${1:-}"
-MAX_DAILY_RUNS=10
 TODAY=$(date +%Y-%m-%d)
 
 mkdir -p "$LOGS_DIR"
-
-# --- Guards ---
-
-# Check daily run count
-if [ -f "$LOG_FILE" ]; then
-  TODAY_RUNS=$(grep -c "^$TODAY" "$LOG_FILE" 2>/dev/null || echo 0)
-  if [ "$TODAY_RUNS" -ge "$MAX_DAILY_RUNS" ]; then
-    echo "Daily limit reached ($MAX_DAILY_RUNS). Skipping."
-    exit 0
-  fi
-fi
 
 log() {
   local status="$1" app_name="$2"
@@ -32,7 +20,7 @@ log() {
 }
 
 # --- Step 1: Generate app idea ---
-echo "[1/4] Generating app idea..."
+echo "[1/6] Generating app idea..."
 RANDOM_OFFSET=$RANDOM
 export RANDOM_OFFSET
 
@@ -69,7 +57,7 @@ mkdir -p "$TARGET_DIR"
 echo "$IDEA_JSON" > "$TARGET_DIR/idea.json"
 
 # --- Step 2: Generate prototype with Claude ---
-echo "[2/4] Generating prototype with Claude..."
+echo "[2/6] Generating prototype with Claude..."
 
 # Write prompt to temp file to avoid shell quoting issues
 PROMPT_FILE=$(mktemp)
@@ -96,15 +84,16 @@ Create a single-file React prototype (App.tsx) that runs with Babel standalone.
 
 **Design Requirements:**
 - Phone frame container (375x812px) with rounded corners, centered on page
-- Dark background behind the phone frame
+- Neutral background (#f0f0f0) behind the phone frame
 - Dynamic Island notch at top
 - Bottom navigation bar with 3-5 tabs (working navigation between screens)
 - At least 4 screens/tabs with real, detailed content
 - Realistic placeholder content (not lorem ipsum)
 - Smooth transitions between screens
 - Micro-interactions (button press effects, toggle animations)
-- A cohesive color palette that matches the app purpose
-- Professional typography with proper hierarchy
+- IMPORTANT: Design BOTH a light and dark theme with distinct color palettes. Store colors in a themes object (e.g. const themes = { light: { bg, surface, text, primary, ... }, dark: { ... } }). Default to the theme that best suits the app.
+- Add a theme toggle button (sun/moon icon) in the settings screen or status bar area so users can switch between light and dark mode. Use a useState to track the active theme.
+- Professional typography with proper hierarchy (pick a distinctive Google Font, not Inter or system fonts)
 - Status bar with time, wifi, battery icons
 
 **Output:**
@@ -123,7 +112,6 @@ CLAUDE_PROMPT=$(cat "$PROMPT_FILE")
 unset CLAUDECODE
 claude -p "$CLAUDE_PROMPT" \
   --dangerously-skip-permissions \
-  --max-budget-usd 1.00 \
   --model sonnet \
   --output-format text \
   --add-dir "$TARGET_DIR" \
@@ -134,7 +122,7 @@ claude -p "$CLAUDE_PROMPT" \
   }
 
 # --- Step 3: Verify and assemble output ---
-echo "[3/4] Verifying and assembling output..."
+echo "[3/6] Verifying and assembling output..."
 
 if [ ! -f "$TARGET_DIR/App.tsx" ]; then
   log "FAIL:missing" "$APP_NAME (App.tsx)"
@@ -145,8 +133,14 @@ fi
 # Copy and customize preview.html template
 TEMPLATE="$HOME/.claude/skills/app-design-preview/templates/preview.html"
 if [ -f "$TEMPLATE" ]; then
-  sed 's|</head>|<script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.min.js"></script>\n</head>|' \
-    "$TEMPLATE" > "$TARGET_DIR/preview.html"
+  python3 -c "
+with open('$TEMPLATE') as f:
+    html = f.read()
+shim = '<script>window.react = window.React;</script>\n<script src=\"https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.min.js\"></script>\n<script>window.lucide = window.LucideReact || {};</script>\n</head>'
+html = html.replace('</head>', shim)
+with open('$TARGET_DIR/preview.html', 'w') as f:
+    f.write(html)
+"
 else
   # Fallback: create minimal preview.html
   cat > "$TARGET_DIR/preview.html" <<'HTML_EOF'
@@ -159,7 +153,9 @@ else
   <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script>window.react = window.React;</script>
   <script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.min.js"></script>
+  <script>window.lucide = window.LucideReact || {};</script>
 </head>
 <body>
 <div id="root"></div>
@@ -197,11 +193,28 @@ print(json.dumps(spec, indent=2))
 " > "$TARGET_DIR/design-spec.json"
 fi
 
+# --- Step 4: Validate prototype renders ---
+echo "[4/6] Validating prototype..."
+if ! "$SCRIPTS_DIR/validate-prototype.sh" "$TARGET_DIR"; then
+  log "FAIL:validate" "$APP_NAME"
+  echo "Prototype validation failed. Removing broken prototype." >&2
+  rm -rf "$TARGET_DIR"
+  exit 1
+fi
+
+# --- Step 4.5: Capture screenshot ---
+echo "[4.5/6] Capturing screenshot..."
+"$SCRIPTS_DIR/capture-screenshot.sh" "$TARGET_DIR" || echo "Warning: screenshot capture failed"
+
+# --- Step 5: Generate assets ---
+echo "[5/6] Generating assets..."
+"$SCRIPTS_DIR/generate-assets.sh" "$TARGET_DIR" || echo "Warning: asset generation failed"
+
 # Clean up claude output log on success
 rm -f "$TARGET_DIR/claude-output.log"
 
-# --- Step 4: Git commit and push ---
-echo "[4/4] Committing and pushing..."
+# --- Step 6: Git commit and push ---
+echo "[6/6] Committing and pushing..."
 
 cd "$REPO_DIR"
 git add "prototypes/$FOLDER_NAME/"

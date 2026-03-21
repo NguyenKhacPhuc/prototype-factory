@@ -156,12 +156,21 @@ export function Landing({ prototypes, navigate }: Props) {
                   <div className="hero-card-name">{p.appName}</div>
                   <div className="hero-card-category">{p.category}</div>
                 </div>
-                <iframe
-                  src={`/prototypes/${p.folder}/preview.html`}
-                  sandbox="allow-scripts allow-same-origin"
-                  loading="lazy"
-                  title={p.appName}
-                />
+                {p.hasScreenshot ? (
+                  <img
+                    src={`/prototypes/${p.folder}/screenshot.png`}
+                    alt={p.appName}
+                    loading="lazy"
+                    draggable={false}
+                  />
+                ) : (
+                  <iframe
+                    src={`/prototypes/${p.folder}/preview.html`}
+                    sandbox="allow-scripts allow-same-origin"
+                    loading="lazy"
+                    title={p.appName}
+                  />
+                )}
               </div>
             );
           })}
@@ -252,12 +261,21 @@ export function Landing({ prototypes, navigate }: Props) {
                     </div>
                   )}
                   <div className="showcase-card-inner">
-                    <iframe
-                      src={`/prototypes/${p.folder}/preview.html`}
-                      sandbox="allow-scripts allow-same-origin"
-                      loading="lazy"
-                      title={p.appName}
-                    />
+                    {p.hasScreenshot ? (
+                      <img
+                        src={`/prototypes/${p.folder}/screenshot.png`}
+                        alt={p.appName}
+                        loading="lazy"
+                        draggable={false}
+                      />
+                    ) : (
+                      <iframe
+                        src={`/prototypes/${p.folder}/preview.html`}
+                        sandbox="allow-scripts allow-same-origin"
+                        loading="lazy"
+                        title={p.appName}
+                      />
+                    )}
                     <div className="showcase-card-label">{p.appName}</div>
                   </div>
                 </div>
@@ -321,12 +339,21 @@ export function Landing({ prototypes, navigate }: Props) {
               <div className="vision-grid">
                 {visionCards.map((p) => (
                   <div key={p.folder} className="vision-card" onClick={() => navigate(`/prototype/${p.folder}`)}>
-                    <iframe
-                      src={`/prototypes/${p.folder}/preview.html`}
-                      sandbox="allow-scripts allow-same-origin"
-                      loading="lazy"
-                      title={p.appName}
-                    />
+                    {p.hasScreenshot ? (
+                      <img
+                        src={`/prototypes/${p.folder}/screenshot.png`}
+                        alt={p.appName}
+                        loading="lazy"
+                        draggable={false}
+                      />
+                    ) : (
+                      <iframe
+                        src={`/prototypes/${p.folder}/preview.html`}
+                        sandbox="allow-scripts allow-same-origin"
+                        loading="lazy"
+                        title={p.appName}
+                      />
+                    )}
                     <div className="vision-card-name">{p.appName}</div>
                   </div>
                 ))}

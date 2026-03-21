@@ -18,4 +18,5 @@ export interface Prototype {
   audience: string;
   category: string;
   useCases: string[];
+  hasScreenshot?: boolean;
 }
