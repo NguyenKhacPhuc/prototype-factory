@@ -1,0 +1,19 @@
+{
+  "name": "MoodNest",
+  "tagline": "Turn your space into support.",
+  "description": "MoodNest is a lifestyle app that helps people adapt their living space to match their emotional state, energy level, and immediate needs. Instead of only tracking mood, it turns that information into small, practical environment changes like lighting suggestions, soundscapes, room resets, scent reminders, or micro-tasks that make home feel more calming, energizing, or restorative. The app solves the common problem of feeling overwhelmed, stuck, or mentally drained in the very place meant to be a refuge. Users can open it after work, before bed, during a low-focus afternoon, or while preparing for guests, and get a personalized \u201cspace shift\u201d plan that takes just a few minutes to complete. What makes it unique is that it connects emotional states to physical surroundings in a highly actionable way, using quick daily check-ins and context-aware suggestions instead of generic wellness content. For example, it might guide a user through a five-minute \u201creset the room\u201d flow after a stressful commute, or recommend dimming lights and moving clutter to a hidden tray before a sleep routine. Over time, it learns which small changes actually improve the user\u2019s mood and creates a private playbook for making home feel supportive in real life.",
+  "features": [
+    "Smart mood check-ins help users identify how they feel in seconds and translate that feeling into a practical room adjustment plan that is easy to follow.",
+    "Adaptive environment recipes suggest changes like lighting warmth, music, scent, and clutter level based on the user\u2019s current goal, such as calming down, focusing, or recharging.",
+    "Micro-reset timers break overwhelming tidying or setup tasks into tiny steps, which matters because users are more likely to act when the process feels manageable.",
+    "Room memory learns which combinations of changes worked best in specific situations, so the app becomes more personalized with every use.",
+    "Context-based reminders trigger at the right moments, such as after a long workday or before hosting friends, helping users use their space intentionally instead of reactively."
+  ],
+  "audience": "Young adults and adults ages 20\u201345 who live alone, with roommates, or in busy family homes and want their living space to better support their mental state. It is especially useful for remote workers, apartment dwellers, and people who struggle with stress, overstimulation, or low energy at home.",
+  "category": "lifestyle",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to stop carrying that tension into the evening, so she opens MoodNest and gets a 7-minute \u2018decompress corner\u2019 routine with softer lights, a playlist, and a quick desk clear-up.",
+    "Marcus works from a small apartment and is losing focus halfway through the afternoon, so he uses the app to switch his room into a \u2018focus mode\u2019 with brighter light, a 10-minute clutter reset, and a white-noise suggestion.",
+    "Nina has friends coming over in 30 minutes and feels embarrassed by the mess, so she opens MoodNest for a \u2018guest-ready sprint\u2019 that prioritizes the visible areas, sets a pleasant scent reminder, and helps her finish without panic."
+  ]
+}

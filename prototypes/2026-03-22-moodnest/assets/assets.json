@@ -1,0 +1,29 @@
+{
+  "appName": "MoodNest",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C5CFC",
+    "secondary": "#4CC9A0",
+    "background": "#F3F0FA",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "brain",
+    "check",
+    "chevron-down",
+    "chevron-right",
+    "clock",
+    "heart",
+    "info",
+    "refresh-cw",
+    "settings",
+    "shield",
+    "sparkles",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 14,
+  "fontFileCount": 0
+}

@@ -1,0 +1,18 @@
+{
+  "appName": "MoodNest",
+  "tagline": "Turn your space into support.",
+  "designSystem": {
+    "primaryColor": "#7C5CFC",
+    "secondaryColor": "#4CC9A0",
+    "backgroundColor": "#F3F0FA",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Soft violet-lavender palette with warm amber and teal accents. Clean card-based layout with rounded corners, gradient hero elements, and subtle depth through shadows. Emotion-forward iconography and emoji usage reinforces the mood-centric theme. Light and dark modes with distinct surface layers."
+  },
+  "screens": [
+    "Home — Mood check-in widget, personalized space shift recommendation, quick recipe carousel, and usage stats",
+    "Nest — Browsable environment recipe library with filter chips, expandable step previews, and start flow",
+    "Reset — Active micro-reset timer with circular progress ring, step-by-step flow, skip/pause controls, and post-session rating",
+    "Memory — Session log with mood transitions and ratings, plus a personal Playbook of learned patterns",
+    "Settings — Profile, light/dark theme switcher, notification toggles, and app info"
+  ]
+}
