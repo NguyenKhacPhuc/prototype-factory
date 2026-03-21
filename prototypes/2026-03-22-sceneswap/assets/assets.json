@@ -1,0 +1,41 @@
+{
+  "appName": "SceneSwap",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#EC4899",
+    "background": "#F4F0FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-left",
+    "battery",
+    "bell",
+    "check",
+    "chevron-right",
+    "clock",
+    "film",
+    "git-branch",
+    "heart",
+    "help-circle",
+    "log-out",
+    "map-pin",
+    "message-circle",
+    "mic",
+    "moon",
+    "play",
+    "plus",
+    "search",
+    "shield",
+    "sparkles",
+    "sun",
+    "type",
+    "user",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 26,
+  "fontFileCount": 0
+}

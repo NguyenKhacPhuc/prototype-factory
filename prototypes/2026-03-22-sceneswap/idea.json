@@ -1,0 +1,19 @@
+{
+  "name": "SceneSwap",
+  "tagline": "Turn moments into playable stories.",
+  "description": "SceneSwap is an interactive entertainment app that transforms ordinary moments from your life into short, cinematic mini-adventures you can play, remix, and share. It solves the problem of endlessly scrolling for something fun to watch by turning the user\u2019s own schedule, location, mood, and daily downtime into personalized story episodes instead of passive content consumption. In practice, the app might turn a boring commute into a detective mystery, a lunch break into a fantasy quest, or a rainy evening into a choose-your-own-comedy special. Users can generate new scenes from real-life context, then branch the story by making quick choices, recording a line of dialogue, or completing light challenges that change the outcome. What makes SceneSwap unique is that it does not just recommend entertainment, it produces entertainment tailored to the moment, making dead time feel playful and emotionally engaging. It helps users relax, reset, and stay entertained in a way that feels personal, interactive, and unexpectedly creative.",
+  "features": [
+    "The app detects contextual moments like commute time, waiting rooms, or post-work fatigue and converts them into story prompts that match the user\u2019s energy level, which makes entertainment feel timely instead of random.",
+    "Users can pick from genres such as noir, sci-fi, romance, or absurd comedy, and the app rewrites the same real-world moment into a playable scene that fits their taste and mood.",
+    "Each scene includes micro-choices, voice lines, and quick actions that alter the story outcome, giving users a satisfying sense of agency without requiring a long time commitment.",
+    "The app can use optional location-aware details, such as a caf\u00e9, train platform, or park bench, to make scenes feel specific and immersive without exposing private information publicly.",
+    "A social remix mode lets friends co-create alternate endings to each other\u2019s moments, turning everyday life into a shared entertainment format that is more engaging than standard content feeds.",
+    "audience: "
+  ],
+  "category": "entertainment",
+  "useCases": [
+    "Maya just finished a stressful meeting and wants a quick mental reset, so she opens SceneSwap and turns her 15-minute coffee break into a light spy mission set in her office building.",
+    "Ethan is stuck on a delayed train and bored of scrolling social media, so he launches a mystery episode that adapts to the station announcements and gives him interactive choices until the train moves again.",
+    "Lina is hanging out alone on a rainy Saturday night and wants something playful, so she creates a cozy fantasy storyline from her apartment setting and shares the alternate ending with a friend."
+  ]
+}

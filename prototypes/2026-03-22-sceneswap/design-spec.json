@@ -1,0 +1,18 @@
+{
+  "appName": "SceneSwap",
+  "tagline": "Turn moments into playable stories.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#EC4899",
+    "backgroundColor": "#F4F0FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Vibrant purple-to-pink gradient identity with glassmorphic cards, cinematic dark storytelling panels, and playful interactive micro-choices. Clean rounded UI with bold typographic hierarchy and soft glow accents."
+  },
+  "screens": [
+    "Discover — Contextual moment detection banner, genre filter pills, and scene cards with progress tracking",
+    "Scenes — Personal scene library with stats, branch counts, play tracking, and status badges",
+    "Play — Full interactive story player with branching narrative beats and choice-driven outcomes",
+    "Social — Remix activity feed with live collab indicator, friend activity, and remix actions",
+    "Profile — User profile, light/dark theme toggle, notification & location settings, account options"
+  ]
+}
