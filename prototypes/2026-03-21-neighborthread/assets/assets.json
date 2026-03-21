@@ -1,0 +1,33 @@
+{
+  "appName": "NeighborThread",
+  "fontFamily": "Inter, Nunito",
+  "colors": {
+    "primary": "#3ECFB2",
+    "secondary": "#F5A623",
+    "background": "#080F1E",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-left",
+    "battery",
+    "bell",
+    "check-circle",
+    "clock",
+    "heart",
+    "home",
+    "map",
+    "message-circle",
+    "plus",
+    "plus-circle",
+    "search",
+    "send",
+    "signal",
+    "star",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 18,
+  "fontFileCount": 0
+}

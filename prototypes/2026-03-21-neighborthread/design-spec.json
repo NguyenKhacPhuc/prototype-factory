@@ -1,0 +1,19 @@
+{
+  "appName": "NeighborThread",
+  "tagline": "Meet nearby people who can actually help.",
+  "designSystem": {
+    "primaryColor": "#3ECFB2",
+    "secondaryColor": "#F5A623",
+    "backgroundColor": "#080F1E",
+    "fontFamily": "Inter, Nunito",
+    "style": "Dark hyperlocal social app with teal accent, warm amber highlights, and card-based layout. Uses trust badge system with color-coded categories, contextual map visualization, and ephemeral request threads. Micro-interactions on tab switches and post steps. Professional yet approachable with geo-proximity emphasis."
+  },
+  "screens": [
+    "Feed — Browse active neighborhood help requests with filter chips, urgency indicators, like/reply actions, and distance labels",
+    "Request Detail — Thread view for a single request with replies, offer help CTA, and inline reply input",
+    "Skill Map — Visual neighborhood map with skill-tagged dots, skill grid showing neighbor counts, and top helper leaderboard",
+    "New Request — 3-step post flow: select category → describe need → set radius/expiry/anonymous options",
+    "Messages — Inbox with direct threads, community updates, and badge notifications grouped by type",
+    "Profile — User trust profile with stat strip, earned badges grid, skills list, and recent activity feed"
+  ]
+}

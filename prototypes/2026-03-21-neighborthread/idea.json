@@ -1,0 +1,20 @@
+{
+  "name": "NeighborThread",
+  "tagline": "Meet nearby people who can actually help.",
+  "description": "NeighborThread is a hyperlocal social app that connects people based on immediate, practical needs instead of generic profiles or endless feeds. Users post small real-life requests like borrowing a ladder, finding a last-minute babysitter recommendation, getting directions to the accessible entrance, or asking who knows a trustworthy appliance repair person in the building. The app solves the everyday isolation problem many people face in apartments, suburbs, and dense city neighborhoods, where help is physically close but socially disconnected. It makes daily life easier by turning nearby neighbors into a fast, trust-based support network with context-aware matching, reputation built from specific acts of help, and temporary request rooms that disappear after the task is done. For example, a new resident can ask which grocery store stays open latest, a parent can locate a playdate group within walking distance, or someone recovering from surgery can arrange help carrying groceries up stairs. What makes it unique is that it is designed around situational community support rather than friendship-building, so interactions stay useful, local, and low-pressure. Instead of rewarding posting or popularity, it rewards being reliably helpful in ways that matter in the moment.",
+  "features": [
+    "The app lets users post time-bound help requests pinned to a precise neighborhood radius, which ensures responses are relevant, fast, and genuinely local.",
+    "It uses trust badges based on completed real-world actions, so people build credibility by lending tools, sharing advice, or solving small problems rather than by collecting likes.",
+    "It offers anonymous-to-confirmed matching for sensitive needs, which helps users ask for support without feeling exposed until they are ready to connect.",
+    "It creates temporary micro-groups for each request, allowing multiple neighbors to coordinate on one issue without cluttering their main feed.",
+    "It highlights neighborhood skill maps, which show who can help with things like child pickup, tech setup, bike repair, or translation, making hidden community knowledge easy to find.",
+    "audience_plan"
+  ],
+  "audience": "Urban renters, new homeowners, parents, older adults, and remote workers aged roughly 25-65 who live in dense neighborhoods or apartment communities. It is especially useful for people who want local support but do not have an existing network nearby.",
+  "category": "social & community",
+  "useCases": [
+    "Sarah just moved into a new apartment building and needs to know which resident has a spare drill for mounting shelves. She opens NeighborThread, posts a 30-minute request, and quickly finds a neighbor two floors down willing to lend one.",
+    "Jamal\u2019s sitter cancels ten minutes before a work call, and he needs backup advice fast. He uses the app to ask nearby parents which trustworthy sitter agencies they have actually used, then messages one recommended contact in the neighborhood micro-group.",
+    "Mina is recovering from a knee injury and cannot carry heavy groceries up three flights of stairs. She posts a short, specific request for help and gets two nearby volunteers who can assist this afternoon in exchange for a future favor credit."
+  ]
+}
