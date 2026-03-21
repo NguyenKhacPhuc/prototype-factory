@@ -1,0 +1,14 @@
+{
+  "appName": "BorderQuest",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#00D4FF",
+    "secondary": "#8B5CF6",
+    "background": "#07091A",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

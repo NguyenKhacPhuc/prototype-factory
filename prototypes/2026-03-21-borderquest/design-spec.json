@@ -1,0 +1,18 @@
+{
+  "appName": "BorderQuest",
+  "tagline": "Turn cities into a living strategy map.",
+  "designSystem": {
+    "primaryColor": "#00D4FF",
+    "secondaryColor": "#8B5CF6",
+    "backgroundColor": "#07091A",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark tactical strategy UI with electric cyan and deep navy palette. Grid-based territory map with glowing zone indicators, dark surface layers with subtle gradients, and a military-inspired information hierarchy. Light mode uses the same cyan-primary palette against clean whites and powder-blue surfaces."
+  },
+  "screens": [
+    "Map — interactive territory grid with claimable zones, resource nodes, landmarks, and real-time control stats",
+    "Missions — daily mission list with progress tracking, difficulty badges, limited-time flags, and expandable mission details",
+    "Guild — guild banner with stats, online member roster with roles, territory control bar, and live activity feed",
+    "Journal — personal discovery log with achievement badges, XP stats, km walked, and chronological place history",
+    "Profile — commander profile with XP progress bar, season pass tracker, theme toggle (dark/light), and settings menu"
+  ]
+}

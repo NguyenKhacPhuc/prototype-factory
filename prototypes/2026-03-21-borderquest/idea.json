@@ -1,0 +1,20 @@
+{
+  "name": "BorderQuest",
+  "tagline": "Turn cities into a living strategy map.",
+  "description": "BorderQuest transforms your real-world neighborhood, city, or travel destination into a shared tactical world where streets become territories, landmarks become resource nodes, and daily movement becomes part of a persistent game. It solves the problem of feeling disconnected from your surroundings by giving users a playful reason to explore, walk, and pay attention to places they would otherwise ignore. In daily life, it helps people discover new routes, socialize with nearby players, and turn routine errands into rewarding mini-adventures. For example, a commuter can claim a route between the train station and office by visiting hidden checkpoints, while a family on vacation can compete to unlock local landmarks through geography-based missions. The app is unique because it combines a world-building strategy layer with real-world walking, local history, and neighborhood interaction rather than simply overlaying points or collectibles. Over time, the map evolves based on player activity, seasonal events, and community-built alliances, making each location feel like a living game board that reflects actual human movement and local culture.",
+  "features": [
+    "The app turns real streets into dynamic control zones that teams can claim by completing location-based challenges, which makes exploration feel like a meaningful strategy game instead of random wandering.",
+    "It generates daily missions tied to nearby places, such as visiting a mural to unlock supplies or reaching a park bench to defend a territory, helping users build movement into everyday routines.",
+    "It includes cooperative guilds for neighborhoods, workplaces, and friend groups so users can coordinate routes, trade captured zones, and build social connections around shared geography.",
+    "It adapts quests to local context using weather, time, and events, so a rainy afternoon might create indoor missions while a weekend festival could trigger special limited-time battles.",
+    "It records each user's travel history as a personalized map of discoveries, which matters because it turns ordinary movement into a memorable story and encourages repeated engagement.",
+    "audience: "
+  ],
+  "audience": "Urban adults and older teens ages 16\u201340 who enjoy strategy games, fitness apps, and exploration, especially commuters, travelers, and social groups looking for low-pressure ways to make city life more engaging. It also fits communities and campus groups that want a playful, location-based activity to encourage movement and local discovery.",
+  "category": "game: world",
+  "useCases": [
+    "Maya just moved to a new city and feels overwhelmed by unfamiliar streets. She opens BorderQuest to take a beginner mission that leads her to a caf\u00e9, a library, and a lookout point, helping her learn the area while earning territory for her squad.",
+    "Jaden is walking home after work and usually scrolls his phone mindlessly on the train. He opens the app to defend a nearby bridge zone, detouring a few blocks to complete a challenge and turning an ordinary commute into a quick tactical win.",
+    "A group of friends is meeting downtown on Saturday but does not know what to do first. They use BorderQuest to trigger a scavenger-style alliance mission that sends them to local landmarks, gives them competing objectives, and keeps everyone engaged while they explore together."
+  ]
+}
