@@ -1,0 +1,18 @@
+{
+  "name": "Fridge Forge",
+  "tagline": "Turn leftovers into dinner fast.",
+  "description": "Fridge Forge helps home cooks transform scattered leftovers, half-used ingredients, and nearly-forgotten produce into complete, realistic meals. Instead of showing generic recipes, it scans what you actually have on hand, estimates what is likely to spoil soon, and suggests combinations that fit your time, skill level, and kitchen equipment. The app solves the common problem of food waste and last-minute takeout by turning ingredient chaos into a usable plan for tonight\u2019s dinner or tomorrow\u2019s lunch. For example, if you have chicken thighs, yogurt, spinach, and a lone lemon, it might suggest a one-pan herby yogurt chicken with a quick spinach salad and tell you exactly what can be substituted. If you only have a microwave and a cutting board, it adjusts suggestions to match that reality rather than pretending you have a full pantry. What makes it unique is its \u201crescue-first\u201d logic: it prioritizes saving ingredients before suggesting buying more, and it builds recipes around the constraints of the home, not an idealized chef kitchen.",
+  "features": [
+    "The app lets users quickly log fridge and pantry items by photo, voice, or barcode so meal planning starts with what is already available.",
+    "It ranks ingredients by spoilage risk and recommends meals that use up the most urgent items first, which helps cut waste and saves money.",
+    "It generates step-by-step recipe plans based on available tools, time limits, and skill level, making it practical for busy weeknights or beginner cooks.",
+    "It offers smart substitution guidance for missing ingredients, so users can keep cooking without an extra grocery trip.",
+    "It creates a leftover-to-lunch follow-up plan after dinner, helping users turn one cooking session into multiple meals with minimal effort.",
+    "audience: People ages 20\u201345 who cook at home occasionally or regularly, especially busy urban professionals, students, and families trying to reduce food waste and grocery spending.",
+    "category: \"food & cooking\"",
+    "useCases: [",
+    "\"Maya gets home late with wilted herbs, half a block of tofu, and some rice in the fridge, and she wants a fast dinner before heading to bed. Fridge Forge turns those ingredients into a 15-minute ginger rice bowl and tells her how to use the herbs before they go bad.\",",
+    "\"Jordan is hosting friends but doesn\u2019t want to spend extra money at the store. He opens the app, scans his fridge, and gets a dinner plan that stretches leftover vegetables, cheese, and tortillas into shareable quesadillas and a dip.\",",
+    "\"Alicia meal-preps on Sunday and notices she has yogurt, berries, and oats that will expire soon. She uses Fridge Forge to build breakfast jars and a snack plan for the workweek so nothing gets thrown away.\""
+  ]
+}

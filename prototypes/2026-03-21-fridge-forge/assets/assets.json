@@ -1,0 +1,37 @@
+{
+  "appName": "Fridge Forge",
+  "fontFamily": "Nunito",
+  "colors": {
+    "primary": "#4EC97A",
+    "secondary": "#FF7B3C",
+    "background": "#131A13",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "arrow-down",
+    "arrow-left",
+    "arrow-right",
+    "bell",
+    "calendar-days",
+    "chef-hat",
+    "clock",
+    "flame",
+    "info",
+    "leaf",
+    "link",
+    "mic",
+    "moon",
+    "plus",
+    "scan-line",
+    "shield",
+    "sun",
+    "toggle-left",
+    "toggle-right",
+    "users",
+    "wrench"
+  ],
+  "fonts": [],
+  "iconCount": 22,
+  "fontFileCount": 0
+}

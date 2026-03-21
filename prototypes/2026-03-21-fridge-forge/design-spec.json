@@ -1,0 +1,17 @@
+{
+  "appName": "Fridge Forge",
+  "tagline": "Turn leftovers into dinner fast.",
+  "designSystem": {
+    "primaryColor": "#4EC97A",
+    "secondaryColor": "#FF7B3C",
+    "backgroundColor": "#131A13",
+    "fontFamily": "Nunito",
+    "style": "Dark-first organic UI with warm forest greens and amber-orange accents. Earthy tones reflect freshness and sustainability. Rounded corners and layered card surfaces create a friendly, approachable feel for home cooks."
+  },
+  "screens": [
+    "Fridge — ingredient list with spoilage risk indicators (urgent/soon/fresh), rescue alert banner, scan/voice/manual entry, filter tabs",
+    "Forge — AI recipe suggestions ranked by rescue score, ingredient chips with urgency highlights, full recipe detail view with step-by-step instructions and leftover plan",
+    "Plan — weekly meal plan with leftover chain visualization, waste-saved metric, smart suggestion cards",
+    "Settings — profile, cooking skill level selector, kitchen equipment toggles, dietary preferences, light/dark theme toggle"
+  ]
+}
