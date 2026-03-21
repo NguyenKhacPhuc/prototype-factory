@@ -1,0 +1,18 @@
+{
+  "appName": "Deal Drift",
+  "tagline": "Find leaked revenue before it vanishes.",
+  "designSystem": {
+    "primaryColor": "#6C47FF",
+    "secondaryColor": "#FF6B47",
+    "backgroundColor": "#F5F4F2",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean, data-forward mobile dashboard with vibrant violet-purple brand color, card-based layout, subtle gradients, and micro-interaction feedback. Light/dark dual-theme with warm neutral backgrounds and electric accent pops."
+  },
+  "screens": [
+    "Home — Revenue radar summary, priority deal card, live signals feed",
+    "Deals — Stalled deals list with risk filters, signal badges, recovery scores, drill-down detail view",
+    "Renewals — Account health monitor with urgency bars, usage drop alerts, one-tap check-ins",
+    "Insights — Recovery score, nudge performance stats, weekly bar chart, best follow-up time windows",
+    "Settings — Profile, theme toggle, CRM/email/calendar integrations, notification preferences"
+  ]
+}

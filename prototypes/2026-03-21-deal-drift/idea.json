@@ -1,0 +1,19 @@
+{
+  "name": "Deal Drift",
+  "tagline": "Find leaked revenue before it vanishes.",
+  "description": "Deal Drift is a mobile app that helps small and mid-sized businesses spot stalled deals, slipping renewals, and overlooked follow-ups before they quietly turn into lost revenue. It connects to calendars, email, CRM tools, and invoicing systems to detect when a customer thread has gone cold, a proposal has been opened but not answered, or a renewal date is approaching without activity. Instead of overwhelming users with raw dashboards, it turns these signals into simple, prioritized actions they can take in minutes during a commute, between meetings, or while waiting in line. For example, it might tell a salesperson that a promising prospect opened a quote three times after 8 p.m., suggesting the best time and tone for a follow-up, or alert an account manager that a long-term client has reduced product usage and may need a retention call. What makes it unique is its focus on micro-interventions: it predicts the smallest next action most likely to recover or grow revenue, rather than just reporting that something is wrong. The app also learns each user's style and company context, so its suggestions feel like a smart business coach instead of another generic sales tool. Over time, Deal Drift becomes a revenue early-warning system that fits naturally into a busy workday.",
+  "features": [
+    "It scans CRM, email, and calendar activity to detect deal momentum drops and renewal risks, so users can act before revenue slips away.",
+    "It generates one-tap suggested follow-ups with the right timing, subject line, and message style, which saves time and increases response rates.",
+    "It ranks opportunities by likelihood of recovery or expansion, helping users focus on the deals where a small action can have the biggest impact.",
+    "It sends context-aware alerts based on real-world signals like proposal views, meeting gaps, and customer inactivity, so warnings are timely and useful instead of noisy.",
+    "It tracks which nudges actually lead to replies, meetings, or renewals, allowing the app to learn a team's habits and improve its recommendations over time."
+  ],
+  "audience": "Sales reps, account managers, founders, and client-facing teams at startups and small businesses, especially those juggling too many accounts without a dedicated revenue ops team. It is best for people who rely on fast follow-up, relationship management, and renewals to keep business moving.",
+  "category": "business",
+  "useCases": [
+    "Sarah just finished a stressful client meeting and wants to know which accounts need follow-up first, so she opens Deal Drift and sees a prioritized list with suggested messages she can send before lunch.",
+    "Marco notices one of his annual subscribers has not logged in for two weeks, so he opens the app on the train and gets a retention alert with a suggested check-in email and discount offer.",
+    "Leah is reviewing new quotes at the end of the day and wants to rescue a few deals before the weekend, so she uses Deal Drift to identify prospects who are most likely to respond to a quick, personalized nudge."
+  ]
+}
