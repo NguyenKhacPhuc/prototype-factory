@@ -1,0 +1,14 @@
+{
+  "appName": "FridgeCipher",
+  "fontFamily": "Nunito",
+  "colors": {
+    "primary": "#FF7A3D",
+    "secondary": "#4ADE80",
+    "background": "#0F1117",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

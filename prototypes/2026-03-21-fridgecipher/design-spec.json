@@ -1,0 +1,18 @@
+{
+  "appName": "FridgeCipher",
+  "tagline": "Turn leftovers into dinner, instantly.",
+  "designSystem": {
+    "primaryColor": "#FF7A3D",
+    "secondaryColor": "#4ADE80",
+    "backgroundColor": "#0F1117",
+    "fontFamily": "Nunito",
+    "style": "Dark-first mobile app with warm orange primary accent, clean card-based layouts, and soft gradient backgrounds. Uses rounded corners, clear hierarchy, and micro-interactions to feel friendly and approachable for food and cooking contexts."
+  },
+  "screens": [
+    "Scan — Camera/barcode scan interface with AI detection, quick-add pills, urgency alert, and pantry shortcut",
+    "Pantry — Ingredient list with freshness indicators, category filters, stats row, and urgency sorting",
+    "Recipes — AI-matched recipe cards with smart constraint filters, ingredient pills, urgency tags, and waste savings",
+    "Recipe Detail — Cooking timeline with step-by-step interactive mode, ingredient list, meta cards, and done state",
+    "Tracker — Weekly savings bar chart, CO2/meal/streak stats, ingredient rescue list, and settings with theme toggle"
+  ]
+}

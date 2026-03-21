@@ -1,0 +1,19 @@
+{
+  "name": "FridgeCipher",
+  "tagline": "Turn leftovers into dinner, instantly.",
+  "description": "FridgeCipher helps people cook great meals from what they already have by translating random fridge and pantry items into realistic, step-by-step recipes that fit their time, tools, and skill level. Instead of throwing together generic recipe suggestions, it understands ingredient age, quantities, and compatibility, then builds meals around what needs to be used first to reduce waste. A user can scan a few groceries, snap a photo of leftovers, and get a dinner plan like \"15-minute smoky rice bowls using half a bell pepper, canned chickpeas, and last night\u2019s roasted chicken.\" It also adapts to constraints such as one-pan cooking, picky eaters, low energy, or only having a microwave and an electric kettle. What makes it unique is that it doesn\u2019t just recommend recipes\u2014it prioritizes salvage, pairs ingredients by flavor chemistry, and creates a cooking sequence that minimizes waste and effort. Over time, it learns the household\u2019s habits and adjusts suggestions to favorite cuisines, shopping patterns, and ingredients that regularly go unused.",
+  "features": [
+    "The app scans fridge photos and grocery barcodes to identify ingredients, estimate freshness, and automatically rank what should be cooked first.",
+    "It generates recipes based on the exact ingredients available, so users can make dinner without needing a special trip to the store.",
+    "A smart constraint filter lets users choose options like under 20 minutes, no oven, kid-friendly, or budget meal, making the results practical on busy days.",
+    "The app creates a cooking timeline that tells users when to chop, heat, and combine ingredients, which reduces overwhelm and helps beginners cook confidently.",
+    "A waste tracker shows how much food and money was saved each week, giving users a clear reason to keep using the app and buy more intentionally."
+  ],
+  "audience": "Busy adults, young professionals, parents, and budget-conscious households who often have mixed leftovers or partially used ingredients at home. It is especially useful for people who want to eat better, waste less, and avoid last-minute takeout decisions after long days.",
+  "category": "food & cooking",
+  "useCases": [
+    "Maya gets home at 8 p.m. after a long shift and opens FridgeCipher to turn wilted spinach, two eggs, and leftover rice into a fast dinner instead of ordering delivery.",
+    "Jordan is trying to save money before payday and uses the app to figure out how to combine half a rotisserie chicken, canned beans, and tortilla scraps into two meals for the next day.",
+    "Alicia is hosting friends and wants to clean out her fridge first, so she scans what she has and gets a party-friendly flatbread recipe built around leftover vegetables and cheese."
+  ]
+}
