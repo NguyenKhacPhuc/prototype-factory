@@ -1,0 +1,18 @@
+{
+  "appName": "Echo Frame",
+  "tagline": "Turn moments into usable visual memories.",
+  "designSystem": {
+    "primaryColor": "#7C6AF5",
+    "secondaryColor": "#F06FAA",
+    "backgroundColor": "#0A0A0F",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first immersive UI with vibrant violet-pink gradient accents, glassmorphism-inspired cards, subtle border glow, and story-driven narrative layout. Uses warm emoji-based visual anchors against a deep space background to evoke a sense of personal memory and intimacy."
+  },
+  "screens": [
+    "Home - Story threads overview with missing chapter alerts and recent moments",
+    "Capture - Smart viewfinder with scene detection, mode toggle, and quick context prompts",
+    "Stories - Timeline, reel preview, and context Q&A for individual story threads",
+    "Archive - Grid layout of all memory collections with filter chips and search",
+    "Settings - Profile, theme toggle (dark/light), smart feature toggles, and storage indicator"
+  ]
+}

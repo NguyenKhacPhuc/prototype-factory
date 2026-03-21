@@ -1,0 +1,26 @@
+{
+  "appName": "Echo Frame",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C6AF5",
+    "secondary": "#F06FAA",
+    "background": "#0A0A0F",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "archive",
+    "arrow-left",
+    "battery",
+    "camera",
+    "chevron-right",
+    "film",
+    "home",
+    "search",
+    "settings",
+    "signal",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 11,
+  "fontFileCount": 0
+}

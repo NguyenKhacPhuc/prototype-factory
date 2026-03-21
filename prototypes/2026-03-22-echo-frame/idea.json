@@ -1,0 +1,19 @@
+{
+  "name": "Echo Frame",
+  "tagline": "Turn moments into usable visual memories.",
+  "description": "Echo Frame is a smart photo and video app that helps people capture not just what happened, but why it mattered. It automatically detects recurring people, places, and objects across your camera roll and organizes them into story-based memory threads, so a weekend trip, a child\u2019s birthday, or a home renovation is no longer buried under hundreds of random clips. The app solves the common problem of visual overload: users take plenty of photos and videos, but later struggle to find the specific moment that tells the full story. With one tap, Echo Frame can build a timeline, highlight the best angles, and surface missing context by asking short prompts like where, who, and why, making memories easier to revisit or share. In daily life, it helps users quickly assemble a polished recap for family, a project log for work, or a personal archive for major life events without spending hours sorting media. What makes it unique is that it treats your camera roll like a living narrative database, not just a storage folder, using story recognition instead of simple albums or tags.",
+  "features": [
+    "It groups photos and videos into automatic story threads by detecting repeated faces, locations, objects, and event patterns, which saves users from manually creating albums.",
+    "It builds a guided recap by identifying the strongest visual moments in sequence, helping users make coherent timelines from messy, overcaptured media.",
+    "It asks lightweight context prompts, such as who was there or what changed, so users can add meaning to visuals without typing long captions.",
+    "It generates shareable memory reels tailored for specific purposes, like a birthday recap, a renovation progress log, or a vacation summary, making sharing fast and relevant.",
+    "It surfaces 'missing chapter' alerts when the app notices a story has gaps, reminding users to capture key moments before they are forgotten."
+  ],
+  "audience": "Adults aged 18\u201345 who take lots of photos and short videos on their phones, especially parents, travelers, hobbyists, and busy professionals. It is especially useful for people who want their camera roll to be more organized, meaningful, and easy to share without extra effort.",
+  "category": "photo & video",
+  "useCases": [
+    "Maya just got back from a five-day road trip and wants to turn 600 scattered clips into a single story she can send to friends. She opens Echo Frame and gets an instant timeline of the trip with the best sunset shots, food stops, and scenic route moments.",
+    "Jordan is documenting a bathroom renovation over three months and needs proof of progress for a contractor and landlord. He uses the app to create a visual before-and-after thread that shows each step in order, with dates and short notes attached.",
+    "Elena\u2019s daughter just turned seven, and she wants to make a keepsake without spending the whole night sorting her gallery. Echo Frame pulls the birthday photos and videos into a ready-made reel, complete with the cake moment, gift opening, and group shots."
+  ]
+}
