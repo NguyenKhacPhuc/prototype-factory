@@ -1,0 +1,19 @@
+{
+  "name": "Pulse Pact",
+  "tagline": "Fitness built around your real day.",
+  "description": "Pulse Pact is a micro-workout and recovery coach that designs movement around the gaps in your actual schedule, not an idealized fitness routine. Instead of asking users to commit to long sessions, it detects when they are stuck waiting, stressed, or sedentary and turns those moments into targeted 2-8 minute movement prescriptions. The app solves a common problem: people want to stay active, but traditional plans collapse when work, commuting, caregiving, or unpredictable days get in the way. It helps users by stitching together tiny, meaningful bouts of exercise, mobility, and breathwork throughout the day, so they build consistency without needing to \"find time\" for the gym. For example, after a long video call, it may suggest a 90-second neck reset and a stair sprint, while after lunch it might assign a posture recovery flow based on how long the user has been sitting. What makes Pulse Pact unique is that it uses context-aware timing and goal-specific micro-prescriptions to convert real-life friction into fitness progress, instead of treating daily interruptions as failures.",
+  "features": [
+    "The app creates dynamic micro-workouts based on your calendar, location, and activity patterns, so it can recommend a quick mobility sequence before a meeting or a squat ladder while waiting for coffee.",
+    "It uses a daily \"movement debt\" score that tracks how much sitting, stress, and missed activity has accumulated, because this helps users see why small interventions matter.",
+    "The app offers instant recovery protocols like breathing drills, hip resets, and wrist relief flows when it detects signs of tension or repetitive strain, which is important for preventing discomfort before it builds up.",
+    "It bundles small actions into personalized streaks and weekly totals, making it easy to stay consistent even on chaotic days without requiring long workout sessions.",
+    "It provides adaptive prompts that learn which moments users are most likely to act on, improving timing and relevance so suggestions feel helpful rather than intrusive."
+  ],
+  "audience": "Busy adults aged 22-45, especially remote workers, caregivers, freelancers, and commuters who struggle to maintain a traditional workout schedule. It also fits people who sit for long periods and want practical ways to stay active without rearranging their day.",
+  "category": "health & fitness",
+  "useCases": [
+    "Maya has been in back-to-back meetings for four hours and feels stiff, so she opens Pulse Pact to get a three-minute desk mobility reset and a reminder to take the stairs later.",
+    "Jordan is waiting at the train platform after work and wants to keep his streak alive, so the app gives him a five-minute lower-body circuit he can do without changing clothes.",
+    "Elena is a parent with only short windows between school pickup and dinner, so she uses the app to string together two-minute movement snacks that add up to a full workout by bedtime."
+  ]
+}

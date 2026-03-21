@@ -1,0 +1,18 @@
+{
+  "appName": "Pulse Pact",
+  "tagline": "Fitness built around your real day.",
+  "designSystem": {
+    "primaryColor": "#A8ED64",
+    "secondaryColor": "#6C7FFF",
+    "backgroundColor": "#0B0E1A",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first fitness UI with a lime green primary accent and indigo secondary. Clean card-based layout with rounded corners (14–20px), subtle border separators, and a ring-based movement debt visualization. Micro-interaction toggles and expandable list items. Warm orange used for moderate-urgency states, red for debt alerts."
+  },
+  "screens": [
+    "Home — Movement debt ring, today's micro-workout queue, instant recovery shortcuts, streak card",
+    "Library — Category-filtered micro-workout browser with expandable detail cards",
+    "Schedule — Smart calendar gap detection with confidence scores and scheduling actions",
+    "Stats — Weekly bar chart, activity type breakdown, session highlights, achievement badges",
+    "Settings — Profile header, dark/light theme toggle, smart feature toggles, goal configuration"
+  ]
+}
