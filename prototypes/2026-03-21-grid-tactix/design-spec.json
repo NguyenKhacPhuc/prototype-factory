@@ -1,0 +1,18 @@
+{
+  "appName": "Grid Tactix",
+  "tagline": "Turn everyday chaos into smart wins.",
+  "designSystem": {
+    "primaryColor": "#6C3BFF",
+    "secondaryColor": "#FF6B2C",
+    "backgroundColor": "#F0F4F8",
+    "fontFamily": "Space Grotesk",
+    "style": "Modern strategy game UI with vibrant purple-violet primary palette, orange accent, card-based layouts, stat bars, and city grid visualization. Features both light and dark themes with gradient hero cards and micro-interactions."
+  },
+  "screens": [
+    "Home — Daily missions, city health overview, streak tracker, and weekly progress stats",
+    "Play — Active scenario with crisis briefing, consequence preview, 3-choice decision system, and impact reveal",
+    "Map — 3x3 city grid priority map with status indicators, hidden dependency graph, and critical alerts",
+    "Replay — Round-by-round reflection with decision breakdown, outcome analysis, strategic insight, and real-world connection",
+    "Profile — User stats, theme toggle, difficulty selector, achievements, and app settings"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Grid Tactix",
+  "tagline": "Turn everyday chaos into smart wins.",
+  "description": "Grid Tactix is a strategy game where players manage a living city grid under constant pressure from traffic, power spikes, weather, and public demand. The core problem it solves is helping people practice prioritization, resource allocation, and long-term planning in a low-stakes but emotionally engaging way. Each session presents a realistic scenario, such as rerouting ambulances during a subway outage or balancing flood barriers against a power shortage, and players must make tradeoffs that mirror real-world decision-making. It helps users in daily life by training them to think several steps ahead, weigh consequences, and stay calm when multiple problems compete for attention. The game includes short daily missions that fit into a commute or coffee break, making it easy to build strategic thinking habits over time. What makes it unique is that it blends city-management mechanics with real behavioral patterns, so choices are influenced by urgency, hidden dependencies, and limited attention rather than simple points alone. Unlike typical strategy games, it translates everyday complexity into bite-sized dilemmas that feel relevant to work, family logistics, and personal planning.",
+  "features": [
+    "Adaptive scenario generation creates new city crises based on difficulty level, so every session feels fresh and trains different kinds of planning under pressure.",
+    "A consequence preview system shows delayed impacts of choices, helping players understand how small decisions ripple across traffic, energy, safety, and citizen morale.",
+    "Daily micro-campaigns let users complete meaningful strategy challenges in 3 to 5 minutes, which makes the app practical for busy schedules.",
+    "A priority map highlights competing goals without revealing the best answer, forcing players to develop judgment instead of relying on obvious prompts.",
+    "A reflection replay breaks down each decision after the round and explains why certain strategies worked, turning the game into a tool for improving real-world decision-making."
+  ],
+  "audience": "Busy adults and older teens ages 16-40 who enjoy strategy games and want a mentally engaging way to sharpen planning skills. It is especially appealing to students, managers, parents, and commuters looking for short, thoughtful gameplay sessions.",
+  "category": "game: strategy",
+  "useCases": [
+    "Maya is on the train after work and wants a quick mental reset, so she opens Grid Tactix and tackles a five-minute flood-response scenario before her stop.",
+    "Jordan has a management interview tomorrow and wants to practice prioritizing under pressure, so he uses the app's crisis missions to rehearse making tough tradeoffs quickly.",
+    "Elena is juggling school pickup, dinner, and a last-minute work issue, so she plays one mission to calm down while training her brain to plan around overlapping demands."
+  ]
+}
