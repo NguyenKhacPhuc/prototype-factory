@@ -1,0 +1,19 @@
+{
+  "name": "Loop Pantry",
+  "tagline": "Turn leftovers into tomorrow\u2019s meals.",
+  "description": "Loop Pantry helps households cut food waste by turning what is already in the fridge into concrete meal plans before ingredients spoil. Users scan receipts or grocery bags, snap photos of leftovers, and log expiration dates, and the app builds a \u201cuse-first\u201d plan ranked by urgency, recipe fit, and effort. It solves the daily problem of opening the fridge, seeing random ingredients, and defaulting to takeout or tossing food that could still be used. In practice, the app might notice half a bunch of cilantro, two wrinkled tomatoes, and yogurt nearing its date, then suggest a 10-minute salsa bowl, a lunch wrap, or a freezer-saving marinade. What makes it unique is that it focuses on real household leftovers and partial ingredients, not just generic meal planning, and it adapts suggestions to the user\u2019s schedule, energy level, and available cookware. It also nudges users with timed reminders and \u201crescue windows,\u201d such as using berries tonight before they spoil or freezing herbs in oil if cooking is delayed. Over time, it learns a home\u2019s eating habits and reduces both waste and decision fatigue without requiring users to become obsessive inventory managers.",
+  "features": [
+    "It automatically creates a live pantry map from receipt scans, barcode entries, and quick camera captures so users always know what needs attention first.",
+    "It generates urgency-ranked recipes based on expiry dates, prep time, and current leftovers, which helps users cook with less waste and less effort.",
+    "It sends smart \u201csave it now\u201d alerts for ingredients approaching spoilage and offers specific rescue actions like freezing, pickling, or repurposing them.",
+    "It includes a household waste scoreboard that translates discarded ingredients into estimated money and carbon saved, making progress visible and motivating.",
+    "It syncs with family members so everyone can add, use, or reserve ingredients in one shared view, preventing duplicate purchases and forgotten items."
+  ],
+  "audience": "Busy adults, parents, and shared-household renters ages 20\u201350 who cook at home but struggle to keep track of groceries and leftovers. It is especially useful for people trying to save money, reduce waste, and eat more intentionally without spending extra time on meal planning.",
+  "category": "sustainability",
+  "useCases": [
+    "Sarah just finished a stressful meeting and realizes her spinach and mushrooms will go bad by tomorrow, so she opens Loop Pantry to get a 15-minute dinner recipe using exactly those ingredients. She taps the suggested \u201crescue now\u201d option and follows a quick skillet meal instead of ordering delivery.",
+    "Jamal comes home after a weekend trip and finds three partially used produce bags in his fridge, so he scans them and asks the app what can be frozen, cooked, or combined tonight. Loop Pantry tells him to blanch the broccoli, blend the herbs into pesto, and use the yogurt in a sauce before it expires.",
+    "A college apartment shares groceries but keeps forgetting what was already opened, so Priya checks the shared pantry view before shopping. The app shows they already have two cans of chickpeas and a nearly spoiled jar of salsa, helping her plan tacos that avoid duplicate purchases and waste."
+  ]
+}

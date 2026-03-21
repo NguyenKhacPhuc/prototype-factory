@@ -1,0 +1,14 @@
+{
+  "appName": "Loop Pantry",
+  "fontFamily": "Nunito",
+  "colors": {
+    "primary": "#5FB87A",
+    "secondary": "#E8855A",
+    "background": "#111811",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

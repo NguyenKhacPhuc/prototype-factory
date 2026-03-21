@@ -1,0 +1,18 @@
+{
+  "appName": "Loop Pantry",
+  "tagline": "Turn leftovers into tomorrow's meals.",
+  "designSystem": {
+    "primaryColor": "#5FB87A",
+    "secondaryColor": "#E8855A",
+    "backgroundColor": "#111811",
+    "fontFamily": "Nunito",
+    "style": "Earthy dark-first design with warm forest greens and terracotta accents. Clean card-based layouts with urgency-coded color indicators (red/amber/green). Rounded pill typography, soft glow shadows on urgent items, and gradient hero elements for key stats. Supports full light and dark themes."
+  },
+  "screens": [
+    "Pantry – Live urgency-coded ingredient map with scan options (photo, receipt, barcode), filter pills, and expiry progress bars",
+    "Recipes – Urgency-ranked recipe cards with energy selector, waste scores, expandable step-by-step instructions, and ingredient chips",
+    "Alerts – Rescue window notifications with dismissible alert cards, action chips (freeze/pickle/use), tip expansion, and household activity feed",
+    "Stats – Waste scoreboard with streak hero, money/CO₂/item metrics, weekly bar chart, household leaderboard, and category breakdown",
+    "Settings – Theme toggle (light/dark), household sync with invite, notification toggles, and cooking preferences"
+  ]
+}
