@@ -55,8 +55,12 @@ export function PrototypeCard({ prototype: p, navigate }: Props) {
       </div>
       <div className="shot-footer">
         <div className="shot-info">
-          <span className="shot-name">{p.appName}</span>
+          <div className="shot-header">
+            <span className="shot-name">{p.appName}</span>
+            {p.category && <span className="shot-category">{p.category}</span>}
+          </div>
           <span className="shot-tagline">{p.tagline}</span>
+          {p.description && <span className="shot-desc">{p.description}</span>}
         </div>
         <div className="shot-stats">
           <span className="shot-stat">
