@@ -1,0 +1,3914 @@
+{
+  "version": 2,
+  "appName": "Muse Map",
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "fonts": [
+    "Inter + Playfair Display"
+  ],
+  "designTokens": {
+    "bg": "#080612",
+    "surface": "#110D22",
+    "card": "#1A1433",
+    "cardHover": "#221B42",
+    "border": "#2A2250",
+    "primary": "#7C3AED",
+    "primaryLight": "#9D5FF5",
+    "primaryDim": "rgba(124,58,237,0.15)",
+    "secondary": "#F59E0B",
+    "secondaryDim": "rgba(245,158,11,0.12)",
+    "accent": "#06B6D4",
+    "accentDim": "rgba(6,182,212,0.12)",
+    "green": "#10B981",
+    "pink": "#EC4899",
+    "text": "#F0EBF8",
+    "textMuted": "#8B7AA8",
+    "textDim": "#5A4E72",
+    "white": "#FFFFFF"
+  },
+  "root": {
+    "type": "frame",
+    "name": "div",
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 812,
+    "styles": {
+      "backgroundColor": "rgb(8, 6, 18)",
+      "borderRadius": 44,
+      "overflow": "hidden"
+    },
+    "children": [
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 58,
+        "styles": {
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "alignItems": "center",
+          "paddingTop": 14,
+          "paddingRight": 28,
+          "paddingLeft": 28
+        },
+        "children": [
+          {
+            "type": "text",
+            "name": "span",
+            "x": 28,
+            "y": 28,
+            "width": 65,
+            "height": 17,
+            "styles": {},
+            "textContent": "12:44 AM",
+            "textStyles": {
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": 700,
+              "color": "rgb(240, 235, 248)"
+            },
+            "children": []
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 128,
+            "y": 10,
+            "width": 120,
+            "height": 34,
+            "styles": {
+              "backgroundColor": "rgb(0, 0, 0)",
+              "borderRadius": 20
+            },
+            "children": []
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 311,
+            "y": 28,
+            "width": 36,
+            "height": 16,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 6
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 0,
+                "y": 1,
+                "width": 14,
+                "height": 14,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#F0EBF8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-wifi\" aria-hidden=\"true\"><path d=\"M12 20h.01\"/><path d=\"M2 8.82a15 15 0 0 1 20 0\"/><path d=\"M5 12.859a10 10 0 0 1 14 0\"/><path d=\"M8.5 16.429a5 5 0 0 1 7 0\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 20,
+                "y": 0,
+                "width": 16,
+                "height": 16,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#F0EBF8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-battery\" aria-hidden=\"true\"><path d=\"M 22 14 L 22 10\"/><rect x=\"2\" y=\"6\" width=\"16\" height=\"12\" rx=\"2\"/></svg>",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 58,
+        "width": 375,
+        "height": 898,
+        "styles": {
+          "overflow": "hidden",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "normal",
+          "alignItems": "normal"
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 898,
+            "styles": {
+              "overflow": "hidden",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "normal"
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 0,
+                "width": 375,
+                "height": 71,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "space-between",
+                  "alignItems": "center",
+                  "paddingTop": 16,
+                  "paddingRight": 20,
+                  "paddingBottom": 8,
+                  "paddingLeft": 20
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 20,
+                    "y": 16,
+                    "width": 148,
+                    "height": 47,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 148,
+                        "height": 30,
+                        "styles": {
+                          "backgroundGradient": [
+                            {
+                              "color": "rgb(240, 235, 248)",
+                              "position": 0
+                            },
+                            {
+                              "color": "rgb(157, 95, 245)",
+                              "position": 1
+                            }
+                          ]
+                        },
+                        "textContent": "Mind Garden",
+                        "textStyles": {
+                          "fontFamily": "Playfair Display",
+                          "fontSize": 22,
+                          "fontWeight": 700,
+                          "color": "rgb(240, 235, 248)"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 0,
+                        "y": 32,
+                        "width": 148,
+                        "height": 15,
+                        "styles": {},
+                        "textContent": "37 ideas across 5 clusters",
+                        "textStyles": {
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": 400,
+                          "color": "rgb(139, 122, 168)"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 275,
+                    "y": 22,
+                    "width": 80,
+                    "height": 36,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "normal",
+                      "alignItems": "normal",
+                      "gap": 8
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 0,
+                        "y": 0,
+                        "width": 36,
+                        "height": 36,
+                        "styles": {
+                          "backgroundColor": "rgb(26, 20, 51)",
+                          "borderRadius": 12,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(42, 34, 80)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "paddingTop": 1,
+                          "paddingRight": 6,
+                          "paddingBottom": 1,
+                          "paddingLeft": 6
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 10,
+                            "y": 10,
+                            "width": 16,
+                            "height": 16,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#8B7AA8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-search\" aria-hidden=\"true\"><path d=\"m21 21-4.34-4.34\"/><circle cx=\"11\" cy=\"11\" r=\"8\"/></svg>",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 44,
+                        "y": 0,
+                        "width": 36,
+                        "height": 36,
+                        "styles": {
+                          "backgroundColor": "rgb(26, 20, 51)",
+                          "borderRadius": 12,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(42, 34, 80)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "paddingTop": 1,
+                          "paddingRight": 6,
+                          "paddingBottom": 1,
+                          "paddingLeft": 6
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 10,
+                            "y": 10,
+                            "width": 16,
+                            "height": 16,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#8B7AA8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-sliders-horizontal\" aria-hidden=\"true\"><path d=\"M10 5H3\"/><path d=\"M12 19H3\"/><path d=\"M14 3v4\"/><path d=\"M16 17v4\"/><path d=\"M21 12h-9\"/><path d=\"M21 19h-5\"/><path d=\"M21 5h-7\"/><path d=\"M8 10v4\"/><path d=\"M8 12H3\"/></svg>",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 71,
+                "width": 375,
+                "height": 827,
+                "styles": {},
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 20,
+                    "y": 8,
+                    "width": 335,
+                    "height": 322,
+                    "styles": {
+                      "backgroundColor": "rgb(17, 13, 34)",
+                      "borderRadius": 24,
+                      "borderWidth": 1,
+                      "borderColor": "rgb(42, 34, 80)",
+                      "overflow": "hidden"
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 101,
+                        "y": 97,
+                        "width": 120,
+                        "height": 120,
+                        "styles": {
+                          "backgroundGradient": [
+                            {
+                              "color": "rgba(124, 58, 237, 0.15)",
+                              "position": 0
+                            },
+                            {
+                              "color": "rgba(0, 0, 0, 0)",
+                              "position": 0.7
+                            }
+                          ],
+                          "borderRadius": 50
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 184,
+                        "y": 33,
+                        "width": 80,
+                        "height": 80,
+                        "styles": {
+                          "backgroundGradient": [
+                            {
+                              "color": "rgba(245, 158, 11, 0.08)",
+                              "position": 0
+                            },
+                            {
+                              "color": "rgba(0, 0, 0, 0)",
+                              "position": 0.7
+                            }
+                          ],
+                          "borderRadius": 50
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 94,
+                        "y": 58,
+                        "width": 80,
+                        "height": 80,
+                        "styles": {
+                          "backgroundGradient": [
+                            {
+                              "color": "rgba(245, 158, 11, 0.267)",
+                              "position": 0
+                            },
+                            {
+                              "color": "rgba(245, 158, 11, 0.094)",
+                              "position": 1
+                            }
+                          ],
+                          "borderRadius": 50,
+                          "borderWidth": 1,
+                          "borderColor": "rgba(245, 158, 11, 0.4)",
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "paddingTop": 1,
+                          "paddingRight": 6,
+                          "paddingBottom": 1,
+                          "paddingLeft": 6
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 31,
+                            "y": 29,
+                            "width": 18,
+                            "height": 13,
+                            "styles": {
+                              "paddingRight": 6,
+                              "paddingLeft": 6
+                            },
+                            "textContent": "7",
+                            "textStyles": {
+                              "fontFamily": "Arial",
+                              "fontSize": 11,
+                              "fontWeight": 700,
+                              "color": "rgb(245, 158, 11)",
+                              "textAlign": "center",
+                              "lineHeight": 13.2
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 16,
+                            "y": 42,
+                            "width": 47,
+                            "height": 9,
+                            "styles": {
+                              "overflow": "hidden",
+                              "paddingRight": 4,
+                              "paddingLeft": 4
+                            },
+                            "textContent": "Café Mural",
+                            "textStyles": {
+                              "fontFamily": "Arial",
+                              "fontSize": 8,
+                              "fontWeight": 500,
+                              "color": "rgba(245, 158, 11, 0.667)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 201,
+                        "y": 39,
+                        "width": 72,
+                        "height": 72,
+                        "styles": {
+                          "backgroundGradient": [
+                            {
+                              "color": "rgba(236, 72, 153, 0.267)",
+                              "position": 0
+                            },
+                            {
+                              "color": "rgba(236, 72, 153, 0.094)",
+                              "position": 1
+                            }
+                          ],
+                          "borderRadius": 50,
+                          "borderWidth": 1,
+                          "borderColor": "rgba(236, 72, 153, 0.4)",
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "paddingTop": 1,
+                          "paddingRight": 6,
+                          "paddingBottom": 1,
+                          "paddingLeft": 6
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 24,
+                            "y": 25,
+                            "width": 24,
+                            "height": 13,
+                            "styles": {
+                              "paddingRight": 6,
+                              "paddingLeft": 6
+                            },
+                            "textContent": "12",
+                            "textStyles": {
+                              "fontFamily": "Arial",
+                              "fontSize": 11,
+                              "fontWeight": 700,
+                              "color": "rgb(236, 72, 153)",
+                              "textAlign": "center",
+                              "lineHeight": 13.2
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 4,
+                            "y": 38,
+                            "width": 65,
+                            "height": 9,
+                            "styles": {
+                              "overflow": "hidden",
+                              "paddingRight": 4,
+                              "paddingLeft": 4
+                            },
+                            "textContent": "Novel Fragment",
+                            "textStyles": {
+                              "fontFamily": "Arial",
+                              "fontSize": 8,
+                              "fontWeight": 500,
+                              "color": "rgba(236, 72, 153, 0.667)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 68,
+                        "y": 166,
+                        "width": 88,
+                        "height": 88,
+                        "styles": {
+                          "backgroundGradient": [
+                            {
+                              "color": "rgba(6, 182, 212, 0.267)",
+                              "position": 0
+                            },
+                            {
+                              "color": "rgba(6, 182, 212, 0.094)",
+                              "position": 1
+                            }
+                          ],
+                          "borderRadius": 50,
+                          "borderWidth": 1,
+                          "borderColor": "rgba(6, 182, 212, 0.4)",
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "paddingTop": 1,
+                          "paddingRight": 6,
+                          "paddingBottom": 1,
+                          "paddingLeft": 6
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 35,
+                            "y": 33,
+                            "width": 18,
+                            "height": 13,
+                            "styles": {
+                              "paddingRight": 6,
+                              "paddingLeft": 6
+                            },
+                            "textContent": "5",
+                            "textStyles": {
+                              "fontFamily": "Arial",
+                              "fontSize": 11,
+                              "fontWeight": 700,
+                              "color": "rgb(6, 182, 212)",
+                              "textAlign": "center",
+                              "lineHeight": 13.2
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 13,
+                            "y": 46,
+                            "width": 61,
+                            "height": 9,
+                            "styles": {
+                              "overflow": "hidden",
+                              "paddingRight": 4,
+                              "paddingLeft": 4
+                            },
+                            "textContent": "Product Insight",
+                            "textStyles": {
+                              "fontFamily": "Arial",
+                              "fontSize": 8,
+                              "fontWeight": 500,
+                              "color": "rgba(6, 182, 212, 0.667)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 194,
+                        "y": 158,
+                        "width": 65,
+                        "height": 65,
+                        "styles": {
+                          "backgroundGradient": [
+                            {
+                              "color": "rgba(16, 185, 129, 0.267)",
+                              "position": 0
+                            },
+                            {
+                              "color": "rgba(16, 185, 129, 0.094)",
+                              "position": 1
+                            }
+                          ],
+                          "borderRadius": 50,
+                          "borderWidth": 1,
+                          "borderColor": "rgba(16, 185, 129, 0.4)",
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "paddingTop": 1,
+                          "paddingRight": 6,
+                          "paddingBottom": 1,
+                          "paddingLeft": 6
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 23,
+                            "y": 21,
+                            "width": 18,
+                            "height": 13,
+                            "styles": {
+                              "paddingRight": 6,
+                              "paddingLeft": 6
+                            },
+                            "textContent": "9",
+                            "textStyles": {
+                              "fontFamily": "Arial",
+                              "fontSize": 11,
+                              "fontWeight": 700,
+                              "color": "rgb(16, 185, 129)",
+                              "textAlign": "center",
+                              "lineHeight": 13.2
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 4,
+                            "y": 35,
+                            "width": 57,
+                            "height": 9,
+                            "styles": {
+                              "overflow": "hidden",
+                              "paddingRight": 4,
+                              "paddingLeft": 4
+                            },
+                            "textContent": "Morning Walk",
+                            "textStyles": {
+                              "fontFamily": "Arial",
+                              "fontSize": 8,
+                              "fontWeight": 500,
+                              "color": "rgba(16, 185, 129, 0.667)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 128,
+                        "y": 227,
+                        "width": 58,
+                        "height": 58,
+                        "styles": {
+                          "backgroundGradient": [
+                            {
+                              "color": "rgba(157, 95, 245, 0.267)",
+                              "position": 0
+                            },
+                            {
+                              "color": "rgba(157, 95, 245, 0.094)",
+                              "position": 1
+                            }
+                          ],
+                          "borderRadius": 50,
+                          "borderWidth": 1,
+                          "borderColor": "rgba(157, 95, 245, 0.4)",
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "paddingTop": 1,
+                          "paddingRight": 6,
+                          "paddingBottom": 1,
+                          "paddingLeft": 6
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 20,
+                            "y": 18,
+                            "width": 18,
+                            "height": 13,
+                            "styles": {
+                              "paddingRight": 6,
+                              "paddingLeft": 6
+                            },
+                            "textContent": "4",
+                            "textStyles": {
+                              "fontFamily": "Arial",
+                              "fontSize": 11,
+                              "fontWeight": 700,
+                              "color": "rgb(157, 95, 245)",
+                              "textAlign": "center",
+                              "lineHeight": 13.2
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 10,
+                            "y": 31,
+                            "width": 39,
+                            "height": 9,
+                            "styles": {
+                              "overflow": "hidden",
+                              "paddingRight": 4,
+                              "paddingLeft": 4
+                            },
+                            "textContent": "Sound &",
+                            "textStyles": {
+                              "fontFamily": "Arial",
+                              "fontSize": 8,
+                              "fontWeight": 500,
+                              "color": "rgba(157, 95, 245, 0.667)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 1,
+                        "y": 1,
+                        "width": 333,
+                        "height": 320,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; pointer-events: none;\"><line x1=\"28%\" y1=\"30%\" x2=\"60%\" y2=\"22%\" stroke=\"#2A2250\" stroke-width=\"1\" stroke-dasharray=\"4 4\" opacity=\"0.5\"/><line x1=\"28%\" y1=\"58%\" x2=\"38%\" y2=\"78%\" stroke=\"#2A2250\" stroke-width=\"1\" stroke-dasharray=\"4 4\" opacity=\"0.5\"/><line x1=\"62%\" y1=\"58%\" x2=\"38%\" y2=\"78%\" stroke=\"#2A2250\" stroke-width=\"1\" stroke-dasharray=\"4 4\" opacity=\"0.4\"/></svg>",
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 191,
+                        "y": 289,
+                        "width": 131,
+                        "height": 20,
+                        "styles": {
+                          "backgroundColor": "rgba(8, 6, 18, 0.8)",
+                          "borderRadius": 10,
+                          "paddingTop": 4,
+                          "paddingRight": 10,
+                          "paddingBottom": 4,
+                          "paddingLeft": 10
+                        },
+                        "textContent": "Tap a cluster to explore",
+                        "textStyles": {
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": 400,
+                          "color": "rgb(139, 122, 168)"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 346,
+                    "width": 375,
+                    "height": 481,
+                    "styles": {
+                      "paddingRight": 20,
+                      "paddingLeft": 20
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 20,
+                        "y": 0,
+                        "width": 335,
+                        "height": 19,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 122,
+                            "height": 19,
+                            "styles": {},
+                            "textContent": "Recent Captures",
+                            "textStyles": {
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": 700,
+                              "color": "rgb(240, 235, 248)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 297,
+                            "y": 2,
+                            "width": 38,
+                            "height": 15,
+                            "styles": {},
+                            "textContent": "See all",
+                            "textStyles": {
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "color": "rgb(124, 58, 237)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 20,
+                        "y": 31,
+                        "width": 335,
+                        "height": 74,
+                        "styles": {
+                          "backgroundColor": "rgb(26, 20, 51)",
+                          "borderRadius": 20,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(42, 34, 80)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "gap": 12,
+                          "paddingTop": 16,
+                          "paddingRight": 16,
+                          "paddingBottom": 16,
+                          "paddingLeft": 16
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 17,
+                            "y": 17,
+                            "width": 40,
+                            "height": 40,
+                            "styles": {
+                              "backgroundColor": "rgba(236, 72, 153, 0.1)",
+                              "borderRadius": 12,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 11,
+                                "y": 11,
+                                "width": 18,
+                                "height": 18,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EC4899\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mic\" aria-hidden=\"true\"><path d=\"M12 19v3\"/><path d=\"M19 10v2a7 7 0 0 1-14 0v-2\"/><rect x=\"9\" y=\"2\" width=\"6\" height=\"13\" rx=\"3\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 69,
+                            "y": 19,
+                            "width": 221,
+                            "height": 37,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 221,
+                                "height": 15,
+                                "styles": {
+                                  "overflow": "hidden"
+                                },
+                                "textContent": "Overheard: train conversation",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 13,
+                                  "fontWeight": 600,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "left"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 0,
+                                "y": 18,
+                                "width": 221,
+                                "height": 19,
+                                "styles": {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "normal",
+                                  "alignItems": "center",
+                                  "gap": 8
+                                },
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 0,
+                                    "y": 4,
+                                    "width": 34,
+                                    "height": 12,
+                                    "styles": {},
+                                    "textContent": "5h ago",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 11,
+                                      "fontWeight": 400,
+                                      "color": "rgb(139, 122, 168)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 42,
+                                    "y": 0,
+                                    "width": 96,
+                                    "height": 19,
+                                    "styles": {
+                                      "backgroundColor": "rgba(236, 72, 153, 0.133)",
+                                      "borderRadius": 20,
+                                      "paddingTop": 4,
+                                      "paddingRight": 10,
+                                      "paddingBottom": 4,
+                                      "paddingLeft": 10
+                                    },
+                                    "textContent": "Novel Fragment",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 10,
+                                      "fontWeight": 600,
+                                      "color": "rgb(236, 72, 153)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 145,
+                                    "y": 4,
+                                    "width": 19,
+                                    "height": 11,
+                                    "styles": {},
+                                    "textContent": "0:18",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 10,
+                                      "fontWeight": 400,
+                                      "color": "rgb(139, 122, 168)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 302,
+                            "y": 29,
+                            "width": 16,
+                            "height": 16,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 20,
+                        "y": 117,
+                        "width": 335,
+                        "height": 74,
+                        "styles": {
+                          "backgroundColor": "rgb(26, 20, 51)",
+                          "borderRadius": 20,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(42, 34, 80)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "gap": 12,
+                          "paddingTop": 16,
+                          "paddingRight": 16,
+                          "paddingBottom": 16,
+                          "paddingLeft": 16
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 17,
+                            "y": 17,
+                            "width": 40,
+                            "height": 40,
+                            "styles": {
+                              "backgroundColor": "rgba(245, 158, 11, 0.1)",
+                              "borderRadius": 12,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 11,
+                                "y": 11,
+                                "width": 18,
+                                "height": 18,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#F59E0B\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-image\" aria-hidden=\"true\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\" ry=\"2\"/><circle cx=\"9\" cy=\"9\" r=\"2\"/><path d=\"m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 69,
+                            "y": 19,
+                            "width": 221,
+                            "height": 37,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 221,
+                                "height": 15,
+                                "styles": {
+                                  "overflow": "hidden"
+                                },
+                                "textContent": "Window light at golden hour",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 13,
+                                  "fontWeight": 600,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "left"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 0,
+                                "y": 18,
+                                "width": 221,
+                                "height": 19,
+                                "styles": {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "normal",
+                                  "alignItems": "center",
+                                  "gap": 8
+                                },
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 0,
+                                    "y": 4,
+                                    "width": 34,
+                                    "height": 12,
+                                    "styles": {},
+                                    "textContent": "9h ago",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 11,
+                                      "fontWeight": 400,
+                                      "color": "rgb(139, 122, 168)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 42,
+                                    "y": 0,
+                                    "width": 85,
+                                    "height": 19,
+                                    "styles": {
+                                      "backgroundColor": "rgba(16, 185, 129, 0.133)",
+                                      "borderRadius": 20,
+                                      "paddingTop": 4,
+                                      "paddingRight": 10,
+                                      "paddingBottom": 4,
+                                      "paddingLeft": 10
+                                    },
+                                    "textContent": "Morning Walk",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 10,
+                                      "fontWeight": 600,
+                                      "color": "rgb(16, 185, 129)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 302,
+                            "y": 29,
+                            "width": 16,
+                            "height": 16,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 20,
+                        "y": 203,
+                        "width": 335,
+                        "height": 74,
+                        "styles": {
+                          "backgroundColor": "rgb(26, 20, 51)",
+                          "borderRadius": 20,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(42, 34, 80)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "gap": 12,
+                          "paddingTop": 16,
+                          "paddingRight": 16,
+                          "paddingBottom": 16,
+                          "paddingLeft": 16
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 17,
+                            "y": 17,
+                            "width": 40,
+                            "height": 40,
+                            "styles": {
+                              "backgroundColor": "rgba(124, 58, 237, 0.1)",
+                              "borderRadius": 12,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 11,
+                                "y": 11,
+                                "width": 18,
+                                "height": 18,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-pen-line\" aria-hidden=\"true\"><path d=\"M13 21h8\"/><path d=\"M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 69,
+                            "y": 19,
+                            "width": 221,
+                            "height": 37,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 221,
+                                "height": 15,
+                                "styles": {
+                                  "overflow": "hidden"
+                                },
+                                "textContent": "Thought on creative resistance",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 13,
+                                  "fontWeight": 600,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "left"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 0,
+                                "y": 18,
+                                "width": 221,
+                                "height": 19,
+                                "styles": {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "normal",
+                                  "alignItems": "center",
+                                  "gap": 8
+                                },
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 0,
+                                    "y": 4,
+                                    "width": 34,
+                                    "height": 12,
+                                    "styles": {},
+                                    "textContent": "1d ago",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 11,
+                                      "fontWeight": 400,
+                                      "color": "rgb(139, 122, 168)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 42,
+                                    "y": 0,
+                                    "width": 62,
+                                    "height": 19,
+                                    "styles": {
+                                      "backgroundColor": "rgba(90, 78, 114, 0.133)",
+                                      "borderRadius": 20,
+                                      "paddingTop": 4,
+                                      "paddingRight": 10,
+                                      "paddingBottom": 4,
+                                      "paddingLeft": 10
+                                    },
+                                    "textContent": "Unlinked",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 10,
+                                      "fontWeight": 600,
+                                      "color": "rgb(90, 78, 114)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 302,
+                            "y": 29,
+                            "width": 16,
+                            "height": 16,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 20,
+                        "y": 289,
+                        "width": 335,
+                        "height": 74,
+                        "styles": {
+                          "backgroundColor": "rgb(26, 20, 51)",
+                          "borderRadius": 20,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(42, 34, 80)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "gap": 12,
+                          "paddingTop": 16,
+                          "paddingRight": 16,
+                          "paddingBottom": 16,
+                          "paddingLeft": 16
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 17,
+                            "y": 17,
+                            "width": 40,
+                            "height": 40,
+                            "styles": {
+                              "backgroundColor": "rgba(16, 185, 129, 0.1)",
+                              "borderRadius": 12,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 11,
+                                "y": 11,
+                                "width": 18,
+                                "height": 18,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#10B981\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 69,
+                            "y": 19,
+                            "width": 221,
+                            "height": 37,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 221,
+                                "height": 15,
+                                "styles": {
+                                  "overflow": "hidden"
+                                },
+                                "textContent": "Bookshop on Clement St",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 13,
+                                  "fontWeight": 600,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "left"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 0,
+                                "y": 18,
+                                "width": 221,
+                                "height": 19,
+                                "styles": {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "normal",
+                                  "alignItems": "center",
+                                  "gap": 8
+                                },
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 0,
+                                    "y": 4,
+                                    "width": 34,
+                                    "height": 12,
+                                    "styles": {},
+                                    "textContent": "2d ago",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 11,
+                                      "fontWeight": 400,
+                                      "color": "rgb(139, 122, 168)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 42,
+                                    "y": 0,
+                                    "width": 85,
+                                    "height": 19,
+                                    "styles": {
+                                      "backgroundColor": "rgba(16, 185, 129, 0.133)",
+                                      "borderRadius": 20,
+                                      "paddingTop": 4,
+                                      "paddingRight": 10,
+                                      "paddingBottom": 4,
+                                      "paddingLeft": 10
+                                    },
+                                    "textContent": "Morning Walk",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 10,
+                                      "fontWeight": 600,
+                                      "color": "rgb(16, 185, 129)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 302,
+                            "y": 29,
+                            "width": 16,
+                            "height": 16,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 20,
+                        "y": 375,
+                        "width": 335,
+                        "height": 74,
+                        "styles": {
+                          "backgroundColor": "rgb(26, 20, 51)",
+                          "borderRadius": 20,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(42, 34, 80)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "gap": 12,
+                          "paddingTop": 16,
+                          "paddingRight": 16,
+                          "paddingBottom": 16,
+                          "paddingLeft": 16
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 17,
+                            "y": 17,
+                            "width": 40,
+                            "height": 40,
+                            "styles": {
+                              "backgroundColor": "rgba(236, 72, 153, 0.1)",
+                              "borderRadius": 12,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 11,
+                                "y": 11,
+                                "width": 18,
+                                "height": 18,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EC4899\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mic\" aria-hidden=\"true\"><path d=\"M12 19v3\"/><path d=\"M19 10v2a7 7 0 0 1-14 0v-2\"/><rect x=\"9\" y=\"2\" width=\"6\" height=\"13\" rx=\"3\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 69,
+                            "y": 19,
+                            "width": 221,
+                            "height": 37,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 221,
+                                "height": 15,
+                                "styles": {
+                                  "overflow": "hidden"
+                                },
+                                "textContent": "Product idea: ambient status",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 13,
+                                  "fontWeight": 600,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "left"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 0,
+                                "y": 18,
+                                "width": 221,
+                                "height": 19,
+                                "styles": {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "normal",
+                                  "alignItems": "center",
+                                  "gap": 8
+                                },
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 0,
+                                    "y": 4,
+                                    "width": 34,
+                                    "height": 12,
+                                    "styles": {},
+                                    "textContent": "2d ago",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 11,
+                                      "fontWeight": 400,
+                                      "color": "rgb(139, 122, 168)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 42,
+                                    "y": 0,
+                                    "width": 93,
+                                    "height": 19,
+                                    "styles": {
+                                      "backgroundColor": "rgba(6, 182, 212, 0.133)",
+                                      "borderRadius": 20,
+                                      "paddingTop": 4,
+                                      "paddingRight": 10,
+                                      "paddingBottom": 4,
+                                      "paddingLeft": 10
+                                    },
+                                    "textContent": "Product Insight",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 10,
+                                      "fontWeight": 600,
+                                      "color": "rgb(6, 182, 212)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 143,
+                                    "y": 4,
+                                    "width": 19,
+                                    "height": 11,
+                                    "styles": {},
+                                    "textContent": "1:03",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 10,
+                                      "fontWeight": 400,
+                                      "color": "rgb(139, 122, 168)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 302,
+                            "y": 29,
+                            "width": 16,
+                            "height": 16,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 20,
+                        "y": 461,
+                        "width": 335,
+                        "height": 20,
+                        "styles": {},
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 956,
+        "width": 375,
+        "height": 89,
+        "styles": {
+          "backgroundColor": "rgb(17, 13, 34)",
+          "borderWidth": 1,
+          "borderColor": "rgb(42, 34, 80) rgb(240, 235, 248) rgb(240, 235, 248)",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+          "alignItems": "center",
+          "paddingRight": 8,
+          "paddingBottom": 8,
+          "paddingLeft": 8
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "button",
+            "x": 17,
+            "y": 8,
+            "width": 71,
+            "height": 67,
+            "styles": {
+              "backgroundColor": "rgba(124, 58, 237, 0.15)",
+              "borderRadius": 16,
+              "borderWidth": 2,
+              "borderColor": "rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 4,
+              "paddingTop": 8,
+              "paddingRight": 16,
+              "paddingBottom": 8,
+              "paddingLeft": 16
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 25,
+                "y": 10,
+                "width": 22,
+                "height": 22,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-layers\" aria-hidden=\"true\"><path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"/><path d=\"M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12\"/><path d=\"M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "text",
+                "name": "span",
+                "x": 18,
+                "y": 36,
+                "width": 35,
+                "height": 11,
+                "styles": {},
+                "textContent": "Garden",
+                "textStyles": {
+                  "fontFamily": "Arial",
+                  "fontSize": 10,
+                  "fontWeight": 600,
+                  "color": "rgb(124, 58, 237)",
+                  "textAlign": "center"
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 34,
+                "y": 53,
+                "width": 4,
+                "height": 4,
+                "styles": {
+                  "backgroundColor": "rgb(124, 58, 237)",
+                  "borderRadius": 2
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "button",
+            "x": 106,
+            "y": 11,
+            "width": 80,
+            "height": 60,
+            "styles": {
+              "borderRadius": 16,
+              "borderWidth": 2,
+              "borderColor": "rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 4,
+              "paddingTop": 8,
+              "paddingRight": 16,
+              "paddingBottom": 8,
+              "paddingLeft": 16
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 18,
+                "y": 10,
+                "width": 44,
+                "height": 44,
+                "styles": {
+                  "backgroundGradient": [
+                    {
+                      "color": "rgb(124, 58, 237)",
+                      "position": 0
+                    },
+                    {
+                      "color": "rgb(157, 95, 245)",
+                      "position": 1
+                    }
+                  ],
+                  "borderRadius": 22,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 11,
+                    "y": 11,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"M12 5v14\"/></svg>",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "button",
+            "x": 204,
+            "y": 13,
+            "width": 78,
+            "height": 57,
+            "styles": {
+              "borderRadius": 16,
+              "borderWidth": 2,
+              "borderColor": "rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 4,
+              "paddingTop": 8,
+              "paddingRight": 16,
+              "paddingBottom": 8,
+              "paddingLeft": 16
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 28,
+                "y": 10,
+                "width": 22,
+                "height": 22,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-sparkles\" aria-hidden=\"true\"><path d=\"M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z\"/><path d=\"M20 2v4\"/><path d=\"M22 4h-4\"/><circle cx=\"4\" cy=\"20\" r=\"2\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "text",
+                "name": "span",
+                "x": 18,
+                "y": 36,
+                "width": 42,
+                "height": 11,
+                "styles": {},
+                "textContent": "Discover",
+                "textStyles": {
+                  "fontFamily": "Arial",
+                  "fontSize": 10,
+                  "fontWeight": 600,
+                  "color": "rgb(90, 78, 114)",
+                  "textAlign": "center"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "button",
+            "x": 300,
+            "y": 13,
+            "width": 58,
+            "height": 57,
+            "styles": {
+              "borderRadius": 16,
+              "borderWidth": 2,
+              "borderColor": "rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 4,
+              "paddingTop": 8,
+              "paddingRight": 16,
+              "paddingBottom": 8,
+              "paddingLeft": 16
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 18,
+                "y": 10,
+                "width": 22,
+                "height": 22,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\"><path d=\"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "text",
+                "name": "span",
+                "x": 20,
+                "y": 36,
+                "width": 18,
+                "height": 11,
+                "styles": {},
+                "textContent": "You",
+                "textStyles": {
+                  "fontFamily": "Arial",
+                  "fontSize": 10,
+                  "fontWeight": 600,
+                  "color": "rgb(90, 78, 114)",
+                  "textAlign": "center"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "screens": [
+    {
+      "name": "Garden",
+      "root": {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 812,
+        "styles": {
+          "backgroundColor": "rgb(8, 6, 18)",
+          "borderRadius": 44,
+          "overflow": "hidden"
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 58,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "alignItems": "center",
+              "paddingTop": 14,
+              "paddingRight": 28,
+              "paddingLeft": 28
+            },
+            "children": [
+              {
+                "type": "text",
+                "name": "span",
+                "x": 28,
+                "y": 28,
+                "width": 65,
+                "height": 17,
+                "styles": {},
+                "textContent": "12:44 AM",
+                "textStyles": {
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": 700,
+                  "color": "rgb(240, 235, 248)"
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 128,
+                "y": 10,
+                "width": 120,
+                "height": 34,
+                "styles": {
+                  "backgroundColor": "rgb(0, 0, 0)",
+                  "borderRadius": 20
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 311,
+                "y": 28,
+                "width": 36,
+                "height": 16,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 6
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 0,
+                    "y": 1,
+                    "width": 14,
+                    "height": 14,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#F0EBF8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-wifi\" aria-hidden=\"true\"><path d=\"M12 20h.01\"/><path d=\"M2 8.82a15 15 0 0 1 20 0\"/><path d=\"M5 12.859a10 10 0 0 1 14 0\"/><path d=\"M8.5 16.429a5 5 0 0 1 7 0\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 20,
+                    "y": 0,
+                    "width": 16,
+                    "height": 16,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#F0EBF8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-battery\" aria-hidden=\"true\"><path d=\"M 22 14 L 22 10\"/><rect x=\"2\" y=\"6\" width=\"16\" height=\"12\" rx=\"2\"/></svg>",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 58,
+            "width": 375,
+            "height": 898,
+            "styles": {
+              "overflow": "hidden",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "normal"
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 0,
+                "width": 375,
+                "height": 898,
+                "styles": {
+                  "overflow": "hidden",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "normal"
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 0,
+                    "width": 375,
+                    "height": 71,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "alignItems": "center",
+                      "paddingTop": 16,
+                      "paddingRight": 20,
+                      "paddingBottom": 8,
+                      "paddingLeft": 20
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 20,
+                        "y": 16,
+                        "width": 148,
+                        "height": 47,
+                        "styles": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 148,
+                            "height": 30,
+                            "styles": {
+                              "backgroundGradient": [
+                                {
+                                  "color": "rgb(240, 235, 248)",
+                                  "position": 0
+                                },
+                                {
+                                  "color": "rgb(157, 95, 245)",
+                                  "position": 1
+                                }
+                              ]
+                            },
+                            "textContent": "Mind Garden",
+                            "textStyles": {
+                              "fontFamily": "Playfair Display",
+                              "fontSize": 22,
+                              "fontWeight": 700,
+                              "color": "rgb(240, 235, 248)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 0,
+                            "y": 32,
+                            "width": 148,
+                            "height": 15,
+                            "styles": {},
+                            "textContent": "37 ideas across 5 clusters",
+                            "textStyles": {
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": 400,
+                              "color": "rgb(139, 122, 168)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 275,
+                        "y": 22,
+                        "width": 80,
+                        "height": 36,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "normal",
+                          "gap": 8
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "button",
+                            "x": 0,
+                            "y": 0,
+                            "width": 36,
+                            "height": 36,
+                            "styles": {
+                              "backgroundColor": "rgb(26, 20, 51)",
+                              "borderRadius": 12,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(42, 34, 80)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "paddingTop": 1,
+                              "paddingRight": 6,
+                              "paddingBottom": 1,
+                              "paddingLeft": 6
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 10,
+                                "y": 10,
+                                "width": 16,
+                                "height": 16,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#8B7AA8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-search\" aria-hidden=\"true\"><path d=\"m21 21-4.34-4.34\"/><circle cx=\"11\" cy=\"11\" r=\"8\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "button",
+                            "x": 44,
+                            "y": 0,
+                            "width": 36,
+                            "height": 36,
+                            "styles": {
+                              "backgroundColor": "rgb(26, 20, 51)",
+                              "borderRadius": 12,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(42, 34, 80)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "paddingTop": 1,
+                              "paddingRight": 6,
+                              "paddingBottom": 1,
+                              "paddingLeft": 6
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 10,
+                                "y": 10,
+                                "width": 16,
+                                "height": 16,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#8B7AA8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-sliders-horizontal\" aria-hidden=\"true\"><path d=\"M10 5H3\"/><path d=\"M12 19H3\"/><path d=\"M14 3v4\"/><path d=\"M16 17v4\"/><path d=\"M21 12h-9\"/><path d=\"M21 19h-5\"/><path d=\"M21 5h-7\"/><path d=\"M8 10v4\"/><path d=\"M8 12H3\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 71,
+                    "width": 375,
+                    "height": 827,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 20,
+                        "y": 8,
+                        "width": 335,
+                        "height": 322,
+                        "styles": {
+                          "backgroundColor": "rgb(17, 13, 34)",
+                          "borderRadius": 24,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(42, 34, 80)",
+                          "overflow": "hidden"
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 101,
+                            "y": 97,
+                            "width": 120,
+                            "height": 120,
+                            "styles": {
+                              "backgroundGradient": [
+                                {
+                                  "color": "rgba(124, 58, 237, 0.15)",
+                                  "position": 0
+                                },
+                                {
+                                  "color": "rgba(0, 0, 0, 0)",
+                                  "position": 0.7
+                                }
+                              ],
+                              "borderRadius": 50
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 184,
+                            "y": 33,
+                            "width": 80,
+                            "height": 80,
+                            "styles": {
+                              "backgroundGradient": [
+                                {
+                                  "color": "rgba(245, 158, 11, 0.08)",
+                                  "position": 0
+                                },
+                                {
+                                  "color": "rgba(0, 0, 0, 0)",
+                                  "position": 0.7
+                                }
+                              ],
+                              "borderRadius": 50
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "frame",
+                            "name": "button",
+                            "x": 94,
+                            "y": 53,
+                            "width": 80,
+                            "height": 80,
+                            "styles": {
+                              "backgroundGradient": [
+                                {
+                                  "color": "rgba(245, 158, 11, 0.267)",
+                                  "position": 0
+                                },
+                                {
+                                  "color": "rgba(245, 158, 11, 0.094)",
+                                  "position": 1
+                                }
+                              ],
+                              "borderRadius": 50,
+                              "borderWidth": 1,
+                              "borderColor": "rgba(245, 158, 11, 0.4)",
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "paddingTop": 1,
+                              "paddingRight": 6,
+                              "paddingBottom": 1,
+                              "paddingLeft": 6
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 31,
+                                "y": 29,
+                                "width": 18,
+                                "height": 13,
+                                "styles": {
+                                  "paddingRight": 6,
+                                  "paddingLeft": 6
+                                },
+                                "textContent": "7",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 11,
+                                  "fontWeight": 700,
+                                  "color": "rgb(245, 158, 11)",
+                                  "textAlign": "center",
+                                  "lineHeight": 13.2
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 16,
+                                "y": 42,
+                                "width": 47,
+                                "height": 9,
+                                "styles": {
+                                  "overflow": "hidden",
+                                  "paddingRight": 4,
+                                  "paddingLeft": 4
+                                },
+                                "textContent": "Café Mural",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 8,
+                                  "fontWeight": 500,
+                                  "color": "rgba(245, 158, 11, 0.667)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "button",
+                            "x": 201,
+                            "y": 36,
+                            "width": 72,
+                            "height": 72,
+                            "styles": {
+                              "backgroundGradient": [
+                                {
+                                  "color": "rgba(236, 72, 153, 0.267)",
+                                  "position": 0
+                                },
+                                {
+                                  "color": "rgba(236, 72, 153, 0.094)",
+                                  "position": 1
+                                }
+                              ],
+                              "borderRadius": 50,
+                              "borderWidth": 1,
+                              "borderColor": "rgba(236, 72, 153, 0.4)",
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "paddingTop": 1,
+                              "paddingRight": 6,
+                              "paddingBottom": 1,
+                              "paddingLeft": 6
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 24,
+                                "y": 25,
+                                "width": 24,
+                                "height": 13,
+                                "styles": {
+                                  "paddingRight": 6,
+                                  "paddingLeft": 6
+                                },
+                                "textContent": "12",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 11,
+                                  "fontWeight": 700,
+                                  "color": "rgb(236, 72, 153)",
+                                  "textAlign": "center",
+                                  "lineHeight": 13.2
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 4,
+                                "y": 38,
+                                "width": 65,
+                                "height": 9,
+                                "styles": {
+                                  "overflow": "hidden",
+                                  "paddingRight": 4,
+                                  "paddingLeft": 4
+                                },
+                                "textContent": "Novel Fragment",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 8,
+                                  "fontWeight": 500,
+                                  "color": "rgba(236, 72, 153, 0.667)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "button",
+                            "x": 68,
+                            "y": 167,
+                            "width": 88,
+                            "height": 88,
+                            "styles": {
+                              "backgroundGradient": [
+                                {
+                                  "color": "rgba(6, 182, 212, 0.267)",
+                                  "position": 0
+                                },
+                                {
+                                  "color": "rgba(6, 182, 212, 0.094)",
+                                  "position": 1
+                                }
+                              ],
+                              "borderRadius": 50,
+                              "borderWidth": 1,
+                              "borderColor": "rgba(6, 182, 212, 0.4)",
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "paddingTop": 1,
+                              "paddingRight": 6,
+                              "paddingBottom": 1,
+                              "paddingLeft": 6
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 35,
+                                "y": 33,
+                                "width": 18,
+                                "height": 13,
+                                "styles": {
+                                  "paddingRight": 6,
+                                  "paddingLeft": 6
+                                },
+                                "textContent": "5",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 11,
+                                  "fontWeight": 700,
+                                  "color": "rgb(6, 182, 212)",
+                                  "textAlign": "center",
+                                  "lineHeight": 13.2
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 46,
+                                "width": 61,
+                                "height": 9,
+                                "styles": {
+                                  "overflow": "hidden",
+                                  "paddingRight": 4,
+                                  "paddingLeft": 4
+                                },
+                                "textContent": "Product Insight",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 8,
+                                  "fontWeight": 500,
+                                  "color": "rgba(6, 182, 212, 0.667)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "button",
+                            "x": 194,
+                            "y": 161,
+                            "width": 65,
+                            "height": 65,
+                            "styles": {
+                              "backgroundGradient": [
+                                {
+                                  "color": "rgba(16, 185, 129, 0.267)",
+                                  "position": 0
+                                },
+                                {
+                                  "color": "rgba(16, 185, 129, 0.094)",
+                                  "position": 1
+                                }
+                              ],
+                              "borderRadius": 50,
+                              "borderWidth": 1,
+                              "borderColor": "rgba(16, 185, 129, 0.4)",
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "paddingTop": 1,
+                              "paddingRight": 6,
+                              "paddingBottom": 1,
+                              "paddingLeft": 6
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 23,
+                                "y": 21,
+                                "width": 18,
+                                "height": 13,
+                                "styles": {
+                                  "paddingRight": 6,
+                                  "paddingLeft": 6
+                                },
+                                "textContent": "9",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 11,
+                                  "fontWeight": 700,
+                                  "color": "rgb(16, 185, 129)",
+                                  "textAlign": "center",
+                                  "lineHeight": 13.2
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 4,
+                                "y": 35,
+                                "width": 57,
+                                "height": 9,
+                                "styles": {
+                                  "overflow": "hidden",
+                                  "paddingRight": 4,
+                                  "paddingLeft": 4
+                                },
+                                "textContent": "Morning Walk",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 8,
+                                  "fontWeight": 500,
+                                  "color": "rgba(16, 185, 129, 0.667)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "button",
+                            "x": 128,
+                            "y": 231,
+                            "width": 58,
+                            "height": 58,
+                            "styles": {
+                              "backgroundGradient": [
+                                {
+                                  "color": "rgba(157, 95, 245, 0.267)",
+                                  "position": 0
+                                },
+                                {
+                                  "color": "rgba(157, 95, 245, 0.094)",
+                                  "position": 1
+                                }
+                              ],
+                              "borderRadius": 50,
+                              "borderWidth": 1,
+                              "borderColor": "rgba(157, 95, 245, 0.4)",
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "paddingTop": 1,
+                              "paddingRight": 6,
+                              "paddingBottom": 1,
+                              "paddingLeft": 6
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 20,
+                                "y": 18,
+                                "width": 18,
+                                "height": 13,
+                                "styles": {
+                                  "paddingRight": 6,
+                                  "paddingLeft": 6
+                                },
+                                "textContent": "4",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 11,
+                                  "fontWeight": 700,
+                                  "color": "rgb(157, 95, 245)",
+                                  "textAlign": "center",
+                                  "lineHeight": 13.2
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 10,
+                                "y": 31,
+                                "width": 39,
+                                "height": 9,
+                                "styles": {
+                                  "overflow": "hidden",
+                                  "paddingRight": 4,
+                                  "paddingLeft": 4
+                                },
+                                "textContent": "Sound &",
+                                "textStyles": {
+                                  "fontFamily": "Arial",
+                                  "fontSize": 8,
+                                  "fontWeight": 500,
+                                  "color": "rgba(157, 95, 245, 0.667)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 1,
+                            "y": 1,
+                            "width": 333,
+                            "height": 320,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" style=\"position: absolute; inset: 0px; width: 100%; height: 100%; pointer-events: none;\"><line x1=\"28%\" y1=\"30%\" x2=\"60%\" y2=\"22%\" stroke=\"#2A2250\" stroke-width=\"1\" stroke-dasharray=\"4 4\" opacity=\"0.5\"/><line x1=\"28%\" y1=\"58%\" x2=\"38%\" y2=\"78%\" stroke=\"#2A2250\" stroke-width=\"1\" stroke-dasharray=\"4 4\" opacity=\"0.5\"/><line x1=\"62%\" y1=\"58%\" x2=\"38%\" y2=\"78%\" stroke=\"#2A2250\" stroke-width=\"1\" stroke-dasharray=\"4 4\" opacity=\"0.4\"/></svg>",
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 191,
+                            "y": 289,
+                            "width": 131,
+                            "height": 20,
+                            "styles": {
+                              "backgroundColor": "rgba(8, 6, 18, 0.8)",
+                              "borderRadius": 10,
+                              "paddingTop": 4,
+                              "paddingRight": 10,
+                              "paddingBottom": 4,
+                              "paddingLeft": 10
+                            },
+                            "textContent": "Tap a cluster to explore",
+                            "textStyles": {
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": 400,
+                              "color": "rgb(139, 122, 168)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 346,
+                        "width": 375,
+                        "height": 481,
+                        "styles": {
+                          "paddingRight": 20,
+                          "paddingLeft": 20
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 20,
+                            "y": 0,
+                            "width": 335,
+                            "height": 19,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "space-between",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 122,
+                                "height": 19,
+                                "styles": {},
+                                "textContent": "Recent Captures",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 15,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 235, 248)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 297,
+                                "y": 2,
+                                "width": 38,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "See all",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": 600,
+                                  "color": "rgb(124, 58, 237)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "button",
+                            "x": 20,
+                            "y": 31,
+                            "width": 335,
+                            "height": 74,
+                            "styles": {
+                              "backgroundColor": "rgb(26, 20, 51)",
+                              "borderRadius": 20,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(42, 34, 80)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 12,
+                              "paddingTop": 16,
+                              "paddingRight": 16,
+                              "paddingBottom": 16,
+                              "paddingLeft": 16
+                            },
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 17,
+                                "y": 17,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgba(236, 72, 153, 0.1)",
+                                  "borderRadius": 12,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "children": [
+                                  {
+                                    "type": "svg",
+                                    "name": "svg",
+                                    "x": 11,
+                                    "y": 11,
+                                    "width": 18,
+                                    "height": 18,
+                                    "styles": {},
+                                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EC4899\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mic\" aria-hidden=\"true\"><path d=\"M12 19v3\"/><path d=\"M19 10v2a7 7 0 0 1-14 0v-2\"/><rect x=\"9\" y=\"2\" width=\"6\" height=\"13\" rx=\"3\"/></svg>",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 69,
+                                "y": 19,
+                                "width": 221,
+                                "height": 37,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 221,
+                                    "height": 15,
+                                    "styles": {
+                                      "overflow": "hidden"
+                                    },
+                                    "textContent": "Overheard: train conversation",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 13,
+                                      "fontWeight": 600,
+                                      "color": "rgb(0, 0, 0)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 18,
+                                    "width": 221,
+                                    "height": 19,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "normal",
+                                      "alignItems": "center",
+                                      "gap": 8
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 0,
+                                        "y": 4,
+                                        "width": 34,
+                                        "height": 12,
+                                        "styles": {},
+                                        "textContent": "5h ago",
+                                        "textStyles": {
+                                          "fontFamily": "Arial",
+                                          "fontSize": 11,
+                                          "fontWeight": 400,
+                                          "color": "rgb(139, 122, 168)",
+                                          "textAlign": "left"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 42,
+                                        "y": 0,
+                                        "width": 96,
+                                        "height": 19,
+                                        "styles": {
+                                          "backgroundColor": "rgba(236, 72, 153, 0.133)",
+                                          "borderRadius": 20,
+                                          "paddingTop": 4,
+                                          "paddingRight": 10,
+                                          "paddingBottom": 4,
+                                          "paddingLeft": 10
+                                        },
+                                        "textContent": "Novel Fragment",
+                                        "textStyles": {
+                                          "fontFamily": "Arial",
+                                          "fontSize": 10,
+                                          "fontWeight": 600,
+                                          "color": "rgb(236, 72, 153)",
+                                          "textAlign": "left"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 145,
+                                        "y": 4,
+                                        "width": 19,
+                                        "height": 11,
+                                        "styles": {},
+                                        "textContent": "0:18",
+                                        "textStyles": {
+                                          "fontFamily": "Arial",
+                                          "fontSize": 10,
+                                          "fontWeight": 400,
+                                          "color": "rgb(139, 122, 168)",
+                                          "textAlign": "left"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 302,
+                                "y": 29,
+                                "width": 16,
+                                "height": 16,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "button",
+                            "x": 20,
+                            "y": 117,
+                            "width": 335,
+                            "height": 74,
+                            "styles": {
+                              "backgroundColor": "rgb(26, 20, 51)",
+                              "borderRadius": 20,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(42, 34, 80)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 12,
+                              "paddingTop": 16,
+                              "paddingRight": 16,
+                              "paddingBottom": 16,
+                              "paddingLeft": 16
+                            },
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 17,
+                                "y": 17,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgba(245, 158, 11, 0.1)",
+                                  "borderRadius": 12,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "children": [
+                                  {
+                                    "type": "svg",
+                                    "name": "svg",
+                                    "x": 11,
+                                    "y": 11,
+                                    "width": 18,
+                                    "height": 18,
+                                    "styles": {},
+                                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#F59E0B\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-image\" aria-hidden=\"true\"><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\" ry=\"2\"/><circle cx=\"9\" cy=\"9\" r=\"2\"/><path d=\"m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21\"/></svg>",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 69,
+                                "y": 19,
+                                "width": 221,
+                                "height": 37,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 221,
+                                    "height": 15,
+                                    "styles": {
+                                      "overflow": "hidden"
+                                    },
+                                    "textContent": "Window light at golden hour",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 13,
+                                      "fontWeight": 600,
+                                      "color": "rgb(0, 0, 0)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 18,
+                                    "width": 221,
+                                    "height": 19,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "normal",
+                                      "alignItems": "center",
+                                      "gap": 8
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 0,
+                                        "y": 4,
+                                        "width": 34,
+                                        "height": 12,
+                                        "styles": {},
+                                        "textContent": "9h ago",
+                                        "textStyles": {
+                                          "fontFamily": "Arial",
+                                          "fontSize": 11,
+                                          "fontWeight": 400,
+                                          "color": "rgb(139, 122, 168)",
+                                          "textAlign": "left"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 42,
+                                        "y": 0,
+                                        "width": 85,
+                                        "height": 19,
+                                        "styles": {
+                                          "backgroundColor": "rgba(16, 185, 129, 0.133)",
+                                          "borderRadius": 20,
+                                          "paddingTop": 4,
+                                          "paddingRight": 10,
+                                          "paddingBottom": 4,
+                                          "paddingLeft": 10
+                                        },
+                                        "textContent": "Morning Walk",
+                                        "textStyles": {
+                                          "fontFamily": "Arial",
+                                          "fontSize": 10,
+                                          "fontWeight": 600,
+                                          "color": "rgb(16, 185, 129)",
+                                          "textAlign": "left"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 302,
+                                "y": 29,
+                                "width": 16,
+                                "height": 16,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "button",
+                            "x": 20,
+                            "y": 203,
+                            "width": 335,
+                            "height": 74,
+                            "styles": {
+                              "backgroundColor": "rgb(26, 20, 51)",
+                              "borderRadius": 20,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(42, 34, 80)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 12,
+                              "paddingTop": 16,
+                              "paddingRight": 16,
+                              "paddingBottom": 16,
+                              "paddingLeft": 16
+                            },
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 17,
+                                "y": 17,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgba(124, 58, 237, 0.1)",
+                                  "borderRadius": 12,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "children": [
+                                  {
+                                    "type": "svg",
+                                    "name": "svg",
+                                    "x": 11,
+                                    "y": 11,
+                                    "width": 18,
+                                    "height": 18,
+                                    "styles": {},
+                                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-pen-line\" aria-hidden=\"true\"><path d=\"M13 21h8\"/><path d=\"M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z\"/></svg>",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 69,
+                                "y": 19,
+                                "width": 221,
+                                "height": 37,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 221,
+                                    "height": 15,
+                                    "styles": {
+                                      "overflow": "hidden"
+                                    },
+                                    "textContent": "Thought on creative resistance",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 13,
+                                      "fontWeight": 600,
+                                      "color": "rgb(0, 0, 0)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 18,
+                                    "width": 221,
+                                    "height": 19,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "normal",
+                                      "alignItems": "center",
+                                      "gap": 8
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 0,
+                                        "y": 4,
+                                        "width": 34,
+                                        "height": 12,
+                                        "styles": {},
+                                        "textContent": "1d ago",
+                                        "textStyles": {
+                                          "fontFamily": "Arial",
+                                          "fontSize": 11,
+                                          "fontWeight": 400,
+                                          "color": "rgb(139, 122, 168)",
+                                          "textAlign": "left"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 42,
+                                        "y": 0,
+                                        "width": 62,
+                                        "height": 19,
+                                        "styles": {
+                                          "backgroundColor": "rgba(90, 78, 114, 0.133)",
+                                          "borderRadius": 20,
+                                          "paddingTop": 4,
+                                          "paddingRight": 10,
+                                          "paddingBottom": 4,
+                                          "paddingLeft": 10
+                                        },
+                                        "textContent": "Unlinked",
+                                        "textStyles": {
+                                          "fontFamily": "Arial",
+                                          "fontSize": 10,
+                                          "fontWeight": 600,
+                                          "color": "rgb(90, 78, 114)",
+                                          "textAlign": "left"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 302,
+                                "y": 29,
+                                "width": 16,
+                                "height": 16,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "button",
+                            "x": 20,
+                            "y": 289,
+                            "width": 335,
+                            "height": 74,
+                            "styles": {
+                              "backgroundColor": "rgb(26, 20, 51)",
+                              "borderRadius": 20,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(42, 34, 80)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 12,
+                              "paddingTop": 16,
+                              "paddingRight": 16,
+                              "paddingBottom": 16,
+                              "paddingLeft": 16
+                            },
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 17,
+                                "y": 17,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgba(16, 185, 129, 0.1)",
+                                  "borderRadius": 12,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "children": [
+                                  {
+                                    "type": "svg",
+                                    "name": "svg",
+                                    "x": 11,
+                                    "y": 11,
+                                    "width": 18,
+                                    "height": 18,
+                                    "styles": {},
+                                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#10B981\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 69,
+                                "y": 19,
+                                "width": 221,
+                                "height": 37,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 221,
+                                    "height": 15,
+                                    "styles": {
+                                      "overflow": "hidden"
+                                    },
+                                    "textContent": "Bookshop on Clement St",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 13,
+                                      "fontWeight": 600,
+                                      "color": "rgb(0, 0, 0)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 18,
+                                    "width": 221,
+                                    "height": 19,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "normal",
+                                      "alignItems": "center",
+                                      "gap": 8
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 0,
+                                        "y": 4,
+                                        "width": 34,
+                                        "height": 12,
+                                        "styles": {},
+                                        "textContent": "2d ago",
+                                        "textStyles": {
+                                          "fontFamily": "Arial",
+                                          "fontSize": 11,
+                                          "fontWeight": 400,
+                                          "color": "rgb(139, 122, 168)",
+                                          "textAlign": "left"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 42,
+                                        "y": 0,
+                                        "width": 85,
+                                        "height": 19,
+                                        "styles": {
+                                          "backgroundColor": "rgba(16, 185, 129, 0.133)",
+                                          "borderRadius": 20,
+                                          "paddingTop": 4,
+                                          "paddingRight": 10,
+                                          "paddingBottom": 4,
+                                          "paddingLeft": 10
+                                        },
+                                        "textContent": "Morning Walk",
+                                        "textStyles": {
+                                          "fontFamily": "Arial",
+                                          "fontSize": 10,
+                                          "fontWeight": 600,
+                                          "color": "rgb(16, 185, 129)",
+                                          "textAlign": "left"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 302,
+                                "y": 29,
+                                "width": 16,
+                                "height": 16,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "button",
+                            "x": 20,
+                            "y": 375,
+                            "width": 335,
+                            "height": 74,
+                            "styles": {
+                              "backgroundColor": "rgb(26, 20, 51)",
+                              "borderRadius": 20,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(42, 34, 80)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 12,
+                              "paddingTop": 16,
+                              "paddingRight": 16,
+                              "paddingBottom": 16,
+                              "paddingLeft": 16
+                            },
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 17,
+                                "y": 17,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgba(236, 72, 153, 0.1)",
+                                  "borderRadius": 12,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "children": [
+                                  {
+                                    "type": "svg",
+                                    "name": "svg",
+                                    "x": 11,
+                                    "y": 11,
+                                    "width": 18,
+                                    "height": 18,
+                                    "styles": {},
+                                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EC4899\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mic\" aria-hidden=\"true\"><path d=\"M12 19v3\"/><path d=\"M19 10v2a7 7 0 0 1-14 0v-2\"/><rect x=\"9\" y=\"2\" width=\"6\" height=\"13\" rx=\"3\"/></svg>",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 69,
+                                "y": 19,
+                                "width": 221,
+                                "height": 37,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 221,
+                                    "height": 15,
+                                    "styles": {
+                                      "overflow": "hidden"
+                                    },
+                                    "textContent": "Product idea: ambient status",
+                                    "textStyles": {
+                                      "fontFamily": "Arial",
+                                      "fontSize": 13,
+                                      "fontWeight": 600,
+                                      "color": "rgb(0, 0, 0)",
+                                      "textAlign": "left"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 18,
+                                    "width": 221,
+                                    "height": 19,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "normal",
+                                      "alignItems": "center",
+                                      "gap": 8
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 0,
+                                        "y": 4,
+                                        "width": 34,
+                                        "height": 12,
+                                        "styles": {},
+                                        "textContent": "2d ago",
+                                        "textStyles": {
+                                          "fontFamily": "Arial",
+                                          "fontSize": 11,
+                                          "fontWeight": 400,
+                                          "color": "rgb(139, 122, 168)",
+                                          "textAlign": "left"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 42,
+                                        "y": 0,
+                                        "width": 93,
+                                        "height": 19,
+                                        "styles": {
+                                          "backgroundColor": "rgba(6, 182, 212, 0.133)",
+                                          "borderRadius": 20,
+                                          "paddingTop": 4,
+                                          "paddingRight": 10,
+                                          "paddingBottom": 4,
+                                          "paddingLeft": 10
+                                        },
+                                        "textContent": "Product Insight",
+                                        "textStyles": {
+                                          "fontFamily": "Arial",
+                                          "fontSize": 10,
+                                          "fontWeight": 600,
+                                          "color": "rgb(6, 182, 212)",
+                                          "textAlign": "left"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 143,
+                                        "y": 4,
+                                        "width": 19,
+                                        "height": 11,
+                                        "styles": {},
+                                        "textContent": "1:03",
+                                        "textStyles": {
+                                          "fontFamily": "Arial",
+                                          "fontSize": 10,
+                                          "fontWeight": 400,
+                                          "color": "rgb(139, 122, 168)",
+                                          "textAlign": "left"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 302,
+                                "y": 29,
+                                "width": 16,
+                                "height": 16,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 20,
+                            "y": 461,
+                            "width": 335,
+                            "height": 20,
+                            "styles": {},
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 956,
+            "width": 375,
+            "height": 89,
+            "styles": {
+              "backgroundColor": "rgb(17, 13, 34)",
+              "borderWidth": 1,
+              "borderColor": "rgb(42, 34, 80) rgb(240, 235, 248) rgb(240, 235, 248)",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "alignItems": "center",
+              "paddingRight": 8,
+              "paddingBottom": 8,
+              "paddingLeft": 8
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "button",
+                "x": 17,
+                "y": 8,
+                "width": 71,
+                "height": 67,
+                "styles": {
+                  "backgroundColor": "rgba(124, 58, 237, 0.15)",
+                  "borderRadius": 16,
+                  "borderWidth": 2,
+                  "borderColor": "rgb(0, 0, 0)",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 4,
+                  "paddingTop": 8,
+                  "paddingRight": 16,
+                  "paddingBottom": 8,
+                  "paddingLeft": 16
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 25,
+                    "y": 10,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-layers\" aria-hidden=\"true\"><path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"/><path d=\"M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12\"/><path d=\"M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 18,
+                    "y": 36,
+                    "width": 35,
+                    "height": 11,
+                    "styles": {},
+                    "textContent": "Garden",
+                    "textStyles": {
+                      "fontFamily": "Arial",
+                      "fontSize": 10,
+                      "fontWeight": 600,
+                      "color": "rgb(124, 58, 237)",
+                      "textAlign": "center"
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 34,
+                    "y": 53,
+                    "width": 4,
+                    "height": 4,
+                    "styles": {
+                      "backgroundColor": "rgb(124, 58, 237)",
+                      "borderRadius": 2
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "button",
+                "x": 106,
+                "y": 11,
+                "width": 80,
+                "height": 60,
+                "styles": {
+                  "borderRadius": 16,
+                  "borderWidth": 2,
+                  "borderColor": "rgb(0, 0, 0)",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 4,
+                  "paddingTop": 8,
+                  "paddingRight": 16,
+                  "paddingBottom": 8,
+                  "paddingLeft": 16
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 18,
+                    "y": 10,
+                    "width": 44,
+                    "height": 44,
+                    "styles": {
+                      "backgroundGradient": [
+                        {
+                          "color": "rgb(124, 58, 237)",
+                          "position": 0
+                        },
+                        {
+                          "color": "rgb(157, 95, 245)",
+                          "position": 1
+                        }
+                      ],
+                      "borderRadius": 22,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 11,
+                        "y": 11,
+                        "width": 22,
+                        "height": 22,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"M12 5v14\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "button",
+                "x": 204,
+                "y": 13,
+                "width": 78,
+                "height": 57,
+                "styles": {
+                  "borderRadius": 16,
+                  "borderWidth": 2,
+                  "borderColor": "rgb(0, 0, 0)",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 4,
+                  "paddingTop": 8,
+                  "paddingRight": 16,
+                  "paddingBottom": 8,
+                  "paddingLeft": 16
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 28,
+                    "y": 10,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-sparkles\" aria-hidden=\"true\"><path d=\"M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z\"/><path d=\"M20 2v4\"/><path d=\"M22 4h-4\"/><circle cx=\"4\" cy=\"20\" r=\"2\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 18,
+                    "y": 36,
+                    "width": 42,
+                    "height": 11,
+                    "styles": {},
+                    "textContent": "Discover",
+                    "textStyles": {
+                      "fontFamily": "Arial",
+                      "fontSize": 10,
+                      "fontWeight": 600,
+                      "color": "rgb(90, 78, 114)",
+                      "textAlign": "center"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "button",
+                "x": 300,
+                "y": 13,
+                "width": 58,
+                "height": 57,
+                "styles": {
+                  "borderRadius": 16,
+                  "borderWidth": 2,
+                  "borderColor": "rgb(0, 0, 0)",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 4,
+                  "paddingTop": 8,
+                  "paddingRight": 16,
+                  "paddingBottom": 8,
+                  "paddingLeft": 16
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 18,
+                    "y": 10,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#5A4E72\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\"><path d=\"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 20,
+                    "y": 36,
+                    "width": 18,
+                    "height": 11,
+                    "styles": {},
+                    "textContent": "You",
+                    "textStyles": {
+                      "fontFamily": "Arial",
+                      "fontSize": 10,
+                      "fontWeight": 600,
+                      "color": "rgb(90, 78, 114)",
+                      "textAlign": "center"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

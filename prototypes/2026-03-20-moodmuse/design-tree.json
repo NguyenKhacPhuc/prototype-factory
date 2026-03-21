@@ -1,0 +1,406 @@
+{
+  "version": 1,
+  "appName": "MoodMuse",
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "fonts": [],
+  "designTokens": {},
+  "root": {
+    "type": "frame",
+    "name": "div",
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 812,
+    "styles": {
+      "backgroundColor": "rgb(13, 11, 23)",
+      "borderRadius": 44,
+      "borderWidth": 8,
+      "borderColor": "rgb(26, 26, 26)",
+      "overflow": "hidden",
+      "display": "flex",
+      "flexDirection": "column",
+      "justifyContent": "normal",
+      "alignItems": "normal"
+    },
+    "children": [
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 128,
+        "y": 18,
+        "width": 120,
+        "height": 32,
+        "styles": {
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": 20
+        },
+        "children": []
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 8,
+        "y": 8,
+        "width": 359,
+        "height": 54,
+        "styles": {
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "alignItems": "center",
+          "paddingTop": 14,
+          "paddingRight": 24,
+          "paddingLeft": 24
+        },
+        "children": [
+          {
+            "type": "text",
+            "name": "span",
+            "x": 24,
+            "y": 24,
+            "width": 28,
+            "height": 20,
+            "styles": {},
+            "textContent": "9:41",
+            "textStyles": {
+              "fontFamily": "DM Sans",
+              "fontSize": 15,
+              "fontWeight": 600,
+              "color": "rgb(245, 240, 255)"
+            },
+            "children": []
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 271,
+            "y": 28,
+            "width": 64,
+            "height": 12,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 5
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 0,
+                "y": 0,
+                "width": 16,
+                "height": 12,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"12\" viewBox=\"0 0 16 12\" fill=\"#F5F0FF\"><rect x=\"0\" y=\"3\" width=\"3\" height=\"9\" rx=\"1\" opacity=\"0.4\"/><rect x=\"4.5\" y=\"2\" width=\"3\" height=\"10\" rx=\"1\" opacity=\"0.6\"/><rect x=\"9\" y=\"0\" width=\"3\" height=\"12\" rx=\"1\"/><rect x=\"13.5\" y=\"4\" width=\"2\" height=\"8\" rx=\"1\" opacity=\"0.3\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 21,
+                "y": 0,
+                "width": 16,
+                "height": 12,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"12\" viewBox=\"0 0 16 12\" fill=\"#F5F0FF\"><path d=\"M8 2.5C10.5 2.5 12.7 3.5 14.3 5.1L15.5 3.9C13.6 2 11 1 8 1C5 1 2.4 2 0.5 3.9L1.7 5.1C3.3 3.5 5.5 2.5 8 2.5Z\" opacity=\"0.4\"/><path d=\"M8 5.5C9.7 5.5 11.2 6.2 12.3 7.3L13.5 6.1C12.1 4.8 10.1 4 8 4C5.9 4 3.9 4.8 2.5 6.1L3.7 7.3C4.8 6.2 6.3 5.5 8 5.5Z\" opacity=\"0.7\"/><circle cx=\"8\" cy=\"10\" r=\"1.5\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 42,
+                "y": 1,
+                "width": 22,
+                "height": 11,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 1
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 0,
+                    "width": 22,
+                    "height": 11,
+                    "styles": {
+                      "borderRadius": 3,
+                      "borderWidth": 1,
+                      "borderColor": "rgb(245, 240, 255)",
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "normal",
+                      "alignItems": "center",
+                      "paddingRight": 2,
+                      "paddingLeft": 2
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 3,
+                        "y": 2,
+                        "width": 11,
+                        "height": 7,
+                        "styles": {
+                          "backgroundColor": "rgb(245, 240, 255)",
+                          "borderRadius": 2
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 8,
+        "y": 62,
+        "width": 359,
+        "height": 584,
+        "styles": {
+          "overflow": "hidden",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "paddingRight": 32,
+          "paddingLeft": 32
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 30,
+            "y": 58,
+            "width": 300,
+            "height": 300,
+            "styles": {
+              "backgroundGradient": [
+                {
+                  "color": "rgba(167, 139, 250, 0.133)",
+                  "position": 0
+                },
+                {
+                  "color": "rgba(236, 72, 153, 0.133)",
+                  "position": 1
+                }
+              ],
+              "borderRadius": 50
+            },
+            "children": []
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 132,
+            "y": 138,
+            "width": 96,
+            "height": 96,
+            "styles": {
+              "backgroundColor": "rgba(167, 139, 250, 0.12)",
+              "borderRadius": 24,
+              "borderWidth": 1,
+              "borderColor": "rgba(167, 139, 250, 0.3)",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 26,
+                "y": 26,
+                "width": 44,
+                "height": 44,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"44\" height=\"44\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#A78BFA\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mic\" aria-hidden=\"true\"><path d=\"M12 19v3\"/><path d=\"M19 10v2a7 7 0 0 1-14 0v-2\"/><rect x=\"9\" y=\"2\" width=\"6\" height=\"13\" rx=\"3\"/></svg>",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "name": "h1",
+            "x": 48,
+            "y": 266,
+            "width": 264,
+            "height": 38,
+            "styles": {},
+            "textContent": "Capture the feeling",
+            "textStyles": {
+              "fontFamily": "Playfair Display",
+              "fontSize": 30,
+              "fontWeight": 700,
+              "color": "rgb(245, 240, 255)",
+              "textAlign": "center",
+              "lineHeight": 37.5
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "name": "p",
+            "x": 32,
+            "y": 319,
+            "width": 295,
+            "height": 79,
+            "styles": {},
+            "textContent": "Type a few words, record a voice note, or drop a photo. MoodMuse reads between the lines.",
+            "textStyles": {
+              "fontFamily": "DM Sans",
+              "fontSize": 16,
+              "fontWeight": 400,
+              "color": "rgb(155, 147, 196)",
+              "textAlign": "center",
+              "lineHeight": 26.4
+            },
+            "children": []
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 152,
+            "y": 438,
+            "width": 56,
+            "height": 8,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "normal",
+              "alignItems": "normal",
+              "gap": 8
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 0,
+                "width": 24,
+                "height": 8,
+                "styles": {
+                  "backgroundColor": "rgb(167, 139, 250)",
+                  "borderRadius": 9999
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 32,
+                "y": 0,
+                "width": 8,
+                "height": 8,
+                "styles": {
+                  "backgroundColor": "rgba(167, 139, 250, 0.25)",
+                  "borderRadius": 9999
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 48,
+                "y": 0,
+                "width": 8,
+                "height": 8,
+                "styles": {
+                  "backgroundColor": "rgba(167, 139, 250, 0.25)",
+                  "borderRadius": 9999
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 8,
+        "y": 646,
+        "width": 359,
+        "height": 158,
+        "styles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "gap": 12,
+          "paddingRight": 32,
+          "paddingBottom": 48,
+          "paddingLeft": 32
+        },
+        "children": [
+          {
+            "type": "text",
+            "name": "button",
+            "x": 32,
+            "y": 0,
+            "width": 295,
+            "height": 54,
+            "styles": {
+              "backgroundGradient": [
+                {
+                  "color": "rgb(167, 139, 250)",
+                  "position": 0
+                },
+                {
+                  "color": "rgb(236, 72, 153)",
+                  "position": 1
+                }
+              ],
+              "borderRadius": 9999
+            },
+            "textContent": "Continue",
+            "textStyles": {
+              "fontFamily": "DM Sans",
+              "fontSize": 16,
+              "fontWeight": 600,
+              "color": "rgb(255, 255, 255)",
+              "textAlign": "center"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "name": "button",
+            "x": 32,
+            "y": 66,
+            "width": 295,
+            "height": 44,
+            "styles": {
+              "borderRadius": 9999
+            },
+            "textContent": "Skip",
+            "textStyles": {
+              "fontFamily": "DM Sans",
+              "fontSize": 15,
+              "fontWeight": 400,
+              "color": "rgb(155, 147, 196)",
+              "textAlign": "center"
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}
