@@ -1,0 +1,18 @@
+{
+  "appName": "BlockBridge",
+  "tagline": "Meet neighbors through tiny shared wins.",
+  "designSystem": {
+    "primaryColor": "#FF6B47",
+    "secondaryColor": "#3ECFBF",
+    "backgroundColor": "#0D0F1A",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first neighborhood social app with warm coral accents, card-based feed layout, reciprocity gamification, and micro-interaction button states. Uses teal for offers/trust, amber for urgency/activity, and purple for trades. Pill tags, rounded cards, and a floating post button define the visual language."
+  },
+  "screens": [
+    "Feed — NeedCard stream with type filters (All/Need/Offer/Trade), neighbor activity strip, like and help actions",
+    "Match — Micro-Match compatibility cards with percentage scores, mutual help badges, and recent connections row",
+    "Post — 3-step wizard (Type → Category → Details) with animated progress bar and time window picker",
+    "Circles — Community circle cards with live member counts, discover section, and quick join CTA",
+    "Profile — Reciprocity score dashboard, trust badges, exchange history, settings list, and theme toggle"
+  ]
+}

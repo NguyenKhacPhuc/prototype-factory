@@ -1,0 +1,14 @@
+{
+  "appName": "BlockBridge",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#FF6B47",
+    "secondary": "#3ECFBF",
+    "background": "#0D0F1A",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

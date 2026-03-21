@@ -1,0 +1,19 @@
+{
+  "name": "BlockBridge",
+  "tagline": "Meet neighbors through tiny shared wins.",
+  "description": "BlockBridge helps people turn small, everyday needs into neighborhood micro-collaborations instead of isolated errands. The app lets users post short, practical \u201cneed moments\u201d like borrowing a step ladder, finding someone to water plants for two days, or splitting a bulk grocery order, then matches them with nearby neighbors based on trust, interests, and mutually helpful history. It solves the modern problem of living close to people without actually knowing them, which makes daily life more expensive, lonelier, and less resilient. A parent could quickly find another parent willing to trade a school pickup, while a new resident could ask for a local restaurant tip and offer to share spare printer ink in return. What makes it unique is that it focuses on tiny, safe, repeatable exchanges that build real community over time, rather than one-off social posts or broad neighborhood chatter. Each interaction adds to a \u201creciprocity profile\u201d that highlights reliability and helpfulness, making trust grow organically through action instead of popularity. The result is a community app that feels useful first and social second, which is why people keep coming back daily.",
+  "features": [
+    "Need Cards let users post small, specific requests or offers in seconds, making it easy to ask for help without writing a long message or joining a noisy group chat.",
+    "Reciprocity Profiles track helpful exchanges over time so neighbors can trust each other based on real actions, not follower counts or vague ratings.",
+    "Micro-Match suggestions pair users with nearby people who have complementary needs, such as someone offering extra basil matching someone looking to trade homegrown tomatoes.",
+    "Time-Locked Check-ins keep exchanges lightweight and safe by scheduling short-lived interactions with automatic reminders and quick confirmation after the task is done.",
+    "Community Circles organize people by apartment building, street, or shared routine, which helps turn scattered residents into practical support networks that feel local and personal."
+  ],
+  "audience": "Adults ages 22-45 living in apartments, dense suburbs, or walkable neighborhoods, especially renters, young families, and recent movers. It is also useful for people who want a stronger local support system without committing to formal volunteer groups or constant socializing.",
+  "category": "social & community",
+  "useCases": [
+    "Maya just moved into a new apartment and needs a drill for 10 minutes to mount shelves. She opens BlockBridge, finds a neighbor two floors down who offers tools, and ends up trading a homemade dinner voucher for the favor.",
+    "Andre is trying to cut grocery costs and wants to split a bulk warehouse order. He posts a Need Card for extra items, and three nearby households coordinate through the app to divide the purchase and pickup efficiently.",
+    "Leila has a last-minute work shift and needs someone to walk her dog for half an hour. She uses a time-locked request, matches with a trusted neighbor on the same block, and pays them back later by watering their balcony garden."
+  ]
+}
