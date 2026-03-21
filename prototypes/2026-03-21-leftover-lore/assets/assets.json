@@ -1,0 +1,39 @@
+{
+  "appName": "Leftover Lore",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#A8C44A",
+    "secondary": "#E8875A",
+    "background": "#0F1409",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "arrow-left",
+    "arrow-right",
+    "battery",
+    "book-open",
+    "camera",
+    "check",
+    "chef-hat",
+    "circle",
+    "clock",
+    "flame",
+    "lightbulb",
+    "mic",
+    "package",
+    "pen-line",
+    "play",
+    "plus",
+    "receipt",
+    "scan-line",
+    "shield-check",
+    "signal",
+    "tag",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 24,
+  "fontFileCount": 0
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Leftover Lore",
+  "tagline": "Turn scraps into dinner, instantly.",
+  "description": "Leftover Lore helps people cook from what they already have by identifying ingredients in their fridge, freezer, and pantry through quick scans or simple voice input, then generating recipes built around combinations that are actually usable, not just inspirational. It solves the common problem of food waste and last-minute meal paralysis, especially when users have random leftovers, partial ingredients, or too little time to plan. The app suggests realistic dishes based on freshness, quantity, dietary needs, and cooking equipment, so a half onion, a jar of pesto, and two eggs can become a specific dinner instead of a vague idea. In daily life, it helps users rescue ingredients before they spoil, stretch grocery budgets, and decide what to cook on a busy weeknight without endless searching. A unique feature is its \u201crescue logic,\u201d which prioritizes ingredients nearing expiration and explains why a recipe fits the exact contents of the user\u2019s kitchen. Unlike generic recipe apps, it does not start with a perfect grocery list; it starts with the messy, incomplete reality of home cooking and turns it into something practical and delicious.",
+  "features": [
+    "The app scans receipts, ingredient labels, or handwritten notes and turns them into a live pantry inventory, so users always know what they have before buying duplicates.",
+    "It ranks recipes by urgency, flavor compatibility, and effort level, which helps users decide what to cook now to save money and prevent waste.",
+    "It offers substitution maps that show exactly how to adapt a recipe when an ingredient is missing, making it useful for real kitchens instead of ideal ones.",
+    "It generates step-by-step cooking plans based on available time and tools, such as suggesting one-pan or microwave-friendly versions for rushed weekdays.",
+    "It tracks leftover transformations across multiple meals, so users can turn one roast chicken into tacos, soup, and sandwiches without repeating the same dish.",
+    "audience:"
+  ]
+}
