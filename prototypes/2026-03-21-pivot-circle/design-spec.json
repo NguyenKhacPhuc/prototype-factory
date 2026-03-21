@@ -1,0 +1,17 @@
+{
+  "appName": "Pivot Circle",
+  "tagline": "Find your people before the moment passes.",
+  "designSystem": {
+    "primaryColor": "#7C4DFF",
+    "secondaryColor": "#FF5C6E",
+    "backgroundColor": "#F7F4FB",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern social-networking design with vibrant purple-violet brand identity, soft layered surfaces, expressive activity cards with color-coded pivot states, and a conversational bottom-sheet creation flow. Combines urgency cues (countdown timers, expiry badges) with warmth (avatar bubbles, emoji activity icons) to make spontaneous socializing feel safe and approachable."
+  },
+  "screens": [
+    "Discover — Browse nearby live pivots with activity filter pills, expiry timers, energy badges, and connect/like actions",
+    "Create Pivot (modal) — 3-step bottom-sheet flow: choose activity → set social energy → configure duration and preview summary",
+    "Matches — Active pivot conversations with auto-expiring chat, meet-zone banner, safety indicators, and micro-community tracker",
+    "Profile — Personal stats, recent activity log, safety/verification settings, and light/dark theme toggle"
+  ]
+}

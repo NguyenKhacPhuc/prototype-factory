@@ -1,0 +1,38 @@
+{
+  "appName": "Pivot Circle",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C4DFF",
+    "secondary": "#FF5C6E",
+    "background": "#F7F4FB",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "check",
+    "chevron-left",
+    "chevron-right",
+    "compass",
+    "heart",
+    "map",
+    "map-pin",
+    "message-circle",
+    "moon",
+    "plus-circle",
+    "send",
+    "settings",
+    "shield",
+    "signal",
+    "sliders-horizontal",
+    "sun",
+    "user",
+    "users",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 23,
+  "fontFileCount": 0
+}
