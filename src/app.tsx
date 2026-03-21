@@ -9,6 +9,8 @@ import { PrototypeDetail } from "./pages/prototype-detail";
 import { About } from "./pages/about";
 import { Create } from "./pages/create";
 import { Styles } from "./pages/styles";
+import { Profile } from "./pages/profile";
+import { AuthCallback } from "./pages/auth-callback";
 
 export function App() {
   const { path, params, navigate } = useRouter();
@@ -58,6 +60,10 @@ export function App() {
         return <Create navigate={navigate} />;
       case "/styles":
         return <Styles navigate={navigate} />;
+      case "/profile":
+        return <Profile navigate={navigate} />;
+      case "/auth/callback":
+        return <AuthCallback navigate={navigate} />;
       default:
         return <Landing prototypes={prototypes} navigate={navigate} />;
     }

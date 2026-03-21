@@ -4,6 +4,7 @@
   "outputDirectory": "dist",
   "rewrites": [
     { "source": "/prototypes/(.*)", "destination": "/prototypes/$1" },
+    { "source": "/auth/callback", "destination": "/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

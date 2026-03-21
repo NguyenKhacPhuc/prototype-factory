@@ -1,5 +1,7 @@
 import React from "react";
 import type { Prototype } from "../types";
+import { useAuth } from "../hooks/use-auth";
+import { useFavorites } from "../hooks/use-favorites";
 
 interface Props {
   prototype: Prototype;
@@ -24,6 +26,14 @@ export function PrototypeCard({ prototype: p, navigate }: Props) {
   const slug = p.folder;
   const views = hashNum(slug + "v", 120, 9800);
   const likes = hashNum(slug + "l", 10, 480);
+  const { user } = useAuth();
+  const { isFavorite, toggleFavorite } = useFavorites(user?.id ?? null);
+  const favorited = isFavorite(slug);
+
+  const handleFavorite = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (user) toggleFavorite(slug);
+  };
 
   return (
     <div
@@ -63,12 +73,16 @@ export function PrototypeCard({ prototype: p, navigate }: Props) {
           {p.description && <span className="shot-desc">{p.description}</span>}
         </div>
         <div className="shot-stats">
-          <span className="shot-stat">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <button
+            className={`shot-stat fav-btn${favorited ? " favorited" : ""}${!user ? " fav-hidden" : ""}`}
+            onClick={handleFavorite}
+            title={user ? (favorited ? "Remove from favorites" : "Add to favorites") : "Sign in to favorite"}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill={favorited ? "var(--accent)" : "none"} stroke={favorited ? "var(--accent)" : "currentColor"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
             </svg>
             {formatNum(likes)}
-          </span>
+          </button>
           <span className="shot-stat">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />

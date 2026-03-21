@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useAuth } from "../hooks/use-auth";
 
 interface HeaderProps {
   navigate: (to: string) => void;
@@ -7,6 +8,24 @@ interface HeaderProps {
 
 function AuthModal({ mode, onClose, onSwitch }: { mode: "signin" | "signup"; onClose: () => void; onSwitch: () => void }) {
   const isSignUp = mode === "signup";
+  const { user, signIn, signUp, signInWithOAuth, loading, error, clearError } = useAuth();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [name, setName] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (isSignUp) {
+      await signUp(email, password, name);
+    } else {
+      await signIn(email, password);
+    }
+  };
+
+  // Close modal on successful auth
+  useEffect(() => {
+    if (user) onClose();
+  }, [user]);
 
   return (
     <div className="auth-backdrop" onClick={onClose}>
@@ -17,8 +36,15 @@ function AuthModal({ mode, onClose, onSwitch }: { mode: "signin" | "signup"; onC
           <p>{isSignUp ? "Join Appdex to save and create prototypes" : "Sign in to your Appdex account"}</p>
         </div>
 
+        {error && (
+          <div className="auth-error">
+            <span>{error}</span>
+            <button onClick={clearError}>&times;</button>
+          </div>
+        )}
+
         <div className="auth-social">
-          <button className="auth-social-btn">
+          <button className="auth-social-btn" onClick={() => signInWithOAuth("google")} disabled={loading}>
             <svg width="18" height="18" viewBox="0 0 24 24">
               <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/>
               <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
@@ -27,7 +53,7 @@ function AuthModal({ mode, onClose, onSwitch }: { mode: "signin" | "signup"; onC
             </svg>
             Continue with Google
           </button>
-          <button className="auth-social-btn">
+          <button className="auth-social-btn" onClick={() => signInWithOAuth("github")} disabled={loading}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
             </svg>
@@ -39,33 +65,33 @@ function AuthModal({ mode, onClose, onSwitch }: { mode: "signin" | "signup"; onC
           <span>or</span>
         </div>
 
-        <form className="auth-form" onSubmit={(e) => e.preventDefault()}>
+        <form className="auth-form" onSubmit={handleSubmit}>
           {isSignUp && (
             <div className="auth-field">
               <label>Name</label>
-              <input type="text" placeholder="Your name" />
+              <input type="text" placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} required />
             </div>
           )}
           <div className="auth-field">
             <label>Email</label>
-            <input type="email" placeholder="you@example.com" />
+            <input type="email" placeholder="you@example.com" value={email} onChange={(e) => setEmail(e.target.value)} required />
           </div>
           <div className="auth-field">
             <label>Password</label>
-            <input type="password" placeholder={isSignUp ? "Create a password" : "Enter your password"} />
+            <input type="password" placeholder={isSignUp ? "Create a password" : "Enter your password"} value={password} onChange={(e) => setPassword(e.target.value)} required minLength={6} />
           </div>
           {!isSignUp && (
             <button type="button" className="auth-forgot">Forgot password?</button>
           )}
-          <button type="submit" className="auth-submit">
-            {isSignUp ? "Create Account" : "Sign In"}
+          <button type="submit" className="auth-submit" disabled={loading}>
+            {loading ? "Please wait..." : isSignUp ? "Create Account" : "Sign In"}
           </button>
         </form>
 
         <p className="auth-switch">
           {isSignUp ? "Already have an account?" : "Don't have an account?"}
           {" "}
-          <button type="button" onClick={onSwitch}>
+          <button type="button" onClick={() => { clearError(); onSwitch(); }}>
             {isSignUp ? "Sign In" : "Sign Up"}
           </button>
         </p>
@@ -82,13 +108,26 @@ export function Header({ navigate, currentPath }: HeaderProps) {
     return "dark";
   });
   const [authModal, setAuthModal] = useState<"signin" | "signup" | null>(null);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const { user, signOut } = useAuth();
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
     localStorage.setItem("theme", theme);
   }, [theme]);
 
+  // Close menu on outside click
+  useEffect(() => {
+    if (!menuOpen) return;
+    const close = () => setMenuOpen(false);
+    document.addEventListener("click", close);
+    return () => document.removeEventListener("click", close);
+  }, [menuOpen]);
+
   const toggleTheme = () => setTheme(theme === "dark" ? "light" : "dark");
+
+  const displayName = user?.user_metadata?.display_name || user?.email?.split("@")[0] || "U";
+  const initials = displayName.slice(0, 2).toUpperCase();
 
   const link = (to: string, label: string) => (
     <a
@@ -128,6 +167,14 @@ export function Header({ navigate, currentPath }: HeaderProps) {
           <nav className="nav">
             {link("/", "Discover")}
             {link("/gallery", "Gallery")}
+            <a
+              href="/styles"
+              className={`nav-link nav-link-new ${currentPath === "/styles" ? "active" : ""}`}
+              onClick={(e) => { e.preventDefault(); navigate("/styles"); }}
+            >
+              <span className="nav-studio-icon">✨</span>
+              Studio
+            </a>
             {link("/create", "Create")}
             {link("/about", "About")}
           </nav>
@@ -144,8 +191,32 @@ export function Header({ navigate, currentPath }: HeaderProps) {
                 </svg>
               )}
             </button>
-            <button className="btn-signin" onClick={() => setAuthModal("signin")}>Sign In</button>
-            <button className="btn-signup" onClick={() => setAuthModal("signup")}>Sign Up</button>
+            {user ? (
+              <div className="user-menu" onClick={(e) => e.stopPropagation()}>
+                <button className="user-avatar-btn" onClick={() => setMenuOpen(!menuOpen)}>
+                  {initials}
+                </button>
+                {menuOpen && (
+                  <div className="user-dropdown">
+                    <div className="user-dropdown-header">
+                      <span className="user-dropdown-name">{displayName}</span>
+                      <span className="user-dropdown-email">{user.email}</span>
+                    </div>
+                    <div className="user-dropdown-divider" />
+                    <button onClick={() => { setMenuOpen(false); navigate("/profile"); }}>Profile</button>
+                    <button onClick={async () => {
+                      setMenuOpen(false);
+                      await signOut();
+                    }}>Sign Out</button>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <>
+                <button className="btn-signin" onClick={() => setAuthModal("signin")}>Sign In</button>
+                <button className="btn-signup" onClick={() => setAuthModal("signup")}>Sign Up</button>
+              </>
+            )}
           </div>
         </div>
       </header>

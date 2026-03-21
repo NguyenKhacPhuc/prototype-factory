@@ -11,8 +11,26 @@ SUCCESS=0
 FAILURES=0
 GENERATED=()
 
+# Prioritize game: 3 game slots + 7 unique non-game categories
+# Index 10 = "game" in the categories array
+GAME_INDEX=10
+GAME_SLOTS=3
+NON_GAME_SLOTS=$((BATCH_SIZE - GAME_SLOTS))
+SHUFFLED_INDICES=($(python3 -c "
+import random
+game_idx = $GAME_INDEX
+total = 28
+non_game = [i for i in range(total) if i != game_idx]
+random.shuffle(non_game)
+# 3 game slots + 7 random non-game categories
+batch = [game_idx] * $GAME_SLOTS + non_game[:$NON_GAME_SLOTS]
+random.shuffle(batch)
+print(' '.join(map(str, batch)))
+"))
+
 for i in $(seq 1 "$BATCH_SIZE"); do
   echo "=== Run $i/$BATCH_SIZE ==="
+  export BATCH_CATEGORY_INDEX="${SHUFFLED_INDICES[$((i - 1))]}"
   if "$SCRIPT"; then
     SUCCESS=$((SUCCESS + 1))
     # Capture the latest prototype folder

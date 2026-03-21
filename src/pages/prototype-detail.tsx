@@ -1,5 +1,7 @@
 import React from "react";
 import type { Prototype } from "../types";
+import { useAuth } from "../hooks/use-auth";
+import { useFavorites } from "../hooks/use-favorites";
 
 interface Props {
   prototype: Prototype | undefined;
@@ -7,6 +9,9 @@ interface Props {
 }
 
 export function PrototypeDetail({ prototype: p, navigate }: Props) {
+  const { user } = useAuth();
+  const { isFavorite, toggleFavorite } = useFavorites(user?.id ?? null);
+
   if (!p) {
     return (
       <div className="detail-page">
@@ -21,6 +26,7 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
   }
 
   const date = p.folder.match(/^(\d{4}-\d{2}-\d{2})/)?.[1] || "";
+  const favorited = isFavorite(p.folder);
 
   return (
     <div className="detail-page">
@@ -96,6 +102,17 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
             <a className="btn-primary" href={`/prototypes/${p.folder}/preview.html`} target="_blank" rel="noopener">
               Open Full Screen
             </a>
+            {user && (
+              <button
+                className={`btn-outline detail-fav-btn${favorited ? " favorited" : ""}`}
+                onClick={() => toggleFavorite(p.folder)}
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill={favorited ? "var(--accent)" : "none"} stroke={favorited ? "var(--accent)" : "currentColor"} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+                </svg>
+                {favorited ? "Favorited" : "Favorite"}
+              </button>
+            )}
             <a className="btn-secondary" href={`/prototypes/${p.folder}/assets.html`} target="_blank" rel="noopener">
               View Assets
             </a>

@@ -10,6 +10,8 @@ Bun.serve({
     "/create": index,
     "/styles": index,
     "/prototype/*": index,
+    "/profile": index,
+    "/auth/callback": index,
   },
   static: {
     "/prototypes/*": undefined,

@@ -12,8 +12,13 @@ function matchRoute(pathname: string): Route {
     return { path: "/prototype/:slug", params: { slug: protoMatch[1] } };
   }
 
+  // /auth/callback
+  if (pathname === "/auth/callback") {
+    return { path: "/auth/callback", params: {} };
+  }
+
   // Static routes
-  const staticRoutes = ["/", "/gallery", "/about", "/create", "/styles"];
+  const staticRoutes = ["/", "/gallery", "/about", "/create", "/styles", "/profile"];
   const matched = staticRoutes.find((r) => r === pathname);
   return { path: matched || "/", params: {} };
 }

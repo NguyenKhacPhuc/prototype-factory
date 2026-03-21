@@ -13,10 +13,21 @@ if [ -z "${OPENAI_API_KEY:-}" ] || [ "$OPENAI_API_KEY" = "your-openai-api-key-he
 fi
 
 # Rotate categories based on day-of-year to ensure variety
-CATEGORIES=("health & fitness" "personal finance" "social & community" "productivity" "education" "entertainment" "travel" "food & cooking" "sustainability" "creative tools")
-DAY_OF_YEAR=$(date +%-j)
-CATEGORY_INDEX=$(( (DAY_OF_YEAR + ${RANDOM_OFFSET:-0}) % ${#CATEGORIES[@]} ))
+CATEGORIES=("health & fitness" "finance" "social networking" "productivity" "education" "entertainment" "travel" "food & drink" "sustainability" "creative tools" "game" "weird" "books & reference" "business" "lifestyle" "news" "photo & video" "developer tools" "music" "navigation" "medical" "sports" "graphic & design" "shopping" "kids" "weather" "utilities" "magazines & newspapers")
+# Use batch index if provided (guarantees no duplicates in a batch), otherwise random
+if [ -n "${BATCH_CATEGORY_INDEX:-}" ]; then
+  CATEGORY_INDEX=$(( BATCH_CATEGORY_INDEX % ${#CATEGORIES[@]} ))
+else
+  CATEGORY_INDEX=$(( ($(date +%-j) + ${RANDOM_OFFSET:-0}) % ${#CATEGORIES[@]} ))
+fi
 CATEGORY="${CATEGORIES[$CATEGORY_INDEX]}"
+
+# If game category, pick a random sub-genre
+if [ "$CATEGORY" = "game" ]; then
+  GAME_GENRES=("strategy" "action" "puzzle" "card" "casual" "family" "sports" "adventure" "world" "board" "racing" "simulation" "role-playing")
+  GENRE_INDEX=$(( RANDOM % ${#GAME_GENRES[@]} ))
+  CATEGORY="game: ${GAME_GENRES[$GENRE_INDEX]}"
+fi
 
 RESPONSE=$(curl -s https://api.openai.com/v1/chat/completions \
   -H "Content-Type: application/json" \

@@ -36,6 +36,35 @@ APP_DESC=$(echo "$IDEA_JSON" | python3 -c "import sys,json; print(json.load(sys.
 APP_FEATURES=$(echo "$IDEA_JSON" | python3 -c "import sys,json; print(', '.join(json.load(sys.stdin)['features']))")
 
 # Create slug from app name
+# Randomly pick default theme for variety (roughly 50/50 light vs dark)
+if (( RANDOM % 2 == 0 )); then
+  DEFAULT_THEME="light"
+  ALT_THEME="dark"
+else
+  DEFAULT_THEME="dark"
+  ALT_THEME="light"
+fi
+
+# Ask OpenAI to recommend a color palette based on the app idea
+APP_CATEGORY=$(echo "$IDEA_JSON" | python3 -c "import sys,json; print(json.load(sys.stdin).get('category','general'))")
+COLOR_HINT=$(python3 -c "
+import json, urllib.request, os
+body = json.dumps({
+    'model': 'gpt-4o-mini',
+    'max_tokens': 60,
+    'messages': [
+        {'role': 'system', 'content': 'You are a UI color expert. Given an app idea, suggest a single accent color family (e.g. \"warm coral/salmon\" or \"deep ocean blue\") that best fits the brand personality. Reply with ONLY the color family name, nothing else.'},
+        {'role': 'user', 'content': 'App: $APP_NAME — $APP_TAGLINE. Category: $APP_CATEGORY'}
+    ]
+}).encode()
+req = urllib.request.Request('https://api.openai.com/v1/chat/completions', data=body, headers={
+    'Authorization': 'Bearer ' + os.environ['OPENAI_API_KEY'],
+    'Content-Type': 'application/json'
+})
+resp = json.loads(urllib.request.urlopen(req).read())
+print(resp['choices'][0]['message']['content'].strip())
+" 2>/dev/null) || COLOR_HINT="vibrant accent"
+
 SLUG=$(echo "$APP_NAME" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -cd 'a-z0-9-')
 FOLDER_NAME="${TODAY}-${SLUG}"
 TARGET_DIR="$PROTOTYPES_DIR/$FOLDER_NAME"
@@ -91,9 +120,10 @@ Create a single-file React prototype (App.tsx) that runs with Babel standalone.
 - Realistic placeholder content (not lorem ipsum)
 - Smooth transitions between screens
 - Micro-interactions (button press effects, toggle animations)
-- IMPORTANT: Design BOTH a light and dark theme with distinct color palettes. Store colors in a themes object (e.g. const themes = { light: { bg, surface, text, primary, ... }, dark: { ... } }). Default to the theme that best suits the app.
-- Add a theme toggle button (sun/moon icon) in the settings screen or status bar area so users can switch between light and dark mode. Use a useState to track the active theme.
-- Professional typography with proper hierarchy (pick a distinctive Google Font, not Inter or system fonts)
+- IMPORTANT: Design BOTH a light and dark theme with distinct, beautiful color palettes. Store colors in a themes object (e.g. const themes = { light: { bg, surface, text, primary, ... }, dark: { ... } }). The DEFAULT theme MUST be **${DEFAULT_THEME}** mode. Make sure both themes look polished and professional.
+- Use a **${COLOR_HINT}** accent color family as the primary/brand color. Build the full palette around this — complementary surfaces, text colors, borders, and gradients that harmonize with this accent.
+- Add a theme toggle button (sun/moon icon) in the settings screen or status bar area so users can switch between ${DEFAULT_THEME} and ${ALT_THEME} mode. Use a useState to track the active theme.
+- Professional typography with proper hierarchy (pick a distinctive Google Font, not Inter or system fonts — try fonts like Outfit, Space Grotesk, DM Sans, Sora, Plus Jakarta Sans, Bricolage Grotesque, or similar modern choices)
 - Status bar with time, wifi, battery icons
 
 **Output:**
