@@ -1,0 +1,19 @@
+{
+  "appName": "PulseCraft",
+  "tagline": "Train to your real life.",
+  "designSystem": {
+    "primaryColor": "#FF6B35",
+    "secondaryColor": "#7B61FF",
+    "backgroundColor": "#0A0A0F",
+    "accentColor": "#00D2C8",
+    "fontFamily": "Sora",
+    "style": "Dark-first fitness UI with vibrant gradient accents, frosted card surfaces, ring-based progress visualization, and energetic orange/purple/cyan palette. Micro-interactions on workout cards and toggle states."
+  },
+  "screens": [
+    "Home (Today's Plan) - Energy score, calendar scan, adaptive workout windows",
+    "Context - Location-aware routine picker (airport, hotel, office, apartment, outdoors, transit)",
+    "Workout - Active workout player with timer ring, exercise list, pause/resume controls",
+    "Progress - Weekly bar chart, life balance goals with streak tracking, AI insight",
+    "Settings - Profile, dark/light theme toggle, data source connections, stats"
+  ]
+}

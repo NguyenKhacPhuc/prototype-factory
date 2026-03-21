@@ -1,0 +1,14 @@
+{
+  "appName": "PulseCraft",
+  "fontFamily": "Sora",
+  "colors": {
+    "primary": "#FF6B35",
+    "secondary": "#7B61FF",
+    "background": "#0A0A0F",
+    "accent": "#00D2C8"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

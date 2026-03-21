@@ -1,0 +1,19 @@
+{
+  "name": "PulseCraft",
+  "tagline": "Train to your real life.",
+  "description": "PulseCraft is a context-aware fitness coach that builds micro-workouts around the exact demands of your day, instead of forcing you into a generic routine. It solves the common problem of people skipping exercise because their energy, time, and physical needs vary too much from one day to the next. By connecting to your calendar, step count, sleep, and optional wearables data, it predicts when you will actually be able to move and suggests the best workout type in that moment\u2014like a 7-minute mobility reset after a long flight, a quiet desk-based strength circuit between meetings, or a post-dinner stress burn when your energy dips. The app adapts in real time if your schedule changes, turning canceled plans, travel days, or low-sleep mornings into opportunities for the right kind of movement rather than missed workouts. A user might get a leg-focused routine after a day of sitting, a recovery walk before a high-intensity session, or a mobility sequence after noticing repeated back strain from commuting. What makes it unique is that it optimizes for daily life friction, not just calories or streaks, so fitness feels more practical, personal, and doable. Instead of asking users to fit their lives around exercise, it fits exercise around their lives.",
+  "features": [
+    "It scans your calendar and energy signals to recommend the most realistic workout window, which helps users exercise consistently even on hectic days.",
+    "It generates micro-workouts based on your recent activity, so someone who sat in meetings all day gets different movement than someone who already walked 12,000 steps.",
+    "It offers context-specific routines for situations like airports, hotel rooms, office desks, or apartment living, making it useful anywhere without special equipment.",
+    "It adapts workouts to recovery needs by detecting poor sleep, soreness, or stress, which reduces burnout and lowers the chance of overtraining.",
+    "It provides 'daily life balance' goals like posture relief, stress release, or commuting recovery, helping users connect fitness to problems they actually feel every day."
+  ],
+  "audience": "Busy professionals, remote workers, frequent travelers, and parents ages 22-45 who struggle to maintain a fitness routine due to unpredictable schedules. It is especially useful for people who want practical, low-friction exercise that fits real-world constraints rather than rigid gym plans.",
+  "category": "health & fitness",
+  "useCases": [
+    "Sarah just finished a stressful 50-minute meeting block and only has 8 minutes before her next call. She opens PulseCraft, which suggests a desk-friendly mobility and breathing circuit to reset her posture and calm her nervous system.",
+    "Daniel is in a hotel after a business trip and realizes he has no gym access, low energy, and sore hips from sitting on a flight. He uses the app for a room-sized recovery workout that blends mobility, light strength, and a walk reminder.",
+    "Maya got poor sleep last night and knows a hard HIIT session would probably backfire. She opens PulseCraft, which automatically swaps her planned workout for a lower-intensity routine focused on circulation, joint movement, and stress reduction."
+  ]
+}
