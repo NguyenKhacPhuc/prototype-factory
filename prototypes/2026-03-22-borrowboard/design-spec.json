@@ -1,0 +1,18 @@
+{
+  "appName": "BorrowBoard",
+  "tagline": "Turn borrowed items into a game.",
+  "designSystem": {
+    "primaryColor": "#00E5B8",
+    "secondaryColor": "#8B5CF6",
+    "backgroundColor": "#0C0F1A",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first game UI with teal-violet accent palette, hexagonal token aesthetics, progress bars as game mechanics, trust ring SVG indicators, and card-based item tokens with urgency color coding (green/yellow/red). Micro-interactions on loan cards reveal action buttons. Streak calendar with filled day tiles."
+  },
+  "screens": [
+    "Board - Loan Trail map showing all active loans as expandable game tokens with status badges, progress bars, and inline nudge/return actions",
+    "Loans - Tab-switched view of lent-out vs borrowed items with add-new CTA and per-item urgency indicators",
+    "Quests - Mission board with trust streak calendar, dismissible quest cards (reminders, unlocks, milestones, progress quests)",
+    "Groups - Community boards with trust ring scores, expandable group cards with stats, recent activity feed",
+    "Profile - User hero with trust ring, stats, full loan history, settings list, and light/dark theme toggle"
+  ]
+}

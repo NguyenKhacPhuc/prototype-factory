@@ -1,0 +1,24 @@
+{
+  "appName": "BorrowBoard",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#00E5B8",
+    "secondary": "#8B5CF6",
+    "background": "#0C0F1A",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "chevron-right",
+    "info",
+    "moon",
+    "plus",
+    "signal",
+    "sun",
+    "wifi",
+    "x"
+  ],
+  "fonts": [],
+  "iconCount": 9,
+  "fontFileCount": 0
+}
