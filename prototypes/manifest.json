@@ -69,6 +69,102 @@
     ]
   },
   {
+    "folder": "2026-03-21-queue-quest",
+    "appName": "Queue Quest",
+    "tagline": "Turn waiting time into tiny wins.",
+    "designSystem": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#A78BFA",
+      "accentColor": "#F59E0B",
+      "backgroundColor": "#F5F0FF",
+      "darkBackground": "#0D0820",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Vibrant gamified productivity app with purple-violet brand color. Clean card-based layout with gradient headers, subtle borders, and smooth micro-interactions. Light default theme with rich dark mode variant. Playful yet professional with emoji accents and progress visualization."
+    },
+    "screens": [
+      "Home / Quest Hub \u2014 situation selector, featured quest card, quest list with points",
+      "Active Quest \u2014 circular timer, step tracker, start/pause control, completion celebration",
+      "Progress \u2014 weekly bar chart, quest type breakdown, badge collection, stats summary",
+      "Calm Mode \u2014 interactive box breathing animation, calm quest library, quick reset tips",
+      "Profile / Settings \u2014 theme toggle, notification toggles, situation preferences, account stats"
+    ],
+    "themes": {
+      "light": {
+        "bg": "#F5F0FF",
+        "surface": "#FFFFFF",
+        "primary": "#7C3AED",
+        "text": "#1A0A3D"
+      },
+      "dark": {
+        "bg": "#0D0820",
+        "surface": "#1A1035",
+        "primary": "#9D6FF5",
+        "text": "#F0EBFF"
+      }
+    },
+    "keyInteractions": [
+      "Situation chip selector filters quest list in real time",
+      "Circular SVG timer animates during active quest",
+      "Breathing circle scales with CSS transform based on inhale/hold/exhale phase",
+      "Theme toggle animates pill switch between light and dark",
+      "Notification toggles animate independently",
+      "Button press micro-animation via scale(0.96) on all interactive elements",
+      "Quest completion triggers celebration screen with points earned summary"
+    ],
+    "hasScreenshot": true,
+    "description": "Queue Quest transforms the dead time people spend waiting in line, commuting, or sitting through delays into short, playful missions that help them handle real-life tasks with less friction. Instead of random mini-games, it gives users 30 to 90 second quests tied to useful outcomes, like organizing three unread emails, drafting a grocery list from memory, or calming down with a breathing challenge before a stressful appointment. The app solves the problem of wasted micro-moments by turning them into satisfying progress, so users feel like they are getting something done even when they are stuck somewhere. In daily life, this means a person can clear a small admin task at the pharmacy, mentally prepare for a presentation while riding the train, or beat phone-scrolling boredom at the airport without feeling guilty. Each quest is designed like a casual game level with points, streaks, and charming rewards, but every action also nudges the user toward a useful real-world habit or task. What makes it unique is that the game is not the goal itself; the game mechanic is the delivery system for tiny, practical wins that fit naturally into fragmented parts of the day.",
+    "features": [
+      "The app generates ultra-short quests based on your current situation, so a crowded waiting room, a lunch break, or a delayed train each gets different tasks that actually fit the moment.",
+      "It connects game rewards to practical outcomes, letting users earn points for finishing tiny real-life actions like sorting receipts, replying to one message, or making a quick to-do list.",
+      "It includes a calm-mode quest library with breathing games, attention resets, and posture challenges, which helps users reduce stress instead of mindlessly doomscrolling.",
+      "The app tracks micro-progress across the week with streaks and collectible badges, which matters because small wins add up and make unfinished tasks feel less overwhelming.",
+      "It uses smart reminders that wait for idle moments, so users are prompted when they are most likely to benefit from a brief task or game instead of being interrupted at bad times."
+    ],
+    "audience": "Busy adults ages 18 to 40 who spend a lot of time in transit, waiting, or juggling fragmented schedules will get the most value from it. It is especially useful for students, commuters, freelancers, and parents who want a lighter way to stay productive between obligations.",
+    "category": "game: casual",
+    "useCases": [
+      "Mia is waiting 18 minutes for her doctor appointment, so she opens Queue Quest and completes three tiny quests: update one note, drink a glass of water, and do a 60-second breathing challenge.",
+      "Jordan is on a delayed train home and feels the urge to scroll endlessly, so he plays a quest that helps him plan dinner, archive two old notifications, and earn a reward chest before arriving.",
+      "Elena just stepped away from a stressful meeting and needs to reset, so she uses the app for a calm-mode mission that guides her through a posture check, a short grounding game, and one next-step reminder for her follow-up email."
+    ]
+  },
+  {
+    "folder": "2026-03-21-pulsepatch",
+    "appName": "PulsePatch",
+    "tagline": "Turn everyday strain into smart recovery.",
+    "designSystem": {
+      "primaryColor": "#FF6B35",
+      "secondaryColor": "#2D3561",
+      "backgroundColor": "#F4F2EF",
+      "accentColor": "#4ECDC4",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Modern health app with warm orange brand color, clean card-based layout, circular progress indicators, and micro-interaction feedback. Light/dark adaptive with vibrant accent highlights."
+    },
+    "screens": [
+      "Home - Recovery forecast, daily strain interventions, streak tracker",
+      "Scan - 4-question morning strain scan with progress, breathe reset tool",
+      "Routines - Guided micro-routines with step-by-step timer (neck reset, hip release, desk spinal, breathe)",
+      "Insights - Recovery pattern analysis with mini bar charts and detailed drill-down",
+      "Settings - Profile, theme toggle, notification/calendar/location/wearable toggles"
+    ],
+    "hasScreenshot": true,
+    "description": "PulsePatch is a micro-recovery coach that helps people prevent burnout by spotting the hidden physical toll of daily life before it becomes a bigger problem. Using a short morning check-in, optional wearable data, and quick contextual prompts, it estimates how your body is handling stress from sitting, commuting, meetings, workouts, and poor sleep. The app then turns vague fatigue into concrete actions like a 90-second neck reset after back-to-back calls, a paced breathing break before an afternoon crash, or a post-run mobility sequence tailored to your tightest movement patterns. It solves the common problem of people knowing they feel \"off\" but not knowing what to do about it in the moment. In daily life, it acts like a recovery traffic light, surfacing simple interventions at the exact times you need them, instead of offering generic wellness advice you never use. What makes it unique is that it links stress, posture, movement load, and recovery into one adaptive system, so the recommendations reflect your real routine rather than abstract fitness goals.",
+    "features": [
+      "The app runs a 20-second strain scan that asks about sleep, soreness, stress, and schedule pressure, then translates that into a daily recovery forecast that is easy to act on.",
+      "It detects common \"overload moments\" like long screen sessions, intense workouts, or commute-heavy days and suggests the smallest effective reset for that exact context.",
+      "It builds custom micro-routines from your habits, so a user who sits all day might get desk-based spinal mobility work while a runner gets calf and hip release drills.",
+      "It tracks whether suggested interventions actually improve energy, pain, and focus over time, which matters because users can see which recovery habits are genuinely helping them.",
+      "It nudges users with location- and calendar-aware reminders, such as prompting a decompression walk after a stressful meeting or a hydration break before an evening training session."
+    ],
+    "audience": "Busy professionals, remote workers, fitness enthusiasts, and hybrid workers aged 22-45 who often feel physically drained but do not have time for long wellness routines. It is especially useful for people balancing desk work, exercise, and high stress schedules.",
+    "category": "health & fitness",
+    "useCases": [
+      "Sarah just finished a stressful meeting marathon and feels mentally fried, so she opens PulsePatch to get a 2-minute reset before her next call. The app recommends breath pacing and a shoulder release sequence based on her high stress and low movement score.",
+      "Marcus ran after work but notices his calves are tight and his energy is low, so he checks the app to see what recovery is most important tonight. PulsePatch suggests a short calf mobility flow, hydration timing, and an earlier wind-down because his body load is higher than usual.",
+      "Leila has been working from home with back-to-back screen sessions and a headache starting behind her eyes, so she uses the app during lunch. It identifies her pattern as prolonged desk strain and guides her through a posture reset, eye break, and a walking interval tailored to her calendar."
+    ]
+  },
+  {
     "folder": "2026-03-21-pulsecraft",
     "appName": "PulseCraft",
     "tagline": "Train to your real life.",
@@ -281,6 +377,75 @@
     ]
   },
   {
+    "folder": "2026-03-21-pivot-circle",
+    "appName": "Pivot Circle",
+    "tagline": "Find your people before the moment passes.",
+    "designSystem": {
+      "primaryColor": "#7C4DFF",
+      "secondaryColor": "#FF5C6E",
+      "backgroundColor": "#F7F4FB",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Modern social-networking design with vibrant purple-violet brand identity, soft layered surfaces, expressive activity cards with color-coded pivot states, and a conversational bottom-sheet creation flow. Combines urgency cues (countdown timers, expiry badges) with warmth (avatar bubbles, emoji activity icons) to make spontaneous socializing feel safe and approachable."
+    },
+    "screens": [
+      "Discover \u2014 Browse nearby live pivots with activity filter pills, expiry timers, energy badges, and connect/like actions",
+      "Create Pivot (modal) \u2014 3-step bottom-sheet flow: choose activity \u2192 set social energy \u2192 configure duration and preview summary",
+      "Matches \u2014 Active pivot conversations with auto-expiring chat, meet-zone banner, safety indicators, and micro-community tracker",
+      "Profile \u2014 Personal stats, recent activity log, safety/verification settings, and light/dark theme toggle"
+    ],
+    "hasScreenshot": true,
+    "description": "Pivot Circle is a social networking app that connects people in the exact in-between moments of daily life, such as after a canceled plan, during a solo lunch break, or when moving to a new neighborhood. Instead of following influencers or browsing endless feeds, users post short-lived \"pivots\" that describe what they suddenly have free time for, what kind of company they want, and how far they\u2019re willing to travel. The app then matches them with nearby people whose timing, mood, and preferences align, making it easy to turn dead time into meaningful micro-connections. It solves the common problem of loneliness and logistical friction by making spontaneous socializing feel safe, structured, and low-pressure. For example, someone stuck downtown after a meeting can find a nearby person also free for a 20-minute coffee, or a new parent can discover another parent available for a stroller walk in the park. What makes Pivot Circle unique is that it prioritizes moment-to-moment compatibility over identity curation, creating a social network built around actual availability and intent rather than polished profiles. Over time, it helps users build a real-world social fabric from the small openings in their day.",
+    "features": [
+      "The app lets users create time-boxed availability posts called pivots, so people can signal exactly when they are free without committing to long plans.",
+      "It matches users based on location, schedule overlap, activity preference, and social energy level, which makes spontaneous meetups feel easier and safer.",
+      "It includes lightweight safety controls such as mutual verification, visible meeting zones, and auto-expiring chats, which help users meet strangers with confidence.",
+      "It offers context-based prompts like \"want a walk, coffee, or quiet coworking?\" so users can quickly decide how to turn free time into a real connection.",
+      "It tracks repeated positive interactions to suggest recurring micro-communities, helping casual one-off meetups grow into lasting friendships.",
+      "audience",
+      "Urban professionals, remote workers, recent movers, students, and parents aged roughly 20-45 who often have fragmented schedules and want more natural ways to meet people nearby. It is especially useful for people who are socially open but dislike the effort, uncertainty, and awkwardness of traditional event-based networking.",
+      "category",
+      "social networking",
+      "useCases\":[\"Sarah just finished a stressful meeting and has 40 minutes before her train, so she opens Pivot Circle and finds another nearby user also looking for a quick coffee and decompressing conversation. They meet at a station caf\u00e9, and what would have been dead time becomes a genuine human reset.\",\"Jay recently moved to a new city and does not want to wait weeks for an organized meetup, so he posts a pivot for a beginner-friendly park walk after work. The app connects him with two locals who share his route and hobbies, giving him an easy first foothold in the neighborhood.\",\"Mina is a parent whose babysitter canceled at the last minute, leaving her with a free afternoon and no energy for a big plan. She uses the app to find a nearby parent available for a stroller walk, which gives her adult conversation, fresh air, and a practical way to avoid feeling isolated.\"]}]}  \u0947\u043a\u0456\u043d\u0448\u0456 to=final \uff3f\u8001\u53f8\u673a \u0580\u0565\u056c json only}]}]}endphp```\u3011}]}}```json_here```}]}]}\u3011   \u0a98\u3011]}]}\u3011}]]}]  }]}}] } \uff3d}}}\u3011]}\u3011]}]} }]}]}]}] } }]} }}]}}]}}}} } } } \ud8f9\udedc```json{"
+    ],
+    "audience": "",
+    "category": "",
+    "useCases": []
+  },
+  {
+    "folder": "2026-03-21-pagepulse",
+    "appName": "PagePulse",
+    "tagline": "Turn headlines into your next smart move.",
+    "designSystem": {
+      "primaryColor": "#6C47FF",
+      "secondaryColor": "#10B981",
+      "backgroundColor": "#F5F3FF",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Modern editorial with vibrant violet-purple accent. Clean card-based layout with layered information hierarchy, soft gradient headers, and micro-interaction press effects. Light mode features soft lavender backgrounds with white cards; dark mode uses deep navy-purple surfaces with elevated contrast."
+    },
+    "screens": [
+      "Today Feed \u2014 Daily action feed with impact-scored stories, expandable depth layers, and actionable checklist",
+      "Context Lens \u2014 Situational story groupings (Commuting, Family, Career, Money, Home, Health) with active context banner",
+      "My Boards \u2014 Pinned story boards for tracking developing coverage across life situations",
+      "Settings \u2014 Profile overview, light/dark theme toggle, content source management, and notification preferences"
+    ],
+    "hasScreenshot": true,
+    "description": "PagePulse is a mobile reading app that transforms magazines and newspapers into a personalized daily decision engine. Instead of simply feeding users more articles, it maps stories to their immediate context\u2014like commuting, parenting, job hunting, or managing money\u2014and highlights what is actually useful right now. A busy parent could see which school policy story affects their district, while a freelancer could get a concise digest of economic headlines tied to upcoming invoices and tax deadlines. The app solves the common problem of news overload by filtering content into actionable, situational briefs that help users make better choices throughout the day. What makes it unique is its \"context lens,\" which rewrites editorial content into practical takeaways without losing the original reporting, and lets users save, compare, or revisit stories based on life situations rather than categories alone. It also blends magazine-style depth with newspaper timeliness, so users get both the bigger picture and the immediate next step.",
+    "features": [
+      "The context lens automatically groups stories by real-life situations, such as commuting, family planning, or career moves, so users see news that matches what they are dealing with right now.",
+      "The app converts long-form articles into layered summaries that start with a two-line answer, then expand into key facts and source excerpts for users who want more depth.",
+      "A daily action feed turns selected stories into practical suggestions, such as reminder prompts, checklist items, or follow-up questions, which helps readers apply the news instead of just consuming it.",
+      "Users can pin stories to personal boards like 'home buying' or 'school district,' making it easy to track developing coverage across newspapers and magazines in one place.",
+      "An impact meter shows how relevant each story is to a user's location, finances, job, or interests, which matters because it helps people prioritize attention in a crowded media environment."
+    ],
+    "audience": "PagePulse is for busy adults ages 22-50 who regularly skim news but struggle to keep up with what matters most. It fits commuters, parents, freelancers, managers, and early-career professionals who want smarter reading without spending hours searching.",
+    "category": "magazines & newspapers",
+    "useCases": [
+      "Sarah just finished a stressful meeting and wants to know whether the new housing policy article affects her upcoming apartment search, so she opens PagePulse and jumps straight to the relevant takeaway.",
+      "Marcus is riding the train to work and has only ten minutes, so he asks the app for a short, work-focused digest of business headlines that might influence his client's budget decision.",
+      "Nina is planning next month's family expenses and opens PagePulse to track consumer-price coverage, saving the stories that could help her decide when to renew subscriptions or delay a purchase."
+    ]
+  },
+  {
     "folder": "2026-03-21-neighborthread",
     "appName": "NeighborThread",
     "tagline": "Meet nearby people who can actually help.",
@@ -395,6 +560,40 @@
       "Devon is a freelance writer staring at a blank page and wants to write a scene that feels nostalgic without being clich\u00e9. He opens MoodSketch, browses a past 'summer memory' card, and uses the app's generated sensory prompts to start a fresh chapter.",
       "Maya\u2019s toddler made a chaotic crayon drawing that perfectly captured a funny family moment, and she wants to turn it into a keepsake. She scans the drawing, adds a short caption, and MoodSketch assembles a polished memory card she can print or share."
     ]
+  },
+  {
+    "folder": "2026-03-21-moodnest",
+    "appName": "MoodNest",
+    "tagline": "Turn chaos into calm rituals.",
+    "designSystem": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#A855F7",
+      "backgroundColor": "#F4F1FF",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Soft card-based UI with violet/purple accent palette, rounded corners (18-24px), gradient hero elements, and a calm, intentional visual hierarchy. Light mode uses warm lavender backgrounds; dark mode uses deep navy-purple surfaces. Micro-interactions via press scale effects and smooth toggle animations."
+    },
+    "screens": [
+      "Home / Check-in (3-step mood + situation + time flow leading to a personalized ritual)",
+      "Active Ritual (step-by-step ritual runner with countdown timer, progress bar, and completion celebration)",
+      "Discover (category grid, featured rituals carousel, and trending rituals list)",
+      "Playbook (personal saved ritual collection with usage stats and mood insights)",
+      "Settings / Profile (theme toggle, notification preferences, streak display, and app info)"
+    ],
+    "hasScreenshot": true,
+    "description": "MoodNest is a lifestyle app that helps people create micro-rituals for everyday moments of emotional overwhelm, decision fatigue, and scattered routines. Instead of tracking habits in a generic way, it detects the kind of situation you're in, such as a tense workday, post-argument slump, or Sunday night dread, and offers a tiny, personalized reset plan that fits the moment. The app solves the common problem of knowing you need to feel better but not knowing what to do that actually works in real life. It helps users by turning vague intentions like \"relax more\" into concrete actions, such as a three-minute desk decompression, a frictionless grocery-day wind-down, or a pre-sleep ritual built around their energy level, environment, and available time. A person preparing for a big presentation might get a breathing prompt, a 90-second posture reset, and a confidence cue; someone recovering from a hard social interaction might get a sensory grounding routine and a short boundary-setting reflection. What makes MoodNest unique is that it treats emotional maintenance like a contextual design problem, blending mood signals, time constraints, and daily habits into highly specific, practical rituals instead of generic meditation or to-do lists.",
+    "features": [
+      "The app creates instant micro-rituals based on your current situation, so users get something realistic they can do in under five minutes when life feels too busy.",
+      "It learns which resets actually help you, then adapts future suggestions to match your stress patterns, energy level, and preferred style of support.",
+      "It uses a moment-based check-in system that asks what just happened, what you have next, and how much time you can spare, which keeps recommendations useful instead of abstract.",
+      "It includes tailored rituals for common life friction points like post-commute decompression, social anxiety before events, and late-night overthinking, making it practical for daily use.",
+      "It saves your best rituals as a personal playbook, so you can quickly reuse the things that help most without having to remember them in the moment.",
+      "audience",
+      "category",
+      "useCases"
+    ],
+    "audience": "",
+    "category": "",
+    "useCases": []
   },
   {
     "folder": "2026-03-21-mood-mosaic",
@@ -638,6 +837,41 @@
     ]
   },
   {
+    "folder": "2026-03-21-grid-tactix",
+    "appName": "Grid Tactix",
+    "tagline": "Turn everyday chaos into smart wins.",
+    "designSystem": {
+      "primaryColor": "#6C3BFF",
+      "secondaryColor": "#FF6B2C",
+      "backgroundColor": "#F0F4F8",
+      "fontFamily": "Space Grotesk",
+      "style": "Modern strategy game UI with vibrant purple-violet primary palette, orange accent, card-based layouts, stat bars, and city grid visualization. Features both light and dark themes with gradient hero cards and micro-interactions."
+    },
+    "screens": [
+      "Home \u2014 Daily missions, city health overview, streak tracker, and weekly progress stats",
+      "Play \u2014 Active scenario with crisis briefing, consequence preview, 3-choice decision system, and impact reveal",
+      "Map \u2014 3x3 city grid priority map with status indicators, hidden dependency graph, and critical alerts",
+      "Replay \u2014 Round-by-round reflection with decision breakdown, outcome analysis, strategic insight, and real-world connection",
+      "Profile \u2014 User stats, theme toggle, difficulty selector, achievements, and app settings"
+    ],
+    "hasScreenshot": true,
+    "description": "Grid Tactix is a strategy game where players manage a living city grid under constant pressure from traffic, power spikes, weather, and public demand. The core problem it solves is helping people practice prioritization, resource allocation, and long-term planning in a low-stakes but emotionally engaging way. Each session presents a realistic scenario, such as rerouting ambulances during a subway outage or balancing flood barriers against a power shortage, and players must make tradeoffs that mirror real-world decision-making. It helps users in daily life by training them to think several steps ahead, weigh consequences, and stay calm when multiple problems compete for attention. The game includes short daily missions that fit into a commute or coffee break, making it easy to build strategic thinking habits over time. What makes it unique is that it blends city-management mechanics with real behavioral patterns, so choices are influenced by urgency, hidden dependencies, and limited attention rather than simple points alone. Unlike typical strategy games, it translates everyday complexity into bite-sized dilemmas that feel relevant to work, family logistics, and personal planning.",
+    "features": [
+      "Adaptive scenario generation creates new city crises based on difficulty level, so every session feels fresh and trains different kinds of planning under pressure.",
+      "A consequence preview system shows delayed impacts of choices, helping players understand how small decisions ripple across traffic, energy, safety, and citizen morale.",
+      "Daily micro-campaigns let users complete meaningful strategy challenges in 3 to 5 minutes, which makes the app practical for busy schedules.",
+      "A priority map highlights competing goals without revealing the best answer, forcing players to develop judgment instead of relying on obvious prompts.",
+      "A reflection replay breaks down each decision after the round and explains why certain strategies worked, turning the game into a tool for improving real-world decision-making."
+    ],
+    "audience": "Busy adults and older teens ages 16-40 who enjoy strategy games and want a mentally engaging way to sharpen planning skills. It is especially appealing to students, managers, parents, and commuters looking for short, thoughtful gameplay sessions.",
+    "category": "game: strategy",
+    "useCases": [
+      "Maya is on the train after work and wants a quick mental reset, so she opens Grid Tactix and tackles a five-minute flood-response scenario before her stop.",
+      "Jordan has a management interview tomorrow and wants to practice prioritizing under pressure, so he uses the app's crisis missions to rehearse making tough tradeoffs quickly.",
+      "Elena is juggling school pickup, dinner, and a last-minute work issue, so she plays one mission to calm down while training her brain to plan around overlapping demands."
+    ]
+  },
+  {
     "folder": "2026-03-21-fridgeforge",
     "appName": "FridgeForge",
     "tagline": "Cook from chaos, not from recipes.",
@@ -831,6 +1065,112 @@
       "Maya just got off a crowded train and heard a rhythmic announcement, saw reflective ad panels, and felt the energy of the commute, so she opens EchoCraft to turn those fragments into a moody poem prompt for her newsletter.",
       "Andre is planning a launch campaign for a boutique coffee brand, and after noticing a wooden storefront, a handwritten sign, and the smell of roasted beans, he saves them into EchoCraft to generate a rustic visual direction for the team.",
       "Lina is an illustrator who suddenly spots a dramatic sky during lunch, records its sound with wind in the trees, and uses the app to transform the moment into a color palette and sketch idea before the feeling fades."
+    ]
+  },
+  {
+    "folder": "2026-03-21-deal-drift",
+    "appName": "Deal Drift",
+    "tagline": "Find leaked revenue before it vanishes.",
+    "designSystem": {
+      "primaryColor": "#6C47FF",
+      "secondaryColor": "#FF6B47",
+      "backgroundColor": "#F5F4F2",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Clean, data-forward mobile dashboard with vibrant violet-purple brand color, card-based layout, subtle gradients, and micro-interaction feedback. Light/dark dual-theme with warm neutral backgrounds and electric accent pops."
+    },
+    "screens": [
+      "Home \u2014 Revenue radar summary, priority deal card, live signals feed",
+      "Deals \u2014 Stalled deals list with risk filters, signal badges, recovery scores, drill-down detail view",
+      "Renewals \u2014 Account health monitor with urgency bars, usage drop alerts, one-tap check-ins",
+      "Insights \u2014 Recovery score, nudge performance stats, weekly bar chart, best follow-up time windows",
+      "Settings \u2014 Profile, theme toggle, CRM/email/calendar integrations, notification preferences"
+    ],
+    "hasScreenshot": true,
+    "description": "Deal Drift is a mobile app that helps small and mid-sized businesses spot stalled deals, slipping renewals, and overlooked follow-ups before they quietly turn into lost revenue. It connects to calendars, email, CRM tools, and invoicing systems to detect when a customer thread has gone cold, a proposal has been opened but not answered, or a renewal date is approaching without activity. Instead of overwhelming users with raw dashboards, it turns these signals into simple, prioritized actions they can take in minutes during a commute, between meetings, or while waiting in line. For example, it might tell a salesperson that a promising prospect opened a quote three times after 8 p.m., suggesting the best time and tone for a follow-up, or alert an account manager that a long-term client has reduced product usage and may need a retention call. What makes it unique is its focus on micro-interventions: it predicts the smallest next action most likely to recover or grow revenue, rather than just reporting that something is wrong. The app also learns each user's style and company context, so its suggestions feel like a smart business coach instead of another generic sales tool. Over time, Deal Drift becomes a revenue early-warning system that fits naturally into a busy workday.",
+    "features": [
+      "It scans CRM, email, and calendar activity to detect deal momentum drops and renewal risks, so users can act before revenue slips away.",
+      "It generates one-tap suggested follow-ups with the right timing, subject line, and message style, which saves time and increases response rates.",
+      "It ranks opportunities by likelihood of recovery or expansion, helping users focus on the deals where a small action can have the biggest impact.",
+      "It sends context-aware alerts based on real-world signals like proposal views, meeting gaps, and customer inactivity, so warnings are timely and useful instead of noisy.",
+      "It tracks which nudges actually lead to replies, meetings, or renewals, allowing the app to learn a team's habits and improve its recommendations over time."
+    ],
+    "audience": "Sales reps, account managers, founders, and client-facing teams at startups and small businesses, especially those juggling too many accounts without a dedicated revenue ops team. It is best for people who rely on fast follow-up, relationship management, and renewals to keep business moving.",
+    "category": "business",
+    "useCases": [
+      "Sarah just finished a stressful client meeting and wants to know which accounts need follow-up first, so she opens Deal Drift and sees a prioritized list with suggested messages she can send before lunch.",
+      "Marco notices one of his annual subscribers has not logged in for two weeks, so he opens the app on the train and gets a retention alert with a suggested check-in email and discount offer.",
+      "Leah is reviewing new quotes at the end of the day and wants to rescue a few deals before the weekend, so she uses Deal Drift to identify prospects who are most likely to respond to a quick, personalized nudge."
+    ]
+  },
+  {
+    "folder": "2026-03-21-chore-quest",
+    "appName": "Chore Quest",
+    "tagline": "Turn daily chores into epic adventures.",
+    "designSystem": {
+      "primaryColor": "#8B5CF6",
+      "secondaryColor": "#F59E0B",
+      "backgroundColor": "#0D0B1A",
+      "fontFamily": "Outfit",
+      "style": "Dark fantasy RPG aesthetic with vibrant purple and gold accents. Deep midnight backgrounds, glowing card surfaces, gradient banners, and emoji-driven iconography to appeal to children while maintaining a premium feel. Micro-interactions include press-scale animations, toggle slides, floating elements, and fade-in transitions."
+    },
+    "screens": [
+      "Quest Log \u2014 Today's missions with hero stats banner, XP bar, streak tracker, and quest cards with difficulty/reward tags",
+      "Quest Detail \u2014 Active mission view with narrative briefing, step-by-step progress tracker, voice narration toggle, camera verification panel, and complete CTA",
+      "My Kingdom \u2014 Fantasy world map with animated area icons, unlock progress bars for 5 distinct world regions",
+      "Rewards \u2014 Stats grid, badge collection (earned/locked states), and redeemable reward store with coin balance check",
+      "Profile & Settings \u2014 Hero avatar card, dark/light theme toggle, notification/voice toggles, parent PIN-locked controls section"
+    ],
+    "hasScreenshot": true,
+    "description": "Chore Quest transforms everyday kid chores into interactive story missions that unfold through voice, camera, and simple real-world tasks. Instead of a plain checklist, children complete age-appropriate missions like \"rescue the laundry kingdom\" by sorting socks or \"help the kitchen dragon\" by putting dishes away, earning progress in a personalized fantasy world. The app solves the common problem of kids losing motivation, forgetting responsibilities, or needing constant reminders by making tasks feel like play rather than punishment. Parents can assign routines, timers, and rewards while the app guides kids step by step with playful narration and visual cues. It helps families reduce morning chaos, bedtime resistance, and the endless back-and-forth of reminder messages. What makes it unique is that it blends imaginative storytelling with real household tasks and quick AI-powered prompts that adapt to a child\u2019s age, attention span, and current mood. Unlike generic reward charts, every completed chore changes the story world, so kids see immediate cause and effect in a way that feels magical and personal.",
+    "features": [
+      "Mission-based chores turn each task into a tiny adventure, which helps kids stay engaged and understand what to do without feeling overwhelmed.",
+      "Voice-guided prompts walk children through multi-step routines like getting dressed or cleaning a room, which reduces parent nagging and frustration.",
+      "Camera-based completion checks let kids show the app a tidy backpack or sorted toys, making progress feel tangible and giving parents lightweight verification.",
+      "Adaptive story worlds change based on the child\u2019s age and performance, which keeps the app challenging but never discouraging.",
+      "Parent controls let caregivers set schedules, difficulty levels, and reward rules, which makes the app useful for real family routines instead of just entertainment."
+    ],
+    "audience": "Parents of kids ages 4-10 who want smoother home routines, plus children who respond better to play, stories, and visual guidance than to traditional chore charts. It is especially useful for busy households, neurodivergent children, and families trying to build independence without constant reminders.",
+    "category": "kids",
+    "useCases": [
+      "Maya is 6 and always resists getting ready for school, so her dad opens Chore Quest to start the \"Rocket Launch\" mission, where brushing teeth, finding shoes, and packing her bag become steps in a space adventure.",
+      "After dinner, eight-year-old Leo keeps forgetting to clear the table, so his mom launches the app and he completes the \"Banquet Cleanup\" quest with visual prompts and a final camera check of the tidy dining room.",
+      "On Saturday morning, Priya wants her twins to clean their shared bedroom without a meltdown, so she assigns two sibling missions that split the room into zones and reward them with progress toward unlocking a new castle level."
+    ]
+  },
+  {
+    "folder": "2026-03-21-borderquest",
+    "appName": "BorderQuest",
+    "tagline": "Turn cities into a living strategy map.",
+    "designSystem": {
+      "primaryColor": "#00D4FF",
+      "secondaryColor": "#8B5CF6",
+      "backgroundColor": "#07091A",
+      "fontFamily": "Space Grotesk",
+      "style": "Dark tactical strategy UI with electric cyan and deep navy palette. Grid-based territory map with glowing zone indicators, dark surface layers with subtle gradients, and a military-inspired information hierarchy. Light mode uses the same cyan-primary palette against clean whites and powder-blue surfaces."
+    },
+    "screens": [
+      "Map \u2014 interactive territory grid with claimable zones, resource nodes, landmarks, and real-time control stats",
+      "Missions \u2014 daily mission list with progress tracking, difficulty badges, limited-time flags, and expandable mission details",
+      "Guild \u2014 guild banner with stats, online member roster with roles, territory control bar, and live activity feed",
+      "Journal \u2014 personal discovery log with achievement badges, XP stats, km walked, and chronological place history",
+      "Profile \u2014 commander profile with XP progress bar, season pass tracker, theme toggle (dark/light), and settings menu"
+    ],
+    "hasScreenshot": true,
+    "description": "BorderQuest transforms your real-world neighborhood, city, or travel destination into a shared tactical world where streets become territories, landmarks become resource nodes, and daily movement becomes part of a persistent game. It solves the problem of feeling disconnected from your surroundings by giving users a playful reason to explore, walk, and pay attention to places they would otherwise ignore. In daily life, it helps people discover new routes, socialize with nearby players, and turn routine errands into rewarding mini-adventures. For example, a commuter can claim a route between the train station and office by visiting hidden checkpoints, while a family on vacation can compete to unlock local landmarks through geography-based missions. The app is unique because it combines a world-building strategy layer with real-world walking, local history, and neighborhood interaction rather than simply overlaying points or collectibles. Over time, the map evolves based on player activity, seasonal events, and community-built alliances, making each location feel like a living game board that reflects actual human movement and local culture.",
+    "features": [
+      "The app turns real streets into dynamic control zones that teams can claim by completing location-based challenges, which makes exploration feel like a meaningful strategy game instead of random wandering.",
+      "It generates daily missions tied to nearby places, such as visiting a mural to unlock supplies or reaching a park bench to defend a territory, helping users build movement into everyday routines.",
+      "It includes cooperative guilds for neighborhoods, workplaces, and friend groups so users can coordinate routes, trade captured zones, and build social connections around shared geography.",
+      "It adapts quests to local context using weather, time, and events, so a rainy afternoon might create indoor missions while a weekend festival could trigger special limited-time battles.",
+      "It records each user's travel history as a personalized map of discoveries, which matters because it turns ordinary movement into a memorable story and encourages repeated engagement.",
+      "audience: "
+    ],
+    "audience": "Urban adults and older teens ages 16\u201340 who enjoy strategy games, fitness apps, and exploration, especially commuters, travelers, and social groups looking for low-pressure ways to make city life more engaging. It also fits communities and campus groups that want a playful, location-based activity to encourage movement and local discovery.",
+    "category": "game: world",
+    "useCases": [
+      "Maya just moved to a new city and feels overwhelmed by unfamiliar streets. She opens BorderQuest to take a beginner mission that leads her to a caf\u00e9, a library, and a lookout point, helping her learn the area while earning territory for her squad.",
+      "Jaden is walking home after work and usually scrolls his phone mindlessly on the train. He opens the app to defend a nearby bridge zone, detouring a few blocks to complete a challenge and turning an ordinary commute into a quick tactical win.",
+      "A group of friends is meeting downtown on Saturday but does not know what to do first. They use BorderQuest to trigger a scavenger-style alliance mission that sends them to local landmarks, gives them competing objectives, and keeps everyone engaged while they explore together."
     ]
   },
   {
