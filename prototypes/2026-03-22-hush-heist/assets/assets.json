@@ -1,0 +1,26 @@
+{
+  "appName": "Hush Heist",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#8B5CF6",
+    "secondary": "#10D4A8",
+    "background": "#09091B",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-right",
+    "battery",
+    "book-open",
+    "chevron-right",
+    "crosshair",
+    "home",
+    "pause",
+    "play",
+    "settings",
+    "square",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 11,
+  "fontFileCount": 0
+}

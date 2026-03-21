@@ -1,0 +1,19 @@
+{
+  "name": "Hush Heist",
+  "tagline": "Quiet play, loud family fun.",
+  "description": "Hush Heist turns everyday family life into a stealth-based co-op game built for moments when adults need calm and kids need attention. The app solves the common problem of children getting restless in places where they have to stay quiet, like restaurants, waiting rooms, church lobbies, airports, or during sibling downtime at home. Players work together on tiny, silent missions such as passing invisible \u201csecret packages,\u201d making exaggerated faces without laughing, or spotting hidden objects by only pointing with their eyes. The game adapts to the environment and time available, so a parent can start a 3-minute mission at a doctor\u2019s office or a 20-minute adventure during dinner prep. What makes it unique is that it rewards self-control, teamwork, and observation instead of speed or screen tapping, making it a real-life behavior tool disguised as play. It also includes parent controls that let adults choose noise level, movement allowed, and the social setting so the game feels helpful rather than disruptive. Unlike typical family games that need a big setup or lots of devices, Hush Heist works as a flexible \u201cemergency fun button\u201d for chaotic moments.",
+  "features": [
+    "Silent mission generator creates age-appropriate challenges based on the current setting, helping families entertain kids without making extra noise or attracting attention.",
+    "Co-op stealth scoring rewards calm movements, patience, and teamwork, which matters because it teaches children self-regulation while they play.",
+    "Quick-start scene modes like Waiting Room, Restaurant, and Car Line let parents launch the right type of mission in seconds for everyday real-world situations.",
+    "Optional gesture-only gameplay allows children to participate without speaking or tapping much, making the app practical in places where attention needs to stay low.",
+    "Parent-controlled boundaries let adults set time limits, movement limits, and intensity levels so the game stays fun, safe, and appropriate for each environment."
+  ],
+  "audience": "Families with children ages 4-12 who need calm, portable entertainment in public or high-stress home moments. It is especially useful for parents, grandparents, and caregivers who want a screen-based activity that improves behavior instead of causing more noise.",
+  "category": "game: family",
+  "useCases": [
+    "Maya is waiting with her two kids at a pediatric clinic and needs them to stay quiet, so she opens Hush Heist and starts a 5-minute mission where they hunt for invisible clues using only hand signals.",
+    "David is trying to keep his children settled at a busy restaurant before food arrives, so he launches a silent face-challenge round that gets them laughing without disturbing nearby tables.",
+    "After a long school pickup line, Priya\u2019s son is getting antsy in the back seat, so she uses a car-friendly stealth mission that keeps him engaged until they get home."
+  ]
+}

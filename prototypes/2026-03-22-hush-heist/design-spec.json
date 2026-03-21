@@ -1,0 +1,17 @@
+{
+  "appName": "Hush Heist",
+  "tagline": "Quiet play, loud family fun.",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#10D4A8",
+    "backgroundColor": "#09091B",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark stealth-themed UI with deep navy backgrounds, violet and teal accent gradients, glowing card highlights, and a tactical mission-control aesthetic. Clean hierarchy with large bold headings and compact data layouts. Smooth toggle animations and micro-interactions throughout."
+  },
+  "screens": [
+    "Home — Emergency Fun button, scene mode grid, daily stats, recommended missions",
+    "Mission — Live mission timer, step-by-step challenge cards, team stealth scoring, pause/end controls",
+    "Browse — Filterable mission library by category, time, and scene with difficulty indicators",
+    "Settings — Parent controls for noise/movement/time limits, dark/light theme toggle, family profile stats"
+  ]
+}
