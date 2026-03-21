@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prototype Factory</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0a0a0a;
+      color: #e5e5e5;
+      min-height: 100vh;
+    }
+    header {
+      padding: 48px 40px 32px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    header p {
+      color: #888;
+      margin-top: 6px;
+      font-size: 15px;
+    }
+    #gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+      gap: 32px;
+      padding: 0 40px 60px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #161616;
+      border: 1px solid #222;
+      border-radius: 16px;
+      overflow: hidden;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .card:hover {
+      border-color: #444;
+      transform: translateY(-2px);
+    }
+    .card-preview {
+      width: 100%;
+      height: 560px;
+      border: none;
+      background: #111;
+      pointer-events: none;
+    }
+    .card-info {
+      padding: 20px 24px;
+      border-top: 1px solid #222;
+    }
+    .card-info h2 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .card-info .tagline {
+      color: #aaa;
+      font-size: 14px;
+      margin-top: 4px;
+      font-style: italic;
+    }
+    .card-info .description {
+      color: #999;
+      font-size: 13px;
+      line-height: 1.6;
+      margin-top: 12px;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-info .description.expanded {
+      -webkit-line-clamp: unset;
+    }
+    .card-info .read-more {
+      color: #6366f1;
+      font-size: 12px;
+      cursor: pointer;
+      margin-top: 4px;
+      display: inline-block;
+    }
+    .card-info .read-more:hover { text-decoration: underline; }
+    .card-info .features {
+      margin-top: 12px;
+      padding: 0;
+      list-style: none;
+    }
+    .card-info .features li {
+      font-size: 12px;
+      color: #888;
+      padding: 4px 0;
+      padding-left: 16px;
+      position: relative;
+      line-height: 1.4;
+    }
+    .card-info .features li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 10px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #333;
+    }
+    .card-info .use-cases {
+      margin-top: 12px;
+      padding: 12px 16px;
+      background: #111;
+      border-radius: 8px;
+      border: 1px solid #1a1a1a;
+      display: none;
+    }
+    .card-info .use-cases.visible { display: block; }
+    .card-info .use-cases h4 {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #555;
+      margin-bottom: 8px;
+    }
+    .card-info .use-cases p {
+      font-size: 12px;
+      color: #777;
+      line-height: 1.5;
+      margin-bottom: 6px;
+    }
+    .card-info .audience {
+      font-size: 11px;
+      color: #555;
+      margin-top: 10px;
+    }
+    .card-info .meta {
+      display: flex;
+      gap: 8px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+    .card-info .tag {
+      font-size: 11px;
+      padding: 3px 8px;
+      border-radius: 20px;
+      background: #222;
+      color: #aaa;
+    }
+    .card-info .style-tag {
+      background: #1a1a2e;
+      color: #7c7cff;
+    }
+    .card-actions {
+      padding: 12px 24px 20px;
+      display: flex;
+      gap: 10px;
+    }
+    .btn {
+      font-size: 13px;
+      padding: 8px 16px;
+      border-radius: 8px;
+      border: 1px solid #333;
+      background: #1a1a1a;
+      color: #ccc;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .btn:hover { background: #252525; }
+    .btn-primary { background: #2563eb; border-color: #2563eb; color: #fff; }
+    .btn-primary:hover { background: #1d4ed8; }
+    .empty {
+      text-align: center;
+      padding: 80px 40px;
+      color: #555;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Prototype Factory</h1>
+    <p id="subtitle">Loading prototypes...</p>
+  </header>
+  <div id="gallery"></div>
+  <div id="empty" class="empty" style="display:none">No prototypes found yet. Run the generator to create some.</div>
+
+  <script>
+    async function loadPrototypes() {
+      const gallery = document.getElementById('gallery');
+      const subtitle = document.getElementById('subtitle');
+      const emptyEl = document.getElementById('empty');
+      const prototypes = [];
+
+      try {
+        const res = await fetch('prototypes/manifest.json');
+        if (res.ok) {
+          const data = await res.json();
+          prototypes.push(...data);
+        }
+      } catch(e) {}
+
+      if (prototypes.length === 0) {
+        emptyEl.style.display = 'block';
+        subtitle.textContent = 'No prototypes loaded. Make sure manifest.json is generated.';
+        return;
+      }
+
+      subtitle.textContent = `${prototypes.length} prototype${prototypes.length !== 1 ? 's' : ''} generated`;
+
+      for (const proto of prototypes) {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const styleName = proto.designSystem?.style?.split(/[—\-,\.]/)[0]?.trim() || '';
+        const colors = [proto.designSystem?.primaryColor, proto.designSystem?.secondaryColor, proto.designSystem?.backgroundColor].filter(Boolean);
+        const desc = proto.description || '';
+        const features = proto.features || [];
+        const useCases = proto.useCases || [];
+        const audience = proto.audience || '';
+        const cardId = proto.folder.replace(/[^a-z0-9]/g, '');
+
+        card.innerHTML = `
+          <iframe class="card-preview" src="prototypes/${proto.folder}/preview.html" sandbox="allow-scripts allow-same-origin" loading="lazy"></iframe>
+          <div class="card-info">
+            <h2>${proto.appName || proto.folder}</h2>
+            <div class="tagline">${proto.tagline || ''}</div>
+            ${desc ? `
+              <div class="description" id="desc-${cardId}">${desc}</div>
+              <span class="read-more" onclick="toggleDesc('${cardId}')">Read more</span>
+            ` : ''}
+            ${features.length ? `
+              <ul class="features">
+                ${features.slice(0, 5).map(f => `<li>${f}</li>`).join('')}
+              </ul>
+            ` : ''}
+            ${useCases.length ? `
+              <div class="use-cases" id="uc-${cardId}">
+                <h4>Use Cases</h4>
+                ${useCases.map(uc => `<p>${uc}</p>`).join('')}
+              </div>
+            ` : ''}
+            ${audience ? `<div class="audience">For: ${audience}</div>` : ''}
+            <div class="meta">
+              <span class="tag">${proto.folder.split('-').slice(0, 3).join('-')}</span>
+              ${proto.category ? `<span class="tag">${proto.category}</span>` : ''}
+              ${styleName ? `<span class="tag style-tag">${styleName}</span>` : ''}
+              ${colors.map(c => `<span class="tag" style="background:${c}20;color:${c};border:1px solid ${c}40">${c}</span>`).join('')}
+            </div>
+          </div>
+          <div class="card-actions">
+            <a class="btn btn-primary" href="prototypes/${proto.folder}/preview.html" target="_blank">Open Full Screen</a>
+            <a class="btn" href="prototypes/${proto.folder}/assets.html" target="_blank">Assets</a>
+            <a class="btn" href="prototypes/${proto.folder}/design-spec.json" target="_blank">Design Spec</a>
+          </div>
+        `;
+        gallery.appendChild(card);
+      }
+    }
+
+    function toggleDesc(id) {
+      const desc = document.getElementById('desc-' + id);
+      const uc = document.getElementById('uc-' + id);
+      const link = desc?.nextElementSibling;
+      if (desc) {
+        desc.classList.toggle('expanded');
+        if (link) link.textContent = desc.classList.contains('expanded') ? 'Show less' : 'Read more';
+      }
+      if (uc) uc.classList.toggle('visible');
+    }
+
+    loadPrototypes();
+  </script>
+</body>
+</html>

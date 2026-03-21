@@ -1,71 +1,37 @@
 [
   {
-    "folder": "2026-03-21-task-tide",
-    "appName": "Task Tide",
-    "tagline": "Flow your day around reality.",
+    "folder": "2026-03-21-deal-drift",
+    "appName": "Deal Drift",
+    "tagline": "Find leaked revenue before it vanishes.",
     "designSystem": {
-      "primaryColor": "#00DFA2",
-      "secondaryColor": "#8B7FFF",
-      "backgroundColor": "#070B12",
-      "fontFamily": "Space Grotesk, Inter",
-      "style": "Deep ocean dark UI with bioluminescent mint-green accents. Glassmorphism cards with subtle glows and gradient overlays. High contrast typography hierarchy. Purple used for moment slots, orange for alerts, cyan for location context. Minimalist and calm to support focus."
+      "primaryColor": "#6C47FF",
+      "secondaryColor": "#FF6B47",
+      "backgroundColor": "#F5F4F2",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Clean, data-forward mobile dashboard with vibrant violet-purple brand color, card-based layout, subtle gradients, and micro-interaction feedback. Light/dark dual-theme with warm neutral backgrounds and electric accent pops."
     },
     "screens": [
-      "Now - Live context card with best-match task hero, context chips (location, energy, weather), expandable moment slots, and day repack notice",
-      "Tasks - Scored task list with energy-level dots, fit score progress bars, filter chips by type, and tap-to-complete checkbox interactions",
-      "Tide - Day timeline with past/current/future/slot event types, adaptive repack badges, matched task chips, and dot+line visual track",
-      "Insights - Productivity stats grid, focus bar chart by hour, weekly heatmap, and learned behavior pattern cards"
+      "Home \u2014 Revenue radar summary, priority deal card, live signals feed",
+      "Deals \u2014 Stalled deals list with risk filters, signal badges, recovery scores, drill-down detail view",
+      "Renewals \u2014 Account health monitor with urgency bars, usage drop alerts, one-tap check-ins",
+      "Insights \u2014 Recovery score, nudge performance stats, weekly bar chart, best follow-up time windows",
+      "Settings \u2014 Profile, theme toggle, CRM/email/calendar integrations, notification preferences"
     ],
     "hasScreenshot": true,
-    "description": "Task Tide is a productivity app that reshapes your to-do list around the way your day actually unfolds, instead of how you hoped it would. It connects with your calendar, location, weather, commute, and focus patterns to automatically suggest the best next task when you have an unexpected gap, low-energy moment, or sudden change in plans. The app solves a common problem: most task managers fail because they treat every task as equally doable at any time, which leads to decision fatigue and abandoned plans. In daily life, it helps users make smarter micro-decisions like choosing a 7-minute email cleanup while waiting for coffee, moving a deep-work task to a quieter time after a noisy morning, or surfacing errands near their next appointment. What makes it unique is that it plans work in \u201cmoment slots\u201d rather than rigid blocks, matching task type to the real-world conditions you are in right now. For example, a user in a noisy train station might get admin tasks, while a person with 25 free minutes and perfect concentration might get a writing task they have been postponing. Instead of asking users to build an ideal schedule, Task Tide quietly adapts the day as life changes, turning fragments of time into meaningful progress.",
+    "description": "Deal Drift is a mobile app that helps small and mid-sized businesses spot stalled deals, slipping renewals, and overlooked follow-ups before they quietly turn into lost revenue. It connects to calendars, email, CRM tools, and invoicing systems to detect when a customer thread has gone cold, a proposal has been opened but not answered, or a renewal date is approaching without activity. Instead of overwhelming users with raw dashboards, it turns these signals into simple, prioritized actions they can take in minutes during a commute, between meetings, or while waiting in line. For example, it might tell a salesperson that a promising prospect opened a quote three times after 8 p.m., suggesting the best time and tone for a follow-up, or alert an account manager that a long-term client has reduced product usage and may need a retention call. What makes it unique is its focus on micro-interventions: it predicts the smallest next action most likely to recover or grow revenue, rather than just reporting that something is wrong. The app also learns each user's style and company context, so its suggestions feel like a smart business coach instead of another generic sales tool. Over time, Deal Drift becomes a revenue early-warning system that fits naturally into a busy workday.",
     "features": [
-      "The app continuously scores tasks by duration, energy level, location relevance, and interruption tolerance so it can recommend the most realistic next action at any moment.",
-      "It detects sudden schedule changes, like meetings ending early or a delayed commute, and instantly repacks your day around the new available time.",
-      "It offers a 'moment slot' mode that turns tiny openings of 3 to 30 minutes into actionable task suggestions, which helps users stop wasting in-between time.",
-      "The app learns your personal productivity patterns over time, such as when you write best, when you answer messages fastest, and when you tend to procrastinate.",
-      "It groups nearby errands and context-specific tasks together, reducing mental overhead by suggesting what to do while you are already in the right place."
+      "It scans CRM, email, and calendar activity to detect deal momentum drops and renewal risks, so users can act before revenue slips away.",
+      "It generates one-tap suggested follow-ups with the right timing, subject line, and message style, which saves time and increases response rates.",
+      "It ranks opportunities by likelihood of recovery or expansion, helping users focus on the deals where a small action can have the biggest impact.",
+      "It sends context-aware alerts based on real-world signals like proposal views, meeting gaps, and customer inactivity, so warnings are timely and useful instead of noisy.",
+      "It tracks which nudges actually lead to replies, meetings, or renewals, allowing the app to learn a team's habits and improve its recommendations over time."
     ],
-    "audience": "Busy professionals, freelance workers, graduate students, and parents aged roughly 22-45 who juggle shifting schedules and need a smarter way to use fragmented time. It is especially useful for people whose days are often disrupted by meetings, caregiving, travel, or irregular work patterns.",
-    "category": "productivity",
+    "audience": "Sales reps, account managers, founders, and client-facing teams at startups and small businesses, especially those juggling too many accounts without a dedicated revenue ops team. It is best for people who rely on fast follow-up, relationship management, and renewals to keep business moving.",
+    "category": "business",
     "useCases": [
-      "Sarah just finished a stressful meeting 15 minutes early and opens the app to see that her best option is a quick invoice review, because her next appointment is too short for deep work but perfect for admin tasks.",
-      "Jamal is stuck on a delayed train and wants to avoid wasting the commute, so he opens the app and gets a phone-friendly suggestion to clear low-priority emails and draft a grocery list for later.",
-      "Priya has one free hour between classes and an afternoon weather alert says it will rain soon, so she uses the app to combine a pharmacy run, a library drop-off, and a focused reading session into one efficient plan."
-    ]
-  },
-  {
-    "folder": "2026-03-21-scenescribe",
-    "appName": "SceneScribe",
-    "tagline": "Turn moments into creative prompts.",
-    "designSystem": {
-      "primaryColor": "#A855F7",
-      "secondaryColor": "#FB923C",
-      "backgroundColor": "#0C0B15",
-      "fontFamily": "Cormorant Garant + DM Sans",
-      "style": "Dark editorial with serif display headings and a purple-coral gradient accent system. High-contrast ink-on-void aesthetic that feels like a creative writer's journal meets a modern AI tool. Light theme flips to cream-white with deep violet \u2014 equally polished."
-    },
-    "screens": [
-      "Home / Capture \u2014 Quick capture row (Photo, Voice, Text), filterable moment feed with mood tags and color palettes",
-      "Prompt Alchemy \u2014 Select a moment, choose creative medium (Writing/Design/Brainstorm) and tone, generate structured prompts with story openings, dialogue, scene fragments, palette directions",
-      "Creative Trails \u2014 Visual timeline of idea threads linking related moments; drill into individual trails with branching timeline UI",
-      "Mood Map \u2014 Per-moment emotional spectrum bars (Tension/Warmth/Mystery/Energy), extracted color palettes, style cues, and Scene Builder preview",
-      "Profile \u2014 User stats, appearance toggle (dark/light), creative focus settings, notification preferences"
-    ],
-    "hasScreenshot": true,
-    "description": "SceneScribe is a mobile app that helps people capture real-life moments and instantly transform them into creative writing, design, or storytelling prompts. It solves the common problem of losing inspiration after a vivid experience by letting users record a quick voice note, photo, or short text, then converting that input into structured prompts, mood boards, character ideas, and scene fragments. In daily life, it helps poets, novelists, content creators, and hobbyists turn a commute view, a conversation snippet, or a strange object they notice into usable creative material before the idea disappears. For example, a user can snap a photo of a neon-lit diner and receive three different story openings, a palette suggestion, and a dialogue prompt based on the image. A freelance designer might record the feeling of a client's brand and get visual metaphors, typography directions, and campaign concepts. What makes SceneScribe unique is that it does not just store inspiration like a notes app; it interprets everyday moments into creative building blocks tailored to the user\u2019s chosen medium and tone.",
-    "features": [
-      "Moment Capture lets users quickly save a photo, voice memo, or short text note from a real-world experience, because the app is designed to catch inspiration before it fades.",
-      "Prompt Alchemy transforms each captured moment into custom writing, art, or brainstorming prompts, helping users jump from observation to creation in seconds.",
-      "Mood Mapping analyzes colors, words, and ambience from a saved moment to generate emotional themes and style cues, which matters when users want their work to feel cohesive.",
-      "Scene Builder assembles captured fragments into editable outlines for stories, ad concepts, or social posts, saving time for users who struggle to organize raw inspiration.",
-      "Creative Trails links related moments over time into evolving idea threads, so users can revisit and develop a theme from a single spark into a full project."
-    ],
-    "audience": "Writers, visual artists, students, marketers, and independent creators ages 18-45 who frequently draw inspiration from everyday life. It is especially useful for people who are mobile, busy, and want a fast way to preserve and reshape ideas while on the go.",
-    "category": "creative tools",
-    "useCases": [
-      "Maya is on her train home when she overhears a strange, emotional conversation and wants to use it in a short story later. She records a voice note, and SceneScribe turns it into character conflict ideas and a setting prompt.",
-      "Jordan is a social media manager walking past a rain-soaked storefront with dramatic reflections and needs fresh campaign visuals. He snaps a photo, and the app generates color palette suggestions, headline angles, and aesthetic references.",
-      "Elena, a college student, feels inspired after a chaotic late-night market visit but knows she will forget the details by morning. She saves quick notes and later opens the app to find a ready-made poem outline and sensory imagery prompts."
+      "Sarah just finished a stressful client meeting and wants to know which accounts need follow-up first, so she opens Deal Drift and sees a prioritized list with suggested messages she can send before lunch.",
+      "Marco notices one of his annual subscribers has not logged in for two weeks, so he opens the app on the train and gets a retention alert with a suggested check-in email and discount offer.",
+      "Leah is reviewing new quotes at the end of the day and wants to rescue a few deals before the weekend, so she uses Deal Drift to identify prospects who are most likely to respond to a quick, personalized nudge."
     ]
   },
   {
@@ -129,6 +95,75 @@
     ]
   },
   {
+    "folder": "2026-03-21-moodnest",
+    "appName": "MoodNest",
+    "tagline": "Turn chaos into calm rituals.",
+    "designSystem": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#A855F7",
+      "backgroundColor": "#F4F1FF",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Soft card-based UI with violet/purple accent palette, rounded corners (18-24px), gradient hero elements, and a calm, intentional visual hierarchy. Light mode uses warm lavender backgrounds; dark mode uses deep navy-purple surfaces. Micro-interactions via press scale effects and smooth toggle animations."
+    },
+    "screens": [
+      "Home / Check-in (3-step mood + situation + time flow leading to a personalized ritual)",
+      "Active Ritual (step-by-step ritual runner with countdown timer, progress bar, and completion celebration)",
+      "Discover (category grid, featured rituals carousel, and trending rituals list)",
+      "Playbook (personal saved ritual collection with usage stats and mood insights)",
+      "Settings / Profile (theme toggle, notification preferences, streak display, and app info)"
+    ],
+    "hasScreenshot": true,
+    "description": "MoodNest is a lifestyle app that helps people create micro-rituals for everyday moments of emotional overwhelm, decision fatigue, and scattered routines. Instead of tracking habits in a generic way, it detects the kind of situation you're in, such as a tense workday, post-argument slump, or Sunday night dread, and offers a tiny, personalized reset plan that fits the moment. The app solves the common problem of knowing you need to feel better but not knowing what to do that actually works in real life. It helps users by turning vague intentions like \"relax more\" into concrete actions, such as a three-minute desk decompression, a frictionless grocery-day wind-down, or a pre-sleep ritual built around their energy level, environment, and available time. A person preparing for a big presentation might get a breathing prompt, a 90-second posture reset, and a confidence cue; someone recovering from a hard social interaction might get a sensory grounding routine and a short boundary-setting reflection. What makes MoodNest unique is that it treats emotional maintenance like a contextual design problem, blending mood signals, time constraints, and daily habits into highly specific, practical rituals instead of generic meditation or to-do lists.",
+    "features": [
+      "The app creates instant micro-rituals based on your current situation, so users get something realistic they can do in under five minutes when life feels too busy.",
+      "It learns which resets actually help you, then adapts future suggestions to match your stress patterns, energy level, and preferred style of support.",
+      "It uses a moment-based check-in system that asks what just happened, what you have next, and how much time you can spare, which keeps recommendations useful instead of abstract.",
+      "It includes tailored rituals for common life friction points like post-commute decompression, social anxiety before events, and late-night overthinking, making it practical for daily use.",
+      "It saves your best rituals as a personal playbook, so you can quickly reuse the things that help most without having to remember them in the moment.",
+      "audience",
+      "category",
+      "useCases"
+    ],
+    "audience": "",
+    "category": "",
+    "useCases": []
+  },
+  {
+    "folder": "2026-03-21-chore-quest",
+    "appName": "Chore Quest",
+    "tagline": "Turn daily chores into epic adventures.",
+    "designSystem": {
+      "primaryColor": "#8B5CF6",
+      "secondaryColor": "#F59E0B",
+      "backgroundColor": "#0D0B1A",
+      "fontFamily": "Outfit",
+      "style": "Dark fantasy RPG aesthetic with vibrant purple and gold accents. Deep midnight backgrounds, glowing card surfaces, gradient banners, and emoji-driven iconography to appeal to children while maintaining a premium feel. Micro-interactions include press-scale animations, toggle slides, floating elements, and fade-in transitions."
+    },
+    "screens": [
+      "Quest Log \u2014 Today's missions with hero stats banner, XP bar, streak tracker, and quest cards with difficulty/reward tags",
+      "Quest Detail \u2014 Active mission view with narrative briefing, step-by-step progress tracker, voice narration toggle, camera verification panel, and complete CTA",
+      "My Kingdom \u2014 Fantasy world map with animated area icons, unlock progress bars for 5 distinct world regions",
+      "Rewards \u2014 Stats grid, badge collection (earned/locked states), and redeemable reward store with coin balance check",
+      "Profile & Settings \u2014 Hero avatar card, dark/light theme toggle, notification/voice toggles, parent PIN-locked controls section"
+    ],
+    "hasScreenshot": true,
+    "description": "Chore Quest transforms everyday kid chores into interactive story missions that unfold through voice, camera, and simple real-world tasks. Instead of a plain checklist, children complete age-appropriate missions like \"rescue the laundry kingdom\" by sorting socks or \"help the kitchen dragon\" by putting dishes away, earning progress in a personalized fantasy world. The app solves the common problem of kids losing motivation, forgetting responsibilities, or needing constant reminders by making tasks feel like play rather than punishment. Parents can assign routines, timers, and rewards while the app guides kids step by step with playful narration and visual cues. It helps families reduce morning chaos, bedtime resistance, and the endless back-and-forth of reminder messages. What makes it unique is that it blends imaginative storytelling with real household tasks and quick AI-powered prompts that adapt to a child\u2019s age, attention span, and current mood. Unlike generic reward charts, every completed chore changes the story world, so kids see immediate cause and effect in a way that feels magical and personal.",
+    "features": [
+      "Mission-based chores turn each task into a tiny adventure, which helps kids stay engaged and understand what to do without feeling overwhelmed.",
+      "Voice-guided prompts walk children through multi-step routines like getting dressed or cleaning a room, which reduces parent nagging and frustration.",
+      "Camera-based completion checks let kids show the app a tidy backpack or sorted toys, making progress feel tangible and giving parents lightweight verification.",
+      "Adaptive story worlds change based on the child\u2019s age and performance, which keeps the app challenging but never discouraging.",
+      "Parent controls let caregivers set schedules, difficulty levels, and reward rules, which makes the app useful for real family routines instead of just entertainment."
+    ],
+    "audience": "Parents of kids ages 4-10 who want smoother home routines, plus children who respond better to play, stories, and visual guidance than to traditional chore charts. It is especially useful for busy households, neurodivergent children, and families trying to build independence without constant reminders.",
+    "category": "kids",
+    "useCases": [
+      "Maya is 6 and always resists getting ready for school, so her dad opens Chore Quest to start the \"Rocket Launch\" mission, where brushing teeth, finding shoes, and packing her bag become steps in a space adventure.",
+      "After dinner, eight-year-old Leo keeps forgetting to clear the table, so his mom launches the app and he completes the \"Banquet Cleanup\" quest with visual prompts and a final camera check of the tidy dining room.",
+      "On Saturday morning, Priya wants her twins to clean their shared bedroom without a meltdown, so she assigns two sibling missions that split the room into zones and reward them with progress toward unlocking a new castle level."
+    ]
+  },
+  {
     "folder": "2026-03-21-pulsepatch",
     "appName": "PulsePatch",
     "tagline": "Turn everyday strain into smart recovery.",
@@ -163,6 +198,182 @@
       "Marcus ran after work but notices his calves are tight and his energy is low, so he checks the app to see what recovery is most important tonight. PulsePatch suggests a short calf mobility flow, hydration timing, and an earlier wind-down because his body load is higher than usual.",
       "Leila has been working from home with back-to-back screen sessions and a headache starting behind her eyes, so she uses the app during lunch. It identifies her pattern as prolonged desk strain and guides her through a posture reset, eye break, and a walking interval tailored to her calendar."
     ]
+  },
+  {
+    "folder": "2026-03-21-grid-tactix",
+    "appName": "Grid Tactix",
+    "tagline": "Turn everyday chaos into smart wins.",
+    "designSystem": {
+      "primaryColor": "#6C3BFF",
+      "secondaryColor": "#FF6B2C",
+      "backgroundColor": "#F0F4F8",
+      "fontFamily": "Space Grotesk",
+      "style": "Modern strategy game UI with vibrant purple-violet primary palette, orange accent, card-based layouts, stat bars, and city grid visualization. Features both light and dark themes with gradient hero cards and micro-interactions."
+    },
+    "screens": [
+      "Home \u2014 Daily missions, city health overview, streak tracker, and weekly progress stats",
+      "Play \u2014 Active scenario with crisis briefing, consequence preview, 3-choice decision system, and impact reveal",
+      "Map \u2014 3x3 city grid priority map with status indicators, hidden dependency graph, and critical alerts",
+      "Replay \u2014 Round-by-round reflection with decision breakdown, outcome analysis, strategic insight, and real-world connection",
+      "Profile \u2014 User stats, theme toggle, difficulty selector, achievements, and app settings"
+    ],
+    "hasScreenshot": true,
+    "description": "Grid Tactix is a strategy game where players manage a living city grid under constant pressure from traffic, power spikes, weather, and public demand. The core problem it solves is helping people practice prioritization, resource allocation, and long-term planning in a low-stakes but emotionally engaging way. Each session presents a realistic scenario, such as rerouting ambulances during a subway outage or balancing flood barriers against a power shortage, and players must make tradeoffs that mirror real-world decision-making. It helps users in daily life by training them to think several steps ahead, weigh consequences, and stay calm when multiple problems compete for attention. The game includes short daily missions that fit into a commute or coffee break, making it easy to build strategic thinking habits over time. What makes it unique is that it blends city-management mechanics with real behavioral patterns, so choices are influenced by urgency, hidden dependencies, and limited attention rather than simple points alone. Unlike typical strategy games, it translates everyday complexity into bite-sized dilemmas that feel relevant to work, family logistics, and personal planning.",
+    "features": [
+      "Adaptive scenario generation creates new city crises based on difficulty level, so every session feels fresh and trains different kinds of planning under pressure.",
+      "A consequence preview system shows delayed impacts of choices, helping players understand how small decisions ripple across traffic, energy, safety, and citizen morale.",
+      "Daily micro-campaigns let users complete meaningful strategy challenges in 3 to 5 minutes, which makes the app practical for busy schedules.",
+      "A priority map highlights competing goals without revealing the best answer, forcing players to develop judgment instead of relying on obvious prompts.",
+      "A reflection replay breaks down each decision after the round and explains why certain strategies worked, turning the game into a tool for improving real-world decision-making."
+    ],
+    "audience": "Busy adults and older teens ages 16-40 who enjoy strategy games and want a mentally engaging way to sharpen planning skills. It is especially appealing to students, managers, parents, and commuters looking for short, thoughtful gameplay sessions.",
+    "category": "game: strategy",
+    "useCases": [
+      "Maya is on the train after work and wants a quick mental reset, so she opens Grid Tactix and tackles a five-minute flood-response scenario before her stop.",
+      "Jordan has a management interview tomorrow and wants to practice prioritizing under pressure, so he uses the app's crisis missions to rehearse making tough tradeoffs quickly.",
+      "Elena is juggling school pickup, dinner, and a last-minute work issue, so she plays one mission to calm down while training her brain to plan around overlapping demands."
+    ]
+  },
+  {
+    "folder": "2026-03-21-pagepulse",
+    "appName": "PagePulse",
+    "tagline": "Turn headlines into your next smart move.",
+    "designSystem": {
+      "primaryColor": "#6C47FF",
+      "secondaryColor": "#10B981",
+      "backgroundColor": "#F5F3FF",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Modern editorial with vibrant violet-purple accent. Clean card-based layout with layered information hierarchy, soft gradient headers, and micro-interaction press effects. Light mode features soft lavender backgrounds with white cards; dark mode uses deep navy-purple surfaces with elevated contrast."
+    },
+    "screens": [
+      "Today Feed \u2014 Daily action feed with impact-scored stories, expandable depth layers, and actionable checklist",
+      "Context Lens \u2014 Situational story groupings (Commuting, Family, Career, Money, Home, Health) with active context banner",
+      "My Boards \u2014 Pinned story boards for tracking developing coverage across life situations",
+      "Settings \u2014 Profile overview, light/dark theme toggle, content source management, and notification preferences"
+    ],
+    "hasScreenshot": true,
+    "description": "PagePulse is a mobile reading app that transforms magazines and newspapers into a personalized daily decision engine. Instead of simply feeding users more articles, it maps stories to their immediate context\u2014like commuting, parenting, job hunting, or managing money\u2014and highlights what is actually useful right now. A busy parent could see which school policy story affects their district, while a freelancer could get a concise digest of economic headlines tied to upcoming invoices and tax deadlines. The app solves the common problem of news overload by filtering content into actionable, situational briefs that help users make better choices throughout the day. What makes it unique is its \"context lens,\" which rewrites editorial content into practical takeaways without losing the original reporting, and lets users save, compare, or revisit stories based on life situations rather than categories alone. It also blends magazine-style depth with newspaper timeliness, so users get both the bigger picture and the immediate next step.",
+    "features": [
+      "The context lens automatically groups stories by real-life situations, such as commuting, family planning, or career moves, so users see news that matches what they are dealing with right now.",
+      "The app converts long-form articles into layered summaries that start with a two-line answer, then expand into key facts and source excerpts for users who want more depth.",
+      "A daily action feed turns selected stories into practical suggestions, such as reminder prompts, checklist items, or follow-up questions, which helps readers apply the news instead of just consuming it.",
+      "Users can pin stories to personal boards like 'home buying' or 'school district,' making it easy to track developing coverage across newspapers and magazines in one place.",
+      "An impact meter shows how relevant each story is to a user's location, finances, job, or interests, which matters because it helps people prioritize attention in a crowded media environment."
+    ],
+    "audience": "PagePulse is for busy adults ages 22-50 who regularly skim news but struggle to keep up with what matters most. It fits commuters, parents, freelancers, managers, and early-career professionals who want smarter reading without spending hours searching.",
+    "category": "magazines & newspapers",
+    "useCases": [
+      "Sarah just finished a stressful meeting and wants to know whether the new housing policy article affects her upcoming apartment search, so she opens PagePulse and jumps straight to the relevant takeaway.",
+      "Marcus is riding the train to work and has only ten minutes, so he asks the app for a short, work-focused digest of business headlines that might influence his client's budget decision.",
+      "Nina is planning next month's family expenses and opens PagePulse to track consumer-price coverage, saving the stories that could help her decide when to renew subscriptions or delay a purchase."
+    ]
+  },
+  {
+    "folder": "2026-03-21-borderquest",
+    "appName": "BorderQuest",
+    "tagline": "Turn cities into a living strategy map.",
+    "designSystem": {
+      "primaryColor": "#00D4FF",
+      "secondaryColor": "#8B5CF6",
+      "backgroundColor": "#07091A",
+      "fontFamily": "Space Grotesk",
+      "style": "Dark tactical strategy UI with electric cyan and deep navy palette. Grid-based territory map with glowing zone indicators, dark surface layers with subtle gradients, and a military-inspired information hierarchy. Light mode uses the same cyan-primary palette against clean whites and powder-blue surfaces."
+    },
+    "screens": [
+      "Map \u2014 interactive territory grid with claimable zones, resource nodes, landmarks, and real-time control stats",
+      "Missions \u2014 daily mission list with progress tracking, difficulty badges, limited-time flags, and expandable mission details",
+      "Guild \u2014 guild banner with stats, online member roster with roles, territory control bar, and live activity feed",
+      "Journal \u2014 personal discovery log with achievement badges, XP stats, km walked, and chronological place history",
+      "Profile \u2014 commander profile with XP progress bar, season pass tracker, theme toggle (dark/light), and settings menu"
+    ],
+    "hasScreenshot": true,
+    "description": "BorderQuest transforms your real-world neighborhood, city, or travel destination into a shared tactical world where streets become territories, landmarks become resource nodes, and daily movement becomes part of a persistent game. It solves the problem of feeling disconnected from your surroundings by giving users a playful reason to explore, walk, and pay attention to places they would otherwise ignore. In daily life, it helps people discover new routes, socialize with nearby players, and turn routine errands into rewarding mini-adventures. For example, a commuter can claim a route between the train station and office by visiting hidden checkpoints, while a family on vacation can compete to unlock local landmarks through geography-based missions. The app is unique because it combines a world-building strategy layer with real-world walking, local history, and neighborhood interaction rather than simply overlaying points or collectibles. Over time, the map evolves based on player activity, seasonal events, and community-built alliances, making each location feel like a living game board that reflects actual human movement and local culture.",
+    "features": [
+      "The app turns real streets into dynamic control zones that teams can claim by completing location-based challenges, which makes exploration feel like a meaningful strategy game instead of random wandering.",
+      "It generates daily missions tied to nearby places, such as visiting a mural to unlock supplies or reaching a park bench to defend a territory, helping users build movement into everyday routines.",
+      "It includes cooperative guilds for neighborhoods, workplaces, and friend groups so users can coordinate routes, trade captured zones, and build social connections around shared geography.",
+      "It adapts quests to local context using weather, time, and events, so a rainy afternoon might create indoor missions while a weekend festival could trigger special limited-time battles.",
+      "It records each user's travel history as a personalized map of discoveries, which matters because it turns ordinary movement into a memorable story and encourages repeated engagement.",
+      "audience: "
+    ],
+    "audience": "Urban adults and older teens ages 16\u201340 who enjoy strategy games, fitness apps, and exploration, especially commuters, travelers, and social groups looking for low-pressure ways to make city life more engaging. It also fits communities and campus groups that want a playful, location-based activity to encourage movement and local discovery.",
+    "category": "game: world",
+    "useCases": [
+      "Maya just moved to a new city and feels overwhelmed by unfamiliar streets. She opens BorderQuest to take a beginner mission that leads her to a caf\u00e9, a library, and a lookout point, helping her learn the area while earning territory for her squad.",
+      "Jaden is walking home after work and usually scrolls his phone mindlessly on the train. He opens the app to defend a nearby bridge zone, detouring a few blocks to complete a challenge and turning an ordinary commute into a quick tactical win.",
+      "A group of friends is meeting downtown on Saturday but does not know what to do first. They use BorderQuest to trigger a scavenger-style alliance mission that sends them to local landmarks, gives them competing objectives, and keeps everyone engaged while they explore together."
+    ]
+  },
+  {
+    "folder": "2026-03-21-pivot-circle",
+    "appName": "Pivot Circle",
+    "tagline": "Find your people before the moment passes.",
+    "designSystem": {
+      "primaryColor": "#7C4DFF",
+      "secondaryColor": "#FF5C6E",
+      "backgroundColor": "#F7F4FB",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Modern social-networking design with vibrant purple-violet brand identity, soft layered surfaces, expressive activity cards with color-coded pivot states, and a conversational bottom-sheet creation flow. Combines urgency cues (countdown timers, expiry badges) with warmth (avatar bubbles, emoji activity icons) to make spontaneous socializing feel safe and approachable."
+    },
+    "screens": [
+      "Discover \u2014 Browse nearby live pivots with activity filter pills, expiry timers, energy badges, and connect/like actions",
+      "Create Pivot (modal) \u2014 3-step bottom-sheet flow: choose activity \u2192 set social energy \u2192 configure duration and preview summary",
+      "Matches \u2014 Active pivot conversations with auto-expiring chat, meet-zone banner, safety indicators, and micro-community tracker",
+      "Profile \u2014 Personal stats, recent activity log, safety/verification settings, and light/dark theme toggle"
+    ],
+    "hasScreenshot": true,
+    "description": "Pivot Circle is a social networking app that connects people in the exact in-between moments of daily life, such as after a canceled plan, during a solo lunch break, or when moving to a new neighborhood. Instead of following influencers or browsing endless feeds, users post short-lived \"pivots\" that describe what they suddenly have free time for, what kind of company they want, and how far they\u2019re willing to travel. The app then matches them with nearby people whose timing, mood, and preferences align, making it easy to turn dead time into meaningful micro-connections. It solves the common problem of loneliness and logistical friction by making spontaneous socializing feel safe, structured, and low-pressure. For example, someone stuck downtown after a meeting can find a nearby person also free for a 20-minute coffee, or a new parent can discover another parent available for a stroller walk in the park. What makes Pivot Circle unique is that it prioritizes moment-to-moment compatibility over identity curation, creating a social network built around actual availability and intent rather than polished profiles. Over time, it helps users build a real-world social fabric from the small openings in their day.",
+    "features": [
+      "The app lets users create time-boxed availability posts called pivots, so people can signal exactly when they are free without committing to long plans.",
+      "It matches users based on location, schedule overlap, activity preference, and social energy level, which makes spontaneous meetups feel easier and safer.",
+      "It includes lightweight safety controls such as mutual verification, visible meeting zones, and auto-expiring chats, which help users meet strangers with confidence.",
+      "It offers context-based prompts like \"want a walk, coffee, or quiet coworking?\" so users can quickly decide how to turn free time into a real connection.",
+      "It tracks repeated positive interactions to suggest recurring micro-communities, helping casual one-off meetups grow into lasting friendships.",
+      "audience",
+      "Urban professionals, remote workers, recent movers, students, and parents aged roughly 20-45 who often have fragmented schedules and want more natural ways to meet people nearby. It is especially useful for people who are socially open but dislike the effort, uncertainty, and awkwardness of traditional event-based networking.",
+      "category",
+      "social networking",
+      "useCases\":[\"Sarah just finished a stressful meeting and has 40 minutes before her train, so she opens Pivot Circle and finds another nearby user also looking for a quick coffee and decompressing conversation. They meet at a station caf\u00e9, and what would have been dead time becomes a genuine human reset.\",\"Jay recently moved to a new city and does not want to wait weeks for an organized meetup, so he posts a pivot for a beginner-friendly park walk after work. The app connects him with two locals who share his route and hobbies, giving him an easy first foothold in the neighborhood.\",\"Mina is a parent whose babysitter canceled at the last minute, leaving her with a free afternoon and no energy for a big plan. She uses the app to find a nearby parent available for a stroller walk, which gives her adult conversation, fresh air, and a practical way to avoid feeling isolated.\"]}]}  \u0947\u043a\u0456\u043d\u0448\u0456 to=final \uff3f\u8001\u53f8\u673a \u0580\u0565\u056c json only}]}]}endphp```\u3011}]}}```json_here```}]}]}\u3011   \u0a98\u3011]}]}\u3011}]]}]  }]}}] } \uff3d}}}\u3011]}\u3011]}]} }]}]}]}] } }]} }}]}}]}}}} } } } \ud8f9\udedc```json{"
+    ],
+    "audience": "",
+    "category": "",
+    "useCases": []
+  },
+  {
+    "folder": "2026-03-21-fridge-forge",
+    "appName": "Fridge Forge",
+    "tagline": "Turn leftovers into dinner fast.",
+    "designSystem": {
+      "primaryColor": "#4EC97A",
+      "secondaryColor": "#FF7B3C",
+      "backgroundColor": "#131A13",
+      "fontFamily": "Nunito",
+      "style": "Dark-first organic UI with warm forest greens and amber-orange accents. Earthy tones reflect freshness and sustainability. Rounded corners and layered card surfaces create a friendly, approachable feel for home cooks."
+    },
+    "screens": [
+      "Fridge \u2014 ingredient list with spoilage risk indicators (urgent/soon/fresh), rescue alert banner, scan/voice/manual entry, filter tabs",
+      "Forge \u2014 AI recipe suggestions ranked by rescue score, ingredient chips with urgency highlights, full recipe detail view with step-by-step instructions and leftover plan",
+      "Plan \u2014 weekly meal plan with leftover chain visualization, waste-saved metric, smart suggestion cards",
+      "Settings \u2014 profile, cooking skill level selector, kitchen equipment toggles, dietary preferences, light/dark theme toggle"
+    ],
+    "hasScreenshot": true,
+    "description": "Fridge Forge helps home cooks transform scattered leftovers, half-used ingredients, and nearly-forgotten produce into complete, realistic meals. Instead of showing generic recipes, it scans what you actually have on hand, estimates what is likely to spoil soon, and suggests combinations that fit your time, skill level, and kitchen equipment. The app solves the common problem of food waste and last-minute takeout by turning ingredient chaos into a usable plan for tonight\u2019s dinner or tomorrow\u2019s lunch. For example, if you have chicken thighs, yogurt, spinach, and a lone lemon, it might suggest a one-pan herby yogurt chicken with a quick spinach salad and tell you exactly what can be substituted. If you only have a microwave and a cutting board, it adjusts suggestions to match that reality rather than pretending you have a full pantry. What makes it unique is its \u201crescue-first\u201d logic: it prioritizes saving ingredients before suggesting buying more, and it builds recipes around the constraints of the home, not an idealized chef kitchen.",
+    "features": [
+      "The app lets users quickly log fridge and pantry items by photo, voice, or barcode so meal planning starts with what is already available.",
+      "It ranks ingredients by spoilage risk and recommends meals that use up the most urgent items first, which helps cut waste and saves money.",
+      "It generates step-by-step recipe plans based on available tools, time limits, and skill level, making it practical for busy weeknights or beginner cooks.",
+      "It offers smart substitution guidance for missing ingredients, so users can keep cooking without an extra grocery trip.",
+      "It creates a leftover-to-lunch follow-up plan after dinner, helping users turn one cooking session into multiple meals with minimal effort.",
+      "audience: People ages 20\u201345 who cook at home occasionally or regularly, especially busy urban professionals, students, and families trying to reduce food waste and grocery spending.",
+      "category: \"food & cooking\"",
+      "useCases: [",
+      "\"Maya gets home late with wilted herbs, half a block of tofu, and some rice in the fridge, and she wants a fast dinner before heading to bed. Fridge Forge turns those ingredients into a 15-minute ginger rice bowl and tells her how to use the herbs before they go bad.\",",
+      "\"Jordan is hosting friends but doesn\u2019t want to spend extra money at the store. He opens the app, scans his fridge, and gets a dinner plan that stretches leftover vegetables, cheese, and tortillas into shareable quesadillas and a dip.\",",
+      "\"Alicia meal-preps on Sunday and notices she has yogurt, berries, and oats that will expire soon. She uses Fridge Forge to build breakfast jars and a snack plan for the workweek so nothing gets thrown away.\""
+    ],
+    "audience": "",
+    "category": "",
+    "useCases": []
   },
   {
     "folder": "2026-03-21-pulsecraft",
@@ -201,37 +412,143 @@
     ]
   },
   {
-    "folder": "2026-03-21-pulse-pantry",
-    "appName": "Pulse Pantry",
-    "tagline": "Turn meals into recovery.",
+    "folder": "2026-03-21-loop-pantry",
+    "appName": "Loop Pantry",
+    "tagline": "Turn leftovers into tomorrow's meals.",
     "designSystem": {
-      "primaryColor": "#7EE8A2",
-      "secondaryColor": "#F59E4A",
-      "backgroundColor": "#0f0f13",
-      "fontFamily": "Inter, Syne",
-      "style": "Dark health-tech UI with deep slate backgrounds, vibrant green primary accent for energy and recovery metrics, amber for warnings, subtle glassmorphism cards with soft glow borders, clean data visualization with animated progress rings and bar charts"
+      "primaryColor": "#5FB87A",
+      "secondaryColor": "#E8855A",
+      "backgroundColor": "#111811",
+      "fontFamily": "Nunito",
+      "style": "Earthy dark-first design with warm forest greens and terracotta accents. Clean card-based layouts with urgency-coded color indicators (red/amber/green). Rounded pill typography, soft glow shadows on urgent items, and gradient hero elements for key stats. Supports full light and dark themes."
     },
     "screens": [
-      "Today (Home) \u2014 Daily energy score ring, wearable recovery metrics grid, today's meal log with impact tags, context-aware nudge card",
-      "Log Meal \u2014 3-step guided flow: meal type selection, food search with recovery suggestions, context tagging with smart prediction",
-      "Patterns (Insights) \u2014 Weekly energy bar chart, filterable pattern cards with action CTAs, energy map teaser with habit triggers",
-      "Recovery Plan \u2014 Readiness score card with HRV/sleep data, day schedule timeline with completion states, habit streak grid"
+      "Pantry \u2013 Live urgency-coded ingredient map with scan options (photo, receipt, barcode), filter pills, and expiry progress bars",
+      "Recipes \u2013 Urgency-ranked recipe cards with energy selector, waste scores, expandable step-by-step instructions, and ingredient chips",
+      "Alerts \u2013 Rescue window notifications with dismissible alert cards, action chips (freeze/pickle/use), tip expansion, and household activity feed",
+      "Stats \u2013 Waste scoreboard with streak hero, money/CO\u2082/item metrics, weekly bar chart, household leaderboard, and category breakdown",
+      "Settings \u2013 Theme toggle (light/dark), household sync with invite, notification toggles, and cooking preferences"
     ],
     "hasScreenshot": true,
-    "description": "Pulse Pantry helps people understand how their food, stress, sleep, and movement are affecting their energy, recovery, and overall fitness in everyday life. Instead of just counting calories or steps, it uses quick meal logging, wearable data, and simple context prompts to identify patterns like why you feel sluggish after lunch, why your evening workouts underperform, or which breakfast keeps your focus steady. The app solves a real problem for busy users who want better health decisions but do not have time for complicated nutrition tracking or vague wellness advice. For example, it can suggest a post-run snack when your heart rate recovery is slow, recommend a lighter lunch before an afternoon meeting, or flag that a heavy meal is affecting sleep quality before your next workout. Its unique twist is that it translates your daily routine into recovery-aware recommendations, so users get practical guidance tied to how they actually feel and perform. Over time, Pulse Pantry builds a personalized \u201cenergy map\u201d that shows which food and habit combinations help you stay strong, focused, and consistent without strict dieting.",
+    "description": "Loop Pantry helps households cut food waste by turning what is already in the fridge into concrete meal plans before ingredients spoil. Users scan receipts or grocery bags, snap photos of leftovers, and log expiration dates, and the app builds a \u201cuse-first\u201d plan ranked by urgency, recipe fit, and effort. It solves the daily problem of opening the fridge, seeing random ingredients, and defaulting to takeout or tossing food that could still be used. In practice, the app might notice half a bunch of cilantro, two wrinkled tomatoes, and yogurt nearing its date, then suggest a 10-minute salsa bowl, a lunch wrap, or a freezer-saving marinade. What makes it unique is that it focuses on real household leftovers and partial ingredients, not just generic meal planning, and it adapts suggestions to the user\u2019s schedule, energy level, and available cookware. It also nudges users with timed reminders and \u201crescue windows,\u201d such as using berries tonight before they spoil or freezing herbs in oil if cooking is delayed. Over time, it learns a home\u2019s eating habits and reduces both waste and decision fatigue without requiring users to become obsessive inventory managers.",
     "features": [
-      "The app creates a daily energy score by combining meals, sleep, stress, movement, and wearable recovery data, so users can see what is helping or hurting their body in one place.",
-      "It offers instant meal-to-recovery suggestions after you log food, helping you decide whether you need hydration, protein, or a lighter next meal based on your recent activity.",
-      "It learns your personal patterns over time and highlights specific triggers, such as afternoon crashes after certain lunches or poor sleep after late intense workouts.",
-      "It provides context-aware nudges before key moments in the day, like recommending a pre-commute snack, a walking break after a large meal, or a recovery dinner after training.",
-      "It turns insights into simple action plans, giving users small habit changes they can follow without calorie counting, macro obsession, or complicated tracking."
+      "It automatically creates a live pantry map from receipt scans, barcode entries, and quick camera captures so users always know what needs attention first.",
+      "It generates urgency-ranked recipes based on expiry dates, prep time, and current leftovers, which helps users cook with less waste and less effort.",
+      "It sends smart \u201csave it now\u201d alerts for ingredients approaching spoilage and offers specific rescue actions like freezing, pickling, or repurposing them.",
+      "It includes a household waste scoreboard that translates discarded ingredients into estimated money and carbon saved, making progress visible and motivating.",
+      "It syncs with family members so everyone can add, use, or reserve ingredients in one shared view, preventing duplicate purchases and forgotten items."
     ],
-    "audience": "Busy adults ages 22-45 who want practical fitness and nutrition guidance without heavy manual tracking. It is especially useful for gym-goers, runners, remote workers, and people trying to manage energy, recovery, and consistency around demanding schedules.",
-    "category": "health & fitness",
+    "audience": "Busy adults, parents, and shared-household renters ages 20\u201350 who cook at home but struggle to keep track of groceries and leftovers. It is especially useful for people trying to save money, reduce waste, and eat more intentionally without spending extra time on meal planning.",
+    "category": "sustainability",
     "useCases": [
-      "Sarah just finished a stressful meeting and feels drained before her evening workout, so she opens the app to see whether a quick snack or hydration plan would improve her recovery and performance.",
-      "Jason had a heavy lunch before an afternoon of client calls and keeps getting sleepy, so he checks the app for a pattern and gets a recommendation for a better lunch combo tomorrow.",
-      "Maya is training for a 10K and wants to know why her sleep has been poor, so she uses the app to see whether late meals, intense workouts, or low recovery days are affecting her overnight rest."
+      "Sarah just finished a stressful meeting and realizes her spinach and mushrooms will go bad by tomorrow, so she opens Loop Pantry to get a 15-minute dinner recipe using exactly those ingredients. She taps the suggested \u201crescue now\u201d option and follows a quick skillet meal instead of ordering delivery.",
+      "Jamal comes home after a weekend trip and finds three partially used produce bags in his fridge, so he scans them and asks the app what can be frozen, cooked, or combined tonight. Loop Pantry tells him to blanch the broccoli, blend the herbs into pesto, and use the yogurt in a sauce before it expires.",
+      "A college apartment shares groceries but keeps forgetting what was already opened, so Priya checks the shared pantry view before shopping. The app shows they already have two cans of chickpeas and a nearly spoiled jar of salsa, helping her plan tacos that avoid duplicate purchases and waste."
+    ]
+  },
+  {
+    "folder": "2026-03-21-layover-loom",
+    "appName": "Layover Loom",
+    "tagline": "Turn dead travel time into useful time.",
+    "designSystem": {
+      "primaryColor": "#f4a130",
+      "secondaryColor": "#4b9cf5",
+      "backgroundColor": "#09101f",
+      "fontFamily": "Space Grotesk",
+      "style": "Dark-first functional travel UI with warm amber accents, clean card-based layouts, and a timeline-driven itinerary pattern. Micro-constraint inputs (luggage, energy, pace) drive a confidence-scored, time-pocket plan with live alert overlays."
+    },
+    "screens": [
+      "Home \u2014 Time Pocket hero with 47-min countdown, luggage + energy selectors, mini stats, and Loom My Time CTA",
+      "Plan \u2014 Confidence-scored timeline itinerary with walk/stop nodes, regenerate option, and on-time status",
+      "Explore \u2014 Category tabs (Food, Rest, Errands, Wander) with filter chips and constraint-aware place cards",
+      "Alerts \u2014 Live buffer status bar, gate change warnings, weather updates, and ranked alert feed",
+      "Settings \u2014 Theme toggle (dark/light), travel profile preferences, walking pace selector"
+    ],
+    "hasScreenshot": true,
+    "description": "Layover Loom helps travelers make the most of awkward gaps between flights, trains, and check-ins by building hyper-practical, time-aware micro-itineraries around their exact location, baggage situation, and energy level. Instead of suggesting generic attractions, it calculates what you can realistically do in 47 minutes with carry-on only, a rainstorm outside, and a boarding gate 18 minutes away. The app solves the real problem of wasted, stressful in-between time that often leaves travelers exhausted, bored, or anxious about missing their next connection. It helps daily by instantly translating travel downtime into options like a 12-minute local coffee crawl, a quick museum loop, a quiet nap pod, or a nearby pharmacy run before a long-haul flight. A business traveler at Tokyo Station might use it to find a power outlet and ramen spot within one transfer stop, while a family with a delayed connection in Dallas could locate a stroller-friendly walking path plus a kid-safe snack stop. What makes it unique is that it plans around micro-constraints most apps ignore, such as luggage drag, walking fatigue, re-entry time, weather shifts, and real-world transit buffers. Instead of trying to be a map or a booking engine, it behaves like a smart travel companion that turns uncertain gaps into calm, curated mini-adventures.",
+    "features": [
+      "The app generates a live 'time pocket' plan based on your exact minutes available, so it only suggests actions you can complete without stress.",
+      "It factors in luggage type, airport security re-entry times, weather, and walking pace to avoid recommending anything that is unrealistic.",
+      "It offers nearby options grouped by intent, such as food, rest, errands, or exploration, so users can choose based on what they actually need in the moment.",
+      "It sends automatic buffer warnings and route updates if delays, gate changes, or transit issues threaten your return on time.",
+      "It includes lightweight local recommendations like quiet cafes, shower rooms, luggage storage, and mini attractions that are often more useful than major tourist sights during short layovers."
+    ],
+    "audience": "Frequent flyers, business travelers, solo backpackers, and families who often face long layovers, train transfers, or pre-check-in gaps. It is especially useful for adults ages 18-55 who value convenience, timing, and low-stress travel planning.",
+    "category": "travel",
+    "useCases": [
+      "Maya lands in Singapore with a 3-hour layover and only a backpack, so she opens the app to see a 90-minute food loop, a nearby MRT route, and a safe return buffer that gets her back before boarding.",
+      "Jordan's train is delayed in Berlin, and he needs to stretch, charge his phone, and find coffee without wandering too far, so the app gives him a walkable sequence of a charger-friendly cafe, a park bench, and the correct platform exit.",
+      "A family of four arrives early for a resort check-in in Mexico City, and the parents use the app to find a stroller-friendly lunch stop, a clean restroom, and a short indoor activity that fits the kids' energy level."
+    ]
+  },
+  {
+    "folder": "2026-03-21-blockbridge",
+    "appName": "BlockBridge",
+    "tagline": "Meet neighbors through tiny shared wins.",
+    "designSystem": {
+      "primaryColor": "#FF6B47",
+      "secondaryColor": "#3ECFBF",
+      "backgroundColor": "#0D0F1A",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Dark-first neighborhood social app with warm coral accents, card-based feed layout, reciprocity gamification, and micro-interaction button states. Uses teal for offers/trust, amber for urgency/activity, and purple for trades. Pill tags, rounded cards, and a floating post button define the visual language."
+    },
+    "screens": [
+      "Feed \u2014 NeedCard stream with type filters (All/Need/Offer/Trade), neighbor activity strip, like and help actions",
+      "Match \u2014 Micro-Match compatibility cards with percentage scores, mutual help badges, and recent connections row",
+      "Post \u2014 3-step wizard (Type \u2192 Category \u2192 Details) with animated progress bar and time window picker",
+      "Circles \u2014 Community circle cards with live member counts, discover section, and quick join CTA",
+      "Profile \u2014 Reciprocity score dashboard, trust badges, exchange history, settings list, and theme toggle"
+    ],
+    "hasScreenshot": true,
+    "description": "BlockBridge helps people turn small, everyday needs into neighborhood micro-collaborations instead of isolated errands. The app lets users post short, practical \u201cneed moments\u201d like borrowing a step ladder, finding someone to water plants for two days, or splitting a bulk grocery order, then matches them with nearby neighbors based on trust, interests, and mutually helpful history. It solves the modern problem of living close to people without actually knowing them, which makes daily life more expensive, lonelier, and less resilient. A parent could quickly find another parent willing to trade a school pickup, while a new resident could ask for a local restaurant tip and offer to share spare printer ink in return. What makes it unique is that it focuses on tiny, safe, repeatable exchanges that build real community over time, rather than one-off social posts or broad neighborhood chatter. Each interaction adds to a \u201creciprocity profile\u201d that highlights reliability and helpfulness, making trust grow organically through action instead of popularity. The result is a community app that feels useful first and social second, which is why people keep coming back daily.",
+    "features": [
+      "Need Cards let users post small, specific requests or offers in seconds, making it easy to ask for help without writing a long message or joining a noisy group chat.",
+      "Reciprocity Profiles track helpful exchanges over time so neighbors can trust each other based on real actions, not follower counts or vague ratings.",
+      "Micro-Match suggestions pair users with nearby people who have complementary needs, such as someone offering extra basil matching someone looking to trade homegrown tomatoes.",
+      "Time-Locked Check-ins keep exchanges lightweight and safe by scheduling short-lived interactions with automatic reminders and quick confirmation after the task is done.",
+      "Community Circles organize people by apartment building, street, or shared routine, which helps turn scattered residents into practical support networks that feel local and personal."
+    ],
+    "audience": "Adults ages 22-45 living in apartments, dense suburbs, or walkable neighborhoods, especially renters, young families, and recent movers. It is also useful for people who want a stronger local support system without committing to formal volunteer groups or constant socializing.",
+    "category": "social & community",
+    "useCases": [
+      "Maya just moved into a new apartment and needs a drill for 10 minutes to mount shelves. She opens BlockBridge, finds a neighbor two floors down who offers tools, and ends up trading a homemade dinner voucher for the favor.",
+      "Andre is trying to cut grocery costs and wants to split a bulk warehouse order. He posts a Need Card for extra items, and three nearby households coordinate through the app to divide the purchase and pickup efficiently.",
+      "Leila has a last-minute work shift and needs someone to walk her dog for half an hour. She uses a time-locked request, matches with a trusted neighbor on the same block, and pays them back later by watering their balcony garden."
+    ]
+  },
+  {
+    "folder": "2026-03-21-fridgecipher",
+    "appName": "FridgeCipher",
+    "tagline": "Turn leftovers into dinner, instantly.",
+    "designSystem": {
+      "primaryColor": "#FF7A3D",
+      "secondaryColor": "#4ADE80",
+      "backgroundColor": "#0F1117",
+      "fontFamily": "Nunito",
+      "style": "Dark-first mobile app with warm orange primary accent, clean card-based layouts, and soft gradient backgrounds. Uses rounded corners, clear hierarchy, and micro-interactions to feel friendly and approachable for food and cooking contexts."
+    },
+    "screens": [
+      "Scan \u2014 Camera/barcode scan interface with AI detection, quick-add pills, urgency alert, and pantry shortcut",
+      "Pantry \u2014 Ingredient list with freshness indicators, category filters, stats row, and urgency sorting",
+      "Recipes \u2014 AI-matched recipe cards with smart constraint filters, ingredient pills, urgency tags, and waste savings",
+      "Recipe Detail \u2014 Cooking timeline with step-by-step interactive mode, ingredient list, meta cards, and done state",
+      "Tracker \u2014 Weekly savings bar chart, CO2/meal/streak stats, ingredient rescue list, and settings with theme toggle"
+    ],
+    "hasScreenshot": true,
+    "description": "FridgeCipher helps people cook great meals from what they already have by translating random fridge and pantry items into realistic, step-by-step recipes that fit their time, tools, and skill level. Instead of throwing together generic recipe suggestions, it understands ingredient age, quantities, and compatibility, then builds meals around what needs to be used first to reduce waste. A user can scan a few groceries, snap a photo of leftovers, and get a dinner plan like \"15-minute smoky rice bowls using half a bell pepper, canned chickpeas, and last night\u2019s roasted chicken.\" It also adapts to constraints such as one-pan cooking, picky eaters, low energy, or only having a microwave and an electric kettle. What makes it unique is that it doesn\u2019t just recommend recipes\u2014it prioritizes salvage, pairs ingredients by flavor chemistry, and creates a cooking sequence that minimizes waste and effort. Over time, it learns the household\u2019s habits and adjusts suggestions to favorite cuisines, shopping patterns, and ingredients that regularly go unused.",
+    "features": [
+      "The app scans fridge photos and grocery barcodes to identify ingredients, estimate freshness, and automatically rank what should be cooked first.",
+      "It generates recipes based on the exact ingredients available, so users can make dinner without needing a special trip to the store.",
+      "A smart constraint filter lets users choose options like under 20 minutes, no oven, kid-friendly, or budget meal, making the results practical on busy days.",
+      "The app creates a cooking timeline that tells users when to chop, heat, and combine ingredients, which reduces overwhelm and helps beginners cook confidently.",
+      "A waste tracker shows how much food and money was saved each week, giving users a clear reason to keep using the app and buy more intentionally."
+    ],
+    "audience": "Busy adults, young professionals, parents, and budget-conscious households who often have mixed leftovers or partially used ingredients at home. It is especially useful for people who want to eat better, waste less, and avoid last-minute takeout decisions after long days.",
+    "category": "food & cooking",
+    "useCases": [
+      "Maya gets home at 8 p.m. after a long shift and opens FridgeCipher to turn wilted spinach, two eggs, and leftover rice into a fast dinner instead of ordering delivery.",
+      "Jordan is trying to save money before payday and uses the app to figure out how to combine half a rotisserie chicken, canned beans, and tortilla scraps into two meals for the next day.",
+      "Alicia is hosting friends and wants to clean out her fridge first, so she scans what she has and gets a party-friendly flatbread recipe built around leftover vegetables and cheese."
     ]
   },
   {
@@ -267,6 +584,109 @@
       "Maya has been in back-to-back meetings for four hours and feels stiff, so she opens Pulse Pact to get a three-minute desk mobility reset and a reminder to take the stairs later.",
       "Jordan is waiting at the train platform after work and wants to keep his streak alive, so the app gives him a five-minute lower-body circuit he can do without changing clothes.",
       "Elena is a parent with only short windows between school pickup and dinner, so she uses the app to string together two-minute movement snacks that add up to a full workout by bedtime."
+    ]
+  },
+  {
+    "folder": "2026-03-21-scenescribe",
+    "appName": "SceneScribe",
+    "tagline": "Turn moments into creative prompts.",
+    "designSystem": {
+      "primaryColor": "#A855F7",
+      "secondaryColor": "#FB923C",
+      "backgroundColor": "#0C0B15",
+      "fontFamily": "Cormorant Garant + DM Sans",
+      "style": "Dark editorial with serif display headings and a purple-coral gradient accent system. High-contrast ink-on-void aesthetic that feels like a creative writer's journal meets a modern AI tool. Light theme flips to cream-white with deep violet \u2014 equally polished."
+    },
+    "screens": [
+      "Home / Capture \u2014 Quick capture row (Photo, Voice, Text), filterable moment feed with mood tags and color palettes",
+      "Prompt Alchemy \u2014 Select a moment, choose creative medium (Writing/Design/Brainstorm) and tone, generate structured prompts with story openings, dialogue, scene fragments, palette directions",
+      "Creative Trails \u2014 Visual timeline of idea threads linking related moments; drill into individual trails with branching timeline UI",
+      "Mood Map \u2014 Per-moment emotional spectrum bars (Tension/Warmth/Mystery/Energy), extracted color palettes, style cues, and Scene Builder preview",
+      "Profile \u2014 User stats, appearance toggle (dark/light), creative focus settings, notification preferences"
+    ],
+    "hasScreenshot": true,
+    "description": "SceneScribe is a mobile app that helps people capture real-life moments and instantly transform them into creative writing, design, or storytelling prompts. It solves the common problem of losing inspiration after a vivid experience by letting users record a quick voice note, photo, or short text, then converting that input into structured prompts, mood boards, character ideas, and scene fragments. In daily life, it helps poets, novelists, content creators, and hobbyists turn a commute view, a conversation snippet, or a strange object they notice into usable creative material before the idea disappears. For example, a user can snap a photo of a neon-lit diner and receive three different story openings, a palette suggestion, and a dialogue prompt based on the image. A freelance designer might record the feeling of a client's brand and get visual metaphors, typography directions, and campaign concepts. What makes SceneScribe unique is that it does not just store inspiration like a notes app; it interprets everyday moments into creative building blocks tailored to the user\u2019s chosen medium and tone.",
+    "features": [
+      "Moment Capture lets users quickly save a photo, voice memo, or short text note from a real-world experience, because the app is designed to catch inspiration before it fades.",
+      "Prompt Alchemy transforms each captured moment into custom writing, art, or brainstorming prompts, helping users jump from observation to creation in seconds.",
+      "Mood Mapping analyzes colors, words, and ambience from a saved moment to generate emotional themes and style cues, which matters when users want their work to feel cohesive.",
+      "Scene Builder assembles captured fragments into editable outlines for stories, ad concepts, or social posts, saving time for users who struggle to organize raw inspiration.",
+      "Creative Trails links related moments over time into evolving idea threads, so users can revisit and develop a theme from a single spark into a full project."
+    ],
+    "audience": "Writers, visual artists, students, marketers, and independent creators ages 18-45 who frequently draw inspiration from everyday life. It is especially useful for people who are mobile, busy, and want a fast way to preserve and reshape ideas while on the go.",
+    "category": "creative tools",
+    "useCases": [
+      "Maya is on her train home when she overhears a strange, emotional conversation and wants to use it in a short story later. She records a voice note, and SceneScribe turns it into character conflict ideas and a setting prompt.",
+      "Jordan is a social media manager walking past a rain-soaked storefront with dramatic reflections and needs fresh campaign visuals. He snaps a photo, and the app generates color palette suggestions, headline angles, and aesthetic references.",
+      "Elena, a college student, feels inspired after a chaotic late-night market visit but knows she will forget the details by morning. She saves quick notes and later opens the app to find a ready-made poem outline and sensory imagery prompts."
+    ]
+  },
+  {
+    "folder": "2026-03-21-task-tide",
+    "appName": "Task Tide",
+    "tagline": "Flow your day around reality.",
+    "designSystem": {
+      "primaryColor": "#00DFA2",
+      "secondaryColor": "#8B7FFF",
+      "backgroundColor": "#070B12",
+      "fontFamily": "Space Grotesk, Inter",
+      "style": "Deep ocean dark UI with bioluminescent mint-green accents. Glassmorphism cards with subtle glows and gradient overlays. High contrast typography hierarchy. Purple used for moment slots, orange for alerts, cyan for location context. Minimalist and calm to support focus."
+    },
+    "screens": [
+      "Now - Live context card with best-match task hero, context chips (location, energy, weather), expandable moment slots, and day repack notice",
+      "Tasks - Scored task list with energy-level dots, fit score progress bars, filter chips by type, and tap-to-complete checkbox interactions",
+      "Tide - Day timeline with past/current/future/slot event types, adaptive repack badges, matched task chips, and dot+line visual track",
+      "Insights - Productivity stats grid, focus bar chart by hour, weekly heatmap, and learned behavior pattern cards"
+    ],
+    "hasScreenshot": true,
+    "description": "Task Tide is a productivity app that reshapes your to-do list around the way your day actually unfolds, instead of how you hoped it would. It connects with your calendar, location, weather, commute, and focus patterns to automatically suggest the best next task when you have an unexpected gap, low-energy moment, or sudden change in plans. The app solves a common problem: most task managers fail because they treat every task as equally doable at any time, which leads to decision fatigue and abandoned plans. In daily life, it helps users make smarter micro-decisions like choosing a 7-minute email cleanup while waiting for coffee, moving a deep-work task to a quieter time after a noisy morning, or surfacing errands near their next appointment. What makes it unique is that it plans work in \u201cmoment slots\u201d rather than rigid blocks, matching task type to the real-world conditions you are in right now. For example, a user in a noisy train station might get admin tasks, while a person with 25 free minutes and perfect concentration might get a writing task they have been postponing. Instead of asking users to build an ideal schedule, Task Tide quietly adapts the day as life changes, turning fragments of time into meaningful progress.",
+    "features": [
+      "The app continuously scores tasks by duration, energy level, location relevance, and interruption tolerance so it can recommend the most realistic next action at any moment.",
+      "It detects sudden schedule changes, like meetings ending early or a delayed commute, and instantly repacks your day around the new available time.",
+      "It offers a 'moment slot' mode that turns tiny openings of 3 to 30 minutes into actionable task suggestions, which helps users stop wasting in-between time.",
+      "The app learns your personal productivity patterns over time, such as when you write best, when you answer messages fastest, and when you tend to procrastinate.",
+      "It groups nearby errands and context-specific tasks together, reducing mental overhead by suggesting what to do while you are already in the right place."
+    ],
+    "audience": "Busy professionals, freelance workers, graduate students, and parents aged roughly 22-45 who juggle shifting schedules and need a smarter way to use fragmented time. It is especially useful for people whose days are often disrupted by meetings, caregiving, travel, or irregular work patterns.",
+    "category": "productivity",
+    "useCases": [
+      "Sarah just finished a stressful meeting 15 minutes early and opens the app to see that her best option is a quick invoice review, because her next appointment is too short for deep work but perfect for admin tasks.",
+      "Jamal is stuck on a delayed train and wants to avoid wasting the commute, so he opens the app and gets a phone-friendly suggestion to clear low-priority emails and draft a grocery list for later.",
+      "Priya has one free hour between classes and an afternoon weather alert says it will rain soon, so she uses the app to combine a pharmacy run, a library drop-off, and a focused reading session into one efficient plan."
+    ]
+  },
+  {
+    "folder": "2026-03-21-pulse-pantry",
+    "appName": "Pulse Pantry",
+    "tagline": "Turn meals into recovery.",
+    "designSystem": {
+      "primaryColor": "#7EE8A2",
+      "secondaryColor": "#F59E4A",
+      "backgroundColor": "#0f0f13",
+      "fontFamily": "Inter, Syne",
+      "style": "Dark health-tech UI with deep slate backgrounds, vibrant green primary accent for energy and recovery metrics, amber for warnings, subtle glassmorphism cards with soft glow borders, clean data visualization with animated progress rings and bar charts"
+    },
+    "screens": [
+      "Today (Home) \u2014 Daily energy score ring, wearable recovery metrics grid, today's meal log with impact tags, context-aware nudge card",
+      "Log Meal \u2014 3-step guided flow: meal type selection, food search with recovery suggestions, context tagging with smart prediction",
+      "Patterns (Insights) \u2014 Weekly energy bar chart, filterable pattern cards with action CTAs, energy map teaser with habit triggers",
+      "Recovery Plan \u2014 Readiness score card with HRV/sleep data, day schedule timeline with completion states, habit streak grid"
+    ],
+    "hasScreenshot": true,
+    "description": "Pulse Pantry helps people understand how their food, stress, sleep, and movement are affecting their energy, recovery, and overall fitness in everyday life. Instead of just counting calories or steps, it uses quick meal logging, wearable data, and simple context prompts to identify patterns like why you feel sluggish after lunch, why your evening workouts underperform, or which breakfast keeps your focus steady. The app solves a real problem for busy users who want better health decisions but do not have time for complicated nutrition tracking or vague wellness advice. For example, it can suggest a post-run snack when your heart rate recovery is slow, recommend a lighter lunch before an afternoon meeting, or flag that a heavy meal is affecting sleep quality before your next workout. Its unique twist is that it translates your daily routine into recovery-aware recommendations, so users get practical guidance tied to how they actually feel and perform. Over time, Pulse Pantry builds a personalized \u201cenergy map\u201d that shows which food and habit combinations help you stay strong, focused, and consistent without strict dieting.",
+    "features": [
+      "The app creates a daily energy score by combining meals, sleep, stress, movement, and wearable recovery data, so users can see what is helping or hurting their body in one place.",
+      "It offers instant meal-to-recovery suggestions after you log food, helping you decide whether you need hydration, protein, or a lighter next meal based on your recent activity.",
+      "It learns your personal patterns over time and highlights specific triggers, such as afternoon crashes after certain lunches or poor sleep after late intense workouts.",
+      "It provides context-aware nudges before key moments in the day, like recommending a pre-commute snack, a walking break after a large meal, or a recovery dinner after training.",
+      "It turns insights into simple action plans, giving users small habit changes they can follow without calorie counting, macro obsession, or complicated tracking."
+    ],
+    "audience": "Busy adults ages 22-45 who want practical fitness and nutrition guidance without heavy manual tracking. It is especially useful for gym-goers, runners, remote workers, and people trying to manage energy, recovery, and consistency around demanding schedules.",
+    "category": "health & fitness",
+    "useCases": [
+      "Sarah just finished a stressful meeting and feels drained before her evening workout, so she opens the app to see whether a quick snack or hydration plan would improve her recovery and performance.",
+      "Jason had a heavy lunch before an afternoon of client calls and keeps getting sleepy, so he checks the app for a pattern and gets a recommendation for a better lunch combo tomorrow.",
+      "Maya is training for a 10K and wants to know why her sleep has been poor, so she uses the app to see whether late meals, intense workouts, or low recovery days are affecting her overnight rest."
     ]
   },
   {
@@ -374,75 +794,6 @@
       "Sarah just finished a stressful meeting and has eight minutes before her next call, so she opens PlotPulse and starts a witty detective mini-story to reset her mood.",
       "Marco is waiting for his train during a rainy commute and wants something more engaging than scrolling social media, so he plays a location-based sci-fi episode set in a shadowy transit hub.",
       "Amina is sitting at a coffee shop while her friend is late, and she uses the app to enjoy a spooky choose-your-own-ending story that fits the cozy, dim environment around her."
-    ]
-  },
-  {
-    "folder": "2026-03-21-pivot-circle",
-    "appName": "Pivot Circle",
-    "tagline": "Find your people before the moment passes.",
-    "designSystem": {
-      "primaryColor": "#7C4DFF",
-      "secondaryColor": "#FF5C6E",
-      "backgroundColor": "#F7F4FB",
-      "fontFamily": "Plus Jakarta Sans",
-      "style": "Modern social-networking design with vibrant purple-violet brand identity, soft layered surfaces, expressive activity cards with color-coded pivot states, and a conversational bottom-sheet creation flow. Combines urgency cues (countdown timers, expiry badges) with warmth (avatar bubbles, emoji activity icons) to make spontaneous socializing feel safe and approachable."
-    },
-    "screens": [
-      "Discover \u2014 Browse nearby live pivots with activity filter pills, expiry timers, energy badges, and connect/like actions",
-      "Create Pivot (modal) \u2014 3-step bottom-sheet flow: choose activity \u2192 set social energy \u2192 configure duration and preview summary",
-      "Matches \u2014 Active pivot conversations with auto-expiring chat, meet-zone banner, safety indicators, and micro-community tracker",
-      "Profile \u2014 Personal stats, recent activity log, safety/verification settings, and light/dark theme toggle"
-    ],
-    "hasScreenshot": true,
-    "description": "Pivot Circle is a social networking app that connects people in the exact in-between moments of daily life, such as after a canceled plan, during a solo lunch break, or when moving to a new neighborhood. Instead of following influencers or browsing endless feeds, users post short-lived \"pivots\" that describe what they suddenly have free time for, what kind of company they want, and how far they\u2019re willing to travel. The app then matches them with nearby people whose timing, mood, and preferences align, making it easy to turn dead time into meaningful micro-connections. It solves the common problem of loneliness and logistical friction by making spontaneous socializing feel safe, structured, and low-pressure. For example, someone stuck downtown after a meeting can find a nearby person also free for a 20-minute coffee, or a new parent can discover another parent available for a stroller walk in the park. What makes Pivot Circle unique is that it prioritizes moment-to-moment compatibility over identity curation, creating a social network built around actual availability and intent rather than polished profiles. Over time, it helps users build a real-world social fabric from the small openings in their day.",
-    "features": [
-      "The app lets users create time-boxed availability posts called pivots, so people can signal exactly when they are free without committing to long plans.",
-      "It matches users based on location, schedule overlap, activity preference, and social energy level, which makes spontaneous meetups feel easier and safer.",
-      "It includes lightweight safety controls such as mutual verification, visible meeting zones, and auto-expiring chats, which help users meet strangers with confidence.",
-      "It offers context-based prompts like \"want a walk, coffee, or quiet coworking?\" so users can quickly decide how to turn free time into a real connection.",
-      "It tracks repeated positive interactions to suggest recurring micro-communities, helping casual one-off meetups grow into lasting friendships.",
-      "audience",
-      "Urban professionals, remote workers, recent movers, students, and parents aged roughly 20-45 who often have fragmented schedules and want more natural ways to meet people nearby. It is especially useful for people who are socially open but dislike the effort, uncertainty, and awkwardness of traditional event-based networking.",
-      "category",
-      "social networking",
-      "useCases\":[\"Sarah just finished a stressful meeting and has 40 minutes before her train, so she opens Pivot Circle and finds another nearby user also looking for a quick coffee and decompressing conversation. They meet at a station caf\u00e9, and what would have been dead time becomes a genuine human reset.\",\"Jay recently moved to a new city and does not want to wait weeks for an organized meetup, so he posts a pivot for a beginner-friendly park walk after work. The app connects him with two locals who share his route and hobbies, giving him an easy first foothold in the neighborhood.\",\"Mina is a parent whose babysitter canceled at the last minute, leaving her with a free afternoon and no energy for a big plan. She uses the app to find a nearby parent available for a stroller walk, which gives her adult conversation, fresh air, and a practical way to avoid feeling isolated.\"]}]}  \u0947\u043a\u0456\u043d\u0448\u0456 to=final \uff3f\u8001\u53f8\u673a \u0580\u0565\u056c json only}]}]}endphp```\u3011}]}}```json_here```}]}]}\u3011   \u0a98\u3011]}]}\u3011}]]}]  }]}}] } \uff3d}}}\u3011]}\u3011]}]} }]}]}]}] } }]} }}]}}]}}}} } } } \ud8f9\udedc```json{"
-    ],
-    "audience": "",
-    "category": "",
-    "useCases": []
-  },
-  {
-    "folder": "2026-03-21-pagepulse",
-    "appName": "PagePulse",
-    "tagline": "Turn headlines into your next smart move.",
-    "designSystem": {
-      "primaryColor": "#6C47FF",
-      "secondaryColor": "#10B981",
-      "backgroundColor": "#F5F3FF",
-      "fontFamily": "Plus Jakarta Sans",
-      "style": "Modern editorial with vibrant violet-purple accent. Clean card-based layout with layered information hierarchy, soft gradient headers, and micro-interaction press effects. Light mode features soft lavender backgrounds with white cards; dark mode uses deep navy-purple surfaces with elevated contrast."
-    },
-    "screens": [
-      "Today Feed \u2014 Daily action feed with impact-scored stories, expandable depth layers, and actionable checklist",
-      "Context Lens \u2014 Situational story groupings (Commuting, Family, Career, Money, Home, Health) with active context banner",
-      "My Boards \u2014 Pinned story boards for tracking developing coverage across life situations",
-      "Settings \u2014 Profile overview, light/dark theme toggle, content source management, and notification preferences"
-    ],
-    "hasScreenshot": true,
-    "description": "PagePulse is a mobile reading app that transforms magazines and newspapers into a personalized daily decision engine. Instead of simply feeding users more articles, it maps stories to their immediate context\u2014like commuting, parenting, job hunting, or managing money\u2014and highlights what is actually useful right now. A busy parent could see which school policy story affects their district, while a freelancer could get a concise digest of economic headlines tied to upcoming invoices and tax deadlines. The app solves the common problem of news overload by filtering content into actionable, situational briefs that help users make better choices throughout the day. What makes it unique is its \"context lens,\" which rewrites editorial content into practical takeaways without losing the original reporting, and lets users save, compare, or revisit stories based on life situations rather than categories alone. It also blends magazine-style depth with newspaper timeliness, so users get both the bigger picture and the immediate next step.",
-    "features": [
-      "The context lens automatically groups stories by real-life situations, such as commuting, family planning, or career moves, so users see news that matches what they are dealing with right now.",
-      "The app converts long-form articles into layered summaries that start with a two-line answer, then expand into key facts and source excerpts for users who want more depth.",
-      "A daily action feed turns selected stories into practical suggestions, such as reminder prompts, checklist items, or follow-up questions, which helps readers apply the news instead of just consuming it.",
-      "Users can pin stories to personal boards like 'home buying' or 'school district,' making it easy to track developing coverage across newspapers and magazines in one place.",
-      "An impact meter shows how relevant each story is to a user's location, finances, job, or interests, which matters because it helps people prioritize attention in a crowded media environment."
-    ],
-    "audience": "PagePulse is for busy adults ages 22-50 who regularly skim news but struggle to keep up with what matters most. It fits commuters, parents, freelancers, managers, and early-career professionals who want smarter reading without spending hours searching.",
-    "category": "magazines & newspapers",
-    "useCases": [
-      "Sarah just finished a stressful meeting and wants to know whether the new housing policy article affects her upcoming apartment search, so she opens PagePulse and jumps straight to the relevant takeaway.",
-      "Marcus is riding the train to work and has only ten minutes, so he asks the app for a short, work-focused digest of business headlines that might influence his client's budget decision.",
-      "Nina is planning next month's family expenses and opens PagePulse to track consumer-price coverage, saving the stories that could help her decide when to renew subscriptions or delay a purchase."
     ]
   },
   {
@@ -562,40 +913,6 @@
     ]
   },
   {
-    "folder": "2026-03-21-moodnest",
-    "appName": "MoodNest",
-    "tagline": "Turn chaos into calm rituals.",
-    "designSystem": {
-      "primaryColor": "#7C3AED",
-      "secondaryColor": "#A855F7",
-      "backgroundColor": "#F4F1FF",
-      "fontFamily": "Plus Jakarta Sans",
-      "style": "Soft card-based UI with violet/purple accent palette, rounded corners (18-24px), gradient hero elements, and a calm, intentional visual hierarchy. Light mode uses warm lavender backgrounds; dark mode uses deep navy-purple surfaces. Micro-interactions via press scale effects and smooth toggle animations."
-    },
-    "screens": [
-      "Home / Check-in (3-step mood + situation + time flow leading to a personalized ritual)",
-      "Active Ritual (step-by-step ritual runner with countdown timer, progress bar, and completion celebration)",
-      "Discover (category grid, featured rituals carousel, and trending rituals list)",
-      "Playbook (personal saved ritual collection with usage stats and mood insights)",
-      "Settings / Profile (theme toggle, notification preferences, streak display, and app info)"
-    ],
-    "hasScreenshot": true,
-    "description": "MoodNest is a lifestyle app that helps people create micro-rituals for everyday moments of emotional overwhelm, decision fatigue, and scattered routines. Instead of tracking habits in a generic way, it detects the kind of situation you're in, such as a tense workday, post-argument slump, or Sunday night dread, and offers a tiny, personalized reset plan that fits the moment. The app solves the common problem of knowing you need to feel better but not knowing what to do that actually works in real life. It helps users by turning vague intentions like \"relax more\" into concrete actions, such as a three-minute desk decompression, a frictionless grocery-day wind-down, or a pre-sleep ritual built around their energy level, environment, and available time. A person preparing for a big presentation might get a breathing prompt, a 90-second posture reset, and a confidence cue; someone recovering from a hard social interaction might get a sensory grounding routine and a short boundary-setting reflection. What makes MoodNest unique is that it treats emotional maintenance like a contextual design problem, blending mood signals, time constraints, and daily habits into highly specific, practical rituals instead of generic meditation or to-do lists.",
-    "features": [
-      "The app creates instant micro-rituals based on your current situation, so users get something realistic they can do in under five minutes when life feels too busy.",
-      "It learns which resets actually help you, then adapts future suggestions to match your stress patterns, energy level, and preferred style of support.",
-      "It uses a moment-based check-in system that asks what just happened, what you have next, and how much time you can spare, which keeps recommendations useful instead of abstract.",
-      "It includes tailored rituals for common life friction points like post-commute decompression, social anxiety before events, and late-night overthinking, making it practical for daily use.",
-      "It saves your best rituals as a personal playbook, so you can quickly reuse the things that help most without having to remember them in the moment.",
-      "audience",
-      "category",
-      "useCases"
-    ],
-    "audience": "",
-    "category": "",
-    "useCases": []
-  },
-  {
     "folder": "2026-03-21-mood-mosaic",
     "appName": "Mood Mosaic",
     "tagline": "Turn fleeting feelings into visual ideas.",
@@ -667,41 +984,6 @@
     ]
   },
   {
-    "folder": "2026-03-21-loop-pantry",
-    "appName": "Loop Pantry",
-    "tagline": "Turn leftovers into tomorrow's meals.",
-    "designSystem": {
-      "primaryColor": "#5FB87A",
-      "secondaryColor": "#E8855A",
-      "backgroundColor": "#111811",
-      "fontFamily": "Nunito",
-      "style": "Earthy dark-first design with warm forest greens and terracotta accents. Clean card-based layouts with urgency-coded color indicators (red/amber/green). Rounded pill typography, soft glow shadows on urgent items, and gradient hero elements for key stats. Supports full light and dark themes."
-    },
-    "screens": [
-      "Pantry \u2013 Live urgency-coded ingredient map with scan options (photo, receipt, barcode), filter pills, and expiry progress bars",
-      "Recipes \u2013 Urgency-ranked recipe cards with energy selector, waste scores, expandable step-by-step instructions, and ingredient chips",
-      "Alerts \u2013 Rescue window notifications with dismissible alert cards, action chips (freeze/pickle/use), tip expansion, and household activity feed",
-      "Stats \u2013 Waste scoreboard with streak hero, money/CO\u2082/item metrics, weekly bar chart, household leaderboard, and category breakdown",
-      "Settings \u2013 Theme toggle (light/dark), household sync with invite, notification toggles, and cooking preferences"
-    ],
-    "hasScreenshot": true,
-    "description": "Loop Pantry helps households cut food waste by turning what is already in the fridge into concrete meal plans before ingredients spoil. Users scan receipts or grocery bags, snap photos of leftovers, and log expiration dates, and the app builds a \u201cuse-first\u201d plan ranked by urgency, recipe fit, and effort. It solves the daily problem of opening the fridge, seeing random ingredients, and defaulting to takeout or tossing food that could still be used. In practice, the app might notice half a bunch of cilantro, two wrinkled tomatoes, and yogurt nearing its date, then suggest a 10-minute salsa bowl, a lunch wrap, or a freezer-saving marinade. What makes it unique is that it focuses on real household leftovers and partial ingredients, not just generic meal planning, and it adapts suggestions to the user\u2019s schedule, energy level, and available cookware. It also nudges users with timed reminders and \u201crescue windows,\u201d such as using berries tonight before they spoil or freezing herbs in oil if cooking is delayed. Over time, it learns a home\u2019s eating habits and reduces both waste and decision fatigue without requiring users to become obsessive inventory managers.",
-    "features": [
-      "It automatically creates a live pantry map from receipt scans, barcode entries, and quick camera captures so users always know what needs attention first.",
-      "It generates urgency-ranked recipes based on expiry dates, prep time, and current leftovers, which helps users cook with less waste and less effort.",
-      "It sends smart \u201csave it now\u201d alerts for ingredients approaching spoilage and offers specific rescue actions like freezing, pickling, or repurposing them.",
-      "It includes a household waste scoreboard that translates discarded ingredients into estimated money and carbon saved, making progress visible and motivating.",
-      "It syncs with family members so everyone can add, use, or reserve ingredients in one shared view, preventing duplicate purchases and forgotten items."
-    ],
-    "audience": "Busy adults, parents, and shared-household renters ages 20\u201350 who cook at home but struggle to keep track of groceries and leftovers. It is especially useful for people trying to save money, reduce waste, and eat more intentionally without spending extra time on meal planning.",
-    "category": "sustainability",
-    "useCases": [
-      "Sarah just finished a stressful meeting and realizes her spinach and mushrooms will go bad by tomorrow, so she opens Loop Pantry to get a 15-minute dinner recipe using exactly those ingredients. She taps the suggested \u201crescue now\u201d option and follows a quick skillet meal instead of ordering delivery.",
-      "Jamal comes home after a weekend trip and finds three partially used produce bags in his fridge, so he scans them and asks the app what can be frozen, cooked, or combined tonight. Loop Pantry tells him to blanch the broccoli, blend the herbs into pesto, and use the yogurt in a sauce before it expires.",
-      "A college apartment shares groceries but keeps forgetting what was already opened, so Priya checks the shared pantry view before shopping. The app shows they already have two cans of chickpeas and a nearly spoiled jar of salsa, helping her plan tacos that avoid duplicate purchases and waste."
-    ]
-  },
-  {
     "folder": "2026-03-21-leftover-lore",
     "appName": "Leftover Lore",
     "tagline": "Turn scraps into dinner, instantly.",
@@ -768,41 +1050,6 @@
     ]
   },
   {
-    "folder": "2026-03-21-layover-loom",
-    "appName": "Layover Loom",
-    "tagline": "Turn dead travel time into useful time.",
-    "designSystem": {
-      "primaryColor": "#f4a130",
-      "secondaryColor": "#4b9cf5",
-      "backgroundColor": "#09101f",
-      "fontFamily": "Space Grotesk",
-      "style": "Dark-first functional travel UI with warm amber accents, clean card-based layouts, and a timeline-driven itinerary pattern. Micro-constraint inputs (luggage, energy, pace) drive a confidence-scored, time-pocket plan with live alert overlays."
-    },
-    "screens": [
-      "Home \u2014 Time Pocket hero with 47-min countdown, luggage + energy selectors, mini stats, and Loom My Time CTA",
-      "Plan \u2014 Confidence-scored timeline itinerary with walk/stop nodes, regenerate option, and on-time status",
-      "Explore \u2014 Category tabs (Food, Rest, Errands, Wander) with filter chips and constraint-aware place cards",
-      "Alerts \u2014 Live buffer status bar, gate change warnings, weather updates, and ranked alert feed",
-      "Settings \u2014 Theme toggle (dark/light), travel profile preferences, walking pace selector"
-    ],
-    "hasScreenshot": true,
-    "description": "Layover Loom helps travelers make the most of awkward gaps between flights, trains, and check-ins by building hyper-practical, time-aware micro-itineraries around their exact location, baggage situation, and energy level. Instead of suggesting generic attractions, it calculates what you can realistically do in 47 minutes with carry-on only, a rainstorm outside, and a boarding gate 18 minutes away. The app solves the real problem of wasted, stressful in-between time that often leaves travelers exhausted, bored, or anxious about missing their next connection. It helps daily by instantly translating travel downtime into options like a 12-minute local coffee crawl, a quick museum loop, a quiet nap pod, or a nearby pharmacy run before a long-haul flight. A business traveler at Tokyo Station might use it to find a power outlet and ramen spot within one transfer stop, while a family with a delayed connection in Dallas could locate a stroller-friendly walking path plus a kid-safe snack stop. What makes it unique is that it plans around micro-constraints most apps ignore, such as luggage drag, walking fatigue, re-entry time, weather shifts, and real-world transit buffers. Instead of trying to be a map or a booking engine, it behaves like a smart travel companion that turns uncertain gaps into calm, curated mini-adventures.",
-    "features": [
-      "The app generates a live 'time pocket' plan based on your exact minutes available, so it only suggests actions you can complete without stress.",
-      "It factors in luggage type, airport security re-entry times, weather, and walking pace to avoid recommending anything that is unrealistic.",
-      "It offers nearby options grouped by intent, such as food, rest, errands, or exploration, so users can choose based on what they actually need in the moment.",
-      "It sends automatic buffer warnings and route updates if delays, gate changes, or transit issues threaten your return on time.",
-      "It includes lightweight local recommendations like quiet cafes, shower rooms, luggage storage, and mini attractions that are often more useful than major tourist sights during short layovers."
-    ],
-    "audience": "Frequent flyers, business travelers, solo backpackers, and families who often face long layovers, train transfers, or pre-check-in gaps. It is especially useful for adults ages 18-55 who value convenience, timing, and low-stress travel planning.",
-    "category": "travel",
-    "useCases": [
-      "Maya lands in Singapore with a 3-hour layover and only a backpack, so she opens the app to see a 90-minute food loop, a nearby MRT route, and a safe return buffer that gets her back before boarding.",
-      "Jordan's train is delayed in Berlin, and he needs to stretch, charge his phone, and find coffee without wandering too far, so the app gives him a walkable sequence of a charger-friendly cafe, a park bench, and the correct platform exit.",
-      "A family of four arrives early for a resort check-in in Mexico City, and the parents use the app to find a stroller-friendly lunch stop, a clean restroom, and a short indoor activity that fits the kids' energy level."
-    ]
-  },
-  {
     "folder": "2026-03-21-layover-lens",
     "appName": "Layover Lens",
     "tagline": "Turn airport downtime into local discovery.",
@@ -834,41 +1081,6 @@
       "Priya has a seven-hour layover in Seoul after an overnight flight and wants to avoid spending the whole morning at the gate, so she opens the app to find a short food-and-walk itinerary that fits her tired energy level. It shows her a subway-based route, a restaurant with storage for her backpack, and a safe return time to the airport.",
       "Marcus\u2019s flight to Lisbon gets delayed, shrinking his connection to barely five hours, and he wonders if he can still leave the airport. He opens the app, which recalculates his window and suggests a nearby waterfront caf\u00e9 visit instead of the museum plan it originally built.",
       "Elena lands in Doha with a suitcase, a remote work deadline, and a few free hours before her next flight, so she uses the app to find a quiet lounge-like neighborhood stop with strong Wi-Fi, coffee, and a reliable airport-return buffer."
-    ]
-  },
-  {
-    "folder": "2026-03-21-grid-tactix",
-    "appName": "Grid Tactix",
-    "tagline": "Turn everyday chaos into smart wins.",
-    "designSystem": {
-      "primaryColor": "#6C3BFF",
-      "secondaryColor": "#FF6B2C",
-      "backgroundColor": "#F0F4F8",
-      "fontFamily": "Space Grotesk",
-      "style": "Modern strategy game UI with vibrant purple-violet primary palette, orange accent, card-based layouts, stat bars, and city grid visualization. Features both light and dark themes with gradient hero cards and micro-interactions."
-    },
-    "screens": [
-      "Home \u2014 Daily missions, city health overview, streak tracker, and weekly progress stats",
-      "Play \u2014 Active scenario with crisis briefing, consequence preview, 3-choice decision system, and impact reveal",
-      "Map \u2014 3x3 city grid priority map with status indicators, hidden dependency graph, and critical alerts",
-      "Replay \u2014 Round-by-round reflection with decision breakdown, outcome analysis, strategic insight, and real-world connection",
-      "Profile \u2014 User stats, theme toggle, difficulty selector, achievements, and app settings"
-    ],
-    "hasScreenshot": true,
-    "description": "Grid Tactix is a strategy game where players manage a living city grid under constant pressure from traffic, power spikes, weather, and public demand. The core problem it solves is helping people practice prioritization, resource allocation, and long-term planning in a low-stakes but emotionally engaging way. Each session presents a realistic scenario, such as rerouting ambulances during a subway outage or balancing flood barriers against a power shortage, and players must make tradeoffs that mirror real-world decision-making. It helps users in daily life by training them to think several steps ahead, weigh consequences, and stay calm when multiple problems compete for attention. The game includes short daily missions that fit into a commute or coffee break, making it easy to build strategic thinking habits over time. What makes it unique is that it blends city-management mechanics with real behavioral patterns, so choices are influenced by urgency, hidden dependencies, and limited attention rather than simple points alone. Unlike typical strategy games, it translates everyday complexity into bite-sized dilemmas that feel relevant to work, family logistics, and personal planning.",
-    "features": [
-      "Adaptive scenario generation creates new city crises based on difficulty level, so every session feels fresh and trains different kinds of planning under pressure.",
-      "A consequence preview system shows delayed impacts of choices, helping players understand how small decisions ripple across traffic, energy, safety, and citizen morale.",
-      "Daily micro-campaigns let users complete meaningful strategy challenges in 3 to 5 minutes, which makes the app practical for busy schedules.",
-      "A priority map highlights competing goals without revealing the best answer, forcing players to develop judgment instead of relying on obvious prompts.",
-      "A reflection replay breaks down each decision after the round and explains why certain strategies worked, turning the game into a tool for improving real-world decision-making."
-    ],
-    "audience": "Busy adults and older teens ages 16-40 who enjoy strategy games and want a mentally engaging way to sharpen planning skills. It is especially appealing to students, managers, parents, and commuters looking for short, thoughtful gameplay sessions.",
-    "category": "game: strategy",
-    "useCases": [
-      "Maya is on the train after work and wants a quick mental reset, so she opens Grid Tactix and tackles a five-minute flood-response scenario before her stop.",
-      "Jordan has a management interview tomorrow and wants to practice prioritizing under pressure, so he uses the app's crisis missions to rehearse making tough tradeoffs quickly.",
-      "Elena is juggling school pickup, dinner, and a last-minute work issue, so she plays one mission to calm down while training her brain to plan around overlapping demands."
     ]
   },
   {
@@ -904,77 +1116,6 @@
       "Jordan notices that his meal prep spinach and cooked rice are about to spoil, so he uses the app to search for a fast rescue meal. FridgeForge turns the leftovers into a ginger rice bowl with a simple sauce, saving money and preventing waste.",
       "Amina is hosting friends and realizes she has random ingredients but not enough for a planned recipe. She opens the app to generate a shareable menu from what is on hand, including one appetizer and one dessert that work with her air fryer and stove."
     ]
-  },
-  {
-    "folder": "2026-03-21-fridgecipher",
-    "appName": "FridgeCipher",
-    "tagline": "Turn leftovers into dinner, instantly.",
-    "designSystem": {
-      "primaryColor": "#FF7A3D",
-      "secondaryColor": "#4ADE80",
-      "backgroundColor": "#0F1117",
-      "fontFamily": "Nunito",
-      "style": "Dark-first mobile app with warm orange primary accent, clean card-based layouts, and soft gradient backgrounds. Uses rounded corners, clear hierarchy, and micro-interactions to feel friendly and approachable for food and cooking contexts."
-    },
-    "screens": [
-      "Scan \u2014 Camera/barcode scan interface with AI detection, quick-add pills, urgency alert, and pantry shortcut",
-      "Pantry \u2014 Ingredient list with freshness indicators, category filters, stats row, and urgency sorting",
-      "Recipes \u2014 AI-matched recipe cards with smart constraint filters, ingredient pills, urgency tags, and waste savings",
-      "Recipe Detail \u2014 Cooking timeline with step-by-step interactive mode, ingredient list, meta cards, and done state",
-      "Tracker \u2014 Weekly savings bar chart, CO2/meal/streak stats, ingredient rescue list, and settings with theme toggle"
-    ],
-    "hasScreenshot": true,
-    "description": "FridgeCipher helps people cook great meals from what they already have by translating random fridge and pantry items into realistic, step-by-step recipes that fit their time, tools, and skill level. Instead of throwing together generic recipe suggestions, it understands ingredient age, quantities, and compatibility, then builds meals around what needs to be used first to reduce waste. A user can scan a few groceries, snap a photo of leftovers, and get a dinner plan like \"15-minute smoky rice bowls using half a bell pepper, canned chickpeas, and last night\u2019s roasted chicken.\" It also adapts to constraints such as one-pan cooking, picky eaters, low energy, or only having a microwave and an electric kettle. What makes it unique is that it doesn\u2019t just recommend recipes\u2014it prioritizes salvage, pairs ingredients by flavor chemistry, and creates a cooking sequence that minimizes waste and effort. Over time, it learns the household\u2019s habits and adjusts suggestions to favorite cuisines, shopping patterns, and ingredients that regularly go unused.",
-    "features": [
-      "The app scans fridge photos and grocery barcodes to identify ingredients, estimate freshness, and automatically rank what should be cooked first.",
-      "It generates recipes based on the exact ingredients available, so users can make dinner without needing a special trip to the store.",
-      "A smart constraint filter lets users choose options like under 20 minutes, no oven, kid-friendly, or budget meal, making the results practical on busy days.",
-      "The app creates a cooking timeline that tells users when to chop, heat, and combine ingredients, which reduces overwhelm and helps beginners cook confidently.",
-      "A waste tracker shows how much food and money was saved each week, giving users a clear reason to keep using the app and buy more intentionally."
-    ],
-    "audience": "Busy adults, young professionals, parents, and budget-conscious households who often have mixed leftovers or partially used ingredients at home. It is especially useful for people who want to eat better, waste less, and avoid last-minute takeout decisions after long days.",
-    "category": "food & cooking",
-    "useCases": [
-      "Maya gets home at 8 p.m. after a long shift and opens FridgeCipher to turn wilted spinach, two eggs, and leftover rice into a fast dinner instead of ordering delivery.",
-      "Jordan is trying to save money before payday and uses the app to figure out how to combine half a rotisserie chicken, canned beans, and tortilla scraps into two meals for the next day.",
-      "Alicia is hosting friends and wants to clean out her fridge first, so she scans what she has and gets a party-friendly flatbread recipe built around leftover vegetables and cheese."
-    ]
-  },
-  {
-    "folder": "2026-03-21-fridge-forge",
-    "appName": "Fridge Forge",
-    "tagline": "Turn leftovers into dinner fast.",
-    "designSystem": {
-      "primaryColor": "#4EC97A",
-      "secondaryColor": "#FF7B3C",
-      "backgroundColor": "#131A13",
-      "fontFamily": "Nunito",
-      "style": "Dark-first organic UI with warm forest greens and amber-orange accents. Earthy tones reflect freshness and sustainability. Rounded corners and layered card surfaces create a friendly, approachable feel for home cooks."
-    },
-    "screens": [
-      "Fridge \u2014 ingredient list with spoilage risk indicators (urgent/soon/fresh), rescue alert banner, scan/voice/manual entry, filter tabs",
-      "Forge \u2014 AI recipe suggestions ranked by rescue score, ingredient chips with urgency highlights, full recipe detail view with step-by-step instructions and leftover plan",
-      "Plan \u2014 weekly meal plan with leftover chain visualization, waste-saved metric, smart suggestion cards",
-      "Settings \u2014 profile, cooking skill level selector, kitchen equipment toggles, dietary preferences, light/dark theme toggle"
-    ],
-    "hasScreenshot": true,
-    "description": "Fridge Forge helps home cooks transform scattered leftovers, half-used ingredients, and nearly-forgotten produce into complete, realistic meals. Instead of showing generic recipes, it scans what you actually have on hand, estimates what is likely to spoil soon, and suggests combinations that fit your time, skill level, and kitchen equipment. The app solves the common problem of food waste and last-minute takeout by turning ingredient chaos into a usable plan for tonight\u2019s dinner or tomorrow\u2019s lunch. For example, if you have chicken thighs, yogurt, spinach, and a lone lemon, it might suggest a one-pan herby yogurt chicken with a quick spinach salad and tell you exactly what can be substituted. If you only have a microwave and a cutting board, it adjusts suggestions to match that reality rather than pretending you have a full pantry. What makes it unique is its \u201crescue-first\u201d logic: it prioritizes saving ingredients before suggesting buying more, and it builds recipes around the constraints of the home, not an idealized chef kitchen.",
-    "features": [
-      "The app lets users quickly log fridge and pantry items by photo, voice, or barcode so meal planning starts with what is already available.",
-      "It ranks ingredients by spoilage risk and recommends meals that use up the most urgent items first, which helps cut waste and saves money.",
-      "It generates step-by-step recipe plans based on available tools, time limits, and skill level, making it practical for busy weeknights or beginner cooks.",
-      "It offers smart substitution guidance for missing ingredients, so users can keep cooking without an extra grocery trip.",
-      "It creates a leftover-to-lunch follow-up plan after dinner, helping users turn one cooking session into multiple meals with minimal effort.",
-      "audience: People ages 20\u201345 who cook at home occasionally or regularly, especially busy urban professionals, students, and families trying to reduce food waste and grocery spending.",
-      "category: \"food & cooking\"",
-      "useCases: [",
-      "\"Maya gets home late with wilted herbs, half a block of tofu, and some rice in the fridge, and she wants a fast dinner before heading to bed. Fridge Forge turns those ingredients into a 15-minute ginger rice bowl and tells her how to use the herbs before they go bad.\",",
-      "\"Jordan is hosting friends but doesn\u2019t want to spend extra money at the store. He opens the app, scans his fridge, and gets a dinner plan that stretches leftover vegetables, cheese, and tortillas into shareable quesadillas and a dip.\",",
-      "\"Alicia meal-preps on Sunday and notices she has yogurt, berries, and oats that will expire soon. She uses Fridge Forge to build breakfast jars and a snack plan for the workweek so nothing gets thrown away.\""
-    ],
-    "audience": "",
-    "category": "",
-    "useCases": []
   },
   {
     "folder": "2026-03-21-flowforge",
@@ -1065,147 +1206,6 @@
       "Maya just got off a crowded train and heard a rhythmic announcement, saw reflective ad panels, and felt the energy of the commute, so she opens EchoCraft to turn those fragments into a moody poem prompt for her newsletter.",
       "Andre is planning a launch campaign for a boutique coffee brand, and after noticing a wooden storefront, a handwritten sign, and the smell of roasted beans, he saves them into EchoCraft to generate a rustic visual direction for the team.",
       "Lina is an illustrator who suddenly spots a dramatic sky during lunch, records its sound with wind in the trees, and uses the app to transform the moment into a color palette and sketch idea before the feeling fades."
-    ]
-  },
-  {
-    "folder": "2026-03-21-deal-drift",
-    "appName": "Deal Drift",
-    "tagline": "Find leaked revenue before it vanishes.",
-    "designSystem": {
-      "primaryColor": "#6C47FF",
-      "secondaryColor": "#FF6B47",
-      "backgroundColor": "#F5F4F2",
-      "fontFamily": "Plus Jakarta Sans",
-      "style": "Clean, data-forward mobile dashboard with vibrant violet-purple brand color, card-based layout, subtle gradients, and micro-interaction feedback. Light/dark dual-theme with warm neutral backgrounds and electric accent pops."
-    },
-    "screens": [
-      "Home \u2014 Revenue radar summary, priority deal card, live signals feed",
-      "Deals \u2014 Stalled deals list with risk filters, signal badges, recovery scores, drill-down detail view",
-      "Renewals \u2014 Account health monitor with urgency bars, usage drop alerts, one-tap check-ins",
-      "Insights \u2014 Recovery score, nudge performance stats, weekly bar chart, best follow-up time windows",
-      "Settings \u2014 Profile, theme toggle, CRM/email/calendar integrations, notification preferences"
-    ],
-    "hasScreenshot": true,
-    "description": "Deal Drift is a mobile app that helps small and mid-sized businesses spot stalled deals, slipping renewals, and overlooked follow-ups before they quietly turn into lost revenue. It connects to calendars, email, CRM tools, and invoicing systems to detect when a customer thread has gone cold, a proposal has been opened but not answered, or a renewal date is approaching without activity. Instead of overwhelming users with raw dashboards, it turns these signals into simple, prioritized actions they can take in minutes during a commute, between meetings, or while waiting in line. For example, it might tell a salesperson that a promising prospect opened a quote three times after 8 p.m., suggesting the best time and tone for a follow-up, or alert an account manager that a long-term client has reduced product usage and may need a retention call. What makes it unique is its focus on micro-interventions: it predicts the smallest next action most likely to recover or grow revenue, rather than just reporting that something is wrong. The app also learns each user's style and company context, so its suggestions feel like a smart business coach instead of another generic sales tool. Over time, Deal Drift becomes a revenue early-warning system that fits naturally into a busy workday.",
-    "features": [
-      "It scans CRM, email, and calendar activity to detect deal momentum drops and renewal risks, so users can act before revenue slips away.",
-      "It generates one-tap suggested follow-ups with the right timing, subject line, and message style, which saves time and increases response rates.",
-      "It ranks opportunities by likelihood of recovery or expansion, helping users focus on the deals where a small action can have the biggest impact.",
-      "It sends context-aware alerts based on real-world signals like proposal views, meeting gaps, and customer inactivity, so warnings are timely and useful instead of noisy.",
-      "It tracks which nudges actually lead to replies, meetings, or renewals, allowing the app to learn a team's habits and improve its recommendations over time."
-    ],
-    "audience": "Sales reps, account managers, founders, and client-facing teams at startups and small businesses, especially those juggling too many accounts without a dedicated revenue ops team. It is best for people who rely on fast follow-up, relationship management, and renewals to keep business moving.",
-    "category": "business",
-    "useCases": [
-      "Sarah just finished a stressful client meeting and wants to know which accounts need follow-up first, so she opens Deal Drift and sees a prioritized list with suggested messages she can send before lunch.",
-      "Marco notices one of his annual subscribers has not logged in for two weeks, so he opens the app on the train and gets a retention alert with a suggested check-in email and discount offer.",
-      "Leah is reviewing new quotes at the end of the day and wants to rescue a few deals before the weekend, so she uses Deal Drift to identify prospects who are most likely to respond to a quick, personalized nudge."
-    ]
-  },
-  {
-    "folder": "2026-03-21-chore-quest",
-    "appName": "Chore Quest",
-    "tagline": "Turn daily chores into epic adventures.",
-    "designSystem": {
-      "primaryColor": "#8B5CF6",
-      "secondaryColor": "#F59E0B",
-      "backgroundColor": "#0D0B1A",
-      "fontFamily": "Outfit",
-      "style": "Dark fantasy RPG aesthetic with vibrant purple and gold accents. Deep midnight backgrounds, glowing card surfaces, gradient banners, and emoji-driven iconography to appeal to children while maintaining a premium feel. Micro-interactions include press-scale animations, toggle slides, floating elements, and fade-in transitions."
-    },
-    "screens": [
-      "Quest Log \u2014 Today's missions with hero stats banner, XP bar, streak tracker, and quest cards with difficulty/reward tags",
-      "Quest Detail \u2014 Active mission view with narrative briefing, step-by-step progress tracker, voice narration toggle, camera verification panel, and complete CTA",
-      "My Kingdom \u2014 Fantasy world map with animated area icons, unlock progress bars for 5 distinct world regions",
-      "Rewards \u2014 Stats grid, badge collection (earned/locked states), and redeemable reward store with coin balance check",
-      "Profile & Settings \u2014 Hero avatar card, dark/light theme toggle, notification/voice toggles, parent PIN-locked controls section"
-    ],
-    "hasScreenshot": true,
-    "description": "Chore Quest transforms everyday kid chores into interactive story missions that unfold through voice, camera, and simple real-world tasks. Instead of a plain checklist, children complete age-appropriate missions like \"rescue the laundry kingdom\" by sorting socks or \"help the kitchen dragon\" by putting dishes away, earning progress in a personalized fantasy world. The app solves the common problem of kids losing motivation, forgetting responsibilities, or needing constant reminders by making tasks feel like play rather than punishment. Parents can assign routines, timers, and rewards while the app guides kids step by step with playful narration and visual cues. It helps families reduce morning chaos, bedtime resistance, and the endless back-and-forth of reminder messages. What makes it unique is that it blends imaginative storytelling with real household tasks and quick AI-powered prompts that adapt to a child\u2019s age, attention span, and current mood. Unlike generic reward charts, every completed chore changes the story world, so kids see immediate cause and effect in a way that feels magical and personal.",
-    "features": [
-      "Mission-based chores turn each task into a tiny adventure, which helps kids stay engaged and understand what to do without feeling overwhelmed.",
-      "Voice-guided prompts walk children through multi-step routines like getting dressed or cleaning a room, which reduces parent nagging and frustration.",
-      "Camera-based completion checks let kids show the app a tidy backpack or sorted toys, making progress feel tangible and giving parents lightweight verification.",
-      "Adaptive story worlds change based on the child\u2019s age and performance, which keeps the app challenging but never discouraging.",
-      "Parent controls let caregivers set schedules, difficulty levels, and reward rules, which makes the app useful for real family routines instead of just entertainment."
-    ],
-    "audience": "Parents of kids ages 4-10 who want smoother home routines, plus children who respond better to play, stories, and visual guidance than to traditional chore charts. It is especially useful for busy households, neurodivergent children, and families trying to build independence without constant reminders.",
-    "category": "kids",
-    "useCases": [
-      "Maya is 6 and always resists getting ready for school, so her dad opens Chore Quest to start the \"Rocket Launch\" mission, where brushing teeth, finding shoes, and packing her bag become steps in a space adventure.",
-      "After dinner, eight-year-old Leo keeps forgetting to clear the table, so his mom launches the app and he completes the \"Banquet Cleanup\" quest with visual prompts and a final camera check of the tidy dining room.",
-      "On Saturday morning, Priya wants her twins to clean their shared bedroom without a meltdown, so she assigns two sibling missions that split the room into zones and reward them with progress toward unlocking a new castle level."
-    ]
-  },
-  {
-    "folder": "2026-03-21-borderquest",
-    "appName": "BorderQuest",
-    "tagline": "Turn cities into a living strategy map.",
-    "designSystem": {
-      "primaryColor": "#00D4FF",
-      "secondaryColor": "#8B5CF6",
-      "backgroundColor": "#07091A",
-      "fontFamily": "Space Grotesk",
-      "style": "Dark tactical strategy UI with electric cyan and deep navy palette. Grid-based territory map with glowing zone indicators, dark surface layers with subtle gradients, and a military-inspired information hierarchy. Light mode uses the same cyan-primary palette against clean whites and powder-blue surfaces."
-    },
-    "screens": [
-      "Map \u2014 interactive territory grid with claimable zones, resource nodes, landmarks, and real-time control stats",
-      "Missions \u2014 daily mission list with progress tracking, difficulty badges, limited-time flags, and expandable mission details",
-      "Guild \u2014 guild banner with stats, online member roster with roles, territory control bar, and live activity feed",
-      "Journal \u2014 personal discovery log with achievement badges, XP stats, km walked, and chronological place history",
-      "Profile \u2014 commander profile with XP progress bar, season pass tracker, theme toggle (dark/light), and settings menu"
-    ],
-    "hasScreenshot": true,
-    "description": "BorderQuest transforms your real-world neighborhood, city, or travel destination into a shared tactical world where streets become territories, landmarks become resource nodes, and daily movement becomes part of a persistent game. It solves the problem of feeling disconnected from your surroundings by giving users a playful reason to explore, walk, and pay attention to places they would otherwise ignore. In daily life, it helps people discover new routes, socialize with nearby players, and turn routine errands into rewarding mini-adventures. For example, a commuter can claim a route between the train station and office by visiting hidden checkpoints, while a family on vacation can compete to unlock local landmarks through geography-based missions. The app is unique because it combines a world-building strategy layer with real-world walking, local history, and neighborhood interaction rather than simply overlaying points or collectibles. Over time, the map evolves based on player activity, seasonal events, and community-built alliances, making each location feel like a living game board that reflects actual human movement and local culture.",
-    "features": [
-      "The app turns real streets into dynamic control zones that teams can claim by completing location-based challenges, which makes exploration feel like a meaningful strategy game instead of random wandering.",
-      "It generates daily missions tied to nearby places, such as visiting a mural to unlock supplies or reaching a park bench to defend a territory, helping users build movement into everyday routines.",
-      "It includes cooperative guilds for neighborhoods, workplaces, and friend groups so users can coordinate routes, trade captured zones, and build social connections around shared geography.",
-      "It adapts quests to local context using weather, time, and events, so a rainy afternoon might create indoor missions while a weekend festival could trigger special limited-time battles.",
-      "It records each user's travel history as a personalized map of discoveries, which matters because it turns ordinary movement into a memorable story and encourages repeated engagement.",
-      "audience: "
-    ],
-    "audience": "Urban adults and older teens ages 16\u201340 who enjoy strategy games, fitness apps, and exploration, especially commuters, travelers, and social groups looking for low-pressure ways to make city life more engaging. It also fits communities and campus groups that want a playful, location-based activity to encourage movement and local discovery.",
-    "category": "game: world",
-    "useCases": [
-      "Maya just moved to a new city and feels overwhelmed by unfamiliar streets. She opens BorderQuest to take a beginner mission that leads her to a caf\u00e9, a library, and a lookout point, helping her learn the area while earning territory for her squad.",
-      "Jaden is walking home after work and usually scrolls his phone mindlessly on the train. He opens the app to defend a nearby bridge zone, detouring a few blocks to complete a challenge and turning an ordinary commute into a quick tactical win.",
-      "A group of friends is meeting downtown on Saturday but does not know what to do first. They use BorderQuest to trigger a scavenger-style alliance mission that sends them to local landmarks, gives them competing objectives, and keeps everyone engaged while they explore together."
-    ]
-  },
-  {
-    "folder": "2026-03-21-blockbridge",
-    "appName": "BlockBridge",
-    "tagline": "Meet neighbors through tiny shared wins.",
-    "designSystem": {
-      "primaryColor": "#FF6B47",
-      "secondaryColor": "#3ECFBF",
-      "backgroundColor": "#0D0F1A",
-      "fontFamily": "Plus Jakarta Sans",
-      "style": "Dark-first neighborhood social app with warm coral accents, card-based feed layout, reciprocity gamification, and micro-interaction button states. Uses teal for offers/trust, amber for urgency/activity, and purple for trades. Pill tags, rounded cards, and a floating post button define the visual language."
-    },
-    "screens": [
-      "Feed \u2014 NeedCard stream with type filters (All/Need/Offer/Trade), neighbor activity strip, like and help actions",
-      "Match \u2014 Micro-Match compatibility cards with percentage scores, mutual help badges, and recent connections row",
-      "Post \u2014 3-step wizard (Type \u2192 Category \u2192 Details) with animated progress bar and time window picker",
-      "Circles \u2014 Community circle cards with live member counts, discover section, and quick join CTA",
-      "Profile \u2014 Reciprocity score dashboard, trust badges, exchange history, settings list, and theme toggle"
-    ],
-    "hasScreenshot": true,
-    "description": "BlockBridge helps people turn small, everyday needs into neighborhood micro-collaborations instead of isolated errands. The app lets users post short, practical \u201cneed moments\u201d like borrowing a step ladder, finding someone to water plants for two days, or splitting a bulk grocery order, then matches them with nearby neighbors based on trust, interests, and mutually helpful history. It solves the modern problem of living close to people without actually knowing them, which makes daily life more expensive, lonelier, and less resilient. A parent could quickly find another parent willing to trade a school pickup, while a new resident could ask for a local restaurant tip and offer to share spare printer ink in return. What makes it unique is that it focuses on tiny, safe, repeatable exchanges that build real community over time, rather than one-off social posts or broad neighborhood chatter. Each interaction adds to a \u201creciprocity profile\u201d that highlights reliability and helpfulness, making trust grow organically through action instead of popularity. The result is a community app that feels useful first and social second, which is why people keep coming back daily.",
-    "features": [
-      "Need Cards let users post small, specific requests or offers in seconds, making it easy to ask for help without writing a long message or joining a noisy group chat.",
-      "Reciprocity Profiles track helpful exchanges over time so neighbors can trust each other based on real actions, not follower counts or vague ratings.",
-      "Micro-Match suggestions pair users with nearby people who have complementary needs, such as someone offering extra basil matching someone looking to trade homegrown tomatoes.",
-      "Time-Locked Check-ins keep exchanges lightweight and safe by scheduling short-lived interactions with automatic reminders and quick confirmation after the task is done.",
-      "Community Circles organize people by apartment building, street, or shared routine, which helps turn scattered residents into practical support networks that feel local and personal."
-    ],
-    "audience": "Adults ages 22-45 living in apartments, dense suburbs, or walkable neighborhoods, especially renters, young families, and recent movers. It is also useful for people who want a stronger local support system without committing to formal volunteer groups or constant socializing.",
-    "category": "social & community",
-    "useCases": [
-      "Maya just moved into a new apartment and needs a drill for 10 minutes to mount shelves. She opens BlockBridge, finds a neighbor two floors down who offers tools, and ends up trading a homemade dinner voucher for the favor.",
-      "Andre is trying to cut grocery costs and wants to split a bulk warehouse order. He posts a Need Card for extra items, and three nearby households coordinate through the app to divide the purchase and pickup efficiently.",
-      "Leila has a last-minute work shift and needs someone to walk her dog for half an hour. She uses a time-locked request, matches with a trusted neighbor on the same block, and pays them back later by watering their balcony garden."
     ]
   },
   {
@@ -1746,6 +1746,37 @@
     ]
   },
   {
+    "folder": "2026-03-18-billecho",
+    "appName": "BillEcho",
+    "tagline": "See spending before it happens",
+    "designSystem": {
+      "primaryColor": "#6B3A5B",
+      "secondaryColor": "#F6A623",
+      "backgroundColor": "#FFF5EE",
+      "accentColor": "#FFB6C1",
+      "fontFamily": "Sora",
+      "style": "Sunset gradient with warm pastel palette \u2014 warm white background, amber and soft pink accents, deep plum as primary brand color. Rounded corners throughout, gradient pill buttons, card-based layout with subtle borders."
+    },
+    "screens": [
+      "Timeline \u2014 30-day forward-looking cash-flow chart with interactive bar visualization, day-by-day balance list, payday markers, and stress alerts",
+      "Bills \u2014 Recurring charge detector with categorized bill list, defer suggestion feature, auto-detected subscription badges, and monthly total summary",
+      "Alerts \u2014 Smart spending intelligence hub with safe-to-spend card, dismissable alert cards for low balance warnings, payday countdowns, and irregular expense tips",
+      "Simulate \u2014 What-if expense calculator with real-time impact analysis, quick amount shortcuts, common scenario presets, and post-payday recommendations"
+    ],
+    "hasScreenshot": true,
+    "description": "BillEcho turns recurring bills, subscriptions, and expected purchases into a forward-looking cash-flow timeline, so users can spot money stress before it hits. It learns paydays, spending patterns, and irregular expenses to forecast safe-to-spend amounts in a highly visual, day-by-day view.",
+    "features": [
+      "Predicted balance timeline",
+      "Recurring charge detector",
+      "Safe-to-spend alerts",
+      "One-tap bill deferral suggestions",
+      "Upcoming expense simulation"
+    ],
+    "audience": "Workers and freelancers with irregular cash flow",
+    "category": "personal finance",
+    "useCases": []
+  },
+  {
     "folder": "2026-03-18-trash-trader",
     "appName": "Trash Trader",
     "tagline": "Swap waste for value!",
@@ -1774,6 +1805,39 @@
       "QR code scanning for quick trades"
     ],
     "audience": "Eco-conscious individuals and communities",
+    "category": "sustainability",
+    "useCases": []
+  },
+  {
+    "folder": "2026-03-18-ecoswap",
+    "appName": "EcoSwap",
+    "tagline": "Turn waste into treasure together!",
+    "designSystem": {
+      "primaryColor": "#5BA4A4",
+      "secondaryColor": "#F08080",
+      "backgroundColor": "#F0F4F8",
+      "accentColor": "#F4E1C1",
+      "fontFamily": "Outfit",
+      "style": "Ocean breeze \u2014 clean, fresh, modern with soft pastels, teal/coral/sand palette, rounded cards, smooth micro-interactions, and a community-first visual tone"
+    },
+    "screens": [
+      "Home \u2014 Personalized feed with eco score banner, nearby items carousel, quick stats (swaps, CO\u2082 saved, neighbors helped), and recent listings list",
+      "Browse \u2014 Searchable item discovery with category filter chips, masonry grid of item cards with like toggle, condition badges, and swap preference tags",
+      "List \u2014 Multi-step listing form (Photos \u2192 Details \u2192 Exchange \u2192 Preview) with category picker, condition selector, and exchange preference field",
+      "Community \u2014 Chat inbox with unread indicators, per-thread conversation view with quick replies, and community activity feed",
+      "Eco Insights \u2014 Environmental impact dashboard (CO\u2082, water, trees), weekly challenge progress ring, sustainability tip cards, and neighborhood leaderboard",
+      "Profile \u2014 Avatar header with gradient, swap/points/listing stats, achievement badge grid (earned/locked), recent activity timeline, and settings"
+    ],
+    "hasScreenshot": true,
+    "description": "EcoSwap connects local communities through a platform for trading unwanted items. Users can list items they wish to give away or swap, promoting recycling and reducing waste in creative ways. With filters for categories and exchange suggestions, finding the perfect item or home for your belongings has never been easier.",
+    "features": [
+      "Item swapping listings",
+      "Community chat for negotiation",
+      "Sustainability tips and insights",
+      "Location-based searches",
+      "Virtual rewards for participation"
+    ],
+    "audience": "Eco-conscious individuals and families",
     "category": "sustainability",
     "useCases": []
   },
@@ -2140,39 +2204,6 @@
     "useCases": []
   },
   {
-    "folder": "2026-03-18-ecoswap",
-    "appName": "EcoSwap",
-    "tagline": "Turn waste into treasure together!",
-    "designSystem": {
-      "primaryColor": "#5BA4A4",
-      "secondaryColor": "#F08080",
-      "backgroundColor": "#F0F4F8",
-      "accentColor": "#F4E1C1",
-      "fontFamily": "Outfit",
-      "style": "Ocean breeze \u2014 clean, fresh, modern with soft pastels, teal/coral/sand palette, rounded cards, smooth micro-interactions, and a community-first visual tone"
-    },
-    "screens": [
-      "Home \u2014 Personalized feed with eco score banner, nearby items carousel, quick stats (swaps, CO\u2082 saved, neighbors helped), and recent listings list",
-      "Browse \u2014 Searchable item discovery with category filter chips, masonry grid of item cards with like toggle, condition badges, and swap preference tags",
-      "List \u2014 Multi-step listing form (Photos \u2192 Details \u2192 Exchange \u2192 Preview) with category picker, condition selector, and exchange preference field",
-      "Community \u2014 Chat inbox with unread indicators, per-thread conversation view with quick replies, and community activity feed",
-      "Eco Insights \u2014 Environmental impact dashboard (CO\u2082, water, trees), weekly challenge progress ring, sustainability tip cards, and neighborhood leaderboard",
-      "Profile \u2014 Avatar header with gradient, swap/points/listing stats, achievement badge grid (earned/locked), recent activity timeline, and settings"
-    ],
-    "hasScreenshot": true,
-    "description": "EcoSwap connects local communities through a platform for trading unwanted items. Users can list items they wish to give away or swap, promoting recycling and reducing waste in creative ways. With filters for categories and exchange suggestions, finding the perfect item or home for your belongings has never been easier.",
-    "features": [
-      "Item swapping listings",
-      "Community chat for negotiation",
-      "Sustainability tips and insights",
-      "Location-based searches",
-      "Virtual rewards for participation"
-    ],
-    "audience": "Eco-conscious individuals and families",
-    "category": "sustainability",
-    "useCases": []
-  },
-  {
     "folder": "2026-03-18-delay-drift",
     "appName": "Delay Drift",
     "tagline": "Turn travel delays into mini adventures.",
@@ -2201,37 +2232,6 @@
     ],
     "audience": "Frequent travelers and layover-bound explorers",
     "category": "travel",
-    "useCases": []
-  },
-  {
-    "folder": "2026-03-18-billecho",
-    "appName": "BillEcho",
-    "tagline": "See spending before it happens",
-    "designSystem": {
-      "primaryColor": "#6B3A5B",
-      "secondaryColor": "#F6A623",
-      "backgroundColor": "#FFF5EE",
-      "accentColor": "#FFB6C1",
-      "fontFamily": "Sora",
-      "style": "Sunset gradient with warm pastel palette \u2014 warm white background, amber and soft pink accents, deep plum as primary brand color. Rounded corners throughout, gradient pill buttons, card-based layout with subtle borders."
-    },
-    "screens": [
-      "Timeline \u2014 30-day forward-looking cash-flow chart with interactive bar visualization, day-by-day balance list, payday markers, and stress alerts",
-      "Bills \u2014 Recurring charge detector with categorized bill list, defer suggestion feature, auto-detected subscription badges, and monthly total summary",
-      "Alerts \u2014 Smart spending intelligence hub with safe-to-spend card, dismissable alert cards for low balance warnings, payday countdowns, and irregular expense tips",
-      "Simulate \u2014 What-if expense calculator with real-time impact analysis, quick amount shortcuts, common scenario presets, and post-payday recommendations"
-    ],
-    "hasScreenshot": true,
-    "description": "BillEcho turns recurring bills, subscriptions, and expected purchases into a forward-looking cash-flow timeline, so users can spot money stress before it hits. It learns paydays, spending patterns, and irregular expenses to forecast safe-to-spend amounts in a highly visual, day-by-day view.",
-    "features": [
-      "Predicted balance timeline",
-      "Recurring charge detector",
-      "Safe-to-spend alerts",
-      "One-tap bill deferral suggestions",
-      "Upcoming expense simulation"
-    ],
-    "audience": "Workers and freelancers with irregular cash flow",
-    "category": "personal finance",
     "useCases": []
   },
   {

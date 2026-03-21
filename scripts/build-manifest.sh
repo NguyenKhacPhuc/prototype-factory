@@ -12,7 +12,10 @@ import json, os, glob
 prototypes_dir = '$PROTOTYPES_DIR'
 entries = []
 
-for folder in sorted(os.listdir(prototypes_dir), reverse=True):
+folders = [f for f in os.listdir(prototypes_dir) if os.path.isdir(os.path.join(prototypes_dir, f))]
+# Sort by date prefix (descending), then by mtime within the same date (newest first)
+folders.sort(key=lambda f: (f[:10], os.path.getmtime(os.path.join(prototypes_dir, f))), reverse=True)
+for folder in folders:
     spec_path = os.path.join(prototypes_dir, folder, 'design-spec.json')
     idea_path = os.path.join(prototypes_dir, folder, 'idea.json')
     preview_path = os.path.join(prototypes_dir, folder, 'preview.html')

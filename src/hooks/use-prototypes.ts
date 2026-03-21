@@ -65,9 +65,8 @@ export function searchPrototypes(
 
   if (sortBy === "name") {
     filtered = [...filtered].sort((a, b) => a.appName.localeCompare(b.appName));
-  } else {
-    filtered = [...filtered].sort((a, b) => b.folder.localeCompare(a.folder));
   }
+  // "date" sort preserves manifest order (already sorted newest-first by build-manifest.sh)
 
   return filtered;
 }
