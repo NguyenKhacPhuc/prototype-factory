@@ -1,0 +1,19 @@
+{
+  "name": "Murmur Map",
+  "tagline": "Decode the strange noises around you.",
+  "description": "Murmur Map helps people identify and interpret mysterious sounds in their environment, turning everyday noise into actionable insight. If your apartment keeps making a metallic tapping at 2 a.m., your office ceiling buzzes every morning, or your neighborhood has a repeating whoop you cannot place, the app records a short audio clip and suggests likely sources, urgency levels, and next steps. It solves a real problem many people ignore until it becomes expensive or dangerous: weird noises often signal maintenance issues, wildlife activity, plumbing problems, or nearby equipment that affects comfort and safety. The app helps users in daily life by reducing anxiety, saving time on guesswork, and giving them a clear way to document issues for landlords, neighbors, or repair technicians. For example, a user can capture a rhythmic thump from an HVAC vent, get a probable diagnosis, and send a ready-made report with time, location, and sound pattern. Another user might identify an intermittent clicking outside a window as a pest or transformer issue and decide whether to call building maintenance or simply ignore it. What makes Murmur Map unique is that it treats odd sounds like a navigable map of causes rather than just audio to record, combining sound pattern analysis, context clues, and practical recommendations.",
+  "features": [
+    "The app records short sound snippets and classifies them by pattern, because many noises are too intermittent to describe accurately from memory.",
+    "It uses location, time, and motion context to narrow likely sources, which matters when the same sound could be plumbing, electronics, traffic, or wildlife.",
+    "It generates a plain-language explanation with urgency guidance, helping users decide whether they need to act now, document for later, or simply monitor the sound.",
+    "It creates a shareable incident report with timestamps, maps, and audio clips, so users can communicate clearly with landlords, building managers, or technicians.",
+    "It tracks recurring noises over time and visualizes trends, which matters because persistent problems are often missed when they happen in irregular bursts."
+  ],
+  "audience": "Urban renters, homeowners, and apartment dwellers aged 20\u201350 who live near other people, shared infrastructure, or busy streets. It is especially useful for anyone who hears unexplained sounds, manages property, or wants peace of mind without calling a professional for every odd noise.",
+  "category": "weird",
+  "useCases": [
+    "Sarah just finished a stressful meeting and keeps hearing a faint knocking from behind her kitchen wall. She opens the app, records 10 seconds, and learns it is likely pipe expansion from her building\u2019s heating cycle, not a structural problem.",
+    "Marcus lives in a top-floor apartment and notices a repeating chirp every night near midnight. He uses Murmur Map to compare the sound with common sources and discovers it matches a nearby rooftop vent fan, so he can document it before asking maintenance for a fix.",
+    "Aisha wakes up to a scraping sound in her attic after a windy night. She logs the noise, gets a likely wildlife-related alert, and uses the app\u2019s report to tell her landlord exactly when the sound started and how often it repeats."
+  ]
+}

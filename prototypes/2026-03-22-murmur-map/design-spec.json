@@ -1,0 +1,12 @@
+{
+  "appName": "Murmur Map",
+  "tagline": "Decode the strange noises around you.",
+  "designSystem": {
+    "primaryColor": "#8B3DFF",
+    "secondaryColor": "#00DCBC",
+    "backgroundColor": "#07071A",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark futuristic with deep navy/violet backgrounds, vibrant purple-to-teal gradient accents, glassmorphic card surfaces, pulsing animations for recording states, and high-contrast urgency indicators"
+  },
+  "screens": ["home", "library", "map", "reports", "settings"]
+}
