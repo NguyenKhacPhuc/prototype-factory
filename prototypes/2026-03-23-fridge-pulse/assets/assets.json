@@ -1,0 +1,41 @@
+{
+  "appName": "Fridge Pulse",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#1FD470",
+    "secondary": "#00E5A0",
+    "background": "#07100D",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "battery",
+    "bell",
+    "box",
+    "calendar",
+    "camera",
+    "check",
+    "chef-hat",
+    "chevron-left",
+    "chevron-right",
+    "clock",
+    "file-text",
+    "flame",
+    "globe",
+    "leaf",
+    "moon",
+    "pen-line",
+    "receipt",
+    "refrigerator",
+    "settings",
+    "star",
+    "sun",
+    "trending-down",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 26,
+  "fontFileCount": 0
+}

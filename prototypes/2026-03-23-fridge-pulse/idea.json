@@ -1,0 +1,20 @@
+{
+  "name": "Fridge Pulse",
+  "tagline": "Turn leftovers into dinner, not waste.",
+  "description": "Fridge Pulse helps people decide what to cook based on the exact ingredients they already have, including leftovers nearing their limit. Users scan receipts, snap photos of fridge shelves, or quickly log takeout extras, and the app turns that into a live inventory with spoilage timing. It solves the daily problem of staring into the fridge, unsure what is still good, what should be used first, and what can be combined into a real meal. For example, it might notice half a roasted chicken, wilted herbs, and day-old rice and suggest a 12-minute smoky rice bowl with step-by-step salvage instructions. What makes it unique is its \u201crescue mode,\u201d which prioritizes recipes by perishability, flavor compatibility, and effort level rather than generic search results. It also learns each household\u2019s cooking habits and portions, so a busy parent gets fast family-sized options while a solo user gets precise single-serving ideas. Over time, the app becomes a personalized waste-reduction assistant that saves money, reduces decision fatigue, and makes home cooking feel easier.",
+  "features": [
+    "The app builds a real-time food inventory from receipt scans, camera recognition, and quick manual adds, so users always know what they have without typing everything in.",
+    "It ranks recipes by urgency using spoilage predictions, which matters because it nudges people to use food before it goes bad and prevents unnecessary waste.",
+    "Its salvage engine suggests dishes based on mismatched leftovers, such as turning cold noodles, spinach, and cheese into a frittata or stir-fry, which helps users cook with what is available instead of what is missing.",
+    "It creates ultra-short cooking plans with timed steps and substitution advice, so someone can make dinner during a commute home or between work calls without needing to improvise.",
+    "It tracks household preferences and recurring leftovers to learn patterns, making recommendations more accurate for a family, roommate group, or single cook over time.",
+    "audience"
+  ],
+  "audience": "Busy adults aged 22-50, especially urban renters, young families, and budget-conscious households who cook at home a few times a week and want to reduce food waste. It is also useful for people who buy groceries irregularly, meal prep but rarely finish containers, or often have random leftovers they do not know how to use.",
+  "category": "food & drink",
+  "useCases": [
+    "Maya gets home after a long workday and opens the app because she has spinach, two eggs, and leftover potatoes that need to be used tonight. Fridge Pulse instantly suggests a 10-minute skillet hash and tells her exactly what to cook first.",
+    "After a weekend party, Daniel sees half a tray of roasted vegetables and extra tortillas in the fridge. He uses the app to turn them into three possible meals, then picks the fastest option for lunch tomorrow.",
+    "A couple returns from vacation and finds several ingredients close to expiring, including yogurt, herbs, and cooked rice. They open the app to build a meal plan for the next two days that uses the oldest items first and minimizes what gets thrown away."
+  ]
+}

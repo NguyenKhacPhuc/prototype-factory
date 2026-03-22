@@ -1,0 +1,18 @@
+{
+  "appName": "Fridge Pulse",
+  "tagline": "Turn leftovers into dinner, not waste.",
+  "designSystem": {
+    "primaryColor": "#1FD470",
+    "secondaryColor": "#00E5A0",
+    "backgroundColor": "#07100D",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first food app with deep forest-green surfaces, vibrant emerald accent, urgency-coded item indicators (red/amber/green), and a rescue-mode-centric information hierarchy. Card-based layout with subtle gradient borders and high-contrast typography."
+  },
+  "screens": [
+    "Fridge (Home) - Live inventory grouped by category with urgency badges and expiring-items strip",
+    "Rescue - Recipe recommendations ranked by salvage score and perishability, with step-by-step cooking mode",
+    "Scan & Log - Three-mode item entry: camera recognition, receipt OCR, and manual add",
+    "Insights - Weekly rescue activity chart, savings tracker, fridge patterns, and household profile",
+    "Settings - User profile, household configuration, notifications, dietary preferences, and theme toggle"
+  ]
+}
