@@ -1,0 +1,18 @@
+{
+  "appName": "Layover Lens",
+  "tagline": "Turn dead time into perfect detours.",
+  "designSystem": {
+    "primaryColor": "#00D4AA",
+    "secondaryColor": "#FF6B35",
+    "backgroundColor": "#0A0F1E",
+    "fontFamily": "Outfit",
+    "style": "Dark-first travel utility app with a deep navy base, vibrant teal primary accent, and coral/orange secondary. Card-heavy layout with gradient tinted surfaces, subtle glows, and tight typographic hierarchy. Feasibility bars, energy dots, and risk badges communicate data-dense travel info at a glance. Micro-interactions include press-scale effects and animated step completion flows."
+  },
+  "screens": [
+    "Today (Home) — Live layover countdown, context tags, featured itinerary with step timeline, quick stats",
+    "Explore — Filterable list of micro-itineraries with feasibility bars, energy levels, and risk badges",
+    "Active Route — Step-by-step route tracker with live alerts, leave-now countdown, and step completion",
+    "Alerts — Real-time reroute notifications and travel updates with action prompts",
+    "Settings — Theme toggle, travel profile (luggage, energy, passport), notification preferences"
+  ]
+}

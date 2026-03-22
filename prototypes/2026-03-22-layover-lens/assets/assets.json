@@ -1,0 +1,14 @@
+{
+  "appName": "Layover Lens",
+  "fontFamily": "Outfit",
+  "colors": {
+    "primary": "#00D4AA",
+    "secondary": "#FF6B35",
+    "background": "#0A0F1E",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Layover Lens",
+  "tagline": "Turn dead time into perfect detours.",
+  "description": "Layover Lens helps travelers turn inconvenient airport layovers, long train connections, and unexpected delays into smart mini-adventures. Instead of staring at a departure board, users see a personalized set of quick, realistic outing options based on their exact time window, visa status, terminal location, weather, transit time, luggage situation, and energy level. The app solves a common travel pain point: people know they have free time, but they waste it because they cannot quickly tell what is truly possible without risking a missed departure. A business traveler with a four-hour layover might get a coffee-and-gallery route that fits perfectly, while a family with checked bags might get a kid-friendly lounge-to-park loop with walking distances clearly labeled. What makes it unique is that it is built around feasibility, not inspiration, using live transit, security wait estimates, and route buffers to generate options that feel adventurous but remain safe. It also adapts on the fly if delays change, nudging users away from risky plans and toward better alternatives. In daily life, it gives travelers confidence to explore more often, spend less time scrolling through generic city guides, and make every forced pause feel purposeful.",
+  "features": [
+    "It calculates realistic micro-itineraries from your exact layover or transfer window, so you only see plans you can actually complete without panic.",
+    "It factors in luggage, visa rules, airport exits, transit delays, and security buffers, which prevents users from making costly or stressful mistakes.",
+    "It suggests nearby experiences matched to your mood and energy level, helping someone choose between a quiet park walk, a fast museum stop, or a great meal.",
+    "It sends live reroutes when gate changes, delays, or traffic updates make a plan unsafe, so the app stays useful in real time instead of becoming outdated.",
+    "It provides step-by-step return timing with \u201cleave now\u201d alerts, making it easy for travelers to enjoy a detour without constantly checking the clock."
+  ],
+  "audience": "Frequent flyers, remote workers, and leisure travelers ages 20 to 55 who often face layovers, long transfers, or unexpected schedule gaps. It is especially useful for people who want to explore new places but are cautious about timing and logistics.",
+  "category": "travel",
+  "useCases": [
+    "Sarah just landed in Singapore with a five-hour layover and wants to see something beyond the airport without risking her next flight. Layover Lens suggests a fast skyline stop, estimates transit time, and tells her exactly when to head back.",
+    "Marcus is commuting by train across Europe and his connection was extended by 90 minutes after a delay. He opens the app to find a nearby bakery and riverside walk that fit his new window and keep him close to the station.",
+    "Nina has a flight canceled during a business trip and is stuck near downtown with only a backpack. She uses the app to find a two-hour reset plan including a quiet coworking caf\u00e9, a short neighborhood stroll, and a reliable route back to the airport."
+  ]
+}
