@@ -1,0 +1,18 @@
+{
+  "appName": "Bill Bloom",
+  "tagline": "Turn messy expenses into calmer cash flow.",
+  "designSystem": {
+    "primaryColor": "#00E5B0",
+    "secondaryColor": "#7B6EF6",
+    "backgroundColor": "#070D1A",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first finance dashboard with a deep navy background, vibrant mint/teal primary accent, and indigo secondary. Features gauge-style safe-spend meter, color-coded pressure calendar, reserve bucket cards with progress bars, and cluster-detection alerts. Clean card hierarchy with subtle glows and glass-like surfaces."
+  },
+  "screens": [
+    "Dashboard — safe-spend gauge, income/bill breakdown, bill pressure list with cluster alerts",
+    "Flow Calendar — monthly grid overlaying income days and bill pressure levels with event timeline",
+    "Bills — filterable list with predicted, clustered, and all bills showing category icons and frequency",
+    "Reserves — automated set-aside buckets with progress bars, weekly goals, and funding status",
+    "Settings — dark/light theme toggle, pay cycle selector, smart feature toggles, account management"
+  ]
+}

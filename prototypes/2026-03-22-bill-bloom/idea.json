@@ -1,0 +1,19 @@
+{
+  "name": "Bill Bloom",
+  "tagline": "Turn messy expenses into calmer cash flow.",
+  "description": "Bill Bloom helps people manage irregular bills by converting unpredictable expenses into a personalized, visual cash-flow plan. Instead of just tracking spending, it predicts when household, medical, subscription, and annual costs are likely to hit, then automatically suggests safe spending windows and small weekly set-asides to avoid end-of-month panic. The app solves the real problem of financial surprise: many people are not overspending overall, they are simply being hit by expenses at the wrong time. In daily life, it nudges users before a large insurance payment, flags overlapping renewals, and shows exactly how much they can spend this week without risking a shortfall. A freelancer, for example, can see that a quiet week should be used to reserve part of a client payment for next month's rent and quarterly taxes. What makes it unique is that it maps expenses against timing, pay cycles, and emotional stress patterns, so it helps users make calmer decisions rather than just categorizing transactions.",
+  "features": [
+    "The app builds a personal cash-flow calendar that overlays income, bills, and expected one-off expenses so users can see financial pressure points before they happen.",
+    "It learns from past receipts, subscriptions, and bank transactions to predict irregular costs like car maintenance, school fees, and holiday spending with practical reminders.",
+    "A safe-spend meter shows how much money can be used today without jeopardizing upcoming obligations, which helps users avoid accidental overdrafts and credit card carryovers.",
+    "It creates tiny automated reserve goals for future bills, so a user can split a $600 insurance premium into manageable weekly set-asides without manual spreadsheets.",
+    "The app detects bill clusters and duplicate renewals, then suggests smarter timing changes, such as moving a streaming subscription or scheduling a utility payment after payday."
+  ],
+  "audience": "Adults aged 22-45 with irregular or tightly managed cash flow, including freelancers, hourly workers, young families, and anyone living paycheck-to-paycheck. It is especially useful for people who can pay their bills but struggle with timing, surprise expenses, and mental stress around money.",
+  "category": "finance",
+  "useCases": [
+    "Sarah just got paid after a slow freelance month and wants to know what she can safely spend before next Thursday. She opens the app to see that her car insurance and student loan payment are due soon, then moves a small amount into reserve instead of guessing.",
+    "Marcus notices his checking account keeps dipping low near the end of each month even though he is not overspending. He opens Bill Bloom to discover that several annual subscriptions renew within five days of each other, and he reschedules one and cancels another.",
+    "Jada is planning a weekend trip but has a dentist appointment and a school supply bill coming up. She uses the app to see the impact of the trip on her cash-flow calendar and decides how much she can spend without creating a budget emergency."
+  ]
+}
