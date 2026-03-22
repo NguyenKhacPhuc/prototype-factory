@@ -35,7 +35,7 @@ export function Gallery({ prototypes, navigate, initialCategory }: Props) {
           className={`gallery-pill ${!category ? "active" : ""}`}
           onClick={() => setCategory(null)}
         >
-          All
+          All <span className="pill-count">{prototypes.length}</span>
         </button>
         {categories.map((c) => (
           <button
@@ -43,7 +43,7 @@ export function Gallery({ prototypes, navigate, initialCategory }: Props) {
             className={`gallery-pill ${category === c.name ? "active" : ""}`}
             onClick={() => setCategory(category === c.name ? null : c.name)}
           >
-            {c.name}
+            {c.name} <span className="pill-count">{c.count}</span>
           </button>
         ))}
         <div className="gallery-sort">

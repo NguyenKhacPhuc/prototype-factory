@@ -12,7 +12,7 @@ interface Props {
 type CopyStatus = "idle" | "copying" | "copied" | "error";
 
 async function fetchDesignTree(folder: string) {
-  const res = await fetch(`/api/design-tree/${folder}`);
+  const res = await fetch(`/prototypes/${folder}/design-tree.json`);
   if (!res.ok) throw new Error("Design tree not found");
   return res.json();
 }
@@ -20,14 +20,7 @@ async function fetchDesignTree(folder: string) {
 async function copySvgToClipboard(folder: string): Promise<void> {
   const tree = await fetchDesignTree(folder);
   const svg = designTreeToSvg(tree);
-  const htmlBlob = new Blob([svg], { type: "text/html" });
-  const textBlob = new Blob([svg], { type: "text/plain" });
-  await navigator.clipboard.write([
-    new ClipboardItem({
-      "text/html": htmlBlob,
-      "text/plain": textBlob,
-    }),
-  ]);
+  await navigator.clipboard.writeText(svg);
 }
 
 function CopyButton({
