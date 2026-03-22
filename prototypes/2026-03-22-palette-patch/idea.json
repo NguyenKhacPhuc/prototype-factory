@@ -1,0 +1,19 @@
+{
+  "name": "Palette Patch",
+  "tagline": "Fix visuals before they fail.",
+  "description": "Palette Patch is a mobile app that helps creators and small businesses instantly diagnose and repair weak visual design in real-world content. It scans posters, social posts, packaging mockups, menus, flyers, and presentations to detect issues like low contrast, cluttered layouts, inaccessible color combinations, poor hierarchy, and branding drift, then suggests precise edits that actually fit the original style. The problem it solves is that many people know their design \"looks off\" but can't tell why, and they often do not have time or money for a professional designer. In daily life, that means a caf\u00e9 owner can fix a chalkboard menu before printing, a freelance marketer can clean up an event flyer on the train, and a student can make a presentation slide readable in minutes. What makes it unique is that it does not just give generic design tips; it uses context-aware critiques based on the design's purpose, audience, lighting conditions, and platform size. It can generate a quick before-and-after overlay, recommend one-tap palette swaps, and highlight exactly which elements are causing confusion, turning vague visual anxiety into clear, actionable fixes.",
+  "features": [
+    "The app scans a design through the phone camera or from an image file and pinpoints readability, spacing, and hierarchy problems so users know exactly what to improve.",
+    "It provides context-aware repair suggestions based on the asset type, such as recommending larger type for transit posters or stronger contrast for social story graphics.",
+    "It offers one-tap palette and font adjustments that preserve the original mood while making the design more usable and polished.",
+    "It creates an overlay that shows before-and-after comparisons, helping users understand how each change improves clarity and impact.",
+    "It tracks recurring brand issues across saved projects so users can keep colors, typography, and spacing consistent across all their marketing materials."
+  ],
+  "audience": "This app is for solo entrepreneurs, social media managers, students, nonprofit teams, and freelance creators aged roughly 16-45 who often design their own visuals without formal training. It is especially useful for people working quickly under deadline pressure who need professional-looking results on a phone.",
+  "category": "graphic & design",
+  "useCases": [
+    "Sarah just finished designing a fundraiser flyer for her nonprofit and wants to know if the text will still be readable when printed on cheap paper. She opens Palette Patch to scan the layout and gets instant fixes for contrast and spacing.",
+    "David is making a menu for his new food truck and realizes the colors look dull in sunlight. He uses the app to preview how the design will look outdoors and swaps in a stronger, more legible palette.",
+    "Mina is preparing a last-minute pitch deck on her commute and wants the slides to feel more professional. She uploads the deck visuals and gets fast suggestions to simplify crowded elements and strengthen the visual hierarchy."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "appName": "Palette Patch",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#6366F1",
+    "secondary": "#F97316",
+    "background": "#F4F3FF",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

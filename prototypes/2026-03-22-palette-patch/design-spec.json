@@ -1,0 +1,18 @@
+{
+  "appName": "Palette Patch",
+  "tagline": "Fix visuals before they fail.",
+  "designSystem": {
+    "primaryColor": "#6366F1",
+    "secondaryColor": "#F97316",
+    "backgroundColor": "#F4F3FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean, modern design tool aesthetic with vibrant indigo-violet as the brand color, warm orange as accent. Soft lavender-tinted backgrounds with crisp white cards, subtle purple-hued borders, and gradient CTAs. Dark mode uses deep navy-purple surfaces. Micro-interactions on nav tabs and toggles reinforce a polished, professional utility feel."
+  },
+  "screens": [
+    "Scan — Camera viewfinder with corner brackets, scan progress animation, recent scans carousel, and upload button",
+    "Analyze — Annotated design preview with color-coded issue pins, collapsible issue detail panel, and full issues list with severity badges",
+    "Fixes — Before/after toggle with live design preview, palette swap options, per-issue one-tap fix buttons, and export action",
+    "Projects — Brand health score card with metric breakdowns, filterable project list with visual health bars and consistency scores",
+    "Settings — Profile card with plan usage, light/dark theme toggle, analysis preferences, notification controls, and export/privacy options"
+  ]
+}
