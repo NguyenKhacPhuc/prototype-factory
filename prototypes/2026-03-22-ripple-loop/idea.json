@@ -1,0 +1,19 @@
+{
+  "name": "Ripple Loop",
+  "tagline": "Find the people your life already needs.",
+  "description": "Ripple Loop is a social networking app that helps people discover the right nearby contacts through shared situational needs instead of broad interests or endless feeds. Users post short, practical \"needs\" like borrowing a ladder, finding a night-shift dog walker, locating a study partner, or getting a last-minute restaurant recommendation for a picky parent, and the app matches them with trusted people in their extended network who can help right now. It solves the everyday problem of not knowing who to ask, especially in cities, hybrid work environments, and fragmented friend groups where people have lots of loose connections but no easy way to activate them. In daily life, it becomes a fast way to get unstuck: a new parent can find another parent nearby who has the exact stroller model, a freelancer can find someone to swap workspace tips, or a person moving apartments can quickly borrow tools from a neighbor-of-a-friend. What makes it unique is that it builds social discovery around urgency, context, and usefulness rather than vanity metrics, forcing interactions to be specific, temporary, and genuinely helpful. The app also keeps exchanges lightweight by suggesting the smallest useful action, like a 10-minute call, a one-item lend, or a quick local referral, so people can help without feeling overwhelmed. Over time, it creates a living support mesh around each user that feels more practical than a feed and more human than search.",
+  "features": [
+    "Need posts let users describe a concrete problem in one sentence and specify time sensitivity, location, and what kind of help they actually want, which makes requests easy to answer quickly.",
+    "Trust layers show how a potential helper is connected to you through mutual friends, shared groups, or previous successful exchanges, so users can decide who to contact without awkward cold outreach.",
+    "Action cards turn a need into a suggested micro-action such as lend, recommend, introduce, or accompany, which reduces friction and increases the chance that people respond.",
+    "Context-based matching scans for people who have relevant experience, items, availability, or proximity, helping users find the right person for the exact situation instead of a generic acquaintance.",
+    "Exchange history tracks small favors and contributions in a private, balanced way, encouraging healthy reciprocity while avoiding public likes, follower counts, or performative social pressure."
+  ],
+  "audience": "Urban adults ages 22-45, especially freelancers, young parents, remote workers, and people in new neighborhoods or cities who rely on social circles for practical help. It also fits community-oriented users who want a more meaningful network than traditional social media offers.",
+  "category": "social networking",
+  "useCases": [
+    "Sarah just finished a stressful meeting and realizes she needs a same-day childcare recommendation near her office. She opens Ripple Loop and finds two parents in her extended network who have already vetted a nearby sitter.",
+    "Marcus is moving into a new apartment and discovers he has no drill, step stool, or furniture dolly. He posts a quick need and is matched with a neighbor-of-a-friend who can lend the tools for two hours.",
+    "Anya starts a remote job in a new city and wants to find a walking lunch buddy who works nearby. She uses the app to ask for a 20-minute weekday connection and gets introduced to three people with matching schedules."
+  ]
+}

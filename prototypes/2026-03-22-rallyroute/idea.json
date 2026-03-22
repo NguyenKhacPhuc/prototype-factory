@@ -1,0 +1,19 @@
+{
+  "name": "RallyRoute",
+  "tagline": "Find perfect pickup games nearby",
+  "description": "RallyRoute helps people turn idle free time into instant, skill-matched sports sessions by locating nearby open games, courts, fields, and practice partners in real time. It solves the common problem of wanting to play sports but not knowing where to go, whether enough people will show up, or if the competition level will be a good fit. Users can filter by sport, intensity, age group, time available, and current crowd level, then get routed to the closest playable option with live updates from the community. For example, a commuter can see that a basketball court is lightly occupied and join a 6:30 p.m. run, while a beginner tennis player can find a low-pressure rally partner instead of accidentally entering a highly competitive match. What makes it unique is its \"availability-first\" approach: instead of organizing full leagues or generic local listings, it focuses on the exact problem of spontaneous participation and uses crowd-sourced game momentum to keep users from wasting trips. It also learns preferred play style over time, so someone who likes quick, social games will be shown different options than a player seeking intense drills or structured scrimmages.",
+  "features": [
+    "Live Game Radar shows nearby sports sessions, open courts, and pickup games in real time, which helps users avoid showing up to empty or overcrowded locations.",
+    "Skill and vibe matching pairs users with sessions that fit their experience level and play style, reducing awkward mismatches and improving the chance of a fun game.",
+    "Trip-worthiness alerts estimate whether a location is still worth the drive based on player count, weather, court conditions, and recent check-ins, saving users time and frustration.",
+    "Fast Join Links let users RSVP, message the organizer, and share a temporary invite with friends in one tap, making spontaneous participation easy during busy weekdays.",
+    "Play History Suggestions learn which sports, times, and formats a user actually enjoys, so the app becomes more useful over time instead of forcing generic recommendations."
+  ],
+  "audience": "Urban adults and college students ages 18-40 who want flexible ways to stay active, especially people with irregular schedules, new residents trying to meet players, and casual athletes who dislike committing to full leagues. It is also useful for parents, shift workers, and remote workers who need sports options that fit short windows of free time.",
+  "category": "sports",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to play something active before dinner, so she opens RallyRoute to find a nearby basketball court with enough players for a quick 5-on-5. She joins the run immediately instead of spending 20 minutes texting friends who may not reply.",
+    "Diego moved to a new city and wants to meet people through tennis, so he uses the app to find beginner-friendly rally partners within a three-mile radius. He filters for low-pressure sessions and books a slot at a public court that already has two players waiting.",
+    "Mina has 45 minutes before picking up her kids and wants to do something energetic, so she checks which soccer field has a small pickup game starting soon. She chooses the option with live attendance updates and heads out only because the app confirms the game is actually happening."
+  ]
+}

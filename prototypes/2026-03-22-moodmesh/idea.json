@@ -1,0 +1,19 @@
+{
+  "name": "MoodMesh",
+  "tagline": "Music that adapts to your day.",
+  "description": "MoodMesh is a context-aware music app that builds soundtracks around what you are doing, not just what you like. It combines your calendar, motion, location, time of day, and optional quick mood check-ins to detect whether you need focus, recovery, energy, or social flow, then creates evolving playlists that match the moment. The app solves a common problem: most music apps force people to manually search for the right vibe every time their situation changes, which breaks concentration and wastes time. In daily life, MoodMesh helps you transition smoothly between tasks by automatically shifting from low-distraction instrumental tracks during work, to uplifting songs for a commute, to calm ambient audio after a hard meeting. A student might use it to stay locked in during an exam study session, while a parent might get a softer playlist during bedtime routines and a brighter one for morning chaos. What makes it unique is that it does not just recommend songs; it dynamically structures music around real-world behavior and energy levels, so the soundtrack feels like a personal assistant for emotional and cognitive rhythm.",
+  "features": [
+    "The app reads calendar events and detects activity patterns to generate music that fits the type of task, so a focus playlist appears automatically before a deep-work block or commute.",
+    "A quick one-tap mood slider lets users fine-tune the soundtrack in seconds, which matters because people often know they want 'less intense' or 'more upbeat' but not a specific genre.",
+    "Adaptive transition playlists bridge one moment to the next, helping users move from stressful meetings to relaxing evenings without the jarring switch that often makes manual music selection frustrating.",
+    "Location-aware scene modes tailor audio for places like the gym, a coffee shop, or a grocery run, so the music supports the environment instead of competing with it.",
+    "A daily rhythm dashboard shows when certain sounds help the user focus, relax, or energize, giving practical insight into personal listening habits that can improve productivity and well-being."
+  ],
+  "audience": "Busy professionals, students, parents, and remote workers ages 16-45 who switch between focused work, commuting, and home life throughout the day. It is especially useful for people who use music to regulate mood and attention but do not want to spend time curating playlists constantly.",
+  "category": "music",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to reset before her next task, so she opens MoodMesh and it instantly starts a 12-minute decompression mix that gradually lowers intensity instead of dropping her into silence.",
+    "Jay is commuting by train and needs something that keeps him alert without being distracting, so the app senses his movement and time of day and serves a high-energy playlist that eases into more focused tracks as he nears the office.",
+    "Mina is studying for exams in a noisy apartment and wants to stay concentrated for two hours, so MoodMesh creates an instrumental, low-variation soundtrack and adjusts it if she starts pacing or takes a break."
+  ]
+}

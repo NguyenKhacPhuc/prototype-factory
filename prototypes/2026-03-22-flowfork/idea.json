@@ -1,0 +1,19 @@
+{
+  "name": "FlowFork",
+  "tagline": "Navigate by mood, not just miles.",
+  "description": "FlowFork is a navigation app that routes you based on the kind of experience you want, not just the fastest path. It uses live street-level signals like noise, sidewalk width, lighting, shade, incline, crosswalk frequency, and transit crowding to recommend routes that match your current needs, whether you want the calmest walk, the least stressful commute, or the most stroller-friendly path. The app solves a common problem: the shortest route is often not the easiest, safest, or most pleasant, especially for parents, older adults, cyclists, and anyone with anxiety or mobility concerns. In daily life, FlowFork helps a user pick a route that avoids steep hills after a long workday, steers a parent away from broken sidewalks with a stroller, or finds a quieter way home after a noisy event. It can also adapt in real time if a route becomes crowded, poorly lit, or unexpectedly blocked, suggesting an alternate that better fits the user's preferences. What makes it unique is that it treats navigation as an emotional and physical experience, learning which route qualities matter most to each person over time. Instead of telling you where to go, FlowFork helps you arrive feeling better than when you left.",
+  "features": [
+    "The app offers experience-based route modes such as Calm, Shade, Safe, and Easy-Climb, so users can choose a path that matches their physical and emotional state.",
+    "It measures route conditions using live data and map intelligence, which helps avoid stressors like noisy arterials, steep ramps, broken sidewalks, and poor lighting.",
+    "FlowFork learns personal preferences from user behavior, making future recommendations more accurate for a specific commuter, parent, cyclist, or walker.",
+    "It provides real-time rerouting when conditions change, so users are quickly redirected if a street gets crowded, a path becomes blocked, or a safer crossing appears nearby.",
+    "The app highlights why each route was chosen in plain language, helping users trust the suggestion and understand tradeoffs before they start moving."
+  ],
+  "audience": "Urban commuters, parents with strollers, older adults, cyclists, and neurodivergent users who want routes that reduce friction and sensory overload. It is especially useful for people navigating dense cities, unfamiliar neighborhoods, or environments where comfort and safety matter as much as speed.",
+  "category": "navigation",
+  "useCases": [
+    "Maya just left a packed train station after a long day and wants to walk home without being blasted by traffic noise, so she opens FlowFork and chooses the Calm route.",
+    "Dev is pushing a stroller through a neighborhood with steep sidewalks and uneven paving, and he needs the easiest path to the pediatrician, so he uses FlowFork's Easy-Climb mode.",
+    "Alina is biking back from an evening class and wants a safer route with better lighting and more protected crossings, so she lets FlowFork guide her home street by street."
+  ]
+}
