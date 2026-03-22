@@ -1,0 +1,13 @@
+{
+  "name": "MoodCanvas",
+  "tagline": "Turn feelings into usable visuals.",
+  "description": "MoodCanvas helps people capture messy emotions and turn them into immediate creative direction. Instead of starting from a blank page, users type a feeling, paste a journal entry, or describe a situation, and the app transforms it into moodboards, color palettes, typography pairings, visual prompts, and short creative briefs. It solves the everyday problem of emotional overload and creative paralysis by giving users a concrete visual language for ideas they can\u2019t easily articulate. In daily life, it can help a freelancer define the tone of a client project, a writer find the atmosphere of a scene, or someone planning an event match d\u00e9cor to a feeling like \"calm but energetic.\" What makes it unique is that it does not just generate inspiration images; it translates emotion into structured creative assets that are directly usable in design, writing, planning, or brainstorming. The app also learns a user\u2019s recurring emotional patterns over time, so it can suggest styles and palettes that match how they naturally think and work.",
+  "features": [
+    "The app converts typed emotions, voice notes, or journal snippets into a visual mood profile, which helps users translate vague feelings into a clearer creative starting point.",
+    "It generates custom color palettes, font pairings, and composition suggestions from that mood profile, which saves time when users need aesthetic decisions quickly.",
+    "It creates one-page creative briefs with tone words, reference prompts, and image-search keywords, which is useful for designers, writers, and content creators who need direction fast.",
+    "The app includes a \u201cfeeling timeline\u201d that tracks how a project\u2019s emotional tone changes over time, which matters when users want consistency across multiple posts, scenes, or presentation slides.",
+    "It offers exportable boards and text packages for client sharing or personal planning, which makes the app practical for real workflows instead of just being a source of inspiration.",
+    "audience line break? Wait JSON malformed."
+  ]
+}

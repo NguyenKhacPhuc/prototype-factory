@@ -1,0 +1,35 @@
+{
+  "appName": "MoodCanvas",
+  "fontFamily": "Plus Jakarta Sans, Bricolage Grotesque",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#A855F7",
+    "background": "#F6F4FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "activity",
+    "battery",
+    "bell",
+    "bookmark",
+    "chevron-right",
+    "copy",
+    "cpu",
+    "database",
+    "download",
+    "file-text",
+    "layers",
+    "layout-grid",
+    "loader",
+    "moon",
+    "refresh-cw",
+    "search",
+    "settings",
+    "sun",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 20,
+  "fontFileCount": 0
+}

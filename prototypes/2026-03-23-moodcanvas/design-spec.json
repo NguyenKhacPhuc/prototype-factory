@@ -1,0 +1,12 @@
+{
+  "appName": "MoodCanvas",
+  "tagline": "Turn feelings into usable visuals.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#A855F7",
+    "backgroundColor": "#F6F4FF",
+    "fontFamily": "Plus Jakarta Sans, Bricolage Grotesque",
+    "style": "Vibrant violet-purple accent with soft lavender surfaces. Layered depth, warm luminosity, editorial card layouts. Dual light/dark themes with smooth transitions. Modern humanist typography pairing expressive display with clean body copy."
+  },
+  "screens": ["home", "canvas", "timeline", "export", "settings"]
+}
