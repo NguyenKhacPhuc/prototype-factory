@@ -1,0 +1,36 @@
+{
+  "appName": "FlowForge",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#00C9FF",
+    "secondary": "#7B61FF",
+    "background": "#080B12",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bug",
+    "chevron-right",
+    "circle-dot",
+    "flag",
+    "git-branch",
+    "globe",
+    "home",
+    "message-square",
+    "moon",
+    "mouse-pointer-click",
+    "search",
+    "settings",
+    "signal",
+    "square",
+    "sun",
+    "tag",
+    "trending-down",
+    "trending-up",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 21,
+  "fontFileCount": 0
+}

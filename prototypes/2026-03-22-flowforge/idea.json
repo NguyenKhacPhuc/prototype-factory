@@ -1,0 +1,19 @@
+{
+  "name": "FlowForge",
+  "tagline": "Turn app chaos into testable flows.",
+  "description": "FlowForge is a mobile companion for developers that captures real product usage, then transforms it into reproducible API and UI workflow maps. It solves the painful gap between what users actually do and what teams think they do, especially when bugs only appear after a messy chain of taps, requests, retries, and edge cases. The app lets developers quickly record live app behavior from a phone, annotate the critical steps, and instantly generate a shareable flow diagram with timing, state changes, and failure points. During a commute or between meetings, engineers can review a production issue, replay the exact interaction sequence, and pin down where the logic broke without needing a laptop. A backend developer can use it to turn a support ticket into a reproducible test case, while a mobile engineer can compare a working flow against a failing one and spot the divergence immediately. What makes FlowForge unique is that it focuses on real-world user journeys as first-class debugging artifacts, rather than just logs, metrics, or static diagrams. It bridges observation and implementation by making the app behavior itself the source of truth.",
+  "features": [
+    "It records multi-step user interactions from a connected app session and converts them into an editable flow timeline, which helps developers preserve the exact sequence that caused a bug.",
+    "It overlays API calls, network delays, and state changes onto each step so engineers can see where a request failed or a screen diverged from expected behavior.",
+    "It turns captured flows into reproducible test scripts and checklist-style QA cases, which saves time when handing bugs from support to engineering.",
+    "It includes anomaly highlights that flag unusual retries, timeouts, and backtracks, helping teams identify brittle logic that traditional logs may not make obvious.",
+    "It lets users share a compact visual replay link with teammates, making it easier to debug collaboratively without screenshots, long explanations, or screen recordings."
+  ],
+  "audience": "Mobile and backend developers, QA engineers, and startup product teams working on consumer apps, SaaS tools, or complex onboarding flows. It is especially useful for teams of 5-200 people who need to debug fast without always being at their desks.",
+  "category": "developer tools",
+  "useCases": [
+    "Sarah just finished a stressful support call and wants to capture the exact checkout flow that failed for one customer, so she records the session and turns it into a reproducible bug report before the details are forgotten.",
+    "Diego is on the train home when his app's login process starts failing in production, so he opens FlowForge to compare the successful path against the broken one and spots a token refresh mismatch.",
+    "Mina is preparing a release checklist and wants to make sure onboarding still works after a backend change, so she replays a saved flow and auto-generates test steps for the QA team."
+  ]
+}

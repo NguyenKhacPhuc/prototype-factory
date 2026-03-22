@@ -1,0 +1,12 @@
+{
+  "appName": "FlowForge",
+  "tagline": "Turn app chaos into testable flows.",
+  "designSystem": {
+    "primaryColor": "#00C9FF",
+    "secondaryColor": "#7B61FF",
+    "backgroundColor": "#080B12",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first developer tool UI with electric cyan-to-violet gradient accents, deep navy surfaces, subtle card elevation, and data-dense layouts optimized for reading flow timelines and anomaly feeds"
+  },
+  "screens": ["Home", "Record", "Flows", "Insights", "Settings"]
+}
