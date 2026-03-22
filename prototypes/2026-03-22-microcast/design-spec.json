@@ -1,0 +1,12 @@
+{
+  "appName": "Microcast",
+  "tagline": "Weather where your life actually happens.",
+  "designSystem": {
+    "primaryColor": "#0096C7",
+    "secondaryColor": "#48CAE4",
+    "backgroundColor": "#E8F4F8",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern glassmorphic weather app with vibrant cyan/teal accent palette, card-based layout, gradient hero sections, and micro-interaction-rich navigation. Light mode uses airy aqua tones; dark mode uses deep navy with luminous cyan highlights."
+  },
+  "screens": ["home", "route", "alerts", "explore", "settings"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Microcast",
+  "tagline": "Weather where your life actually happens.",
+  "description": "Microcast turns hyperlocal weather into block-by-block decision support by combining radar, crowd-sensed conditions, street topology, and your calendar. Instead of telling you it\u2019s \"rainy\" for a city, it predicts how weather will affect your exact route, corner caf\u00e9, bike lane, or park entrance over the next 90 minutes. The app solves the everyday frustration of being surprised by weather that\u2019s different from the forecast a few miles away, especially in dense cities and coastal areas. It helps users decide when to leave, which side of town to avoid, whether their jogging path will be windy, or if the sunny side of the block is worth taking for lunch. A commuter might get a warning that their usual bus stop will be soaked in 12 minutes, while a parent could see that the playground will stay dry long enough for a quick outing. What makes it unique is that it treats weather as a dynamic local experience tied to real places, not just a city-wide number, and it learns from patterns of movement to become more practical the more you use it.",
+  "features": [
+    "Route-aware forecasts show weather along your exact walking, biking, or driving path, so you can avoid getting caught in a sudden downpour halfway to your destination.",
+    "Street-level nowcasts predict wind, rain, heat pockets, and shade changes by block, which helps you choose the most comfortable side of a route or meeting spot.",
+    "Calendar-linked alerts warn you before appointments, workouts, or school runs if weather conditions at that specific time and place will make plans uncomfortable or risky.",
+    "Crowd-verified microreports let nearby users confirm hail, puddling, gusts, or sudden drizzle in real time, improving accuracy in neighborhoods where standard forecasts miss local changes.",
+    "Adaptive comfort suggestions translate weather into practical advice like \"leave 15 minutes earlier,\" \"take the covered station exit,\" or \"choose the west-facing caf\u00e9 patio,\" making decisions faster and easier."
+  ],
+  "audience": "Urban commuters, cyclists, runners, parents, and anyone living in weather-variable cities who relies on walking, transit, or outdoor errands. It is especially useful for people ages 18-55 who make frequent short trips and need to plan around highly local weather conditions.",
+  "category": "weather",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to walk to lunch without getting drenched, so Microcast tells her which nearby streets have overhead cover and which block will start raining first. She picks a route that keeps her dry and arrives calm instead of soaked.",
+    "Jamal is biking home from work and sees a dark cloud building west of downtown, so he opens Microcast to compare his normal bike route with a safer path that avoids the strongest gusts. The app nudges him to leave five minutes earlier and use a lane with fewer exposed intersections.",
+    "Priya is taking her toddler to the park after nap time and only has a small window before dinner, so she checks whether the sandbox area will stay sunny and dry for the next hour. Microcast helps her choose the best playground entrance and avoid the wet, windy side of the park."
+  ]
+}
