@@ -1,0 +1,27 @@
+{
+  "appName": "ToneTrace",
+  "tagline": "Design visuals that match real emotions.",
+  "designSystem": {
+    "primaryColor": "#6D28D9",
+    "secondaryColor": "#8B5CF6",
+    "backgroundColor": "#F4F2FF",
+    "accentColor": "#EC4899",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern emotional design tool with violet-purple gradient accent, soft lavender backgrounds, card-based layout with rounded corners, and a clean information hierarchy that prioritizes mood-driven content over decoration. Light mode defaults to airy lavender surfaces; dark mode uses deep indigo-blacks with glowing purple accents."
+  },
+  "screens": [
+    "Analyze — Text input screen where users paste a project description or sentence to trigger mood detection. Features example prompts, character count, and an animated analysis flow that outputs emotional scores (trust, energy, urgency, premium) with a visual breakdown.",
+    "Palette — Visual direction hub showing mood-matched color swatches, font pairings with live type previews, and spacing recommendations. Mood switcher lets users explore all 6 mood profiles. Each tab includes a design rationale explanation.",
+    "Preview — Format preview canvas rendering the generated design system across Social Post, Flyer, Web Banner, and Pitch Deck layouts using the actual palette and typography. Includes export and share CTAs.",
+    "Presets — Saved mood configurations displayed as cards with palette strip previews, format tags, and timestamps. Users can build a brand library of emotional design presets for recurring campaigns.",
+    "Settings — Account management, theme toggle (light/dark animated switch), mood engine tuning, notification preferences, and a design learning hub. Includes app version and user profile display."
+  ],
+  "moodProfiles": [
+    "Calm & Reassuring — Cool blues, generous whitespace, serif fonts",
+    "Urgent & Bold — Red-orange high contrast, condensed type, compact spacing",
+    "Premium & Refined — Charcoal and warm gold, expansive layout, editorial serifs",
+    "Energetic & Playful — Multi-hue vibrant palette, rounded type, dynamic rhythm",
+    "Trustworthy & Professional — Deep navy, structured grid, traditional serifs",
+    "Reflective & Poetic — Muted purples, breathable layout, classical type"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ToneTrace",
+  "tagline": "Design visuals that match real emotions.",
+  "description": "ToneTrace helps people choose colors, typography, and layout styles based on the emotional tone of their message instead of just aesthetics. It solves the common problem of mismatched design choices, like a poster that looks playful when it should feel serious, or a brand deck that feels cold when it should feel trustworthy. Users can paste in a sentence, upload a photo, or describe a project, and the app instantly suggests a visual direction mapped to the intended mood, audience, and context. For example, a small business owner can generate a calm palette for a wellness flyer, while a nonprofit team can get a more urgent, high-contrast style for a fundraising campaign. What makes it unique is that it translates emotional intent into practical design decisions using a mood engine, rather than starting from generic templates. It also explains why each recommendation works, helping users learn design judgment over time. In daily life, it saves time, reduces redesigns, and makes even non-designers feel confident that their visuals communicate the right message.",
+  "features": [
+    "The app reads text, captions, or project briefs and converts them into an emotional design brief that identifies the intended tone, audience, and urgency.",
+    "It generates color palettes, font pairings, and spacing recommendations that are tuned to specific moods such as reassuring, premium, energetic, or reflective.",
+    "It previews how the design choices will feel across different formats like social posts, pitch decks, flyers, and mobile banners so users can pick what fits best.",
+    "It explains each suggestion in plain language, helping users understand why a muted blue palette or heavier typeface strengthens the message.",
+    "It saves custom mood presets for recurring needs, making it easy for teams to keep brand visuals consistent across campaigns and one-off projects."
+  ],
+  "audience": "Freelancers, small business owners, nonprofit marketers, content creators, and startup teams aged 20-45 who need to make fast visual decisions without a full design department. It is especially useful for people who know what they want to communicate emotionally but struggle to turn that into a polished visual system.",
+  "category": "graphic & design",
+  "useCases": [
+    "Sarah just finished a stressful meeting and needs a fundraising flyer for her local shelter, so she opens the app and types \"urgent but hopeful.\" It instantly builds a visual direction with compassionate colors and strong hierarchy that she can hand off to her volunteer designer.",
+    "Diego is launching a new meditation studio and wants his Instagram ads to feel calm instead of generic. He uploads a few brand photos, and the app suggests a palette, font style, and layout rhythm that makes the content feel spacious and soothing.",
+    "A startup team is preparing a pitch deck before investor day and realizes their slides look too playful for a serious audience. They use the app to retone the deck into something more credible and polished without rebuilding every slide from scratch."
+  ]
+}
