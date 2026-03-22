@@ -79,12 +79,12 @@
             "name": "div",
             "x": 28,
             "y": 12,
-            "width": 38,
+            "width": 33,
             "height": 34,
             "styles": {
               "paddingTop": 18
             },
-            "textContent": "23:46",
+            "textContent": "16:01",
             "textStyles": {
               "fontFamily": "Inter",
               "fontSize": 13,
@@ -1129,12 +1129,12 @@
                         "name": "div",
                         "x": -3,
                         "y": -3,
-                        "width": 13,
-                        "height": 13,
+                        "width": 14,
+                        "height": 14,
                         "styles": {
                           "backgroundColor": "rgb(245, 158, 11)",
                           "borderRadius": 4,
-                          "opacity": 0.193896
+                          "opacity": 0.119865
                         },
                         "children": []
                       }
@@ -1383,7 +1383,7 @@
   },
   "screens": [
     {
-      "name": "Tab 1",
+      "name": "Now",
       "root": {
         "type": "frame",
         "name": "div",
@@ -1436,12 +1436,12 @@
                 "name": "div",
                 "x": 28,
                 "y": 12,
-                "width": 38,
+                "width": 33,
                 "height": 34,
                 "styles": {
                   "paddingTop": 18
                 },
-                "textContent": "23:46",
+                "textContent": "16:01",
                 "textStyles": {
                   "fontFamily": "Inter",
                   "fontSize": 13,
@@ -1522,10 +1522,11 @@
                 "type": "frame",
                 "name": "div",
                 "x": 0,
-                "y": 0,
+                "y": 2,
                 "width": 375,
                 "height": 613,
                 "styles": {
+                  "opacity": 0.892598,
                   "paddingTop": 16,
                   "paddingRight": 16,
                   "paddingLeft": 16
@@ -2484,14 +2485,14 @@
                           {
                             "type": "frame",
                             "name": "div",
-                            "x": -3,
-                            "y": -3,
-                            "width": 13,
-                            "height": 13,
+                            "x": -1,
+                            "y": -1,
+                            "width": 9,
+                            "height": 9,
                             "styles": {
                               "backgroundColor": "rgb(245, 158, 11)",
                               "borderRadius": 4,
-                              "opacity": 0.193891
+                              "opacity": 0.787316
                             },
                             "children": []
                           }
@@ -2740,7 +2741,7 @@
       }
     },
     {
-      "name": "Tab 2",
+      "name": "Plan",
       "root": {
         "type": "frame",
         "name": "div",
@@ -2793,12 +2794,12 @@
                 "name": "div",
                 "x": 28,
                 "y": 12,
-                "width": 38,
+                "width": 33,
                 "height": 34,
                 "styles": {
                   "paddingTop": 18
                 },
-                "textContent": "23:46",
+                "textContent": "16:01",
                 "textStyles": {
                   "fontFamily": "Inter",
                   "fontSize": 13,
@@ -4436,7 +4437,7 @@
       }
     },
     {
-      "name": "Tab 3",
+      "name": "Explore",
       "root": {
         "type": "frame",
         "name": "div",
@@ -4489,12 +4490,12 @@
                 "name": "div",
                 "x": 28,
                 "y": 12,
-                "width": 38,
+                "width": 33,
                 "height": 34,
                 "styles": {
                   "paddingTop": 18
                 },
-                "textContent": "23:46",
+                "textContent": "16:01",
                 "textStyles": {
                   "fontFamily": "Inter",
                   "fontSize": 13,
@@ -4575,10 +4576,11 @@
                 "type": "frame",
                 "name": "div",
                 "x": 0,
-                "y": 0,
+                "y": 1,
                 "width": 375,
                 "height": 855,
                 "styles": {
+                  "opacity": 0.96949,
                   "paddingTop": 16,
                   "paddingRight": 16,
                   "paddingLeft": 16
@@ -6748,7 +6750,7 @@
       }
     },
     {
-      "name": "Tab 4",
+      "name": "Profile",
       "root": {
         "type": "frame",
         "name": "div",
@@ -6801,12 +6803,12 @@
                 "name": "div",
                 "x": 28,
                 "y": 12,
-                "width": 38,
+                "width": 33,
                 "height": 34,
                 "styles": {
                   "paddingTop": 18
                 },
-                "textContent": "23:46",
+                "textContent": "16:01",
                 "textStyles": {
                   "fontFamily": "Inter",
                   "fontSize": 13,

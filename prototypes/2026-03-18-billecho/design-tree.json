@@ -558,9 +558,9 @@
                         "type": "frame",
                         "name": "div",
                         "x": 43,
-                        "y": 23,
+                        "y": 24,
                         "width": 8,
-                        "height": 28,
+                        "height": 27,
                         "styles": {
                           "backgroundGradient": [
                             {
@@ -624,9 +624,9 @@
                         "type": "frame",
                         "name": "div",
                         "x": 76,
-                        "y": 24,
+                        "y": 25,
                         "width": 8,
-                        "height": 27,
+                        "height": 26,
                         "styles": {
                           "backgroundGradient": [
                             {
@@ -712,9 +712,9 @@
                         "type": "frame",
                         "name": "div",
                         "x": 119,
-                        "y": 25,
+                        "y": 39,
                         "width": 8,
-                        "height": 26,
+                        "height": 12,
                         "styles": {
                           "backgroundGradient": [
                             {
@@ -756,9 +756,9 @@
                         "type": "frame",
                         "name": "div",
                         "x": 141,
-                        "y": 39,
+                        "y": 40,
                         "width": 8,
-                        "height": 12,
+                        "height": 11,
                         "styles": {
                           "backgroundGradient": [
                             {
@@ -954,9 +954,9 @@
                         "type": "frame",
                         "name": "div",
                         "x": 238,
-                        "y": 40,
+                        "y": 41,
                         "width": 8,
-                        "height": 11,
+                        "height": 10,
                         "styles": {
                           "backgroundGradient": [
                             {
@@ -1020,20 +1020,11 @@
                         "type": "frame",
                         "name": "div",
                         "x": 270,
-                        "y": 41,
+                        "y": 9,
                         "width": 8,
-                        "height": 10,
+                        "height": 42,
                         "styles": {
-                          "backgroundGradient": [
-                            {
-                              "color": "rgb(246, 166, 35)",
-                              "position": 0
-                            },
-                            {
-                              "color": "rgb(255, 182, 193)",
-                              "position": 1
-                            }
-                          ],
+                          "backgroundColor": "rgb(76, 175, 130)",
                           "borderRadius": 3
                         },
                         "children": []
@@ -1046,7 +1037,16 @@
                         "width": 8,
                         "height": 42,
                         "styles": {
-                          "backgroundColor": "rgb(76, 175, 130)",
+                          "backgroundGradient": [
+                            {
+                              "color": "rgb(246, 166, 35)",
+                              "position": 0
+                            },
+                            {
+                              "color": "rgb(255, 182, 193)",
+                              "position": 1
+                            }
+                          ],
                           "borderRadius": 3
                         },
                         "children": []
@@ -1077,9 +1077,9 @@
                         "type": "frame",
                         "name": "div",
                         "x": 303,
-                        "y": 9,
+                        "y": 10,
                         "width": 8,
-                        "height": 42,
+                        "height": 41,
                         "styles": {
                           "backgroundGradient": [
                             {
@@ -1246,10 +1246,10 @@
                                 "name": "span",
                                 "x": 12,
                                 "y": 6,
-                                "width": 14,
+                                "width": 15,
                                 "height": 13,
                                 "styles": {},
-                                "textContent": "SA",
+                                "textContent": "SU",
                                 "textStyles": {
                                   "fontFamily": "Sora",
                                   "fontSize": 10,
@@ -1261,12 +1261,12 @@
                               {
                                 "type": "text",
                                 "name": "span",
-                                "x": 12,
+                                "x": 10,
                                 "y": 19,
-                                "width": 15,
+                                "width": 18,
                                 "height": 14,
                                 "styles": {},
-                                "textContent": "21",
+                                "textContent": "22",
                                 "textStyles": {
                                   "fontFamily": "Sora",
                                   "fontSize": 14,
@@ -1283,7 +1283,7 @@
                             "name": "div",
                             "x": 63,
                             "y": 12,
-                            "width": 220,
+                            "width": 204,
                             "height": 36,
                             "styles": {},
                             "children": [
@@ -1292,15 +1292,15 @@
                                 "name": "p",
                                 "x": 0,
                                 "y": 0,
-                                "width": 220,
+                                "width": 204,
                                 "height": 15,
                                 "styles": {},
-                                "textContent": "No charges",
+                                "textContent": "Gym",
                                 "textStyles": {
                                   "fontFamily": "Sora",
                                   "fontSize": 12,
-                                  "fontWeight": 400,
-                                  "color": "rgb(139, 107, 122)"
+                                  "fontWeight": 600,
+                                  "color": "rgb(45, 27, 53)"
                                 },
                                 "children": []
                               },
@@ -1318,150 +1318,6 @@
                                   "fontSize": 10,
                                   "fontWeight": 600,
                                   "color": "rgb(246, 166, 35)"
-                                },
-                                "children": []
-                              }
-                            ]
-                          },
-                          {
-                            "type": "frame",
-                            "name": "div",
-                            "x": 293,
-                            "y": 23,
-                            "width": 35,
-                            "height": 14,
-                            "styles": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "name": "p",
-                                "x": 0,
-                                "y": 0,
-                                "width": 35,
-                                "height": 14,
-                                "styles": {},
-                                "textContent": "$ 2848",
-                                "textStyles": {
-                                  "fontFamily": "Sora",
-                                  "fontSize": 11,
-                                  "fontWeight": 400,
-                                  "color": "rgb(139, 107, 122)",
-                                  "textAlign": "right"
-                                },
-                                "children": []
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "type": "frame",
-                        "name": "div",
-                        "x": 0,
-                        "y": 68,
-                        "width": 343,
-                        "height": 60,
-                        "styles": {
-                          "backgroundColor": "rgb(255, 255, 255)",
-                          "borderRadius": 14,
-                          "borderWidth": 1,
-                          "borderColor": "rgb(240, 224, 232)",
-                          "display": "flex",
-                          "flexDirection": "row",
-                          "justifyContent": "normal",
-                          "alignItems": "center",
-                          "gap": 10,
-                          "paddingTop": 10,
-                          "paddingRight": 14,
-                          "paddingBottom": 10,
-                          "paddingLeft": 14
-                        },
-                        "children": [
-                          {
-                            "type": "frame",
-                            "name": "div",
-                            "x": 15,
-                            "y": 11,
-                            "width": 38,
-                            "height": 38,
-                            "styles": {
-                              "backgroundGradient": [
-                                {
-                                  "color": "rgb(255, 240, 245)",
-                                  "position": 0
-                                },
-                                {
-                                  "color": "rgb(255, 240, 229)",
-                                  "position": 1
-                                }
-                              ],
-                              "borderRadius": 10,
-                              "display": "flex",
-                              "flexDirection": "column",
-                              "justifyContent": "center",
-                              "alignItems": "center"
-                            },
-                            "children": [
-                              {
-                                "type": "text",
-                                "name": "span",
-                                "x": 12,
-                                "y": 6,
-                                "width": 15,
-                                "height": 13,
-                                "styles": {},
-                                "textContent": "SU",
-                                "textStyles": {
-                                  "fontFamily": "Sora",
-                                  "fontSize": 10,
-                                  "fontWeight": 600,
-                                  "color": "rgb(139, 107, 122)"
-                                },
-                                "children": []
-                              },
-                              {
-                                "type": "text",
-                                "name": "span",
-                                "x": 10,
-                                "y": 19,
-                                "width": 18,
-                                "height": 14,
-                                "styles": {},
-                                "textContent": "22",
-                                "textStyles": {
-                                  "fontFamily": "Sora",
-                                  "fontSize": 14,
-                                  "fontWeight": 700,
-                                  "color": "rgb(45, 27, 53)",
-                                  "lineHeight": 14
-                                },
-                                "children": []
-                              }
-                            ]
-                          },
-                          {
-                            "type": "frame",
-                            "name": "div",
-                            "x": 63,
-                            "y": 23,
-                            "width": 204,
-                            "height": 15,
-                            "styles": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "name": "p",
-                                "x": 0,
-                                "y": 0,
-                                "width": 204,
-                                "height": 15,
-                                "styles": {},
-                                "textContent": "Gym",
-                                "textStyles": {
-                                  "fontFamily": "Sora",
-                                  "fontSize": 12,
-                                  "fontWeight": 600,
-                                  "color": "rgb(45, 27, 53)"
                                 },
                                 "children": []
                               }
@@ -1520,7 +1376,7 @@
                         "type": "frame",
                         "name": "div",
                         "x": 0,
-                        "y": 136,
+                        "y": 68,
                         "width": 343,
                         "height": 60,
                         "styles": {
@@ -1664,7 +1520,7 @@
                         "type": "frame",
                         "name": "div",
                         "x": 0,
-                        "y": 204,
+                        "y": 136,
                         "width": 343,
                         "height": 60,
                         "styles": {
@@ -1808,7 +1664,7 @@
                         "type": "frame",
                         "name": "div",
                         "x": 0,
-                        "y": 272,
+                        "y": 204,
                         "width": 343,
                         "height": 60,
                         "styles": {
@@ -1970,7 +1826,7 @@
                         "type": "frame",
                         "name": "div",
                         "x": 0,
-                        "y": 340,
+                        "y": 272,
                         "width": 343,
                         "height": 60,
                         "styles": {
@@ -2114,7 +1970,7 @@
                         "type": "frame",
                         "name": "div",
                         "x": 0,
-                        "y": 408,
+                        "y": 340,
                         "width": 343,
                         "height": 60,
                         "styles": {
@@ -2258,7 +2114,7 @@
                         "type": "frame",
                         "name": "div",
                         "x": 0,
-                        "y": 476,
+                        "y": 408,
                         "width": 343,
                         "height": 60,
                         "styles": {
@@ -2420,7 +2276,7 @@
                         "type": "frame",
                         "name": "div",
                         "x": 0,
-                        "y": 544,
+                        "y": 476,
                         "width": 343,
                         "height": 60,
                         "styles": {
@@ -2564,7 +2420,7 @@
                         "type": "frame",
                         "name": "div",
                         "x": 0,
-                        "y": 612,
+                        "y": 544,
                         "width": 343,
                         "height": 60,
                         "styles": {
@@ -2708,7 +2564,7 @@
                         "type": "frame",
                         "name": "div",
                         "x": 0,
-                        "y": 680,
+                        "y": 612,
                         "width": 343,
                         "height": 60,
                         "styles": {
@@ -2852,7 +2708,7 @@
                         "type": "frame",
                         "name": "div",
                         "x": 0,
-                        "y": 748,
+                        "y": 680,
                         "width": 343,
                         "height": 60,
                         "styles": {
@@ -3014,7 +2870,7 @@
                         "type": "frame",
                         "name": "div",
                         "x": 0,
-                        "y": 816,
+                        "y": 748,
                         "width": 343,
                         "height": 60,
                         "styles": {
@@ -3158,7 +3014,7 @@
                         "type": "frame",
                         "name": "div",
                         "x": 0,
-                        "y": 884,
+                        "y": 816,
                         "width": 343,
                         "height": 60,
                         "styles": {
@@ -3300,6 +3156,150 @@
                                 "x": 0,
                                 "y": 15,
                                 "width": 48,
+                                "height": 14,
+                                "styles": {},
+                                "textContent": "$ 1155",
+                                "textStyles": {
+                                  "fontFamily": "Sora",
+                                  "fontSize": 11,
+                                  "fontWeight": 400,
+                                  "color": "rgb(139, 107, 122)",
+                                  "textAlign": "right"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 884,
+                        "width": 343,
+                        "height": 60,
+                        "styles": {
+                          "backgroundColor": "rgb(255, 255, 255)",
+                          "borderRadius": 14,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(240, 224, 232)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "gap": 10,
+                          "paddingTop": 10,
+                          "paddingRight": 14,
+                          "paddingBottom": 10,
+                          "paddingLeft": 14
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 15,
+                            "y": 11,
+                            "width": 38,
+                            "height": 38,
+                            "styles": {
+                              "backgroundGradient": [
+                                {
+                                  "color": "rgb(255, 240, 245)",
+                                  "position": 0
+                                },
+                                {
+                                  "color": "rgb(255, 240, 229)",
+                                  "position": 1
+                                }
+                              ],
+                              "borderRadius": 10,
+                              "display": "flex",
+                              "flexDirection": "column",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 12,
+                                "y": 6,
+                                "width": 14,
+                                "height": 13,
+                                "styles": {},
+                                "textContent": "SA",
+                                "textStyles": {
+                                  "fontFamily": "Sora",
+                                  "fontSize": 10,
+                                  "fontWeight": 600,
+                                  "color": "rgb(139, 107, 122)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 14,
+                                "y": 19,
+                                "width": 9,
+                                "height": 14,
+                                "styles": {},
+                                "textContent": "4",
+                                "textStyles": {
+                                  "fontFamily": "Sora",
+                                  "fontSize": 14,
+                                  "fontWeight": 700,
+                                  "color": "rgb(45, 27, 53)",
+                                  "lineHeight": 14
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 63,
+                            "y": 23,
+                            "width": 225,
+                            "height": 15,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 0,
+                                "width": 225,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "No charges",
+                                "textStyles": {
+                                  "fontFamily": "Sora",
+                                  "fontSize": 12,
+                                  "fontWeight": 400,
+                                  "color": "rgb(139, 107, 122)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 298,
+                            "y": 23,
+                            "width": 30,
+                            "height": 14,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 0,
+                                "width": 30,
                                 "height": 14,
                                 "styles": {},
                                 "textContent": "$ 1155",
@@ -4143,9 +4143,9 @@
                             "type": "frame",
                             "name": "div",
                             "x": 43,
-                            "y": 23,
+                            "y": 24,
                             "width": 8,
-                            "height": 28,
+                            "height": 27,
                             "styles": {
                               "backgroundGradient": [
                                 {
@@ -4209,9 +4209,9 @@
                             "type": "frame",
                             "name": "div",
                             "x": 76,
-                            "y": 24,
+                            "y": 25,
                             "width": 8,
-                            "height": 27,
+                            "height": 26,
                             "styles": {
                               "backgroundGradient": [
                                 {
@@ -4297,9 +4297,9 @@
                             "type": "frame",
                             "name": "div",
                             "x": 119,
-                            "y": 25,
+                            "y": 39,
                             "width": 8,
-                            "height": 26,
+                            "height": 12,
                             "styles": {
                               "backgroundGradient": [
                                 {
@@ -4341,9 +4341,9 @@
                             "type": "frame",
                             "name": "div",
                             "x": 141,
-                            "y": 39,
+                            "y": 40,
                             "width": 8,
-                            "height": 12,
+                            "height": 11,
                             "styles": {
                               "backgroundGradient": [
                                 {
@@ -4539,9 +4539,9 @@
                             "type": "frame",
                             "name": "div",
                             "x": 238,
-                            "y": 40,
+                            "y": 41,
                             "width": 8,
-                            "height": 11,
+                            "height": 10,
                             "styles": {
                               "backgroundGradient": [
                                 {
@@ -4605,20 +4605,11 @@
                             "type": "frame",
                             "name": "div",
                             "x": 270,
-                            "y": 41,
+                            "y": 9,
                             "width": 8,
-                            "height": 10,
+                            "height": 42,
                             "styles": {
-                              "backgroundGradient": [
-                                {
-                                  "color": "rgb(246, 166, 35)",
-                                  "position": 0
-                                },
-                                {
-                                  "color": "rgb(255, 182, 193)",
-                                  "position": 1
-                                }
-                              ],
+                              "backgroundColor": "rgb(76, 175, 130)",
                               "borderRadius": 3
                             },
                             "children": []
@@ -4631,7 +4622,16 @@
                             "width": 8,
                             "height": 42,
                             "styles": {
-                              "backgroundColor": "rgb(76, 175, 130)",
+                              "backgroundGradient": [
+                                {
+                                  "color": "rgb(246, 166, 35)",
+                                  "position": 0
+                                },
+                                {
+                                  "color": "rgb(255, 182, 193)",
+                                  "position": 1
+                                }
+                              ],
                               "borderRadius": 3
                             },
                             "children": []
@@ -4662,9 +4662,9 @@
                             "type": "frame",
                             "name": "div",
                             "x": 303,
-                            "y": 9,
+                            "y": 10,
                             "width": 8,
-                            "height": 42,
+                            "height": 41,
                             "styles": {
                               "backgroundGradient": [
                                 {
@@ -4831,10 +4831,10 @@
                                     "name": "span",
                                     "x": 12,
                                     "y": 6,
-                                    "width": 14,
+                                    "width": 15,
                                     "height": 13,
                                     "styles": {},
-                                    "textContent": "SA",
+                                    "textContent": "SU",
                                     "textStyles": {
                                       "fontFamily": "Sora",
                                       "fontSize": 10,
@@ -4846,12 +4846,12 @@
                                   {
                                     "type": "text",
                                     "name": "span",
-                                    "x": 12,
+                                    "x": 10,
                                     "y": 19,
-                                    "width": 15,
+                                    "width": 18,
                                     "height": 14,
                                     "styles": {},
-                                    "textContent": "21",
+                                    "textContent": "22",
                                     "textStyles": {
                                       "fontFamily": "Sora",
                                       "fontSize": 14,
@@ -4868,7 +4868,7 @@
                                 "name": "div",
                                 "x": 63,
                                 "y": 12,
-                                "width": 220,
+                                "width": 204,
                                 "height": 36,
                                 "styles": {},
                                 "children": [
@@ -4877,15 +4877,15 @@
                                     "name": "p",
                                     "x": 0,
                                     "y": 0,
-                                    "width": 220,
+                                    "width": 204,
                                     "height": 15,
                                     "styles": {},
-                                    "textContent": "No charges",
+                                    "textContent": "Gym",
                                     "textStyles": {
                                       "fontFamily": "Sora",
                                       "fontSize": 12,
-                                      "fontWeight": 400,
-                                      "color": "rgb(139, 107, 122)"
+                                      "fontWeight": 600,
+                                      "color": "rgb(45, 27, 53)"
                                     },
                                     "children": []
                                   },
@@ -4903,150 +4903,6 @@
                                       "fontSize": 10,
                                       "fontWeight": 600,
                                       "color": "rgb(246, 166, 35)"
-                                    },
-                                    "children": []
-                                  }
-                                ]
-                              },
-                              {
-                                "type": "frame",
-                                "name": "div",
-                                "x": 293,
-                                "y": 23,
-                                "width": 35,
-                                "height": 14,
-                                "styles": {},
-                                "children": [
-                                  {
-                                    "type": "text",
-                                    "name": "p",
-                                    "x": 0,
-                                    "y": 0,
-                                    "width": 35,
-                                    "height": 14,
-                                    "styles": {},
-                                    "textContent": "$ 2848",
-                                    "textStyles": {
-                                      "fontFamily": "Sora",
-                                      "fontSize": 11,
-                                      "fontWeight": 400,
-                                      "color": "rgb(139, 107, 122)",
-                                      "textAlign": "right"
-                                    },
-                                    "children": []
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "type": "frame",
-                            "name": "div",
-                            "x": 0,
-                            "y": 68,
-                            "width": 343,
-                            "height": 60,
-                            "styles": {
-                              "backgroundColor": "rgb(255, 255, 255)",
-                              "borderRadius": 14,
-                              "borderWidth": 1,
-                              "borderColor": "rgb(240, 224, 232)",
-                              "display": "flex",
-                              "flexDirection": "row",
-                              "justifyContent": "normal",
-                              "alignItems": "center",
-                              "gap": 10,
-                              "paddingTop": 10,
-                              "paddingRight": 14,
-                              "paddingBottom": 10,
-                              "paddingLeft": 14
-                            },
-                            "children": [
-                              {
-                                "type": "frame",
-                                "name": "div",
-                                "x": 15,
-                                "y": 11,
-                                "width": 38,
-                                "height": 38,
-                                "styles": {
-                                  "backgroundGradient": [
-                                    {
-                                      "color": "rgb(255, 240, 245)",
-                                      "position": 0
-                                    },
-                                    {
-                                      "color": "rgb(255, 240, 229)",
-                                      "position": 1
-                                    }
-                                  ],
-                                  "borderRadius": 10,
-                                  "display": "flex",
-                                  "flexDirection": "column",
-                                  "justifyContent": "center",
-                                  "alignItems": "center"
-                                },
-                                "children": [
-                                  {
-                                    "type": "text",
-                                    "name": "span",
-                                    "x": 12,
-                                    "y": 6,
-                                    "width": 15,
-                                    "height": 13,
-                                    "styles": {},
-                                    "textContent": "SU",
-                                    "textStyles": {
-                                      "fontFamily": "Sora",
-                                      "fontSize": 10,
-                                      "fontWeight": 600,
-                                      "color": "rgb(139, 107, 122)"
-                                    },
-                                    "children": []
-                                  },
-                                  {
-                                    "type": "text",
-                                    "name": "span",
-                                    "x": 10,
-                                    "y": 19,
-                                    "width": 18,
-                                    "height": 14,
-                                    "styles": {},
-                                    "textContent": "22",
-                                    "textStyles": {
-                                      "fontFamily": "Sora",
-                                      "fontSize": 14,
-                                      "fontWeight": 700,
-                                      "color": "rgb(45, 27, 53)",
-                                      "lineHeight": 14
-                                    },
-                                    "children": []
-                                  }
-                                ]
-                              },
-                              {
-                                "type": "frame",
-                                "name": "div",
-                                "x": 63,
-                                "y": 23,
-                                "width": 204,
-                                "height": 15,
-                                "styles": {},
-                                "children": [
-                                  {
-                                    "type": "text",
-                                    "name": "p",
-                                    "x": 0,
-                                    "y": 0,
-                                    "width": 204,
-                                    "height": 15,
-                                    "styles": {},
-                                    "textContent": "Gym",
-                                    "textStyles": {
-                                      "fontFamily": "Sora",
-                                      "fontSize": 12,
-                                      "fontWeight": 600,
-                                      "color": "rgb(45, 27, 53)"
                                     },
                                     "children": []
                                   }
@@ -5105,7 +4961,7 @@
                             "type": "frame",
                             "name": "div",
                             "x": 0,
-                            "y": 136,
+                            "y": 68,
                             "width": 343,
                             "height": 60,
                             "styles": {
@@ -5249,7 +5105,7 @@
                             "type": "frame",
                             "name": "div",
                             "x": 0,
-                            "y": 204,
+                            "y": 136,
                             "width": 343,
                             "height": 60,
                             "styles": {
@@ -5393,7 +5249,7 @@
                             "type": "frame",
                             "name": "div",
                             "x": 0,
-                            "y": 272,
+                            "y": 204,
                             "width": 343,
                             "height": 60,
                             "styles": {
@@ -5555,7 +5411,7 @@
                             "type": "frame",
                             "name": "div",
                             "x": 0,
-                            "y": 340,
+                            "y": 272,
                             "width": 343,
                             "height": 60,
                             "styles": {
@@ -5699,7 +5555,7 @@
                             "type": "frame",
                             "name": "div",
                             "x": 0,
-                            "y": 408,
+                            "y": 340,
                             "width": 343,
                             "height": 60,
                             "styles": {
@@ -5843,7 +5699,7 @@
                             "type": "frame",
                             "name": "div",
                             "x": 0,
-                            "y": 476,
+                            "y": 408,
                             "width": 343,
                             "height": 60,
                             "styles": {
@@ -6005,7 +5861,7 @@
                             "type": "frame",
                             "name": "div",
                             "x": 0,
-                            "y": 544,
+                            "y": 476,
                             "width": 343,
                             "height": 60,
                             "styles": {
@@ -6149,7 +6005,7 @@
                             "type": "frame",
                             "name": "div",
                             "x": 0,
-                            "y": 612,
+                            "y": 544,
                             "width": 343,
                             "height": 60,
                             "styles": {
@@ -6293,7 +6149,7 @@
                             "type": "frame",
                             "name": "div",
                             "x": 0,
-                            "y": 680,
+                            "y": 612,
                             "width": 343,
                             "height": 60,
                             "styles": {
@@ -6437,7 +6293,7 @@
                             "type": "frame",
                             "name": "div",
                             "x": 0,
-                            "y": 748,
+                            "y": 680,
                             "width": 343,
                             "height": 60,
                             "styles": {
@@ -6599,7 +6455,7 @@
                             "type": "frame",
                             "name": "div",
                             "x": 0,
-                            "y": 816,
+                            "y": 748,
                             "width": 343,
                             "height": 60,
                             "styles": {
@@ -6743,7 +6599,7 @@
                             "type": "frame",
                             "name": "div",
                             "x": 0,
-                            "y": 884,
+                            "y": 816,
                             "width": 343,
                             "height": 60,
                             "styles": {
@@ -6885,6 +6741,150 @@
                                     "x": 0,
                                     "y": 15,
                                     "width": 48,
+                                    "height": 14,
+                                    "styles": {},
+                                    "textContent": "$ 1155",
+                                    "textStyles": {
+                                      "fontFamily": "Sora",
+                                      "fontSize": 11,
+                                      "fontWeight": 400,
+                                      "color": "rgb(139, 107, 122)",
+                                      "textAlign": "right"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 884,
+                            "width": 343,
+                            "height": 60,
+                            "styles": {
+                              "backgroundColor": "rgb(255, 255, 255)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(240, 224, 232)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 10,
+                              "paddingTop": 10,
+                              "paddingRight": 14,
+                              "paddingBottom": 10,
+                              "paddingLeft": 14
+                            },
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 15,
+                                "y": 11,
+                                "width": 38,
+                                "height": 38,
+                                "styles": {
+                                  "backgroundGradient": [
+                                    {
+                                      "color": "rgb(255, 240, 245)",
+                                      "position": 0
+                                    },
+                                    {
+                                      "color": "rgb(255, 240, 229)",
+                                      "position": 1
+                                    }
+                                  ],
+                                  "borderRadius": 10,
+                                  "display": "flex",
+                                  "flexDirection": "column",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 12,
+                                    "y": 6,
+                                    "width": 14,
+                                    "height": 13,
+                                    "styles": {},
+                                    "textContent": "SA",
+                                    "textStyles": {
+                                      "fontFamily": "Sora",
+                                      "fontSize": 10,
+                                      "fontWeight": 600,
+                                      "color": "rgb(139, 107, 122)"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 14,
+                                    "y": 19,
+                                    "width": 9,
+                                    "height": 14,
+                                    "styles": {},
+                                    "textContent": "4",
+                                    "textStyles": {
+                                      "fontFamily": "Sora",
+                                      "fontSize": 14,
+                                      "fontWeight": 700,
+                                      "color": "rgb(45, 27, 53)",
+                                      "lineHeight": 14
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 63,
+                                "y": 23,
+                                "width": 225,
+                                "height": 15,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 225,
+                                    "height": 15,
+                                    "styles": {},
+                                    "textContent": "No charges",
+                                    "textStyles": {
+                                      "fontFamily": "Sora",
+                                      "fontSize": 12,
+                                      "fontWeight": 400,
+                                      "color": "rgb(139, 107, 122)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 298,
+                                "y": 23,
+                                "width": 30,
+                                "height": 14,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 30,
                                     "height": 14,
                                     "styles": {},
                                     "textContent": "$ 1155",
@@ -11243,10 +11243,10 @@
                 "name": "span",
                 "x": 28,
                 "y": 12,
-                "width": 29,
+                "width": 37,
                 "height": 18,
                 "styles": {},
-                "textContent": "9:41",
+                "textContent": "15:56",
                 "textStyles": {
                   "fontFamily": "Sora",
                   "fontSize": 14,

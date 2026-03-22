@@ -67,7 +67,7 @@
             "width": 289,
             "height": 17,
             "styles": {},
-            "textContent": "23:43",
+            "textContent": "16:08",
             "textStyles": {
               "fontFamily": "Inter",
               "fontSize": 14,
@@ -2108,7 +2108,7 @@
   },
   "screens": [
     {
-      "name": "Tab 1",
+      "name": "Today",
       "root": {
         "type": "frame",
         "name": "div",
@@ -2151,7 +2151,7 @@
                 "width": 289,
                 "height": 17,
                 "styles": {},
-                "textContent": "23:43",
+                "textContent": "16:08",
                 "textStyles": {
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -4235,7 +4235,7 @@
                 "width": 289,
                 "height": 17,
                 "styles": {},
-                "textContent": "23:43",
+                "textContent": "16:08",
                 "textStyles": {
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -5016,7 +5016,7 @@
       }
     },
     {
-      "name": "Tab 3",
+      "name": "Insights",
       "root": {
         "type": "frame",
         "name": "div",
@@ -5059,7 +5059,7 @@
                 "width": 289,
                 "height": 17,
                 "styles": {},
-                "textContent": "23:43",
+                "textContent": "16:08",
                 "textStyles": {
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -6641,6 +6641,1935 @@
                       "fontSize": 10,
                       "fontWeight": 400,
                       "color": "rgb(136, 136, 160)",
+                      "textAlign": "center"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Recovery",
+      "root": {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 812,
+        "styles": {
+          "backgroundColor": "rgb(15, 15, 19)",
+          "borderRadius": 52,
+          "overflow": "hidden",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "normal",
+          "alignItems": "normal"
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 50,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "normal",
+              "alignItems": "flex-end",
+              "paddingRight": 22,
+              "paddingBottom": 8,
+              "paddingLeft": 28
+            },
+            "children": [
+              {
+                "type": "text",
+                "name": "span",
+                "x": 28,
+                "y": 25,
+                "width": 289,
+                "height": 17,
+                "styles": {},
+                "textContent": "16:08",
+                "textStyles": {
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": 700,
+                  "color": "rgb(240, 240, 245)"
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 125,
+                "y": 12,
+                "width": 126,
+                "height": 34,
+                "styles": {
+                  "backgroundColor": "rgb(0, 0, 0)",
+                  "borderRadius": 20
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 317,
+                "y": 26,
+                "width": 36,
+                "height": 16,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 6
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 0,
+                    "y": 1,
+                    "width": 14,
+                    "height": 14,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#F0F0F5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-wifi\" aria-hidden=\"true\"><path d=\"M12 20h.01\"/><path d=\"M2 8.82a15 15 0 0 1 20 0\"/><path d=\"M5 12.859a10 10 0 0 1 14 0\"/><path d=\"M8.5 16.429a5 5 0 0 1 7 0\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 20,
+                    "y": 0,
+                    "width": 16,
+                    "height": 16,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#F0F0F5\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-battery\" aria-hidden=\"true\"><path d=\"M 22 14 L 22 10\"/><rect x=\"2\" y=\"6\" width=\"16\" height=\"12\" rx=\"2\"/></svg>",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 50,
+            "width": 375,
+            "height": 682,
+            "styles": {
+              "overflow": "hidden",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "normal"
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "tab-content",
+                "x": 0,
+                "y": 0,
+                "width": 375,
+                "height": 682,
+                "styles": {
+                  "paddingBottom": 80
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 0,
+                    "width": 375,
+                    "height": 62,
+                    "styles": {
+                      "paddingTop": 16,
+                      "paddingRight": 20,
+                      "paddingLeft": 20
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "h1",
+                        "x": 20,
+                        "y": 16,
+                        "width": 335,
+                        "height": 26,
+                        "styles": {},
+                        "textContent": "Recovery Plan",
+                        "textStyles": {
+                          "fontFamily": "Syne",
+                          "fontSize": 22,
+                          "fontWeight": 700,
+                          "color": "rgb(240, 240, 245)"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "name": "p",
+                        "x": 20,
+                        "y": 46,
+                        "width": 335,
+                        "height": 16,
+                        "styles": {},
+                        "textContent": "Today's action plan based on your data",
+                        "textStyles": {
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": 400,
+                          "color": "rgb(136, 136, 160)"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 20,
+                    "y": 78,
+                    "width": 335,
+                    "height": 149,
+                    "styles": {
+                      "backgroundGradient": [
+                        {
+                          "color": "rgb(26, 42, 31)",
+                          "position": 0
+                        },
+                        {
+                          "color": "rgb(26, 31, 42)",
+                          "position": 1
+                        }
+                      ],
+                      "borderRadius": 20,
+                      "borderWidth": 1,
+                      "borderColor": "rgba(126, 232, 162, 0.2)",
+                      "paddingTop": 20,
+                      "paddingRight": 20,
+                      "paddingBottom": 20,
+                      "paddingLeft": 20
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 21,
+                        "y": 21,
+                        "width": 293,
+                        "height": 62,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 168,
+                            "height": 62,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 0,
+                                "width": 168,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "READINESS SCORE",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": 600,
+                                  "color": "rgb(136, 136, 160)",
+                                  "letterSpacing": 0.6
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 15,
+                                "width": 168,
+                                "height": 32,
+                                "styles": {},
+                                "textContent": "78",
+                                "textStyles": {
+                                  "fontFamily": "Syne",
+                                  "fontSize": 32,
+                                  "fontWeight": 800,
+                                  "color": "rgb(240, 240, 245)",
+                                  "lineHeight": 32
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 47,
+                                "width": 168,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Good · Moderate Training OK",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": 600,
+                                  "color": "rgb(126, 232, 162)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 233,
+                            "y": 1,
+                            "width": 60,
+                            "height": 60,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 60,
+                                "height": 60,
+                                "styles": {
+                                  "backgroundColor": "rgba(126, 232, 162, 0.12)",
+                                  "borderRadius": 30,
+                                  "borderWidth": 2,
+                                  "borderColor": "rgba(126, 232, 162, 0.4)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 16,
+                                    "y": 12,
+                                    "width": 28,
+                                    "height": 37,
+                                    "styles": {},
+                                    "textContent": "💪",
+                                    "textStyles": {
+                                      "fontFamily": "Inter",
+                                      "fontSize": 28,
+                                      "fontWeight": 400,
+                                      "color": "rgb(0, 0, 0)",
+                                      "textAlign": "right"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 21,
+                        "y": 99,
+                        "width": 293,
+                        "height": 29,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "normal",
+                          "gap": 16
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 39,
+                            "height": 29,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 0,
+                                "width": 39,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "HRV",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 10,
+                                  "fontWeight": 600,
+                                  "color": "rgb(136, 136, 160)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 12,
+                                "width": 39,
+                                "height": 17,
+                                "styles": {},
+                                "textContent": "68ms",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": 700,
+                                  "color": "rgb(126, 232, 162)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 55,
+                            "y": 0,
+                            "width": 64,
+                            "height": 29,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 0,
+                                "width": 64,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "Sleep Quality",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 10,
+                                  "fontWeight": 600,
+                                  "color": "rgb(136, 136, 160)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 12,
+                                "width": 64,
+                                "height": 17,
+                                "styles": {},
+                                "textContent": "82%",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": 700,
+                                  "color": "rgb(126, 232, 162)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 135,
+                            "y": 0,
+                            "width": 30,
+                            "height": 29,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 0,
+                                "width": 30,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "Load",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 10,
+                                  "fontWeight": 600,
+                                  "color": "rgb(136, 136, 160)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 12,
+                                "width": 30,
+                                "height": 17,
+                                "styles": {},
+                                "textContent": "Mod",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": 700,
+                                  "color": "rgb(245, 158, 74)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 243,
+                    "width": 375,
+                    "height": 447,
+                    "styles": {
+                      "paddingRight": 20,
+                      "paddingLeft": 20
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "p",
+                        "x": 20,
+                        "y": 0,
+                        "width": 335,
+                        "height": 19,
+                        "styles": {},
+                        "textContent": "Today's Schedule",
+                        "textStyles": {
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": 700,
+                          "color": "rgb(240, 240, 245)"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 20,
+                        "y": 31,
+                        "width": 335,
+                        "height": 416,
+                        "styles": {},
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 19,
+                            "y": 20,
+                            "width": 2,
+                            "height": 376,
+                            "styles": {
+                              "backgroundColor": "rgb(42, 42, 56)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 335,
+                            "height": 56,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "normal",
+                              "gap": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgb(126, 232, 162)",
+                                  "borderRadius": 20,
+                                  "borderWidth": 2,
+                                  "borderColor": "rgb(126, 232, 162)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "✓",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 16,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 54,
+                                "y": 0,
+                                "width": 281,
+                                "height": 56,
+                                "styles": {
+                                  "backgroundColor": "rgb(30, 30, 42)",
+                                  "borderRadius": 14,
+                                  "borderWidth": 1,
+                                  "borderColor": "rgba(126, 232, 162, 0.2)",
+                                  "opacity": 0.7,
+                                  "paddingTop": 10,
+                                  "paddingRight": 12,
+                                  "paddingBottom": 10,
+                                  "paddingLeft": 12
+                                },
+                                "children": [
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 13,
+                                    "y": 11,
+                                    "width": 255,
+                                    "height": 17,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "alignItems": "normal"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "p",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 108,
+                                        "height": 17,
+                                        "styles": {},
+                                        "textContent": "Wake + Hydrate",
+                                        "textStyles": {
+                                          "fontFamily": "Inter",
+                                          "fontSize": 14,
+                                          "fontWeight": 600,
+                                          "color": "rgb(136, 136, 160)"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "p",
+                                        "x": 211,
+                                        "y": 0,
+                                        "width": 44,
+                                        "height": 17,
+                                        "styles": {},
+                                        "textContent": "7:00 AM",
+                                        "textStyles": {
+                                          "fontFamily": "Inter",
+                                          "fontSize": 11,
+                                          "fontWeight": 400,
+                                          "color": "rgb(136, 136, 160)"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 13,
+                                    "y": 30,
+                                    "width": 255,
+                                    "height": 15,
+                                    "styles": {},
+                                    "textContent": "500ml water, check HRV",
+                                    "textStyles": {
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": 400,
+                                      "color": "rgb(136, 136, 160)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 72,
+                            "width": 335,
+                            "height": 56,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "normal",
+                              "gap": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgb(126, 232, 162)",
+                                  "borderRadius": 20,
+                                  "borderWidth": 2,
+                                  "borderColor": "rgb(126, 232, 162)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "✓",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 16,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 54,
+                                "y": 0,
+                                "width": 281,
+                                "height": 56,
+                                "styles": {
+                                  "backgroundColor": "rgb(30, 30, 42)",
+                                  "borderRadius": 14,
+                                  "borderWidth": 1,
+                                  "borderColor": "rgba(126, 232, 162, 0.2)",
+                                  "opacity": 0.7,
+                                  "paddingTop": 10,
+                                  "paddingRight": 12,
+                                  "paddingBottom": 10,
+                                  "paddingLeft": 12
+                                },
+                                "children": [
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 13,
+                                    "y": 11,
+                                    "width": 255,
+                                    "height": 17,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "alignItems": "normal"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "p",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 65,
+                                        "height": 17,
+                                        "styles": {},
+                                        "textContent": "Breakfast",
+                                        "textStyles": {
+                                          "fontFamily": "Inter",
+                                          "fontSize": 14,
+                                          "fontWeight": 600,
+                                          "color": "rgb(136, 136, 160)"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "p",
+                                        "x": 212,
+                                        "y": 0,
+                                        "width": 43,
+                                        "height": 17,
+                                        "styles": {},
+                                        "textContent": "7:30 AM",
+                                        "textStyles": {
+                                          "fontFamily": "Inter",
+                                          "fontSize": 11,
+                                          "fontWeight": 400,
+                                          "color": "rgb(136, 136, 160)"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 13,
+                                    "y": 30,
+                                    "width": 255,
+                                    "height": 15,
+                                    "styles": {},
+                                    "textContent": "Overnight oats logged ✓",
+                                    "textStyles": {
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": 400,
+                                      "color": "rgb(136, 136, 160)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 144,
+                            "width": 335,
+                            "height": 56,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "normal",
+                              "gap": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgb(30, 30, 42)",
+                                  "borderRadius": 20,
+                                  "borderWidth": 2,
+                                  "borderColor": "rgb(42, 42, 56)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "🚶",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 16,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 54,
+                                "y": 0,
+                                "width": 281,
+                                "height": 56,
+                                "styles": {
+                                  "backgroundColor": "rgb(30, 30, 42)",
+                                  "borderRadius": 14,
+                                  "borderWidth": 1,
+                                  "borderColor": "rgb(46, 46, 64)",
+                                  "paddingTop": 10,
+                                  "paddingRight": 12,
+                                  "paddingBottom": 10,
+                                  "paddingLeft": 12
+                                },
+                                "children": [
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 13,
+                                    "y": 11,
+                                    "width": 255,
+                                    "height": 17,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "alignItems": "normal"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "p",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 114,
+                                        "height": 17,
+                                        "styles": {},
+                                        "textContent": "Movement Break",
+                                        "textStyles": {
+                                          "fontFamily": "Inter",
+                                          "fontSize": 14,
+                                          "fontWeight": 600,
+                                          "color": "rgb(240, 240, 245)"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "p",
+                                        "x": 206,
+                                        "y": 0,
+                                        "width": 49,
+                                        "height": 17,
+                                        "styles": {},
+                                        "textContent": "10:30 AM",
+                                        "textStyles": {
+                                          "fontFamily": "Inter",
+                                          "fontSize": 11,
+                                          "fontWeight": 400,
+                                          "color": "rgb(136, 136, 160)"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 13,
+                                    "y": 30,
+                                    "width": 255,
+                                    "height": 15,
+                                    "styles": {},
+                                    "textContent": "10-min walk — your steps are low",
+                                    "textStyles": {
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": 400,
+                                      "color": "rgb(136, 136, 160)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 216,
+                            "width": 335,
+                            "height": 56,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "normal",
+                              "gap": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgb(30, 30, 42)",
+                                  "borderRadius": 20,
+                                  "borderWidth": 2,
+                                  "borderColor": "rgb(42, 42, 56)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "🥗",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 16,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 54,
+                                "y": 0,
+                                "width": 281,
+                                "height": 56,
+                                "styles": {
+                                  "backgroundColor": "rgb(30, 30, 42)",
+                                  "borderRadius": 14,
+                                  "borderWidth": 1,
+                                  "borderColor": "rgb(46, 46, 64)",
+                                  "paddingTop": 10,
+                                  "paddingRight": 12,
+                                  "paddingBottom": 10,
+                                  "paddingLeft": 12
+                                },
+                                "children": [
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 13,
+                                    "y": 11,
+                                    "width": 255,
+                                    "height": 17,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "alignItems": "normal"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "p",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 109,
+                                        "height": 17,
+                                        "styles": {},
+                                        "textContent": "Recovery Lunch",
+                                        "textStyles": {
+                                          "fontFamily": "Inter",
+                                          "fontSize": 14,
+                                          "fontWeight": 600,
+                                          "color": "rgb(240, 240, 245)"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "p",
+                                        "x": 207,
+                                        "y": 0,
+                                        "width": 48,
+                                        "height": 17,
+                                        "styles": {},
+                                        "textContent": "12:30 PM",
+                                        "textStyles": {
+                                          "fontFamily": "Inter",
+                                          "fontSize": 11,
+                                          "fontWeight": 400,
+                                          "color": "rgb(136, 136, 160)"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 13,
+                                    "y": 30,
+                                    "width": 255,
+                                    "height": 15,
+                                    "styles": {},
+                                    "textContent": "Aim for lean protein + veg",
+                                    "textStyles": {
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": 400,
+                                      "color": "rgb(136, 136, 160)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 288,
+                            "width": 335,
+                            "height": 56,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "normal",
+                              "gap": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgb(30, 30, 42)",
+                                  "borderRadius": 20,
+                                  "borderWidth": 2,
+                                  "borderColor": "rgb(42, 42, 56)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "🏃",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 16,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 54,
+                                "y": 0,
+                                "width": 281,
+                                "height": 56,
+                                "styles": {
+                                  "backgroundColor": "rgb(30, 30, 42)",
+                                  "borderRadius": 14,
+                                  "borderWidth": 1,
+                                  "borderColor": "rgb(46, 46, 64)",
+                                  "paddingTop": 10,
+                                  "paddingRight": 12,
+                                  "paddingBottom": 10,
+                                  "paddingLeft": 12
+                                },
+                                "children": [
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 13,
+                                    "y": 11,
+                                    "width": 255,
+                                    "height": 17,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "alignItems": "normal"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "p",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 62,
+                                        "height": 17,
+                                        "styles": {},
+                                        "textContent": "Easy Run",
+                                        "textStyles": {
+                                          "fontFamily": "Inter",
+                                          "fontSize": 14,
+                                          "fontWeight": 600,
+                                          "color": "rgb(240, 240, 245)"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "p",
+                                        "x": 211,
+                                        "y": 0,
+                                        "width": 44,
+                                        "height": 17,
+                                        "styles": {},
+                                        "textContent": "6:00 PM",
+                                        "textStyles": {
+                                          "fontFamily": "Inter",
+                                          "fontSize": 11,
+                                          "fontWeight": 400,
+                                          "color": "rgb(136, 136, 160)"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 13,
+                                    "y": 30,
+                                    "width": 255,
+                                    "height": 15,
+                                    "styles": {},
+                                    "textContent": "Keep HR below 148 bpm today",
+                                    "textStyles": {
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": 400,
+                                      "color": "rgb(136, 136, 160)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 360,
+                            "width": 335,
+                            "height": 56,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "normal",
+                              "gap": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgb(30, 30, 42)",
+                                  "borderRadius": 20,
+                                  "borderWidth": 2,
+                                  "borderColor": "rgb(42, 42, 56)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "🌙",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 16,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 54,
+                                "y": 0,
+                                "width": 281,
+                                "height": 56,
+                                "styles": {
+                                  "backgroundColor": "rgb(30, 30, 42)",
+                                  "borderRadius": 14,
+                                  "borderWidth": 1,
+                                  "borderColor": "rgb(46, 46, 64)",
+                                  "paddingTop": 10,
+                                  "paddingRight": 12,
+                                  "paddingBottom": 10,
+                                  "paddingLeft": 12
+                                },
+                                "children": [
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 13,
+                                    "y": 11,
+                                    "width": 255,
+                                    "height": 17,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "space-between",
+                                      "alignItems": "normal"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "p",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 112,
+                                        "height": 17,
+                                        "styles": {},
+                                        "textContent": "Recovery Dinner",
+                                        "textStyles": {
+                                          "fontFamily": "Inter",
+                                          "fontSize": 14,
+                                          "fontWeight": 600,
+                                          "color": "rgb(240, 240, 245)"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "p",
+                                        "x": 212,
+                                        "y": 0,
+                                        "width": 43,
+                                        "height": 17,
+                                        "styles": {},
+                                        "textContent": "7:30 PM",
+                                        "textStyles": {
+                                          "fontFamily": "Inter",
+                                          "fontSize": 11,
+                                          "fontWeight": 400,
+                                          "color": "rgb(136, 136, 160)"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 13,
+                                    "y": 30,
+                                    "width": 255,
+                                    "height": 15,
+                                    "styles": {},
+                                    "textContent": "Light meal before 8 PM for sleep",
+                                    "textStyles": {
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": 400,
+                                      "color": "rgb(136, 136, 160)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 20,
+                    "y": 706,
+                    "width": 335,
+                    "height": 241,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "p",
+                        "x": 0,
+                        "y": 0,
+                        "width": 335,
+                        "height": 19,
+                        "styles": {},
+                        "textContent": "Habit Streaks",
+                        "textStyles": {
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": 700,
+                          "color": "rgb(240, 240, 245)"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 31,
+                        "width": 335,
+                        "height": 210,
+                        "styles": {},
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 163,
+                            "height": 100,
+                            "styles": {
+                              "backgroundColor": "rgb(30, 30, 42)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(46, 46, 64)",
+                              "paddingTop": 12,
+                              "paddingRight": 12,
+                              "paddingBottom": 12,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 13,
+                                "y": 13,
+                                "width": 137,
+                                "height": 30,
+                                "styles": {},
+                                "textContent": "🚶",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 22,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 49,
+                                "width": 137,
+                                "height": 16,
+                                "styles": {},
+                                "textContent": "Post-meal walk",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": 600,
+                                  "color": "rgb(240, 240, 245)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 67,
+                                "width": 137,
+                                "height": 20,
+                                "styles": {},
+                                "textContent": "🔥 5 day streak",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(126, 232, 162)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 173,
+                            "y": 0,
+                            "width": 163,
+                            "height": 100,
+                            "styles": {
+                              "backgroundColor": "rgb(30, 30, 42)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(46, 46, 64)",
+                              "paddingTop": 12,
+                              "paddingRight": 12,
+                              "paddingBottom": 12,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 13,
+                                "y": 13,
+                                "width": 137,
+                                "height": 30,
+                                "styles": {},
+                                "textContent": "😴",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 22,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 49,
+                                "width": 137,
+                                "height": 16,
+                                "styles": {},
+                                "textContent": "Sleep by 10:30",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": 600,
+                                  "color": "rgb(240, 240, 245)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 67,
+                                "width": 137,
+                                "height": 20,
+                                "styles": {},
+                                "textContent": "🔥 3 day streak",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(167, 139, 250)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 110,
+                            "width": 163,
+                            "height": 100,
+                            "styles": {
+                              "backgroundColor": "rgb(30, 30, 42)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(46, 46, 64)",
+                              "paddingTop": 12,
+                              "paddingRight": 12,
+                              "paddingBottom": 12,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 13,
+                                "y": 13,
+                                "width": 137,
+                                "height": 30,
+                                "styles": {},
+                                "textContent": "🥚",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 22,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 49,
+                                "width": 137,
+                                "height": 16,
+                                "styles": {},
+                                "textContent": "Protein breakfast",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": 600,
+                                  "color": "rgb(240, 240, 245)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 67,
+                                "width": 137,
+                                "height": 20,
+                                "styles": {},
+                                "textContent": "🔥 8 day streak",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(245, 158, 74)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 173,
+                            "y": 110,
+                            "width": 163,
+                            "height": 100,
+                            "styles": {
+                              "backgroundColor": "rgb(30, 30, 42)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(46, 46, 64)",
+                              "paddingTop": 12,
+                              "paddingRight": 12,
+                              "paddingBottom": 12,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 13,
+                                "y": 13,
+                                "width": 137,
+                                "height": 30,
+                                "styles": {},
+                                "textContent": "📱",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 22,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 49,
+                                "width": 137,
+                                "height": 16,
+                                "styles": {},
+                                "textContent": "Log 3 meals",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": 600,
+                                  "color": "rgb(240, 240, 245)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 67,
+                                "width": 137,
+                                "height": 20,
+                                "styles": {},
+                                "textContent": "🔥 12 day streak",
+                                "textStyles": {
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(96, 165, 250)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 732,
+            "width": 375,
+            "height": 80,
+            "styles": {
+              "backgroundColor": "rgb(26, 26, 34)",
+              "borderWidth": 1,
+              "borderColor": "rgb(42, 42, 56) rgb(0, 0, 0) rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "alignItems": "center",
+              "paddingTop": 4,
+              "paddingBottom": 12
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "button",
+                "x": 16,
+                "y": 11,
+                "width": 51,
+                "height": 52,
+                "styles": {
+                  "borderRadius": 14,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 4,
+                  "paddingTop": 6,
+                  "paddingRight": 12,
+                  "paddingBottom": 6,
+                  "paddingLeft": 12
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 14,
+                    "y": 6,
+                    "width": 22,
+                    "height": 25,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 0,
+                        "y": 0,
+                        "width": 22,
+                        "height": 22,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#8888A0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-house\" aria-hidden=\"true\"><path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"/><path d=\"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 12,
+                    "y": 35,
+                    "width": 27,
+                    "height": 11,
+                    "styles": {},
+                    "textContent": "Today",
+                    "textStyles": {
+                      "fontFamily": "Arial",
+                      "fontSize": 10,
+                      "fontWeight": 400,
+                      "color": "rgb(136, 136, 160)",
+                      "textAlign": "center"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "button",
+                "x": 97,
+                "y": 19,
+                "width": 72,
+                "height": 36,
+                "styles": {
+                  "borderRadius": 14,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 4,
+                  "paddingTop": 6,
+                  "paddingRight": 12,
+                  "paddingBottom": 6,
+                  "paddingLeft": 12
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 12,
+                    "y": -18,
+                    "width": 48,
+                    "height": 48,
+                    "styles": {
+                      "backgroundColor": "rgb(126, 232, 162)",
+                      "borderRadius": 24,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 12,
+                        "y": 12,
+                        "width": 24,
+                        "height": 24,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0f0f13\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"M12 5v14\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "button",
+                "x": 201,
+                "y": 11,
+                "width": 58,
+                "height": 52,
+                "styles": {
+                  "borderRadius": 14,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 4,
+                  "paddingTop": 6,
+                  "paddingRight": 12,
+                  "paddingBottom": 6,
+                  "paddingLeft": 12
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 18,
+                    "y": 6,
+                    "width": 22,
+                    "height": 25,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 0,
+                        "y": 0,
+                        "width": 22,
+                        "height": 22,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#8888A0\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-trending-up\" aria-hidden=\"true\"><path d=\"M16 7h6v6\"/><path d=\"m22 7-8.5 8.5-5-5L2 17\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 12,
+                    "y": 35,
+                    "width": 34,
+                    "height": 11,
+                    "styles": {},
+                    "textContent": "Insights",
+                    "textStyles": {
+                      "fontFamily": "Arial",
+                      "fontSize": 10,
+                      "fontWeight": 400,
+                      "color": "rgb(136, 136, 160)",
+                      "textAlign": "center"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "button",
+                "x": 290,
+                "y": 11,
+                "width": 69,
+                "height": 52,
+                "styles": {
+                  "borderRadius": 14,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 4,
+                  "paddingTop": 6,
+                  "paddingRight": 12,
+                  "paddingBottom": 6,
+                  "paddingLeft": 12
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 24,
+                    "y": 6,
+                    "width": 22,
+                    "height": 25,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 0,
+                        "y": 0,
+                        "width": 22,
+                        "height": 22,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#7EE8A2\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-activity\" aria-hidden=\"true\"><path d=\"M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2\"/></svg>",
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 9,
+                        "y": 25,
+                        "width": 4,
+                        "height": 4,
+                        "styles": {
+                          "backgroundColor": "rgb(126, 232, 162)",
+                          "borderRadius": 2
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 12,
+                    "y": 35,
+                    "width": 45,
+                    "height": 11,
+                    "styles": {},
+                    "textContent": "Recovery",
+                    "textStyles": {
+                      "fontFamily": "Arial",
+                      "fontSize": 10,
+                      "fontWeight": 700,
+                      "color": "rgb(126, 232, 162)",
                       "textAlign": "center"
                     },
                     "children": []

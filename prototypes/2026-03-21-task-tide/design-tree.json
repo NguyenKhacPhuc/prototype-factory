@@ -67,10 +67,10 @@
             "name": "span",
             "x": 28,
             "y": 27,
-            "width": 41,
+            "width": 38,
             "height": 17,
             "styles": {},
-            "textContent": "20:46",
+            "textContent": "16:09",
             "textStyles": {
               "fontFamily": "Inter",
               "fontSize": 14,
@@ -82,9 +82,9 @@
           {
             "type": "frame",
             "name": "div",
-            "x": 69,
+            "x": 66,
             "y": 44,
-            "width": 231,
+            "width": 234,
             "height": 0,
             "styles": {},
             "children": []
@@ -1997,10 +1997,10 @@
                 "name": "span",
                 "x": 28,
                 "y": 27,
-                "width": 41,
+                "width": 38,
                 "height": 17,
                 "styles": {},
-                "textContent": "20:46",
+                "textContent": "16:09",
                 "textStyles": {
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -2012,9 +2012,9 @@
               {
                 "type": "frame",
                 "name": "div",
-                "x": 69,
+                "x": 66,
                 "y": 44,
-                "width": 231,
+                "width": 234,
                 "height": 0,
                 "styles": {},
                 "children": []
@@ -3927,10 +3927,10 @@
                 "name": "span",
                 "x": 28,
                 "y": 27,
-                "width": 41,
+                "width": 38,
                 "height": 17,
                 "styles": {},
-                "textContent": "20:46",
+                "textContent": "16:09",
                 "textStyles": {
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -3942,9 +3942,9 @@
               {
                 "type": "frame",
                 "name": "div",
-                "x": 69,
+                "x": 66,
                 "y": 44,
-                "width": 231,
+                "width": 234,
                 "height": 0,
                 "styles": {},
                 "children": []
@@ -6816,10 +6816,10 @@
                 "name": "span",
                 "x": 28,
                 "y": 27,
-                "width": 41,
+                "width": 38,
                 "height": 17,
                 "styles": {},
-                "textContent": "20:46",
+                "textContent": "16:09",
                 "textStyles": {
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -6831,9 +6831,9 @@
               {
                 "type": "frame",
                 "name": "div",
-                "x": 69,
+                "x": 66,
                 "y": 44,
-                "width": 231,
+                "width": 234,
                 "height": 0,
                 "styles": {},
                 "children": []
@@ -9398,10 +9398,10 @@
                 "name": "span",
                 "x": 28,
                 "y": 27,
-                "width": 41,
+                "width": 38,
                 "height": 17,
                 "styles": {},
-                "textContent": "20:46",
+                "textContent": "16:09",
                 "textStyles": {
                   "fontFamily": "Inter",
                   "fontSize": 14,
@@ -9413,9 +9413,9 @@
               {
                 "type": "frame",
                 "name": "div",
-                "x": 69,
+                "x": 66,
                 "y": 44,
-                "width": 231,
+                "width": 234,
                 "height": 0,
                 "styles": {},
                 "children": []

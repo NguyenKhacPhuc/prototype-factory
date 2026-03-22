@@ -115,10 +115,10 @@
             "name": "span",
             "x": 24,
             "y": 14,
-            "width": 34,
+            "width": 39,
             "height": 18,
             "styles": {},
-            "textContent": "0:46",
+            "textContent": "16:06",
             "textStyles": {
               "fontFamily": "Plus Jakarta Sans",
               "fontSize": 14,
@@ -131,7 +131,7 @@
           {
             "type": "frame",
             "name": "div",
-            "x": 107,
+            "x": 110,
             "y": 23,
             "width": 130,
             "height": 0,
@@ -2698,10 +2698,10 @@
                 "name": "span",
                 "x": 24,
                 "y": 14,
-                "width": 34,
+                "width": 39,
                 "height": 18,
                 "styles": {},
-                "textContent": "0:46",
+                "textContent": "16:06",
                 "textStyles": {
                   "fontFamily": "Plus Jakarta Sans",
                   "fontSize": 14,
@@ -2714,7 +2714,7 @@
               {
                 "type": "frame",
                 "name": "div",
-                "x": 107,
+                "x": 110,
                 "y": 23,
                 "width": 130,
                 "height": 0,
@@ -5281,10 +5281,10 @@
                 "name": "span",
                 "x": 24,
                 "y": 14,
-                "width": 34,
+                "width": 39,
                 "height": 18,
                 "styles": {},
-                "textContent": "0:46",
+                "textContent": "16:06",
                 "textStyles": {
                   "fontFamily": "Plus Jakarta Sans",
                   "fontSize": 14,
@@ -5297,7 +5297,7 @@
               {
                 "type": "frame",
                 "name": "div",
-                "x": 107,
+                "x": 110,
                 "y": 23,
                 "width": 130,
                 "height": 0,
@@ -7285,6 +7285,3585 @@
                       "letterSpacing": 0.2
                     },
                     "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Circles",
+      "root": {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 812,
+        "styles": {
+          "backgroundColor": "rgb(8, 13, 26)",
+          "borderRadius": 48,
+          "overflow": "hidden",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "normal",
+          "alignItems": "normal"
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 128,
+            "y": 10,
+            "width": 120,
+            "height": 34,
+            "styles": {
+              "backgroundColor": "rgb(0, 0, 0)",
+              "borderRadius": 20,
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 41,
+                "y": 13,
+                "width": 8,
+                "height": 8,
+                "styles": {
+                  "backgroundColor": "rgb(26, 26, 26)",
+                  "borderRadius": 4
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 69,
+                "y": 12,
+                "width": 10,
+                "height": 10,
+                "styles": {
+                  "backgroundColor": "rgb(26, 26, 26)",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "borderColor": "rgb(51, 51, 51)"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 40,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "alignItems": "center",
+              "paddingTop": 14,
+              "paddingRight": 24,
+              "paddingBottom": 8,
+              "paddingLeft": 24
+            },
+            "children": [
+              {
+                "type": "text",
+                "name": "span",
+                "x": 24,
+                "y": 14,
+                "width": 39,
+                "height": 18,
+                "styles": {},
+                "textContent": "16:06",
+                "textStyles": {
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 14,
+                  "fontWeight": 700,
+                  "color": "rgb(240, 244, 255)",
+                  "letterSpacing": 0.3
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 110,
+                "y": 23,
+                "width": 130,
+                "height": 0,
+                "styles": {},
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 286,
+                "y": 17,
+                "width": 65,
+                "height": 12,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 6
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 0,
+                    "y": 0,
+                    "width": 15,
+                    "height": 12,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"12\" viewBox=\"0 0 15 12\" fill=\"#F0F4FF\"><rect x=\"0\" y=\"8\" width=\"3\" height=\"4\" rx=\"0.5\" opacity=\"0.4\"/><rect x=\"4\" y=\"5\" width=\"3\" height=\"7\" rx=\"0.5\" opacity=\"0.6\"/><rect x=\"8\" y=\"2\" width=\"3\" height=\"10\" rx=\"0.5\" opacity=\"0.8\"/><rect x=\"12\" y=\"0\" width=\"3\" height=\"12\" rx=\"0.5\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 21,
+                    "y": 0,
+                    "width": 16,
+                    "height": 12,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"12\" viewBox=\"0 0 16 12\" fill=\"none\"><path d=\"M8 3C9.8 3 11.4 3.7 12.6 4.9L14 3.5C12.4 1.9 10.3 1 8 1S3.6 1.9 2 3.5L3.4 4.9C4.6 3.7 6.2 3 8 3Z\" fill=\"#F0F4FF\"/><path d=\"M8 6C9.1 6 10 6.4 10.7 7.1L12.1 5.7C11 4.6 9.6 4 8 4S5 4.6 3.9 5.7L5.3 7.1C6 6.4 6.9 6 8 6Z\" fill=\"#F0F4FF\" opacity=\"0.7\"/><circle cx=\"8\" cy=\"10\" r=\"1.5\" fill=\"#F0F4FF\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 43,
+                    "y": 1,
+                    "width": 22,
+                    "height": 11,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "normal",
+                      "alignItems": "center",
+                      "gap": 2
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 22,
+                        "height": 11,
+                        "styles": {
+                          "borderRadius": 3,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(240, 244, 255)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "paddingTop": 1.5,
+                          "paddingRight": 1.5,
+                          "paddingBottom": 1.5,
+                          "paddingLeft": 1.5
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 3,
+                            "y": 3,
+                            "width": 14,
+                            "height": 6,
+                            "styles": {
+                              "backgroundColor": "rgb(74, 222, 128)",
+                              "borderRadius": 1
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 40,
+            "width": 375,
+            "height": 693,
+            "styles": {
+              "overflow": "hidden",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "normal"
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 0,
+                "width": 375,
+                "height": 693,
+                "styles": {
+                  "overflow": "hidden",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "normal"
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 0,
+                    "width": 375,
+                    "height": 66,
+                    "styles": {
+                      "paddingTop": 4,
+                      "paddingRight": 16,
+                      "paddingBottom": 14,
+                      "paddingLeft": 16
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 16,
+                        "y": 4,
+                        "width": 343,
+                        "height": 28,
+                        "styles": {},
+                        "textContent": "My Circles",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 22,
+                          "fontWeight": 800,
+                          "color": "rgb(240, 244, 255)"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 16,
+                        "y": 36,
+                        "width": 343,
+                        "height": 16,
+                        "styles": {},
+                        "textContent": "Smaller communities, stronger trust",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": 400,
+                          "color": "rgb(136, 153, 187)"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 66,
+                    "width": 375,
+                    "height": 627,
+                    "styles": {
+                      "paddingRight": 16,
+                      "paddingBottom": 16,
+                      "paddingLeft": 16
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 16,
+                        "y": 0,
+                        "width": 343,
+                        "height": 124,
+                        "styles": {
+                          "backgroundColor": "rgb(21, 32, 53)",
+                          "borderRadius": 16,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(30, 48, 80)",
+                          "paddingTop": 14,
+                          "paddingRight": 16,
+                          "paddingBottom": 14,
+                          "paddingLeft": 16
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 17,
+                            "y": 15,
+                            "width": 309,
+                            "height": 50,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 50,
+                                "height": 50,
+                                "styles": {
+                                  "backgroundColor": "rgba(74, 222, 128, 0.094)",
+                                  "borderRadius": 16,
+                                  "borderWidth": 1,
+                                  "borderColor": "rgba(74, 222, 128, 0.19)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "🏢",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 24,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 64,
+                                "y": 7,
+                                "width": 215,
+                                "height": 37,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 215,
+                                    "height": 19,
+                                    "styles": {},
+                                    "textContent": "The Meridian (Building)",
+                                    "textStyles": {
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 15,
+                                      "fontWeight": 700,
+                                      "color": "rgb(240, 244, 255)"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 22,
+                                    "width": 215,
+                                    "height": 15,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "normal",
+                                      "alignItems": "normal",
+                                      "gap": 10
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 72,
+                                        "height": 15,
+                                        "styles": {},
+                                        "textContent": "84 members",
+                                        "textStyles": {
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 12,
+                                          "fontWeight": 400,
+                                          "color": "rgb(136, 153, 187)"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 82,
+                                        "y": 0,
+                                        "width": 49,
+                                        "height": 15,
+                                        "styles": {},
+                                        "textContent": "12 active",
+                                        "textStyles": {
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 12,
+                                          "fontWeight": 400,
+                                          "color": "rgb(74, 222, 128)"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 293,
+                                "y": 17,
+                                "width": 16,
+                                "height": 16,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4A6080\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 17,
+                            "y": 75,
+                            "width": 309,
+                            "height": 34,
+                            "styles": {
+                              "backgroundColor": "rgba(74, 222, 128, 0.063)",
+                              "borderRadius": 8,
+                              "paddingTop": 7,
+                              "paddingRight": 10,
+                              "paddingBottom": 7,
+                              "paddingLeft": 10
+                            },
+                            "textContent": "🔔 3 new needs",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "color": "rgb(74, 222, 128)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 16,
+                        "y": 134,
+                        "width": 343,
+                        "height": 124,
+                        "styles": {
+                          "backgroundColor": "rgb(21, 32, 53)",
+                          "borderRadius": 16,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(30, 48, 80)",
+                          "paddingTop": 14,
+                          "paddingRight": 16,
+                          "paddingBottom": 14,
+                          "paddingLeft": 16
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 17,
+                            "y": 15,
+                            "width": 309,
+                            "height": 50,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 50,
+                                "height": 50,
+                                "styles": {
+                                  "backgroundColor": "rgba(56, 189, 248, 0.094)",
+                                  "borderRadius": 16,
+                                  "borderWidth": 1,
+                                  "borderColor": "rgba(56, 189, 248, 0.19)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "🌳",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 24,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 64,
+                                "y": 7,
+                                "width": 215,
+                                "height": 37,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 215,
+                                    "height": 19,
+                                    "styles": {},
+                                    "textContent": "Elm Street Block",
+                                    "textStyles": {
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 15,
+                                      "fontWeight": 700,
+                                      "color": "rgb(240, 244, 255)"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 22,
+                                    "width": 215,
+                                    "height": 15,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "normal",
+                                      "alignItems": "normal",
+                                      "gap": 10
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 69,
+                                        "height": 15,
+                                        "styles": {},
+                                        "textContent": "31 members",
+                                        "textStyles": {
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 12,
+                                          "fontWeight": 400,
+                                          "color": "rgb(136, 153, 187)"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 79,
+                                        "y": 0,
+                                        "width": 44,
+                                        "height": 15,
+                                        "styles": {},
+                                        "textContent": "5 active",
+                                        "textStyles": {
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 12,
+                                          "fontWeight": 400,
+                                          "color": "rgb(56, 189, 248)"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 293,
+                                "y": 17,
+                                "width": 16,
+                                "height": 16,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4A6080\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 17,
+                            "y": 75,
+                            "width": 309,
+                            "height": 34,
+                            "styles": {
+                              "backgroundColor": "rgba(56, 189, 248, 0.063)",
+                              "borderRadius": 8,
+                              "paddingTop": 7,
+                              "paddingRight": 10,
+                              "paddingBottom": 7,
+                              "paddingLeft": 10
+                            },
+                            "textContent": "🔔 1 offer posted",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "color": "rgb(56, 189, 248)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 16,
+                        "y": 268,
+                        "width": 343,
+                        "height": 124,
+                        "styles": {
+                          "backgroundColor": "rgb(21, 32, 53)",
+                          "borderRadius": 16,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(30, 48, 80)",
+                          "paddingTop": 14,
+                          "paddingRight": 16,
+                          "paddingBottom": 14,
+                          "paddingLeft": 16
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 17,
+                            "y": 15,
+                            "width": 309,
+                            "height": 50,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 50,
+                                "height": 50,
+                                "styles": {
+                                  "backgroundColor": "rgba(167, 139, 250, 0.094)",
+                                  "borderRadius": 16,
+                                  "borderWidth": 1,
+                                  "borderColor": "rgba(167, 139, 250, 0.19)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "👶",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 24,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 64,
+                                "y": 7,
+                                "width": 215,
+                                "height": 37,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 215,
+                                    "height": 19,
+                                    "styles": {},
+                                    "textContent": "Meridian Parents",
+                                    "textStyles": {
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 15,
+                                      "fontWeight": 700,
+                                      "color": "rgb(240, 244, 255)"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 22,
+                                    "width": 215,
+                                    "height": 15,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "normal",
+                                      "alignItems": "normal",
+                                      "gap": 10
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 68,
+                                        "height": 15,
+                                        "styles": {},
+                                        "textContent": "19 members",
+                                        "textStyles": {
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 12,
+                                          "fontWeight": 400,
+                                          "color": "rgb(136, 153, 187)"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 78,
+                                        "y": 0,
+                                        "width": 45,
+                                        "height": 15,
+                                        "styles": {},
+                                        "textContent": "8 active",
+                                        "textStyles": {
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 12,
+                                          "fontWeight": 400,
+                                          "color": "rgb(167, 139, 250)"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 293,
+                                "y": 17,
+                                "width": 16,
+                                "height": 16,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4A6080\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 17,
+                            "y": 75,
+                            "width": 309,
+                            "height": 34,
+                            "styles": {
+                              "backgroundColor": "rgba(167, 139, 250, 0.063)",
+                              "borderRadius": 8,
+                              "paddingTop": 7,
+                              "paddingRight": 10,
+                              "paddingBottom": 7,
+                              "paddingLeft": 10
+                            },
+                            "textContent": "🔔 New caregiver added",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "color": "rgb(167, 139, 250)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 16,
+                        "y": 402,
+                        "width": 343,
+                        "height": 124,
+                        "styles": {
+                          "backgroundColor": "rgb(21, 32, 53)",
+                          "borderRadius": 16,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(30, 48, 80)",
+                          "paddingTop": 14,
+                          "paddingRight": 16,
+                          "paddingBottom": 14,
+                          "paddingLeft": 16
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 17,
+                            "y": 15,
+                            "width": 309,
+                            "height": 50,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 50,
+                                "height": 50,
+                                "styles": {
+                                  "backgroundColor": "rgba(251, 191, 36, 0.094)",
+                                  "borderRadius": 16,
+                                  "borderWidth": 1,
+                                  "borderColor": "rgba(251, 191, 36, 0.19)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "🐾",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 24,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 64,
+                                "y": 7,
+                                "width": 215,
+                                "height": 37,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 215,
+                                    "height": 19,
+                                    "styles": {},
+                                    "textContent": "Dog Owners Club",
+                                    "textStyles": {
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 15,
+                                      "fontWeight": 700,
+                                      "color": "rgb(240, 244, 255)"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 22,
+                                    "width": 215,
+                                    "height": 15,
+                                    "styles": {
+                                      "display": "flex",
+                                      "flexDirection": "row",
+                                      "justifyContent": "normal",
+                                      "alignItems": "normal",
+                                      "gap": 10
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 0,
+                                        "y": 0,
+                                        "width": 69,
+                                        "height": 15,
+                                        "styles": {},
+                                        "textContent": "14 members",
+                                        "textStyles": {
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 12,
+                                          "fontWeight": 400,
+                                          "color": "rgb(136, 153, 187)"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "type": "text",
+                                        "name": "span",
+                                        "x": 79,
+                                        "y": 0,
+                                        "width": 44,
+                                        "height": 15,
+                                        "styles": {},
+                                        "textContent": "3 active",
+                                        "textStyles": {
+                                          "fontFamily": "Plus Jakarta Sans",
+                                          "fontSize": 12,
+                                          "fontWeight": 400,
+                                          "color": "rgb(251, 191, 36)"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 293,
+                                "y": 17,
+                                "width": 16,
+                                "height": 16,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4A6080\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 17,
+                            "y": 75,
+                            "width": 309,
+                            "height": 34,
+                            "styles": {
+                              "backgroundColor": "rgba(251, 191, 36, 0.063)",
+                              "borderRadius": 8,
+                              "paddingTop": 7,
+                              "paddingRight": 10,
+                              "paddingBottom": 7,
+                              "paddingLeft": 10
+                            },
+                            "textContent": "🔔 Walk at 7am tomorrow",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "color": "rgb(251, 191, 36)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "name": "button",
+                        "x": 16,
+                        "y": 544,
+                        "width": 343,
+                        "height": 46,
+                        "styles": {
+                          "borderRadius": 14,
+                          "borderWidth": 1,
+                          "borderColor": "rgba(74, 222, 128, 0.3)",
+                          "paddingTop": 14,
+                          "paddingRight": 14,
+                          "paddingBottom": 14,
+                          "paddingLeft": 14
+                        },
+                        "textContent": "+ Create a new circle",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": 700,
+                          "color": "rgb(74, 222, 128)",
+                          "textAlign": "center"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 733,
+            "width": 375,
+            "height": 79,
+            "styles": {
+              "backgroundColor": "rgb(15, 23, 41)",
+              "borderWidth": 1,
+              "borderColor": "rgb(30, 48, 80) rgb(0, 0, 0) rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "normal",
+              "alignItems": "normal",
+              "paddingTop": 8,
+              "paddingBottom": 20
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 9,
+                "width": 75,
+                "height": 50,
+                "styles": {
+                  "opacity": 0.45,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 3
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 27,
+                    "y": 0,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4A6080\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-house\" aria-hidden=\"true\"><path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"/><path d=\"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 25,
+                    "y": 25,
+                    "width": 25,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Feed",
+                    "textStyles": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": 500,
+                      "color": "rgb(136, 153, 187)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 75,
+                "y": 9,
+                "width": 75,
+                "height": 50,
+                "styles": {
+                  "opacity": 0.45,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 3
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 27,
+                    "y": 0,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4A6080\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-zap\" aria-hidden=\"true\"><path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 16,
+                    "y": 25,
+                    "width": 42,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Matches",
+                    "textStyles": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": 500,
+                      "color": "rgb(136, 153, 187)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 150,
+                "y": 9,
+                "width": 75,
+                "height": 50,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 13,
+                    "y": 0,
+                    "width": 50,
+                    "height": 50,
+                    "styles": {
+                      "backgroundGradient": [
+                        {
+                          "color": "rgb(74, 222, 128)",
+                          "position": 0
+                        },
+                        {
+                          "color": "rgb(34, 197, 94)",
+                          "position": 1
+                        }
+                      ],
+                      "borderRadius": 16,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 13,
+                        "y": 13,
+                        "width": 24,
+                        "height": 24,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0A1A10\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"M12 5v14\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 225,
+                "y": 9,
+                "width": 75,
+                "height": 50,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 3
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 27,
+                    "y": 0,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4ADE80\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-users\" aria-hidden=\"true\"><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><path d=\"M16 3.128a4 4 0 0 1 0 7.744\"/><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 20,
+                    "y": 25,
+                    "width": 35,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Circles",
+                    "textStyles": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": 700,
+                      "color": "rgb(74, 222, 128)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 300,
+                "y": 9,
+                "width": 75,
+                "height": 50,
+                "styles": {
+                  "opacity": 0.45,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 3
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 27,
+                    "y": 0,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4A6080\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\"><path d=\"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 28,
+                    "y": 25,
+                    "width": 18,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "You",
+                    "textStyles": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": 500,
+                      "color": "rgb(136, 153, 187)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 812,
+            "styles": {
+              "backgroundColor": "rgba(0, 0, 0, 0.7)",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "flex-end",
+              "alignItems": "normal"
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 333,
+                "width": 375,
+                "height": 479,
+                "styles": {
+                  "backgroundColor": "rgb(15, 23, 41)",
+                  "borderRadius": [
+                    24,
+                    24,
+                    0,
+                    0
+                  ],
+                  "borderWidth": 1,
+                  "borderColor": "rgb(30, 48, 80)",
+                  "overflow": "hidden",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "normal",
+                  "paddingTop": 20,
+                  "paddingRight": 16,
+                  "paddingBottom": 36,
+                  "paddingLeft": 16
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 17,
+                    "y": 21,
+                    "width": 341,
+                    "height": 31,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 0,
+                        "y": 4,
+                        "width": 170,
+                        "height": 23,
+                        "styles": {},
+                        "textContent": "What do you need?",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 18,
+                          "fontWeight": 800,
+                          "color": "rgb(240, 244, 255)"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 313,
+                        "y": 0,
+                        "width": 28,
+                        "height": 31,
+                        "styles": {
+                          "paddingTop": 4,
+                          "paddingRight": 4,
+                          "paddingBottom": 4,
+                          "paddingLeft": 4
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 4,
+                            "y": 4,
+                            "width": 20,
+                            "height": 20,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#8899BB\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-x\" aria-hidden=\"true\"><path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/></svg>",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 17,
+                    "y": 72,
+                    "width": 341,
+                    "height": 3,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "normal",
+                      "alignItems": "normal",
+                      "gap": 4
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 111,
+                        "height": 3,
+                        "styles": {
+                          "backgroundColor": "rgb(74, 222, 128)",
+                          "borderRadius": 2
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 115,
+                        "y": 0,
+                        "width": 111,
+                        "height": 3,
+                        "styles": {
+                          "backgroundColor": "rgb(30, 48, 80)",
+                          "borderRadius": 2
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 230,
+                        "y": 0,
+                        "width": 111,
+                        "height": 3,
+                        "styles": {
+                          "backgroundColor": "rgb(30, 48, 80)",
+                          "borderRadius": 2
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 17,
+                    "y": 95,
+                    "width": 341,
+                    "height": 347,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 341,
+                        "height": 287,
+                        "styles": {},
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 166,
+                            "height": 89,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 14,
+                              "paddingRight": 12,
+                              "paddingBottom": 14,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 15,
+                                "width": 140,
+                                "height": 38,
+                                "styles": {},
+                                "textContent": "📦",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 28,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 59,
+                                "width": 140,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Package / Mail",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 176,
+                            "y": 0,
+                            "width": 166,
+                            "height": 89,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 14,
+                              "paddingRight": 12,
+                              "paddingBottom": 14,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 15,
+                                "width": 140,
+                                "height": 38,
+                                "styles": {},
+                                "textContent": "🔧",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 28,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 59,
+                                "width": 140,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Borrow a Tool",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 99,
+                            "width": 166,
+                            "height": 89,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 14,
+                              "paddingRight": 12,
+                              "paddingBottom": 14,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 15,
+                                "width": 140,
+                                "height": 38,
+                                "styles": {},
+                                "textContent": "🛒",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 28,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 59,
+                                "width": 140,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Errand Help",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 176,
+                            "y": 99,
+                            "width": 166,
+                            "height": 89,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 14,
+                              "paddingRight": 12,
+                              "paddingBottom": 14,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 15,
+                                "width": 140,
+                                "height": 38,
+                                "styles": {},
+                                "textContent": "👶",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 28,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 59,
+                                "width": 140,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Childcare",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 198,
+                            "width": 166,
+                            "height": 89,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 14,
+                              "paddingRight": 12,
+                              "paddingBottom": 14,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 15,
+                                "width": 140,
+                                "height": 38,
+                                "styles": {},
+                                "textContent": "🚗",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 28,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 59,
+                                "width": 140,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Quick Ride",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 176,
+                            "y": 198,
+                            "width": 166,
+                            "height": 89,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 14,
+                              "paddingRight": 12,
+                              "paddingBottom": 14,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 15,
+                                "width": 140,
+                                "height": 38,
+                                "styles": {},
+                                "textContent": "💬",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 28,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 59,
+                                "width": 140,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Something Else",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "name": "button",
+                        "x": 0,
+                        "y": 303,
+                        "width": 341,
+                        "height": 44,
+                        "styles": {
+                          "backgroundColor": "rgb(74, 222, 128)",
+                          "borderRadius": 14,
+                          "opacity": 0.4,
+                          "paddingTop": 14,
+                          "paddingRight": 14,
+                          "paddingBottom": 14,
+                          "paddingLeft": 14
+                        },
+                        "textContent": "Continue",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": 700,
+                          "color": "rgb(10, 26, 16)",
+                          "textAlign": "center"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "You",
+      "root": {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 812,
+        "styles": {
+          "backgroundColor": "rgb(8, 13, 26)",
+          "borderRadius": 48,
+          "overflow": "hidden",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "normal",
+          "alignItems": "normal"
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 128,
+            "y": 10,
+            "width": 120,
+            "height": 34,
+            "styles": {
+              "backgroundColor": "rgb(0, 0, 0)",
+              "borderRadius": 20,
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "alignItems": "center"
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 41,
+                "y": 13,
+                "width": 8,
+                "height": 8,
+                "styles": {
+                  "backgroundColor": "rgb(26, 26, 26)",
+                  "borderRadius": 4
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 69,
+                "y": 12,
+                "width": 10,
+                "height": 10,
+                "styles": {
+                  "backgroundColor": "rgb(26, 26, 26)",
+                  "borderRadius": 5,
+                  "borderWidth": 1,
+                  "borderColor": "rgb(51, 51, 51)"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 40,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "alignItems": "center",
+              "paddingTop": 14,
+              "paddingRight": 24,
+              "paddingBottom": 8,
+              "paddingLeft": 24
+            },
+            "children": [
+              {
+                "type": "text",
+                "name": "span",
+                "x": 24,
+                "y": 14,
+                "width": 39,
+                "height": 18,
+                "styles": {},
+                "textContent": "16:06",
+                "textStyles": {
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 14,
+                  "fontWeight": 700,
+                  "color": "rgb(240, 244, 255)",
+                  "letterSpacing": 0.3
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 110,
+                "y": 23,
+                "width": 130,
+                "height": 0,
+                "styles": {},
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 286,
+                "y": 17,
+                "width": 65,
+                "height": 12,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 6
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 0,
+                    "y": 0,
+                    "width": 15,
+                    "height": 12,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"12\" viewBox=\"0 0 15 12\" fill=\"#F0F4FF\"><rect x=\"0\" y=\"8\" width=\"3\" height=\"4\" rx=\"0.5\" opacity=\"0.4\"/><rect x=\"4\" y=\"5\" width=\"3\" height=\"7\" rx=\"0.5\" opacity=\"0.6\"/><rect x=\"8\" y=\"2\" width=\"3\" height=\"10\" rx=\"0.5\" opacity=\"0.8\"/><rect x=\"12\" y=\"0\" width=\"3\" height=\"12\" rx=\"0.5\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 21,
+                    "y": 0,
+                    "width": 16,
+                    "height": 12,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"12\" viewBox=\"0 0 16 12\" fill=\"none\"><path d=\"M8 3C9.8 3 11.4 3.7 12.6 4.9L14 3.5C12.4 1.9 10.3 1 8 1S3.6 1.9 2 3.5L3.4 4.9C4.6 3.7 6.2 3 8 3Z\" fill=\"#F0F4FF\"/><path d=\"M8 6C9.1 6 10 6.4 10.7 7.1L12.1 5.7C11 4.6 9.6 4 8 4S5 4.6 3.9 5.7L5.3 7.1C6 6.4 6.9 6 8 6Z\" fill=\"#F0F4FF\" opacity=\"0.7\"/><circle cx=\"8\" cy=\"10\" r=\"1.5\" fill=\"#F0F4FF\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 43,
+                    "y": 1,
+                    "width": 22,
+                    "height": 11,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "normal",
+                      "alignItems": "center",
+                      "gap": 2
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 22,
+                        "height": 11,
+                        "styles": {
+                          "borderRadius": 3,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(240, 244, 255)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "paddingTop": 1.5,
+                          "paddingRight": 1.5,
+                          "paddingBottom": 1.5,
+                          "paddingLeft": 1.5
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 3,
+                            "y": 3,
+                            "width": 14,
+                            "height": 6,
+                            "styles": {
+                              "backgroundColor": "rgb(74, 222, 128)",
+                              "borderRadius": 1
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 40,
+            "width": 375,
+            "height": 693,
+            "styles": {
+              "overflow": "hidden",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "normal"
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 0,
+                "width": 375,
+                "height": 693,
+                "styles": {
+                  "overflow": "hidden",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "normal"
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 0,
+                    "width": 375,
+                    "height": 46,
+                    "styles": {
+                      "paddingTop": 4,
+                      "paddingRight": 16,
+                      "paddingBottom": 14,
+                      "paddingLeft": 16
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 16,
+                        "y": 4,
+                        "width": 343,
+                        "height": 28,
+                        "styles": {},
+                        "textContent": "My Profile",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 22,
+                          "fontWeight": 800,
+                          "color": "rgb(240, 244, 255)"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 46,
+                    "width": 375,
+                    "height": 647,
+                    "styles": {
+                      "paddingRight": 16,
+                      "paddingBottom": 16,
+                      "paddingLeft": 16
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 16,
+                        "y": 0,
+                        "width": 343,
+                        "height": 247,
+                        "styles": {
+                          "backgroundColor": "rgb(21, 32, 53)",
+                          "borderRadius": 16,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(30, 48, 80)",
+                          "paddingTop": 20,
+                          "paddingRight": 16,
+                          "paddingBottom": 20,
+                          "paddingLeft": 16
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 17,
+                            "y": 21,
+                            "width": 309,
+                            "height": 76,
+                            "styles": {},
+                            "textContent": "🧑",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 56,
+                              "fontWeight": 400,
+                              "color": "rgb(0, 0, 0)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 17,
+                            "y": 105,
+                            "width": 309,
+                            "height": 23,
+                            "styles": {},
+                            "textContent": "Alex Chen",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 18,
+                              "fontWeight": 800,
+                              "color": "rgb(240, 244, 255)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 17,
+                            "y": 128,
+                            "width": 309,
+                            "height": 16,
+                            "styles": {},
+                            "textContent": "Unit 5C · The Meridian",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 13,
+                              "fontWeight": 400,
+                              "color": "rgb(136, 153, 187)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 17,
+                            "y": 150,
+                            "width": 309,
+                            "height": 26,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "normal",
+                              "gap": 6
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 29,
+                                "y": 0,
+                                "width": 124,
+                                "height": 26,
+                                "styles": {
+                                  "backgroundColor": "rgba(74, 222, 128, 0.094)",
+                                  "borderRadius": 20,
+                                  "borderWidth": 1,
+                                  "borderColor": "rgba(74, 222, 128, 0.19)",
+                                  "paddingTop": 3,
+                                  "paddingRight": 8,
+                                  "paddingBottom": 3,
+                                  "paddingLeft": 8
+                                },
+                                "textContent": "✅ Verified Resident",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": 600,
+                                  "color": "rgb(74, 222, 128)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 159,
+                                "y": 0,
+                                "width": 121,
+                                "height": 26,
+                                "styles": {
+                                  "backgroundColor": "rgba(56, 189, 248, 0.094)",
+                                  "borderRadius": 20,
+                                  "borderWidth": 1,
+                                  "borderColor": "rgba(56, 189, 248, 0.19)",
+                                  "paddingTop": 3,
+                                  "paddingRight": 8,
+                                  "paddingBottom": 3,
+                                  "paddingLeft": 8
+                                },
+                                "textContent": "🔧 Frequent Lender",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": 600,
+                                  "color": "rgb(56, 189, 248)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 17,
+                            "y": 190,
+                            "width": 309,
+                            "height": 36,
+                            "styles": {},
+                            "textContent": "Newcomer since Jan 2026 · Love helping neighbors. Good with tools & errands.",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 12,
+                              "fontWeight": 400,
+                              "color": "rgb(136, 153, 187)",
+                              "textAlign": "center",
+                              "lineHeight": 18
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 16,
+                        "y": 257,
+                        "width": 343,
+                        "height": 121,
+                        "styles": {
+                          "backgroundColor": "rgb(21, 32, 53)",
+                          "borderRadius": 16,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(30, 48, 80)",
+                          "paddingTop": 14,
+                          "paddingRight": 16,
+                          "paddingBottom": 14,
+                          "paddingLeft": 16
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 17,
+                            "y": 15,
+                            "width": 309,
+                            "height": 56,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "space-between",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 155,
+                                "height": 56,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 155,
+                                    "height": 16,
+                                    "styles": {},
+                                    "textContent": "Reciprocity Credits",
+                                    "textStyles": {
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 13,
+                                      "fontWeight": 700,
+                                      "color": "rgb(136, 153, 187)",
+                                      "letterSpacing": 0.5
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 18,
+                                    "width": 155,
+                                    "height": 38,
+                                    "styles": {},
+                                    "textContent": "47 pts",
+                                    "textStyles": {
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 30,
+                                      "fontWeight": 800,
+                                      "color": "rgb(251, 191, 36)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 277,
+                                "y": 7,
+                                "width": 32,
+                                "height": 43,
+                                "styles": {},
+                                "textContent": "🪙",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 32,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 17,
+                            "y": 81,
+                            "width": 309,
+                            "height": 6,
+                            "styles": {
+                              "backgroundColor": "rgb(30, 48, 80)",
+                              "borderRadius": 4,
+                              "overflow": "hidden"
+                            },
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 74,
+                                "height": 6,
+                                "styles": {
+                                  "backgroundGradient": [
+                                    {
+                                      "color": "rgb(251, 191, 36)",
+                                      "position": 0
+                                    },
+                                    {
+                                      "color": "rgb(74, 222, 128)",
+                                      "position": 1
+                                    }
+                                  ],
+                                  "borderRadius": 4
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 17,
+                            "y": 93,
+                            "width": 309,
+                            "height": 13,
+                            "styles": {},
+                            "textContent": "24 % to next trust level · 153 credits needed",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": 400,
+                              "color": "rgb(74, 96, 128)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 16,
+                        "y": 388,
+                        "width": 343,
+                        "height": 96,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "normal",
+                          "gap": 10
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 108,
+                            "height": 96,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 16,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 12,
+                              "paddingRight": 8,
+                              "paddingBottom": 12,
+                              "paddingLeft": 8
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 9,
+                                "y": 13,
+                                "width": 90,
+                                "height": 30,
+                                "styles": {},
+                                "textContent": "🤝",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 22,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 9,
+                                "y": 46,
+                                "width": 90,
+                                "height": 25,
+                                "styles": {},
+                                "textContent": "7",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 20,
+                                  "fontWeight": 800,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 9,
+                                "y": 71,
+                                "width": 90,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "Helped",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": 400,
+                                  "color": "rgb(136, 153, 187)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 118,
+                            "y": 0,
+                            "width": 108,
+                            "height": 96,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 16,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 12,
+                              "paddingRight": 8,
+                              "paddingBottom": 12,
+                              "paddingLeft": 8
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 9,
+                                "y": 13,
+                                "width": 90,
+                                "height": 30,
+                                "styles": {},
+                                "textContent": "💛",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 22,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 9,
+                                "y": 46,
+                                "width": 90,
+                                "height": 25,
+                                "styles": {},
+                                "textContent": "3",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 20,
+                                  "fontWeight": 800,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 9,
+                                "y": 71,
+                                "width": 90,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "Received",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": 400,
+                                  "color": "rgb(136, 153, 187)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 235,
+                            "y": 0,
+                            "width": 108,
+                            "height": 96,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 16,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 12,
+                              "paddingRight": 8,
+                              "paddingBottom": 12,
+                              "paddingLeft": 8
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 9,
+                                "y": 13,
+                                "width": 90,
+                                "height": 30,
+                                "styles": {},
+                                "textContent": "🔗",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 22,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 9,
+                                "y": 46,
+                                "width": 90,
+                                "height": 25,
+                                "styles": {},
+                                "textContent": "4",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 20,
+                                  "fontWeight": 800,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 9,
+                                "y": 71,
+                                "width": 90,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "Circles",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": 400,
+                                  "color": "rgb(136, 153, 187)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 16,
+                        "y": 488,
+                        "width": 343,
+                        "height": 49,
+                        "styles": {
+                          "backgroundColor": "rgb(21, 32, 53)",
+                          "borderRadius": 16,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(30, 48, 80)",
+                          "paddingTop": 14,
+                          "paddingRight": 16,
+                          "paddingBottom": 14,
+                          "paddingLeft": 16
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 17,
+                            "y": 15,
+                            "width": 309,
+                            "height": 19,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "space-between",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 127,
+                                "height": 19,
+                                "styles": {},
+                                "textContent": "Exchange History",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 15,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 244, 255)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 293,
+                                "y": 2,
+                                "width": 16,
+                                "height": 16,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#8899BB\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 16,
+                        "y": 547,
+                        "width": 343,
+                        "height": 8,
+                        "styles": {},
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 733,
+            "width": 375,
+            "height": 79,
+            "styles": {
+              "backgroundColor": "rgb(15, 23, 41)",
+              "borderWidth": 1,
+              "borderColor": "rgb(30, 48, 80) rgb(0, 0, 0) rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "normal",
+              "alignItems": "normal",
+              "paddingTop": 8,
+              "paddingBottom": 20
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 9,
+                "width": 75,
+                "height": 50,
+                "styles": {
+                  "opacity": 0.45,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 3
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 27,
+                    "y": 0,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4A6080\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-house\" aria-hidden=\"true\"><path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"/><path d=\"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 25,
+                    "y": 25,
+                    "width": 25,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Feed",
+                    "textStyles": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": 500,
+                      "color": "rgb(136, 153, 187)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 75,
+                "y": 9,
+                "width": 75,
+                "height": 50,
+                "styles": {
+                  "opacity": 0.45,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 3
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 27,
+                    "y": 0,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4A6080\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-zap\" aria-hidden=\"true\"><path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 16,
+                    "y": 25,
+                    "width": 42,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Matches",
+                    "textStyles": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": 500,
+                      "color": "rgb(136, 153, 187)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 150,
+                "y": 9,
+                "width": 75,
+                "height": 50,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 13,
+                    "y": 0,
+                    "width": 50,
+                    "height": 50,
+                    "styles": {
+                      "backgroundGradient": [
+                        {
+                          "color": "rgb(74, 222, 128)",
+                          "position": 0
+                        },
+                        {
+                          "color": "rgb(34, 197, 94)",
+                          "position": 1
+                        }
+                      ],
+                      "borderRadius": 16,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 13,
+                        "y": 13,
+                        "width": 24,
+                        "height": 24,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0A1A10\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-plus\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"M12 5v14\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 225,
+                "y": 9,
+                "width": 75,
+                "height": 50,
+                "styles": {
+                  "opacity": 0.45,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 3
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 27,
+                    "y": 0,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4A6080\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-users\" aria-hidden=\"true\"><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><path d=\"M16 3.128a4 4 0 0 1 0 7.744\"/><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 20,
+                    "y": 25,
+                    "width": 35,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Circles",
+                    "textStyles": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": 500,
+                      "color": "rgb(136, 153, 187)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 300,
+                "y": 9,
+                "width": 75,
+                "height": 50,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 3
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 27,
+                    "y": 0,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#4ADE80\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\"><path d=\"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 28,
+                    "y": 25,
+                    "width": 19,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "You",
+                    "textStyles": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": 700,
+                      "color": "rgb(74, 222, 128)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 812,
+            "styles": {
+              "backgroundColor": "rgba(0, 0, 0, 0.7)",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "flex-end",
+              "alignItems": "normal"
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 333,
+                "width": 375,
+                "height": 479,
+                "styles": {
+                  "backgroundColor": "rgb(15, 23, 41)",
+                  "borderRadius": [
+                    24,
+                    24,
+                    0,
+                    0
+                  ],
+                  "borderWidth": 1,
+                  "borderColor": "rgb(30, 48, 80)",
+                  "overflow": "hidden",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "normal",
+                  "paddingTop": 20,
+                  "paddingRight": 16,
+                  "paddingBottom": 36,
+                  "paddingLeft": 16
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 17,
+                    "y": 21,
+                    "width": 341,
+                    "height": 31,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 0,
+                        "y": 4,
+                        "width": 170,
+                        "height": 23,
+                        "styles": {},
+                        "textContent": "What do you need?",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 18,
+                          "fontWeight": 800,
+                          "color": "rgb(240, 244, 255)"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "button",
+                        "x": 313,
+                        "y": 0,
+                        "width": 28,
+                        "height": 31,
+                        "styles": {
+                          "paddingTop": 4,
+                          "paddingRight": 4,
+                          "paddingBottom": 4,
+                          "paddingLeft": 4
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 4,
+                            "y": 4,
+                            "width": 20,
+                            "height": 20,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#8899BB\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-x\" aria-hidden=\"true\"><path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/></svg>",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 17,
+                    "y": 72,
+                    "width": 341,
+                    "height": 3,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "normal",
+                      "alignItems": "normal",
+                      "gap": 4
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 111,
+                        "height": 3,
+                        "styles": {
+                          "backgroundColor": "rgb(74, 222, 128)",
+                          "borderRadius": 2
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 115,
+                        "y": 0,
+                        "width": 111,
+                        "height": 3,
+                        "styles": {
+                          "backgroundColor": "rgb(30, 48, 80)",
+                          "borderRadius": 2
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 230,
+                        "y": 0,
+                        "width": 111,
+                        "height": 3,
+                        "styles": {
+                          "backgroundColor": "rgb(30, 48, 80)",
+                          "borderRadius": 2
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 17,
+                    "y": 95,
+                    "width": 341,
+                    "height": 347,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 341,
+                        "height": 287,
+                        "styles": {},
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 166,
+                            "height": 89,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 14,
+                              "paddingRight": 12,
+                              "paddingBottom": 14,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 15,
+                                "width": 140,
+                                "height": 38,
+                                "styles": {},
+                                "textContent": "📦",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 28,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 59,
+                                "width": 140,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Package / Mail",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 176,
+                            "y": 0,
+                            "width": 166,
+                            "height": 89,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 14,
+                              "paddingRight": 12,
+                              "paddingBottom": 14,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 15,
+                                "width": 140,
+                                "height": 38,
+                                "styles": {},
+                                "textContent": "🔧",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 28,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 59,
+                                "width": 140,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Borrow a Tool",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 99,
+                            "width": 166,
+                            "height": 89,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 14,
+                              "paddingRight": 12,
+                              "paddingBottom": 14,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 15,
+                                "width": 140,
+                                "height": 38,
+                                "styles": {},
+                                "textContent": "🛒",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 28,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 59,
+                                "width": 140,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Errand Help",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 176,
+                            "y": 99,
+                            "width": 166,
+                            "height": 89,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 14,
+                              "paddingRight": 12,
+                              "paddingBottom": 14,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 15,
+                                "width": 140,
+                                "height": 38,
+                                "styles": {},
+                                "textContent": "👶",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 28,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 59,
+                                "width": 140,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Childcare",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 198,
+                            "width": 166,
+                            "height": 89,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 14,
+                              "paddingRight": 12,
+                              "paddingBottom": 14,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 15,
+                                "width": 140,
+                                "height": 38,
+                                "styles": {},
+                                "textContent": "🚗",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 28,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 59,
+                                "width": 140,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Quick Ride",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 176,
+                            "y": 198,
+                            "width": 166,
+                            "height": 89,
+                            "styles": {
+                              "backgroundColor": "rgb(21, 32, 53)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(30, 48, 80)",
+                              "paddingTop": 14,
+                              "paddingRight": 12,
+                              "paddingBottom": 14,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 15,
+                                "width": 140,
+                                "height": 38,
+                                "styles": {},
+                                "textContent": "💬",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 28,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 59,
+                                "width": 140,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Something Else",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(240, 244, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "name": "button",
+                        "x": 0,
+                        "y": 303,
+                        "width": 341,
+                        "height": 44,
+                        "styles": {
+                          "backgroundColor": "rgb(74, 222, 128)",
+                          "borderRadius": 14,
+                          "opacity": 0.4,
+                          "paddingTop": 14,
+                          "paddingRight": 14,
+                          "paddingBottom": 14,
+                          "paddingLeft": 14
+                        },
+                        "textContent": "Continue",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 13,
+                          "fontWeight": 700,
+                          "color": "rgb(10, 26, 16)",
+                          "textAlign": "center"
+                        },
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               }

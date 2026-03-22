@@ -1495,7 +1495,7 @@
   },
   "screens": [
     {
-      "name": "Tab 1",
+      "name": "⌂Home",
       "root": {
         "type": "frame",
         "name": "div",
@@ -2972,7 +2972,7 @@
       }
     },
     {
-      "name": "Tab 2",
+      "name": "✦Check-in",
       "root": {
         "type": "frame",
         "name": "div",
@@ -3948,7 +3948,7 @@
       }
     },
     {
-      "name": "Tab 3",
+      "name": "▶Workout",
       "root": {
         "type": "frame",
         "name": "div",
@@ -5410,7 +5410,7 @@
       }
     },
     {
-      "name": "Tab 4",
+      "name": "◈Journal",
       "root": {
         "type": "frame",
         "name": "div",
@@ -7492,7 +7492,7 @@
       }
     },
     {
-      "name": "Tab 5",
+      "name": "◉Profile",
       "root": {
         "type": "frame",
         "name": "div",
