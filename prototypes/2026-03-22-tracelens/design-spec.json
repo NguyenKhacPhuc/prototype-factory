@@ -1,0 +1,18 @@
+{
+  "appName": "TraceLens",
+  "tagline": "Turn fleeting moments into guided memories.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#A78BFA",
+    "backgroundColor": "#F5F3FF",
+    "fontFamily": "Space Grotesk",
+    "style": "Modern violet-forward memory app with clean card-based layout, soft purple surfaces, vibrant accent gradients, and polished dark mode. Combines emotional warmth with structured utility — cinematic story cards meet practical step-builder UI."
+  },
+  "screens": [
+    "Home — Stories feed with greeting, stats, and rich recap cards with highlight timestamps",
+    "Library — Grouped clip grid by story with filter tabs (All, People, Tasks, Moments)",
+    "Builder — Interactive step-by-step guide player with video frame previews and step list",
+    "Search — Natural language search with recent queries, quick finds, and AI suggestion prompt",
+    "Settings — Profile, dark mode toggle, AI intelligence controls, privacy and export options"
+  ]
+}

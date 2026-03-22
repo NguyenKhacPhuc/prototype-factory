@@ -1,0 +1,19 @@
+{
+  "name": "TraceLens",
+  "tagline": "Turn fleeting moments into guided memories.",
+  "description": "TraceLens helps people reconstruct meaningful moments from messy, ordinary phone footage by automatically detecting the emotional and practical highlights in a photo or video stream. It solves the common problem of capturing too much content but missing the details that actually matter later, like a toddler's first steps, a quick tutorial fix, or the exact setup of a DIY project. The app scans your clips, groups related shots into storylines, and suggests the best frames, captions, and edits to turn them into a clear, searchable memory or how-to record. In daily life, it can help a parent preserve a child's milestone without sorting through hundreds of shaky recordings, or help a homeowner document a repair so they can repeat it later or share it with a contractor. It also works for creators and small businesses who need to quickly transform raw behind-the-scenes footage into polished mini-stories for social posts or client updates. What makes TraceLens unique is that it doesn't just organize media by time or location; it understands context, identifies sequence, and turns scattered clips into structured narratives that are actually useful later.",
+  "features": [
+    "The app automatically detects sequences, faces, objects, and repeated actions so it can group related clips into a single story instead of leaving them as a cluttered camera roll.",
+    "It generates smart recap cards with suggested titles, captions, and key frames, making it easy to revisit a moment or share it without editing from scratch.",
+    "A visual step-builder turns video into a replayable guide, which is especially useful for tasks like assembling furniture, cooking a recipe, or troubleshooting a device.",
+    "The app tags emotional and practical highlights, helping users find the exact laugh, instruction, or milestone later with natural-language search.",
+    "It creates privacy-friendly exports for family albums, work documentation, or social posts, so users can repurpose the same raw footage for multiple needs quickly."
+  ],
+  "audience": "Busy parents, freelancers, creators, DIY hobbyists, and anyone who records lots of everyday video but struggles to turn it into something useful. It especially suits adults ages 25-45 who want practical organization without spending time on manual editing.",
+  "category": "photo & video",
+  "useCases": [
+    "Maya just filmed her son learning to ride a bike and wants to find the exact moment he finally balanced without scrubbing through 20 shaky clips. She opens TraceLens, which surfaces the best three-second highlight and builds a clean memory reel for family sharing.",
+    "Jordan finished assembling a standing desk and needs to remember which cable went where in case he moves apartments later. He uses TraceLens to convert his photos and short videos into a step-by-step visual guide he can revisit anytime.",
+    "A small bakery owner is shooting quick behind-the-scenes videos before opening and wants to turn them into a polished Instagram story by lunchtime. TraceLens groups the clips, suggests the strongest shots, and exports a ready-to-post sequence with captions."
+  ]
+}
