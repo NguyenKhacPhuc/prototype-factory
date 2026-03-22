@@ -1,0 +1,19 @@
+{
+  "name": "Pulse Map",
+  "tagline": "News tailored to your exact place and moment.",
+  "description": "Pulse Map is a location-aware news app that turns the flood of headlines into a living map of what actually affects you right now. Instead of feeding users endless global articles, it prioritizes events by their relevance to where they are, where they\u2019re going, and what time it is, such as a transit disruption near their commute, a weather alert for their neighborhood, or a policy update affecting their city. The app solves the common problem of news overload and makes daily decision-making easier by showing only the stories that can change your next hour, not just your worldview. In practice, a user can open Pulse Map before leaving home and instantly see whether their train line has delays, whether a road closure is near their route, or whether a local incident is likely to affect their kids\u2019 school pickup. What makes it unique is its contextual engine: it blends geography, calendar windows, commuting patterns, and local risk levels to rank news by personal impact rather than clicks. It also offers quick \u201cwhy this matters to you\u201d explanations so users understand the relevance without reading a full article. Compared with standard news apps, Pulse Map feels less like a feed and more like a smart situational assistant for everyday life.",
+  "features": [
+    "It overlays news stories on an interactive map so users can see exactly where an event is happening and how close it is to their current location.",
+    "It uses time-aware relevance scoring to surface only the stories likely to affect the user in the next few hours, which helps reduce unnecessary doomscrolling.",
+    "It syncs with commute routes and calendar events to warn users about disruptions near places they are already planning to go, such as traffic closures before a doctor appointment.",
+    "It provides plain-language relevance summaries that explain why a story matters, helping users make faster decisions without reading long articles.",
+    "It lets users set personal sensitivity filters, so they can prioritize topics like school safety, public transit, extreme weather, or neighborhood safety based on their daily life."
+  ],
+  "audience": "Urban and suburban adults ages 22-55 who rely on public transit, drive through busy metro areas, or juggle family logistics and want news that directly supports day-to-day decisions. It is especially useful for commuters, parents, caregivers, and professionals who need fast, local context without reading broad news feeds.",
+  "category": "news",
+  "useCases": [
+    "Maya is leaving for work and wants to know if her subway line is delayed, whether her usual backup route is blocked, and if severe weather might make the commute worse. She opens Pulse Map and sees a neighborhood-level alert that helps her choose a faster route.",
+    "Daniel is picking up his daughter from school and hears there was an incident near the district. He checks Pulse Map to see whether the event is actually on the school\u2019s route and gets a clear summary before changing his plans.",
+    "Alicia is traveling across town for a client meeting and wants to avoid surprises. She opens Pulse Map to check for traffic incidents, road closures, and nearby protests that could affect parking and arrival time."
+  ]
+}

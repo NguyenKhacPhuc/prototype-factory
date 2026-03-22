@@ -1,0 +1,12 @@
+{
+  "appName": "Pulse Map",
+  "tagline": "News tailored to your exact place and moment.",
+  "designSystem": {
+    "primaryColor": "#00C8FF",
+    "secondaryColor": "#F43F5E",
+    "backgroundColor": "#080D18",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first spatial news dashboard. Deep navy backgrounds with vibrant cyan accent. Map-centric layout with relevance-scored news cards, impact severity color coding (cyan/amber/orange/red), and contextual 'why this matters' micro-explanations. Glassmorphism overlays on the map view, pill-shaped status badges, and animated toggle switches."
+  },
+  "screens": ["map", "feed", "alerts", "routes", "settings"]
+}
