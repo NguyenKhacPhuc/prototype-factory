@@ -1,0 +1,17 @@
+{
+  "appName": "Task Weave",
+  "tagline": "Turn loose thoughts into done steps.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#06B6D4",
+    "backgroundColor": "#F4F2FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern productivity app with violet-purple brand identity, soft surface layering, and card-based layout. Features gradient hero strips, dependency chain visualization, and micro-interactions. Dual light/dark themes with harmonized purple-tinted neutrals."
+  },
+  "screens": [
+    "Inbox — AI-captured task feed from voice, screenshots, email, and clipboard with source tagging and linked-chain indicators",
+    "Plans — Expandable task chains showing dependency sequences with step locking, progress bars, and context annotations",
+    "Focus — Prioritized today view with circular progress ring, tag/priority filters, and one-tap task completion",
+    "Settings — Profile card, AI toggles, appearance switcher (light/dark), integrations, and privacy controls"
+  ]
+}

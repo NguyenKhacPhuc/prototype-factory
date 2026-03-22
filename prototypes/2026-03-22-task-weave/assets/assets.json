@@ -1,0 +1,16 @@
+{
+  "appName": "Task Weave",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#06B6D4",
+    "background": "#F4F2FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "check-circle"
+  ],
+  "fonts": [],
+  "iconCount": 1,
+  "fontFileCount": 0
+}

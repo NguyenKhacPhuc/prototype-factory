@@ -1,0 +1,19 @@
+{
+  "name": "Task Weave",
+  "tagline": "Turn loose thoughts into done steps.",
+  "description": "Task Weave is a productivity app that transforms messy, half-formed thoughts into concrete next actions by listening to voice notes, screenshots, calendar context, and copied text, then stitching them into a structured plan. It solves the common problem of mental overload, where people know they have things to do but waste energy figuring out what to do first. The app detects hidden tasks inside messages like \"Can you send me that doc?\" or \"Let's revisit this next week,\" and turns them into timed reminders, follow-ups, or calendar blocks. In daily life, it helps users move from reactive mode to intentional execution, such as after a meeting, during a commute, or while juggling home and work responsibilities. For example, if someone snaps a screenshot of a venue reservation and copies a work email, Task Weave can connect both into a single itinerary and checklist. What makes it unique is that it does not just organize tasks; it reconstructs the real-world sequence behind them and preserves context so users always know why a task matters and what it depends on.",
+  "features": [
+    "The app converts voice memos, screenshots, and copied text into actionable tasks, which matters because people often think faster than they type and forget details later.",
+    "It automatically links related items into a dependency chain, so users can see what must happen first instead of staring at an unprioritized list.",
+    "The app suggests the next best action based on time, location, and calendar gaps, helping users start work during the small windows of the day that usually go unused.",
+    "It creates context-rich reminders that include the original message, attachment, or note, which prevents the frustrating experience of opening a reminder and wondering what it was for.",
+    "The app can generate short follow-up drafts for emails and messages, saving users from the cognitive load of rewriting routine replies after meetings or appointments."
+  ],
+  "audience": "Busy professionals, freelancers, and parents aged 25-45 who manage shifting obligations across work and personal life will benefit most. It is especially useful for people who capture lots of information throughout the day but struggle to convert it into clear action.",
+  "category": "productivity",
+  "useCases": [
+    "Sarah just finished a stressful meeting and only remembers three vague action items, so she records a quick voice note and Task Weave turns it into a prioritized plan with follow-up reminders. It also links each task to the original meeting notes so she does not lose context later.",
+    "Daniel is in line at the grocery store when he sees a text from his contractor asking for appliance dimensions, so he snaps the message and the receipt photo into Task Weave. The app turns them into a single home-renovation checklist and schedules a reminder to reply before noon.",
+    "Mina is juggling a client project, her kid's soccer schedule, and a late-night flight, so she forwards emails and screenshots into Task Weave throughout the day. By evening, the app has assembled everything into one timeline with tasks grouped by urgency, location, and deadline."
+  ]
+}
