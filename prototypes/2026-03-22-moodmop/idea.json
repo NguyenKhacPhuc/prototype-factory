@@ -1,0 +1,19 @@
+{
+  "name": "MoodMop",
+  "tagline": "Clean your stress, one tiny ritual.",
+  "description": "MoodMop is a strange but practical mobile app that helps people reset their mental state by turning messy emotions into tiny, physical, housekeeping-style actions. Instead of asking users to journal endlessly or meditate when they are overwhelmed, it translates how they feel into an oddly satisfying micro-cleanup ritual, like wiping a phone screen, folding one shirt, emptying a pocket, or sorting three random objects. The app solves the everyday problem of emotional buildup that quietly makes people feel stuck, unfocused, or agitated, especially during workdays, transitions, or after conflict. It helps by giving users a very small, doable action that creates a sense of completion and control in under two minutes. For example, after a frustrating call, it might tell someone to throw away one scrap of paper, straighten two items on a desk, and take a 10-second audio cue while the task feels like 'sweeping out the mood.' What makes it unique is that it treats emotions like clutter and uses playful, bizarre housekeeping metaphors to create a fast, grounded reset without pretending to be therapy.",
+  "features": [
+    "The app turns a user\u2019s current mood into a specific mini-cleaning ritual, so frustration might become 'clear one surface' while anxiety becomes 'sort three small items,' making the reset feel concrete and manageable.",
+    "It uses camera-based room scanning to suggest the easiest visible micro-task, which matters because users can start immediately without thinking hard or deciding where to begin.",
+    "It includes timed 60-second 'rage tidy' and 'fog sweep' modes that combine breathing cues with tiny actions, helping users calm down while staying physically engaged.",
+    "The app saves a history of emotional clutter patterns, showing when and where stress tends to accumulate so users can notice triggers like late-night desk chaos or post-meeting overwhelm.",
+    "It offers weird but uplifting soundscapes, such as tiny broom swishes and satisfying object clicks, which make the ritual feel playful enough to repeat during daily stress spikes."
+  ],
+  "audience": "Busy adults and students ages 18-40 who feel mentally overloaded, work in messy or high-pressure environments, or want a non-traditional way to decompress. It is especially relevant for people who dislike formal self-care apps but respond well to small, physical routines.",
+  "category": "weird",
+  "useCases": [
+    "Sarah just finished a stressful meeting and feels irritated, so she opens MoodMop and gets a 90-second 'surface clear' ritual that tells her to toss two old sticky notes and wipe her laptop lid before the next call.",
+    "Jamal is procrastinating on a big assignment and keeps doomscrolling, so he uses the app to convert his anxiety into a 'desk reset' that asks him to arrange three pens, close one browser tab, and breathe with the timer.",
+    "Priya gets home after a long commute and feels oddly restless, so she launches MoodMop for a 'transition sweep' that guides her to empty her pockets, put one item back where it belongs, and mentally leave work behind."
+  ]
+}

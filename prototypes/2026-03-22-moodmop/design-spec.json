@@ -1,0 +1,17 @@
+{
+  "appName": "MoodMop",
+  "tagline": "Clean your stress, one tiny ritual.",
+  "designSystem": {
+    "primaryColor": "#00D4AA",
+    "secondaryColor": "#FF6B8A",
+    "backgroundColor": "#0A0E1A",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first glassmorphic mobile UI with vibrant teal-mint accent, coral secondary, and deep navy surfaces. Playful yet grounded aesthetic with rounded corners, subtle border treatments, and micro-interaction press states."
+  },
+  "screens": [
+    "Home - Mood selector grid with 6 emotional states, quick mode cards (Rage Tidy / Fog Sweep), and weekly streak tracker",
+    "Ritual - Room scan onboarding, animated countdown ring with breathing cues, tappable task checklist, active soundscape bar",
+    "History - Stats row, mood clutter pattern bar chart, chronological ritual log with completion badges",
+    "Settings - Profile card, dark/light theme toggle, soundscape picker (5 options), notification and haptic toggles"
+  ]
+}

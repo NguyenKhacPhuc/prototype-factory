@@ -1,0 +1,14 @@
+{
+  "appName": "MoodMop",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#00D4AA",
+    "secondary": "#FF6B8A",
+    "background": "#0A0E1A",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
