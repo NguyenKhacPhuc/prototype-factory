@@ -1,0 +1,19 @@
+{
+  "name": "DealMirror",
+  "tagline": "Turn shaky deals into clear next steps.",
+  "description": "DealMirror helps small businesses and freelancers convert messy sales conversations into actionable, risk-aware deal plans. After a client call, the app ingests notes, emails, or a transcript and identifies hidden deal risks like vague scope, unclear decision makers, delayed timelines, or payment terms that were only implied. It then generates a visual \"deal health\" snapshot, a follow-up message draft, and a checklist of the exact questions needed to move the deal forward. For daily use, that means a consultant can leave a client meeting and immediately know whether the project is actually ready to close, or a sales rep can see which prospect needs legal review before a contract is sent. A design agency quoting a website rebuild, for example, could discover that the client never confirmed content ownership and get a polite follow-up drafted in seconds. What makes DealMirror unique is that it does not just summarize conversations; it spots business friction points in language, relationships, and commitments, then turns them into concrete next actions that reduce revenue leakage.",
+  "features": [
+    "The app analyzes meeting notes, call transcripts, and email threads to extract commitments, deadlines, objections, and decision-makers, which matters because important deal details often get lost in the rush after a conversation.",
+    "It produces a deal risk map that highlights missing scope, budget ambiguity, approval bottlenecks, and payment exposure, so users can prioritize the issues most likely to delay or derail a sale.",
+    "It drafts customized follow-up messages that are tactful and specific, helping users confirm next steps without sounding pushy or repetitive.",
+    "It generates a closing checklist based on the deal type, such as asking for legal contacts, confirming deliverables, or locking in kickoff dates, which saves time and reduces costly omissions.",
+    "It tracks deal momentum over time and alerts users when a prospect is stalling, ensuring they can intervene before a warm lead goes cold."
+  ],
+  "audience": "Independent consultants, small agency owners, freelancers, and early-stage B2B sales teams aged 25-50 who manage high-value client conversations without dedicated sales operations support. It is especially useful for people juggling many prospects at once and needing a faster, smarter way to close work.",
+  "category": "business",
+  "useCases": [
+    "Maya just finished a discovery call with a startup founder and wants to know whether the budget, timeline, and decision maker were actually confirmed before she spends time on a proposal.",
+    "Jordan has three active freelance clients and uses the app after each email thread to catch missing approvals, then sends a clean follow-up that keeps the deal moving.",
+    "Priya runs a two-person marketing agency and opens the app when a promising lead goes quiet, so she can see whether the blocker is legal review, pricing confusion, or an unanswered question about scope."
+  ]
+}

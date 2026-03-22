@@ -1,0 +1,18 @@
+{
+  "appName": "DealMirror",
+  "tagline": "Turn shaky deals into clear next steps.",
+  "designSystem": {
+    "primaryColor": "#7B68EE",
+    "secondaryColor": "#00DFA0",
+    "backgroundColor": "#08091A",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark glassmorphic enterprise app with vibrant violet-purple primary accent, teal success states, and red-pink danger indicators. Card-based layout with subtle borders, gradient hero elements, and micro-interaction toggles. Risk severity communicated through color-coded left-border cards."
+  },
+  "screens": [
+    "home",
+    "deals",
+    "analyze",
+    "messages",
+    "settings"
+  ]
+}

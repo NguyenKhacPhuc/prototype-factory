@@ -1,0 +1,37 @@
+{
+  "appName": "DealMirror",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#7B68EE",
+    "secondary": "#00DFA0",
+    "background": "#08091A",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-right",
+    "battery",
+    "briefcase",
+    "check",
+    "chevron-down",
+    "chevron-left",
+    "chevron-right",
+    "chevron-up",
+    "clock",
+    "copy",
+    "dollar-sign",
+    "home",
+    "message-circle",
+    "message-square",
+    "moon",
+    "send",
+    "settings",
+    "signal",
+    "sun",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 22,
+  "fontFileCount": 0
+}
