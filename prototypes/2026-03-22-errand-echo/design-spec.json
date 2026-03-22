@@ -1,0 +1,18 @@
+{
+  "appName": "Errand Echo",
+  "tagline": "Turn chaos into one smart route.",
+  "designSystem": {
+    "primaryColor": "#00D4AA",
+    "secondaryColor": "#4F9EFF",
+    "backgroundColor": "#070B12",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first logistics dashboard with teal-green accent. Timeline-style route sequencing, map visualization with route line SVG, micro-interaction press states, and animated toast notifications. Clean card-based layout with category color-coding and urgency badges."
+  },
+  "screens": [
+    "Today – Smart route overview with optimized stop sequence, stats, start/recalculate route actions",
+    "Route – Map visualization with SVG route lines, stop dots, and scrollable stop sequence drawer",
+    "Errands – Categorized errand list with filter chips, add errand modal, urgency badges",
+    "Insights – Time saved stats, weekly activity bar chart, learned habits, nearby suggestions",
+    "Settings – Profile, dark/light theme toggle, sync integrations, learning preferences"
+  ]
+}

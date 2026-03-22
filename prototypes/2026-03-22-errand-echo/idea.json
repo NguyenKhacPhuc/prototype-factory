@@ -1,0 +1,19 @@
+{
+  "name": "Errand Echo",
+  "tagline": "Turn chaos into one smart route.",
+  "description": "Errand Echo is a hyper-practical daily logistics app that groups small, repetitive life tasks into the smartest possible order based on location, timing, and urgency. It solves the common problem of fragmented errands, where people waste time, fuel, and mental energy bouncing between stores, appointments, and obligations with no clear plan. The app scans your to-do list, calendar, favorite stores, and commute patterns to build a live micro-route that can change as your day changes. For example, if you need to drop off dry cleaning, pick up batteries, and swing by a pharmacy before dinner, it maps the best sequence, alerts you when a stop becomes unnecessary, and suggests the right time to leave. It also helps users with \u201cforgotten-but-important\u201d tasks like mailing a document or returning a library book by quietly tacking them onto nearby routes. What makes it unique is that it behaves less like a navigation app and more like a daily task orchestrator, optimizing the invisible overhead of adult life rather than just showing directions.",
+  "features": [
+    "The app automatically clusters errands by geography and time window so users can complete multiple tasks in one efficient trip, saving time and reducing backtracking.",
+    "It syncs with calendars and reminders to identify realistic openings in the day, which matters because errands are most stressful when they collide with meetings, school pickup, or commute hours.",
+    "It suggests context-aware add-ons like \"you're passing a post office\" or \"this pharmacy is open late,\" helping users complete overlooked tasks without extra planning.",
+    "The app recalculates routes in real time when plans change, so if a meeting runs long or a store closes early, users still get the best possible backup plan.",
+    "It learns personal habits such as preferred stores, traffic tolerance, and errand priorities, allowing it to make smarter recommendations that feel tailored rather than generic."
+  ],
+  "audience": "Busy professionals, parents, students, and gig workers ages 18\u201355 who juggle multiple obligations and want to reduce daily logistical friction. It is especially useful for people living in dense urban or suburban areas with frequent short trips and packed schedules.",
+  "category": "utilities",
+  "useCases": [
+    "Sarah just finished a stressful meeting and realizes she needs to mail a contract, grab cat food, and pick up lunch before school pickup. She opens Errand Echo and gets a route that fits her remaining hour without cutting it close.",
+    "Marcus is heading home from work and remembers he still needs a phone charger, groceries, and a birthday card for tonight. The app groups the stops around his commute so he can finish everything without making three separate trips.",
+    "Alyssa sees that it\u2019s raining, her library books are due today, and she already has a dentist appointment nearby. Errand Echo suggests she return the books before the appointment and adds a covered indoor coffee stop on the way back."
+  ]
+}
