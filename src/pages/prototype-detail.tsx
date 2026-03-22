@@ -1,11 +1,79 @@
-import React from "react";
+import React, { useState } from "react";
 import type { Prototype } from "../types";
 import { useAuth } from "../hooks/use-auth";
 import { useFavorites } from "../hooks/use-favorites";
+import { designTreeToSvg } from "../lib/design-tree-to-svg";
 
 interface Props {
   prototype: Prototype | undefined;
   navigate: (to: string) => void;
+}
+
+type CopyStatus = "idle" | "copying" | "copied" | "error";
+
+async function fetchDesignTree(folder: string) {
+  const res = await fetch(`/api/design-tree/${folder}`);
+  if (!res.ok) throw new Error("Design tree not found");
+  return res.json();
+}
+
+async function copySvgToClipboard(folder: string): Promise<void> {
+  const tree = await fetchDesignTree(folder);
+  const svg = designTreeToSvg(tree);
+  const htmlBlob = new Blob([svg], { type: "text/html" });
+  const textBlob = new Blob([svg], { type: "text/plain" });
+  await navigator.clipboard.write([
+    new ClipboardItem({
+      "text/html": htmlBlob,
+      "text/plain": textBlob,
+    }),
+  ]);
+}
+
+function CopyButton({
+  label,
+  onClick,
+  className = "btn-outline",
+}: {
+  label: string;
+  onClick: () => Promise<void>;
+  className?: string;
+}) {
+  const [status, setStatus] = useState<CopyStatus>("idle");
+  const [errorMsg, setErrorMsg] = useState("");
+
+  const handleClick = async () => {
+    setStatus("copying");
+    setErrorMsg("");
+    try {
+      await onClick();
+      setStatus("copied");
+      setTimeout(() => setStatus("idle"), 2000);
+    } catch (err) {
+      setErrorMsg(err instanceof Error ? err.message : "Copy failed");
+      setStatus("error");
+      setTimeout(() => setStatus("idle"), 3000);
+    }
+  };
+
+  const text =
+    status === "copying"
+      ? "Copying..."
+      : status === "copied"
+        ? "Copied!"
+        : status === "error"
+          ? errorMsg
+          : label;
+
+  return (
+    <button
+      className={className}
+      onClick={handleClick}
+      disabled={status === "copying"}
+    >
+      {text}
+    </button>
+  );
 }
 
 export function PrototypeDetail({ prototype: p, navigate }: Props) {
@@ -113,9 +181,45 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
                 {favorited ? "Favorited" : "Favorite"}
               </button>
             )}
-            <a className="btn-secondary" href={`/prototypes/${p.folder}/assets.html`} target="_blank" rel="noopener">
+            {p.figmaUrl && (
+              <a className="btn-secondary" href={p.figmaUrl} target="_blank" rel="noopener">
+                View Figma
+              </a>
+            )}
+            <a className="btn-outline" href={`/prototypes/${p.folder}/assets.html`} target="_blank" rel="noopener">
               View Assets
             </a>
+          </div>
+
+          {/* Figma Export */}
+          <div className="detail-section detail-export-section">
+            <h2>Export to Figma</h2>
+            <div className="detail-export-cards">
+              <div className="export-card">
+                <CopyButton
+                  label="Copy SVG"
+                  onClick={() => copySvgToClipboard(p.folder)}
+                />
+                <span className="export-card-desc">Paste in Figma as editable vectors. Some alignment may differ.</span>
+              </div>
+              <div className="export-card">
+                <CopyButton
+                  label="Copy Design Tree JSON"
+                  onClick={async () => {
+                    const tree = await fetchDesignTree(p.folder);
+                    await navigator.clipboard.writeText(JSON.stringify(tree));
+                  }}
+                />
+                <span className="export-card-desc">
+                  Paste into the{" "}
+                  <a href="https://www.figma.com/community/plugin/1617253090176959808/proto-to-figma" target="_blank" rel="noopener">
+                    Proto-to-Figma plugin
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{verticalAlign: "middle", marginLeft: "3px"}}><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" /></svg>
+                  </a>{" "}
+                  for editable frames with auto-layout. <em>(Recommended)</em>
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
