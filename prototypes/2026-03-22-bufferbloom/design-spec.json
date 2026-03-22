@@ -1,0 +1,12 @@
+{
+  "appName": "BufferBloom",
+  "tagline": "Turn cash flow chaos into calm.",
+  "designSystem": {
+    "primaryColor": "#00D4AA",
+    "secondaryColor": "#6C63FF",
+    "backgroundColor": "#0A0E1A",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark fintech dashboard with vibrant teal accent, glassmorphic card surfaces, real-time cash flow visualization, micro-interactions, and a clean data-forward hierarchy"
+  },
+  "screens": ["home", "timeline", "alerts", "insights", "settings"]
+}

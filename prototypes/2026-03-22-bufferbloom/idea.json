@@ -1,0 +1,19 @@
+{
+  "name": "BufferBloom",
+  "tagline": "Turn cash flow chaos into calm.",
+  "description": "BufferBloom helps people avoid accidental overdrafts and late-fee spirals by predicting the \"danger zones\" in their checking account before they happen. Instead of only showing a balance, it analyzes recurring bills, paydays, card holds, subscriptions, and variable spending to create a day-by-day cash runway forecast that updates in real time. If you are about to spend too much on a weekend trip, it can quietly suggest how much to reserve so rent, utilities, and minimum debt payments stay safe. It also flags when a subscription is likely to hit right after a large purchase or when a paycheck delay could create a shortfall, then offers actionable choices like moving money, delaying nonessential spending, or setting a temporary spending cap. The app is especially useful for people who technically have enough money over the month but still get hit by timing mismatches that cause fees and stress. What makes it unique is that it behaves like a personal liquidity planner rather than a budgeting spreadsheet, focusing on exact payment timing and near-future survival instead of category tracking alone.",
+  "features": [
+    "The app builds a rolling 30-day cash-flow timeline that shows when your balance may dip dangerously low, helping you act before fees happen.",
+    "It detects upcoming bills, salary deposits, card authorizations, and subscription renewals automatically so users do not need to enter every transaction manually.",
+    "A smart safe-to-spend number updates throughout the day and tells you how much money is truly available after protecting essentials.",
+    "It sends plain-language alerts like \"Wait two days before buying this\" or \"Move $80 to checking tonight,\" which makes decisions fast and practical.",
+    "It learns from your spending habits and paycheck patterns to predict stress points unique to your life, making the guidance more accurate over time."
+  ],
+  "audience": "Young professionals, gig workers, and families living paycheck-to-paycheck or with irregular income, especially those aged 22-45 who manage multiple bills, subscriptions, and inconsistent pay timing. It also fits people who are financially stable overall but frequently get surprised by short-term cash crunches.",
+  "category": "finance",
+  "useCases": [
+    "Maya just got paid on a Friday, but her rent, utilities, and two subscriptions are all scheduled for the first week of the month. She opens BufferBloom to see whether her grocery trip today will leave enough cash for everything else.",
+    "Jordan drives for ride-share apps and never knows exactly when earnings will land. He checks the app before accepting a weekend hotel booking to see if a delayed payout would cause his auto insurance draft to bounce.",
+    "Elena notices a gym membership, streaming service, and car repair estimate all clustered around the same week. She uses BufferBloom to identify the safest transfer amount from savings and avoid an overdraft fee."
+  ]
+}
