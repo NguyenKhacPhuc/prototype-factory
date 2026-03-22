@@ -1,0 +1,18 @@
+{
+  "appName": "Loop Lens",
+  "tagline": "See waste before it becomes trash.",
+  "designSystem": {
+    "primaryColor": "#10B981",
+    "secondaryColor": "#06D6A0",
+    "backgroundColor": "#F0FDF9",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean eco-tech mobile UI with vibrant emerald-green accent palette. Features glassmorphic scan viewfinder, data-forward waste coach cards, and a warm circular-economy aesthetic. Light mode uses soft mint backgrounds with white cards; dark mode uses deep forest-green surfaces. Consistent 14px rounded card radius, inline progress bars, and pill badges for item type classification."
+  },
+  "screens": [
+    "Scan — camera viewfinder with animated scan line, reuse-potential score card, and step-by-step action recommendations per scanned item",
+    "Map — mini visual map with location pins, filter pills by category, and scrollable list of nearby repair/recycle/reuse/swap/compost spots",
+    "Coach — household waste pattern tracker with trend bars, CO2/savings stats, coach tips per item category, and upstream change suggestions",
+    "Swap — community swap feed with offer/wanted tabs, real-time swap alert banner, and neighbor item cards with distance and time",
+    "Settings — profile card with eco level, light/dark theme toggle, notification toggles, disposal timer with scheduled drop-offs, and preference rows"
+  ]
+}

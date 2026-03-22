@@ -1,0 +1,19 @@
+{
+  "name": "Loop Lens",
+  "tagline": "See waste before it becomes trash.",
+  "description": "Loop Lens helps people reduce household waste by turning ordinary items into repair, reuse, swap, or compost options the moment they\u2019re about to throw them away. Using the phone camera, the app identifies common materials, estimated condition, local drop-off options, and nearby people or places that can actually use the item, such as a cafe accepting clean glass jars or a community maker space taking broken electronics for parts. It solves the frustrating problem of \u201cI know this shouldn\u2019t go in the bin, but I don\u2019t know what else to do,\u201d which is a major reason recyclable and reusable items still end up in landfill. In daily life, users can scan a cracked blender, a single missing shoe, or leftover moving boxes and get immediate, practical next steps tailored to their location and habits. What makes it unique is that it focuses on action at the moment of disposal rather than broad education, combining object recognition, local circular-economy matching, and personal waste behavior coaching. Over time, Loop Lens learns a household\u2019s recurring waste patterns and suggests upstream changes, like switching a product refill size or finding a repair subscription, so users waste less before they even need to decide what to discard.",
+  "features": [
+    "The camera scan identifies an item\u2019s material, likely salvageability, and best next step so users can make a fast decision instead of defaulting to the trash.",
+    "The local circular map shows nearby repair shops, donation points, reuse exchanges, compost drop-offs, and material-specific collection events that match the scanned item.",
+    "The household waste coach detects repeated discard patterns and suggests practical alternatives, such as refill stores, replacement parts, or sturdier product options.",
+    "The swap-to-save alerts connect users with neighbors, community groups, or micro-entrepreneurs who can take the item for a second life, which keeps usable goods circulating locally.",
+    "The disposal timer lets users schedule reminders for seasonal drop-offs and large-item collection days, preventing clutter and improving follow-through on eco-friendly actions."
+  ],
+  "audience": "Urban renters, young families, and environmentally conscious adults ages 20-45 who want to reduce waste but lack time to research disposal options. It is especially useful in cities where local reuse and recycling rules are confusing and neighborhood infrastructure varies block by block.",
+  "category": "sustainability",
+  "useCases": [
+    "Sarah just finished unpacking from a move and has a pile of cardboard, bubble wrap, and one broken chair leg. She opens Loop Lens to scan each item and finds the nearest reuse depot that accepts the packaging and a wood shop that wants the chair leg for parts.",
+    "David notices his apartment kitchen has three empty pasta sauce jars and a chipped ceramic mug he no longer uses. He uses the app to learn that a nearby refill shop will take the jars and a local artist collective accepts chipped ceramics for mosaic projects.",
+    "Mina is cleaning out her closet before a trip and finds a jacket with a stuck zipper and two single earbuds from an old set. She scans them to see whether repair is worth it and discovers a zipper-fix kiosk plus a community electronics lab that harvests earbuds for components."
+  ]
+}

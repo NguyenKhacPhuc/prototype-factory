@@ -1,0 +1,25 @@
+{
+  "appName": "Loop Lens",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#10B981",
+    "secondary": "#06D6A0",
+    "background": "#F0FDF9",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "camera",
+    "chevron-right",
+    "leaf",
+    "moon",
+    "scan-line",
+    "signal",
+    "sun",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 10,
+  "fontFileCount": 0
+}
