@@ -1,0 +1,19 @@
+{
+  "name": "QuietRoute",
+  "tagline": "Navigate the calmest path, not just the fastest.",
+  "description": "QuietRoute helps people move through cities while avoiding the sensory overload, stress, and fatigue that can come from standard navigation apps. Instead of only optimizing for speed, it builds routes based on noise level, crowd density, lighting, construction, sidewalk quality, and even stressful transfer points like busy crossings or crowded station exits. This makes it especially useful for neurodivergent users, anxious travelers, parents with sleeping children, and anyone who simply wants a smoother, calmer trip. For example, a commuter can choose a slightly longer walk that avoids a chaotic subway exit and a loud avenue, while a parent pushing a stroller can prefer curb cuts and wide sidewalks over stairs and busy intersections. The app uses real-time and historical signals to predict which blocks, stations, and entrances will feel overwhelming, then explains why a route is calmer in simple terms. What makes it unique is that it treats navigation as a human experience, not just a shortest-path problem, giving users control over the kind of journey they want to have.",
+  "features": [
+    "The app scores routes by sensory comfort, showing how much noise, crowding, glare, stairs, and visual clutter each option contains so users can choose what feels manageable.",
+    "It offers customizable calmness preferences, allowing users to prioritize fewer people, less street noise, brighter lighting, smoother pavement, or fewer decision points depending on their needs.",
+    "It highlights stressful segments before the trip starts, such as a crowded station transfer or a construction-heavy block, so users can make informed decisions instead of being surprised mid-route.",
+    "It provides step-by-step calming guidance with simple, low-distraction instructions and optional reminders like where to pause, where to enter, and where to avoid peak foot traffic.",
+    "It learns from user feedback after each trip, improving future route recommendations based on what actually felt comfortable rather than only what the map data predicts."
+  ],
+  "audience": "Urban commuters, neurodivergent adults and teens, anxious travelers, caregivers, and parents navigating with children or strollers. It is especially relevant in dense cities, transit-heavy environments, and places where ordinary directions are technically correct but practically exhausting.",
+  "category": "navigation",
+  "useCases": [
+    "Maya just got off a packed train after work and wants to walk to dinner without passing through the loudest, most crowded streets. She opens QuietRoute to find a calmer path with fewer people and less traffic noise, even if it adds five extra minutes.",
+    "Jordan is traveling in a new city and feels overwhelmed by unfamiliar transit stations and confusing underground exits. He uses QuietRoute to pick the station entrance with fewer stairs, less crowding, and the clearest route to his hotel.",
+    "Priya is pushing a stroller with a sleeping baby and needs to get to a clinic without jostling the stroller on broken sidewalks or navigating stairs. She checks QuietRoute for a route with curb cuts, wider paths, and fewer chaotic crossings."
+  ]
+}

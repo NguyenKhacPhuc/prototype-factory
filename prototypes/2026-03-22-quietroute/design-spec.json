@@ -1,0 +1,12 @@
+{
+  "appName": "QuietRoute",
+  "tagline": "Navigate the calmest path, not just the fastest.",
+  "designSystem": {
+    "primaryColor": "#0CBF78",
+    "secondaryColor": "#2563EB",
+    "backgroundColor": "#F2FAF6",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean, calming mobile navigation UI with a vibrant mint-green brand palette built around a nature-inspired ethos. Features smooth card-based layouts, soft gradient accents, circular calm-score rings, SVG street map visualization with zone overlays, and gentle micro-interactions. Dual light/dark themes with deep forest-dark and fresh-white-green light modes."
+  },
+  "screens": ["home", "routes", "navigate", "profile"]
+}
