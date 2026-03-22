@@ -1,0 +1,12 @@
+{
+  "appName": "ShelfSwap",
+  "tagline": "Buy what fits your life, not just your cart.",
+  "designSystem": {
+    "primaryColor": "#00E5B4",
+    "secondaryColor": "#8B5CF6",
+    "backgroundColor": "#0A0F0D",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first smart home utility app with vibrant teal/mint accent on deep forest-dark backgrounds. Clean card-based layout with subtle borders, gradient highlights, and micro-interactions. Conflict indicators use red/amber with clear iconography. Space utilization shown via progress bars and circular fit scores."
+  },
+  "screens": ["home", "scan", "inventory", "lists", "settings"]
+}

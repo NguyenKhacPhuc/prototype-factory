@@ -1,0 +1,19 @@
+{
+  "name": "ShelfSwap",
+  "tagline": "Buy what fits your life, not just your cart.",
+  "description": "ShelfSwap helps people shop smarter by using their real-world constraints\u2014like cabinet size, fridge depth, apartment storage, and existing items already at home\u2014to recommend products that will actually fit and work together. Instead of searching through endless listings and guessing whether a new air fryer, pantry organizer, or stroller accessory will suit your space, users scan their room, snap a photo of an item, or input simple measurements, and the app builds a compatibility-aware shopping list. It solves the common frustration of buying things that are technically useful but impractical once they arrive, which leads to clutter, returns, and wasted money. In daily life, it can help a renter choose storage bins that stack under a bed, guide a parent to find a bottle rack that matches an existing dishwasher layout, or recommend a coffee maker that fits the exact width of a tiny kitchen counter. What makes it unique is that it shops around the user's environment and inventory, not just around price and reviews. It can also warn when a product conflicts with a current item, suggest better-matched alternatives, and surface bundle options that work as a system instead of as isolated products. The result is a shopping experience that feels more like having a thoughtful space-conscious assistant than a generic marketplace search tool.",
+  "features": [
+    "The app scans rooms, shelves, and appliances to measure usable space and prevent users from buying items that are too large, awkward, or incompatible.",
+    "It builds a live home inventory from photos and receipts so shoppers can compare new purchases against what they already own and avoid duplicate items.",
+    "It recommends products based on fit, stackability, and workflow compatibility, which matters when users need objects to function together in tight spaces.",
+    "It flags hidden conflicts such as incompatible connectors, clearance issues, or storage problems before checkout, helping users reduce returns and waste.",
+    "It creates space-aware shopping lists for specific goals like organizing a nursery or upgrading a small kitchen, making shopping faster and more deliberate."
+  ],
+  "audience": "Urban renters, apartment dwellers, first-time homeowners, and busy families who frequently shop for household goods in limited spaces. It is especially useful for people who hate returns, live in small homes, or want every purchase to fit neatly into an existing setup.",
+  "category": "shopping",
+  "useCases": [
+    "Maya just moved into a studio apartment and wants a storage cart that fits beside her desk without blocking the door, so she opens ShelfSwap to find options that match her exact measurements.",
+    "Ethan is upgrading his kitchen and needs a coffee machine that fits under his cabinets and works with the mugs he already owns, so he scans the counter space and compares compatible models.",
+    "Priya is shopping for baby organization bins after a chaotic week and wants products that nest under the crib and stack with her current shelves, so she uses the app to avoid a costly returns cycle."
+  ]
+}
