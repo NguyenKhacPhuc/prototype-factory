@@ -1,0 +1,38 @@
+{
+  "appName": "SpendShield",
+  "tagline": "Stop surprise bills before they hit.",
+  "designSystem": {
+    "primaryColor": "#00E5AD",
+    "secondaryColor": "#5B9EFF",
+    "backgroundColor": "#060C18",
+    "accentDanger": "#FF4560",
+    "accentWarning": "#FFB020",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first fintech with deep navy backgrounds, vibrant teal primary accent, and a risk-aware color system (teal=safe, amber=caution, red=danger). Cards use subtle glass-like layering with colored left-border accents on alerts. Typography is bold and hierarchical with 800-weight headlines. Micro-interactions include press-scale effects on action buttons and smooth opacity transitions between screens."
+  },
+  "screens": [
+    "Dashboard — Expense weather hero card with risk score, urgent bills list, 7-day bar chart, and quick action buttons",
+    "Forecast — 14-day scrollable day picker, selected-day bill breakdown, balance projection SVG line chart",
+    "Bills — Subscription list with alert badges (price hike, trial, overlap, duplicate), filter pills, per-card action CTAs",
+    "Alerts — Actionable notification feed with severity color-coding, impact chips, dismiss control",
+    "Settings — Theme toggle (dark/light), notification toggles, connected bank accounts, profile card"
+  ],
+  "themes": {
+    "dark": {
+      "bg": "#060C18",
+      "surface": "#0C1826",
+      "card": "#162435",
+      "primary": "#00E5AD",
+      "danger": "#FF4560",
+      "warning": "#FFB020"
+    },
+    "light": {
+      "bg": "#EBF3FA",
+      "surface": "#FFFFFF",
+      "card": "#FFFFFF",
+      "primary": "#00A882",
+      "danger": "#E53E56",
+      "warning": "#D08000"
+    }
+  }
+}

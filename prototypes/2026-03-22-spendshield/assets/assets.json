@@ -1,0 +1,34 @@
+{
+  "appName": "SpendShield",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#00E5AD",
+    "secondary": "#5B9EFF",
+    "background": "#060C18",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "battery-full",
+    "bell",
+    "calendar",
+    "chevron-right",
+    "clock",
+    "copy",
+    "credit-card",
+    "home",
+    "log-out",
+    "moon",
+    "settings",
+    "shield",
+    "shield-check",
+    "signal",
+    "sun",
+    "trending-up",
+    "wifi",
+    "x"
+  ],
+  "fonts": [],
+  "iconCount": 19,
+  "fontFileCount": 0
+}
