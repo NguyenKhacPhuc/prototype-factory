@@ -1,0 +1,12 @@
+{
+  "appName": "Task Tide",
+  "tagline": "Work with your day's real rhythms.",
+  "designSystem": {
+    "primaryColor": "#00E5CC",
+    "secondaryColor": "#FF6B8A",
+    "backgroundColor": "#070C18",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first productivity UI with vibrant teal-cyan accent, soft navy card surfaces, color-coded context bundles, and a wave-inspired layout metaphor. Uses glassmorphism-adjacent card treatments with subtle border glow, circular SVG timer, live energy curve chart, and micro-interaction-rich task checklists."
+  },
+  "screens": ["Today", "Focus", "Plan", "Insights", "Profile"]
+}

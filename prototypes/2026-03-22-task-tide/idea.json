@@ -1,0 +1,19 @@
+{
+  "name": "Task Tide",
+  "tagline": "Work with your day\u2019s real rhythms.",
+  "description": "Task Tide is a productivity app that organizes your tasks around your actual energy, context, and interruptions instead of a static to-do list. It helps people stop failing at planning by turning vague intentions into time-aware micro-actions that fit naturally into the day, such as using a 7-minute window between meetings or a quiet commute to handle focused work. The app learns when you are most likely to procrastinate, overcommit, or run out of steam, then reshuffles your priorities into realistic \u201ctask tides\u201d that rise and fall with your calendar, location, and attention patterns. A parent juggling school drop-off and work, for example, might get suggested a phone-call batch during the afternoon school run and a deep-work block after bedtime, rather than seeing one overwhelming list. What makes it unique is that it doesn\u2019t just manage tasks, it manages timing and cognitive load by matching tasks to the moment they are most likely to get done. It also uses interruption recovery, so if your day goes off-script, the app reconstructs your plan in seconds and shows the smallest next action to regain momentum.",
+  "features": [
+    "It analyzes your calendar, habitual energy dips, and task friction to recommend the best time for each task, which helps you stop scheduling demanding work when you are least able to do it.",
+    "It breaks large goals into micro-actions that fit the time you actually have, so a big project can become a sequence like 'draft outline,' 'find source,' and 'send first paragraph.'",
+    "It detects interruptions and automatically rebuilds the rest of your day around what is still realistic, which matters because most productivity tools fail the moment your schedule changes.",
+    "It offers context-based task bundles, such as calls, errands, or email replies, that group together what you can do in the same mental mode and save transition time.",
+    "It includes a 're-entry' mode that shows the fastest next step after a distraction, helping users recover momentum instead of wasting ten minutes deciding where to restart."
+  ],
+  "audience": "Busy professionals, caregivers, freelancers, and knowledge workers aged 25-50 who juggle shifting schedules and need a more realistic way to get things done. It is especially useful for people whose days are frequently interrupted by meetings, parenting, client work, or unpredictable workloads.",
+  "category": "productivity",
+  "useCases": [
+    "Maya has back-to-back meetings until 3 p.m. and only 12 minutes before her next call, so she opens the app to see which tasks can actually be completed in that gap and starts with a quick expense submission.",
+    "Diego is a freelance designer whose afternoon often disappears into client messages, so he asks the app to regroup his day after lunch and finds a deep-work block for concept sketches during his most focused hour.",
+    "Nina just got home with two kids, a grocery list, and a half-finished work report, so she uses the app to switch into low-energy mode and chooses the smallest next actions she can finish before bedtime."
+  ]
+}

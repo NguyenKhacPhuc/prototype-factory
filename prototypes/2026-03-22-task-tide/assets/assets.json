@@ -1,0 +1,20 @@
+{
+  "appName": "Task Tide",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#00E5CC",
+    "secondary": "#FF6B8A",
+    "background": "#070C18",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "calendar-days",
+    "circle",
+    "user",
+    "waves",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 5,
+  "fontFileCount": 0
+}
