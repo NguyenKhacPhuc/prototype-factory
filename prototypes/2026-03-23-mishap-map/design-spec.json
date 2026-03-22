@@ -1,0 +1,12 @@
+{
+  "appName": "Mishap Map",
+  "tagline": "Turn kid chaos into calm.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#10B981",
+    "backgroundColor": "#F5F3FF",
+    "fontFamily": "Nunito",
+    "style": "Playful and friendly with rounded corners, soft purple palette, emoji-driven UI, large tap targets for children, and gentle gradients. Warm and approachable while remaining structured enough for guided flows."
+  },
+  "screens": ["home", "map", "toolkit", "insights", "settings"]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Mishap Map",
+  "tagline": "Turn kid chaos into calm.",
+  "description": "Mishap Map is a kid-friendly problem-solving app that helps children name, understand, and fix everyday mishaps before they spiral into meltdowns. When a child spills juice, loses a toy, gets teased, or feels left out, the app guides them through a short interactive path: what happened, how they feel, what they can do next, and who can help. It uses voice, stickers, simple drawings, and mini-scenarios so kids can express tricky emotions even if they cannot read well yet. Parents can optionally view patterns, like recurring frustration at bedtime or playground conflict, to spot real issues early without turning the app into surveillance. Unlike generic emotion apps, Mishap Map is built around concrete moments of childhood life and teaches practical repair steps such as apologizing, asking for help, taking turns, or making a backup plan. It fits into daily routines by helping kids recover faster after setbacks, reducing repeated tantrums, and building confidence in handling small emergencies on their own. What makes it unique is that it acts less like a diary and more like a child-sized crisis navigator for the specific chaos of growing up.",
+  "features": [
+    "The app turns real-life kid problems into guided story paths that help children identify what happened and choose a next step, which makes abstract feelings easier to manage.",
+    "It offers voice input with big icon responses so pre-readers and early readers can use it independently, which matters because many kids need help before they can explain themselves clearly.",
+    "It provides age-appropriate repair suggestions, such as how to apologize after grabbing a toy or how to ask a teacher for help, so children learn practical social skills in the moment.",
+    "A calm-down toolkit gives children quick breathing games, stretch prompts, and distraction timers tailored to the specific mishap, which helps reduce escalation when emotions are high.",
+    "Optional parent insights highlight repeated trouble spots like bedtime resistance or sibling conflict, allowing caregivers to intervene early with support instead of waiting for another blowup.",
+    "audience"
+  ],
+  "audience": "Children ages 4-9 who are learning to manage frustration, social conflict, and daily disappointments, especially those who benefit from visual, voice-first guidance. Parents, caregivers, and teachers who want a gentle way to build emotional resilience without long lectures or punishment.",
+  "category": "kids",
+  "useCases": [
+    "Maya just knocked over her paint water during craft time and is close to tears. She opens Mishap Map, taps \"I spilled it,\" and follows a simple fix-it path that tells her how to clean up, ask for help, and try again.",
+    "Eli got upset when another child grabbed the only swing at recess and doesn\u2019t know what to do next. He uses the app\u2019s playground scenario to practice saying, \"Can I have a turn when you\u2019re done?\" and calming his body first.",
+    "After a rough bedtime routine, Nora keeps getting out of bed and arguing with her parent. Her caregiver opens Mishap Map with her to choose the bedtime mishap track, helping her name the worry, pick a soothing step, and make a plan for tomorrow."
+  ]
+}
