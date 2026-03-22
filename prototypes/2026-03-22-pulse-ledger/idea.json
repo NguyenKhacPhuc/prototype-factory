@@ -1,0 +1,19 @@
+{
+  "name": "Pulse Ledger",
+  "tagline": "Turn chaotic work into actionable revenue.",
+  "description": "Pulse Ledger is a mobile business app that captures the hidden economics of every workday by translating meetings, messages, tasks, and expenses into a live profit-and-loss snapshot for freelancers, consultants, and small service teams. Instead of relying on end-of-month bookkeeping, it helps users see which clients, projects, and habits are quietly draining time and cash in real time. A consultant can record a client call and instantly see that the 90-minute revision cycle is cutting the effective hourly rate in half, while a studio owner can notice that rush jobs are profitable only when a specific teammate is assigned. The app solves the common problem of business owners feeling busy but not knowing what is actually making money until it is too late. It helps in daily life by sending quick prompts after key activities, converting them into profitability insights, and suggesting concrete actions like raising a fee, bundling a deliverable, or dropping an unprofitable request. What makes it unique is that it focuses on operational reality, not just accounting data, by combining lightweight activity logging with behavioral and margin analysis in a way that feels more like a personal coach than a spreadsheet.",
+  "features": [
+    "The app automatically turns calendars, call notes, and task logs into estimated time and profit metrics so users can understand the financial impact of their day without manual bookkeeping.",
+    "It flags low-margin clients, tasks, and repeat requests with plain-language explanations, helping users spot what to renegotiate, standardize, or stop doing altogether.",
+    "It generates smart pricing suggestions based on project history, showing concrete examples like how a rush fee or minimum engagement size would have changed past profitability.",
+    "It offers a one-tap end-of-day recap that summarizes where time went, what produced revenue, and what should be prioritized tomorrow to improve margins.",
+    "It includes a 'what if' simulator that lets users test scenarios such as hiring help, cutting meetings, or raising retainers so they can make better business decisions before changing their workflow."
+  ],
+  "audience": "Freelancers, solo consultants, creative agencies, and small service-based businesses aged roughly 25-50 who manage their own pricing, scheduling, and client relationships. It is especially useful for people who feel overwhelmed by admin work and want clearer business decisions without hiring a full finance team.",
+  "category": "business",
+  "useCases": [
+    "Sarah just finished a stressful client meeting and wants to know whether the extra revision request will still keep the project profitable, so she opens the app to see the real-time margin impact before replying.",
+    "Marcus runs a small branding studio and is reviewing last week\u2019s jobs on Sunday night; he uses the app to discover that a seemingly high-value client actually consumed the most unpaid hours.",
+    "Nina is a freelance UX designer about to renew a retainer proposal, and she checks the app to simulate a higher minimum monthly fee and see how it would affect her yearly income."
+  ]
+}

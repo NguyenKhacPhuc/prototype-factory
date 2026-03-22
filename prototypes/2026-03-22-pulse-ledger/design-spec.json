@@ -1,0 +1,18 @@
+{
+  "appName": "Pulse Ledger",
+  "tagline": "Turn chaotic work into actionable revenue.",
+  "designSystem": {
+    "primaryColor": "#00E5A0",
+    "secondaryColor": "#FFB347",
+    "backgroundColor": "#080C14",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first financial dashboard with vibrant teal-green accent, deep navy surfaces, glassmorphic cards, and a coaching-forward tone that blends data density with readable hierarchy"
+  },
+  "screens": [
+    "Dashboard — Live P&L snapshot with period toggle (today/week/month), margin bars per client, weekly profit chart, and one-tap EOD recap CTA",
+    "Activity Log — Quick-log panel with type selector (Call/Task/Meeting/Expense), chronological activity feed with impact values, and inline AI coaching insight",
+    "Insights — Business health score with donut gauge, severity-filtered insight cards (danger/warn/gain), and smart pricing suggestion table",
+    "What-If Simulator — Scenario picker with projected delta, custom rate-raise slider, and apply CTA with projected margin preview",
+    "Settings — Profile card, dark/light theme toggle, notification toggles (prompts, EOD recap, AI nudges), business config, and data export options"
+  ]
+}
