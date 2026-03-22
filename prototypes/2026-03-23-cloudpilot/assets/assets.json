@@ -1,0 +1,32 @@
+{
+  "appName": "CloudPilot",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#38BDF8",
+    "secondary": "#818CF8",
+    "background": "#080C18",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "calendar",
+    "chevron-right",
+    "clock",
+    "home",
+    "lightbulb",
+    "map",
+    "map-pin",
+    "moon",
+    "navigation",
+    "settings",
+    "shield",
+    "sun",
+    "thermometer",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 17,
+  "fontFileCount": 0
+}

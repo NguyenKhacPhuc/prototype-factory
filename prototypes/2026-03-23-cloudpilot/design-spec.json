@@ -1,0 +1,12 @@
+{
+  "appName": "CloudPilot",
+  "tagline": "Weather guidance for every outing.",
+  "designSystem": {
+    "primaryColor": "#38BDF8",
+    "secondaryColor": "#818CF8",
+    "backgroundColor": "#080C18",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first weather intelligence UI with sky-blue accent, deep navy surfaces, SVG route map overlay, microclimate data cards, risk timeline bars, and smooth tab transitions. Vibrant color-coded risk system: green (safe), amber (caution), red (danger). Glassmorphic card borders with glow effects on dark theme."
+  },
+  "screens": ["Home", "Routes", "Activities", "Alerts", "Settings"]
+}

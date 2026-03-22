@@ -1,0 +1,19 @@
+{
+  "name": "CloudPilot",
+  "tagline": "Weather guidance for every outing.",
+  "description": "CloudPilot turns standard forecasts into route-aware, activity-specific weather decisions. Instead of showing only hourly temperature and rain chances, it maps weather risk onto the places you actually plan to go, like your commute, dog walk, school pickup, or weekend hike. The app helps users avoid getting caught in sudden storms, icy shortcuts, heat pockets, or strong winds by suggesting the safest time window, route, or backup plan. For example, it can warn a cyclist that a usually quiet lane will be hit by a crosswind on the return ride, or tell a parent which side of the playground will be sun-exposed during pickup. What makes it unique is that it combines hyperlocal weather, route geometry, and real-world activity context into one decision layer rather than another generic forecast. It feels less like reading weather and more like getting a smart weather-aware assistant for daily life.",
+  "features": [
+    "Route Weather Overlay maps rain, wind, heat, and icy-risk conditions along specific walking, driving, biking, or transit routes so users can choose the safest path instead of relying on citywide forecasts.",
+    "Activity Timing Advisor analyzes planned tasks like jogging, school pickup, outdoor meetings, or delivery stops and recommends the best 15- to 60-minute window to go based on weather changes.",
+    "Microclimate Alerts detects local weather differences between neighborhoods, parks, waterfronts, and hillsides so users can avoid surprising conditions that standard apps often miss.",
+    "Backup Plan Generator suggests practical alternatives such as moving a picnic to a sheltered area, taking an indoor route, or delaying a ride-share pickup when conditions become risky.",
+    "Comfort Impact Forecast translates wind chill, UV exposure, humidity, pollen, and storm intensity into plain-language advice about what the user will actually feel and how to prepare."
+  ],
+  "audience": "Urban commuters, parents, cyclists, runners, and delivery workers aged roughly 18\u201355 who regularly make weather-sensitive decisions on the go. It is especially useful for people living in cities or mixed environments where conditions can change block by block.",
+  "category": "weather",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to walk to her kid's school pickup without getting soaked, so she opens CloudPilot to find the driest route and the safest 20-minute departure window.",
+    "Diego is cycling home after sunset and checks whether a strong side wind will hit the bridge on his usual route, then switches to a less exposed street path the app recommends.",
+    "Mina is planning a lunch break run and uses CloudPilot to see which park loop will stay shaded and low-risk for sudden rain, so she can finish the workout comfortably and on time."
+  ]
+}
