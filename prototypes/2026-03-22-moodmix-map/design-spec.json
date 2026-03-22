@@ -1,0 +1,18 @@
+{
+  "appName": "MoodMix Map",
+  "tagline": "Music that matches your moment",
+  "designSystem": {
+    "primaryColor": "#A855F7",
+    "secondaryColor": "#06B6D4",
+    "backgroundColor": "#0D0D14",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark glassmorphism with vibrant purple-cyan gradient accents, pill-shaped mood selectors, animated equalizer in Dynamic Island, and context-aware card system with glowing borders"
+  },
+  "screens": [
+    "Home – Context-aware suggestions with live signal chips (weather, time, location, calendar), suggested mixes, and smart transition prompts",
+    "Build Mix – Mood selector grid (6 moods), activity picker (6 activities), animated playlist generator with progress bar and track preview",
+    "Player – Full album art with gradient glow, interactive scrubber, playback controls, and scrollable queue",
+    "History – Weekly stats row, chronological mix log with mood badges, and MoodMix learning insight card",
+    "Settings – Profile card, dark/light theme toggle, context signal toggles (location/notifications/calendar/weather), music service connection"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "MoodMix Map",
+  "tagline": "Music that matches your moment",
+  "description": "MoodMix Map is a context-aware music app that builds playlists from your real-world situation instead of just your listening history. It helps people choose music based on where they are, what they are doing, and how much time or energy they have, solving the common problem of endlessly skipping tracks while trying to find the right vibe. In daily life, it can suggest a 12-minute commute reset mix, a calm-focus set for a noisy caf\u00e9, or a confidence boost before a big presentation. The app combines quick mood inputs, optional calendar cues, weather, and activity type to create highly specific mixes like 'post-gym cooldown,' 'Sunday chore sprint,' or 'late-night creative work.' What makes it unique is that it behaves like a music situational assistant, not just a recommendation engine, so the output changes with context and intent rather than static taste profiles. It also learns which moments in your day tend to need support, so over time it becomes better at preparing the right soundtrack before you even ask.",
+  "features": [
+    "The app detects your current context using optional signals like location, weather, calendar gaps, and time of day, then recommends music that fits the moment instead of a broad genre. ",
+    "It lets users pick an intention such as calm, energize, focus, or recover, and then generates a playlist tuned to that goal in under a minute. ",
+    "The app creates time-boxed mixes designed for real life, such as a seven-song commute set or a fifteen-minute cleaning burst, so users do not waste time curating their own playback. ",
+    "It offers smart transition prompts like 'keep me steady' or 'ramp me up,' which helps people move from one emotional state or activity to another without awkward musical jumps. ",
+    "The system learns from skip behavior, replays, and saved moments to personalize future context-based mixes, making each recommendation feel more timely and useful over time."
+  ],
+  "audience": "Urban professionals, students, freelancers, and anyone who uses music to regulate mood or productivity throughout the day. It especially suits people aged 18-40 who move between many different environments and need music that adapts to their changing routines.",
+  "category": "music",
+  "useCases": [
+    "Sarah just finished a stressful meeting and is walking back to her desk, so she opens the app and chooses 'reset in 10 minutes' to get a calm but uplifting mix that helps her decompress without losing momentum. ",
+    "Marcus is cleaning his apartment on a Sunday afternoon and wants something that keeps him moving, so he taps 'chore sprint' and gets an energizing playlist matched to his current pace. ",
+    "Aisha is about to give a presentation and needs confidence without distraction, so she asks for a 'pre-stage focus' mix that sharpens her concentration and gradually builds energy before she walks in."
+  ]
+}

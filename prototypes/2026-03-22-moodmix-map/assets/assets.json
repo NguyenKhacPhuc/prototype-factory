@@ -1,0 +1,14 @@
+{
+  "appName": "MoodMix Map",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#A855F7",
+    "secondary": "#06B6D4",
+    "background": "#0D0D14",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
