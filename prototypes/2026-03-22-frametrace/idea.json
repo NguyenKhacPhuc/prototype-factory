@@ -1,0 +1,19 @@
+{
+  "name": "FrameTrace",
+  "tagline": "Find the exact moment later.",
+  "description": "FrameTrace helps people quickly find specific moments inside long videos by turning everyday footage into searchable, visual memory. Instead of scrubbing through minutes of clips, users can annotate important events with a quick tap, voice note, or automatic scene marker while filming, then later search by what happened, where it happened, or even what was visible on screen. It solves the common problem of wasting time hunting for a single useful moment in birthday videos, work recordings, travel footage, or classroom lectures. In daily life, this means a parent can instantly jump to the part where a child blew out candles, a designer can locate the moment a product demo failed, or a student can revisit the exact slide where a professor explained a difficult concept. The app also uses visual change detection and contextual tags to create a timeline that feels like a map of memories rather than a raw video file. What makes it unique is that it blends video capture, lightweight journaling, and smart retrieval into one workflow, so users can remember what mattered without needing perfect organization habits in the moment.",
+  "features": [
+    "Auto-memory tagging detects major scene changes, people, text on screen, and environmental shifts so users can jump to important moments without manually logging everything.",
+    "Voice-to-clip notes let users speak a short explanation during or after recording, which is transcribed and anchored to the exact timestamp for easy searching later.",
+    "Search-by-meaning allows users to find clips using natural language like 'where the cake nearly fell' or 'the slide about revenue growth,' which saves time compared with scrubbing timelines.",
+    "Highlight reels can be generated from tagged moments automatically, helping users turn long raw footage into shareable summaries for family, team updates, or social posts.",
+    "Private timeline folders keep videos organized by project, trip, class, or event, making the app useful for both personal memories and practical reference material."
+  ],
+  "audience": "Busy parents, students, creators, and professionals aged 18-50 who record a lot of video but rarely have time to organize it. It is especially helpful for people who use video as a memory tool, a work archive, or a learning aid.",
+  "category": "photo & video",
+  "useCases": [
+    "Sarah just finished her son\u2019s birthday party and wants to find the exact moment he laughed while opening the robot-shaped gift, so she tags the clip with a quick voice note before the room gets cleaned up.",
+    "Marcus recorded a product demo for his startup and needs to quickly locate the moment the prototype bug appeared, so he searches the timeline for 'screen froze during checkout' instead of watching the full 20-minute video.",
+    "Alicia is studying for finals and captured her lecture on video because she missed part of class, so she jumps directly to the timestamp where the professor wrote the tricky equation on the board."
+  ]
+}

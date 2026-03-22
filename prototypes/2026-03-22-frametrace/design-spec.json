@@ -1,0 +1,18 @@
+{
+  "appName": "FrameTrace",
+  "tagline": "Find the exact moment later.",
+  "designSystem": {
+    "primaryColor": "#0FD9B8",
+    "secondaryColor": "#4D94FF",
+    "backgroundColor": "#070C12",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first glassmorphic UI with vibrant electric teal accent. Deep navy/charcoal surfaces with layered depth. Color-coded marker system (teal=auto, orange=voice, blue=scene, purple=face) for video timeline annotations. Subtle gradient cards and glowing CTA buttons. High contrast text hierarchy with muted secondary labels."
+  },
+  "screens": [
+    "home",
+    "search",
+    "capture",
+    "reels",
+    "library"
+  ]
+}
