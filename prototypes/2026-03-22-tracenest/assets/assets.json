@@ -1,0 +1,14 @@
+{
+  "appName": "TraceNest",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#06B6D4",
+    "background": "#F0F2F5",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

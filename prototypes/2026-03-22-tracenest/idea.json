@@ -1,0 +1,19 @@
+{
+  "name": "TraceNest",
+  "tagline": "See bugs the way users do.",
+  "description": "TraceNest is a mobile debugging companion that rebuilds production bugs into clear, replayable stories for developers on the go. When an error, crash, or slow screen happens in the wild, the app stitches together logs, network calls, feature flags, device signals, and user actions into a human-readable timeline that explains what likely went wrong. It solves the common problem of receiving vague bug reports that waste hours of back-and-forth between QA, support, and engineering. Developers can use it during commutes, in meetings, or while away from their laptop to inspect a failure, annotate hypotheses, and share a precise diagnostic summary with their team. For example, a backend developer can see that a checkout failure only happens on slow 3G after a specific flag toggles, while a mobile engineer can compare two crash traces from different OS versions without opening a desktop dashboard. What makes TraceNest unique is that it transforms fragmented telemetry into an interactive narrative with likely root-cause suggestions, not just raw logs or charts.",
+  "features": [
+    "It reconstructs crash and bug events into a step-by-step timeline that shows what the user likely experienced before the failure, making production issues easier to understand at a glance.",
+    "It merges logs, analytics events, API responses, and device context into one compact incident card so developers can investigate without switching between multiple tools.",
+    "It generates plain-English root-cause hypotheses from the evidence, helping teams quickly decide whether a bug is caused by a backend outage, a UI regression, or a feature-flag mismatch.",
+    "It lets developers replay the incident with annotated checkpoints, which is valuable for explaining issues to teammates, support staff, or product managers without technical jargon.",
+    "It supports quick mobile-first actions like bookmarking incidents, adding voice notes, and sharing a diagnostic snapshot, so bugs can be triaged even when the developer is away from a desktop."
+  ],
+  "audience": "Mobile and full-stack developers, especially those on small teams or incident-response rotations, ages 22-45, who need to debug production issues while traveling, in meetings, or during on-call shifts. It is also useful for QA engineers and support leads who need a clearer bridge between user complaints and engineering investigations.",
+  "category": "developer tools",
+  "useCases": [
+    "Maya is riding the train home when a crash alert comes in, and she opens TraceNest to understand whether the issue is tied to the latest release or a specific Android version.",
+    "Daniel is in a product review meeting when support forwards a vague checkout complaint, and he uses the app to turn it into a concrete incident timeline he can share with the team.",
+    "Leila is on call late at night and sees a spike in failed sign-ins, so she checks the reconstructed traces to confirm that a third-party auth service is returning intermittent errors."
+  ]
+}

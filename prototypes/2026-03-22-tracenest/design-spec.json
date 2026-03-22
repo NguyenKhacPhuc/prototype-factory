@@ -1,0 +1,17 @@
+{
+  "appName": "TraceNest",
+  "tagline": "See bugs the way users do.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#06B6D4",
+    "backgroundColor": "#F0F2F5",
+    "fontFamily": "Space Grotesk",
+    "style": "Modern developer tool aesthetic with a vibrant violet-to-cyan gradient brand, clean card-based layouts, dark and light mode polish, and confidence-driven data visualization for incident triage"
+  },
+  "screens": [
+    "Feed — searchable incident list with severity filters, bookmarks, and affected-user counts",
+    "Incidents — full incident detail card with device context, root-cause hypothesis, timeline preview, and quick actions",
+    "Replay — step-by-step animated timeline playback with play/pause/step controls and progress bar",
+    "Settings — developer profile, connected apps, preferences, and light/dark theme toggle"
+  ]
+}
