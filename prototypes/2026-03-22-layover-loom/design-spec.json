@@ -1,0 +1,12 @@
+{
+  "appName": "Layover Loom",
+  "tagline": "Turn dead travel time into local time.",
+  "designSystem": {
+    "primaryColor": "#00CFAA",
+    "secondaryColor": "#6C8EFF",
+    "backgroundColor": "#090D18",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first travel utility app with deep navy surfaces, vibrant teal-mint primary accent, and indigo secondary. Clean card-based layouts with subtle gradient overlays, color-coded risk indicators, and a confident data-dense aesthetic suited for time-critical decision making."
+  },
+  "screens": ["home", "plan", "explore", "settings"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Layover Loom",
+  "tagline": "Turn dead travel time into local time.",
+  "description": "Layover Loom helps travelers transform long layovers, delayed train transfers, and awkward transit gaps into curated mini-adventures that fit exactly into their available time. The app solves the common problem of wasted, stressful in-between hours by building hyper-local plans based on your current airport, station, baggage situation, budget, visa rules, weather, and energy level. It can suggest a 2-hour street-food loop near the terminal, a quiet cafe with reliable Wi\u2011Fi for a work reset, or a shower-and-nap stop before a red-eye. What makes it unique is that it dynamically designs itineraries around real constraints like security lines, boarding times, traffic risk, and return-buffer confidence, instead of just recommending nearby attractions. Users can choose goals like \u201crest,\u201d \u201ceat well,\u201d \u201csee one iconic thing,\u201d or \u201cprepare for my next meeting,\u201d and the app turns idle transit time into a useful, low-friction experience. For example, if a traveler has 4.5 hours between flights in Singapore, Layover Loom might suggest immigration timing, a fast monorail route, a hawker stall with minimal queue risk, and an automated reminder to head back with enough margin. It becomes a daily travel companion that reduces anxiety, saves time, and makes unavoidable waiting feel intentional and rewarding.",
+  "features": [
+    "The app calculates safe micro-itineraries using real-time flight, train, traffic, and security-delay data so users know exactly what they can do without risking a missed connection.",
+    "It adapts recommendations to traveler state, such as jet lag, baggage load, budget, and desired energy level, because a tired solo traveler needs very different options than a fit business traveler.",
+    "It offers route plans with return-benchmark reminders, showing users when to leave a cafe, museum, or market so they can get back with a comfortable buffer.",
+    "It generates context-aware place suggestions like nap pods, luggage-friendly restaurants, and walkable local highlights, which matters because most generic maps ignore transit-specific needs.",
+    "It can switch a layover into a productivity mode by surfacing nearby work spots, quiet lounges, and quick-reset routines, helping users arrive prepared instead of drained."
+  ],
+  "audience": "Frequent flyers, business travelers, remote workers, and urban explorers ages 22\u201355 who often face layovers, train transfers, or travel downtime. It is especially useful for people navigating unfamiliar cities with limited time and a strong need for reliability.",
+  "category": "travel",
+  "useCases": [
+    "Maya just landed in Doha with a 5-hour layover and no checked bag, and she wants to see something memorable without stressing about the next boarding time. Layover Loom builds her a tight plan for a nearby cultural district, a quick meal, and a return route with a safety buffer.",
+    "Ethan\u2019s train was delayed, leaving him with an unexpected 90-minute gap before his connection in a city he has never visited. He opens the app to find a walkable coffee stop, a good place to charge his phone, and a timer that tells him when to head back.",
+    "Priya finished a long international flight and has a business presentation two hours after landing. She uses the app to find a quiet airport work lounge, a shower option, and a light meal nearby so she can recover and show up sharp."
+  ]
+}
