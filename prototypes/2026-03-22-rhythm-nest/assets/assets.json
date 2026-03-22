@@ -1,0 +1,18 @@
+{
+  "appName": "Rhythm Nest",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#3ECFAA",
+    "secondary": "#7C6FFF",
+    "background": "#0B0F1A",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "chevron-down",
+    "chevron-right",
+    "plus"
+  ],
+  "fonts": [],
+  "iconCount": 3,
+  "fontFileCount": 0
+}

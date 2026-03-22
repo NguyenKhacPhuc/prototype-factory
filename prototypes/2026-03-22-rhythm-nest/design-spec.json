@@ -1,0 +1,17 @@
+{
+  "appName": "Rhythm Nest",
+  "tagline": "Build routines that fit real life.",
+  "designSystem": {
+    "primaryColor": "#3ECFAA",
+    "secondaryColor": "#7C6FFF",
+    "backgroundColor": "#0B0F1A",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first mobile UI with vibrant teal/mint primary accent, glass-morphic surfaces, adaptive routine cards, and micro-interaction toggle states. Warm amber and coral accents for energy and mood indicators."
+  },
+  "screens": [
+    "Today - Anchor moments, energy check-in, micro-window task suggestions with completion toggles",
+    "Routines - Filterable routine library with active/inactive toggles, streaks, and add-new CTA",
+    "Insights - Weekly mood/focus trend charts, ritual leaderboard, completion bars, AI observations",
+    "Settings - Profile card, dark/light theme switcher, anchor moment editor, behavior preference toggles"
+  ]
+}

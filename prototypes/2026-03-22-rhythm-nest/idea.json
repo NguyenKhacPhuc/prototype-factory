@@ -1,0 +1,19 @@
+{
+  "name": "Rhythm Nest",
+  "tagline": "Build routines that fit real life.",
+  "description": "Rhythm Nest helps people create and maintain daily routines that adapt to their actual energy, schedule, and home life instead of forcing rigid planners. The app solves a common lifestyle problem: most routine and habit apps assume every day looks the same, which makes them frustrating when work shifts, family demands, travel, or low-energy days throw everything off. Users define a few anchor moments in their day, like waking up, commuting, lunch breaks, or bedtime, and the app dynamically suggests a flexible rhythm for the day based on time available, stress level, location, and priorities. For example, if a parent has a 20-minute gap before school pickup, it might recommend a reset walk, a quick meal prep task, or a home tidy burst that actually fits the window. What makes it unique is that it behaves more like a practical life choreographer than a static to-do list, translating scattered intentions into realistic micro-actions. Over time, it learns which routines users stick to on busy weekdays versus calm weekends and reshapes its suggestions accordingly. The result is a daily companion that helps users feel organized without demanding perfection.",
+  "features": [
+    "Adaptive routine shaping turns broad goals like \"exercise more\" or \"keep the kitchen manageable\" into small actions that fit the user's real-time schedule and energy level.",
+    "Anchor-based planning lets users set stable daily touchpoints, so the app can rebuild a realistic routine around work shifts, family commitments, or unexpected delays.",
+    "Micro-window suggestions identify pockets of time as short as 5 to 20 minutes and recommend meaningful tasks that can actually be finished before the next obligation.",
+    "Context-aware nudges adjust recommendations based on location, weather, and calendar events, which matters because the best next action is different at home, on the train, or during a rainstorm.",
+    "Ritual memory tracks which routines improve mood, focus, or home stability and uses that history to personalize future days without overwhelming the user with data."
+  ],
+  "audience": "Busy adults ages 25-45, especially parents, shift workers, freelancers, and hybrid office workers who struggle with consistency in unpredictable schedules. It also fits people rebuilding structure after burnout, life changes, or a move.",
+  "category": "lifestyle",
+  "useCases": [
+    "Sarah just finished a stressful meeting and has 12 minutes before her next call, so she opens the app to find a quick reset routine that fits her energy level and current location.",
+    "Marcus works rotating hospital shifts and wants a sleep, meal, and exercise rhythm that changes automatically when his work hours change from mornings to overnights.",
+    "Priya is juggling school drop-off, groceries, and a messy apartment, so she asks the app to turn her scattered afternoon into a realistic sequence of tiny home tasks."
+  ]
+}
