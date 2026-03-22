@@ -1,0 +1,20 @@
+{
+  "appName": "PulsePair",
+  "tagline": "Train smarter with your body's rhythm.",
+  "designSystem": {
+    "primaryColor": "#7C5CFF",
+    "secondaryColor": "#3B9EFF",
+    "backgroundColor": "#07091A",
+    "accentGreen": "#0EEBA8",
+    "accentAmber": "#FFB020",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first fitness tech UI with vibrant electric-violet primary, neon green/amber status accents, glassmorphic cards, and a clean data-dense layout optimized for at-a-glance readiness decisions"
+  },
+  "screens": [
+    "Home — Daily readiness ring (68/100), body signal stats grid (HRV, sleep, resting HR, stress), today's adapted workout preview card",
+    "Workout — Adapted plan header with modification note, live strain meter with zone markers, interactive exercise checklist with original vs adapted sets, start/end session button",
+    "Recovery — Recovery score with progress tracker, micro-prescription cards (breathing, mobility, myofascial, cold exposure) with expandable benefit details and session launcher",
+    "Insights — 7-day readiness trend line chart, HRV trend chart, 4-day sleep quality cards, AI intelligence insight panel",
+    "Profile — User profile with streak, dark/light theme toggle, connected devices (Apple Watch, Oura), preferences menu"
+  ]
+}

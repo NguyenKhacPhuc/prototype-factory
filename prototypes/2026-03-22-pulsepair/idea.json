@@ -1,0 +1,19 @@
+{
+  "name": "PulsePair",
+  "tagline": "Train smarter with your body's rhythm.",
+  "description": "PulsePair is a fitness app that adapts workouts to your real-time recovery state by combining heart rate variability, sleep quality, stress signals, and recent exertion into one daily readiness score. Instead of forcing users into rigid plans, it tells them whether to push, maintain, or recover, then instantly reshapes the workout for that exact moment. The app solves a common problem: people often skip workouts, overtrain, or feel frustrated because their body does not match their plan, especially after poor sleep, long workdays, or intense training sessions. In daily life, it helps someone decide whether a lunchtime run should become a mobility session, or whether a strength workout should be reduced from heavy sets to speed work. A busy parent can open it at 6 a.m. and get a 15-minute recovery circuit when the app sees they slept badly, while a marathoner might get an aggressive interval session only when their readiness is high. What makes PulsePair unique is that it does not just track health data, it translates it into a living workout decision engine that changes exercise intensity, structure, and duration in the moment.",
+  "features": [
+    "The app builds a daily readiness score from wearable data, sleep patterns, and user-reported stress so people can understand whether their body is prepared for hard exercise or needs recovery.",
+    "It automatically rewrites planned workouts into lighter, moderate, or high-intensity versions, which keeps users consistent without forcing them to abandon their training goals.",
+    "It includes a real-time strain meter that warns when a session is becoming too demanding, helping users avoid burnout, injury, and overtraining.",
+    "It offers micro-recovery prescriptions, such as breathing drills, mobility flows, or short walks, that fit into a 5-10 minute break at work or between errands.",
+    "It learns from past responses to workouts and adjusts future recommendations, making the app more personal and more accurate the longer someone uses it."
+  ],
+  "audience": "Active adults ages 25-45 who juggle fitness with demanding jobs, family responsibilities, or endurance training. It is especially useful for people who use wearables and want a more body-aware approach to exercise planning.",
+  "category": "health & fitness",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to work out before picking up her kids. She opens PulsePair and sees that her readiness is low, so the app converts her planned run into a short recovery session and breathing reset.",
+    "Marcus trained hard yesterday and wakes up feeling flat before his gym session. He checks PulsePair, which downgrades his heavy leg day into a lighter technique and mobility workout so he still stays consistent without overreaching.",
+    "Leila is preparing for a 10K and usually follows a strict plan, but she slept poorly after a late shift. The app spots reduced recovery and recommends an easy zone-2 bike ride instead of intervals, helping her maintain progress without digging herself into fatigue."
+  ]
+}
