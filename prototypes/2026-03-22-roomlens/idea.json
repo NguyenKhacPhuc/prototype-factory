@@ -1,0 +1,19 @@
+{
+  "name": "RoomLens",
+  "tagline": "Design spaces from a single photo.",
+  "description": "RoomLens turns any room photo into an interactive design canvas that helps people make faster, smarter decorating decisions without needing professional software. It solves the common problem of not knowing whether a color, layout, rug size, or wall art arrangement will actually work in a real space by analyzing the room\u2019s proportions, lighting, and existing furniture. Users can snap a picture of their bedroom, office, apartment corner, or storefront and instantly overlay realistic design options that stay aligned with the room\u2019s perspective. For daily life, it helps someone choose the right paint shade before buying samples, test whether a couch will block a walkway, or preview a gallery wall above a sofa. A renter could compare removable wallpaper styles, while a small business owner could test signage and branding on a reception wall. What makes RoomLens unique is that it focuses on practical, photo-based spatial decisions rather than abstract mood boards, so the designs are tied to real-world dimensions and usability instead of just inspiration.",
+  "features": [
+    "The app scans a room photo and detects walls, floors, furniture, and light sources so users can design against the actual space instead of guessing from a flat image.",
+    "It lets users preview paint, wallpaper, flooring, and accent colors with realistic shadows and lighting effects, which reduces costly buying mistakes.",
+    "It includes a drag-and-drop furniture planner that preserves scale and walking paths, helping users avoid layouts that look good but function poorly.",
+    "Users can generate gallery walls, shelving arrangements, and signage mockups in perspective, making it easy to visualize decor and branding before installation.",
+    "The app offers side-by-side comparison snapshots and shareable decision boards, which helps households, roommates, or clients agree on a final design faster."
+  ],
+  "audience": "Homeowners, renters, interior design hobbyists, real estate stagers, and small business owners aged roughly 22-55 who need quick visual design decisions in real spaces. It is especially useful for people decorating on a budget or working without access to professional design tools.",
+  "category": "graphic & design",
+  "useCases": [
+    "Maya just moved into a small apartment and wants to see whether a deeper blue accent wall will make the living room feel cozy or cramped. She snaps a photo, previews three shades, and chooses the one that looks best in the afternoon light.",
+    "Jordan is setting up a home office and needs to know if a larger desk will block the only window. He uses the furniture planner to test layouts and picks the version that keeps the room bright and walkable.",
+    "A caf\u00e9 owner is updating the shop interior and wants to preview a new logo sign above the counter. She uploads a wall photo, tests the sign in different sizes and materials, and shares the mockup with her contractor."
+  ]
+}

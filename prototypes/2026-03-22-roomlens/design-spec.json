@@ -1,0 +1,18 @@
+{
+  "appName": "RoomLens",
+  "tagline": "Design spaces from a single photo.",
+  "designSystem": {
+    "primaryColor": "#5B6AF0",
+    "secondaryColor": "#2ECC96",
+    "backgroundColor": "#F5F4FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern mobile app with vibrant indigo-periwinkle primary accent, clean card-based layouts, gradient CTAs, and soft purple-tinted neutral backgrounds. Features AI-scan simulation, interactive design canvas with paint/furniture/decor/lighting tools, explore gallery, and settings with theme toggle."
+  },
+  "screens": [
+    "home",
+    "scan",
+    "design",
+    "explore",
+    "profile"
+  ]
+}

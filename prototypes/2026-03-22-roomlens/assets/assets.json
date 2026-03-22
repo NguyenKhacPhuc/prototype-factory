@@ -1,0 +1,40 @@
+{
+  "appName": "RoomLens",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#5B6AF0",
+    "secondary": "#2ECC96",
+    "background": "#F5F4FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-right",
+    "bookmark",
+    "camera",
+    "check",
+    "chevron-right",
+    "compass",
+    "crown",
+    "folder-open",
+    "frame",
+    "grip-vertical",
+    "heart",
+    "help-circle",
+    "home",
+    "layers",
+    "moon",
+    "paintbrush",
+    "ruler",
+    "scan",
+    "search",
+    "settings",
+    "signal",
+    "sofa",
+    "sun",
+    "user",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 25,
+  "fontFileCount": 0
+}
