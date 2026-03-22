@@ -1,0 +1,23 @@
+{
+  "appName": "EchoPatch",
+  "tagline": "Turn scattered moments into made ideas.",
+  "designSystem": {
+    "primaryColor": "#9D6FFF",
+    "secondaryColor": "#F070C0",
+    "backgroundColor": "#0C0914",
+    "accentColors": {
+      "teal": "#3DD9AC",
+      "amber": "#FFBB40",
+      "blue": "#60A5FA"
+    },
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first creative workspace with deep purple/violet brand identity. Premium atmospheric dark theme with vivid accent pops. Clean card-based layout with subtle glow effects and smooth transitions. Supports full light mode with lavender-tinted surfaces."
+  },
+  "screens": [
+    "Catch — Fragment capture hub with quick-capture strip (Text/Voice/Photo/Sound) and chronological fragment feed",
+    "Weave — Pattern Weave AI cluster view showing grouped fragments by mood, theme, and emotional tone with expandable cards",
+    "Forge — Prompt Forge engine with cluster selector, output type tabs (Story Seed / Campaign Brief / Design Brief / Concept Prompt), and Remix Export grid",
+    "Board — Living Moodboard with auto-assembled photo grids, extracted color palettes, and source fragment citations",
+    "Settings — Theme toggle (dark/light), user stats, notification preferences, and auto-grouping controls"
+  ]
+}

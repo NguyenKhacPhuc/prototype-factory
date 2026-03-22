@@ -1,0 +1,14 @@
+{
+  "appName": "EchoPatch",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#9D6FFF",
+    "secondary": "#F070C0",
+    "background": "#0C0914",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

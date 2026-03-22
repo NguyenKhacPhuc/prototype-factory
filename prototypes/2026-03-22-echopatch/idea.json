@@ -1,0 +1,19 @@
+{
+  "name": "EchoPatch",
+  "tagline": "Turn scattered moments into made ideas.",
+  "description": "EchoPatch is a mobile creativity companion that helps people capture half-formed thoughts, overheard phrases, color moods, and visual fragments, then automatically assembles them into usable creative prompts, story seeds, moodboards, and concept sketches. It solves the common problem of inspiration getting lost between moments, especially for writers, designers, marketers, and makers who notice ideas in daily life but never have time to organize them. Users can snap a photo of a textured wall, record a passing conversation fragment, save a song lyric line, or type a stray sentence, and the app groups these inputs into themed idea clusters. In daily life, it helps someone on the train turn a remembered dream into a short film premise, or helps a freelancer turn client comments into fresh brand directions before a deadline. Its standout feature is that it doesn\u2019t just store inspiration, it interprets relationships between fragments and proposes creative outputs like title options, visual directions, or first-draft concepts. Compared with generic note apps or moodboard tools, EchoPatch behaves more like an idea editor that quietly transforms messy real-world input into something actionable and original.",
+  "features": [
+    "The Fragment Catcher lets users save text, voice, images, and ambient sounds in one tap so fleeting inspiration is captured before it disappears.",
+    "The Pattern Weave engine groups unrelated fragments by mood, color, theme, and emotional tone, which helps users see hidden creative connections in their own material.",
+    "The Prompt Forge turns a cluster of saved fragments into tailored writing prompts, campaign angles, design briefs, or concept starters, saving time when creativity feels stalled.",
+    "The Living Moodboard automatically builds visual boards from photos, colors, notes, and links, giving users a fast way to shape a coherent aesthetic from messy inputs.",
+    "The Remix Export feature turns an idea cluster into shareable outputs like a one-page pitch, storyboard outline, or social post draft, making the app useful beyond inspiration and into execution."
+  ],
+  "audience": "Ideal for creators aged 18\u201345, including writers, designers, filmmakers, marketers, and students who routinely collect inspiration on the go. It is especially useful for people who think visually or emotionally but struggle to organize scattered ideas into finished creative work.",
+  "category": "creative tools",
+  "useCases": [
+    "Sarah just finished a stressful meeting and overheard a phrase that feels oddly poetic, so she opens EchoPatch to save the line, a snapshot of the office window, and the tense mood she felt. Later that evening, the app turns those fragments into a short story premise she can build on.",
+    "Marco is a freelance brand designer walking through a market when he notices an unexpected color palette in produce stalls and handwritten signs, so he logs photos and quick voice notes. EchoPatch clusters them into a vivid identity direction he can present to a client the same day.",
+    "Leila is stuck starting a video concept for a nonprofit campaign and only has rough notes from a call plus a few saved images from her camera roll. She opens the app, and it generates three concept boards with distinct emotional tones, helping her choose a direction fast."
+  ]
+}
