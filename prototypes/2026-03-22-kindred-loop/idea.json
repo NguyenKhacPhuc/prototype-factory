@@ -1,0 +1,20 @@
+{
+  "name": "Kindred Loop",
+  "tagline": "Meet nearby needs before they become chores.",
+  "description": "Kindred Loop is a neighborhood social network built around small, practical moments when people need help, spare time, or a quick connection. Instead of posting broadly and hoping for replies, users create or respond to tiny, time-boxed requests like borrowing a ladder for 20 minutes, finding someone to water plants during a weekend trip, or locating a dinner companion after a move to a new city. The app uses availability, location, skills, and trust circles to match people who can help right now with people who need something low-stakes and immediate. It solves the problem of modern isolation by turning everyday errands and inconveniences into lightweight opportunities to meet others without the pressure of \u201cmaking friends\u201d from scratch. In daily life, it helps users save time, reduce stress, and build familiarity with the people living and working near them through useful exchanges. A new parent could find another parent to swap stroller watches during a doctor's appointment, while a remote worker could find someone nearby to co-work with for one focused afternoon. What makes it unique is that the social value comes from utility first: relationships grow naturally from repeated micro-help, rather than profile browsing, likes, or endless feeds.",
+  "features": [
+    "Micro-requests let users post small, specific needs that expire automatically, keeping interactions focused, timely, and easy to act on.",
+    "Smart matching pairs people based on proximity, availability, and complementary skills so offers and requests feel relevant instead of random.",
+    "Trust circles let users connect through mutual neighbors, workplaces, schools, or verified community groups, which lowers the friction of meeting strangers.",
+    "Reciprocity tracking shows how often a user gives and receives help, encouraging balanced community relationships without turning kindness into a transaction.",
+    "Neighborhood pulses surface recurring local needs and common free-time windows, helping users spot easy ways to engage when they already have a spare hour.",
+    "audience"
+  ],
+  "audience": "Urban and suburban adults aged 22-45 who value convenience, community, and low-pressure social connection, especially newcomers, remote workers, parents, and people with busy or shifting schedules. It is especially useful in apartment-heavy neighborhoods, coworking communities, and areas where people live close together but rarely know each other.",
+  "category": "social networking",
+  "useCases": [
+    "Maya just moved to a new city and needs a drill to hang shelves tonight, so she posts a 30-minute micro-request and meets a neighbor who lends one and points her to a local coffee group.",
+    "Jordan works remotely and feels isolated after weeks at home, so he opens the app to find a nearby coworking partner who also wants a quiet, two-hour focus session at the library.",
+    "Elena is leaving for a weekend trip and needs someone to water her balcony herbs, so she offers a quick favor in return and connects with another resident who needs help carrying groceries."
+  ]
+}

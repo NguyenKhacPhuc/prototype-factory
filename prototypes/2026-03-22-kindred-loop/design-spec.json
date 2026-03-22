@@ -1,0 +1,20 @@
+{
+  "appName": "Kindred Loop",
+  "tagline": "Meet nearby needs before they become chores.",
+  "designSystem": {
+    "primaryColor": "#FF6B47",
+    "secondaryColor": "#FFB547",
+    "backgroundColor": "#0C0E14",
+    "accentTeal": "#40D9C0",
+    "accentPurple": "#9B7FFF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first mobile social app with warm coral-orange primary, glassmorphic card surfaces, vibrant category color coding, and rounded organic UI shapes. Features gradient hero elements, pill filters, and micro-interaction press states throughout."
+  },
+  "screens": [
+    "home",
+    "discover",
+    "post",
+    "loop",
+    "profile"
+  ]
+}

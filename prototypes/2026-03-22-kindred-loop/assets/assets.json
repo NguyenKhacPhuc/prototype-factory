@@ -1,0 +1,37 @@
+{
+  "appName": "Kindred Loop",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#FF6B47",
+    "secondary": "#FFB547",
+    "background": "#0C0E14",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "check",
+    "chevron-right",
+    "clock",
+    "compass",
+    "eye",
+    "heart",
+    "home",
+    "map-pin",
+    "message-circle",
+    "moon",
+    "plus-circle",
+    "refresh-cw",
+    "search",
+    "settings",
+    "shield-check",
+    "sun",
+    "trending-up",
+    "user",
+    "users",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 22,
+  "fontFileCount": 0
+}
