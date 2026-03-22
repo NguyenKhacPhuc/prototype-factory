@@ -1,0 +1,19 @@
+{
+  "name": "Errand Orbit",
+  "tagline": "Batch life into one smart route.",
+  "description": "Errand Orbit is a route-aware utility app that turns scattered daily tasks into one optimized \u201clife loop\u201d so users can finish errands with less driving, waiting, and mental overhead. Instead of just mapping points on a map, it understands task types like pharmacy pickup windows, bank lobby hours, laundry drop-offs, grocery restocks, and school pickup constraints, then groups them into efficient sequences based on time sensitivity and location. It solves the real problem of wasting entire afternoons on poorly planned errands, which often leads to repeated trips, missed cutoffs, and unnecessary stress. In daily life, it helps users decide whether to pick up dry cleaning before lunch, combine a grocery run with a prescription pickup, or delay a stop until traffic drops. A parent juggling work and childcare can build a route that fits around school dismissal, while a freelancer can stack all urgent stops into a single two-hour loop. What makes it unique is that it plans around the friction of real life, not just distance, using practical constraints like service hours, parking difficulty, bag capacity, and perishability. The result feels less like navigation and more like a personal logistics engine for ordinary life.",
+  "features": [
+    "It automatically clusters nearby errands into the most efficient route while respecting opening hours, deadlines, and time windows so users stop wasting trips.",
+    "It lets users assign task types such as pickup, return, drop-off, or purchase, which helps the app prioritize stops that are most likely to become inconvenient if delayed.",
+    "It estimates real-world friction like parking difficulty, expected wait times, and how long a stop typically takes, making routes more realistic than standard maps.",
+    "It supports constraint-based planning such as 'must be done before 3 PM' or 'only if I pass near home,' which helps users build routes that fit around unpredictable schedules.",
+    "It sends smart reorder alerts when traffic, closures, or store hours change, so users can adjust plans before an errand becomes a wasted trip."
+  ],
+  "audience": "Busy adults aged 25\u201355 who manage work, family, and household logistics, especially urban and suburban users who regularly run multiple errands in a single day. It is also useful for caregivers, freelancers, and shift workers whose schedules change often and who need practical planning help.",
+  "category": "utilities",
+  "useCases": [
+    "Maya leaves work at 4:30 PM and needs to pick up a prescription, buy birthday supplies, and collect her shoes from the repair shop. She opens Errand Orbit to build the fastest sequence that fits before the pharmacy closes.",
+    "David has his toddler in the car and only 90 minutes before nap time, so he wants to combine a grocery run with a package return and a quick stop at the hardware store. The app rearranges the stops to avoid backtracking and extra parking hassle.",
+    "Lena gets a text that her dry cleaning will be ready only until 6 PM, but she also needs to stop by the bank and mail documents. She uses Errand Orbit to reshuffle her route based on traffic and opening hours so she can finish everything in one loop."
+  ]
+}

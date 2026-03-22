@@ -1,0 +1,18 @@
+{
+  "appName": "Errand Orbit",
+  "tagline": "Batch life into one smart route.",
+  "designSystem": {
+    "primaryColor": "#FF7A2F",
+    "secondaryColor": "#60A5FA",
+    "backgroundColor": "#0C0C14",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first logistics dashboard with vibrant orange accent, card-based layout, vertical route timeline, and micro-interaction-rich navigation. Clean glassmorphic surfaces with subtle gradient overlays."
+  },
+  "screens": [
+    "home",
+    "errands",
+    "route",
+    "alerts",
+    "settings"
+  ]
+}

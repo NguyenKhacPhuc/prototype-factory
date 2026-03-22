@@ -1,0 +1,41 @@
+{
+  "appName": "Errand Orbit",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#FF7A2F",
+    "secondary": "#60A5FA",
+    "background": "#0C0C14",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "check",
+    "check-circle",
+    "chevron-right",
+    "circle",
+    "clipboard-list",
+    "clock",
+    "home",
+    "info",
+    "lightbulb",
+    "list",
+    "lock",
+    "map",
+    "map-pin",
+    "moon",
+    "navigation",
+    "play",
+    "plus",
+    "route",
+    "settings",
+    "signal",
+    "sun",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 26,
+  "fontFileCount": 0
+}
