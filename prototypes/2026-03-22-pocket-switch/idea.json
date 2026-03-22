@@ -1,0 +1,19 @@
+{
+  "name": "Pocket Switch",
+  "tagline": "Turn spending into smarter choices.",
+  "description": "Pocket Switch is a micro-decision finance coach that intercepts everyday purchases and shows you the real tradeoffs before you spend. Instead of just tracking expenses after the fact, it translates each purchase into a simple \u201cwhat else could this money do?\u201d view, like how many commute rides, groceries, or savings contributions the same amount represents. The app solves the common problem of impulse spending feeling too small to matter, when those tiny choices quietly derail monthly goals. It helps users in daily life by nudging them at the exact moment they are about to buy something nonessential, then offering a personalized switch option such as delaying the purchase, splitting it across categories, or redirecting the amount to an immediate goal. For example, if a user is about to order a $22 takeout lunch, the app can show that it would cover two days of breakfast groceries or push them 7% closer to a trip fund. What makes it unique is that it focuses on replacement-value thinking rather than generic budgeting, making financial tradeoffs emotionally tangible and easier to act on in real time.",
+  "features": [
+    "The app detects planned or recurring purchases and explains their opportunity cost in plain language so users can understand the real impact before committing.",
+    "It offers instant 'switch suggestions' that propose alternatives like delaying, downsizing, or moving the purchase into a different budget bucket, which makes action feel simple instead of overwhelming.",
+    "It converts spending into goal progress visuals, showing exactly how a purchase affects savings targets, debt payoff, or upcoming bills in a way that feels immediate and concrete.",
+    "It learns a user\u2019s habits and timing patterns to send nudges only when they are most likely to help, reducing notification fatigue and making the guidance more relevant.",
+    "It keeps a decision journal of avoided or modified purchases, helping users see how small repeated choices improve their finances over time and reinforcing better habits.",
+    "audience\": \"Young professionals, students, and early-career families aged 20-40 who have enough cash flow to spend impulsively but need help staying aligned with savings goals. It is especially useful for people living in high-cost cities or managing variable monthly expenses like dining, rideshares, and subscription purchases.\","
+  ],
+  "category": "finance",
+  "useCases": [
+    "Sarah just finished a stressful meeting and is about to buy an expensive lunch delivery. She opens Pocket Switch to see what else that $24 could cover, then chooses a cheaper option and moves the difference into her vacation fund.",
+    "Marcus gets a notification from a clothing app while waiting for the train and wonders if a hoodie is really worth it. Pocket Switch shows that skipping it would cover most of his phone bill, helping him decide to wait until payday.",
+    "Priya notices she keeps overspending on weekends without realizing it. She uses the app on Sunday night to review each choice, replace a few habits with lower-cost alternatives, and stay on track for rent and emergency savings."
+  ]
+}

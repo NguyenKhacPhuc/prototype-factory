@@ -1,0 +1,12 @@
+{
+  "appName": "Pocket Switch",
+  "tagline": "Turn spending into smarter choices.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#06B6D4",
+    "backgroundColor": "#F5F3FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern financial app with vibrant purple/violet accent palette, glassmorphic cards, gradient hero sections, soft rounded corners (18-24px radius), and micro-interaction feedback. Light default with full dark mode support."
+  },
+  "screens": ["home", "intercept", "goals", "journal", "settings"]
+}

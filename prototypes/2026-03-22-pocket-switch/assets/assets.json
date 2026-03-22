@@ -1,0 +1,20 @@
+{
+  "appName": "Pocket Switch",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#06B6D4",
+    "background": "#F5F3FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "book-open",
+    "home",
+    "settings",
+    "target",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 5,
+  "fontFileCount": 0
+}
