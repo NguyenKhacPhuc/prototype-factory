@@ -192,32 +192,27 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
           </div>
 
           {/* Figma Export */}
-          <div className="detail-section detail-export-section">
-            <h2>Export to Figma</h2>
-            <div className="detail-export-cards">
-              <div className="export-card">
-                <CopyButton
-                  label="Copy SVG"
-                  onClick={() => copySvgToClipboard(p.folder)}
-                />
-                <span className="export-card-desc">Paste in Figma as editable vectors. Some alignment may differ.</span>
+          <div style={{ marginTop: 32, paddingTop: 28, borderTop: '1px solid var(--border)' }}>
+            <h2 style={{ fontSize: 18, fontWeight: 600, marginBottom: 16 }}>Export to Figma</h2>
+            <div style={{ display: 'flex', gap: 12 }}>
+              <div style={{ flex: 1, padding: '16px 18px', border: '1px solid var(--border)', borderRadius: 'var(--radius-sm)', display: 'flex', flexDirection: 'column', gap: 10 }}>
+                <CopyButton label="Copy SVG" onClick={() => copySvgToClipboard(p.folder)} />
+                <p style={{ fontSize: 12, color: 'var(--text-secondary)', lineHeight: 1.4, margin: 0 }}>Paste in Figma as editable vectors</p>
               </div>
-              <div className="export-card">
-                <CopyButton
-                  label="Copy Design Tree JSON"
-                  onClick={async () => {
-                    const tree = await fetchDesignTree(p.folder);
-                    await navigator.clipboard.writeText(JSON.stringify(tree));
-                  }}
-                />
-                <span className="export-card-desc">
-                  Paste into the{" "}
-                  <a href="https://www.figma.com/community/plugin/1617253090176959808/proto-to-figma" target="_blank" rel="noopener">
-                    Proto-to-Figma plugin
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{verticalAlign: "middle", marginLeft: "3px"}}><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" /></svg>
+              <div style={{ flex: 1, padding: '16px 18px', border: '1px solid color-mix(in srgb, var(--accent) 30%, transparent)', borderRadius: 'var(--radius-sm)', display: 'flex', flexDirection: 'column', gap: 10, position: 'relative' }}>
+                <span style={{ position: 'absolute', top: -9, right: 14, fontSize: 10, fontWeight: 600, textTransform: 'uppercase' as const, letterSpacing: 0.5, color: 'var(--accent)', background: 'var(--bg)', padding: '1px 8px' }}>Recommended</span>
+                <CopyButton label="Copy Design Tree JSON" onClick={async () => {
+                  const tree = await fetchDesignTree(p.folder);
+                  await navigator.clipboard.writeText(JSON.stringify(tree));
+                }} />
+                <p style={{ fontSize: 12, color: 'var(--text-secondary)', lineHeight: 1.4, margin: 0 }}>
+                  Use with{" "}
+                  <a href="https://www.figma.com/community/plugin/1617253090176959808/proto-to-figma" target="_blank" rel="noopener" style={{ color: 'var(--accent)', textDecoration: 'underline', textUnderlineOffset: 2, fontWeight: 500 }}>
+                    Proto-to-Figma
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{ verticalAlign: 'middle', marginLeft: 3 }}><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" /></svg>
                   </a>{" "}
-                  for editable frames with auto-layout. <em>(Recommended)</em>
-                </span>
+                  for auto-layout frames
+                </p>
               </div>
             </div>
           </div>

@@ -1,32 +1,25 @@
 #!/bin/bash
-# Runs generate-prototype.sh up to 10 times in sequence, then stops.
-# Commits all new prototypes in a single commit, pushes, and deploys.
+# Runs generate-prototype.sh once per category (28 total), then commits and deploys.
+# All categories get one prototype each, in shuffled order.
 
 set -uo pipefail
 
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 SCRIPT="$REPO_DIR/scripts/generate-prototype.sh"
-BATCH_SIZE=10
+TOTAL_CATEGORIES=28
 SUCCESS=0
 FAILURES=0
 GENERATED=()
 
-# Prioritize game: 3 game slots + 7 unique non-game categories
-# Index 10 = "game" in the categories array
-GAME_INDEX=10
-GAME_SLOTS=3
-NON_GAME_SLOTS=$((BATCH_SIZE - GAME_SLOTS))
+# Shuffle all category indices so order varies each run
 SHUFFLED_INDICES=($(python3 -c "
 import random
-game_idx = $GAME_INDEX
-total = 28
-non_game = [i for i in range(total) if i != game_idx]
-random.shuffle(non_game)
-# 3 game slots + 7 random non-game categories
-batch = [game_idx] * $GAME_SLOTS + non_game[:$NON_GAME_SLOTS]
-random.shuffle(batch)
-print(' '.join(map(str, batch)))
+indices = list(range($TOTAL_CATEGORIES))
+random.shuffle(indices)
+print(' '.join(map(str, indices)))
 "))
+
+BATCH_SIZE=${#SHUFFLED_INDICES[@]}
 
 for i in $(seq 1 "$BATCH_SIZE"); do
   echo "=== Run $i/$BATCH_SIZE ==="
