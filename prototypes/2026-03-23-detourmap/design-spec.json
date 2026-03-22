@@ -1,0 +1,12 @@
+{
+  "appName": "DetourMap",
+  "tagline": "Find calmer routes, not just faster ones.",
+  "designSystem": {
+    "primaryColor": "#00D4AA",
+    "secondaryColor": "#818CF8",
+    "backgroundColor": "#07091A",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first navigation UI with a teal-green accent, deep navy surfaces, and card-based layouts. Emphasizes environmental comfort data through color-coded indicators, SVG city maps with route overlays, and micro-interaction feedback on taps. Light mode uses soft blue-white backgrounds with a desaturated teal primary."
+  },
+  "screens": ["home", "navigate", "explore", "profile"]
+}

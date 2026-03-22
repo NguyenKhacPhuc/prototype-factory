@@ -1,0 +1,19 @@
+{
+  "name": "DetourMap",
+  "tagline": "Find calmer routes, not just faster ones.",
+  "description": "DetourMap is a navigation app that routes you by emotional load, not only distance and traffic. It helps people move through cities with fewer stress spikes by avoiding harsh intersections, noisy corridors, poorly lit blocks, and overwhelming transfer points, while still getting them where they need to go. The app learns your preferences over time, such as whether you want a quiet walk home after work, a stroller-friendly path to daycare, or the least confusing route through a transit hub. A commuter can choose a \"low-stimulation\" mode that favors wide sidewalks, fewer turns, and calmer streets, while a nighttime user can prioritize visibility and active storefronts over speed. What makes it unique is that it combines live navigation with environmental comfort signals like noise, crowd density, lighting, and sidewalk complexity, turning route planning into a well-being tool. It is especially useful for neurodivergent users, new city residents, solo travelers, parents with kids, and anyone who has ever chosen a longer route just to feel safer or less overwhelmed.",
+  "features": [
+    "It calculates routes based on both travel time and sensory comfort, so users can avoid busy, loud, or visually chaotic areas when they need a calmer trip.",
+    "It offers customizable navigation profiles such as low-stimulation, stroller-safe, late-night-safe, and energy-saving routes, making the app useful in many real-life situations.",
+    "It uses live city data and community feedback to flag places with poor lighting, broken sidewalks, confusing crossings, or frequent crowding, which improves safety and confidence.",
+    "It learns from the routes you actually prefer and adapts recommendations over time, so the app becomes more personal and accurate the more you use it.",
+    "It provides turn-by-turn guidance with context-aware prompts, such as warning you about a steep staircase ahead or suggesting where to pause before entering a hectic transit station."
+  ],
+  "audience": "Urban commuters, parents, neurodivergent users, solo walkers, and travelers aged 18-55 who value safer and less stressful navigation. It is especially relevant in dense cities, transit-heavy neighborhoods, and unfamiliar environments where route quality matters as much as speed.",
+  "category": "navigation",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to walk home without passing through the loudest avenue in her downtown commute. She opens DetourMap and chooses a low-stimulation route that adds five minutes but avoids sirens, heavy foot traffic, and sharp turns.",
+    "Miguel is taking his toddler to daycare with a stroller and needs to avoid stairs, broken sidewalks, and confusing subway exits. He uses the stroller-safe mode to get a smoother route that saves him from awkward backtracking at intersections.",
+    "Amina arrives in a new city after dark and wants to reach her hostel without feeling uneasy on the way. She opens the app for a late-night-safe route that favors well-lit streets, open businesses, and active pedestrian areas."
+  ]
+}
