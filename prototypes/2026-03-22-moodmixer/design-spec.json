@@ -1,0 +1,18 @@
+{
+  "appName": "MoodMixer",
+  "tagline": "Music that fits your exact moment",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#EC4899",
+    "backgroundColor": "#08080F",
+    "fontFamily": "Outfit",
+    "style": "Dark glassmorphic with vibrant violet-pink gradient accents, deep near-black surfaces, neon glow effects on interactive elements, and a clean geometric layout inspired by modern music players"
+  },
+  "screens": [
+    "Home — 2-tap mood check-in, energy level slider, activity selector grid, Build My Mix CTA, pattern detection nudge, quick situation shortcuts",
+    "Now Playing — animated waveform visualizer, album art with gradient, progress bar with scrubber, playback controls, skip-reason modal with context labels, AI-curated queue",
+    "Sessions — weekly stats overview, detected routine cards (horizontal scroll), expandable recent session list with insights and skip breakdown",
+    "Discover — featured context mix banner, category filter chips, situation-based mix cards with match percentage and gradient icons",
+    "Settings — profile card, dark/light theme toggle, intelligence toggles (Adaptive Learning, Calendar Sync, Motion Cues, Pattern Nudges), skip reason analytics bar chart"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "MoodMixer",
+  "tagline": "Music that fits your exact moment",
+  "description": "MoodMixer is a context-aware music companion that builds playlists around what you are doing, not just how you say you feel. It uses quick check-ins, calendar signals, optional motion cues, and time-of-day patterns to infer whether you need focus, recovery, confidence, or energy, then assembles music that matches that moment. The app solves the common problem of spending too much time skipping songs, restarting playlists, or manually searching for the right vibe when life shifts fast. In daily life, it helps users transition between tasks\u2014like turning a chaotic commute into a calming reset, or transforming a low-energy afternoon into a productive sprint\u2014without constant micromanagement. A student can tap \u201cpre-exam focus\u201d and get a playlist that gradually reduces distractions, while a runner can choose \u201cfinish strong\u201d and receive songs paced to a workout\u2019s remaining distance. What makes it unique is that it adapts music like a mood tool with timing intelligence, rather than acting like a generic recommendation engine or static playlist app. It also learns from what you skip in specific contexts, so the app becomes better at matching music to real-life situations instead of just broad tastes.",
+  "features": [
+    "The app creates situation-based mixes that adapt to activities such as commuting, cleaning, studying, or winding down, so users get music that matches the job they are doing.",
+    "It offers two-tap mood and energy check-ins that refine recommendations in seconds, which matters when users want help without typing long descriptions.",
+    "The app uses gentle progression logic to shape a session over time, such as starting with low-friction tracks for focus and gradually increasing intensity for workouts or motivation.",
+    "It detects recurring personal patterns like the songs that help after meetings or before bedtime, allowing the system to build reliable daily routines around music.",
+    "It includes a skip-reason tool that lets users label why a track failed, helping the app learn whether the issue was tempo, vocals, lyrics, or familiarity so recommendations improve with real feedback."
+  ],
+  "audience": "Busy adults and students aged 18\u201340 who use music as a tool for productivity, emotional regulation, and transitions throughout the day. It is especially useful for commuters, remote workers, gym-goers, and people who want playlists that respond to changing routines.",
+  "category": "music",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to reset before her next task, so she opens MoodMixer and taps \u201cdecompress.\u201d The app immediately builds a ten-minute transition mix that lowers her heart rate and helps her return to work without carrying the tension forward.",
+    "Malik is starting a late-night study session and needs something that keeps him focused without becoming distracting, so he chooses \u201cdeep work.\u201d MoodMixer plays a session that begins with familiar instrumentals and slowly shifts to more rhythmically steady tracks as he settles in.",
+    "Priya is heading out for a run after work and wants music that will help her finish the last two miles strong, so she selects \u201cpush mode.\u201d The app syncs the energy curve to her workout and delivers increasingly powerful songs right when her pace usually drops."
+  ]
+}
