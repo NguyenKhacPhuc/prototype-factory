@@ -1,0 +1,19 @@
+{
+  "name": "LingoLens",
+  "tagline": "Learn language from your real world.",
+  "description": "LingoLens is a camera-based language learning app that turns everyday objects, signs, and conversations into personalized lessons. Instead of forcing users through generic vocabulary lists, it lets them point their phone at anything around them\u2014restaurant menus, subway maps, grocery items, or office notes\u2014and instantly converts the scene into bite-sized language practice. The app solves the common problem of learners forgetting words because they only study abstractly and never connect vocabulary to real life. It helps users in daily situations like traveling, commuting, shopping, or navigating a new city by teaching exactly the words and phrases they need in that moment. For example, a user in a caf\u00e9 can scan a menu and get pronunciation help, grammar tips, and a mini dialogue for ordering politely. What makes it unique is its context-aware learning loop: it remembers what the user repeatedly encounters and builds custom lessons from their actual environment, rather than from a one-size-fits-all curriculum.",
+  "features": [
+    "The app uses your camera to identify objects and text in the real world, then overlays translated terms, pronunciation guides, and usage examples so you can learn instantly from your surroundings.",
+    "It creates personalized micro-lessons from the items you scan most often, which matters because repeated exposure to relevant words improves retention far better than memorizing random flashcards.",
+    "It includes scenario-based speaking practice that simulates real interactions, such as ordering food or asking for directions, so learners can build confidence before they need to use the language for real.",
+    "The app tracks your location patterns and daily routine to suggest vocabulary clusters, helping commuters, travelers, and students focus on words they are actually likely to encounter.",
+    "It offers spaced review based on the exact contexts you saw each word in, so a learner who scanned a bus stop sign yesterday will be reminded of that phrase right before their next commute."
+  ],
+  "audience": "This app is designed for teens to adults, especially travelers, international students, immigrants, and busy professionals learning a new language. It is ideal for people who want practical, everyday language skills without committing to long study sessions.",
+  "category": "education",
+  "useCases": [
+    "Maya just landed in Tokyo and is too overwhelmed to study a whole phrasebook, so she opens LingoLens, scans station signs, and learns the exact words she needs to transfer trains without getting lost.",
+    "Javier is trying to order lunch in Spanish at a local caf\u00e9, so he points his phone at the menu and gets pronunciation, key ingredients, and a short dialogue for asking about allergens politely.",
+    "Amina studies English at night but keeps forgetting workplace vocabulary, so during her commute she scans office equipment and receives short, contextual lessons tied to the objects she sees every day."
+  ]
+}

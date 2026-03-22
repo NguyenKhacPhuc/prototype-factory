@@ -1,0 +1,20 @@
+{
+  "appName": "LingoLens",
+  "tagline": "Learn language from your real world.",
+  "designSystem": {
+    "primaryColor": "#6C3FE8",
+    "secondaryColor": "#FF6B6B",
+    "accentColor": "#00C9A7",
+    "backgroundColor": "#F4F2FF",
+    "darkBackground": "#0F0C1A",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern language learning app with vibrant violet-purple brand color, AR camera overlays, card-based vocabulary, and scenario-based conversation practice. Clean surfaces with soft purple tints in light mode, deep navy with glowing accents in dark mode."
+  },
+  "screens": [
+    "Scan - Live camera viewfinder with AR bounding box overlays, detected word translation cards, save-to-vocabulary action",
+    "Learn - Spaced review cards, personalized lesson list with progress bars, full vocabulary list with mastery indicators",
+    "Practice - Scenario-based conversation simulator with turn-by-turn dialogue flow and difficulty badges",
+    "Progress - Stats overview, weekly streak calendar, mastery breakdown chart, location-based insights",
+    "Settings - Language selector, light/dark theme toggle, notification and location preferences, user profile"
+  ]
+}

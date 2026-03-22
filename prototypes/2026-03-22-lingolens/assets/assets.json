@@ -1,0 +1,14 @@
+{
+  "appName": "LingoLens",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#6C3FE8",
+    "secondary": "#FF6B6B",
+    "background": "#F4F2FF",
+    "accent": "#00C9A7"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
