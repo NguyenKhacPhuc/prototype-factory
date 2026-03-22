@@ -13,7 +13,9 @@ type CopyStatus = "idle" | "copying" | "copied" | "error";
 
 async function fetchDesignTree(folder: string) {
   const res = await fetch(`/prototypes/${folder}/design-tree.json`);
-  if (!res.ok) throw new Error("Design tree not found");
+  if (!res.ok) throw new Error("Design tree not available for this prototype");
+  const contentType = res.headers.get("content-type") || "";
+  if (!contentType.includes("json")) throw new Error("Design tree not available for this prototype");
   return res.json();
 }
 

@@ -1,0 +1,3327 @@
+{
+  "version": 2,
+  "appName": "SceneSnap",
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "fonts": [
+    "Outfit"
+  ],
+  "designTokens": {},
+  "root": {
+    "type": "frame",
+    "name": "div",
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 812,
+    "styles": {
+      "backgroundColor": "rgb(8, 8, 15)",
+      "borderRadius": 50,
+      "borderWidth": 2,
+      "borderColor": "rgb(40, 40, 56)",
+      "overflow": "hidden",
+      "display": "flex",
+      "flexDirection": "column",
+      "justifyContent": "normal",
+      "alignItems": "normal"
+    },
+    "children": [
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 2,
+        "y": 2,
+        "width": 371,
+        "height": 29,
+        "styles": {
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "alignItems": "center",
+          "paddingTop": 14,
+          "paddingRight": 22,
+          "paddingLeft": 22
+        },
+        "children": [
+          {
+            "type": "text",
+            "name": "span",
+            "x": 22,
+            "y": 14,
+            "width": 23,
+            "height": 15,
+            "styles": {},
+            "textContent": "9:41",
+            "textStyles": {
+              "fontFamily": "Outfit",
+              "fontSize": 12,
+              "fontWeight": 700,
+              "color": "rgb(120, 120, 168)",
+              "letterSpacing": 0.2
+            },
+            "children": []
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 305,
+            "y": 16,
+            "width": 44,
+            "height": 12,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 5
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 0,
+                "y": 1,
+                "width": 15,
+                "height": 11,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"11\" viewBox=\"0 0 20 15\" fill=\"#7878A8\"><path d=\"M10 3.5C7 3.5 4.3 4.7 2.3 6.7L0 4.4C2.7 1.7 6.1 0 10 0s7.3 1.7 10 4.4l-2.3 2.3C15.7 4.7 13 3.5 10 3.5z\"/><path d=\"M10 8c-1.8 0-3.4.7-4.6 1.9L3 7.5C4.8 5.7 7.3 4.6 10 4.6s5.2 1.1 7 2.9l-2.4 2.4C13.4 8.7 11.8 8 10 8z\"/><circle cx=\"10\" cy=\"13\" r=\"2\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 20,
+                "y": 0,
+                "width": 24,
+                "height": 12,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"12\" viewBox=\"0 0 32 14\" fill=\"none\"><rect x=\"0.75\" y=\"0.75\" width=\"27.5\" height=\"12.5\" rx=\"3.25\" stroke=\"#7878A8\" stroke-width=\"1.5\"/><rect x=\"2\" y=\"2\" width=\"22\" height=\"10\" rx=\"2\" fill=\"#7878A8\"/><path d=\"M29.5 5v4\" stroke=\"#7878A8\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg>",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 2,
+        "y": 31,
+        "width": 371,
+        "height": 46,
+        "styles": {
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "alignItems": "normal",
+          "paddingTop": 8,
+          "paddingBottom": 6
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 131,
+            "y": 8,
+            "width": 110,
+            "height": 32,
+            "styles": {
+              "backgroundColor": "rgb(0, 0, 0)",
+              "borderRadius": 20,
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "gap": 8
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 50,
+                "y": 11,
+                "width": 10,
+                "height": 10,
+                "styles": {
+                  "backgroundColor": "rgb(34, 34, 34)",
+                  "borderRadius": 50
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 2,
+        "y": 77,
+        "width": 371,
+        "height": 658,
+        "styles": {
+          "overflow": "hidden",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "normal",
+          "alignItems": "normal"
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 371,
+            "height": 658,
+            "styles": {
+              "paddingTop": 4,
+              "paddingRight": 18,
+              "paddingBottom": 16,
+              "paddingLeft": 18
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 18,
+                "y": 4,
+                "width": 335,
+                "height": 77,
+                "styles": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "name": "p",
+                    "x": 0,
+                    "y": 0,
+                    "width": 335,
+                    "height": 16,
+                    "styles": {},
+                    "textContent": "Good evening ✦",
+                    "textStyles": {
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": 400,
+                      "color": "rgb(120, 120, 168)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "frame",
+                    "name": "h1",
+                    "x": 0,
+                    "y": 19,
+                    "width": 335,
+                    "height": 58,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "text",
+                        "x": 0,
+                        "y": 0,
+                        "width": 335,
+                        "height": 36,
+                        "styles": {},
+                        "textContent": "What's your vibe right now?",
+                        "textStyles": {
+                          "fontFamily": "Outfit",
+                          "fontSize": 24,
+                          "fontWeight": 800,
+                          "color": "rgb(238, 238, 255)"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "br",
+                        "x": 177,
+                        "y": -1,
+                        "width": 0,
+                        "height": 30,
+                        "styles": {},
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 18,
+                "y": 103,
+                "width": 335,
+                "height": 401,
+                "styles": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "name": "p",
+                    "x": 0,
+                    "y": 0,
+                    "width": 335,
+                    "height": 14,
+                    "styles": {},
+                    "textContent": "Choose Your Mood",
+                    "textStyles": {
+                      "fontFamily": "Outfit",
+                      "fontSize": 10.5,
+                      "fontWeight": 700,
+                      "color": "rgb(68, 68, 101)",
+                      "letterSpacing": 1.1
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 25,
+                    "width": 335,
+                    "height": 376,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "justifyContent": "normal",
+                      "alignItems": "normal",
+                      "gap": 9
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 335,
+                        "height": 68,
+                        "styles": {
+                          "backgroundColor": "rgb(24, 24, 38)",
+                          "borderRadius": 15,
+                          "borderWidth": 2,
+                          "borderColor": "rgb(34, 34, 58)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "gap": 13,
+                          "paddingTop": 12,
+                          "paddingRight": 14,
+                          "paddingBottom": 12,
+                          "paddingLeft": 14
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 16,
+                            "y": 14,
+                            "width": 40,
+                            "height": 40,
+                            "styles": {
+                              "backgroundColor": "rgba(34, 211, 238, 0.133)",
+                              "borderRadius": 11,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "textContent": "🚇",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 18,
+                              "fontWeight": 400,
+                              "color": "rgb(0, 0, 0)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 69,
+                            "y": 17,
+                            "width": 217,
+                            "height": 35,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 0,
+                                "width": 217,
+                                "height": 18,
+                                "styles": {},
+                                "textContent": "Commute Reset",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 13.5,
+                                  "fontWeight": 700,
+                                  "color": "rgb(238, 238, 255)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 20,
+                                "width": 217,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Quiet & absorbing",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 11.5,
+                                  "fontWeight": 400,
+                                  "color": "rgb(120, 120, 168)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 299,
+                            "y": 24,
+                            "width": 20,
+                            "height": 20,
+                            "styles": {
+                              "borderRadius": 50,
+                              "borderWidth": 2,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 77,
+                        "width": 335,
+                        "height": 68,
+                        "styles": {
+                          "backgroundColor": "rgb(24, 24, 38)",
+                          "borderRadius": 15,
+                          "borderWidth": 2,
+                          "borderColor": "rgb(34, 34, 58)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "gap": 13,
+                          "paddingTop": 12,
+                          "paddingRight": 14,
+                          "paddingBottom": 12,
+                          "paddingLeft": 14
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 16,
+                            "y": 14,
+                            "width": 40,
+                            "height": 40,
+                            "styles": {
+                              "backgroundColor": "rgba(251, 191, 36, 0.133)",
+                              "borderRadius": 11,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "textContent": "⚡",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 18,
+                              "fontWeight": 400,
+                              "color": "rgb(0, 0, 0)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 69,
+                            "y": 17,
+                            "width": 217,
+                            "height": 35,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 0,
+                                "width": 217,
+                                "height": 18,
+                                "styles": {},
+                                "textContent": "Quick Win",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 13.5,
+                                  "fontWeight": 700,
+                                  "color": "rgb(238, 238, 255)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 20,
+                                "width": 217,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Fast & satisfying",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 11.5,
+                                  "fontWeight": 400,
+                                  "color": "rgb(120, 120, 168)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 299,
+                            "y": 24,
+                            "width": 20,
+                            "height": 20,
+                            "styles": {
+                              "borderRadius": 50,
+                              "borderWidth": 2,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 154,
+                        "width": 335,
+                        "height": 68,
+                        "styles": {
+                          "backgroundColor": "rgb(24, 24, 38)",
+                          "borderRadius": 15,
+                          "borderWidth": 2,
+                          "borderColor": "rgb(34, 34, 58)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "gap": 13,
+                          "paddingTop": 12,
+                          "paddingRight": 14,
+                          "paddingBottom": 12,
+                          "paddingLeft": 14
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 16,
+                            "y": 14,
+                            "width": 40,
+                            "height": 40,
+                            "styles": {
+                              "backgroundColor": "rgba(244, 114, 182, 0.133)",
+                              "borderRadius": 11,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "textContent": "😄",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 18,
+                              "fontWeight": 400,
+                              "color": "rgb(0, 0, 0)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 69,
+                            "y": 17,
+                            "width": 217,
+                            "height": 35,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 0,
+                                "width": 217,
+                                "height": 18,
+                                "styles": {},
+                                "textContent": "Late-Night Laugh",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 13.5,
+                                  "fontWeight": 700,
+                                  "color": "rgb(238, 238, 255)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 20,
+                                "width": 217,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Light & playful",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 11.5,
+                                  "fontWeight": 400,
+                                  "color": "rgb(120, 120, 168)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 299,
+                            "y": 24,
+                            "width": 20,
+                            "height": 20,
+                            "styles": {
+                              "borderRadius": 50,
+                              "borderWidth": 2,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 231,
+                        "width": 335,
+                        "height": 68,
+                        "styles": {
+                          "backgroundColor": "rgb(24, 24, 38)",
+                          "borderRadius": 15,
+                          "borderWidth": 2,
+                          "borderColor": "rgb(34, 34, 58)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "gap": 13,
+                          "paddingTop": 12,
+                          "paddingRight": 14,
+                          "paddingBottom": 12,
+                          "paddingLeft": 14
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 16,
+                            "y": 14,
+                            "width": 40,
+                            "height": 40,
+                            "styles": {
+                              "backgroundColor": "rgba(167, 139, 250, 0.133)",
+                              "borderRadius": 11,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "textContent": "🌙",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 18,
+                              "fontWeight": 400,
+                              "color": "rgb(0, 0, 0)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 69,
+                            "y": 17,
+                            "width": 217,
+                            "height": 35,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 0,
+                                "width": 217,
+                                "height": 18,
+                                "styles": {},
+                                "textContent": "Calm Escape",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 13.5,
+                                  "fontWeight": 700,
+                                  "color": "rgb(238, 238, 255)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 20,
+                                "width": 217,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Soft & dreamy",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 11.5,
+                                  "fontWeight": 400,
+                                  "color": "rgb(120, 120, 168)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 299,
+                            "y": 24,
+                            "width": 20,
+                            "height": 20,
+                            "styles": {
+                              "borderRadius": 50,
+                              "borderWidth": 2,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 308,
+                        "width": 335,
+                        "height": 68,
+                        "styles": {
+                          "backgroundColor": "rgb(24, 24, 38)",
+                          "borderRadius": 15,
+                          "borderWidth": 2,
+                          "borderColor": "rgb(34, 34, 58)",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "gap": 13,
+                          "paddingTop": 12,
+                          "paddingRight": 14,
+                          "paddingBottom": 12,
+                          "paddingLeft": 14
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 16,
+                            "y": 14,
+                            "width": 40,
+                            "height": 40,
+                            "styles": {
+                              "backgroundColor": "rgba(52, 211, 153, 0.133)",
+                              "borderRadius": 11,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "textContent": "🔍",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 18,
+                              "fontWeight": 400,
+                              "color": "rgb(0, 0, 0)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 69,
+                            "y": 17,
+                            "width": 217,
+                            "height": 35,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 0,
+                                "width": 217,
+                                "height": 18,
+                                "styles": {},
+                                "textContent": "Mystery Mode",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 13.5,
+                                  "fontWeight": 700,
+                                  "color": "rgb(238, 238, 255)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 0,
+                                "y": 20,
+                                "width": 217,
+                                "height": 15,
+                                "styles": {},
+                                "textContent": "Tense & curious",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 11.5,
+                                  "fontWeight": 400,
+                                  "color": "rgb(120, 120, 168)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 299,
+                            "y": 24,
+                            "width": 20,
+                            "height": 20,
+                            "styles": {
+                              "borderRadius": 50,
+                              "borderWidth": 2,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 18,
+                "y": 526,
+                "width": 335,
+                "height": 93,
+                "styles": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "name": "p",
+                    "x": 0,
+                    "y": 0,
+                    "width": 335,
+                    "height": 14,
+                    "styles": {},
+                    "textContent": "Available Time",
+                    "textStyles": {
+                      "fontFamily": "Outfit",
+                      "fontSize": 10.5,
+                      "fontWeight": 700,
+                      "color": "rgb(68, 68, 101)",
+                      "letterSpacing": 1.1
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 25,
+                    "width": 335,
+                    "height": 68,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "normal",
+                      "alignItems": "normal",
+                      "gap": 10
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 105,
+                        "height": 68,
+                        "styles": {
+                          "backgroundColor": "rgb(24, 24, 38)",
+                          "borderRadius": 13,
+                          "borderWidth": 2,
+                          "borderColor": "rgb(34, 34, 58)",
+                          "paddingTop": 12,
+                          "paddingBottom": 12
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "p",
+                            "x": 2,
+                            "y": 14,
+                            "width": 101,
+                            "height": 25,
+                            "styles": {},
+                            "textContent": "3",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 20,
+                              "fontWeight": 800,
+                              "color": "rgb(238, 238, 255)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "p",
+                            "x": 2,
+                            "y": 40,
+                            "width": 101,
+                            "height": 14,
+                            "styles": {},
+                            "textContent": "min",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 11,
+                              "fontWeight": 400,
+                              "color": "rgb(120, 120, 168)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 115,
+                        "y": 0,
+                        "width": 105,
+                        "height": 68,
+                        "styles": {
+                          "backgroundColor": "rgba(139, 92, 246, 0.094)",
+                          "borderRadius": 13,
+                          "borderWidth": 2,
+                          "borderColor": "rgb(139, 92, 246)",
+                          "paddingTop": 12,
+                          "paddingBottom": 12
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "p",
+                            "x": 2,
+                            "y": 14,
+                            "width": 101,
+                            "height": 25,
+                            "styles": {},
+                            "textContent": "5",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 20,
+                              "fontWeight": 800,
+                              "color": "rgb(167, 139, 250)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "p",
+                            "x": 2,
+                            "y": 40,
+                            "width": 101,
+                            "height": 14,
+                            "styles": {},
+                            "textContent": "min",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 11,
+                              "fontWeight": 400,
+                              "color": "rgb(120, 120, 168)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 230,
+                        "y": 0,
+                        "width": 105,
+                        "height": 68,
+                        "styles": {
+                          "backgroundColor": "rgb(24, 24, 38)",
+                          "borderRadius": 13,
+                          "borderWidth": 2,
+                          "borderColor": "rgb(34, 34, 58)",
+                          "paddingTop": 12,
+                          "paddingBottom": 12
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "p",
+                            "x": 2,
+                            "y": 14,
+                            "width": 101,
+                            "height": 25,
+                            "styles": {},
+                            "textContent": "7",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 20,
+                              "fontWeight": 800,
+                              "color": "rgb(238, 238, 255)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "p",
+                            "x": 2,
+                            "y": 40,
+                            "width": 101,
+                            "height": 14,
+                            "styles": {},
+                            "textContent": "min",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 11,
+                              "fontWeight": 400,
+                              "color": "rgb(120, 120, 168)",
+                              "textAlign": "center"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 18,
+                "y": 641,
+                "width": 335,
+                "height": 53,
+                "styles": {
+                  "backgroundColor": "rgb(32, 32, 50)",
+                  "borderRadius": 17,
+                  "opacity": 0.45,
+                  "paddingTop": 17,
+                  "paddingBottom": 17
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "name": "p",
+                    "x": 0,
+                    "y": 17,
+                    "width": 335,
+                    "height": 19,
+                    "styles": {},
+                    "textContent": "✦  Generate My Scene",
+                    "textStyles": {
+                      "fontFamily": "Outfit",
+                      "fontSize": 15,
+                      "fontWeight": 800,
+                      "color": "rgb(68, 68, 101)",
+                      "textAlign": "center",
+                      "letterSpacing": 0.3
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 18,
+                "y": 716,
+                "width": 335,
+                "height": 131,
+                "styles": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "name": "p",
+                    "x": 0,
+                    "y": 0,
+                    "width": 335,
+                    "height": 14,
+                    "styles": {},
+                    "textContent": "Recent Escapes",
+                    "textStyles": {
+                      "fontFamily": "Outfit",
+                      "fontSize": 10.5,
+                      "fontWeight": 700,
+                      "color": "rgb(68, 68, 101)",
+                      "letterSpacing": 1.1
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 25,
+                    "width": 335,
+                    "height": 106,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "normal",
+                      "alignItems": "normal",
+                      "gap": 10,
+                      "paddingBottom": 2
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 112,
+                        "height": 104,
+                        "styles": {
+                          "backgroundColor": "rgb(24, 24, 38)",
+                          "borderRadius": 14,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(34, 34, 58)",
+                          "paddingTop": 13,
+                          "paddingRight": 12,
+                          "paddingBottom": 13,
+                          "paddingLeft": 12
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 13,
+                            "y": 14,
+                            "width": 36,
+                            "height": 36,
+                            "styles": {
+                              "backgroundColor": "rgba(167, 139, 250, 0.133)",
+                              "borderRadius": 10,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "textContent": "🌙",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 18,
+                              "fontWeight": 400,
+                              "color": "rgb(0, 0, 0)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "p",
+                            "x": 13,
+                            "y": 58,
+                            "width": 86,
+                            "height": 16,
+                            "styles": {},
+                            "textContent": "Glass Forest",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 12,
+                              "fontWeight": 700,
+                              "color": "rgb(238, 238, 255)",
+                              "lineHeight": 15.6
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "p",
+                            "x": 13,
+                            "y": 76,
+                            "width": 86,
+                            "height": 14,
+                            "styles": {},
+                            "textContent": "Yesterday",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 10.5,
+                              "fontWeight": 400,
+                              "color": "rgb(68, 68, 101)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 122,
+                        "y": 0,
+                        "width": 121,
+                        "height": 104,
+                        "styles": {
+                          "backgroundColor": "rgb(24, 24, 38)",
+                          "borderRadius": 14,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(34, 34, 58)",
+                          "paddingTop": 13,
+                          "paddingRight": 12,
+                          "paddingBottom": 13,
+                          "paddingLeft": 12
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 13,
+                            "y": 14,
+                            "width": 36,
+                            "height": 36,
+                            "styles": {
+                              "backgroundColor": "rgba(34, 211, 238, 0.133)",
+                              "borderRadius": 10,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "textContent": "🚇",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 18,
+                              "fontWeight": 400,
+                              "color": "rgb(0, 0, 0)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "p",
+                            "x": 13,
+                            "y": 58,
+                            "width": 95,
+                            "height": 16,
+                            "styles": {},
+                            "textContent": "Midnight Express",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 12,
+                              "fontWeight": 700,
+                              "color": "rgb(238, 238, 255)",
+                              "lineHeight": 15.6
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "p",
+                            "x": 13,
+                            "y": 76,
+                            "width": 95,
+                            "height": 14,
+                            "styles": {},
+                            "textContent": "2 days ago",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 10.5,
+                              "fontWeight": 400,
+                              "color": "rgb(68, 68, 101)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 253,
+                        "y": 0,
+                        "width": 112,
+                        "height": 104,
+                        "styles": {
+                          "backgroundColor": "rgb(24, 24, 38)",
+                          "borderRadius": 14,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(34, 34, 58)",
+                          "paddingTop": 13,
+                          "paddingRight": 12,
+                          "paddingBottom": 13,
+                          "paddingLeft": 12
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 13,
+                            "y": 14,
+                            "width": 36,
+                            "height": 36,
+                            "styles": {
+                              "backgroundColor": "rgba(52, 211, 153, 0.133)",
+                              "borderRadius": 10,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "textContent": "🎺",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 18,
+                              "fontWeight": 400,
+                              "color": "rgb(0, 0, 0)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "p",
+                            "x": 13,
+                            "y": 58,
+                            "width": 86,
+                            "height": 16,
+                            "styles": {},
+                            "textContent": "Missing Melody",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 12,
+                              "fontWeight": 700,
+                              "color": "rgb(238, 238, 255)",
+                              "lineHeight": 15.6
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "p",
+                            "x": 13,
+                            "y": 76,
+                            "width": 86,
+                            "height": 14,
+                            "styles": {},
+                            "textContent": "3 days ago",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 10.5,
+                              "fontWeight": 400,
+                              "color": "rgb(68, 68, 101)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 2,
+        "y": 735,
+        "width": 371,
+        "height": 75,
+        "styles": {
+          "backgroundColor": "rgba(8, 8, 15, 0.96)",
+          "borderWidth": 1,
+          "borderColor": "rgb(34, 34, 58) rgb(0, 0, 0) rgb(0, 0, 0)",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "normal",
+          "alignItems": "normal",
+          "paddingTop": 10,
+          "paddingBottom": 20
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 11,
+            "width": 93,
+            "height": 44,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 4
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 26,
+                "y": 0,
+                "width": 40,
+                "height": 28,
+                "styles": {
+                  "backgroundColor": "rgba(139, 92, 246, 0.133)",
+                  "borderRadius": 10,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 10,
+                    "y": 4,
+                    "width": 20,
+                    "height": 20,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#8B5CF6\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-house\" aria-hidden=\"true\"><path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"/><path d=\"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/></svg>",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "name": "span",
+                "x": 33,
+                "y": 32,
+                "width": 26,
+                "height": 12,
+                "styles": {},
+                "textContent": "Home",
+                "textStyles": {
+                  "fontFamily": "Outfit",
+                  "fontSize": 9.5,
+                  "fontWeight": 700,
+                  "color": "rgb(139, 92, 246)",
+                  "letterSpacing": 0.1
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 93,
+            "y": 11,
+            "width": 93,
+            "height": 44,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 4
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 26,
+                "y": 0,
+                "width": 40,
+                "height": 28,
+                "styles": {
+                  "borderRadius": 10,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 10,
+                    "y": 4,
+                    "width": 20,
+                    "height": 20,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#444465\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-play\" aria-hidden=\"true\"><path d=\"M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z\"/></svg>",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "name": "span",
+                "x": 37,
+                "y": 32,
+                "width": 19,
+                "height": 12,
+                "styles": {},
+                "textContent": "Play",
+                "textStyles": {
+                  "fontFamily": "Outfit",
+                  "fontSize": 9.5,
+                  "fontWeight": 400,
+                  "color": "rgb(68, 68, 101)",
+                  "letterSpacing": 0.1
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 186,
+            "y": 11,
+            "width": 93,
+            "height": 44,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 4
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 26,
+                "y": 0,
+                "width": 40,
+                "height": 28,
+                "styles": {
+                  "borderRadius": 10,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 10,
+                    "y": 4,
+                    "width": 20,
+                    "height": 20,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#444465\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-compass\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z\"/></svg>",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "name": "span",
+                "x": 28,
+                "y": 32,
+                "width": 38,
+                "height": 12,
+                "styles": {},
+                "textContent": "Discover",
+                "textStyles": {
+                  "fontFamily": "Outfit",
+                  "fontSize": 9.5,
+                  "fontWeight": 400,
+                  "color": "rgb(68, 68, 101)",
+                  "letterSpacing": 0.1
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 278,
+            "y": 11,
+            "width": 93,
+            "height": 44,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 4
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 26,
+                "y": 0,
+                "width": 40,
+                "height": 28,
+                "styles": {
+                  "borderRadius": 10,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "alignItems": "center"
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 10,
+                    "y": 4,
+                    "width": 20,
+                    "height": 20,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#444465\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\"><path d=\"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "name": "span",
+                "x": 32,
+                "y": 32,
+                "width": 28,
+                "height": 12,
+                "styles": {},
+                "textContent": "Profile",
+                "textStyles": {
+                  "fontFamily": "Outfit",
+                  "fontSize": 9.5,
+                  "fontWeight": 400,
+                  "color": "rgb(68, 68, 101)",
+                  "letterSpacing": 0.1
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "screens": [
+    {
+      "name": "Home",
+      "root": {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 812,
+        "styles": {
+          "backgroundColor": "rgb(8, 8, 15)",
+          "borderRadius": 50,
+          "borderWidth": 2,
+          "borderColor": "rgb(40, 40, 56)",
+          "overflow": "hidden",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "normal",
+          "alignItems": "normal"
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 2,
+            "y": 2,
+            "width": 371,
+            "height": 29,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "alignItems": "center",
+              "paddingTop": 14,
+              "paddingRight": 22,
+              "paddingLeft": 22
+            },
+            "children": [
+              {
+                "type": "text",
+                "name": "span",
+                "x": 22,
+                "y": 14,
+                "width": 23,
+                "height": 15,
+                "styles": {},
+                "textContent": "9:41",
+                "textStyles": {
+                  "fontFamily": "Outfit",
+                  "fontSize": 12,
+                  "fontWeight": 700,
+                  "color": "rgb(120, 120, 168)",
+                  "letterSpacing": 0.2
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 305,
+                "y": 16,
+                "width": 44,
+                "height": 12,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 5
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 0,
+                    "y": 1,
+                    "width": 15,
+                    "height": 11,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"11\" viewBox=\"0 0 20 15\" fill=\"#7878A8\"><path d=\"M10 3.5C7 3.5 4.3 4.7 2.3 6.7L0 4.4C2.7 1.7 6.1 0 10 0s7.3 1.7 10 4.4l-2.3 2.3C15.7 4.7 13 3.5 10 3.5z\"/><path d=\"M10 8c-1.8 0-3.4.7-4.6 1.9L3 7.5C4.8 5.7 7.3 4.6 10 4.6s5.2 1.1 7 2.9l-2.4 2.4C13.4 8.7 11.8 8 10 8z\"/><circle cx=\"10\" cy=\"13\" r=\"2\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 20,
+                    "y": 0,
+                    "width": 24,
+                    "height": 12,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"12\" viewBox=\"0 0 32 14\" fill=\"none\"><rect x=\"0.75\" y=\"0.75\" width=\"27.5\" height=\"12.5\" rx=\"3.25\" stroke=\"#7878A8\" stroke-width=\"1.5\"/><rect x=\"2\" y=\"2\" width=\"22\" height=\"10\" rx=\"2\" fill=\"#7878A8\"/><path d=\"M29.5 5v4\" stroke=\"#7878A8\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg>",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 2,
+            "y": 31,
+            "width": 371,
+            "height": 46,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "center",
+              "alignItems": "normal",
+              "paddingTop": 8,
+              "paddingBottom": 6
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 131,
+                "y": 8,
+                "width": 110,
+                "height": 32,
+                "styles": {
+                  "backgroundColor": "rgb(0, 0, 0)",
+                  "borderRadius": 20,
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "gap": 8
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 50,
+                    "y": 11,
+                    "width": 10,
+                    "height": 10,
+                    "styles": {
+                      "backgroundColor": "rgb(34, 34, 34)",
+                      "borderRadius": 50
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 2,
+            "y": 77,
+            "width": 371,
+            "height": 658,
+            "styles": {
+              "overflow": "hidden",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "normal"
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 0,
+                "width": 371,
+                "height": 658,
+                "styles": {
+                  "paddingTop": 4,
+                  "paddingRight": 18,
+                  "paddingBottom": 16,
+                  "paddingLeft": 18
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 18,
+                    "y": 4,
+                    "width": 335,
+                    "height": 77,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "p",
+                        "x": 0,
+                        "y": 0,
+                        "width": 335,
+                        "height": 16,
+                        "styles": {},
+                        "textContent": "Good evening ✦",
+                        "textStyles": {
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": 400,
+                          "color": "rgb(120, 120, 168)",
+                          "letterSpacing": 0.2
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "h1",
+                        "x": 0,
+                        "y": 19,
+                        "width": 335,
+                        "height": 58,
+                        "styles": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "text",
+                            "x": 0,
+                            "y": 0,
+                            "width": 335,
+                            "height": 36,
+                            "styles": {},
+                            "textContent": "What's your vibe right now?",
+                            "textStyles": {
+                              "fontFamily": "Outfit",
+                              "fontSize": 24,
+                              "fontWeight": 800,
+                              "color": "rgb(238, 238, 255)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "frame",
+                            "name": "br",
+                            "x": 177,
+                            "y": -1,
+                            "width": 0,
+                            "height": 30,
+                            "styles": {},
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 18,
+                    "y": 103,
+                    "width": 335,
+                    "height": 401,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "p",
+                        "x": 0,
+                        "y": 0,
+                        "width": 335,
+                        "height": 14,
+                        "styles": {},
+                        "textContent": "Choose Your Mood",
+                        "textStyles": {
+                          "fontFamily": "Outfit",
+                          "fontSize": 10.5,
+                          "fontWeight": 700,
+                          "color": "rgb(68, 68, 101)",
+                          "letterSpacing": 1.1
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 25,
+                        "width": 335,
+                        "height": 376,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "column",
+                          "justifyContent": "normal",
+                          "alignItems": "normal",
+                          "gap": 9
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 335,
+                            "height": 68,
+                            "styles": {
+                              "backgroundColor": "rgb(24, 24, 38)",
+                              "borderRadius": 15,
+                              "borderWidth": 2,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 13,
+                              "paddingTop": 12,
+                              "paddingRight": 14,
+                              "paddingBottom": 12,
+                              "paddingLeft": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 16,
+                                "y": 14,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgba(34, 211, 238, 0.133)",
+                                  "borderRadius": 11,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "🚇",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 18,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 69,
+                                "y": 17,
+                                "width": 217,
+                                "height": 35,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 217,
+                                    "height": 18,
+                                    "styles": {},
+                                    "textContent": "Commute Reset",
+                                    "textStyles": {
+                                      "fontFamily": "Outfit",
+                                      "fontSize": 13.5,
+                                      "fontWeight": 700,
+                                      "color": "rgb(238, 238, 255)"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 0,
+                                    "y": 20,
+                                    "width": 217,
+                                    "height": 15,
+                                    "styles": {},
+                                    "textContent": "Quiet & absorbing",
+                                    "textStyles": {
+                                      "fontFamily": "Outfit",
+                                      "fontSize": 11.5,
+                                      "fontWeight": 400,
+                                      "color": "rgb(120, 120, 168)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 299,
+                                "y": 24,
+                                "width": 20,
+                                "height": 20,
+                                "styles": {
+                                  "borderRadius": 50,
+                                  "borderWidth": 2,
+                                  "borderColor": "rgb(34, 34, 58)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 77,
+                            "width": 335,
+                            "height": 68,
+                            "styles": {
+                              "backgroundColor": "rgb(24, 24, 38)",
+                              "borderRadius": 15,
+                              "borderWidth": 2,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 13,
+                              "paddingTop": 12,
+                              "paddingRight": 14,
+                              "paddingBottom": 12,
+                              "paddingLeft": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 16,
+                                "y": 14,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgba(251, 191, 36, 0.133)",
+                                  "borderRadius": 11,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "⚡",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 18,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 69,
+                                "y": 17,
+                                "width": 217,
+                                "height": 35,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 217,
+                                    "height": 18,
+                                    "styles": {},
+                                    "textContent": "Quick Win",
+                                    "textStyles": {
+                                      "fontFamily": "Outfit",
+                                      "fontSize": 13.5,
+                                      "fontWeight": 700,
+                                      "color": "rgb(238, 238, 255)"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 0,
+                                    "y": 20,
+                                    "width": 217,
+                                    "height": 15,
+                                    "styles": {},
+                                    "textContent": "Fast & satisfying",
+                                    "textStyles": {
+                                      "fontFamily": "Outfit",
+                                      "fontSize": 11.5,
+                                      "fontWeight": 400,
+                                      "color": "rgb(120, 120, 168)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 299,
+                                "y": 24,
+                                "width": 20,
+                                "height": 20,
+                                "styles": {
+                                  "borderRadius": 50,
+                                  "borderWidth": 2,
+                                  "borderColor": "rgb(34, 34, 58)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 154,
+                            "width": 335,
+                            "height": 68,
+                            "styles": {
+                              "backgroundColor": "rgb(24, 24, 38)",
+                              "borderRadius": 15,
+                              "borderWidth": 2,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 13,
+                              "paddingTop": 12,
+                              "paddingRight": 14,
+                              "paddingBottom": 12,
+                              "paddingLeft": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 16,
+                                "y": 14,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgba(244, 114, 182, 0.133)",
+                                  "borderRadius": 11,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "😄",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 18,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 69,
+                                "y": 17,
+                                "width": 217,
+                                "height": 35,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 217,
+                                    "height": 18,
+                                    "styles": {},
+                                    "textContent": "Late-Night Laugh",
+                                    "textStyles": {
+                                      "fontFamily": "Outfit",
+                                      "fontSize": 13.5,
+                                      "fontWeight": 700,
+                                      "color": "rgb(238, 238, 255)"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 0,
+                                    "y": 20,
+                                    "width": 217,
+                                    "height": 15,
+                                    "styles": {},
+                                    "textContent": "Light & playful",
+                                    "textStyles": {
+                                      "fontFamily": "Outfit",
+                                      "fontSize": 11.5,
+                                      "fontWeight": 400,
+                                      "color": "rgb(120, 120, 168)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 299,
+                                "y": 24,
+                                "width": 20,
+                                "height": 20,
+                                "styles": {
+                                  "borderRadius": 50,
+                                  "borderWidth": 2,
+                                  "borderColor": "rgb(34, 34, 58)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 231,
+                            "width": 335,
+                            "height": 68,
+                            "styles": {
+                              "backgroundColor": "rgb(24, 24, 38)",
+                              "borderRadius": 15,
+                              "borderWidth": 2,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 13,
+                              "paddingTop": 12,
+                              "paddingRight": 14,
+                              "paddingBottom": 12,
+                              "paddingLeft": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 16,
+                                "y": 14,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgba(167, 139, 250, 0.133)",
+                                  "borderRadius": 11,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "🌙",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 18,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 69,
+                                "y": 17,
+                                "width": 217,
+                                "height": 35,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 217,
+                                    "height": 18,
+                                    "styles": {},
+                                    "textContent": "Calm Escape",
+                                    "textStyles": {
+                                      "fontFamily": "Outfit",
+                                      "fontSize": 13.5,
+                                      "fontWeight": 700,
+                                      "color": "rgb(238, 238, 255)"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 0,
+                                    "y": 20,
+                                    "width": 217,
+                                    "height": 15,
+                                    "styles": {},
+                                    "textContent": "Soft & dreamy",
+                                    "textStyles": {
+                                      "fontFamily": "Outfit",
+                                      "fontSize": 11.5,
+                                      "fontWeight": 400,
+                                      "color": "rgb(120, 120, 168)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 299,
+                                "y": 24,
+                                "width": 20,
+                                "height": 20,
+                                "styles": {
+                                  "borderRadius": 50,
+                                  "borderWidth": 2,
+                                  "borderColor": "rgb(34, 34, 58)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 308,
+                            "width": 335,
+                            "height": 68,
+                            "styles": {
+                              "backgroundColor": "rgb(24, 24, 38)",
+                              "borderRadius": 15,
+                              "borderWidth": 2,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 13,
+                              "paddingTop": 12,
+                              "paddingRight": 14,
+                              "paddingBottom": 12,
+                              "paddingLeft": 14
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 16,
+                                "y": 14,
+                                "width": 40,
+                                "height": 40,
+                                "styles": {
+                                  "backgroundColor": "rgba(52, 211, 153, 0.133)",
+                                  "borderRadius": 11,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "🔍",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 18,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 69,
+                                "y": 17,
+                                "width": 217,
+                                "height": 35,
+                                "styles": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 217,
+                                    "height": 18,
+                                    "styles": {},
+                                    "textContent": "Mystery Mode",
+                                    "textStyles": {
+                                      "fontFamily": "Outfit",
+                                      "fontSize": 13.5,
+                                      "fontWeight": 700,
+                                      "color": "rgb(238, 238, 255)"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "p",
+                                    "x": 0,
+                                    "y": 20,
+                                    "width": 217,
+                                    "height": 15,
+                                    "styles": {},
+                                    "textContent": "Tense & curious",
+                                    "textStyles": {
+                                      "fontFamily": "Outfit",
+                                      "fontSize": 11.5,
+                                      "fontWeight": 400,
+                                      "color": "rgb(120, 120, 168)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 299,
+                                "y": 24,
+                                "width": 20,
+                                "height": 20,
+                                "styles": {
+                                  "borderRadius": 50,
+                                  "borderWidth": 2,
+                                  "borderColor": "rgb(34, 34, 58)",
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 18,
+                    "y": 526,
+                    "width": 335,
+                    "height": 93,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "p",
+                        "x": 0,
+                        "y": 0,
+                        "width": 335,
+                        "height": 14,
+                        "styles": {},
+                        "textContent": "Available Time",
+                        "textStyles": {
+                          "fontFamily": "Outfit",
+                          "fontSize": 10.5,
+                          "fontWeight": 700,
+                          "color": "rgb(68, 68, 101)",
+                          "letterSpacing": 1.1
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 25,
+                        "width": 335,
+                        "height": 68,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "normal",
+                          "gap": 10
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 105,
+                            "height": 68,
+                            "styles": {
+                              "backgroundColor": "rgb(24, 24, 38)",
+                              "borderRadius": 13,
+                              "borderWidth": 2,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "paddingTop": 12,
+                              "paddingBottom": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 2,
+                                "y": 14,
+                                "width": 101,
+                                "height": 25,
+                                "styles": {},
+                                "textContent": "3",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 20,
+                                  "fontWeight": 800,
+                                  "color": "rgb(238, 238, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 2,
+                                "y": 40,
+                                "width": 101,
+                                "height": 14,
+                                "styles": {},
+                                "textContent": "min",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 11,
+                                  "fontWeight": 400,
+                                  "color": "rgb(120, 120, 168)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 115,
+                            "y": 0,
+                            "width": 105,
+                            "height": 68,
+                            "styles": {
+                              "backgroundColor": "rgba(139, 92, 246, 0.094)",
+                              "borderRadius": 13,
+                              "borderWidth": 2,
+                              "borderColor": "rgb(139, 92, 246)",
+                              "paddingTop": 12,
+                              "paddingBottom": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 2,
+                                "y": 14,
+                                "width": 101,
+                                "height": 25,
+                                "styles": {},
+                                "textContent": "5",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 20,
+                                  "fontWeight": 800,
+                                  "color": "rgb(167, 139, 250)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 2,
+                                "y": 40,
+                                "width": 101,
+                                "height": 14,
+                                "styles": {},
+                                "textContent": "min",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 11,
+                                  "fontWeight": 400,
+                                  "color": "rgb(120, 120, 168)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 230,
+                            "y": 0,
+                            "width": 105,
+                            "height": 68,
+                            "styles": {
+                              "backgroundColor": "rgb(24, 24, 38)",
+                              "borderRadius": 13,
+                              "borderWidth": 2,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "paddingTop": 12,
+                              "paddingBottom": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 2,
+                                "y": 14,
+                                "width": 101,
+                                "height": 25,
+                                "styles": {},
+                                "textContent": "7",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 20,
+                                  "fontWeight": 800,
+                                  "color": "rgb(238, 238, 255)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 2,
+                                "y": 40,
+                                "width": 101,
+                                "height": 14,
+                                "styles": {},
+                                "textContent": "min",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 11,
+                                  "fontWeight": 400,
+                                  "color": "rgb(120, 120, 168)",
+                                  "textAlign": "center"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 18,
+                    "y": 641,
+                    "width": 335,
+                    "height": 53,
+                    "styles": {
+                      "backgroundColor": "rgb(32, 32, 50)",
+                      "borderRadius": 17,
+                      "opacity": 0.45,
+                      "paddingTop": 17,
+                      "paddingBottom": 17
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "p",
+                        "x": 0,
+                        "y": 17,
+                        "width": 335,
+                        "height": 19,
+                        "styles": {},
+                        "textContent": "✦  Generate My Scene",
+                        "textStyles": {
+                          "fontFamily": "Outfit",
+                          "fontSize": 15,
+                          "fontWeight": 800,
+                          "color": "rgb(68, 68, 101)",
+                          "textAlign": "center",
+                          "letterSpacing": 0.3
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 18,
+                    "y": 716,
+                    "width": 335,
+                    "height": 131,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "p",
+                        "x": 0,
+                        "y": 0,
+                        "width": 335,
+                        "height": 14,
+                        "styles": {},
+                        "textContent": "Recent Escapes",
+                        "textStyles": {
+                          "fontFamily": "Outfit",
+                          "fontSize": 10.5,
+                          "fontWeight": 700,
+                          "color": "rgb(68, 68, 101)",
+                          "letterSpacing": 1.1
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 25,
+                        "width": 335,
+                        "height": 106,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "normal",
+                          "gap": 10,
+                          "paddingBottom": 2
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 112,
+                            "height": 104,
+                            "styles": {
+                              "backgroundColor": "rgb(24, 24, 38)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "paddingTop": 13,
+                              "paddingRight": 12,
+                              "paddingBottom": 13,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 14,
+                                "width": 36,
+                                "height": 36,
+                                "styles": {
+                                  "backgroundColor": "rgba(167, 139, 250, 0.133)",
+                                  "borderRadius": 10,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "🌙",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 18,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 58,
+                                "width": 86,
+                                "height": 16,
+                                "styles": {},
+                                "textContent": "Glass Forest",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(238, 238, 255)",
+                                  "lineHeight": 15.6
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 76,
+                                "width": 86,
+                                "height": 14,
+                                "styles": {},
+                                "textContent": "Yesterday",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 10.5,
+                                  "fontWeight": 400,
+                                  "color": "rgb(68, 68, 101)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 122,
+                            "y": 0,
+                            "width": 121,
+                            "height": 104,
+                            "styles": {
+                              "backgroundColor": "rgb(24, 24, 38)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "paddingTop": 13,
+                              "paddingRight": 12,
+                              "paddingBottom": 13,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 14,
+                                "width": 36,
+                                "height": 36,
+                                "styles": {
+                                  "backgroundColor": "rgba(34, 211, 238, 0.133)",
+                                  "borderRadius": 10,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "🚇",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 18,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 58,
+                                "width": 95,
+                                "height": 16,
+                                "styles": {},
+                                "textContent": "Midnight Express",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(238, 238, 255)",
+                                  "lineHeight": 15.6
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 76,
+                                "width": 95,
+                                "height": 14,
+                                "styles": {},
+                                "textContent": "2 days ago",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 10.5,
+                                  "fontWeight": 400,
+                                  "color": "rgb(68, 68, 101)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 253,
+                            "y": 0,
+                            "width": 112,
+                            "height": 104,
+                            "styles": {
+                              "backgroundColor": "rgb(24, 24, 38)",
+                              "borderRadius": 14,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(34, 34, 58)",
+                              "paddingTop": 13,
+                              "paddingRight": 12,
+                              "paddingBottom": 13,
+                              "paddingLeft": 12
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 13,
+                                "y": 14,
+                                "width": 36,
+                                "height": 36,
+                                "styles": {
+                                  "backgroundColor": "rgba(52, 211, 153, 0.133)",
+                                  "borderRadius": 10,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "textContent": "🎺",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 18,
+                                  "fontWeight": 400,
+                                  "color": "rgb(0, 0, 0)"
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 58,
+                                "width": 86,
+                                "height": 16,
+                                "styles": {},
+                                "textContent": "Missing Melody",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "color": "rgb(238, 238, 255)",
+                                  "lineHeight": 15.6
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "p",
+                                "x": 13,
+                                "y": 76,
+                                "width": 86,
+                                "height": 14,
+                                "styles": {},
+                                "textContent": "3 days ago",
+                                "textStyles": {
+                                  "fontFamily": "Outfit",
+                                  "fontSize": 10.5,
+                                  "fontWeight": 400,
+                                  "color": "rgb(68, 68, 101)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 2,
+            "y": 735,
+            "width": 371,
+            "height": 75,
+            "styles": {
+              "backgroundColor": "rgba(8, 8, 15, 0.96)",
+              "borderWidth": 1,
+              "borderColor": "rgb(34, 34, 58) rgb(0, 0, 0) rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "normal",
+              "alignItems": "normal",
+              "paddingTop": 10,
+              "paddingBottom": 20
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 11,
+                "width": 93,
+                "height": 44,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 4
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 26,
+                    "y": 0,
+                    "width": 40,
+                    "height": 28,
+                    "styles": {
+                      "backgroundColor": "rgba(139, 92, 246, 0.133)",
+                      "borderRadius": 10,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 10,
+                        "y": 4,
+                        "width": 20,
+                        "height": 20,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#8B5CF6\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-house\" aria-hidden=\"true\"><path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"/><path d=\"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 33,
+                    "y": 32,
+                    "width": 26,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Home",
+                    "textStyles": {
+                      "fontFamily": "Outfit",
+                      "fontSize": 9.5,
+                      "fontWeight": 700,
+                      "color": "rgb(139, 92, 246)",
+                      "letterSpacing": 0.1
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 93,
+                "y": 11,
+                "width": 93,
+                "height": 44,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 4
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 26,
+                    "y": 0,
+                    "width": 40,
+                    "height": 28,
+                    "styles": {
+                      "borderRadius": 10,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 10,
+                        "y": 4,
+                        "width": 20,
+                        "height": 20,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#444465\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-play\" aria-hidden=\"true\"><path d=\"M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 37,
+                    "y": 32,
+                    "width": 19,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Play",
+                    "textStyles": {
+                      "fontFamily": "Outfit",
+                      "fontSize": 9.5,
+                      "fontWeight": 400,
+                      "color": "rgb(68, 68, 101)",
+                      "letterSpacing": 0.1
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 186,
+                "y": 11,
+                "width": 93,
+                "height": 44,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 4
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 26,
+                    "y": 0,
+                    "width": 40,
+                    "height": 28,
+                    "styles": {
+                      "borderRadius": 10,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 10,
+                        "y": 4,
+                        "width": 20,
+                        "height": 20,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#444465\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-compass\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 28,
+                    "y": 32,
+                    "width": 38,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Discover",
+                    "textStyles": {
+                      "fontFamily": "Outfit",
+                      "fontSize": 9.5,
+                      "fontWeight": 400,
+                      "color": "rgb(68, 68, 101)",
+                      "letterSpacing": 0.1
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 278,
+                "y": 11,
+                "width": 93,
+                "height": 44,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 4
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 26,
+                    "y": 0,
+                    "width": 40,
+                    "height": 28,
+                    "styles": {
+                      "borderRadius": 10,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 10,
+                        "y": 4,
+                        "width": 20,
+                        "height": 20,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#444465\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\"><path d=\"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 32,
+                    "y": 32,
+                    "width": 28,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Profile",
+                    "textStyles": {
+                      "fontFamily": "Outfit",
+                      "fontSize": 9.5,
+                      "fontWeight": 400,
+                      "color": "rgb(68, 68, 101)",
+                      "letterSpacing": 0.1
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
