@@ -1,0 +1,19 @@
+{
+  "name": "SnackSprout",
+  "tagline": "Turns kid hunger into smart choices.",
+  "description": "SnackSprout helps children independently decide what to eat by turning everyday snack requests into a playful, visual decision game. The app uses a parent-approved pantry list, the child\u2019s age, allergies, and mealtime rules to show only realistic options, then asks fun questions like \"Do you want something crunchy or soft?\" to narrow choices without a power struggle. It solves the constant problem of kids saying they are hungry but refusing the options available, which often leads to frustration, wasted food, and unhealthy grazing. In daily life, a parent can quickly snap photos of the kitchen shelves, set boundaries like \"one snack before dinner,\" and let the child choose from suggested combinations such as apple slices with yogurt or crackers with hummus. What makes it unique is that it teaches decision-making, portion awareness, and food flexibility through guided play instead of just locking content or tracking calories. It also adapts to routines like after-school hunger, road trips, and bedtime requests, so the child learns consistent habits in a format that feels like a game rather than a rulebook.",
+  "features": [
+    "The app builds a personalized snack board from foods the parent approves, which keeps kids within safe and realistic choices while reducing back-and-forth arguments.",
+    "It uses playful filters such as texture, temperature, and color to help children choose a snack step by step, making decisions easier for picky eaters.",
+    "It suggests balanced mini-combinations like fruit plus protein, which matters because it nudges kids toward more filling choices without feeling like a lecture.",
+    "It can show a simple \"kitchen map\" of where snacks are stored, helping young children find items independently and building confidence in everyday routines.",
+    "It rewards healthy decision streaks with collectible garden characters that grow as kids try new foods, making progress motivating instead of punitive."
+  ],
+  "audience": "Parents of children ages 4-10 who struggle with picky eating, snack demands, or endless \"what can I eat?\" conversations. It is especially useful for busy families, neurodivergent kids, and caregivers who want more independence without sacrificing nutrition or structure.",
+  "category": "kids",
+  "useCases": [
+    "Maya's son comes home from school starving and keeps saying nothing sounds good, so she opens SnackSprout and lets him choose between three parent-approved snack paths. He picks \"cold + crunchy\" and ends up making apple slices with cheese instead of begging for cookies.",
+    "During a rainy Saturday, Jordan's 6-year-old keeps raiding the pantry, so Jordan uses the app to set one snack window and have the child guide themselves through the kitchen map. The app turns snack time into a game and cuts down on constant supervision.",
+    "Before a long car ride, Priya preloads travel-safe foods like banana, crackers, and trail mix, then lets her daughter pick a combination based on mood and texture. This avoids repeated complaints in the car while still giving the child a sense of control."
+  ]
+}

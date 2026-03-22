@@ -1,0 +1,14 @@
+{
+  "appName": "SnackSprout",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#4CC963",
+    "secondary": "#FF7A3D",
+    "background": "#F2FBF0",
+    "accent": "#FFD060"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

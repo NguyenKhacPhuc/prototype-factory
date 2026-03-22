@@ -1,0 +1,35 @@
+{
+  "appName": "SnackSprout",
+  "tagline": "Turns kid hunger into smart choices.",
+  "designSystem": {
+    "primaryColor": "#4CC963",
+    "secondaryColor": "#FF7A3D",
+    "accentColor": "#FFD060",
+    "backgroundColor": "#F2FBF0",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Playful and friendly mobile UI with vibrant spring-green brand color, warm orange accents, and golden yellow rewards. Rounded cards, gradient headers, and child-friendly large touch targets. Clean hierarchy with emoji-rich content to engage young users."
+  },
+  "screens": [
+    "Home - Personalized snack board with daily allowance tracker, featured combo suggestions, and big 'I'm Hungry!' CTA",
+    "Choose - 3-step decision game with animated questions about taste, texture, and temperature leading to matched snack combos",
+    "Kitchen Map - Visual zones (Fridge, Fruit Bowl, Pantry) with tappable areas showing stored items to help kids find snacks independently",
+    "Garden - Collectible sprout characters (Sunny, Crispin, Pearl, Beanie, Miso) with XP progress bars, streak tracker, and recently-tried foods log",
+    "Settings - Child profile, light/dark theme toggle, snack rules configuration, allergy management, and parent PIN lock"
+  ],
+  "themes": {
+    "light": {
+      "bg": "#F2FBF0",
+      "surface": "#FFFFFF",
+      "primary": "#4CC963",
+      "secondary": "#FF7A3D",
+      "text": "#162018"
+    },
+    "dark": {
+      "bg": "#0B160D",
+      "surface": "#142018",
+      "primary": "#4CC963",
+      "secondary": "#FF8A50",
+      "text": "#E6F5E8"
+    }
+  }
+}
