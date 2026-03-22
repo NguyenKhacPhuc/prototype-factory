@@ -1,0 +1,19 @@
+{
+  "name": "Cartwise",
+  "tagline": "Shop smarter, waste less.",
+  "description": "Cartwise helps people build better shopping decisions by turning everyday purchases into a personalized, need-based plan instead of a chaotic list. Users tell the app what they already have at home, what meals, projects, or trips they are planning, and what budget they need to stay within, and Cartwise creates a shopping path that prevents duplicate buys, missed essentials, and impulsive spending. It solves the common problem of buying too much of one thing, forgetting critical items, and paying more because of last-minute store runs. In daily life, it can help a parent preparing school lunches, a renter restocking a small apartment pantry, or a traveler packing for a weekend trip by suggesting exactly what to buy, how much to buy, and where it is likely cheapest nearby. A standout use case is when the app notices you already have enough pasta but are out of sauce and vegetables, so it reshapes your list around recipes you can actually make. Another is for quick errands, where it bundles items by store aisle and flags which products are better purchased at warehouse stores versus corner shops. Unlike generic shopping list apps, Cartwise combines home inventory, budget forecasting, and real-world buying behavior to reduce waste and decision fatigue in a way that feels practical rather than gimmicky.",
+  "features": [
+    "The home inventory scanner lets users quickly add groceries, toiletries, or household supplies by snapping a receipt or barcode, which matters because it prevents unnecessary duplicate purchases.",
+    "The budget-aware list builder estimates total spend before users leave home and suggests cheaper substitutions when needed, which helps people avoid checkout surprises.",
+    "The need-based planner groups items by purpose, such as meals, cleaning, or travel prep, so users can shop with a clear goal instead of a scattered list.",
+    "The store-smart route map organizes items by aisle and recommends the best place to buy each one nearby, saving time and reducing extra trips.",
+    "The waste reduction coach alerts users when an item is likely to expire or sit unused and suggests recipes, routines, or pairings to use it first, which makes shopping more sustainable and efficient."
+  ],
+  "audience": "Busy adults ages 20\u201345, especially apartment dwellers, parents, students, and budget-conscious shoppers who juggle grocery runs and household restocking. It is also useful for people trying to reduce waste, save money, and make fewer last-minute store trips.",
+  "category": "shopping",
+  "useCases": [
+    "Maya just got home from work and realizes she needs dinner ingredients, laundry detergent, and a birthday card. She opens Cartwise, scans her pantry, and gets a budget-friendly shopping plan that tells her exactly what to buy and where to pick it up.",
+    "Diego is packing for a weekend camping trip and wants to avoid buying gear he already owns. He uses Cartwise to check his inventory, see what he is missing, and build a list that keeps him from overpacking or overspending.",
+    "Priya is trying to cut down on food waste after throwing out expired produce last week. She opens Cartwise to see which ingredients need to be used soon and gets a shopping plan that fits the meals she can make with what is already in her fridge."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "appName": "Cartwise",
+  "fontFamily": "Outfit",
+  "colors": {
+    "primary": "#00E5A3",
+    "secondary": "#00B8D4",
+    "background": "#0B1512",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

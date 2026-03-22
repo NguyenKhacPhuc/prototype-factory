@@ -1,0 +1,18 @@
+{
+  "appName": "Cartwise",
+  "tagline": "Shop smarter, waste less.",
+  "designSystem": {
+    "primaryColor": "#00E5A3",
+    "secondaryColor": "#00B8D4",
+    "backgroundColor": "#0B1512",
+    "fontFamily": "Outfit",
+    "style": "Dark-first premium mobile UI with vibrant mint/emerald accent, card-based layout, smooth micro-interactions, and a clean information hierarchy designed for at-a-glance decision making"
+  },
+  "screens": [
+    "Home – Budget ring, smart tips, quick actions, expiry alerts",
+    "Inventory – Category tabs, item status indicators, receipt scanner",
+    "Shopping List – Aisle-grouped items, budget progress bar, check-off interactions, store route",
+    "Planner – Plan cards with progress bars, expandable suggestions, generate list CTA",
+    "Settings – Profile, dark/light toggle, budget and store preferences"
+  ]
+}
