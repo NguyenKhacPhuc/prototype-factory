@@ -1,0 +1,39 @@
+{
+  "appName": "Route Reset",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#00C896",
+    "secondary": "#FF6B6B",
+    "background": "#F0F4F8",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "brain-circuit",
+    "calendar",
+    "check",
+    "chevron-right",
+    "clock",
+    "coffee",
+    "mail",
+    "map-pin",
+    "moon",
+    "package",
+    "pill",
+    "refresh-cw",
+    "scissors",
+    "shopping-cart",
+    "sliders-horizontal",
+    "sparkles",
+    "sun",
+    "train",
+    "trending-down",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 24,
+  "fontFileCount": 0
+}

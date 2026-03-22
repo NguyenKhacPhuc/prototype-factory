@@ -1,0 +1,17 @@
+{
+  "appName": "Route Reset",
+  "tagline": "Rebuild calm from chaotic days.",
+  "designSystem": {
+    "primaryColor": "#00C896",
+    "secondaryColor": "#FF6B6B",
+    "backgroundColor": "#F0F4F8",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean utility-forward design with a vibrant emerald-green accent, soft surfaces, and card-based layouts. Combines urgent status indicators with calming recovery visuals. Timeline-driven recovery paths with micro-interactions and contextual AI nudges."
+  },
+  "screens": [
+    "Today — Day health score, active disruptions list, quick recovery mode picker, context-aware nudge banner",
+    "Recovery — Scrollable timeline plan with checkable steps, energy level toggle (low/medium/high), AI insight chips, regenerate CTA",
+    "Nearby — Mini map with optimized route overlay, filterable place list with fit-score badges and context descriptions",
+    "Settings — User profile, adaptive learning progress bar, preference tag cloud, integration toggles, theme switcher"
+  ]
+}

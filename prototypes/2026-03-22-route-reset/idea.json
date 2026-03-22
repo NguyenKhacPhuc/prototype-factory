@@ -1,0 +1,19 @@
+{
+  "name": "Route Reset",
+  "tagline": "Rebuild calm from chaotic days.",
+  "description": "Route Reset is a context-aware utility app that helps people recover from \u201clife friction\u201d by automatically generating tiny, practical next steps when errands, appointments, delays, and tasks collide. It solves the common problem of losing momentum after unexpected changes, like a canceled train, a long meeting, or realizing you forgot to mail a document before the post office closes. The app looks at your calendar, location, transit delays, open hours, weather, and remaining energy level to suggest the smartest next move, not just a to-do list. For example, if your haircut gets delayed by 40 minutes, it might propose a nearby charging caf\u00e9, remind you to refill a prescription on the same route, and compress your evening chores into a realistic 20-minute plan. What makes it unique is that it doesn\u2019t just organize tasks; it actively reroutes your day into smaller salvageable \u201crecovery paths\u201d so you avoid wasted time and decision fatigue. It also learns your preferences, so one person gets quiet indoor options while another gets efficient multi-stop routes with the least walking. The result is a utility app that feels like a crisis-savvy assistant for modern, fragmented schedules.",
+  "features": [
+    "It detects schedule disruptions from calendar changes, travel delays, and manual check-ins, then creates a revised mini-plan that fits the new reality.",
+    "It clusters nearby errands by walking distance, business hours, and urgency so users can turn idle gaps into productive but manageable windows.",
+    "It generates recovery modes such as \u201clow energy,\u201d \u201crainy day,\u201d or \u201cunder 30 minutes,\u201d which helps users choose plans that match their actual capacity.",
+    "It sends context-rich prompts like \u201cYou\u2019re near the pharmacy for 18 more minutes\u201d so users can act immediately instead of forgetting the opportunity.",
+    "It learns personal habits, such as preferred cafes, avoided routes, and typical time buffers, to improve suggestions and make the app increasingly reliable."
+  ],
+  "audience": "Busy urban professionals, students, freelancers, and caregivers aged 18\u201345 who juggle packed schedules, transit, and frequent interruptions. It is especially useful for people who rely on multiple apps and need a smarter way to adapt when the day changes unexpectedly.",
+  "category": "utilities",
+  "useCases": [
+    "Sarah just finished a stressful meeting and realizes her 90-minute gap before the next one is too short for her planned errands, so she opens Route Reset to find a compressed plan that includes picking up dry cleaning and grabbing lunch within walking distance. The app suggests a low-stress route and warns her which stop will actually fit the time she has left.",
+    "Marcus\u2019s train is delayed by 35 minutes while he is carrying a laptop and three small tasks he wants to finish today. He uses Route Reset to turn the delay into a salvage plan, choosing a nearby caf\u00e9 with outlets, then adding a nearby grocery pickup and a reminder to call his bank.",
+    "Aisha is already out with her toddler when she gets a notification that the pediatric clinic moved her appointment later in the afternoon. She opens the app to build a kid-friendly in-between plan, and Route Reset finds a playground, an open pharmacy, and the closest place to buy snacks without forcing extra driving."
+  ]
+}
