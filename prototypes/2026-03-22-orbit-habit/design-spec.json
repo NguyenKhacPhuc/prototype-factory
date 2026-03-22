@@ -1,0 +1,18 @@
+{
+  "appName": "Orbit Habit",
+  "tagline": "Your day, redesigned around real life.",
+  "designSystem": {
+    "primaryColor": "#7C5CFC",
+    "secondaryColor": "#F97316",
+    "backgroundColor": "#F4F2FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern soft-purple lifestyle app with vibrant violet primary accent, warm orange secondary, glassy card surfaces, gradient hero banners, and a clean timeline-based layout. Features full light/dark theming with deep navy dark mode."
+  },
+  "screens": [
+    "Today — Smart Day Reflow timeline with mood selector, progress ring, reflow alert banner, and checkable task list",
+    "Gaps — Gap Finder showing free-time pockets with expandable micro-task suggestions matched to context and effort",
+    "Errands — Errand Clusters with optimized route map preview, cluster tabs, and stop-by-stop errand lists",
+    "Insights — Life Pattern analysis with weekly bar chart, energy heatmap, and detected behavioral pattern cards",
+    "Settings — Theme toggle (light/dark), smart feature toggles, notification controls, and profile overview"
+  ]
+}

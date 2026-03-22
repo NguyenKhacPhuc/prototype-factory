@@ -1,0 +1,19 @@
+{
+  "name": "Orbit Habit",
+  "tagline": "Your day, redesigned around real life.",
+  "description": "Orbit Habit is a lifestyle app that rebuilds your day around how your energy, location, and commitments actually change hour by hour. Instead of giving you a rigid to-do list, it learns your patterns, detects friction points like commute delays or afternoon slumps, and reshapes your plan into realistic micro-actions that fit the moment. If you have a 12-minute gap before a meeting, it might suggest packing tomorrow\u2019s gym clothes, replying to one important text, or taking a reset walk instead of starting a task you can\u2019t finish. The app also groups errands and habits by route, weather, and time of day, so users waste less time bouncing between small obligations and more time living intentionally. What makes it unique is that it does not just remind you what to do; it actively reorganizes the day into a more humane rhythm, turning daily life into a flexible flow rather than a fixed checklist. It is especially useful for people juggling work, family, health routines, and social life who need a planning tool that adapts when reality changes.",
+  "features": [
+    "Smart Day Reflow automatically reshuffles tasks based on your calendar, travel time, and energy trends so your plan stays realistic when life gets interrupted.",
+    "Gap Finder scans for small pockets of available time and recommends the best micro-task to match each window, helping users make progress instead of wasting awkward gaps.",
+    "Errand Clusters groups nearby errands, appointments, and pickups into efficient routes so users can save time, fuel, and mental load during busy weeks.",
+    "Mood-to-Action suggestions pair your current stress or energy level with appropriate actions, such as low-effort admin tasks after a hard meeting or a short walk during a slump.",
+    "Life Pattern Insights show recurring bottlenecks like late-night scrolling or repeated schedule overruns, giving users practical adjustments that improve their daily routines over time."
+  ],
+  "audience": "Busy adults ages 22-45 who balance demanding work schedules, household responsibilities, fitness goals, and social plans. It is especially valuable for people who feel overwhelmed by traditional productivity apps that ignore how unpredictable everyday life really is.",
+  "category": "lifestyle",
+  "useCases": [
+    "Sarah just finished a stressful meeting and has 18 minutes before her next call, so she opens Orbit Habit to find a realistic reset action instead of doom-scrolling. The app suggests a quick walk, one email reply, and a breathing break that fits her actual time window.",
+    "Marcus has three errands across town and one free afternoon, so he uses the app to cluster his pharmacy pickup, grocery stop, and dry cleaning into the most efficient route. It saves him from zigzagging across the city and helps him get home earlier.",
+    "Priya notices she keeps missing her evening workout because dinner and childcare always run late, so she opens the app to redesign that part of her routine. Orbit Habit shifts her exercise plan to a 12-minute morning session and reminds her to prep clothes the night before."
+  ]
+}
