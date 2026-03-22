@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { supabase } from "../lib/supabase";
 
 interface Props {
   onClose: () => void;
@@ -7,11 +8,32 @@ interface Props {
 export function ComingSoonModal({ onClose }: Props) {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState("");
+  const [saving, setSaving] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!email.trim()) return;
-    setSubmitted(true);
+    if (!email.trim() || saving) return;
+    setSaving(true);
+    setError("");
+    try {
+      const { error: dbError } = await supabase
+        .from("waitlist_emails")
+        .insert({ email: email.trim().toLowerCase() });
+      if (dbError) {
+        if (dbError.code === "23505") {
+          // Duplicate — still count as success
+          setSubmitted(true);
+        } else {
+          setError("Something went wrong. Please try again.");
+        }
+      } else {
+        setSubmitted(true);
+      }
+    } catch {
+      setError("Something went wrong. Please try again.");
+    }
+    setSaving(false);
   };
 
   return (
@@ -92,11 +114,12 @@ export function ComingSoonModal({ onClose }: Props) {
                       letterSpacing: 1, outline: "none", marginBottom: 16, boxSizing: "border-box" as const,
                     }}
                   />
-                  <button type="submit" style={{
+                  <button type="submit" disabled={saving} style={{
                     width: "100%", padding: 14, borderRadius: 8, border: "none",
-                    background: "#e8e4a0", color: "#111", fontSize: 13, fontWeight: 800,
-                    letterSpacing: 2, cursor: "pointer",
-                  }}>NOTIFY ME</button>
+                    background: saving ? "#a0a090" : "#e8e4a0", color: "#111", fontSize: 13, fontWeight: 800,
+                    letterSpacing: 2, cursor: saving ? "wait" : "pointer",
+                  }}>{saving ? "SAVING..." : "NOTIFY ME"}</button>
+                  {error && <p style={{ fontSize: 11, color: "#e85050", marginTop: 10, textAlign: "center" as const }}>{error}</p>}
                 </form>
                 <div style={{ textAlign: "center" as const, marginTop: 24, paddingTop: 20, borderTop: "1px solid rgba(255,255,255,0.06)" }}>
                   <span style={{ fontSize: 9, fontWeight: 700, letterSpacing: 2, color: "rgba(255,255,255,0.25)" }}>DIRECT LINK ESTABLISHED</span>
