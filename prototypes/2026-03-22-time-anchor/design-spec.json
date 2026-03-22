@@ -1,0 +1,18 @@
+{
+  "appName": "Time Anchor",
+  "tagline": "Turn scattered time into usable momentum.",
+  "designSystem": {
+    "primaryColor": "#00D4AA",
+    "secondaryColor": "#7C6FFF",
+    "backgroundColor": "#080D1A",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first mobile productivity UI with deep navy backgrounds, vibrant teal/purple accent system, card-based layouts, glowing pill indicators, and subtle gradient overlays. Micro-interactions on task cards with smooth toggle animations and press states."
+  },
+  "screens": [
+    "home",
+    "tasks",
+    "momentum",
+    "insights",
+    "settings"
+  ]
+}

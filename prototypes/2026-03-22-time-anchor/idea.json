@@ -1,0 +1,19 @@
+{
+  "name": "Time Anchor",
+  "tagline": "Turn scattered time into usable momentum.",
+  "description": "Time Anchor helps people recover from fragmented, unpredictable days by turning tiny pockets of time into a smart, actionable plan. Instead of relying on a rigid to-do list that fails the moment a meeting runs long or a commute gets delayed, the app continuously scans your calendar, location, and available attention level to recommend what can realistically be done right now. It solves the common problem of 'time blindness'\u2014that awkward gap between intention and execution that causes missed tasks, idle phone scrolling, and constant mental overhead. In daily life, it can suggest a five-minute inbox triage while you wait for coffee, a one-hand task like approving expenses on the subway, or a deep-work sprint when your next meeting is unexpectedly pushed back. What makes it unique is its focus on opportunity-based productivity: it doesn't ask users to build the perfect plan, it helps them convert unpredictable fragments into meaningful progress. Over time, it learns which kinds of tasks you actually complete in each context, so its suggestions get sharper and more personal. The result is a productivity system built for real life, not idealized schedules.",
+  "features": [
+    "The app detects micro-windows in your day from your calendar and location, then instantly proposes tasks that fit the exact amount of time available, which prevents wasted gaps between obligations.",
+    "A context-aware task sorter ranks your to-dos by effort, focus, and device needs so you can pick something you can truly finish instead of opening a long list and doing nothing.",
+    "A momentum mode bundles several tiny tasks into a single 'finish line' sprint, helping users clear administrative clutter like approvals, quick replies, and form submissions in one focused burst.",
+    "A personal completion model learns when you are most likely to succeed with specific task types, making recommendations more realistic and reducing the frustration of overcommitting.",
+    "One-tap friction notes let users record why a task was skipped, which helps the app improve future suggestions and reveals recurring productivity blockers in daily routines."
+  ],
+  "audience": "Busy professionals, freelancers, managers, and knowledge workers ages 22\u201345 who live in heavily scheduled, interruption-prone days. It is especially useful for people who work across meetings, commutes, client calls, and home responsibilities and need to make better use of fragmented time.",
+  "category": "productivity",
+  "useCases": [
+    "Sarah just finished a stressful meeting and has 12 minutes before her next call. She opens Time Anchor, which suggests two quick follow-ups she can send now and one document she can skim, instead of doom-scrolling while the gap disappears.",
+    "Marcus is commuting on a train with unreliable signal and low mental energy. The app notices the context and surfaces offline tasks like reviewing notes, drafting a message, or outlining tomorrow's agenda so he can still make progress without needing a perfect setup.",
+    "Nina's afternoon meeting was canceled at the last minute, giving her an unexpected 45-minute block. Time Anchor automatically turns that into a 'deep sprint' recommendation, pushing the one project task she has been avoiding and helping her actually use the bonus time."
+  ]
+}
