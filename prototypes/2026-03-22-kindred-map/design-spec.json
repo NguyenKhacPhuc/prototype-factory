@@ -1,0 +1,26 @@
+{
+  "appName": "Kindred Map",
+  "tagline": "Find the people who fit your moment.",
+  "designSystem": {
+    "primaryColor": "#7C5CFC",
+    "secondaryColor": "#EC4899",
+    "backgroundColor": "#F5F3FF",
+    "darkBackground": "#0C0A17",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern card-based UI with rounded corners, subtle gradients, and a vibrant purple-to-pink accent palette. Emphasizes warmth and approachability through soft surfaces, generous spacing, and purposeful color coding for energy levels and interaction types. Full light and dark mode support."
+  },
+  "screens": [
+    "Discover — Situation-based people matching with energy filters, match percentage badges, and person detail sheet",
+    "Circles — Ephemeral group browser with member progress bars, urgency indicators, join/leave actions, and create modal",
+    "Kindness Board — Local offers and requests with offer/request filter tabs, tag chips, and distance/time metadata",
+    "Profile — User profile with stats, editable current situation, dark mode toggle, and settings list"
+  ],
+  "interactions": [
+    "Tap person card to open detail sheet with bio, connect, and message actions",
+    "Edit situation via pencil icon — opens suggestion chips and freeform input",
+    "Join or leave circles with animated member progress bar",
+    "Create new circle via sheet with name, description, and duration picker",
+    "Dark mode toggle with animated switch in Profile settings",
+    "All cards and buttons have press scale micro-interactions"
+  ]
+}

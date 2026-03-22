@@ -1,0 +1,14 @@
+{
+  "appName": "Kindred Map",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C5CFC",
+    "secondary": "#EC4899",
+    "background": "#F5F3FF",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

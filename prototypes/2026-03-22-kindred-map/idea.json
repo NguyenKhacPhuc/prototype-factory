@@ -1,0 +1,19 @@
+{
+  "name": "Kindred Map",
+  "tagline": "Find the people who fit your moment.",
+  "description": "Kindred Map is a social networking app that connects people based on the situation they are in, not just who they already know. It helps users discover nearby people, groups, and conversations that match their current needs, such as relocating to a new city, recovering from burnout, starting a side project, or navigating a life change. Instead of endless feeds and shallow follower counts, the app builds temporary, purpose-driven micro-networks where strangers can exchange practical advice, emotional support, and local knowledge in a low-pressure way. For example, a new parent could join a three-day \u201c2 a.m. parenting\u201d circle, while a remote worker in a new city could find a lunch buddy or coworking companion within walking distance. What makes it unique is its context engine, which matches people by current situation, energy level, availability, and preferred interaction style, so the connection feels useful rather than random. The app turns social networking into something immediate and human, helping users feel less alone exactly when they need support most.",
+  "features": [
+    "Situation-based matching lets users discover people who are going through similar life moments, which makes every connection more relevant and easier to start.",
+    "Ephemeral circles create small, time-limited groups for specific needs like moving apartments, preparing for interviews, or coping with grief, so conversations stay focused and low pressure.",
+    "Availability and energy filters let users choose whether they want a quick chat, a phone call, or an in-person meet-up, which prevents social overwhelm and improves match quality.",
+    "Local kindness boards surface nearby offers and requests, such as borrowing a ladder, sharing a ride, or finding someone to review a resume, making the app immediately practical in daily life.",
+    "Trust layers built from shared context, mutual introductions, and post-interaction feedback help users feel safe meeting new people while discouraging spam and superficial networking."
+  ],
+  "audience": "Urban adults ages 22\u201345, especially renters, remote workers, students, new parents, recent movers, and people in transition who want meaningful connection without the pressure of traditional social media. It is especially useful for people who feel socially disconnected in big cities or who need quick, situational support from others nearby.",
+  "category": "social networking",
+  "useCases": [
+    "Maya just moved to a new neighborhood and wants to find someone who can recommend a good doctor, explain local transit, and maybe grab coffee this weekend. She opens Kindred Map and joins a \u201cnew in town\u201d circle for people within two miles who arrived in the last 30 days.",
+    "Devin just got laid off and needs emotional support plus practical advice on updating his portfolio. He uses the app to enter a short-term job-change group where people share interview tips, referral leads, and motivation without the awkwardness of a public feed.",
+    "Elena just had a baby and is awake at 3 a.m. wondering if anyone nearby is also up and dealing with the same chaos. She opens Kindred Map to find other parents in a quiet, late-night support circle where she can ask small questions, vent safely, and feel less isolated."
+  ]
+}
