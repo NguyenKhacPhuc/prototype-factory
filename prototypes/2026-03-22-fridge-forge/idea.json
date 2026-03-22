@@ -1,0 +1,19 @@
+{
+  "name": "Fridge Forge",
+  "tagline": "Turn leftovers into dinner, not waste.",
+  "description": "Fridge Forge helps people cook from what they already have by scanning leftovers, partial ingredients, and near-expiry items to generate practical, realistic meal plans. Instead of suggesting vague recipes, it evaluates what\u2019s actually edible now, what should be used first, and what tiny add-ons from a nearby store would unlock the best meals. The app solves the everyday problem of food waste and decision fatigue, especially on busy nights when users stare into a fridge full of random ingredients and no plan. For example, it might turn half a roasted chicken, wilted herbs, yogurt, and rice into a fast cilantro-lime bowl, then suggest a next-day lunch from the remaining components. What makes it unique is its \u201cingredient rescue\u201d logic: it ranks recipes by urgency, flavor compatibility, and effort level, so users know what to cook before food spoils. It also adapts to cooking skill, available time, and kitchen tools, making it useful for students, parents, and anyone trying to stretch groceries without eating the same leftovers on repeat.",
+  "features": [
+    "The app scans ingredients by camera or receipt import and builds a live inventory with expiration warnings, so users always know what needs to be used first.",
+    "It generates recipes based on what is already on hand, prioritizing meals that minimize waste and avoid requiring a long grocery run.",
+    "It suggests tiny add-on purchases, like one lemon or a single onion, that dramatically improve a meal without turning it into a full shopping trip.",
+    "It transforms leftovers into second- and third-day dishes with different textures and flavors, which prevents meal boredom and extends the life of cooked food.",
+    "It learns household preferences, time limits, and cooking confidence to recommend meals that fit real life instead of idealized recipe conditions."
+  ],
+  "audience": "Busy adults ages 22-45, especially renters, students, parents, and budget-conscious households who cook at home but often have mismatched ingredients and little time. It is also ideal for people trying to reduce food waste without becoming meal-prep enthusiasts.",
+  "category": "food & drink",
+  "useCases": [
+    "Sarah just finished a stressful meeting and opens the app to figure out what she can make in 15 minutes from the mushrooms, rice, and half carton of cream in her fridge. It suggests a quick creamy mushroom risotto and tells her to use the mushrooms tonight because they expire tomorrow.",
+    "Darnell gets home from work and realizes he has random leftovers from three different meals, but nothing feels like a real dinner. The app combines them into a taco bowl plan and recommends buying only one avocado on his way home.",
+    "Mina is trying to spend less on groceries this month and wants to avoid throwing out produce. She scans her fridge on Sunday and the app creates a \u201cuse-first\u201d meal sequence for the week, starting with the spinach and ending with a soup that uses the last scraps."
+  ]
+}

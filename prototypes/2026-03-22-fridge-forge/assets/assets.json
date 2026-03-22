@@ -1,0 +1,35 @@
+{
+  "appName": "Fridge Forge",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#E8622A",
+    "secondary": "#4CAF6E",
+    "background": "#F5F2EC",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "arrow-left",
+    "battery",
+    "camera",
+    "chef-hat",
+    "clock",
+    "file-text",
+    "flame",
+    "home",
+    "moon",
+    "package",
+    "plus",
+    "search",
+    "settings",
+    "signal",
+    "sun",
+    "user",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 20,
+  "fontFileCount": 0
+}

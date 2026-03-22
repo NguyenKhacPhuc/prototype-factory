@@ -1,0 +1,12 @@
+{
+  "appName": "Fridge Forge",
+  "tagline": "Turn leftovers into dinner, not waste.",
+  "designSystem": {
+    "primaryColor": "#E8622A",
+    "secondaryColor": "#4CAF6E",
+    "backgroundColor": "#F5F2EC",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Warm, food-forward design with earthy tones and a vibrant burnt-orange primary accent. Clean card-based layout with urgency-coded color states (red for today, amber for tomorrow, green for safe). Tactile feel with subtle shadows and smooth micro-interactions."
+  },
+  "screens": ["home", "fridge", "scan", "recipes", "settings"]
+}
