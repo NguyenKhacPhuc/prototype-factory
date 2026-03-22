@@ -1,0 +1,19 @@
+{
+  "name": "LoopLens",
+  "tagline": "See waste before you buy.",
+  "description": "LoopLens helps people make lower-waste choices in everyday shopping by turning ordinary product scanning into a clear picture of a product\u2019s full sustainability cost. Users scan a barcode or search an item, and the app reveals its repairability, refill options, recyclability, packaging footprint, local reuse programs, and likely end-of-life path in their specific city. It solves the common problem that eco-friendly shopping is confusing, time-consuming, and often misleading because brands use vague claims like \"green\" or \"natural\" without giving practical details. In daily life, LoopLens helps someone decide whether to buy a shampoo bottle with a refill station nearby, which lunch container will actually be accepted by their local recycling center, or whether a laptop battery can be replaced instead of forcing a full device upgrade. What makes it unique is that it does not just rate products globally; it adapts recommendations to the user\u2019s neighborhood, transport habits, and nearby waste infrastructure, so the advice is actionable rather than theoretical. It also suggests the best next step after purchase, such as where to refill, repair, resell, donate, or return an item, making sustainability feel like a guided lifecycle instead of a one-time shopping judgment.",
+  "features": [
+    "The app scans barcodes and product labels to show a practical sustainability score based on packaging, repairability, refill access, and local disposal options, so users can act on facts instead of marketing claims.",
+    "It personalizes guidance using the user\u2019s city and ZIP code to explain whether an item can actually be recycled, composted, refilled, or repaired nearby, which prevents well-meaning mistakes.",
+    "It recommends lower-waste alternatives available in nearby stores or delivery services, helping users switch to realistic substitutes without adding extra shopping time.",
+    "It maps local repair caf\u00e9s, refill stations, take-back kiosks, and resale drop-offs, so users can extend product life instead of throwing things away.",
+    "It tracks the environmental impact of repeated choices over time, showing how much packaging, CO2, and landfill waste a household has avoided, which turns small habits into visible momentum."
+  ],
+  "audience": "Urban and suburban adults ages 20-45 who shop frequently, care about sustainability, and want practical guidance without becoming environmental experts. It is especially useful for families, renters, young professionals, and people living in cities with uneven recycling and reuse infrastructure.",
+  "category": "sustainability",
+  "useCases": [
+    "Sarah just moved into a new apartment and is buying kitchen supplies, but she wants to avoid items her building\u2019s recycling system can\u2019t handle. She scans three storage containers and chooses the one with a local refill-and-reuse program nearby.",
+    "Marcus is standing in a pharmacy aisle trying to replace his detergent and is frustrated by vague eco-labels. He opens LoopLens to compare two brands and finds a refill pouch sold at a store two blocks from his office.",
+    "Leila\u2019s phone battery is dying, and she is debating whether to replace the whole device. She checks LoopLens, sees that a repair shop nearby can replace the battery same-day, and books the repair instead of shopping for a new phone."
+  ]
+}

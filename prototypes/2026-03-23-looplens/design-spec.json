@@ -1,0 +1,12 @@
+{
+  "appName": "LoopLens",
+  "tagline": "See waste before you buy.",
+  "designSystem": {
+    "primaryColor": "#00C46A",
+    "secondaryColor": "#0EA5E9",
+    "backgroundColor": "#F0FDF8",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean sustainability-focused design with vibrant emerald-green primary accent, card-based layouts, circular score rings, and warm eco-toned surfaces. Features glassmorphic scan UI, interactive map pins, and progress bar micro-interactions."
+  },
+  "screens": ["home", "scan", "map", "impact", "settings"]
+}
