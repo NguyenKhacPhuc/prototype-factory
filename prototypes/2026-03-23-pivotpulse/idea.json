@@ -1,0 +1,19 @@
+{
+  "name": "PivotPulse",
+  "tagline": "Turn rough meetings into clear next steps.",
+  "description": "PivotPulse is a mobile app for busy professionals who leave meetings with half-formed decisions, scattered action items, and no clear follow-through. It listens during or after a meeting, identifies unresolved business problems, and turns them into structured decision summaries, owner assignments, and deadline reminders in seconds. The app helps users avoid the common daily pain of losing important context between meetings, emails, and chats by converting messy discussions into a concise execution plan they can act on immediately. For example, a founder can use it after a client call to capture objections, pricing concerns, and next steps, while a sales manager can turn a pipeline review into a prioritized follow-up list for each rep. What makes it unique is its focus on the \u201cdecision gap\u201d rather than generic note-taking: it highlights what was actually decided, what was deferred, what still needs data, and who needs to do what next. It also learns a team\u2019s preferred language for risks, priorities, and approvals so the summaries feel aligned with company workflow instead of generic meeting transcripts. In daily use, it becomes a pocket execution layer that helps users move faster, reduce misunderstandings, and keep business momentum from slipping away after meetings end.",
+  "features": [
+    "The app converts voice notes, meeting transcripts, or typed bullet points into a decision brief that separates action items from discussion noise, so users can immediately see what matters.",
+    "It automatically assigns likely owners and deadlines based on names, roles, and past project patterns, which reduces the mental load of manual follow-up planning.",
+    "It flags unresolved decisions, missing stakeholders, and unclear next steps with simple prompts, helping teams spot bottlenecks before they turn into delays.",
+    "It generates a shareable follow-up message tailored for Slack, email, or WhatsApp, so users can send a polished recap without rewriting everything themselves.",
+    "It tracks open decisions over time in a lightweight timeline, allowing managers and founders to review which items keep getting pushed and why they are stuck."
+  ],
+  "audience": "Ideal for founders, account managers, sales leads, consultants, and operations teams aged 25\u201345 who spend much of their week in back-to-back meetings. It is especially useful for remote and hybrid teams that need fast, reliable follow-through across multiple communication tools.",
+  "category": "business",
+  "useCases": [
+    "Sarah just finished a tense client meeting and needs to quickly turn the conversation into a clear recap before the details blur. She opens PivotPulse, taps the voice note from the meeting, and gets a structured list of objections, approved changes, and follow-up owners to send within minutes.",
+    "Marcus is a startup founder moving from investor calls to product check-ins all afternoon, and he keeps forgetting which decisions were actually approved. He uses the app between meetings to capture each decision gap, so by evening he has a clean action dashboard instead of a pile of fragmented notes.",
+    "Nina runs a small agency and just got off a team review where three projects were delayed because no one knew who was responsible for the next step. She uses PivotPulse to assign owners, draft a follow-up email, and flag the overdue items that need immediate attention."
+  ]
+}

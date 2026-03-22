@@ -1,0 +1,38 @@
+{
+  "appName": "PivotPulse",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#8B5CF6",
+    "secondary": "#22D3EE",
+    "background": "#08080F",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-circle",
+    "alert-triangle",
+    "battery",
+    "calendar",
+    "check-square",
+    "chevron-right",
+    "clock",
+    "file-text",
+    "filter",
+    "home",
+    "list",
+    "loader",
+    "log-out",
+    "mic",
+    "moon",
+    "pause",
+    "save",
+    "settings",
+    "signal",
+    "sun",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 23,
+  "fontFileCount": 0
+}

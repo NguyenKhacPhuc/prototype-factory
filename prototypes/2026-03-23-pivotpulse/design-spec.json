@@ -1,0 +1,12 @@
+{
+  "appName": "PivotPulse",
+  "tagline": "Turn rough meetings into clear next steps.",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#22D3EE",
+    "backgroundColor": "#08080F",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark glassmorphism with vibrant violet-cyan gradient accent, card-based layout with subtle border highlights, micro-interaction press effects, and glowing CTA buttons"
+  },
+  "screens": ["home", "capture", "decisions", "timeline", "settings"]
+}
