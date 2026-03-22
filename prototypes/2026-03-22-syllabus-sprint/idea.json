@@ -1,0 +1,19 @@
+{
+  "name": "Syllabus Sprint",
+  "tagline": "Turn any syllabus into daily action.",
+  "description": "Syllabus Sprint transforms messy course syllabi, training manuals, and orientation packets into a living, personalized study plan that adapts to real life. The app solves the common problem of people knowing what they need to learn but not knowing where to start, especially when deadlines, readings, and assignments are buried in long PDFs. Users import a syllabus, and the app extracts key dates, concepts, workload estimates, and dependencies, then breaks everything into tiny daily actions that fit the user\u2019s available time. For example, a student with a part-time job might get a 20-minute reading sprint plus a 5-minute review reminder on busy weekdays, while a first-time employee in a certification program might receive a pre-meeting recap of the next required topic. What makes it unique is that it doesn\u2019t just summarize material; it converts academic and training documents into a realistic execution system that reschedules automatically when life gets in the way. It helps users avoid panic cramming, missed milestones, and the mental overload of deciding what to study next. Instead of being another flashcard app or note organizer, it acts like a smart learning operations manager for everyday education.",
+  "features": [
+    "The app scans syllabi, PDFs, and training handbooks to detect deadlines, readings, quizzes, and hidden prerequisites, which saves users from manually decoding dense documents.",
+    "It generates a day-by-day learning plan based on the user\u2019s calendar, commute time, energy preferences, and upcoming deadlines, making study plans actually realistic.",
+    "It automatically reshuffles tasks when a user misses a session or gets a new conflict, which prevents one bad day from collapsing the whole plan.",
+    "The app creates micro-lessons from assigned material by turning chapters into short prompts, summaries, and self-check questions, helping users learn during small pockets of time.",
+    "It sends context-aware nudges tied to real-life moments, such as reminding a user to review a concept before a lab, interview, or class discussion, which improves retention and confidence."
+  ],
+  "audience": "High school, college, and adult learners ages 15-45 who juggle classes, jobs, family responsibilities, or certification programs. It is especially useful for people who struggle with executive function, time management, or overwhelm when facing large, document-heavy learning requirements.",
+  "category": "education",
+  "useCases": [
+    "Maya has three college classes, a weekend job, and a messy chemistry syllabus that she keeps ignoring. She opens the app after class, imports the PDF, and gets a feasible 15-minute plan for the next four days.",
+    "Jamal just started a pharmacy technician certification and received a 90-page handbook with six exam dates. He uses the app to convert it into a weekly checklist and gets reminders to study the exact topics that will appear in his next practical assessment.",
+    "Elena is a new manager trying to finish compliance training between meetings. She opens the app during lunch, and it gives her a quick review session plus a rescheduled plan after her afternoon meeting runs long."
+  ]
+}

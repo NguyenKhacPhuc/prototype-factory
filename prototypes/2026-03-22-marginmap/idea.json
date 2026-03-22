@@ -1,0 +1,19 @@
+{
+  "name": "MarginMap",
+  "tagline": "Find the book behind any idea.",
+  "description": "MarginMap is a reading companion that turns your highlights, notes, and even vague memories into a living knowledge map across the books you read. It solves the frustrating problem of remembering a useful concept but not where you saw it, letting users ask questions like \"What book explained decision fatigue?\" or \"Which author compared habits to compound interest?\" and get pinpointed answers with quotes, chapter context, and linked ideas. In daily life, it helps students recover citations fast, professionals revisit key frameworks before meetings, and curious readers rediscover forgotten passages without rereading entire books. For example, a marketer can search their entire library for the strongest argument about pricing psychology, while a parent can pull up the exact children\u2019s book that explained a tricky life lesson. What makes it unique is that it does more than search text: it connects themes, concepts, and personal annotations into a visual memory graph that shows how ideas recur across different books. It also learns from your reading habits to surface relevant references before you even ask, such as suggesting the chapter you previously saved on negotiation right before a sales call. Instead of being a static catalog, MarginMap becomes an intelligent reference layer over your personal bookshelf.",
+  "features": [
+    "The app indexes your highlights, annotations, and imported book text so you can search by idea, not just by exact words, which makes it much easier to find half-remembered insights.",
+    "A visual idea graph links related passages across multiple books, helping users see how authors, themes, and concepts connect over time.",
+    "Smart recall prompts surface past quotes and notes based on your calendar, location, or current reading, so important references appear when they are most useful.",
+    "Context-aware citation cards show the original page, chapter, edition, and surrounding paragraphs, which is critical for students, writers, and researchers who need accurate sources.",
+    "A private study mode turns saved passages into adaptive review cards, helping users retain useful reference material without manually creating flashcards."
+  ],
+  "audience": "Students, researchers, lifelong learners, writers, and knowledge workers ages 18\u201345 who read across multiple books and need to retrieve insights quickly in work, study, or personal projects.",
+  "category": "books & reference",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to remember the book passage she saved about handling conflict calmly, so she opens MarginMap and searches for the idea instead of the exact wording.",
+    "Jordan is writing a paper and needs the source for a quote about attention spans, so he uses the app to find the original chapter, page number, and his own note from when he highlighted it.",
+    "Mina is preparing for a negotiation and wants a quick refresher on persuasive tactics she read months ago, so she opens the app and gets a curated set of relevant passages from across her library."
+  ]
+}

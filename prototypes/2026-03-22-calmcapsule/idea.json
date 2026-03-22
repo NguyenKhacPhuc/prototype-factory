@@ -1,0 +1,19 @@
+{
+  "name": "CalmCapsule",
+  "tagline": "Tiny moments that tame big feelings.",
+  "description": "CalmCapsule is a pocket-size emotional coaching app for kids that turns overwhelming moments into quick, interactive reset missions. When a child feels angry after a playground argument, nervous before a class presentation, or stuck in a bedtime spiral, the app guides them through a personalized 60- to 180-second sequence using voice prompts, animated breathing, movement challenges, and simple choices. It solves the real problem of kids having big emotions but not enough language or tools to manage them independently in the moment. Parents and caregivers can set up kid-friendly \u201ccalm plans\u201d for common triggers like sharing, transitions, homework frustration, and sibling conflict, so the app adapts to each child\u2019s daily life. A child might tap \u201cI feel mad,\u201d then follow a superhero-style mission that asks them to squeeze their hands, name three red objects in the room, and choose between two repair options like \u201cask for space\u201d or \u201cuse kind words.\u201d What makes CalmCapsule unique is that it is not a passive meditation library or a generic timer; it uses short story-based interventions that teach emotional regulation through play, making coping skills feel like a game kids actually want to use.",
+  "features": [
+    "The app offers emotion-specific reset missions that change based on whether a child feels angry, worried, embarrassed, or overstimulated, which matters because different feelings need different kinds of support.",
+    "A parent setup flow lets caregivers map common triggers to custom calm plans, so the app responds to real household situations like bedtime resistance or homework meltdowns instead of using one-size-fits-all advice.",
+    "Kid-friendly voice guidance and simple animated prompts walk children through breathing, grounding, and movement activities without requiring reading, making the app usable for younger kids and early readers.",
+    "A post-calm reflection step helps children choose a next action, such as apologizing, asking for help, or taking a break, which matters because regulation is more useful when it leads to real-world problem solving.",
+    "The app tracks patterns like frequent frustration after school or anxiety on Sunday nights and gives caregivers gentle insights, helping families spot triggers early and support kids before a meltdown starts."
+  ],
+  "audience": "Kids ages 4\u201310 who need help managing big emotions, especially those with sensitive temperaments, anxiety, or difficulty transitioning between activities. It also serves parents, teachers, and caregivers looking for fast, practical support during daily friction points at home, school, or aftercare.",
+  "category": "kids",
+  "useCases": [
+    "Maya just got home from school upset because a classmate said something mean, and her mom opens CalmCapsule to guide her through a three-minute 'shield mode' reset before dinner.",
+    "Eli is lying in bed staring at the ceiling, worried about tomorrow\u2019s spelling quiz, and he uses the app\u2019s bedtime calm plan to slow his breathing and pick a brave thought.",
+    "Noah is about to lose it after being told it\u2019s time to stop playing and get in the car, so his dad launches a transition mission that helps him finish with a choice and leave without a full meltdown."
+  ]
+}
