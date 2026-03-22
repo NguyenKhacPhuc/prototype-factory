@@ -1,0 +1,26 @@
+{
+  "appName": "Mood Nest",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C6EFA",
+    "secondary": "#4ECDC4",
+    "background": "#0C0F1A",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-left",
+    "arrow-right",
+    "book-open",
+    "check",
+    "chevron-right",
+    "home",
+    "layers",
+    "moon",
+    "sparkles",
+    "sun",
+    "trending-up"
+  ],
+  "fonts": [],
+  "iconCount": 11,
+  "fontFileCount": 0
+}

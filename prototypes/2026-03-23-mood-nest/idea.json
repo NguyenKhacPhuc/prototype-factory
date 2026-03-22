@@ -1,0 +1,19 @@
+{
+  "name": "Mood Nest",
+  "tagline": "Turn your home into a calmer day",
+  "description": "Mood Nest is a home-context lifestyle app that helps people match their living space to their emotional state, schedule, and energy level in real time. Instead of offering generic wellness tips, it uses quick check-ins, optional calendar cues, and simple room-by-room prompts to suggest tiny environmental changes like lighting, sound, scent, clutter resets, or movement breaks. The app solves the common problem of feeling drained, scattered, or overstimulated at home without knowing what to change first. It helps users through daily life by turning a stressful morning, unfocused afternoon, or restless evening into a sequence of practical micro-adjustments that feel doable in minutes. For example, it might recommend a five-minute \u201clanding ritual\u201d after work, a focus setup for a kitchen table workspace, or a wind-down scene for a sleepless night. What makes it unique is that it treats the home as a responsive system rather than a static space, using context-aware guidance to shape the environment around the user\u2019s needs instead of demanding a full routine overhaul.",
+  "features": [
+    "The app creates a quick \"home mood map\" based on how the user feels, what time it is, and what activity they are about to do, so recommendations are timely and specific.",
+    "It suggests tiny room changes like dimming lights, opening a window, moving one chair, or playing a certain soundscape because small adjustments are easier to follow than full organization projects.",
+    "It includes situational routines such as \"reset after guests,\" \"focus for 25 minutes,\" or \"sleepy Sunday evening\" that give users concrete guidance for common home-life transitions.",
+    "It learns which changes actually improve the user\u2019s mood and energy over time, so the app becomes more personal and less repetitive with continued use.",
+    "It can turn everyday objects into low-effort wellness tools by linking to things the user already owns, making the advice practical, affordable, and easy to act on immediately."
+  ],
+  "audience": "Adults ages 22-45 who spend significant time at home, especially remote workers, young parents, apartment dwellers, and people managing stress or sensory overload. It is especially useful for users who want a calmer living environment but do not have time for major home organization or interior design projects.",
+  "category": "lifestyle",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to decompress before dinner, so she opens the app and gets a five-minute \"transition mode\" with lighting, music, and a quick reset checklist.",
+    "Daniel is trying to work from his kitchen table but keeps getting distracted, so he asks the app for a focus setup and is guided to reposition his chair, silence notifications, and create a visual boundary with objects he already has.",
+    "Mina wakes up restless on a Sunday and does not know why her apartment feels off, so she uses Mood Nest to get a simple \"home refresh\" plan that suggests opening curtains, clearing one surface, and adding a calming soundscape."
+  ]
+}

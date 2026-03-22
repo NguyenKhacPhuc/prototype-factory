@@ -1,0 +1,12 @@
+{
+  "appName": "Mood Nest",
+  "tagline": "Turn your home into a calmer day",
+  "designSystem": {
+    "primaryColor": "#7C6EFA",
+    "secondaryColor": "#4ECDC4",
+    "backgroundColor": "#0C0F1A",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark glassmorphic lifestyle app with vibrant purple-teal gradient accents, warm amber highlights, and card-based UI. Uses layered depth, soft glows, and environmental imagery to evoke a calm, home-focused mood."
+  },
+  "screens": ["home", "nest", "routines", "journal", "settings"]
+}
