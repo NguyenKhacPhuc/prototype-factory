@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { ComingSoonModal } from "./create-coming-soon-modal";
 
 interface Props {
   navigate: (to: string) => void;
@@ -14,14 +15,17 @@ const EXAMPLES = [
 
 export function Create({ navigate }: Props) {
   const [prompt, setPrompt] = useState("");
+  const [showModal, setShowModal] = useState(false);
 
   const handleGenerate = () => {
     if (!prompt.trim()) return;
-    navigate("/canvas");
+    // Canvas navigation deferred — show coming soon modal
+    setShowModal(true);
   };
 
   return (
     <div style={{ maxWidth: 720, margin: "0 auto", padding: "60px 32px 100px" }}>
+      {showModal && <ComingSoonModal onClose={() => setShowModal(false)} />}
       <div style={{ textAlign: "center" as const, marginBottom: 40 }}>
         <span style={{
           display: "inline-block", fontSize: 11, fontWeight: 700,
