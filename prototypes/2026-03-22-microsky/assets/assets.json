@@ -1,0 +1,29 @@
+{
+  "appName": "MicroSky",
+  "fontFamily": "Outfit",
+  "colors": {
+    "primary": "#22d3ee",
+    "secondary": "#a78bfa",
+    "background": "#06101f",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-right",
+    "battery",
+    "check-circle",
+    "chevron-right",
+    "clock",
+    "info",
+    "map-pin",
+    "moon",
+    "plus",
+    "sun",
+    "timer",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 14,
+  "fontFileCount": 0
+}

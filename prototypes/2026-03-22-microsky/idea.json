@@ -1,0 +1,19 @@
+{
+  "name": "MicroSky",
+  "tagline": "Street-level weather for real decisions.",
+  "description": "MicroSky turns hyperlocal weather into practical, minute-by-minute decision support for people moving through cities and unpredictable outdoor spaces. Instead of showing only broad neighborhood forecasts, it combines real-time weather radar, wind tunnels between buildings, shade patterns, flood-prone intersections, and pollen hotspots to tell users what conditions feel like on their exact route. The app solves a common daily problem: standard weather apps say it will rain in a city, but they rarely tell you whether the rain will hit your block in five minutes, whether your bike route will be battered by crosswinds, or whether the sidewalk caf\u00e9 you planned to meet at will still be comfortable. It helps users decide when to leave, which route to take, whether to bring a jacket, and where to wait if conditions are about to change. For example, a commuter can get a \u201cdry window\u201d alert for a 12-minute walk to the train, while a parent can see that the playground is sunny but the return path will be soaked. What makes it unique is that it converts weather into location-specific actions, using street-level microclimate modeling rather than generic city forecasts. It feels less like a forecast app and more like a weather-aware navigator for daily life.",
+  "features": [
+    "The app generates block-by-block condition maps that show wind, rain onset, heat, and shade at a scale useful for walking, biking, and transit transfers.",
+    "It predicts short-lived 'safe windows' for errands or commutes, helping users time departures to avoid getting caught in sudden rain or extreme wind.",
+    "It suggests weather-smart routes that may be slightly longer but are calmer, cooler, or drier based on trees, building cover, and flood exposure.",
+    "It sends context-aware alerts for activities like school pickup, outdoor workouts, caf\u00e9 meetings, and deliveries, explaining the specific local risk in plain language.",
+    "It learns a user\u2019s habits and frequent locations to personalize recommendations, so the app gets better at advising when and how they typically move through the city."
+  ],
+  "audience": "Urban commuters, cyclists, parents, runners, delivery workers, and anyone who regularly moves between outdoor and indoor spaces in cities. It is especially useful for people aged 18\u201355 who need weather decisions to be fast, specific, and practical rather than broadly informative.",
+  "category": "weather",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to walk to a caf\u00e9 without arriving soaked, so she opens MicroSky to find the exact five-minute window before the rain reaches her block. The app recommends a shaded route and tells her which street corners will get windy enough to make waiting unpleasant.",
+    "Marcus is a delivery rider deciding between two routes to drop off dinner orders, and he checks MicroSky to avoid a flooded underpass and a strong crosswind corridor. He chooses a slightly longer path that keeps his bike steadier and helps him stay on schedule.",
+    "Ava is picking up her son from school and wants to know whether the playground will still be tolerable for ten more minutes. MicroSky shows that the schoolyard will stay dry, but the walk home will become stormy, so she waits under cover until the rain passes."
+  ]
+}

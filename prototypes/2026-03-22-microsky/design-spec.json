@@ -1,0 +1,12 @@
+{
+  "appName": "MicroSky",
+  "tagline": "Street-level weather for real decisions.",
+  "designSystem": {
+    "primaryColor": "#22d3ee",
+    "secondaryColor": "#a78bfa",
+    "backgroundColor": "#06101f",
+    "fontFamily": "Outfit",
+    "style": "Dark-first glassmorphic weather UI with vibrant cyan-violet accent palette, block-level SVG map overlays, and card-based microclimate data visualization"
+  },
+  "screens": ["Now (Home)", "Block Map", "Smart Routes", "Alerts", "Profile & Settings"]
+}
