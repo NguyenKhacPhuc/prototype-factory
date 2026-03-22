@@ -1,0 +1,40 @@
+{
+  "appName": "ClipCue",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#EC4899",
+    "background": "#F4F1FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-up-right",
+    "battery",
+    "bell",
+    "bookmark",
+    "chevron-right",
+    "eye",
+    "film",
+    "heart",
+    "home",
+    "loader",
+    "lock",
+    "mic",
+    "moon",
+    "pencil",
+    "play",
+    "plus",
+    "search",
+    "settings",
+    "sparkles",
+    "sun",
+    "tag",
+    "video",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 25,
+  "fontFileCount": 0
+}

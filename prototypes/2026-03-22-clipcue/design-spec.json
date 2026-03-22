@@ -1,0 +1,12 @@
+{
+  "appName": "ClipCue",
+  "tagline": "Find the moment without rewatching.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#EC4899",
+    "backgroundColor": "#F4F1FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern card-based UI with vibrant violet primary palette, gradient thumbnails, pill-shaped filter chips, and a clean hierarchy using bold 800-weight headings. Light and dark themes both built around a violet/purple accent with complementary pink, green, and blue secondaries. Micro-interactions on card press with smooth theme transitions."
+  },
+  "screens": ["home", "search", "library", "reels", "settings"]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ClipCue",
+  "tagline": "Find the moment without rewatching.",
+  "description": "ClipCue turns long videos into searchable, context-rich timelines by automatically detecting meaningful moments such as people speaking, objects appearing, emotional spikes, and scene changes. It solves the everyday frustration of digging through hours of footage to find one useful clip, whether that\u2019s a baby\u2019s first steps, a missed instruction in a lecture, or the exact second a repair tutorial explains the fix. In daily life, it helps users quickly resurface important moments from camera rolls, recordings, and live captures without manually scrubbing through each file. For example, a parent can search \"first words\" and jump to the right segment, a student can find the professor\u2019s board explanation from a 90-minute lecture, and a small business owner can pull the exact customer reaction from a product demo video. What makes ClipCue unique is that it builds a semantic map of each video, so users can search by intent, not just by file name or visual thumbnail. It also creates lightweight moment summaries and shareable clips that preserve surrounding context, reducing the risk of missing what happened before or after the key event.",
+  "features": [
+    "The app auto-tags videos with searchable moments like speech, laughter, motion peaks, objects, and scene changes, so users can find relevant segments in seconds instead of scrubbing manually.",
+    "It lets users search in natural language, such as 'when he explains the second step' or 'the part with the red backpack,' which matters because people remember context better than timestamps.",
+    "ClipCue generates compact moment summaries that show what happened before and after a highlight, helping users avoid sharing out-of-context clips or missing important setup.",
+    "The app creates smart highlight reels from long recordings based on user goals, such as a baby's milestones, a class lecture, or a home renovation process, saving time and organizing memory.",
+    "It supports shareable, privacy-aware clip links with optional blur and audio trimming, allowing users to send useful moments without exposing the entire original video.",
+    "audience"
+  ],
+  "audience": "Busy parents, students, creators, journalists, and small business owners who regularly record long videos and need to retrieve specific moments fast. It is especially useful for people who collect lots of footage on their phones but do not have time to edit or manually organize it.",
+  "category": "photo & video",
+  "useCases": [
+    "Maya just filmed her toddler\u2019s birthday party and wants to find the exact moment her son blew out the candles without watching the full 20-minute recording. She opens ClipCue, searches 'candles,' and jumps straight to the best 12-second clip.",
+    "Jordan recorded a two-hour training session for work and needs the part where the manager explains the new refund policy. He searches 'refund policy' and instantly gets the exact segment plus a summary of the surrounding context.",
+    "Elena is a DIY hobbyist who filmed herself fixing a sink and now wants to share the step where the leak finally stops. She uses ClipCue to isolate that moment, blur the messy background, and send a clean clip to her friend."
+  ]
+}
