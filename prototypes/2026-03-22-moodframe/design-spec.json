@@ -1,0 +1,18 @@
+{
+  "appName": "MoodFrame",
+  "tagline": "Turn moods into visual direction.",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#08080F",
+    "fontFamily": "Outfit",
+    "style": "Dark-first mobile creative tool with deep violet primary, amber accent, and teal highlights. Layered surface depths with subtle glow effects, pill chips, gradient banners, and circular score rings. Minimal borders with high contrast typography."
+  },
+  "screens": [
+    "Create — Mood keyword chips + free-text input → AI-translated visual direction with color palette, textures, composition, and lighting guidance",
+    "Scan — Camera viewfinder with animated scan line, scene detection, confidence scoring, and matched visual direction",
+    "Boards — Mood board gallery with color strip thumbnails, drill-down board detail view with grid items and tags",
+    "Export — Style consistency checker with animated score ring + recommendations, plus export format selector (Designer Brief, Client PDF, Social Pack)",
+    "Profile — User card with stats, Pro plan badge, dark/light theme toggle with animated switch, and app preferences"
+  ]
+}

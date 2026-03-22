@@ -1,0 +1,21 @@
+{
+  "name": "MoodFrame",
+  "tagline": "Turn moods into visual direction.",
+  "description": "MoodFrame is a mobile creative companion that helps people turn vague feelings, half-formed ideas, and emotional states into usable visual direction for photos, videos, mood boards, branding, and content creation. Many creators know what they want to feel but cannot describe it clearly, which leads to endless scrolling, creative blocks, and inconsistent output. The app solves that by translating short voice notes, emotional keywords, or camera-captured scenes into a structured visual language made of color palettes, texture suggestions, composition prompts, and stylistic references. In daily life, it can help a freelancer define the tone of a client pitch, help a student build a presentation aesthetic, or help a small business owner shape a social post that matches a campaign mood. For example, a user can say \u201ccalm but expensive\u201d and instantly get a set of matte neutrals, soft lighting prompts, minimalist layouts, and reference directions that are easy to apply. What makes MoodFrame unique is that it does not just generate inspiration images; it builds actionable creative instructions from emotion, making it useful as a bridge between feeling and execution.",
+  "features": [
+    "Emotion-to-style translation turns a spoken mood like \u201cmoody but hopeful\u201d into color, texture, and composition guidance that creators can actually use.",
+    "The camera can scan a real-world scene, such as a caf\u00e9, sunset, or outfit, and suggest matching visual themes for projects on the spot.",
+    "A mood board builder assembles organized, editable boards from generated references, saved photos, and notes so users can quickly shape a project direction.",
+    "Style consistency tracking compares new ideas against an existing project palette and warns when the creative direction drifts too far from the intended vibe.",
+    "Quick export packs convert a chosen mood into shareable briefs for designers, editors, clients, or social media teams, saving time in collaboration.",
+    "audience",
+    "target audience and context: "
+  ],
+  "audience": "It is designed for creators aged 18\u201340, including freelancers, social media managers, indie brand owners, students, and hobbyists who regularly need to define a visual direction quickly. It is especially useful for people who think emotionally or visually but struggle to articulate aesthetics in words.",
+  "category": "creative tools",
+  "useCases": [
+    "Sarah just finished a stressful client meeting and wants to build a mood board for a luxury wellness brand. She speaks \u201cquiet, restorative, high-end\u201d into the app and uses the generated palette and layout cues to start designing immediately.",
+    "Omar is planning a short Instagram campaign for his coffee shop and needs a coherent look for three posts. He photographs the texture of a latte art cup, and MoodFrame suggests matching tones, props, and framing ideas for the whole series.",
+    "Jia is a design student preparing a presentation and only knows she wants it to feel \u201cfuture nostalgia.\u201d She uses the app to convert that phrase into a visual brief, helping her move from a vague concept to a polished creative direction."
+  ]
+}
