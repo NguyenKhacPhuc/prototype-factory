@@ -1,0 +1,18 @@
+{
+  "appName": "CivicPulse",
+  "tagline": "News that affects your day now.",
+  "designSystem": {
+    "primaryColor": "#00D4AA",
+    "secondaryColor": "#5B7FFF",
+    "backgroundColor": "#06101E",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first civic dashboard with vibrant teal-green accent on deep navy. Card-based information hierarchy with color-coded severity indicators (red/amber/teal). Frosted glass navigation, dynamic island notch, micro-interactions on every interactive element. SVG city map with alert zone overlays. Smooth theme transitions between dark navy and light blue-white modes."
+  },
+  "screens": [
+    "Briefing — Personalized morning digest with severity-coded impact cards, filter chips, expandable detail panels with action CTAs",
+    "Map — Interactive SVG city grid with alert zone overlays, tappable pins with popup details, filter by alert type, legend",
+    "Actions — Recommended next steps with completion tracking, progress bar, toggle-to-complete micro-interaction",
+    "Community — Expandable context articles with vote/comment counts, category badges, full background explanations",
+    "Settings — Profile, dark/light theme toggle, location zones, notification preferences with live toggles, trusted sources"
+  ]
+}

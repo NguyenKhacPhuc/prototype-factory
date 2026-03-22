@@ -1,0 +1,19 @@
+{
+  "name": "CivicPulse",
+  "tagline": "News that affects your day now.",
+  "description": "CivicPulse turns local news into an action-ready personal briefing by translating neighborhood events, city decisions, and service disruptions into the exact ways they affect your schedule, money, and safety. Instead of dumping endless headlines, it detects relevance from your home, commute, job, and routines, then explains what changed in plain language, such as how a transit strike will alter your route or how a zoning vote could impact your rent neighborhood. It solves the common problem of news overload and vague civic coverage by focusing only on timely information that has practical consequences for daily life. Users can quickly see alerts like a boil-water notice near their school, a road closure on their commute, or a sudden policy change that affects local business hours, then tap to get concise context and recommended next steps. The app is unique because it combines journalism, mapping, and personal context into a news layer that is not just informative but operational. It helps users make immediate decisions, whether that means leaving early, adjusting a delivery route, preparing for a weather-related service outage, or showing up to a public hearing with the right background. Rather than asking people to become news experts, CivicPulse makes the news act like a smart assistant for everyday civic life.",
+  "features": [
+    "The app builds a personalized local briefing each morning by combining trusted news sources, transit feeds, weather alerts, school notices, and city updates into one concise digest.",
+    "It explains each story in impact-first language, showing users exactly what the news means for their commute, wallet, neighborhood, or family schedule.",
+    "An interactive map highlights events within user-defined zones, so a resident can instantly see which streets, services, or venues are affected right now.",
+    "Smart follow-up cards suggest immediate actions, such as rescheduling errands, taking an alternate route, or joining a community meeting related to the issue.",
+    "A community context layer summarizes related background, helping users understand why a news event matters without forcing them to read multiple long articles."
+  ],
+  "audience": "Urban and suburban adults ages 22-55 who juggle work, commuting, caregiving, and civic responsibilities. It is especially useful for busy professionals, parents, renters, freelancers, and community-minded residents who need news to be practical, local, and immediate.",
+  "category": "news",
+  "useCases": [
+    "Maya is leaving for work when she gets a CivicPulse alert that a bridge closure will add 20 minutes to her commute, so she switches to a faster transit route before she gets stuck in traffic.",
+    "David is picking up his kids after school and checks the app to see that a water main break has affected the block near the playground, helping him decide whether to change plans and bring bottled water.",
+    "Leah is a renter who hears about a sudden zoning proposal and opens CivicPulse to understand how it could affect nearby construction, then saves the briefing so she can speak at the city meeting that night."
+  ]
+}
