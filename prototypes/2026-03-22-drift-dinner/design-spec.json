@@ -1,0 +1,18 @@
+{
+  "appName": "Drift Dinner",
+  "tagline": "Eat well, even when life changes",
+  "designSystem": {
+    "primaryColor": "#FF6B35",
+    "secondaryColor": "#FFB347",
+    "backgroundColor": "#0C0B09",
+    "fontFamily": "Outfit",
+    "style": "Dark-first warm organic UI with amber-orange accent. Deep near-black backgrounds with layered card surfaces, subtle warm borders, and a vibrant coral-orange primary that contrasts cleanly. Light mode uses warm cream and white surfaces. Timeline-based 72hr plan, card-first layouts, and bottom navigation with emoji tabs. Micro-interactions on all tappable elements."
+  },
+  "screens": [
+    "Today (Home) — time-aware greeting, adapted dinner suggestion, pantry expiry alert, quick mood check-in, tomorrow preview",
+    "Pantry — ingredient inventory with expiry countdown, category stats, use-soon warnings, add item",
+    "72hr Plan — rolling meal timeline with effort indicators, ingredient pills, swap triggers, zero-waste banner",
+    "Mood Match — 2x3 mood grid with animated selection, personalized meal suggestion card, one-tap adopt",
+    "Settings — profile card, dark/light theme toggle, calendar sync, diet prefs, notification controls"
+  ]
+}

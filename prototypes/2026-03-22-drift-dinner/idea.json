@@ -1,0 +1,19 @@
+{
+  "name": "Drift Dinner",
+  "tagline": "Eat well, even when life changes",
+  "description": "Drift Dinner is a smart lifestyle app that helps people make realistic meal plans around the messy reality of changing schedules, moods, and budgets. Instead of giving users static recipes for the week, it builds a flexible dining plan that adapts in real time when meetings run late, energy drops, groceries run out, or friends suddenly invite you out. The app learns your kitchen habits, favorite takeout spots, pantry staples, and time windows to suggest what to eat now, later, or tomorrow without waste or guilt. For example, if you get home at 8:40 p.m. after commuting, it can automatically swap a complicated stir-fry for a 12-minute pantry bowl and adjust tomorrow\u2019s lunch plan to use the leftover ingredients. What makes it unique is that it treats eating as a living decision system, not a rigid meal calendar, combining calendar awareness, ingredient forecasting, and mood-based suggestions in one place. It also helps users reduce food spoilage and decision fatigue by showing the easiest path to a good meal based on what they actually have time and energy to do. Unlike generic recipe apps, Drift Dinner is designed for the real-life moments when plans collapse and you still need to eat well.",
+  "features": [
+    "The app syncs with your calendar and learns your usual energy patterns so it can recommend meals that match the time and effort you realistically have available.",
+    "It scans your pantry and fridge inventory, then suggests recipes that use ingredients before they expire, helping users save money and reduce food waste.",
+    "It includes a real-time swap system that can instantly replace a planned dinner with a faster, cheaper, or healthier option when your day changes unexpectedly.",
+    "It offers mood-aware meal suggestions based on quick check-ins, which matters because people often need comfort food, something light, or something energizing depending on the day.",
+    "It creates a rolling meal map for the next 72 hours, so one decision at dinner can intelligently shape leftovers, groceries, and tomorrow\u2019s lunch without extra planning.",
+    "Adults aged 22-45 who juggle work, commuting, shared apartments, or family responsibilities and want healthier eating without rigid meal prep. It is especially useful for busy urban professionals, remote workers with irregular schedules, and anyone who often ends up ordering expensive last-minute food."
+  ],
+  "category": "lifestyle",
+  "useCases": [
+    "Sarah just finished a stressful meeting and sees that she has only 15 minutes before she has to pick up her kid, so Drift Dinner suggests a quick skillet meal using the spinach and eggs already in her fridge. It also updates tomorrow\u2019s lunch plan to use the remaining ingredients, so she does not have to think about dinner again tonight.",
+    "Marco is standing in the grocery store after work and realizes he forgot to eat lunch, which usually leads to overspending on delivery later. He opens the app, and it recommends a low-effort dinner that fits his budget, avoids duplicate ingredients, and uses items that will expire soon.",
+    "Alyssa\u2019s friend texts an invitation for a last-minute dinner out, and she does not want to waste the salmon she thawed for tonight. The app instantly shifts her plan, suggests a freezer-safe backup for tomorrow, and adjusts her grocery list so nothing goes bad."
+  ]
+}

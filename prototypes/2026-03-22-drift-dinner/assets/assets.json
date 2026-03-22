@@ -1,0 +1,14 @@
+{
+  "appName": "Drift Dinner",
+  "fontFamily": "Outfit",
+  "colors": {
+    "primary": "#FF6B35",
+    "secondary": "#FFB347",
+    "background": "#0C0B09",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
