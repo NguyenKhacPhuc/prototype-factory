@@ -1,0 +1,36 @@
+{
+  "appName": "StoryPulse",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#00D4AA",
+    "secondary": "#0099FF",
+    "background": "#080C16",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "bookmark",
+    "chevron-right",
+    "compass",
+    "copy",
+    "home",
+    "lightbulb",
+    "map-pin",
+    "moon",
+    "newspaper",
+    "search",
+    "settings",
+    "signal",
+    "sparkles",
+    "sun",
+    "type",
+    "user",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 21,
+  "fontFileCount": 0
+}

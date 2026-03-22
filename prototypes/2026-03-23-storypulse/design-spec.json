@@ -1,0 +1,12 @@
+{
+  "appName": "StoryPulse",
+  "tagline": "News shaped to your real day.",
+  "designSystem": {
+    "primaryColor": "#00D4AA",
+    "secondaryColor": "#0099FF",
+    "backgroundColor": "#080C16",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first news reader with vibrant teal-to-blue gradient accent, deep navy surfaces, and a clean editorial hierarchy. Context-aware card system with urgency indicators and decision-ready bundles."
+  },
+  "screens": ["home", "discover", "pulse", "saved", "settings"]
+}

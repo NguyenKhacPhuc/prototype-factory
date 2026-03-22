@@ -1,0 +1,19 @@
+{
+  "name": "StoryPulse",
+  "tagline": "News shaped to your real day.",
+  "description": "StoryPulse is a magazine and newspaper app that reorganizes the day\u2019s coverage around what you actually need to do, not just what is trending. Instead of feeding users a flat, endless news feed, it turns articles into practical briefings tied to context like commuting, parenting, job hunting, travel, or financial decisions. If a user is heading to work, the app might surface traffic policy changes, labor headlines, and a five-minute local briefing; if they are planning a trip, it can prioritize weather disruptions, airport advisories, and destination-specific coverage. The app solves the common problem of news overload, where important stories get buried under repetitive headlines and users stop reading altogether. It also helps people make smarter daily choices by pairing journalism with relevance markers such as time sensitivity, geographic impact, and emotional load. What makes StoryPulse unique is its adaptive editorial layer: it groups articles into decision-ready bundles, summarizes them in multiple lengths, and explains why each story matters right now. Rather than replacing journalism, it makes magazines and newspapers feel more usable, personal, and timely in everyday life.",
+  "features": [
+    "The app creates daily context packs based on where you are, what time it is, and what kind of day you are having, so the news arrives in a format that fits the moment.",
+    "Each article includes a 'why this matters now' explainer that translates broad headlines into concrete personal impact, such as commute delays, price changes, or neighborhood policy effects.",
+    "Users can switch between quick scans, moderate summaries, and full original reporting, which helps them stay informed even when they only have a few minutes.",
+    "The app detects repeated coverage across multiple outlets and merges overlapping stories into one clean briefing, reducing duplication and news fatigue.",
+    "A daily decision dashboard highlights actionable items like local weather alerts, ballot deadlines, travel disruptions, and market shifts, making the app useful beyond passive reading."
+  ],
+  "audience": "Busy adults ages 25-55 who want trustworthy news without spending hours searching for relevance. It is especially useful for commuters, parents, freelancers, travelers, and professionals who need fast context-aware updates throughout the day.",
+  "category": "magazines & newspapers",
+  "useCases": [
+    "Sarah just finished a stressful meeting and has 8 minutes before picking up her kids, so she opens StoryPulse to get a parenting-friendly briefing on school policy changes, local traffic, and any weather alerts that could affect pickup.",
+    "Daniel is on the train to the office and wants to know whether today\u2019s headline economic news affects his industry, so the app surfaces a compact briefing with a plain-language summary and links to the full reporting.",
+    "Mina is planning a last-minute weekend trip and checks StoryPulse for travel-adaptive coverage, finding airport disruptions, destination news, and local magazine-style recommendations all in one place."
+  ]
+}
