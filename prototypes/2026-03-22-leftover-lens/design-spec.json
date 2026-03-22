@@ -1,0 +1,18 @@
+{
+  "appName": "Leftover Lens",
+  "tagline": "Turn pantry odds into real meals.",
+  "designSystem": {
+    "primaryColor": "#F97316",
+    "secondaryColor": "#EA580C",
+    "backgroundColor": "#FFF8F2",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Warm food-forward design with orange as the hero accent. Card-based layout with freshness-aware color coding (green/yellow/red). Rounded corners (16-24px), subtle gradients, and micro-interaction toggles. Light theme uses cream whites and warm tones; dark theme uses deep espresso backgrounds with the same vibrant orange energy."
+  },
+  "screens": [
+    "Scan — Camera scanner with animated beam, post-scan stats (urgent/soon/fresh counts), meal suggestions, and how-it-works onboarding",
+    "Pantry — Ingredient list with freshness badges, category filters (Fridge/Pantry/Freezer), urgent expiry banner, add-item CTA",
+    "Meals — Featured urgent meal hero card, full recipe list with match %, detailed recipe view with step-by-step cook mode and substitution tips",
+    "Plan — Weekly meal plan with leftover chains, smart nudges, leftover flow visualization, and smart grocery add-ons",
+    "Profile/Settings — User stats card, theme toggle (light/dark), dietary preferences, equipment toggles, smart reminders, food rescue impact metrics"
+  ]
+}

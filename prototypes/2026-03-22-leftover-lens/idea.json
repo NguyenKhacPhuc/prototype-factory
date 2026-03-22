@@ -1,0 +1,19 @@
+{
+  "name": "Leftover Lens",
+  "tagline": "Turn pantry odds into real meals.",
+  "description": "Leftover Lens helps people decide what to cook based on the exact random ingredients already in their fridge, pantry, and takeout leftovers. Users snap a photo of their ingredients, and the app identifies what is usable, what is close to expiring, and what combinations can become a complete meal in the time and effort they actually have. It solves the daily problem of food waste and decision fatigue, especially for busy people who open the fridge, see a few mismatched items, and still end up ordering delivery. The app turns those scattered ingredients into concrete meal plans like '15-minute spicy tomato bean tostadas' or 'breakfast fried rice from leftover rice, eggs, and scallions,' complete with substitutions if something is missing. What makes it unique is that it does not just suggest recipes from a pantry list; it dynamically builds meals around perishability, cooking time, dietary preferences, and the user\u2019s current tools such as only having a microwave, air fryer, or one pan. It also helps users plan around future leftovers, so a recipe can intentionally produce ingredients that become tomorrow\u2019s lunch rather than another forgotten container. Over time, the app learns a household\u2019s real habits and suggests patterns like freezer salvage nights, grocery add-ons, and ingredient rescue combinations that prevent waste before it happens.",
+  "features": [
+    "The app scans fridge and pantry photos to recognize ingredients, estimate freshness, and flag items that need to be used soon, which helps reduce waste before food spoils.",
+    "It generates meals based on available ingredients, cooking time, and equipment, so a user can get a realistic dinner idea instead of a recipe that requires extra shopping.",
+    "It suggests smart substitutions when key ingredients are missing, allowing users to cook successfully even if they only have partial matches like yogurt instead of sour cream or spinach instead of kale.",
+    "It creates leftover-aware meal plans that intentionally repurpose extra cooked ingredients into future meals, which helps stretch groceries across several days.",
+    "It learns household eating patterns and sends timely prompts such as 'use the mushrooms tonight' or 'your rice can become tomorrow\u2019s lunch,' making meal planning feel proactive rather than overwhelming."
+  ],
+  "audience": "Busy adults ages 22-45, especially renters, young professionals, students, and small households who cook irregularly and want to waste less food. It also fits budget-conscious families and people who shop without strict meal plans.",
+  "category": "food & drink",
+  "useCases": [
+    "Maya gets home at 8 p.m. after work and opens the fridge to find eggs, half a pepper, cooked rice, and wilted herbs. She uses Leftover Lens to generate three fast dinner options, then chooses a fried rice recipe that uses the ingredients before they spoil.",
+    "Jordan is leaving for a weekend trip and notices a lonely carton of yogurt, some berries, and a nearly empty bag of oats. He opens the app to find a same-day breakfast bowl and a freezer-friendly muffin plan so nothing gets tossed.",
+    "Lena just bought groceries but realizes she already has too many nearly expired vegetables from last week. She scans them into Leftover Lens, which creates a two-night meal plan that uses the fragile produce first and suggests only two extra items to buy."
+  ]
+}
