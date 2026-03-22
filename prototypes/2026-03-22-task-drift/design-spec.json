@@ -1,0 +1,18 @@
+{
+  "appName": "Task Drift",
+  "tagline": "Turn interruptions into momentum.",
+  "designSystem": {
+    "primaryColor": "#6C63FF",
+    "secondaryColor": "#10B981",
+    "backgroundColor": "#F0EEFF",
+    "fontFamily": "Space Grotesk",
+    "style": "Modern productivity UI with soft violet accent palette, electric indigo primary, clean card-based layouts, micro-interactions, and dual light/dark themes"
+  },
+  "screens": [
+    "Home (Today's Overview)",
+    "Interruption Catch (Log disruptions)",
+    "Recovery Replanner (Delay Decoder + rescheduled timeline)",
+    "Re-entry Cards (Context snapshots for WIP tasks)",
+    "Focus Sprint (Countdown timer with task lock-in)"
+  ]
+}

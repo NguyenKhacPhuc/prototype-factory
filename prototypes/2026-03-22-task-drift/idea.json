@@ -1,0 +1,19 @@
+{
+  "name": "Task Drift",
+  "tagline": "Turn interruptions into momentum.",
+  "description": "Task Drift is a productivity app that helps people recover from interruptions by instantly rebuilding their focus around what changed, not just what was planned. It solves the real problem of context collapse: when meetings run long, texts pile up, and a small delay snowballs into lost time and mental fatigue. Instead of asking users to maintain a perfect to-do list, it captures the interruption, estimates the impact on nearby tasks, and suggests the smallest useful next step to get back on track. For example, if a user gets pulled into an urgent client call, the app can rewrite the rest of their afternoon into a realistic sequence with buffer zones, pre-drafted follow-up messages, and a one-tap restart point. In daily life, this helps users move from reactive scrambling to calm recovery after each disruption. What makes it unique is that it treats interruptions as first-class events and optimizes for re-entry speed, not just task tracking. The app feels less like a checklist and more like a personal dispatcher that continuously reshapes the day around reality.",
+  "features": [
+    "Interruption Catch tags incoming disruptions like calls, chats, or surprise requests and automatically records what they disrupted, so users do not waste energy mentally reconstructing the moment later.",
+    "Recovery Replanner rewrites the remaining day after a disruption by reprioritizing tasks, inserting realistic buffers, and showing the least-friction next action, which helps users regain control quickly.",
+    "Re-entry Cards generate a short snapshot of the task context, key notes, and the next step for work-in-progress items, making it easy to resume after a meeting or break without rereading everything.",
+    "Delay Decoder estimates which tasks can slip, which need immediate attention, and which can be delegated, helping users make fast decisions instead of panicking when plans change.",
+    "Focus Sprint mode locks the app into one highly specific action for five to twenty minutes and suppresses unnecessary options, which matters because interrupted workers often need a tiny win before they can rebuild momentum."
+  ],
+  "audience": "Busy professionals, freelancers, managers, and knowledge workers aged roughly 22 to 45 who spend much of their day switching between messages, meetings, and deep work. It is especially useful for people in hybrid or remote roles where schedules change constantly and re-entry into tasks is a frequent challenge.",
+  "category": "productivity",
+  "useCases": [
+    "Sarah just finished a stressful client meeting that ran 20 minutes over, and she opens Task Drift to see which follow-up emails still matter today and which can wait until tomorrow.",
+    "Jamal is halfway through writing a proposal when his team pings him with an urgent issue, so he uses a Re-entry Card later to remember exactly where he left off and restart in under a minute.",
+    "Mina has three back-to-back calls and no real lunch break, so she checks Task Drift to reshuffle her afternoon into short recovery windows instead of pretending the original plan still applies."
+  ]
+}

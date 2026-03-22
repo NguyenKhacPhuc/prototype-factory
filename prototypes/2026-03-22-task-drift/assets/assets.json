@@ -1,0 +1,35 @@
+{
+  "appName": "Task Drift",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#6C63FF",
+    "secondary": "#10B981",
+    "background": "#F0EEFF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-circle",
+    "arrow-down-right",
+    "arrow-right",
+    "battery",
+    "chevron-right",
+    "corner-down-right",
+    "home",
+    "layers",
+    "mail",
+    "message-circle",
+    "moon",
+    "phone",
+    "refresh-cw",
+    "sparkles",
+    "sun",
+    "timer",
+    "users",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 20,
+  "fontFileCount": 0
+}
