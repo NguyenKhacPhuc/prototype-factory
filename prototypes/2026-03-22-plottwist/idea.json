@@ -1,0 +1,20 @@
+{
+  "name": "PlotTwist",
+  "tagline": "Turn idle moments into mini stories.",
+  "description": "PlotTwist is a location-aware micro-entertainment app that transforms everyday downtime into interactive, personalized audio story worlds. Instead of scrolling endlessly for something to watch or read, users tap a mood, time limit, and environment, and the app generates a short narrative adventure that fits the moment, such as a noir mystery for a rainy commute or a surreal comedy for waiting in line. It solves the common problem of fragmented attention by delivering entertainment that starts instantly, adapts to real-world context, and ends before the user loses interest. In daily life, it helps people make small pockets of time feel fun and intentional, whether they are walking to class, taking a lunch break, or unwinding before bed. A commuter could listen to a six-minute spy episode that shifts based on whether they are on a train or bus, while a parent in a waiting room could get a choose-your-own-adventure segment that pauses cleanly when interrupted. What makes it unique is that it blends entertainment, context awareness, and adaptive storytelling so the content feels handcrafted for the exact moment, rather than a generic feed of videos or podcasts.",
+  "features": [
+    "Mood-to-story matching turns a quick emotional check-in into a tailored genre and pacing choice, which makes it easy to find the right kind of entertainment without browsing for minutes.",
+    "Context-aware episode generation uses time of day, location, and available listening time to create stories that fit real-life gaps, so a five-minute wait becomes a complete and satisfying experience.",
+    "Branching micro-choices let listeners influence the direction of the story in one tap, giving users a sense of agency without requiring the long commitment of a full interactive game.",
+    "Smart interruption handling automatically pauses, summarizes, and resumes stories after calls, notifications, or stops in transit, which prevents users from losing track of the plot in busy environments.",
+    "Shareable scene cards let users save their favorite twists or funny lines as visual snippets, turning personal listening moments into social entertainment they can quickly send to friends.",
+    "audience"
+  ],
+  "audience": "Busy Gen Z and millennial smartphone users, especially commuters, students, and young professionals who want entertainment in short bursts. It also appeals to people who enjoy storytelling, audio content, and interactive experiences but do not have time for long-form media.",
+  "category": "entertainment",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to reset before her next call, so she opens PlotTwist for a three-minute absurd office heist that matches her energy and makes the walk to her next appointment feel lighter.",
+    "Jamal is stuck on a delayed train with only ten minutes left on his battery, so he starts a context-aware mystery episode that gives him a complete story arc before he reaches his stop.",
+    "Priya is waiting in line at a coffee shop and does not want to mindlessly scroll, so she picks a short fantasy segment with one-tap choices that keeps her entertained without pulling her too deeply out of the moment."
+  ]
+}

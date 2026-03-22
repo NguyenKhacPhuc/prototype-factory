@@ -1,0 +1,42 @@
+{
+  "appName": "PlotTwist",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#9B6DFF",
+    "secondary": "#FF6B9D",
+    "background": "#0B0B14",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-circle",
+    "battery",
+    "bell",
+    "book-marked",
+    "book-open",
+    "chevron-down",
+    "chevron-right",
+    "clock",
+    "headphones",
+    "heart",
+    "home",
+    "map-pin",
+    "moon",
+    "pause",
+    "play",
+    "play-circle",
+    "settings",
+    "signal",
+    "skip-back",
+    "skip-forward",
+    "sparkles",
+    "star",
+    "sun",
+    "trophy",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 27,
+  "fontFileCount": 0
+}

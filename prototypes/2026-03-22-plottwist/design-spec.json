@@ -1,0 +1,17 @@
+{
+  "appName": "PlotTwist",
+  "tagline": "Turn idle moments into mini stories.",
+  "designSystem": {
+    "primaryColor": "#9B6DFF",
+    "secondaryColor": "#FF6B9D",
+    "backgroundColor": "#0B0B14",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first glassmorphic UI with vibrant violet/pink accent gradient. Deep near-black surfaces with electric purple highlights, smooth card elevations, and warm amber streak accents. Micro-interactive mood chips, animated waveform visualizer, branching story choice cards, and scene quote cards with color-coded story theming."
+  },
+  "screens": [
+    "Home — Mood selector, context-aware banner, AI story generator, trending stories list",
+    "Player — Story art, animated waveform, scrubber, play controls, branching choices, interruption handler",
+    "Library — History tab, Scene Cards tab, Saved tab with shareable quote cards",
+    "Profile — User stats, achievement grid, streak tracker, theme toggle, preferences"
+  ]
+}
