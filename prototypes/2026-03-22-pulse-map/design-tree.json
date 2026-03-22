@@ -1,0 +1,3484 @@
+{
+  "version": 2,
+  "appName": "Pulse Map",
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "fonts": [
+    "Plus Jakarta Sans"
+  ],
+  "designTokens": {},
+  "root": {
+    "type": "frame",
+    "name": "div",
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 812,
+    "styles": {
+      "backgroundColor": "rgb(240, 244, 248)",
+      "borderRadius": 44,
+      "overflow": "hidden",
+      "display": "flex",
+      "flexDirection": "column",
+      "justifyContent": "normal",
+      "alignItems": "normal"
+    },
+    "children": [
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 128,
+        "y": 12,
+        "width": 120,
+        "height": 34,
+        "styles": {
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": 20
+        },
+        "children": []
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 62,
+        "styles": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "alignItems": "flex-end",
+          "paddingRight": 20,
+          "paddingBottom": 8,
+          "paddingLeft": 20
+        },
+        "children": [
+          {
+            "type": "text",
+            "name": "span",
+            "x": 20,
+            "y": 38,
+            "width": 26,
+            "height": 16,
+            "styles": {},
+            "textContent": "9:41",
+            "textStyles": {
+              "fontFamily": "Plus Jakarta Sans",
+              "fontSize": 13,
+              "fontWeight": 700,
+              "color": "rgb(15, 25, 35)",
+              "letterSpacing": -0.2
+            },
+            "children": []
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 299,
+            "y": 38,
+            "width": 56,
+            "height": 16,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 6
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 0,
+                "y": 1,
+                "width": 14,
+                "height": 14,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0F1923\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-wifi\" aria-hidden=\"true\"><path d=\"M12 20h.01\"/><path d=\"M2 8.82a15 15 0 0 1 20 0\"/><path d=\"M5 12.859a10 10 0 0 1 14 0\"/><path d=\"M8.5 16.429a5 5 0 0 1 7 0\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 20,
+                "y": 1,
+                "width": 14,
+                "height": 14,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0F1923\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-signal\" aria-hidden=\"true\"><path d=\"M2 20h.01\"/><path d=\"M7 20v-4\"/><path d=\"M12 20v-8\"/><path d=\"M17 20V8\"/><path d=\"M22 4v16\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 40,
+                "y": 0,
+                "width": 16,
+                "height": 16,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0F1923\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-battery\" aria-hidden=\"true\"><path d=\"M 22 14 L 22 10\"/><rect x=\"2\" y=\"6\" width=\"16\" height=\"12\" rx=\"2\"/></svg>",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 62,
+        "width": 375,
+        "height": 647,
+        "styles": {
+          "overflow": "hidden",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "normal",
+          "alignItems": "normal"
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 647,
+            "styles": {
+              "backgroundColor": "rgb(240, 244, 248)",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "normal"
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 0,
+                "width": 375,
+                "height": 106,
+                "styles": {
+                  "backgroundColor": "rgb(255, 255, 255)",
+                  "paddingTop": 12,
+                  "paddingRight": 20,
+                  "paddingBottom": 14,
+                  "paddingLeft": 20
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 20,
+                    "y": 12,
+                    "width": 335,
+                    "height": 40,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 90,
+                        "height": 40,
+                        "styles": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 90,
+                            "height": 13,
+                            "styles": {},
+                            "textContent": "Pulse Map",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": 600,
+                              "color": "rgb(0, 180, 216)",
+                              "letterSpacing": 1
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 0,
+                            "y": 15,
+                            "width": 90,
+                            "height": 25,
+                            "styles": {},
+                            "textContent": "Your Area",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 20,
+                              "fontWeight": 800,
+                              "color": "rgb(15, 25, 35)",
+                              "letterSpacing": -0.5
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 207,
+                        "y": 3,
+                        "width": 128,
+                        "height": 34,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "center",
+                          "gap": 10
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 6,
+                            "width": 84,
+                            "height": 23,
+                            "styles": {
+                              "backgroundColor": "rgb(224, 247, 252)",
+                              "borderRadius": 20,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 5,
+                              "paddingTop": 5,
+                              "paddingRight": 10,
+                              "paddingBottom": 5,
+                              "paddingLeft": 10
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 10,
+                                "y": 6,
+                                "width": 12,
+                                "height": 12,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#00B4D8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>",
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 27,
+                                "y": 5,
+                                "width": 47,
+                                "height": 13,
+                                "styles": {},
+                                "textContent": "Midtown",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": 600,
+                                  "color": "rgb(0, 180, 216)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 94,
+                            "y": 0,
+                            "width": 34,
+                            "height": 34,
+                            "styles": {
+                              "backgroundGradient": [
+                                {
+                                  "color": "rgb(0, 180, 216)",
+                                  "position": 0
+                                },
+                                {
+                                  "color": "rgb(0, 150, 183)",
+                                  "position": 1
+                                }
+                              ],
+                              "borderRadius": 17,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "center",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 9,
+                                "y": 9,
+                                "width": 16,
+                                "height": 16,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-bell\" aria-hidden=\"true\"><path d=\"M10.268 21a2 2 0 0 0 3.464 0\"/><path d=\"M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326\"/></svg>",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 20,
+                    "y": 62,
+                    "width": 335,
+                    "height": 29,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "normal",
+                      "alignItems": "normal",
+                      "gap": 6,
+                      "paddingBottom": 2
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 40,
+                        "height": 27,
+                        "styles": {
+                          "backgroundColor": "rgb(0, 180, 216)",
+                          "borderRadius": 20,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(0, 180, 216)",
+                          "paddingTop": 5,
+                          "paddingRight": 12,
+                          "paddingBottom": 5,
+                          "paddingLeft": 12
+                        },
+                        "textContent": "All",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 12,
+                          "fontWeight": 600,
+                          "color": "rgb(255, 255, 255)"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 46,
+                        "y": 0,
+                        "width": 64,
+                        "height": 27,
+                        "styles": {
+                          "backgroundColor": "rgb(247, 250, 252)",
+                          "borderRadius": 20,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(226, 232, 240)",
+                          "paddingTop": 5,
+                          "paddingRight": 12,
+                          "paddingBottom": 5,
+                          "paddingLeft": 12
+                        },
+                        "textContent": "Transit",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 12,
+                          "fontWeight": 600,
+                          "color": "rgb(74, 85, 104)"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 116,
+                        "y": 0,
+                        "width": 75,
+                        "height": 27,
+                        "styles": {
+                          "backgroundColor": "rgb(247, 250, 252)",
+                          "borderRadius": 20,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(226, 232, 240)",
+                          "paddingTop": 5,
+                          "paddingRight": 12,
+                          "paddingBottom": 5,
+                          "paddingLeft": 12
+                        },
+                        "textContent": "Weather",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 12,
+                          "fontWeight": 600,
+                          "color": "rgb(74, 85, 104)"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 197,
+                        "y": 0,
+                        "width": 55,
+                        "height": 27,
+                        "styles": {
+                          "backgroundColor": "rgb(247, 250, 252)",
+                          "borderRadius": 20,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(226, 232, 240)",
+                          "paddingTop": 5,
+                          "paddingRight": 12,
+                          "paddingBottom": 5,
+                          "paddingLeft": 12
+                        },
+                        "textContent": "Civic",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 12,
+                          "fontWeight": 600,
+                          "color": "rgb(74, 85, 104)"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 259,
+                        "y": 0,
+                        "width": 64,
+                        "height": 27,
+                        "styles": {
+                          "backgroundColor": "rgb(247, 250, 252)",
+                          "borderRadius": 20,
+                          "borderWidth": 1,
+                          "borderColor": "rgb(226, 232, 240)",
+                          "paddingTop": 5,
+                          "paddingRight": 12,
+                          "paddingBottom": 5,
+                          "paddingLeft": 12
+                        },
+                        "textContent": "Safety",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 12,
+                          "fontWeight": 600,
+                          "color": "rgb(74, 85, 104)"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 16,
+                "y": 118,
+                "width": 343,
+                "height": 56,
+                "styles": {
+                  "backgroundGradient": [
+                    {
+                      "color": "rgba(0, 180, 216, 0.133)",
+                      "position": 0
+                    },
+                    {
+                      "color": "rgba(255, 107, 53, 0.082)",
+                      "position": 1
+                    }
+                  ],
+                  "borderRadius": 14,
+                  "borderWidth": 1,
+                  "borderColor": "rgba(0, 180, 216, 0.2)",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 10,
+                  "paddingTop": 10,
+                  "paddingRight": 14,
+                  "paddingBottom": 10,
+                  "paddingLeft": 14
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 15,
+                    "y": 11,
+                    "width": 34,
+                    "height": 34,
+                    "styles": {
+                      "backgroundColor": "rgb(0, 180, 216)",
+                      "borderRadius": 10,
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 8,
+                        "y": 8,
+                        "width": 18,
+                        "height": 18,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-zap\" aria-hidden=\"true\"><path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 59,
+                    "y": 14,
+                    "width": 176,
+                    "height": 28,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 176,
+                        "height": 15,
+                        "styles": {},
+                        "textContent": "2 active disruptions near you",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 12,
+                          "fontWeight": 700,
+                          "color": "rgb(15, 25, 35)"
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 0,
+                        "y": 15,
+                        "width": 176,
+                        "height": 13,
+                        "styles": {},
+                        "textContent": "Transit + Safety · Updated just now",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 11,
+                          "fontWeight": 400,
+                          "color": "rgb(74, 85, 104)"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 312,
+                    "y": 20,
+                    "width": 16,
+                    "height": 16,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\" style=\"margin-left: auto;\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 186,
+                "width": 375,
+                "height": 875,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "normal",
+                  "gap": 10,
+                  "paddingRight": 16,
+                  "paddingBottom": 16,
+                  "paddingLeft": 16
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 16,
+                    "y": 0,
+                    "width": 343,
+                    "height": 167,
+                    "styles": {
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "borderRadius": 16,
+                      "borderWidth": 1,
+                      "borderColor": "rgba(0, 180, 216, 0.267)",
+                      "paddingTop": 14,
+                      "paddingRight": 14,
+                      "paddingBottom": 14,
+                      "paddingLeft": 14
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 15,
+                        "width": 313,
+                        "height": 18,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 79,
+                            "height": 18,
+                            "styles": {
+                              "backgroundColor": "rgb(224, 247, 252)",
+                              "borderRadius": 8,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 6,
+                              "paddingTop": 3,
+                              "paddingRight": 8,
+                              "paddingBottom": 3,
+                              "paddingLeft": 8
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 8,
+                                "y": 3,
+                                "width": 12,
+                                "height": 12,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#00B4D8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-tram-front\" aria-hidden=\"true\"><rect width=\"16\" height=\"16\" x=\"4\" y=\"3\" rx=\"2\"/><path d=\"M4 11h16\"/><path d=\"M12 3v8\"/><path d=\"m8 19-2 3\"/><path d=\"m18 22-2-3\"/><path d=\"M8 15h.01\"/><path d=\"M16 15h.01\"/></svg>",
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 26,
+                                "y": 3,
+                                "width": 45,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "Transit",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": 700,
+                                  "color": "rgb(0, 180, 216)",
+                                  "letterSpacing": 0.5
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 250,
+                            "y": 3,
+                            "width": 63,
+                            "height": 12,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 6
+                            },
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 0,
+                                "y": 2,
+                                "width": 8,
+                                "height": 8,
+                                "styles": {
+                                  "backgroundColor": "rgb(252, 91, 91)",
+                                  "borderRadius": 4
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 14,
+                                "y": 0,
+                                "width": 49,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "12 min ago",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": 400,
+                                  "color": "rgb(113, 128, 150)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 15,
+                        "y": 41,
+                        "width": 313,
+                        "height": 39,
+                        "styles": {},
+                        "textContent": "Blue Line delays up to 25 min due to signal failure at Central Station",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 14,
+                          "fontWeight": 700,
+                          "color": "rgb(15, 25, 35)",
+                          "lineHeight": 19.6
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 88,
+                        "width": 313,
+                        "height": 43,
+                        "styles": {
+                          "backgroundColor": "rgb(224, 247, 252)",
+                          "borderRadius": 8,
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "flex-start",
+                          "gap": 6,
+                          "paddingTop": 6,
+                          "paddingRight": 10,
+                          "paddingBottom": 6,
+                          "paddingLeft": 10
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 10,
+                            "y": 7,
+                            "width": 12,
+                            "height": 12,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#00B4D8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-check\" aria-hidden=\"true\" style=\"margin-top: 1px; flex-shrink: 0;\"><path d=\"m16 11 2 2 4-4\"/><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/></svg>",
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "span",
+                            "x": 28,
+                            "y": 6,
+                            "width": 275,
+                            "height": 31,
+                            "styles": {},
+                            "textContent": "Affects your usual morning commute on Route 7→Blue Line",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": 600,
+                              "color": "rgb(0, 180, 216)",
+                              "lineHeight": 15.4
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 139,
+                        "width": 313,
+                        "height": 13,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 161,
+                            "height": 13,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 4
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 0,
+                                "y": 1,
+                                "width": 11,
+                                "height": 11,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>",
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 15,
+                                "y": 0,
+                                "width": 146,
+                                "height": 13,
+                                "styles": {},
+                                "textContent": "Central Station · 0.4 mi away",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": 400,
+                                  "color": "rgb(113, 128, 150)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "name": "span",
+                            "x": 260,
+                            "y": 0,
+                            "width": 53,
+                            "height": 13,
+                            "styles": {},
+                            "textContent": "2 min read",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": 400,
+                              "color": "rgb(113, 128, 150)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 16,
+                    "y": 177,
+                    "width": 343,
+                    "height": 167,
+                    "styles": {
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "borderRadius": 16,
+                      "borderWidth": 1,
+                      "borderColor": "rgb(226, 232, 240)",
+                      "paddingTop": 14,
+                      "paddingRight": 14,
+                      "paddingBottom": 14,
+                      "paddingLeft": 14
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 15,
+                        "width": 313,
+                        "height": 18,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 86,
+                            "height": 18,
+                            "styles": {
+                              "backgroundColor": "rgb(255, 250, 240)",
+                              "borderRadius": 8,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 6,
+                              "paddingTop": 3,
+                              "paddingRight": 8,
+                              "paddingBottom": 3,
+                              "paddingLeft": 8
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 8,
+                                "y": 3,
+                                "width": 12,
+                                "height": 12,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#F6AD55\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-cloud-rain\" aria-hidden=\"true\"><path d=\"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242\"/><path d=\"M16 14v6\"/><path d=\"M8 14v6\"/><path d=\"M12 16v6\"/></svg>",
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 26,
+                                "y": 3,
+                                "width": 52,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "Weather",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": 700,
+                                  "color": "rgb(246, 173, 85)",
+                                  "letterSpacing": 0.5
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 261,
+                            "y": 3,
+                            "width": 52,
+                            "height": 12,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 6
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 0,
+                                "y": 0,
+                                "width": 52,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "28 min ago",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": 400,
+                                  "color": "rgb(113, 128, 150)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 15,
+                        "y": 41,
+                        "width": 313,
+                        "height": 39,
+                        "styles": {},
+                        "textContent": "Flash flood watch issued for downtown district until 6 PM today",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 14,
+                          "fontWeight": 700,
+                          "color": "rgb(15, 25, 35)",
+                          "lineHeight": 19.6
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 88,
+                        "width": 313,
+                        "height": 43,
+                        "styles": {
+                          "backgroundColor": "rgb(255, 250, 240)",
+                          "borderRadius": 8,
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "flex-start",
+                          "gap": 6,
+                          "paddingTop": 6,
+                          "paddingRight": 10,
+                          "paddingBottom": 6,
+                          "paddingLeft": 10
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 10,
+                            "y": 7,
+                            "width": 12,
+                            "height": 12,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#F6AD55\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-check\" aria-hidden=\"true\" style=\"margin-top: 1px; flex-shrink: 0;\"><path d=\"m16 11 2 2 4-4\"/><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/></svg>",
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "span",
+                            "x": 28,
+                            "y": 6,
+                            "width": 275,
+                            "height": 31,
+                            "styles": {},
+                            "textContent": "Riverside Drive may flood — affects your saved route to Eastside",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": 600,
+                              "color": "rgb(246, 173, 85)",
+                              "lineHeight": 15.4
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 139,
+                        "width": 313,
+                        "height": 13,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 175,
+                            "height": 13,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 4
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 0,
+                                "y": 1,
+                                "width": 11,
+                                "height": 11,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>",
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 15,
+                                "y": 0,
+                                "width": 160,
+                                "height": 13,
+                                "styles": {},
+                                "textContent": "Downtown District · 1.2 mi away",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": 400,
+                                  "color": "rgb(113, 128, 150)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "name": "span",
+                            "x": 260,
+                            "y": 0,
+                            "width": 53,
+                            "height": 13,
+                            "styles": {},
+                            "textContent": "3 min read",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": 400,
+                              "color": "rgb(113, 128, 150)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 16,
+                    "y": 354,
+                    "width": 343,
+                    "height": 167,
+                    "styles": {
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "borderRadius": 16,
+                      "borderWidth": 1,
+                      "borderColor": "rgb(226, 232, 240)",
+                      "paddingTop": 14,
+                      "paddingRight": 14,
+                      "paddingBottom": 14,
+                      "paddingLeft": 14
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 15,
+                        "width": 313,
+                        "height": 18,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 65,
+                            "height": 18,
+                            "styles": {
+                              "backgroundColor": "rgb(230, 255, 250)",
+                              "borderRadius": 8,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 6,
+                              "paddingTop": 3,
+                              "paddingRight": 8,
+                              "paddingBottom": 3,
+                              "paddingLeft": 8
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 8,
+                                "y": 3,
+                                "width": 12,
+                                "height": 12,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#38B2AC\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-landmark\" aria-hidden=\"true\"><path d=\"M10 18v-7\"/><path d=\"M11.12 2.198a2 2 0 0 1 1.76.006l7.866 3.847c.476.233.31.949-.22.949H3.474c-.53 0-.695-.716-.22-.949z\"/><path d=\"M14 18v-7\"/><path d=\"M18 18v-7\"/><path d=\"M3 22h18\"/><path d=\"M6 18v-7\"/></svg>",
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 26,
+                                "y": 3,
+                                "width": 31,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "Civic",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": 700,
+                                  "color": "rgb(56, 178, 172)",
+                                  "letterSpacing": 0.5
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 278,
+                            "y": 3,
+                            "width": 35,
+                            "height": 12,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 6
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 0,
+                                "y": 0,
+                                "width": 35,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "1 hr ago",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": 400,
+                                  "color": "rgb(113, 128, 150)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 15,
+                        "y": 41,
+                        "width": 313,
+                        "height": 39,
+                        "styles": {},
+                        "textContent": "City Council votes tonight on rezoning Maple Street corridor",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 14,
+                          "fontWeight": 700,
+                          "color": "rgb(15, 25, 35)",
+                          "lineHeight": 19.6
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 88,
+                        "width": 313,
+                        "height": 43,
+                        "styles": {
+                          "backgroundColor": "rgb(230, 255, 250)",
+                          "borderRadius": 8,
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "flex-start",
+                          "gap": 6,
+                          "paddingTop": 6,
+                          "paddingRight": 10,
+                          "paddingBottom": 6,
+                          "paddingLeft": 10
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 10,
+                            "y": 7,
+                            "width": 12,
+                            "height": 12,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#38B2AC\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-check\" aria-hidden=\"true\" style=\"margin-top: 1px; flex-shrink: 0;\"><path d=\"m16 11 2 2 4-4\"/><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/></svg>",
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "span",
+                            "x": 28,
+                            "y": 6,
+                            "width": 275,
+                            "height": 31,
+                            "styles": {},
+                            "textContent": "Could affect property values and parking near your home address",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": 600,
+                              "color": "rgb(56, 178, 172)",
+                              "lineHeight": 15.4
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 139,
+                        "width": 313,
+                        "height": 13,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 174,
+                            "height": 13,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 4
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 0,
+                                "y": 1,
+                                "width": 11,
+                                "height": 11,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>",
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 15,
+                                "y": 0,
+                                "width": 159,
+                                "height": 13,
+                                "styles": {},
+                                "textContent": "Maple St Corridor · 0.8 mi away",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": 400,
+                                  "color": "rgb(113, 128, 150)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "name": "span",
+                            "x": 260,
+                            "y": 0,
+                            "width": 53,
+                            "height": 13,
+                            "styles": {},
+                            "textContent": "5 min read",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": 400,
+                              "color": "rgb(113, 128, 150)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 16,
+                    "y": 531,
+                    "width": 343,
+                    "height": 167,
+                    "styles": {
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "borderRadius": 16,
+                      "borderWidth": 1,
+                      "borderColor": "rgba(252, 91, 91, 0.267)",
+                      "paddingTop": 14,
+                      "paddingRight": 14,
+                      "paddingBottom": 14,
+                      "paddingLeft": 14
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 15,
+                        "width": 313,
+                        "height": 18,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 74,
+                            "height": 18,
+                            "styles": {
+                              "backgroundColor": "rgb(255, 245, 245)",
+                              "borderRadius": 8,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 6,
+                              "paddingTop": 3,
+                              "paddingRight": 8,
+                              "paddingBottom": 3,
+                              "paddingLeft": 8
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 8,
+                                "y": 3,
+                                "width": 12,
+                                "height": 12,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#FC5B5B\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-droplets\" aria-hidden=\"true\"><path d=\"M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z\"/><path d=\"M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97\"/></svg>",
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 26,
+                                "y": 3,
+                                "width": 40,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "Safety",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": 700,
+                                  "color": "rgb(252, 91, 91)",
+                                  "letterSpacing": 0.5
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 247,
+                            "y": 3,
+                            "width": 66,
+                            "height": 12,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 6
+                            },
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 0,
+                                "y": 2,
+                                "width": 8,
+                                "height": 8,
+                                "styles": {
+                                  "backgroundColor": "rgb(252, 91, 91)",
+                                  "borderRadius": 4
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 14,
+                                "y": 0,
+                                "width": 52,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "45 min ago",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": 400,
+                                  "color": "rgb(113, 128, 150)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 15,
+                        "y": 41,
+                        "width": 313,
+                        "height": 39,
+                        "styles": {},
+                        "textContent": "Water main break closes Oak Ave between 3rd and 5th St",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 14,
+                          "fontWeight": 700,
+                          "color": "rgb(15, 25, 35)",
+                          "lineHeight": 19.6
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 88,
+                        "width": 313,
+                        "height": 43,
+                        "styles": {
+                          "backgroundColor": "rgb(255, 245, 245)",
+                          "borderRadius": 8,
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "flex-start",
+                          "gap": 6,
+                          "paddingTop": 6,
+                          "paddingRight": 10,
+                          "paddingBottom": 6,
+                          "paddingLeft": 10
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 10,
+                            "y": 7,
+                            "width": 12,
+                            "height": 12,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#FC5B5B\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-check\" aria-hidden=\"true\" style=\"margin-top: 1px; flex-shrink: 0;\"><path d=\"m16 11 2 2 4-4\"/><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/></svg>",
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "span",
+                            "x": 28,
+                            "y": 6,
+                            "width": 275,
+                            "height": 31,
+                            "styles": {},
+                            "textContent": "Your saved route to Sunridge Daycare passes through this closure",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": 600,
+                              "color": "rgb(252, 91, 91)",
+                              "lineHeight": 15.4
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 139,
+                        "width": 313,
+                        "height": 13,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 126,
+                            "height": 13,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 4
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 0,
+                                "y": 1,
+                                "width": 11,
+                                "height": 11,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>",
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 15,
+                                "y": 0,
+                                "width": 111,
+                                "height": 13,
+                                "styles": {},
+                                "textContent": "Oak Ave · 0.6 mi away",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": 400,
+                                  "color": "rgb(113, 128, 150)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "name": "span",
+                            "x": 260,
+                            "y": 0,
+                            "width": 53,
+                            "height": 13,
+                            "styles": {},
+                            "textContent": "2 min read",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": 400,
+                              "color": "rgb(113, 128, 150)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 16,
+                    "y": 708,
+                    "width": 343,
+                    "height": 152,
+                    "styles": {
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "borderRadius": 16,
+                      "borderWidth": 1,
+                      "borderColor": "rgb(226, 232, 240)",
+                      "paddingTop": 14,
+                      "paddingRight": 14,
+                      "paddingBottom": 14,
+                      "paddingLeft": 14
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 15,
+                        "width": 313,
+                        "height": 18,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 79,
+                            "height": 18,
+                            "styles": {
+                              "backgroundColor": "rgb(224, 247, 252)",
+                              "borderRadius": 8,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 6,
+                              "paddingTop": 3,
+                              "paddingRight": 8,
+                              "paddingBottom": 3,
+                              "paddingLeft": 8
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 8,
+                                "y": 3,
+                                "width": 12,
+                                "height": 12,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#00B4D8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-bus\" aria-hidden=\"true\"><path d=\"M8 6v6\"/><path d=\"M15 6v6\"/><path d=\"M2 12h19.6\"/><path d=\"M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><path d=\"M9 18h5\"/><circle cx=\"16\" cy=\"18\" r=\"2\"/></svg>",
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 26,
+                                "y": 3,
+                                "width": 45,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "Transit",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": 700,
+                                  "color": "rgb(0, 180, 216)",
+                                  "letterSpacing": 0.5
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 276,
+                            "y": 3,
+                            "width": 37,
+                            "height": 12,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 6
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 0,
+                                "y": 0,
+                                "width": 37,
+                                "height": 12,
+                                "styles": {},
+                                "textContent": "2 hr ago",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 10,
+                                  "fontWeight": 400,
+                                  "color": "rgb(113, 128, 150)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "name": "div",
+                        "x": 15,
+                        "y": 41,
+                        "width": 313,
+                        "height": 39,
+                        "styles": {},
+                        "textContent": "New bus rapid transit line opens on Market Street next Monday",
+                        "textStyles": {
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 14,
+                          "fontWeight": 700,
+                          "color": "rgb(15, 25, 35)",
+                          "lineHeight": 19.6
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 88,
+                        "width": 313,
+                        "height": 27,
+                        "styles": {
+                          "backgroundColor": "rgb(224, 247, 252)",
+                          "borderRadius": 8,
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "flex-start",
+                          "gap": 6,
+                          "paddingTop": 6,
+                          "paddingRight": 10,
+                          "paddingBottom": 6,
+                          "paddingLeft": 10
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 10,
+                            "y": 7,
+                            "width": 12,
+                            "height": 12,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#00B4D8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-check\" aria-hidden=\"true\" style=\"margin-top: 1px; flex-shrink: 0;\"><path d=\"m16 11 2 2 4-4\"/><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/></svg>",
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "span",
+                            "x": 28,
+                            "y": 6,
+                            "width": 266,
+                            "height": 15,
+                            "styles": {},
+                            "textContent": "New express option for your weekly Westside trips",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": 600,
+                              "color": "rgb(0, 180, 216)",
+                              "lineHeight": 15.4
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 124,
+                        "width": 313,
+                        "height": 13,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 129,
+                            "height": 13,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 4
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 0,
+                                "y": 1,
+                                "width": 11,
+                                "height": 11,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>",
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 15,
+                                "y": 0,
+                                "width": 114,
+                                "height": 13,
+                                "styles": {},
+                                "textContent": "Market St · 1.5 mi away",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": 400,
+                                  "color": "rgb(113, 128, 150)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "name": "span",
+                            "x": 260,
+                            "y": 0,
+                            "width": 53,
+                            "height": 13,
+                            "styles": {},
+                            "textContent": "4 min read",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": 400,
+                              "color": "rgb(113, 128, 150)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 709,
+        "width": 375,
+        "height": 103,
+        "styles": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderWidth": 1,
+          "borderColor": "rgb(226, 232, 240) rgb(0, 0, 0) rgb(0, 0, 0)",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+          "alignItems": "center",
+          "paddingTop": 8,
+          "paddingBottom": 14
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 25,
+            "width": 76,
+            "height": 49,
+            "styles": {
+              "backgroundColor": "rgb(224, 247, 252)",
+              "borderRadius": 12,
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 3,
+              "paddingTop": 6,
+              "paddingRight": 12,
+              "paddingBottom": 6,
+              "paddingLeft": 12
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 27,
+                "y": 6,
+                "width": 22,
+                "height": 22,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#00B4D8\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-layers\" aria-hidden=\"true\"><path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"/><path d=\"M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12\"/><path d=\"M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "text",
+                "name": "span",
+                "x": 25,
+                "y": 31,
+                "width": 26,
+                "height": 12,
+                "styles": {},
+                "textContent": "Feed",
+                "textStyles": {
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 10,
+                  "fontWeight": 700,
+                  "color": "rgb(0, 180, 216)",
+                  "letterSpacing": 0.2
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 76,
+            "y": 25,
+            "width": 76,
+            "height": 49,
+            "styles": {
+              "borderRadius": 12,
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 3,
+              "paddingTop": 6,
+              "paddingRight": 12,
+              "paddingBottom": 6,
+              "paddingLeft": 12
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 27,
+                "y": 6,
+                "width": 22,
+                "height": 22,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map\" aria-hidden=\"true\"><path d=\"M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z\"/><path d=\"M15 5.764v15\"/><path d=\"M9 3.236v15\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "text",
+                "name": "span",
+                "x": 27,
+                "y": 31,
+                "width": 22,
+                "height": 12,
+                "styles": {},
+                "textContent": "Map",
+                "textStyles": {
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 10,
+                  "fontWeight": 500,
+                  "color": "rgb(113, 128, 150)",
+                  "letterSpacing": 0.2
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 152,
+            "y": 25,
+            "width": 76,
+            "height": 49,
+            "styles": {
+              "borderRadius": 12,
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 3,
+              "paddingTop": 6,
+              "paddingRight": 12,
+              "paddingBottom": 6,
+              "paddingLeft": 12
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 27,
+                "y": 6,
+                "width": 22,
+                "height": 22,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-bell\" aria-hidden=\"true\"><path d=\"M10.268 21a2 2 0 0 0 3.464 0\"/><path d=\"M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "text",
+                "name": "span",
+                "x": 23,
+                "y": 31,
+                "width": 29,
+                "height": 12,
+                "styles": {},
+                "textContent": "Alerts",
+                "textStyles": {
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 10,
+                  "fontWeight": 500,
+                  "color": "rgb(113, 128, 150)",
+                  "letterSpacing": 0.2
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 228,
+            "y": 25,
+            "width": 76,
+            "height": 49,
+            "styles": {
+              "borderRadius": 12,
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 3,
+              "paddingTop": 6,
+              "paddingRight": 12,
+              "paddingBottom": 6,
+              "paddingLeft": 12
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 27,
+                "y": 6,
+                "width": 22,
+                "height": 22,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-compass\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "text",
+                "name": "span",
+                "x": 19,
+                "y": 31,
+                "width": 38,
+                "height": 12,
+                "styles": {},
+                "textContent": "Explore",
+                "textStyles": {
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 10,
+                  "fontWeight": 500,
+                  "color": "rgb(113, 128, 150)",
+                  "letterSpacing": 0.2
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 304,
+            "y": 25,
+            "width": 76,
+            "height": 49,
+            "styles": {
+              "borderRadius": 12,
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 3,
+              "paddingTop": 6,
+              "paddingRight": 12,
+              "paddingBottom": 6,
+              "paddingLeft": 12
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 27,
+                "y": 6,
+                "width": 22,
+                "height": 22,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\"><path d=\"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "text",
+                "name": "span",
+                "x": 22,
+                "y": 31,
+                "width": 32,
+                "height": 12,
+                "styles": {},
+                "textContent": "Profile",
+                "textStyles": {
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 10,
+                  "fontWeight": 500,
+                  "color": "rgb(113, 128, 150)",
+                  "letterSpacing": 0.2
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "screens": [
+    {
+      "name": "Safety",
+      "root": {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 812,
+        "styles": {
+          "backgroundColor": "rgb(240, 244, 248)",
+          "borderRadius": 44,
+          "overflow": "hidden",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "normal",
+          "alignItems": "normal"
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 128,
+            "y": 12,
+            "width": 120,
+            "height": 34,
+            "styles": {
+              "backgroundColor": "rgb(0, 0, 0)",
+              "borderRadius": 20
+            },
+            "children": []
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 62,
+            "styles": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "alignItems": "flex-end",
+              "paddingRight": 20,
+              "paddingBottom": 8,
+              "paddingLeft": 20
+            },
+            "children": [
+              {
+                "type": "text",
+                "name": "span",
+                "x": 20,
+                "y": 38,
+                "width": 26,
+                "height": 16,
+                "styles": {},
+                "textContent": "9:41",
+                "textStyles": {
+                  "fontFamily": "Plus Jakarta Sans",
+                  "fontSize": 13,
+                  "fontWeight": 700,
+                  "color": "rgb(15, 25, 35)",
+                  "letterSpacing": -0.2
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 299,
+                "y": 38,
+                "width": 56,
+                "height": 16,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 6
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 0,
+                    "y": 1,
+                    "width": 14,
+                    "height": 14,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0F1923\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-wifi\" aria-hidden=\"true\"><path d=\"M12 20h.01\"/><path d=\"M2 8.82a15 15 0 0 1 20 0\"/><path d=\"M5 12.859a10 10 0 0 1 14 0\"/><path d=\"M8.5 16.429a5 5 0 0 1 7 0\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 20,
+                    "y": 1,
+                    "width": 14,
+                    "height": 14,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0F1923\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-signal\" aria-hidden=\"true\"><path d=\"M2 20h.01\"/><path d=\"M7 20v-4\"/><path d=\"M12 20v-8\"/><path d=\"M17 20V8\"/><path d=\"M22 4v16\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 40,
+                    "y": 0,
+                    "width": 16,
+                    "height": 16,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0F1923\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-battery\" aria-hidden=\"true\"><path d=\"M 22 14 L 22 10\"/><rect x=\"2\" y=\"6\" width=\"16\" height=\"12\" rx=\"2\"/></svg>",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 62,
+            "width": 375,
+            "height": 647,
+            "styles": {
+              "overflow": "hidden",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "normal"
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 0,
+                "width": 375,
+                "height": 647,
+                "styles": {
+                  "backgroundColor": "rgb(240, 244, 248)",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "normal"
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 0,
+                    "width": 375,
+                    "height": 106,
+                    "styles": {
+                      "backgroundColor": "rgb(255, 255, 255)",
+                      "paddingTop": 12,
+                      "paddingRight": 20,
+                      "paddingBottom": 14,
+                      "paddingLeft": 20
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 20,
+                        "y": 12,
+                        "width": 335,
+                        "height": 40,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "space-between",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 90,
+                            "height": 40,
+                            "styles": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 90,
+                                "height": 13,
+                                "styles": {},
+                                "textContent": "Pulse Map",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": 600,
+                                  "color": "rgb(0, 180, 216)",
+                                  "letterSpacing": 1
+                                },
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "div",
+                                "x": 0,
+                                "y": 15,
+                                "width": 90,
+                                "height": 25,
+                                "styles": {},
+                                "textContent": "Your Area",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 20,
+                                  "fontWeight": 800,
+                                  "color": "rgb(15, 25, 35)",
+                                  "letterSpacing": -0.5
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 207,
+                            "y": 3,
+                            "width": 128,
+                            "height": 34,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "center",
+                              "gap": 10
+                            },
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 0,
+                                "y": 6,
+                                "width": 84,
+                                "height": 23,
+                                "styles": {
+                                  "backgroundColor": "rgb(224, 247, 252)",
+                                  "borderRadius": 20,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "normal",
+                                  "alignItems": "center",
+                                  "gap": 5,
+                                  "paddingTop": 5,
+                                  "paddingRight": 10,
+                                  "paddingBottom": 5,
+                                  "paddingLeft": 10
+                                },
+                                "children": [
+                                  {
+                                    "type": "svg",
+                                    "name": "svg",
+                                    "x": 10,
+                                    "y": 6,
+                                    "width": 12,
+                                    "height": 12,
+                                    "styles": {},
+                                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#00B4D8\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>",
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 27,
+                                    "y": 5,
+                                    "width": 47,
+                                    "height": 13,
+                                    "styles": {},
+                                    "textContent": "Midtown",
+                                    "textStyles": {
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 11,
+                                      "fontWeight": 600,
+                                      "color": "rgb(0, 180, 216)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 94,
+                                "y": 0,
+                                "width": 34,
+                                "height": 34,
+                                "styles": {
+                                  "backgroundGradient": [
+                                    {
+                                      "color": "rgb(0, 180, 216)",
+                                      "position": 0
+                                    },
+                                    {
+                                      "color": "rgb(0, 150, 183)",
+                                      "position": 1
+                                    }
+                                  ],
+                                  "borderRadius": 17,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "center",
+                                  "alignItems": "center"
+                                },
+                                "children": [
+                                  {
+                                    "type": "svg",
+                                    "name": "svg",
+                                    "x": 9,
+                                    "y": 9,
+                                    "width": 16,
+                                    "height": 16,
+                                    "styles": {},
+                                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-bell\" aria-hidden=\"true\"><path d=\"M10.268 21a2 2 0 0 0 3.464 0\"/><path d=\"M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326\"/></svg>",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 20,
+                        "y": 62,
+                        "width": 335,
+                        "height": 29,
+                        "styles": {
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "normal",
+                          "alignItems": "normal",
+                          "gap": 6,
+                          "paddingBottom": 2
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 40,
+                            "height": 27,
+                            "styles": {
+                              "backgroundColor": "rgb(247, 250, 252)",
+                              "borderRadius": 20,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(226, 232, 240)",
+                              "paddingTop": 5,
+                              "paddingRight": 12,
+                              "paddingBottom": 5,
+                              "paddingLeft": 12
+                            },
+                            "textContent": "All",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "color": "rgb(74, 85, 104)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 46,
+                            "y": 0,
+                            "width": 64,
+                            "height": 27,
+                            "styles": {
+                              "backgroundColor": "rgb(247, 250, 252)",
+                              "borderRadius": 20,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(226, 232, 240)",
+                              "paddingTop": 5,
+                              "paddingRight": 12,
+                              "paddingBottom": 5,
+                              "paddingLeft": 12
+                            },
+                            "textContent": "Transit",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "color": "rgb(74, 85, 104)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 116,
+                            "y": 0,
+                            "width": 75,
+                            "height": 27,
+                            "styles": {
+                              "backgroundColor": "rgb(247, 250, 252)",
+                              "borderRadius": 20,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(226, 232, 240)",
+                              "paddingTop": 5,
+                              "paddingRight": 12,
+                              "paddingBottom": 5,
+                              "paddingLeft": 12
+                            },
+                            "textContent": "Weather",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "color": "rgb(74, 85, 104)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 197,
+                            "y": 0,
+                            "width": 55,
+                            "height": 27,
+                            "styles": {
+                              "backgroundColor": "rgb(247, 250, 252)",
+                              "borderRadius": 20,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(226, 232, 240)",
+                              "paddingTop": 5,
+                              "paddingRight": 12,
+                              "paddingBottom": 5,
+                              "paddingLeft": 12
+                            },
+                            "textContent": "Civic",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "color": "rgb(74, 85, 104)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 259,
+                            "y": 0,
+                            "width": 64,
+                            "height": 27,
+                            "styles": {
+                              "backgroundColor": "rgb(0, 180, 216)",
+                              "borderRadius": 20,
+                              "borderWidth": 1,
+                              "borderColor": "rgb(0, 180, 216)",
+                              "paddingTop": 5,
+                              "paddingRight": 12,
+                              "paddingBottom": 5,
+                              "paddingLeft": 12
+                            },
+                            "textContent": "Safety",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 12,
+                              "fontWeight": 600,
+                              "color": "rgb(255, 255, 255)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 16,
+                    "y": 118,
+                    "width": 343,
+                    "height": 56,
+                    "styles": {
+                      "backgroundGradient": [
+                        {
+                          "color": "rgba(0, 180, 216, 0.133)",
+                          "position": 0
+                        },
+                        {
+                          "color": "rgba(255, 107, 53, 0.082)",
+                          "position": 1
+                        }
+                      ],
+                      "borderRadius": 14,
+                      "borderWidth": 1,
+                      "borderColor": "rgba(0, 180, 216, 0.2)",
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "normal",
+                      "alignItems": "center",
+                      "gap": 10,
+                      "paddingTop": 10,
+                      "paddingRight": 14,
+                      "paddingBottom": 10,
+                      "paddingLeft": 14
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 15,
+                        "y": 11,
+                        "width": 34,
+                        "height": 34,
+                        "styles": {
+                          "backgroundColor": "rgb(0, 180, 216)",
+                          "borderRadius": 10,
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "justifyContent": "center",
+                          "alignItems": "center"
+                        },
+                        "children": [
+                          {
+                            "type": "svg",
+                            "name": "svg",
+                            "x": 8,
+                            "y": 8,
+                            "width": 18,
+                            "height": 18,
+                            "styles": {},
+                            "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-zap\" aria-hidden=\"true\"><path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\"/></svg>",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 59,
+                        "y": 14,
+                        "width": 176,
+                        "height": 28,
+                        "styles": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 0,
+                            "y": 0,
+                            "width": 176,
+                            "height": 15,
+                            "styles": {},
+                            "textContent": "2 active disruptions near you",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 12,
+                              "fontWeight": 700,
+                              "color": "rgb(15, 25, 35)"
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 0,
+                            "y": 15,
+                            "width": 176,
+                            "height": 13,
+                            "styles": {},
+                            "textContent": "Transit + Safety · Updated just now",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 11,
+                              "fontWeight": 400,
+                              "color": "rgb(74, 85, 104)"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 312,
+                        "y": 20,
+                        "width": 16,
+                        "height": 16,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-right\" aria-hidden=\"true\" style=\"margin-left: auto;\"><path d=\"m9 18 6-6-6-6\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 186,
+                    "width": 375,
+                    "height": 183,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "column",
+                      "justifyContent": "normal",
+                      "alignItems": "normal",
+                      "gap": 10,
+                      "paddingRight": 16,
+                      "paddingBottom": 16,
+                      "paddingLeft": 16
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 16,
+                        "y": 0,
+                        "width": 343,
+                        "height": 167,
+                        "styles": {
+                          "backgroundColor": "rgb(255, 255, 255)",
+                          "borderRadius": 16,
+                          "borderWidth": 1,
+                          "borderColor": "rgba(252, 91, 91, 0.267)",
+                          "paddingTop": 14,
+                          "paddingRight": 14,
+                          "paddingBottom": 14,
+                          "paddingLeft": 14
+                        },
+                        "children": [
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 15,
+                            "y": 15,
+                            "width": 313,
+                            "height": 18,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "space-between",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 74,
+                                "height": 18,
+                                "styles": {
+                                  "backgroundColor": "rgb(255, 245, 245)",
+                                  "borderRadius": 8,
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "normal",
+                                  "alignItems": "center",
+                                  "gap": 6,
+                                  "paddingTop": 3,
+                                  "paddingRight": 8,
+                                  "paddingBottom": 3,
+                                  "paddingLeft": 8
+                                },
+                                "children": [
+                                  {
+                                    "type": "svg",
+                                    "name": "svg",
+                                    "x": 8,
+                                    "y": 3,
+                                    "width": 12,
+                                    "height": 12,
+                                    "styles": {},
+                                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#FC5B5B\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-droplets\" aria-hidden=\"true\"><path d=\"M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z\"/><path d=\"M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97\"/></svg>",
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 26,
+                                    "y": 3,
+                                    "width": 40,
+                                    "height": 12,
+                                    "styles": {},
+                                    "textContent": "Safety",
+                                    "textStyles": {
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": 700,
+                                      "color": "rgb(252, 91, 91)",
+                                      "letterSpacing": 0.5
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 247,
+                                "y": 3,
+                                "width": 66,
+                                "height": 12,
+                                "styles": {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "normal",
+                                  "alignItems": "center",
+                                  "gap": 6
+                                },
+                                "children": [
+                                  {
+                                    "type": "frame",
+                                    "name": "div",
+                                    "x": 0,
+                                    "y": 2,
+                                    "width": 8,
+                                    "height": 8,
+                                    "styles": {
+                                      "backgroundColor": "rgb(252, 91, 91)",
+                                      "borderRadius": 4
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 14,
+                                    "y": 0,
+                                    "width": 52,
+                                    "height": 12,
+                                    "styles": {},
+                                    "textContent": "45 min ago",
+                                    "textStyles": {
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 10,
+                                      "fontWeight": 400,
+                                      "color": "rgb(113, 128, 150)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "name": "div",
+                            "x": 15,
+                            "y": 41,
+                            "width": 313,
+                            "height": 39,
+                            "styles": {},
+                            "textContent": "Water main break closes Oak Ave between 3rd and 5th St",
+                            "textStyles": {
+                              "fontFamily": "Plus Jakarta Sans",
+                              "fontSize": 14,
+                              "fontWeight": 700,
+                              "color": "rgb(15, 25, 35)",
+                              "lineHeight": 19.6
+                            },
+                            "children": []
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 15,
+                            "y": 88,
+                            "width": 313,
+                            "height": 43,
+                            "styles": {
+                              "backgroundColor": "rgb(255, 245, 245)",
+                              "borderRadius": 8,
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "normal",
+                              "alignItems": "flex-start",
+                              "gap": 6,
+                              "paddingTop": 6,
+                              "paddingRight": 10,
+                              "paddingBottom": 6,
+                              "paddingLeft": 10
+                            },
+                            "children": [
+                              {
+                                "type": "svg",
+                                "name": "svg",
+                                "x": 10,
+                                "y": 7,
+                                "width": 12,
+                                "height": 12,
+                                "styles": {},
+                                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#FC5B5B\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-check\" aria-hidden=\"true\" style=\"margin-top: 1px; flex-shrink: 0;\"><path d=\"m16 11 2 2 4-4\"/><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/></svg>",
+                                "children": []
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 28,
+                                "y": 6,
+                                "width": 275,
+                                "height": 31,
+                                "styles": {},
+                                "textContent": "Your saved route to Sunridge Daycare passes through this closure",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": 600,
+                                  "color": "rgb(252, 91, 91)",
+                                  "lineHeight": 15.4
+                                },
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "type": "frame",
+                            "name": "div",
+                            "x": 15,
+                            "y": 139,
+                            "width": 313,
+                            "height": 13,
+                            "styles": {
+                              "display": "flex",
+                              "flexDirection": "row",
+                              "justifyContent": "space-between",
+                              "alignItems": "center"
+                            },
+                            "children": [
+                              {
+                                "type": "frame",
+                                "name": "div",
+                                "x": 0,
+                                "y": 0,
+                                "width": 126,
+                                "height": 13,
+                                "styles": {
+                                  "display": "flex",
+                                  "flexDirection": "row",
+                                  "justifyContent": "normal",
+                                  "alignItems": "center",
+                                  "gap": 4
+                                },
+                                "children": [
+                                  {
+                                    "type": "svg",
+                                    "name": "svg",
+                                    "x": 0,
+                                    "y": 1,
+                                    "width": 11,
+                                    "height": 11,
+                                    "styles": {},
+                                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin\" aria-hidden=\"true\"><path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>",
+                                    "children": []
+                                  },
+                                  {
+                                    "type": "text",
+                                    "name": "span",
+                                    "x": 15,
+                                    "y": 0,
+                                    "width": 111,
+                                    "height": 13,
+                                    "styles": {},
+                                    "textContent": "Oak Ave · 0.6 mi away",
+                                    "textStyles": {
+                                      "fontFamily": "Plus Jakarta Sans",
+                                      "fontSize": 11,
+                                      "fontWeight": 400,
+                                      "color": "rgb(113, 128, 150)"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "name": "span",
+                                "x": 260,
+                                "y": 0,
+                                "width": 53,
+                                "height": 13,
+                                "styles": {},
+                                "textContent": "2 min read",
+                                "textStyles": {
+                                  "fontFamily": "Plus Jakarta Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": 400,
+                                  "color": "rgb(113, 128, 150)"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 709,
+            "width": 375,
+            "height": 103,
+            "styles": {
+              "backgroundColor": "rgb(255, 255, 255)",
+              "borderWidth": 1,
+              "borderColor": "rgb(226, 232, 240) rgb(0, 0, 0) rgb(0, 0, 0)",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-around",
+              "alignItems": "center",
+              "paddingTop": 8,
+              "paddingBottom": 14
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 25,
+                "width": 76,
+                "height": 49,
+                "styles": {
+                  "backgroundColor": "rgb(224, 247, 252)",
+                  "borderRadius": 12,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 3,
+                  "paddingTop": 6,
+                  "paddingRight": 12,
+                  "paddingBottom": 6,
+                  "paddingLeft": 12
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 27,
+                    "y": 6,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#00B4D8\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-layers\" aria-hidden=\"true\"><path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"/><path d=\"M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12\"/><path d=\"M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 25,
+                    "y": 31,
+                    "width": 26,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Feed",
+                    "textStyles": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": 700,
+                      "color": "rgb(0, 180, 216)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 76,
+                "y": 25,
+                "width": 76,
+                "height": 49,
+                "styles": {
+                  "borderRadius": 12,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 3,
+                  "paddingTop": 6,
+                  "paddingRight": 12,
+                  "paddingBottom": 6,
+                  "paddingLeft": 12
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 27,
+                    "y": 6,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map\" aria-hidden=\"true\"><path d=\"M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z\"/><path d=\"M15 5.764v15\"/><path d=\"M9 3.236v15\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 27,
+                    "y": 31,
+                    "width": 22,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Map",
+                    "textStyles": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": 500,
+                      "color": "rgb(113, 128, 150)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 152,
+                "y": 25,
+                "width": 76,
+                "height": 49,
+                "styles": {
+                  "borderRadius": 12,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 3,
+                  "paddingTop": 6,
+                  "paddingRight": 12,
+                  "paddingBottom": 6,
+                  "paddingLeft": 12
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 27,
+                    "y": 6,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-bell\" aria-hidden=\"true\"><path d=\"M10.268 21a2 2 0 0 0 3.464 0\"/><path d=\"M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 23,
+                    "y": 31,
+                    "width": 29,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Alerts",
+                    "textStyles": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": 500,
+                      "color": "rgb(113, 128, 150)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 228,
+                "y": 25,
+                "width": 76,
+                "height": 49,
+                "styles": {
+                  "borderRadius": 12,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 3,
+                  "paddingTop": 6,
+                  "paddingRight": 12,
+                  "paddingBottom": 6,
+                  "paddingLeft": 12
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 27,
+                    "y": 6,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-compass\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 19,
+                    "y": 31,
+                    "width": 38,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Explore",
+                    "textStyles": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": 500,
+                      "color": "rgb(113, 128, 150)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 304,
+                "y": 25,
+                "width": 76,
+                "height": 49,
+                "styles": {
+                  "borderRadius": 12,
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "center",
+                  "gap": 3,
+                  "paddingTop": 6,
+                  "paddingRight": 12,
+                  "paddingBottom": 6,
+                  "paddingLeft": 12
+                },
+                "children": [
+                  {
+                    "type": "svg",
+                    "name": "svg",
+                    "x": 27,
+                    "y": 6,
+                    "width": 22,
+                    "height": 22,
+                    "styles": {},
+                    "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#718096\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\"><path d=\"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/></svg>",
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "span",
+                    "x": 22,
+                    "y": 31,
+                    "width": 32,
+                    "height": 12,
+                    "styles": {},
+                    "textContent": "Profile",
+                    "textStyles": {
+                      "fontFamily": "Plus Jakarta Sans",
+                      "fontSize": 10,
+                      "fontWeight": 500,
+                      "color": "rgb(113, 128, 150)",
+                      "letterSpacing": 0.2
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
