@@ -1,0 +1,29 @@
+{
+  "appName": "MoodForge",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#A855F7",
+    "secondary": "#EC4899",
+    "background": "#0D0B14",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "bookmark",
+    "camera",
+    "chevron-down",
+    "chevron-up",
+    "log-out",
+    "moon",
+    "save",
+    "search",
+    "settings",
+    "sliders",
+    "sparkles",
+    "sun",
+    "user",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 14,
+  "fontFileCount": 0
+}

@@ -1,0 +1,17 @@
+{
+  "appName": "MoodForge",
+  "tagline": "Turn feelings into visual ideas",
+  "designSystem": {
+    "primaryColor": "#A855F7",
+    "secondaryColor": "#EC4899",
+    "backgroundColor": "#0D0B14",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark emotional design with vibrant violet-to-pink gradient accents, deep midnight backgrounds, and expressive card-based layouts that convey creativity and introspection"
+  },
+  "screens": [
+    "Forge - Emotion input with chip selection, shimmer loading, and generated mood board with color palette, typography, and composition cues",
+    "Capture - Mock camera viewfinder with context strip (time/weather/location), moment analysis, and expandable recent capture cards",
+    "Library - Searchable creative recipe collection with filter tabs and expandable recipe cards showing full color palettes",
+    "Settings - User profile, animated dark/light theme toggle, intensity slider, export format selector, and about section"
+  ]
+}

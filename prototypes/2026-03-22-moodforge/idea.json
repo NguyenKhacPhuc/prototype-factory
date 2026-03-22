@@ -1,0 +1,22 @@
+{
+  "name": "MoodForge",
+  "tagline": "Turn feelings into visual ideas",
+  "description": "MoodForge helps people quickly convert emotions, thoughts, and everyday moments into visual creative briefs they can actually use. Instead of staring at a blank screen, users tap in a feeling like \"calm but restless,\" a place like \"rainy subway ride,\" or an idea like \"birthday card for a shy friend,\" and the app generates colors, shapes, compositions, typography moods, and reference prompts. It solves the common problem of creative block by translating vague inspiration into concrete visual direction that can guide sketches, social posts, mood boards, presentation covers, journaling spreads, or brand concepts. In daily life, it helps designers, marketers, students, and hobbyists capture fleeting inspiration before it disappears and turn it into something actionable within seconds. A user could use it to plan the aesthetic of an event invitation after a stressful commute, shape a launch post for a small business, or find a visual language for personal journaling when words feel too blunt. What makes it unique is that it focuses on emotional translation rather than generic templates, so each output feels deeply personal and context-aware instead of mass-produced.",
+  "features": [
+    "The app turns a short emotion or situation into a complete visual mood board, including color palettes, texture ideas, and layout cues that help users start creating immediately.",
+    "It suggests typography and composition styles that match the user's intent, which matters because visual tone is often harder to define than content itself.",
+    "It includes a 'moment capture' camera mode that analyzes a photo, time, weather, and location to generate creative prompts from real-life scenes.",
+    "It lets users save recurring emotional states as personal creative recipes, so they can reuse styles for things like gratitude journals, brand kits, or themed posts.",
+    "It exports the generated brief into shareable formats for notes, presentation tools, or design software, making the jump from inspiration to execution much smoother."
+  ],
+  "audience": {
+    "demographics": "Designed for teens to adults, especially visual creators, freelancers, marketers, students, and hobbyists who create content or personal projects on mobile.",
+    "context": "It is especially useful for people who often have ideas or feelings they want to express visually but do not know how to turn them into a clear creative direction."
+  },
+  "category": "creative tools",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to create a calming Instagram story for her wellness brand, so she types \"overwhelmed but hopeful\" and gets a soft pastel palette with airy layout suggestions.",
+    "Marcus is designing a wedding invitation on his phone while waiting for the train, and he uses a photo of the venue at sunset to generate elegant color and typography directions that match the atmosphere.",
+    "Priya wants to journal about a lonely rainy weekend but cannot find the right visual style, so she opens the app and turns the mood into a moody collage brief for her digital notebook."
+  ]
+}
