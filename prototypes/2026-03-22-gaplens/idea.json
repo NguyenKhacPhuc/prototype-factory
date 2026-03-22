@@ -1,0 +1,19 @@
+{
+  "name": "GapLens",
+  "tagline": "Find what school left out.",
+  "description": "GapLens is an AI-powered learning companion that identifies the exact knowledge gaps holding someone back and builds tiny, context-aware lessons around real tasks they are already trying to do. Instead of starting with a full course, the app watches for friction points\u2014like a student freezing on a math homework problem, an employee struggling with spreadsheet formulas, or a parent helping with a science project\u2014and turns that moment into a targeted micro-lesson. It solves the common problem of wasted time from vague studying, where learners don't know what they don't know and end up reviewing too broadly or too late. In daily life, users can snap a photo of a worksheet, paste a work email, or speak a question aloud, and GapLens will infer the underlying concept and teach only the missing prerequisite. A high schooler, for example, could upload a biology lab prompt and get a two-minute explainer on controls vs. variables, while a new manager could learn the difference between revenue growth and retention right before a team meeting. What makes it unique is that it does not organize knowledge by subject chapters; it maps learning gaps to the user's actual goals, turning everyday confusion into a personalized curriculum.",
+  "features": [
+    "GapLens diagnoses missing prerequisites from photos, text, or voice input, which helps users understand the root cause of confusion instead of guessing what to study.",
+    "The app generates micro-lessons tied to the user's current task, so learning feels immediately useful and less overwhelming in busy daily routines.",
+    "It creates a visual 'knowledge map' that shows related concepts and weak spots, helping users see how one small gap can affect many different tasks.",
+    "The app offers just-in-time practice prompts that adapt in difficulty, which matters because short, repeated reinforcement helps users retain concepts faster.",
+    "GapLens can build a personal catch-up plan from real-world inputs like homework, work documents, or everyday conversations, making it practical for students, adults, and caregivers alike."
+  ],
+  "audience": "Middle school through adult learners who need help in school, at work, or while supporting family learning, especially people who are short on time and don't want full-length courses. It is especially useful for students, first-generation learners, and professionals returning to education after years away.",
+  "category": "education",
+  "useCases": [
+    "Maya is staring at a chemistry worksheet at 10 p.m. and keeps mixing up molarity and concentration, so she opens GapLens, scans the page, and gets a fast explanation plus three practice questions focused on exactly that confusion.",
+    "Jordan is preparing for a client presentation and realizes he cannot explain an important KPI clearly, so he pastes the slide text into GapLens and learns the difference between leading and lagging indicators before the meeting starts.",
+    "Elena is helping her 8th grader with algebra homework and doesn't remember how to solve equations herself, so she asks GapLens to walk them both through the missing step-by-step prerequisite in plain language."
+  ]
+}

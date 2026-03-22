@@ -1,0 +1,14 @@
+{
+  "appName": "GapLens",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#6366F1",
+    "secondary": "#8B5CF6",
+    "background": "#F4F2FF",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
