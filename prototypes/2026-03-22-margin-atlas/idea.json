@@ -1,0 +1,19 @@
+{
+  "name": "Margin Atlas",
+  "tagline": "Find every book's hidden web.",
+  "description": "Margin Atlas turns the lonely act of reading into a guided, connected research experience by uncovering the people, places, events, and ideas embedded in books in real time. When a user highlights a passage, the app maps related references, historical context, related works, and cross-book themes, then shows how that idea travels across literature, nonfiction, and speeches. It solves the common problem of forgetting context, missing allusions, and losing the thread of a complex text while reading for school, work, or curiosity. A student reading a classic can instantly see what an unfamiliar symbol means, while a professional reading a business book can trace a strategy concept back to its original source and later applications. What makes it unique is that it is not a simple dictionary or search tool; it builds an evolving knowledge graph from the user's own reading and surfaces connections that would normally require hours of note-taking and web searches. In daily life, it helps readers stay immersed, understand more deeply, and revisit ideas with sharper memory because every book becomes part of a living personal reference map.",
+  "features": [
+    "The app highlights named entities, concepts, and allusions inside any imported text and explains them in plain language without forcing the user to leave the page.",
+    "It creates a visual web of connected references across books, articles, speeches, and user notes, which matters because many ideas only become clear when seen in relation to other texts.",
+    "It offers instant context cards for people, places, and events, including why they matter in the current passage and what prior knowledge the reader may be missing.",
+    "It builds a personal reading graph that remembers what the user has read and suggests relevant follow-up passages later, helping users retain information instead of re-learning it from scratch.",
+    "It syncs annotations into shareable study packets or meeting briefings, so a reader can quickly turn scattered insights into something useful for exams, presentations, or discussions."
+  ],
+  "audience": "Students, avid readers, researchers, journalists, and curious professionals ages 16 to 45 who regularly read dense or reference-heavy material. It is especially useful for people who want deeper comprehension without spending extra hours on manual lookup.",
+  "category": "books & reference",
+  "useCases": [
+    "Maya is reading a 19th-century novel for her literature class and keeps running into historical references she doesn't recognize, so she opens Margin Atlas to see quick context cards and a map of related themes. She uses the app's connections to write a stronger essay without breaking her reading flow.",
+    "Jordan is preparing for a product strategy meeting and wants to revisit a management book he read months ago, so he searches his reading graph for the chapters that mention pricing psychology and habit formation. The app surfaces the exact passages plus the original source ideas, saving him from flipping through hundreds of pages.",
+    "Asha is curious about a quote she saw in an essay and wants to know where it appears across other books, speeches, and essays, so she pastes it into Margin Atlas and explores the reference trail. She discovers how the idea evolved over time, making her research faster and far more interesting."
+  ]
+}

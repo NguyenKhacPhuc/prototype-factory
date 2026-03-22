@@ -1,0 +1,18 @@
+{
+  "appName": "Margin Atlas",
+  "tagline": "Find every book's hidden web.",
+  "designSystem": {
+    "primaryColor": "#5B5BD6",
+    "secondaryColor": "#0D9488",
+    "backgroundColor": "#F6F3EE",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Warm scholarly minimalism — soft off-white backgrounds, indigo-violet primary with teal and pink accents for entity types, SVG knowledge graph, context cards with slide-up animation, dual light/dark themes with warm dark tones"
+  },
+  "screens": [
+    "Reading — annotated book passage with tappable concept/person highlights and slide-up context cards showing descriptions, why-it-matters panels, and related references",
+    "Atlas — interactive SVG knowledge graph with node types (book, person, concept), edge highlighting on selection, radial glow on center node, and tap-to-inspect detail panel",
+    "Library — filterable book list (all/reading/done) with progress bars, entity counts, current chapter, and spine color tiles; stats row showing totals",
+    "Insights — tabbed view with AI-surfaced cross-book connections, reading streak, suggested next reads, and study packets (exportable annotation bundles)",
+    "Settings — profile card, light/dark theme toggle, font size selector, reading preferences toggles (auto-highlight, deep context), account actions"
+  ]
+}

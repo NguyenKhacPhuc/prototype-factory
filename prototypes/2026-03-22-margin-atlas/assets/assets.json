@@ -1,0 +1,14 @@
+{
+  "appName": "Margin Atlas",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#5B5BD6",
+    "secondary": "#0D9488",
+    "background": "#F6F3EE",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
