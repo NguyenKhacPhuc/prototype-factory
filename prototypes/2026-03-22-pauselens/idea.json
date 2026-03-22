@@ -1,0 +1,19 @@
+{
+  "name": "PauseLens",
+  "tagline": "Turn video into usable moments",
+  "description": "PauseLens helps people quickly find and extract the exact moments that matter inside long, messy videos. It solves the common problem of being unable to locate a specific clip in hours of footage, whether it is a child\u2019s first steps, a tutorial detail, a meeting whiteboard sketch, or a product demo moment. The app automatically detects scene changes, spoken cues, motion peaks, and objects of interest, then turns them into searchable \u201cmoments\u201d you can tag, caption, and share. In daily life, it saves users from scrubbing endlessly through camera rolls and screen recordings by letting them search in plain language like \u201cwhen my dog jumped\u201d or \u201cthe part where I said the password.\u201d It is especially useful for parents, creators, students, and remote workers who capture too much video but need only a few seconds from it. Unlike generic gallery apps or standard editors, PauseLens focuses on understanding the content of the video rather than just storing it, making retrieval feel like asking a smart assistant instead of manually hunting.",
+  "features": [
+    "The app automatically segments every video into meaningful moments using audio, motion, and scene detection so users can jump directly to the part they need.",
+    "Users can search clips with natural language queries, which matters because it removes the frustration of remembering timestamps or manually scrubbing through footage.",
+    "PauseLens creates smart highlight cards with auto-generated captions and preview thumbnails so important moments are easy to recognize at a glance.",
+    "The app lets users pin frequently needed moments into reusable collections, helping them organize things like recipes, lectures, workouts, or family memories for quick access.",
+    "It can export trimmed clips in one tap with clean framing and optional subtitles, making it simple to share useful moments to messages, social posts, or work tools."
+  ],
+  "audience": "Adults aged 18\u201345 who regularly record videos on their phones, especially parents, content creators, students, and professionals in hybrid work settings. It is ideal for people who capture lots of footage but need fast retrieval and lightweight editing.",
+  "category": "photo & video",
+  "useCases": [
+    "Maya just recorded her toddler\u2019s birthday party and wants the exact second her daughter blew out the candles, without rewatching a 40-minute video. She opens PauseLens, searches for \"candles,\" and instantly saves the best clip.",
+    "Jordan is a product designer who screen-recorded a client walkthrough and needs the moment where feedback was discussed. He types a phrase from the conversation, finds the right moment, and shares it with his team.",
+    "Leah filmed a cooking tutorial on her phone and wants to post only the step where the sauce turned out right. She uses PauseLens to identify the cleanest motion peak and exports a polished short clip in minutes."
+  ]
+}

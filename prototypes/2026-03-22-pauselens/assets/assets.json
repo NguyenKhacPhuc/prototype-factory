@@ -1,0 +1,18 @@
+{
+  "appName": "PauseLens",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#6D28D9",
+    "secondary": "#4F46E5",
+    "background": "#F4F2FF",
+    "accent": "#A78BFA"
+  },
+  "icons": [
+    "camera",
+    "mic",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 3,
+  "fontFileCount": 0
+}

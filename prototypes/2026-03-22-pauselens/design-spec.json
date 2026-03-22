@@ -1,0 +1,22 @@
+{
+  "appName": "PauseLens",
+  "tagline": "Turn video into usable moments",
+  "designSystem": {
+    "primaryColor": "#6D28D9",
+    "secondaryColor": "#4F46E5",
+    "accentColor": "#A78BFA",
+    "backgroundColor": "#F4F2FF",
+    "darkBackground": "#0D0A1A",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern glassmorphic-lite card UI with a deep violet/indigo brand palette. Gradient headers, pill tags, soft surface layers, and motion-aware moment detection indicators in amber (motion), blue (audio), and green (scene). Clean hierarchy with heavy 800-weight titles and muted subtitles. Both light and dark themes share the same violet identity — light uses lavender tints while dark uses deep midnight purples."
+  },
+  "screens": [
+    "Home — Pinned moments + recent video library with stats header",
+    "Video Detail — In-video playback UI with moment timeline markers and type breakdown",
+    "Search — Natural language query input with smart suggestions and filtered moment results",
+    "Collections — Grid of topic collections (Family, Study, Work, Home) with pinned moments list",
+    "Collection Detail — Moments scoped to a single collection",
+    "Moment Modal — Full-detail sheet for any moment with export, pin, tags, and source video",
+    "Settings — Theme toggle (light/dark), detection options, export preferences, profile"
+  ]
+}
