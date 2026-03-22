@@ -8,6 +8,7 @@ import { Gallery } from "./pages/gallery";
 import { PrototypeDetail } from "./pages/prototype-detail";
 import { About } from "./pages/about";
 import { Create } from "./pages/create";
+import { Canvas } from "./pages/canvas";
 import { Styles } from "./pages/styles";
 import { Profile } from "./pages/profile";
 import { AuthCallback } from "./pages/auth-callback";
@@ -58,6 +59,8 @@ export function App() {
         return <About prototypeCount={prototypes.length} navigate={navigate} />;
       case "/create":
         return <Create navigate={navigate} />;
+      case "/canvas":
+        return <Canvas navigate={navigate} />;
       case "/styles":
         return <Styles navigate={navigate} />;
       case "/profile":
@@ -69,11 +72,13 @@ export function App() {
     }
   };
 
+  const isCanvas = path === "/canvas";
+
   return (
     <div className="app">
-      <Header navigate={navigate} currentPath={path} />
+      {!isCanvas && <Header navigate={navigate} currentPath={path} />}
       <main className="main">{renderPage()}</main>
-      <Footer />
+      {!isCanvas && <Footer />}
     </div>
   );
 }

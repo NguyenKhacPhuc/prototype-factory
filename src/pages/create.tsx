@@ -14,146 +14,115 @@ const EXAMPLES = [
 
 export function Create({ navigate }: Props) {
   const [prompt, setPrompt] = useState("");
-  const [generating, setGenerating] = useState(false);
-  const [done, setDone] = useState(false);
 
   const handleGenerate = () => {
     if (!prompt.trim()) return;
-    setGenerating(true);
-    // Simulate generation
-    setTimeout(() => {
-      setGenerating(false);
-      setDone(true);
-    }, 3000);
-  };
-
-  const handleReset = () => {
-    setPrompt("");
-    setDone(false);
-    setGenerating(false);
+    navigate("/canvas");
   };
 
   return (
-    <div className="create-page">
-      {!generating && !done ? (
-        <>
-          <div className="create-hero">
-            <span className="create-badge">Beta</span>
-            <h1 className="create-title">
-              Describe your app,
-              <br />
-              <span className="create-highlight">AI builds it.</span>
-            </h1>
-            <p className="create-subtitle">
-              Type a description of your app idea and our AI will generate
-              a full interactive prototype with design system and screens.
-            </p>
-          </div>
+    <div style={{ maxWidth: 720, margin: "0 auto", padding: "60px 32px 100px" }}>
+      <div style={{ textAlign: "center" as const, marginBottom: 40 }}>
+        <span style={{
+          display: "inline-block", fontSize: 11, fontWeight: 700,
+          textTransform: "uppercase" as const, letterSpacing: 1.5,
+          padding: "4px 14px", borderRadius: 50,
+          background: "rgba(232,160,74,0.12)", color: "var(--accent)",
+          border: "1px solid rgba(232,160,74,0.25)", marginBottom: 16,
+        }}>Beta</span>
+        <h1 style={{
+          fontFamily: "'Playfair Display',serif", fontSize: 48,
+          fontWeight: 600, lineHeight: 1.15, letterSpacing: -1,
+        }}>
+          Describe your app,<br />
+          <span style={{ color: "var(--accent)" }}>AI builds it.</span>
+        </h1>
+        <p style={{
+          fontSize: 16, color: "var(--text-secondary)", lineHeight: 1.7,
+          marginTop: 16, maxWidth: 480, marginLeft: "auto", marginRight: "auto",
+        }}>
+          Type a description of your app idea and our AI will generate
+          a full interactive prototype with design system and screens.
+        </p>
+      </div>
 
-          <div className="create-input-wrap">
-            <textarea
-              className="create-input"
-              placeholder="Describe your app idea in a few sentences..."
-              value={prompt}
-              onChange={(e) => setPrompt(e.target.value)}
-              rows={4}
-            />
-            <div className="create-input-footer">
-              <span className="create-char-count">{prompt.length}/500</span>
-              <button
-                className="create-submit"
-                onClick={handleGenerate}
-                disabled={!prompt.trim()}
-              >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-                Generate Prototype
-              </button>
-            </div>
-          </div>
-
-          <div className="create-examples">
-            <p className="create-examples-label">Try an example:</p>
-            <div className="create-examples-list">
-              {EXAMPLES.map((ex, i) => (
-                <button key={i} className="create-example" onClick={() => setPrompt(ex)}>
-                  {ex}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          <div className="create-steps">
-            {[
-              { num: "1", title: "Describe", desc: "Tell us your app idea in natural language" },
-              { num: "2", title: "Generate", desc: "AI creates a full prototype with design system" },
-              { num: "3", title: "Preview", desc: "Interact with your prototype in the browser" },
-            ].map((step) => (
-              <div key={step.num} className="create-step">
-                <span className="create-step-num">{step.num}</span>
-                <div>
-                  <h3>{step.title}</h3>
-                  <p>{step.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </>
-      ) : generating ? (
-        <div className="create-generating">
-          <div className="create-spinner" />
-          <h2>Generating your prototype...</h2>
-          <p>AI is designing screens, picking colors, and writing code.</p>
-          <div className="create-progress">
-            <div className="create-progress-bar" />
-          </div>
-          <div className="create-progress-steps">
-            <span className="active">Ideation</span>
-            <span>Design System</span>
-            <span>Screens</span>
-            <span>Code</span>
-          </div>
-        </div>
-      ) : (
-        <div className="create-done">
-          <div className="create-done-icon">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
-              <polyline points="22 4 12 14.01 9 11.01" />
+      <div style={{
+        background: "var(--bg-elevated)", border: "1px solid var(--border-hover)",
+        borderRadius: 16, overflow: "hidden",
+      }}>
+        <textarea
+          placeholder="Describe your app idea in a few sentences..."
+          value={prompt}
+          onChange={(e) => setPrompt(e.target.value)}
+          rows={4}
+          style={{
+            width: "100%", padding: 20, background: "none", border: "none",
+            outline: "none", color: "var(--text)", fontSize: 15,
+            fontFamily: "inherit", lineHeight: 1.6, resize: "none",
+            boxSizing: "border-box" as const,
+          }}
+        />
+        <div style={{
+          display: "flex", alignItems: "center", justifyContent: "space-between",
+          padding: "12px 16px", borderTop: "1px solid var(--border)",
+        }}>
+          <span style={{ fontSize: 12, color: "var(--text-dim)" }}>{prompt.length}/500</span>
+          <button
+            onClick={handleGenerate}
+            disabled={!prompt.trim()}
+            style={{
+              display: "flex", alignItems: "center", gap: 8,
+              padding: "10px 22px", borderRadius: 10,
+              background: "var(--accent)", border: "none",
+              color: "#fff", fontSize: 14, fontWeight: 600,
+              cursor: prompt.trim() ? "pointer" : "not-allowed",
+              opacity: prompt.trim() ? 1 : 0.4,
+            }}
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
-          </div>
-          <h2>Prototype ready!</h2>
-          <p className="create-done-desc">Your app idea has been turned into an interactive prototype.</p>
-          <div className="create-done-preview">
-            <div className="create-done-mockup">
-              <div className="create-mockup-bar">
-                <span /><span /><span />
-              </div>
-              <div className="create-mockup-content">
-                <div className="create-mockup-block wide" />
-                <div className="create-mockup-block" />
-                <div className="create-mockup-row">
-                  <div className="create-mockup-block small" />
-                  <div className="create-mockup-block small" />
-                </div>
-                <div className="create-mockup-block tall" />
-              </div>
+            Generate Prototype
+          </button>
+        </div>
+      </div>
+
+      <div style={{ marginTop: 28 }}>
+        <p style={{ fontSize: 13, color: "var(--text-muted)", marginBottom: 10 }}>Try an example:</p>
+        <div style={{ display: "flex", flexWrap: "wrap" as const, gap: 8 }}>
+          {EXAMPLES.map((ex, i) => (
+            <button key={i} onClick={() => setPrompt(ex)} style={{
+              padding: "8px 16px", borderRadius: 50, fontSize: 13,
+              background: "var(--bg-elevated)", border: "1px solid var(--border)",
+              color: "var(--text-secondary)", cursor: "pointer",
+            }}>{ex}</button>
+          ))}
+        </div>
+      </div>
+
+      <div style={{ display: "flex", gap: 20, marginTop: 60 }}>
+        {[
+          { num: "1", title: "Describe", desc: "Tell us your app idea in natural language" },
+          { num: "2", title: "Generate", desc: "AI creates a full prototype with design system" },
+          { num: "3", title: "Preview", desc: "Interact with your prototype in the browser" },
+        ].map((step) => (
+          <div key={step.num} style={{
+            flex: 1, display: "flex", gap: 14, padding: 20,
+            background: "var(--bg-elevated)", borderRadius: 14,
+            border: "1px solid var(--border)",
+          }}>
+            <span style={{
+              flexShrink: 0, width: 32, height: 32, borderRadius: "50%",
+              background: "var(--accent)", color: "#fff", fontSize: 14, fontWeight: 700,
+              display: "flex", alignItems: "center", justifyContent: "center",
+            }}>{step.num}</span>
+            <div>
+              <h3 style={{ fontSize: 15, fontWeight: 600, marginBottom: 4 }}>{step.title}</h3>
+              <p style={{ fontSize: 13, color: "var(--text-muted)", lineHeight: 1.5 }}>{step.desc}</p>
             </div>
           </div>
-          <div className="create-done-prompt">
-            <strong>Your prompt:</strong> {prompt}
-          </div>
-          <div className="create-done-actions">
-            <button className="btn-primary" onClick={() => navigate("/gallery")}>
-              View in Gallery
-            </button>
-            <button className="btn-outline" onClick={handleReset}>
-              Create Another
-            </button>
-          </div>
-        </div>
-      )}
+        ))}
+      </div>
     </div>
   );
 }

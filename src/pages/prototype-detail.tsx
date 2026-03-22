@@ -117,7 +117,7 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
             <div className="detail-meta">
               {p.category && <span className="tag tag-category">{p.category}</span>}
               {date && <span className="tag">{date}</span>}
-              {p.audience && <span className="tag">{p.audience}</span>}
+              {p.audience && <span className="tag">{typeof p.audience === "string" ? p.audience : (p.audience as any).demographics || ""}</span>}
             </div>
           </div>
 
