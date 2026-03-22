@@ -1,0 +1,19 @@
+{
+  "name": "SkillSnap",
+  "tagline": "Learn from life, not just lectures.",
+  "description": "SkillSnap turns ordinary moments into mini-lessons by using your phone camera and context-aware prompts to teach practical skills exactly when you need them. Instead of forcing users into generic courses, the app recognizes real-world situations like reading a bus timetable, assembling flat-pack furniture, or comparing grocery unit prices, then generates a tiny, guided lesson in seconds. It solves the common problem of people needing knowledge at the point of use but lacking time, patience, or confidence to search through long tutorials. In daily life, it helps a parent figure out a school form, a traveler understand public transit signage, or a new worker decode a workplace checklist without feeling overwhelmed. The app is unique because it teaches through the user's immediate environment, blending visual recognition, adaptive micro-coaching, and memory reinforcement based on situations the user actually encounters. Over time, it builds a personalized library of real-world skills tied to places, objects, and routines, so learning becomes practical, contextual, and memorable. Unlike traditional education apps, SkillSnap doesn't wait for scheduled study time; it appears exactly when a question becomes real.",
+  "features": [
+    "The camera-based context engine identifies objects, documents, signs, and layouts, then translates them into step-by-step explanations that match the user's exact situation.",
+    "The app delivers 30-second micro-lessons that focus on one useful skill at a time, which matters because overwhelmed users can learn immediately without losing momentum.",
+    "A memory mode saves previous lessons into a searchable 'life skills' timeline, helping users revisit things like how to change a setting, interpret a label, or complete a form later.",
+    "Adaptive follow-up quizzes appear after real-world tasks and reinforce the lesson with short challenges, making knowledge stick beyond the moment of need.",
+    "Offline emergency lessons cover common everyday tasks like reading medication instructions or navigating transit maps, ensuring the app still helps when signal or confidence is low."
+  ],
+  "audience": "Adults 18\u201345 who are juggling work, parenting, travel, or independent living and need fast, practical learning in everyday situations. It is especially useful for immigrants, students, first-time renters, gig workers, and anyone building confidence with unfamiliar systems.",
+  "category": "education",
+  "useCases": [
+    "Maria just moved to a new country and is staring at a hospital intake form in a language she partly understands. She opens SkillSnap, points her camera at the page, and gets a plain-language explanation of each section plus what to fill in first.",
+    "Jay is in a furniture store trying to assemble a desk the same evening he brings it home. He scans the instruction sheet and gets a guided, step-by-step lesson that highlights confusing diagrams and warns him where mistakes usually happen.",
+    "Anita is at the grocery store comparing two brands of pasta sauce but can\u2019t tell which is better value. She snaps the shelf labels, and SkillSnap explains unit pricing, serving sizes, and which option saves money for her family."
+  ]
+}

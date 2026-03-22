@@ -1,0 +1,12 @@
+{
+  "appName": "SkillSnap",
+  "tagline": "Learn from life, not just lectures.",
+  "designSystem": {
+    "primaryColor": "#00E5B8",
+    "secondaryColor": "#7C6AFF",
+    "backgroundColor": "#080C18",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first mobile app with vibrant teal-purple accent palette, glassmorphism card surfaces, rounded corners, and bold typographic hierarchy. Features animated scan lines, gradient CTAs, and micro-interaction toggles."
+  },
+  "screens": ["home", "explore", "scan", "skills", "profile"]
+}
