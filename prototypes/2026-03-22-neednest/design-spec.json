@@ -1,0 +1,18 @@
+{
+  "appName": "NeedNest",
+  "tagline": "Shop what you actually need, when you need it.",
+  "designSystem": {
+    "primaryColor": "#10E5B1",
+    "secondaryColor": "#5BA3FF",
+    "backgroundColor": "#0B0E1A",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first modern utility UI with vibrant teal accent, depletion progress bars, card-based layout, and smooth toggle micro-interactions"
+  },
+  "screens": [
+    "Home — personalized dashboard with urgency summary, running-low item cards with depletion bars, quick actions (scan, receipt, add), and upcoming-week prediction strip",
+    "Pantry — searchable inventory with category filters (All / Kitchen / Cleaning / Bathroom), per-item depletion progress bars, days-left countdown, and scan-to-import header action",
+    "Shop — smart cart with best-buy price comparisons per item, expandable store options (size, unit price, badge, delivery ETA), one-tap add-all recommended banner",
+    "Alerts — routine-aware smart reminders with severity color coding, dismissible alert cards, routine mode switcher (Normal / Vacation / Away)",
+    "Settings — household profile, dark/light theme toggle, notification preferences (push, email, SMS), connected store management, monthly impact stats"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "NeedNest",
+  "tagline": "Shop what you actually need, when you need it.",
+  "description": "NeedNest is a hyper-personal shopping companion that predicts everyday household needs before you run out, then helps you buy the right items at the right time. It solves the common problem of overbuying, forgetting essentials, and making last-minute store runs by turning routine consumption into a simple, living shopping plan. Users can scan pantry items, receipt histories, or even take quick shelf photos, and the app learns household usage patterns to generate smart refill reminders based on real-life habits. For example, it might warn a family that detergent will likely run out next Thursday, suggest the best pack size based on their actual usage, and point them to the cheapest nearby option or delivery window. What makes it unique is that it does not just track lists\u2014it models depletion, household routines, and purchase timing to reduce waste, save money, and cut mental load. It is especially useful for busy parents, roommates, and anyone managing a household budget on autopilot. Instead of browsing aimlessly or remembering items at the wrong time, users get timely, personalized shopping actions tied to daily life.",
+  "features": [
+    "Smart depletion tracking learns how quickly your household uses groceries, toiletries, and cleaning supplies so the app can predict when items will run low and remind you before emergencies happen.",
+    "Receipt and photo import automatically builds your home inventory from purchases and shelf snapshots, saving users from manually entering every item and making setup fast.",
+    "Best-buy recommendations compare package sizes, unit prices, and nearby availability so shoppers can choose the most economical option for their actual usage pattern.",
+    "Routine-aware alerts adjust suggestions around travel, holidays, and irregular schedules so the app avoids annoying reminders when you are away or consuming less than usual.",
+    "One-tap replenishment lets users add predicted essentials to a cart or local pickup order instantly, which matters because it turns planning into action before supplies run out."
+  ],
+  "audience": "Busy adults ages 25\u201345, especially parents, shared-household roommates, and budget-conscious urban shoppers who juggle work, family, and errands. It also fits anyone who wants fewer emergency store trips and better control over recurring household spending.",
+  "category": "shopping",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to avoid another late-night pharmacy run. She opens NeedNest and sees that her toothpaste and allergy medicine will likely run out in four days, so she adds them to a nearby pickup order in under a minute.",
+    "Marcus lives with three roommates and is tired of buying duplicate paper towels because no one knows what is already left at home. He snaps a photo of the utility shelf, and the app updates the shared inventory and assigns the next restock item based on past usage.",
+    "Elena is planning a weekend trip and wants to avoid overbuying groceries that will spoil while she is away. NeedNest pauses normal reminders, then suggests only the few items that will expire soon and recommends smaller pack sizes for the week before she leaves."
+  ]
+}

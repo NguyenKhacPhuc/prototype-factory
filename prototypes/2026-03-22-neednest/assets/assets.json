@@ -1,0 +1,14 @@
+{
+  "appName": "NeedNest",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#10E5B1",
+    "secondary": "#5BA3FF",
+    "background": "#0B0E1A",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
