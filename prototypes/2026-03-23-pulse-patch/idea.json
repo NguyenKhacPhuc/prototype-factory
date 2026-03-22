@@ -1,0 +1,19 @@
+{
+  "name": "Pulse Patch",
+  "tagline": "Your symptom diary, made predictive.",
+  "description": "Pulse Patch is a smart symptom companion for people managing chronic or recurring conditions like migraines, IBS, asthma, endometriosis, and autoimmune flare-ups. Instead of asking users to manually log everything, it passively combines wearable data, calendar context, sleep patterns, weather shifts, medication timing, and short voice check-ins to spot patterns that usually get missed. The app turns scattered daily clues into a clear picture of likely triggers, flare risk, and the best time to act early, such as resting, hydrating, adjusting routines, or contacting a clinician. A person with migraines, for example, might learn that attacks cluster after late-night screen use plus barometric pressure drops, while someone with asthma could see that symptoms worsen on high-pollen commute days. What makes it unique is that it focuses on predicting and explaining flare-ups in plain language, rather than just storing symptoms after the fact. It also generates concise, exportable summaries that help users walk into appointments with evidence instead of guesswork, making everyday self-management feel less overwhelming and more actionable.",
+  "features": [
+    "The app builds a personalized flare-risk forecast by combining wearable signals, sleep quality, stress markers, and local environmental data, which helps users act before symptoms escalate.",
+    "It uses one-tap or voice-based check-ins that take less than 30 seconds, so people can stay consistent without feeling burdened by daily data entry.",
+    "It translates complex correlations into plain-language insights like 'your headaches spike when sleep is under six hours and pollen is high,' which makes trigger discovery understandable and useful.",
+    "It creates clinician-ready reports that summarize trends, medication response, and likely triggers over weeks or months, helping patients get more productive appointments.",
+    "It suggests small, condition-specific micro-actions such as hydration prompts, rest windows, or reminder nudges to take inhalers or meals on time, which helps users reduce symptom severity in real life."
+  ],
+  "audience": "Adults and teens living with chronic, episodic, or hard-to-track medical conditions, especially those who frequently need to identify triggers and manage unpredictable symptoms. It is also useful for caregivers and patients who want better preparation before clinic visits or urgent symptom spikes.",
+  "category": "medical",
+  "useCases": [
+    "Sarah just finished a stressful meeting and feels the start of a migraine coming on. She opens the app, sees that her risk is high because she slept poorly and the weather pressure is dropping, then follows the suggested recovery plan before the pain peaks.",
+    "Marcus has asthma and notices he feels tight-chested every spring commute. He checks the app before leaving for work and sees that today\u2019s pollen count plus his recent short sleep puts him at elevated risk, so he adjusts his route and remembers his inhaler.",
+    "Aisha has endometriosis and is tired of vague doctor visits with no clear answers. She opens the app before her appointment to generate a report showing symptom clusters around certain cycle phases, making it easier to discuss treatment options with her clinician."
+  ]
+}

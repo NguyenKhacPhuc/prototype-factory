@@ -1,0 +1,12 @@
+{
+  "appName": "Pulse Patch",
+  "tagline": "Your symptom diary, made predictive.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#0891B2",
+    "backgroundColor": "#F5F3FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern health card UI with vibrant violet-teal gradient branding, soft purple-tinted surfaces, pill-shaped tags, layered data cards with subtle shadows, and a clean mobile-first layout emphasizing readability and calm hierarchy"
+  },
+  "screens": ["home", "log", "insights", "reports", "settings"]
+}
