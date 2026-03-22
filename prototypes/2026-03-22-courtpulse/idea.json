@@ -1,0 +1,19 @@
+{
+  "name": "CourtPulse",
+  "tagline": "Know when every court is actually playable.",
+  "description": "CourtPulse is a hyperlocal sports readiness app that tells players which outdoor courts, fields, and pitches are genuinely usable right now. It combines live weather, surface type, sunlight, crowd noise, municipal alerts, and user-reported conditions to predict whether a basketball court is wet, a tennis court is glare-free, or a soccer field is too churned up for safe play. The real problem it solves is wasted trips: athletes often arrive at a park only to find flooding, poor lighting, locked gates, or packed courts with no open slots. In daily life, it helps people decide where to go, when to leave, and what sport to play based on their actual time window, such as finding a dry futsal cage after a rainstorm or a shaded court before sunset. A commuter can quickly check whether the nearby court is playable before heading home, while a weekend player can compare three parks and choose the one with the best surface and least crowding. What makes it unique is that it focuses on readiness, not just availability, turning fragmented signals into a practical go/no-go decision for spontaneous sports.",
+  "features": [
+    "It predicts playability for each venue by scoring surface wetness, wind, glare, lighting, and recent usage, so users know whether the space is truly safe and enjoyable.",
+    "It lets nearby players confirm conditions with one-tap reports like \"slick baseline\" or \"goal area flooded,\" which keeps the map fresh and locally reliable.",
+    "It offers smart detours and timing advice, such as waiting 40 minutes for the sun to drop or suggesting a different park five blocks away with better drainage.",
+    "It shows sport-specific recommendations, so a tennis player can avoid serving into dusk glare while a soccer player gets field-quality alerts instead of generic weather warnings.",
+    "It sends personalized departure alerts based on commute time and real-time conditions, helping users avoid arriving at a court that is likely to close, flood, or overcrowd by the time they get there."
+  ],
+  "audience": "Urban and suburban athletes ages 16\u201345 who play pickup sports, train casually, or squeeze in games around work, school, or family schedules. It is especially useful for people who rely on public courts and fields and need fast, location-based decisions.",
+  "category": "sports",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to shoot hoops before dinner, but she only has 45 minutes. She opens CourtPulse to find the nearest outdoor court that is dry, lightly occupied, and still has good lighting.",
+    "Malik is heading to soccer practice after a morning storm and wants to know whether the field is safe or just muddy. The app shows a high churn risk, suggests a turf field nearby, and warns that the home pitch is partially closed.",
+    "Jenna and two friends are trying to meet for tennis after work, but sunset is coming fast. She checks CourtPulse, sees that one court has terrible glare while another is shaded and open, and sends the group straight to the better option."
+  ]
+}

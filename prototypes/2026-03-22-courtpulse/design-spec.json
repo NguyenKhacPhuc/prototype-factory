@@ -1,0 +1,17 @@
+{
+  "appName": "CourtPulse",
+  "tagline": "Know when every court is actually playable.",
+  "designSystem": {
+    "primaryColor": "#00C896",
+    "secondaryColor": "#FF6B35",
+    "backgroundColor": "#EDF4EE",
+    "fontFamily": "Space Grotesk",
+    "style": "Clean sports utility UI with vibrant teal-green brand color, SVG playability rings, dark/light theme duality, and micro-interaction feedback throughout. Card-based layout with condition breakdowns and community reporting."
+  },
+  "screens": [
+    "Nearby Courts — Weather banner, sport filter pills, playability-scored court cards with condition tips and one-tap reports, bottom sheet detail modal",
+    "Court Map — Stylized park visualization with color-coded score pins, sport filters, bottom panel for selected court details and directions",
+    "Smart Alerts — Departure countdown card, toggleable alert list with condition/crowd/weather notifications, live community reports feed",
+    "Profile — User card, favorite sports selector, dark mode toggle, notification preferences, account settings"
+  ]
+}

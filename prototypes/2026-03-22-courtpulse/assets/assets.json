@@ -1,0 +1,14 @@
+{
+  "appName": "CourtPulse",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#00C896",
+    "secondary": "#FF6B35",
+    "background": "#EDF4EE",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
