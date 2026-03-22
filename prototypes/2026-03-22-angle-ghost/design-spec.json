@@ -1,0 +1,50 @@
+{
+  "appName": "Angle Ghost",
+  "tagline": "Never lose the right shot again.",
+  "designSystem": {
+    "primaryColor": "#4DFFCC",
+    "secondaryColor": "#7B6DFF",
+    "accentColor": "#FF6B9D",
+    "backgroundColor": "#0A0C10",
+    "surfaceColor": "#12161E",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first glassmorphism with cyan-teal primary accent, deep navy surfaces, vibrant match-score indicators, and spatial HUD overlays inspired by AR camera interfaces"
+  },
+  "screens": [
+    "Camera — Live viewfinder with translucent ghost overlay, spatial tracking HUD, match score indicator, horizon warning badges, ghost opacity slider, and capture controls",
+    "Library — Shot preset cards organized by category (Home, Content, Business, Fitness, Travel) with thumbnail previews, usage stats, and weekly activity metrics",
+    "Timeline — Chronological progress strips per preset with split-compare slider, match quality bars, and before/after visual comparison mode",
+    "Settings — Theme toggle (dark/light), ghost opacity, tracking options (spatial, horizon, lighting), storage management, and Pro subscription card"
+  ],
+  "features": [
+    "Real-time ghost overlay with adjustable opacity and live match score (40-99%)",
+    "Spatial tracking bars for Distance, Tilt, and Angle alignment",
+    "Horizon tilt warning badge with degree readout",
+    "Split compare slider with draggable divider for before/after shots",
+    "Shot preset library with category filtering and active preset indicator",
+    "Rule-of-thirds grid toggle",
+    "Dark/light theme toggle with distinct polished palettes",
+    "Micro-interactions on all interactive elements with press-scale feedback",
+    "Toast notifications for capture events and setting changes"
+  ],
+  "themeColors": {
+    "dark": {
+      "bg": "#0A0C10",
+      "surface": "#12161E",
+      "primary": "#4DFFCC",
+      "secondary": "#7B6DFF",
+      "accent": "#FF6B9D",
+      "text": "#E8EEFF",
+      "textSub": "#7B8DB0"
+    },
+    "light": {
+      "bg": "#F0F4FF",
+      "surface": "#FFFFFF",
+      "primary": "#00C896",
+      "secondary": "#6355E8",
+      "accent": "#E8406A",
+      "text": "#0D1230",
+      "textSub": "#4A5A8A"
+    }
+  }
+}

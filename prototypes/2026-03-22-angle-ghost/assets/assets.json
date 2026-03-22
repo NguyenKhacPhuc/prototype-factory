@@ -1,0 +1,39 @@
+{
+  "appName": "Angle Ghost",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#4DFFCC",
+    "secondary": "#7B6DFF",
+    "background": "#0A0C10",
+    "accent": "#FF6B9D"
+  },
+  "icons": [
+    "alert-circle",
+    "alert-triangle",
+    "battery",
+    "camera",
+    "check-circle",
+    "chevron-right",
+    "chevrons-left-right",
+    "cloud",
+    "crosshair",
+    "git-compare",
+    "grid",
+    "hard-drive",
+    "image",
+    "layers",
+    "layout",
+    "moon",
+    "plus",
+    "refresh-cw",
+    "search",
+    "settings",
+    "sun",
+    "target",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 24,
+  "fontFileCount": 0
+}

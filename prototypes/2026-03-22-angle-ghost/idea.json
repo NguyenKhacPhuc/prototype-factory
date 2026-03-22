@@ -1,0 +1,19 @@
+{
+  "name": "Angle Ghost",
+  "tagline": "Never lose the right shot again.",
+  "description": "Angle Ghost is a camera companion that learns the exact framing, distance, and viewpoint of your best photos and videos so you can recreate them later with near-identical precision. It solves the common problem of trying to reshoot content in the same spot\u2014whether for before-and-after transformations, travel repeats, product demos, or social media series\u2014only to end up with mismatched angles and awkward composition. The app creates a visual 'ghost guide' that overlays a translucent outline of your previous shot in real time, helping you line up subjects, horizon, lighting direction, and even camera height. For example, a homeowner can document a renovation progress shot from the same hallway angle every week, a creator can record a recurring outfit or recipe series with consistent framing, and a traveler can revisit the same street corner years later for a striking then-vs-now post. It also lets users organize shot templates by location and purpose, so a business can standardize all listing photos or a coach can keep before-and-after fitness videos consistent. What makes it unique is that it doesn\u2019t just store media\u2014it turns your best framing into an interactive reusable blueprint that lives inside the camera view itself.",
+  "features": [
+    "The app generates a transparent live overlay from a previous photo or video frame, so users can precisely match the old composition without guesswork.",
+    "It uses on-device spatial tracking to guide distance, tilt, and angle, which matters because even small perspective shifts can ruin repeat shots.",
+    "Users can save shot presets by purpose, such as renovation updates, food content, or real-estate listings, making it easy to reuse the same setup later.",
+    "The app highlights mismatch warnings for lighting direction and horizon level, helping users avoid obvious visual inconsistencies before they record.",
+    "It includes a timeline mode that compares matched shots side by side, which is useful for progress tracking, storytelling, and client presentations."
+  ],
+  "audience": "Content creators, homeowners, real estate agents, fitness coaches, small business owners, and anyone who regularly needs repeatable photos or videos. It is especially useful for people aged 18-45 who publish visual content, document change over time, or need consistent framing for professional work.",
+  "category": "photo & video",
+  "useCases": [
+    "Maya is documenting her kitchen remodel and wants every weekly update to look identical, so she opens the app and lines up the exact same cabinet angle as last time.",
+    "Jon runs a small Etsy shop and needs clean, consistent product videos, so he uses a saved shot template to keep every item centered with the same lighting and zoom.",
+    "Elena wants a powerful then-and-now video from a trip she took five years ago, so she returns to the same street corner and uses the ghost overlay to recreate the original framing."
+  ]
+}
