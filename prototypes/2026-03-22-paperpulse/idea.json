@@ -1,0 +1,19 @@
+{
+  "name": "PaperPulse",
+  "tagline": "News tuned to your real-world moment.",
+  "description": "PaperPulse is a context-aware magazine and newspaper reader that adapts stories to what users are actually doing, where they are, and how much time they have. Instead of dumping a generic feed, it reorganizes articles into practical modes like commute, lunch break, bedtime, and deep dive, so the same news feels usable in everyday life. It solves the problem of information overload by surfacing only the most relevant coverage and pairing it with concise explainers, local implications, and follow-up context. A user commuting to work might see a 4-minute briefing on city transit delays, a housing headline, and one long-form piece saved for later, while a parent at dinner time might get only the few stories that affect their neighborhood or family budget. What makes it unique is that it treats editorial content like a flexible personal magazine, not a static list of headlines, and it intelligently rewrites the experience around the user\u2019s moment rather than forcing the user to adapt to the app. It also connects stories across publishers so readers can compare coverage, understand bias differences, and follow the full arc of a topic without hunting through multiple apps. This makes staying informed feel less like a chore and more like a habit that fits naturally into the day.",
+  "features": [
+    "Moment Modes automatically reshuffle headlines into commute, quick-browse, deep-read, and offline modes, which helps users consume news in the few minutes they actually have.",
+    "Story Layers offer the same article in summary, explainer, and full analysis formats, so readers can start small and go deeper without losing context.",
+    "Local Impact Cards show how major national or global events affect the user's city, bills, commute, school district, or industry, making abstract news immediately relevant.",
+    "Cross-Source Compare lets readers view the same story from multiple magazines and newspapers side by side, which matters because it reveals framing, gaps, and editorial differences.",
+    "Save-to-Later Collections turn scattered articles into themed mini-issues, helping users build a personal weekly digest for topics like rent, tech, elections, or health."
+  ],
+  "audience": "Busy adults ages 22-55 who want to stay informed but have fragmented reading time, especially commuters, professionals, parents, and city dwellers. It also appeals to readers who value trusted journalism but feel overwhelmed by standard news feeds.",
+  "category": "magazines & newspapers",
+  "useCases": [
+    "Sarah just finished a stressful meeting and has seven minutes before her next call. She opens PaperPulse in Quick-Browse mode to catch the three stories that could affect her job and commute without falling into a full-news rabbit hole.",
+    "Marcus is riding the train home and wants to understand a new housing policy he keeps hearing about. He taps the story layer to read the summary first, then checks the local impact card to see how it affects rent in his neighborhood.",
+    "Priya is getting ready for bed and wants to stay informed without doomscrolling. She opens her saved weekly collection, reads one long-form investigation she bookmarked earlier, and compares how two newspapers framed the same story."
+  ]
+}

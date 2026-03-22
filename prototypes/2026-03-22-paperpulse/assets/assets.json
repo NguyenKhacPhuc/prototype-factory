@@ -1,0 +1,30 @@
+{
+  "appName": "PaperPulse",
+  "fontFamily": "Sora",
+  "colors": {
+    "primary": "#C54A12",
+    "secondary": "#1A5FA3",
+    "background": "#F7F4EF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "bookmark",
+    "chevron-left",
+    "chevron-right",
+    "clock",
+    "file-text",
+    "layers",
+    "map-pin",
+    "moon",
+    "plus",
+    "search",
+    "signal",
+    "sun",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 15,
+  "fontFileCount": 0
+}

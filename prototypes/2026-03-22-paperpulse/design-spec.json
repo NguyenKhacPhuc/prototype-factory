@@ -1,0 +1,18 @@
+{
+  "appName": "PaperPulse",
+  "tagline": "News tuned to your real-world moment.",
+  "designSystem": {
+    "primaryColor": "#C54A12",
+    "secondaryColor": "#1A5FA3",
+    "backgroundColor": "#F7F4EF",
+    "fontFamily": "Sora",
+    "style": "Editorial minimalism with warm parchment tones, vibrant burnt-orange brand color, and clean typographic hierarchy. Card-based layout with subtle borders and contextual color coding per topic/category. Supports light (warm cream) and dark (deep charcoal) themes."
+  },
+  "screens": [
+    "Home — Moment Modes (Commute, Lunch, Bedtime, Deep Dive) with adaptive article feeds, featured story cards, and local impact banner",
+    "Article Detail — Story Layers (Summary, Explainer, Full Analysis) with Local Impact Cards and cross-source compare prompt",
+    "Compare — Cross-Source Compare showing same story from Washington Post, Wall Street Journal, and The Guardian with tone analysis, emphasis breakdown, and word count depth bars",
+    "Saved — Collections library (Transit & City, Housing Market, Tech & AI, Health & Wellness) with article counts, smart preview, and collection drill-down",
+    "Settings — User profile, theme toggle (light/dark), personalization (location, industry, mode), sources, topic interests, and notification preferences"
+  ]
+}
