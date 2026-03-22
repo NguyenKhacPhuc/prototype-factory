@@ -1,0 +1,21 @@
+{
+  "appName": "MoodMap Tales",
+  "tagline": "Stories that help kids name big feelings",
+  "designSystem": {
+    "primaryColor": "#F4845F",
+    "secondaryColor": "#7C6AF5",
+    "accentColor": "#F7C948",
+    "backgroundColor": "#FFF8F2",
+    "darkBackground": "#13111A",
+    "fontFamily": "Nunito",
+    "style": "Warm, playful, and child-friendly with a soft orange-purple gradient brand palette. Rounded corners throughout, emoji-rich UI, animated breathing circles, and progress bars. Light mode uses creamy warm whites; dark mode uses deep navy-purple surfaces. Micro-interactions on all tappable elements."
+  },
+  "screens": [
+    "Home — Mood picker grid (6 feelings) + scenario preset list + recent stories feed",
+    "Story — Paginated illustrated story reader with progress bar, paragraph-by-paragraph reveal, and coping skill transition",
+    "Activity — Interactive breathing animation circle + coping script cards + completion celebration",
+    "Complete — Achievement screen with skill earned card and navigation options",
+    "Parent — Tabbed view with conversation prompt accordion + weekly emotion bar chart + pattern insights + skill history",
+    "Settings — Profile hero, dark/light mode toggle, configuration rows, app info footer"
+  ]
+}

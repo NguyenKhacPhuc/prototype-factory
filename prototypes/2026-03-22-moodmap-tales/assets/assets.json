@@ -1,0 +1,14 @@
+{
+  "appName": "MoodMap Tales",
+  "fontFamily": "Nunito",
+  "colors": {
+    "primary": "#F4845F",
+    "secondary": "#7C6AF5",
+    "background": "#FFF8F2",
+    "accent": "#F7C948"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

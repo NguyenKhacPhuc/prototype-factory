@@ -1,0 +1,19 @@
+{
+  "name": "MoodMap Tales",
+  "tagline": "Stories that help kids name big feelings",
+  "description": "MoodMap Tales is an interactive story app that turns everyday emotional moments into personalized bedtime-style adventures for kids ages 4-10. When a child taps how they feel\u2014sad, nervous, angry, left out, or overwhelmed\u2014the app generates a short story starring a relatable hero facing the same feeling and learning one concrete coping skill. It solves the real problem of kids often not having the language to explain emotions, which can lead to meltdowns, shutdowns, or friction with parents and teachers. In daily life, parents can use it after a rough playground pickup, before a dentist visit, or during an after-school tantrum to help a child calm down without turning the moment into a lecture. A unique example is a child who is mad because a sibling took their toy: the app spins a tale about a squirrel whose acorn got borrowed, then guides the child through a \u201csay what happened, say what you need\u201d script. Another example is a child anxious about a school presentation, where the story ends with a breathing game and a tiny rehearsal prompt using their own name. Unlike generic calming apps or emotion charts, MoodMap Tales personalizes the narrative, teaches the skill inside the story, and creates a repeatable bridge from feelings to actions that fits real family routines.",
+  "features": [
+    "The app creates customized mini-stories based on the child\u2019s selected feeling, making abstract emotions easier to recognize and discuss.",
+    "It ends each story with a practical coping tool, such as breathing, naming needs, or asking for help, so children can use the lesson immediately.",
+    "A parent mode suggests age-appropriate conversation prompts, helping caregivers continue the emotional conversation without guessing what to say.",
+    "The app includes \u201creal life\u201d scenario presets like playground conflict, bedtime worries, and doctor visits, so families can use it in moments that actually happen.",
+    "It tracks recurring emotional triggers over time and highlights patterns, which helps parents spot when support, routine changes, or a teacher conversation may be needed."
+  ],
+  "audience": "Parents, caregivers, and teachers of children ages 4-10 who need help with emotional regulation, language development, and daily transitions. It is especially useful for families navigating big feelings, neurodivergence, or stressful routines.",
+  "category": "kids",
+  "useCases": [
+    "Maya\u2019s 6-year-old is sobbing after a friend refuses to share at daycare, and she opens the app to turn the moment into a short story about a fox learning how to ask for a turn. After the story, her child practices the exact sentence he can use next time.",
+    "Jordan\u2019s daughter is lying in bed worrying about a school performance tomorrow, so he uses the app\u2019s \u201cbefore bedtime\u201d preset to generate a calm adventure about stage fright. The story ends with a 30-second breathing exercise and a confidence phrase she can repeat in the morning.",
+    "A teacher notices a student shutting down after recess every afternoon and uses the app during a quiet reset corner to help the child identify the feeling as \u201coverstimulated.\u201d The child listens to a story about a busy raccoon finding a quieter path and then chooses a calming action card for the classroom."
+  ]
+}
