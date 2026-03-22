@@ -1,0 +1,12 @@
+{
+  "appName": "Layover Lens",
+  "tagline": "Turn transit time into local discovery.",
+  "designSystem": {
+    "primaryColor": "#2DD4BF",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#080D1C",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark glassmorphic with vibrant teal accent. Layered card surfaces with subtle border glow, risk-coded color indicators (green/amber/red), timeline stop-by-stop layout, and a clean minimal navigation. Bold numeric hierarchy for time/risk data."
+  },
+  "screens": ["home", "explore", "itinerary", "settings"]
+}

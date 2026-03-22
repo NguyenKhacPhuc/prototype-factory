@@ -1,0 +1,13 @@
+{
+  "name": "Layover Lens",
+  "tagline": "Turn transit time into local discovery.",
+  "description": "Layover Lens helps travelers make the most of awkward gaps between flights, trains, and meetings by creating hyper-practical micro-itineraries based on exactly how much time they have, where they are, and how risky their schedule is. Instead of generic sightseeing lists, it maps safe, low-friction experiences that fit real-world constraints like immigration lines, luggage storage, weather, and transportation reliability. A user with a four-hour layover in Tokyo might get a route for a two-station ramen stop, a quick bathhouse visit, and a return plan with buffer time, while someone with 90 minutes in Lisbon could be guided to a scenic viewpoint near the station and back before boarding. The app solves the common problem of wasted transit time by translating spare hours into memorable, low-stress mini adventures. What makes it unique is its risk-aware planning engine: it doesn\u2019t just tell you what\u2019s nearby, it tells you what is actually feasible right now. It also adapts suggestions based on user energy, budget, luggage, mobility needs, and even whether they want to stay inside security or leave the terminal. In daily life, it becomes the travel companion that transforms unpredictable downtime into confidence and a sense of place.",
+  "features": [
+    "The app builds micro-itineraries from your exact time window, including buffer estimates for transit and boarding, so you can explore without constantly calculating whether you will make it back on time.",
+    "Its risk meter scores every suggestion using live data like traffic, station congestion, visa rules, and weather, which helps users avoid the stress of poorly timed detours.",
+    "It recommends luggage-friendly stops such as bag storage, walkable food streets, and nearby showers, making short visits comfortable even when travelers are carrying everything with them.",
+    "The app offers mode-based experiences like 'reset,' 'eat,' 'see,' or 'work,' allowing users to choose whether they want a quiet caf\u00e9, a landmark photo stop, or a place to catch up on emails.",
+    "It generates return-to-gate step-by-step guidance with check-in reminders, which matters because users can enjoy the outing without obsessively checking the clock.",
+    "audience =?"
+  ]
+}
