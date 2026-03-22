@@ -1,0 +1,18 @@
+{
+  "appName": "Waste Whisper",
+  "tagline": "Turn leftovers into lower-impact meals.",
+  "designSystem": {
+    "primaryColor": "#1F8C5A",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#EFF8F2",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Eco-minimal with vibrant forest-green accent palette. Clean card-based layouts with freshness-coded urgency indicators (red/orange/amber/green), gradient hero cards, and sustainability-forward visual language. Light mode uses soft sage backgrounds with white surfaces; dark mode uses deep forest tones with luminous mint-green accents."
+  },
+  "screens": [
+    "home",
+    "pantry",
+    "recipes",
+    "impact",
+    "grocery"
+  ]
+}

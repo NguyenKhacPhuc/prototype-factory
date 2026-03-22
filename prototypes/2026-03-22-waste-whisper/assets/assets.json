@@ -1,0 +1,34 @@
+{
+  "appName": "Waste Whisper",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#1F8C5A",
+    "secondary": "#F59E0B",
+    "background": "#EFF8F2",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "bell",
+    "camera",
+    "check",
+    "chef-hat",
+    "chevron-left",
+    "chevron-right",
+    "home",
+    "leaf",
+    "moon",
+    "package",
+    "plus",
+    "plus-circle",
+    "receipt",
+    "search",
+    "shopping-basket",
+    "shopping-cart",
+    "sun",
+    "trending-down"
+  ],
+  "fonts": [],
+  "iconCount": 19,
+  "fontFileCount": 0
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Waste Whisper",
+  "tagline": "Turn leftovers into lower-impact meals.",
+  "description": "Waste Whisper helps households reduce food waste by reading what is actually in their fridge, pantry, and leftovers, then turning it into realistic meal plans before anything spoils. Users can quickly log ingredients by snapping a receipt, scanning package labels, or taking a fridge photo, and the app estimates freshness windows, portion sizes, and the carbon impact of wasting each item. It solves the everyday problem of buying too much, forgetting what is already at home, and throwing away good food because people lack a simple plan for using it in time. In daily life, the app suggests exact recipes based on what is expiring soon, such as turning wilted spinach, leftover rice, and one bell pepper into a stir-fry tonight or tomorrow\u2019s lunch. It also creates a \u201csave first\u201d grocery list that prioritizes buying only the missing ingredients needed to complete recipes you can already make. What makes it unique is that it focuses on the messy reality of home food management instead of generic recipe browsing, combining waste prediction, meal rescue planning, and climate feedback in one highly practical tool.",
+  "features": [
+    "The app scans fridge and pantry photos to identify ingredients and estimate what should be used first, which matters because most food waste happens when people simply forget what they already have.",
+    "It generates rescue recipes based on ingredient age, quantity, and household preferences, helping users cook with what is close to expiring instead of ordering takeout or buying duplicates.",
+    "It sends intelligent freshness reminders that are tied to likely meal times, so users get useful prompts like 'Use the mushrooms tonight' instead of vague expiration notifications.",
+    "It calculates the money and carbon emissions saved each week from avoided waste, making sustainability feel tangible and giving users a clear reason to keep using the app.",
+    "It builds a grocery list that avoids overbuying by showing which meals can be completed with existing items, which matters because smarter shopping is one of the easiest ways to cut household waste."
+  ],
+  "category": "sustainability",
+  "useCases": [
+    "Maya just got back from work and notices a carton of yogurt, half a bag of spinach, and cooked rice nearing the end of their shelf life. She opens the app and gets three fast dinner options that use those exact ingredients before they spoil.",
+    "Jordan is planning a grocery run for a family of four but keeps buying duplicates of items already sitting in the fridge. He checks the app first, which shows what needs to be used this week and builds a tighter shopping list.",
+    "Leah is trying to save money while living alone in a small apartment with an unpredictable schedule. She snaps a photo of her pantry on Sunday, then uses the app all week to turn random leftovers into meals instead of letting ingredients go bad."
+  ],
+  "audience": "Busy households, renters, students, and young professionals ages 18-45 who cook at home irregularly and want to save money, reduce waste, and make weeknight meal planning easier. It is especially useful for people with packed schedules who forget what food they already have or struggle to use leftovers in time."
+}
