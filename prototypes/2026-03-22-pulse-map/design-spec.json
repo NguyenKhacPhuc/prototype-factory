@@ -1,0 +1,12 @@
+{
+  "appName": "Pulse Map",
+  "tagline": "News that matters where you are",
+  "designSystem": {
+    "primaryColor": "#00B4D8",
+    "secondaryColor": "#FF6B35",
+    "backgroundColor": "#F0F4F8",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean card-based layout with vibrant teal primary, contextual color-coding per news category, map-integrated UI, high information density with clear urgency hierarchy"
+  },
+  "screens": ["Feed", "Map", "Alerts", "Explore", "Profile"]
+}

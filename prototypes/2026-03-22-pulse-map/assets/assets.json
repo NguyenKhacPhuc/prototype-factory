@@ -1,0 +1,43 @@
+{
+  "appName": "Pulse Map",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#00B4D8",
+    "secondary": "#FF6B35",
+    "background": "#F0F4F8",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "bus",
+    "check-circle",
+    "chevron-right",
+    "cloud-rain",
+    "compass",
+    "droplets",
+    "help-circle",
+    "landmark",
+    "layers",
+    "locate-fixed",
+    "map",
+    "map-pin",
+    "map-pinned",
+    "moon",
+    "navigation",
+    "search",
+    "shield",
+    "signal",
+    "sun",
+    "train",
+    "user",
+    "user-check",
+    "wifi",
+    "wind",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 28,
+  "fontFileCount": 0
+}

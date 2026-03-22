@@ -1,0 +1,19 @@
+{
+  "name": "Pulse Map",
+  "tagline": "News that matters where you are",
+  "description": "Pulse Map is a location-aware news app that turns local events into an interactive story of your day. Instead of showing every headline at once, it filters news by where you are, where you\u2019re going, and what\u2019s changing around you, such as road closures on your commute, a council vote affecting your neighborhood, or a weather alert near your child\u2019s school. The app solves the overload problem by prioritizing only the news that can realistically affect your next few hours, while still letting you explore wider context when you want it. In daily life, it helps users leave home prepared, decide whether to reroute around disruptions, and understand why a story matters without having to read a dozen unrelated articles. A commuter could check it before heading out to see a train delay tied to a city strike, a parent could get notified about a water advisory near their daycare route, and a small business owner could monitor policy changes affecting their block. What makes Pulse Map unique is that it blends news, maps, and time-based relevance into a living feed of nearby impact rather than a generic headline list.",
+  "features": [
+    "The app builds a personalized map feed that ranks stories by proximity, urgency, and likely impact so users see the most relevant news first.",
+    "It combines headlines with exact places and route overlays, helping users understand where an event is happening and whether it affects their commute or plans.",
+    "It sends short, context-aware alerts for breaking developments like street closures, school announcements, and utility outages that matter within the user's current radius.",
+    "It explains each story in plain language with a 'why this affects you' summary, making complex civic or local issues easier to act on quickly.",
+    "It lets users follow specific addresses, neighborhoods, and routes, which matters because many important stories are local to a place rather than a topic."
+  ],
+  "audience": "Urban and suburban adults ages 18-55 who commute, care for families, run local businesses, or want to stay informed without drowning in national-news noise. It is especially useful for people living in fast-changing cities where transportation, weather, and city decisions directly affect everyday routines.",
+  "category": "news",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to know if her train home will be delayed by the stadium event near the station, so she opens Pulse Map and sees a route-based alert with a faster alternate path.",
+    "Marcus runs a coffee shop on a busy corner and checks the app each morning to see if nearby construction, parking rule changes, or permit decisions might affect foot traffic or deliveries.",
+    "Priya is dropping her kid off at daycare and gets a notification about a water advisory on the way, so she reads the quick summary and adjusts her stop before leaving home."
+  ]
+}
