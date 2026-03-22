@@ -1,0 +1,20 @@
+{
+  "name": "Space Stitch",
+  "tagline": "Turn clutter into beautifully designed layouts.",
+  "description": "Space Stitch is a mobile app that helps people instantly redesign messy physical spaces using their phone camera and intelligent layout suggestions. It solves the everyday problem of wanting a room, desk, or event setup to look polished without knowing design principles or spending hours moving objects around. Users simply take a photo of a space, and the app analyzes spacing, symmetry, color balance, and visual hierarchy to propose cleaner arrangements and decor adjustments. It is especially useful in daily life for home offices, dorm rooms, pop-up displays, shop windows, and even dinner table settings where presentation matters. For example, a small business owner can photograph a product shelf and get a more balanced arrangement that draws attention to high-margin items, while a student can snap a cluttered desk and receive a tidy, aesthetically pleasing setup optimized for focus. What makes it unique is that it generates practical, photo-based design guidance for real-world environments rather than just digital mockups, bridging interior styling, visual merchandising, and everyday organization in one tool.",
+  "features": [
+    "The camera-based space scanner identifies objects, surfaces, and layout problems in seconds so users can understand what is making a space feel crowded or unbalanced.",
+    "The redesign engine suggests multiple visual compositions with annotated move-this-here instructions, making professional-looking arrangement decisions easy to follow in real life.",
+    "The style matcher learns whether a user prefers minimal, cozy, bold, or editorial aesthetics and tailors every suggestion to that visual language.",
+    "The before-and-after preview overlays show how a room or display will look after changes, helping users make confident decisions before moving anything physically.",
+    "The exportable setup guide converts a proposed arrangement into a simple checklist, which matters for repeatable styling of desks, tables, shelves, and storefronts.",
+    "audience"
+  ],
+  "audience": "Urban renters, students, creators, and small business owners ages 18\u201345 who want their physical spaces to look intentional without hiring a designer. It is also useful for people who frequently style rooms, booths, or product displays and need quick, low-cost design decisions on the go.",
+  "category": "graphic & design",
+  "useCases": [
+    "Sarah just finished setting up a tiny home office and wants it to look calmer and more professional. She opens Space Stitch, scans her desk, and gets a better monitor, lamp, and accessory arrangement that reduces clutter and improves focus.",
+    "Jamal runs a weekend candle stall and needs his table to stand out in a crowded market. He photographs his display, then uses the app\u2019s layout suggestions to create a cleaner, more eye-catching product arrangement that leads customers to his best-selling items.",
+    "Mina is hosting a dinner party and wants her table setting to feel special without overbuying decor. She scans the table, gets color and spacing guidance for plates, candles, and flowers, and quickly creates a polished setup that looks curated."
+  ]
+}

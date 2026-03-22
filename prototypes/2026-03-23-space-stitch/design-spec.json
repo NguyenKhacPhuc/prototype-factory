@@ -1,0 +1,18 @@
+{
+  "appName": "Space Stitch",
+  "tagline": "Turn clutter into beautifully designed layouts.",
+  "designSystem": {
+    "primaryColor": "#00E5A0",
+    "secondaryColor": "#8B5CF6",
+    "backgroundColor": "#080810",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first modern mobile UI with vibrant teal-green primary accent, purple secondary, and pink accent highlights. Features glassmorphic surface layers, glowing score rings, animated scan lines, and before/after design previews. Typography uses Space Grotesk with 800-weight headers for strong hierarchy."
+  },
+  "screens": [
+    "home",
+    "scan",
+    "designs",
+    "style",
+    "settings"
+  ]
+}
