@@ -1,0 +1,32 @@
+{
+  "appName": "SceneSpark",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#F59E0B",
+    "background": "#F2EEFE",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "book-open",
+    "bookmark",
+    "chevron-right",
+    "compass",
+    "home",
+    "map-pin",
+    "moon",
+    "search",
+    "signal",
+    "star",
+    "sun",
+    "trending-up",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 17,
+  "fontFileCount": 0
+}

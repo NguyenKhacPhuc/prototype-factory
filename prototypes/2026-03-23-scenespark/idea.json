@@ -1,0 +1,19 @@
+{
+  "name": "SceneSpark",
+  "tagline": "Turn downtime into personal entertainment",
+  "description": "SceneSpark is an entertainment app that turns everyday waiting time into hyper-personalized mini experiences based on your mood, location, and available time. Instead of endlessly scrolling through generic recommendations, users open the app and get a short, interactive \u201cscene\u201d such as a 3-minute mystery, a bite-sized comedy routine, a fan-fiction style drama recap, or a choose-your-own-adventure game built around what they already enjoy. It solves the common problem of having a few spare minutes but no energy to commit to a full show, game, or podcast. In daily life, it helps people entertain themselves during commutes, lunch breaks, queue waits, or late-night wind-downs without decision fatigue. A user waiting for coffee might get an audio detective scene tied to the rain outside, while someone decompressing after work might get a customized sitcom-style recap of their favorite genre. What makes it unique is that it blends recommendation, AI-generated micro-storytelling, and contextual entertainment into something ephemeral and instantly rewarding rather than another endless content feed.",
+  "features": [
+    "Mood-based scene generation creates short entertainment bursts matched to how users feel, so the app can calm, energize, or distract them in the moment.",
+    "Time-length filters let users choose experiences that last exactly 2, 5, or 10 minutes, which matters because most people only need entertainment that fits the gap they have right now.",
+    "Context-aware prompts use location, weather, and time of day to make each scene feel relevant, such as a subway thriller during a commute or a cozy story on a rainy evening.",
+    "Interactive branching moments let users steer the story with simple choices, making the experience feel playful and personal instead of passive.",
+    "A memory trail saves favorite scenes and recurring character arcs, so users can return to them later and build a tiny serialized universe over time."
+  ],
+  "audience": "Primarily Gen Z and millennials aged 18\u201340 who consume entertainment in short bursts throughout the day. It is especially useful for commuters, remote workers, students, and anyone who often has 3\u201310 free minutes and wants something more engaging than social media scrolling.",
+  "category": "entertainment",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to mentally reset before her next call. She opens SceneSpark and gets a 4-minute sarcastic office comedy scene that matches her exhausted mood and gives her a quick laugh.",
+    "David is stuck on a delayed train and doesn\u2019t want to start a full episode he may not finish. He uses the app to spin up a location-based mystery scene that he can complete before his stop.",
+    "Mina is waiting for her friend outside a restaurant and has only a few minutes to spare. She taps into a choose-your-own-adventure romance scene and makes a few decisions that produce a personalized ending just before her friend arrives."
+  ]
+}

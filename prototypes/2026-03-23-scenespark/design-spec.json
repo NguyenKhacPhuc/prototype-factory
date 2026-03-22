@@ -1,0 +1,18 @@
+{
+  "appName": "SceneSpark",
+  "tagline": "Turn downtime into personal entertainment",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#F2EEFE",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern vibrant glassmorphism with deep violet/purple accent palette, gradient scene cards, pill-based mood selectors, interactive branching story cards with smooth transitions, and a bold 800-weight typographic hierarchy"
+  },
+  "screens": [
+    "home",
+    "play",
+    "discover",
+    "trail",
+    "settings"
+  ]
+}
