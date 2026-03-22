@@ -1,0 +1,19 @@
+{
+  "name": "QuietRoute",
+  "tagline": "Navigate by calm, not just speed.",
+  "description": "QuietRoute is a navigation app that helps people choose the safest, least stressful route based on noise, crowding, lighting, and walkability\u2014not just distance or travel time. It solves a real everyday problem for commuters, parents, neurodivergent users, night-shift workers, and anyone who wants to avoid overwhelming streets, awkward transfers, or poorly lit paths. Instead of optimizing only for the fastest ETA, the app layers live environmental signals, user preferences, and time-of-day risk to suggest routes that feel more manageable in the real world. For example, it can route a traveler around a packed transit hub during rush hour, guide a parent to a stroller-friendly sidewalk with fewer curb cuts, or steer someone home through brighter, calmer streets late at night. The app also adapts to changing conditions, warning users when a usually quiet route becomes noisy due to a concert, construction, or event crowd. What makes it unique is that it treats comfort, sensory load, and perceived safety as first-class navigation goals, giving users a route that is not just efficient but emotionally usable.",
+  "features": [
+    "It scores each route for noise, crowd density, lighting, and sidewalk comfort so users can choose paths that fit their sensitivity and mood.",
+    "It learns personal preferences over time, such as avoiding steep hills, busy stations, or loud intersections, and then automatically prioritizes those factors in future trips.",
+    "It uses live event, traffic, and transit data to reroute users away from sudden disruptions like street festivals, train delays, or construction closures.",
+    "It offers a 'calm mode' that favors predictable turns, fewer transfers, and simpler directions, which matters for anxious travelers or people navigating unfamiliar cities.",
+    "It highlights safer night routes with better lighting and more open visibility, helping users feel more secure when walking after dark."
+  ],
+  "audience": "Urban commuters, neurodivergent adults, parents with strollers, older adults, and night-time travelers who want navigation that accounts for comfort and perceived safety as well as speed. It is especially useful in dense cities where the shortest route is often the most stressful one.",
+  "category": "navigation",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to walk to the train without getting shoved through a packed shopping district, so she opens QuietRoute and chooses the calmest path home. The app sends her along quieter side streets with better lighting and fewer intersections.",
+    "Dev is visiting a new city after landing late at night and needs to reach his hotel safely, so he uses QuietRoute to avoid dark shortcuts and crowded transit stations. It guides him through a brighter, more open route with simpler turns.",
+    "Maya is pushing a stroller and trying to get to daycare before work, so she opens QuietRoute to find a route with smoother sidewalks and fewer stairs. The app helps her avoid a steep overpass and instead suggests a longer but much easier path."
+  ]
+}

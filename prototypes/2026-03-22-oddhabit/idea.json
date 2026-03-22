@@ -1,0 +1,16 @@
+{
+  "name": "OddHabit",
+  "tagline": "Fix life through tiny strange rituals.",
+  "description": "OddHabit turns everyday frustrations into playful, bizarre micro-rituals that help users break inertia, reduce stress, and remember important tasks. Instead of generic reminders or habit trackers, it assigns weird but practical actions tied to real-world moments, like whispering a grocery item into your sleeve so you remember it later or taking a photo of a messy cord to trigger a cleanup challenge. The app solves the problem of people ignoring normal productivity tools by making memory and behavior change feel novel, memorable, and emotionally sticky. It helps users in daily life by turning forgetfulness, avoidance, and mental clutter into small interactive games that fit into the moments where those problems actually happen. For example, before leaving home, it might ask you to do a 3-second \u201cdoorway pat-down ritual\u201d that checks for keys, wallet, and meds in a quirky sequence you\u2019ll remember. What makes it unique is that every nudge is intentionally odd, but still grounded in behavioral science and built to work in real situations, not just to amuse users.",
+  "features": [
+    "The app generates personalized micro-rituals based on your recurring problems, such as missing keys, procrastinating on chores, or forgetting errands, so each weird action solves a real issue.",
+    "It uses location and context triggers to deliver the right odd prompt at the right time, like a fridge-side ritual when you are about to cook or a car-seat check when you leave work.",
+    "It includes a ritual library with strange but useful actions, and users can rate which ones are actually memorable so the app learns what sticks for them.",
+    "The app turns completed rituals into a private streak system that rewards consistency without feeling like a normal to-do list, which helps people keep using it.",
+    "It offers emergency anti-spiral modes for stressful moments, giving users a quick absurd reset, like naming five objects in the room as fake museum artifacts to interrupt overwhelm.",
+    "audience: \"Busy adults, neurodivergent users, students, and anyone aged 18-40 who struggles with forgetfulness, task avoidance, or mental overload. It is especially useful for people who dislike conventional productivity apps and want help that feels playful rather than clinical.\"",
+    "category: ",
+    "useCases: \n  []",
+    "useCases2"
+  ]
+}
