@@ -1,0 +1,19 @@
+{
+  "name": "Railyard Riddle",
+  "tagline": "Solve plans before your day unravels.",
+  "description": "Railyard Riddle is a puzzle game that turns the chaos of daily scheduling into a strategic, satisfying challenge. Players are presented with a personal \"day map\" of meetings, errands, travel, and responsibilities, then must solve logic-based puzzles to fit everything into the most realistic, low-stress sequence. The app helps users spot hidden conflicts, wasted transit time, and impossible commitments before they become real-life problems, making it useful for anyone juggling work, family, and side projects. For example, a parent can rearrange school pickup, grocery shopping, and a dentist appointment into a feasible route, while a freelancer can discover that two client calls and a co-working commute actually leave no buffer for lunch. Unlike generic calendar apps that only show conflicts after they happen, Railyard Riddle transforms planning into a game that teaches better decision-making through play. Its uniqueness comes from combining route optimization, time-block logic, and stress-aware puzzle mechanics, so every solved level subtly improves how users organize their actual day.",
+  "features": [
+    "The app generates puzzle boards from real calendar entries and to-do lists, so each level feels personally relevant and helps users practice solving their own schedule problems.",
+    "A route-compression mechanic rewards players for minimizing travel, which matters because it trains users to notice inefficient errands and time lost between commitments.",
+    "Stress tokens highlight overbooked sections of the day, allowing players to experience the pressure of unrealistic planning and learn how to rebalance before burnout happens.",
+    "Adaptive hint puzzles teach players how to create buffer time, making it easier to build schedules that survive delays, traffic, and unexpected interruptions.",
+    "A weekly reflection mode turns solved puzzles into actionable insights, showing patterns like repeated late afternoons or chronic meeting overload that users can fix in real life."
+  ],
+  "audience": "Busy professionals, parents, students, and freelancers ages 18-45 who regularly juggle multiple commitments. It is especially useful for people who like puzzle games but also want a practical tool for managing time and reducing daily friction.",
+  "category": "game: puzzle",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to figure out whether she can still make her gym class, pick up groceries, and get home before dinner. She opens the app and solves her evening like a puzzle before committing to the plan.",
+    "Malik has three client deadlines, a train commute, and a school event for his son, and he needs to know if all of it can fit without leaving him exhausted. He plays one quick level to test different orderings and finds a route that saves him 40 minutes.",
+    "Jenny keeps double-booking herself between her side business and family life, so she opens the app every Sunday to puzzle out the upcoming week. By the end, she has a realistic schedule and a clearer sense of where she needs to say no."
+  ]
+}

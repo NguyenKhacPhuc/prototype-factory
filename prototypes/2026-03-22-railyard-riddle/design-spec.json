@@ -1,0 +1,12 @@
+{
+  "appName": "Railyard Riddle",
+  "tagline": "Solve plans before your day unravels.",
+  "designSystem": {
+    "primaryColor": "#FF6B00",
+    "secondaryColor": "#00D4AA",
+    "backgroundColor": "#080C18",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first puzzle game UI with vibrant amber-orange accents, teal success states, and a railroad-themed scheduling aesthetic. Clean card-based layouts with subtle glows, stress indicators using warm-to-red color scales, and interactive block-swap mechanics."
+  },
+  "screens": ["Today (Home)", "Play (Puzzle)", "Insights", "Profile"]
+}
