@@ -1,0 +1,38 @@
+{
+  "appName": "Deal Drift",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#00D4AA",
+    "secondary": "#7C5CFC",
+    "background": "#070C18",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-circle",
+    "alert-triangle",
+    "bell",
+    "check",
+    "chevron-down",
+    "chevron-left",
+    "chevron-right",
+    "circle",
+    "copy",
+    "info",
+    "log-out",
+    "mail",
+    "message-square",
+    "phone",
+    "plus",
+    "search",
+    "send",
+    "signal",
+    "sparkles",
+    "trending-down",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 23,
+  "fontFileCount": 0
+}

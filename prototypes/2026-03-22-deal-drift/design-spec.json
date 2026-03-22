@@ -1,0 +1,17 @@
+{
+  "appName": "Deal Drift",
+  "tagline": "Turn messy deals into clear next steps.",
+  "designSystem": {
+    "primaryColor": "#00D4AA",
+    "secondaryColor": "#7C5CFC",
+    "backgroundColor": "#070C18",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first glassmorphic dashboard with vibrant teal-violet accent palette, subtle gradient headers, card-based layout with health indicators, and timeline-centric deal tracking UI"
+  },
+  "screens": [
+    "Deals Dashboard — pipeline overview with health scores, drift alerts, and deal cards",
+    "Deal Timeline — chronological interaction history with drift detection flags and commitment tracking",
+    "Smart Follow-ups — AI-generated message drafts sorted by urgency with copy/send actions",
+    "Settings — theme toggle (dark/light), notification preferences, integrations, and AI model config"
+  ]
+}

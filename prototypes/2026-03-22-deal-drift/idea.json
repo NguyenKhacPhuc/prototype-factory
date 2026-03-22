@@ -1,0 +1,19 @@
+{
+  "name": "Deal Drift",
+  "tagline": "Turn messy deals into clear next steps.",
+  "description": "Deal Drift is a mobile app that helps founders, freelancers, and sales teams keep track of fragile business relationships, especially when deals stall, change shape, or get lost in long email threads. It solves the real problem of having important conversations scattered across calls, texts, DMs, and meeting notes, making it hard to remember who promised what and what should happen next. The app automatically converts each interaction into a living deal timeline, highlighting commitments, risks, deadlines, and missing approvals so users can act before momentum dies. A consultant, for example, can open the app after a client call and instantly see that legal review is pending, the proposal needs a revised scope, and the CFO prefers a monthly billing schedule. What makes it unique is that it does not just organize contacts or tasks; it detects negotiation drift by comparing current conversations to the original agreement and surfacing where the deal has subtly shifted. This helps users in daily life by reducing follow-up anxiety, preventing lost revenue, and giving them a calm, concrete plan for the next message or meeting. Instead of manually rebuilding context every time a deal reappears, users get an always-current snapshot of the relationship and a suggested next move.",
+  "features": [
+    "The app builds a chronological deal timeline from emails, call notes, and pasted messages so users can see exactly how a negotiation evolved over time.",
+    "It flags commitment drift by identifying changes in pricing, scope, timing, or decision-makers, which helps users catch problems before they derail the deal.",
+    "It generates smart follow-up prompts tailored to each stakeholder, so users know whether to send a contract, schedule a check-in, or clarify an objection.",
+    "It turns meeting notes into structured action items with owners and deadlines, ensuring that important next steps do not get buried in conversation noise.",
+    "It offers a deal health score based on response gaps, unanswered questions, and stalled approvals, helping users prioritize the opportunities most likely to close."
+  ],
+  "audience": "Independent consultants, startup founders, account executives, agency owners, and small business operators aged 25-45 who juggle multiple active client or partner relationships. They often work across messaging apps and meetings all day and need a fast way to preserve context and momentum.",
+  "category": "business",
+  "useCases": [
+    "Maya just got off a Zoom call with a prospective client who changed the scope twice, and she opens the app to see which promise needs confirmation before sending the revised proposal.",
+    "Jordan is waiting on a partner to approve a co-marketing agreement, and he checks the app to see that legal review is the bottleneck and a friendly reminder should go to the partner's operations lead.",
+    "Elena finishes a tense budget discussion with a long-term customer and uses the app to summarize the negotiation, identify the unresolved pricing objection, and draft a follow-up message that keeps the deal alive."
+  ]
+}
