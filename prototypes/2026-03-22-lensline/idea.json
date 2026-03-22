@@ -1,0 +1,20 @@
+{
+  "name": "LensLine",
+  "tagline": "News tailored to your real day.",
+  "description": "LensLine is a mobile news magazine that rewrites the day\u2019s stories through the lens of your actual life, location, schedule, and current concerns. Instead of dumping a generic feed, it organizes journalism into practical contexts like \"commute risks,\" \"school policy,\" \"rent and housing,\" or \"travel disruption,\" so users immediately see why a story matters to them. The app solves the common problem of information overload: people miss important reporting because it is buried in broad headlines that do not connect to their situation. For example, a parent heading to a school meeting might see a concise briefing on new district funding changes, while a freelancer preparing for tax season might receive a small bundle of articles on deductions, deadlines, and local policy updates. LensLine also helps users throughout the day by turning breaking news into timely alerts that explain personal impact in plain language, such as \u201cthis storm could delay your train by 40 minutes\u201d or \u201cthis law may affect your evening deliveries.\u201d What makes it unique is its contextual newsroom approach, which combines curated journalism, user-set life themes, and dynamic summarization into a living, personalized magazine rather than a traditional feed.",
+  "features": [
+    "The app builds a daily \"life lens\" based on your interests, calendar, location, and selected priorities so the news is automatically grouped around what matters most to your routine.",
+    "Each story appears with a plain-language impact summary that explains who is affected, what might change, and what action, if any, the user should consider taking.",
+    "LensLine creates context bundles that combine related articles, editorials, maps, and timelines so users can understand a complex issue without bouncing between multiple sources.",
+    "Smart alerts surface only when a story has practical relevance, such as notifying a commuter about a transit strike affecting their usual route or a parent about a local school vote.",
+    "The app includes a \"read in 3 minutes\" mode that distills long-form journalism into a clean, magazine-style briefing while preserving source links for deeper reading.",
+    "audience"
+  ],
+  "audience": "Busy adults ages 22-55 who want news that fits into work, family, travel, and personal planning. It is especially useful for commuters, parents, freelancers, and city residents who need timely local and national updates without wading through noisy feeds.",
+  "category": "magazines & newspapers",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to know whether the storm warning will affect her evening commute. She opens LensLine and sees a concise, route-specific briefing with nearby transit delays and a one-tap link to deeper reporting.",
+    "Marco is a freelance designer preparing his quarterly taxes and needs practical coverage, not general headlines. He opens the app to a bundled section on new tax rules, local filing updates, and expert commentary tailored to self-employed workers.",
+    "Amina is waiting outside her child\u2019s school and hears rumors about a district policy change. She checks LensLine for a clear summary of the vote, what it means for parents, and the most relevant local newspaper coverage in one place."
+  ]
+}

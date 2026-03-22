@@ -1,0 +1,18 @@
+{
+  "appName": "LensLine",
+  "tagline": "News tailored to your real day.",
+  "designSystem": {
+    "primaryColor": "#00E5A0",
+    "secondaryColor": "#5B8BF5",
+    "backgroundColor": "#0A0C10",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first news magazine with vibrant emerald accent, contextual life-lens cards, layered surface hierarchy, and clean typographic rhythm. Minimal chrome, maximum content clarity."
+  },
+  "screens": [
+    "Today — Life lens feed grouped by context (Commute, Housing, Work & Tax, Weather) with urgency indicators, collapsible sections, and per-story impact summaries",
+    "Bundles — Context bundles combining multiple articles, maps, and timelines into a single curated deep-dive read",
+    "Alerts — Smart personalized alert stream with read/unread state, urgency color coding, and plain-language impact explanations",
+    "Briefing — Magazine-style 3-minute read mode with section previews and expandable full briefing view",
+    "My Lens — Life context configuration, alert preferences, profile, and light/dark theme toggle"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "appName": "LensLine",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#00E5A0",
+    "secondary": "#5B8BF5",
+    "background": "#0A0C10",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
