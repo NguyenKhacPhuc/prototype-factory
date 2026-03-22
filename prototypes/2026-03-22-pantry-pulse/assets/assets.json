@@ -1,0 +1,14 @@
+{
+  "appName": "Pantry Pulse",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#22c55e",
+    "secondary": "#86efac",
+    "background": "#07100d",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

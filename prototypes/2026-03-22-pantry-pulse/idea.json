@@ -1,0 +1,19 @@
+{
+  "name": "Pantry Pulse",
+  "tagline": "Cook what you already have.",
+  "description": "Pantry Pulse helps people turn random groceries into practical meals before food goes bad. Users scan receipts, snap fridge photos, or manually add ingredients, and the app builds a living inventory that tracks freshness, priority use, and realistic recipe options based on time, skill, and equipment. It solves the common problem of forgetting what\u2019s in the fridge, overbuying duplicates, and letting produce spoil unnoticed. In daily life, it nudges users with \"use soon\" meal ideas like a 15-minute spinach pasta when the spinach is nearing its limit or a leftover-stretching curry when there\u2019s only a little protein left. What makes it different from typical recipe apps is that it starts with what is actually available in your kitchen, not a broad search of internet recipes. It also adapts to real constraints such as a broken oven, a shared household with competing ingredients, or a weeknight when only microwave cooking is possible. The result is less waste, fewer last-minute grocery runs, and more meals that feel intentionally planned instead of improvised.",
+  "features": [
+    "The app creates a live pantry inventory from photos, receipts, and quick voice input, which keeps tracking effortless and accurate enough for everyday use.",
+    "It ranks ingredients by spoilage risk and sends smart alerts when items need to be used soon, helping users prevent food waste before it happens.",
+    "It generates meal ideas based on exact ingredient combinations, cooking time, dietary needs, and available tools, so users get recipes they can realistically make.",
+    "It suggests \"rescue recipes\" for awkward leftovers such as half a jar of salsa or a few wilted herbs, turning near-useless items into full meals.",
+    "It learns household patterns over time and predicts what users are likely to run out of next, making shopping and meal planning feel more proactive than reactive."
+  ],
+  "audience": "Busy adults, students, and families ages 18 to 45 who cook at home but struggle with meal planning, grocery waste, or disorganized kitchens. It is especially useful for people on tight budgets, those trying to eat healthier, and shared households where ingredients often get lost or forgotten.",
+  "category": "food & drink",
+  "useCases": [
+    "Sarah just got home from work and sees wilted cilantro, half a lemon, and chicken thighs in the app. She opens Pantry Pulse and gets a 20-minute sheet-pan dinner instead of ordering takeout.",
+    "A college student is staring into a nearly empty mini-fridge the night before grocery day. The app combines leftover rice, eggs, frozen vegetables, and soy sauce into a dinner plan that avoids another expensive delivery order.",
+    "Marcus is leaving for a weekend trip and wants to use up the groceries he bought earlier in the week. Pantry Pulse flags the spinach, yogurt, and mushrooms as urgent and suggests a breakfast frittata plus a quick pasta so nothing spoils while he\u2019s gone."
+  ]
+}
