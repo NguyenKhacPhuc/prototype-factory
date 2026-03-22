@@ -1,0 +1,24 @@
+{
+  "appName": "SceneSnap",
+  "fontFamily": "Outfit",
+  "colors": {
+    "primary": "#8B5CF6",
+    "secondary": "#22D3EE",
+    "background": "#08080F",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "chevron-right",
+    "compass",
+    "home",
+    "moon",
+    "play",
+    "refresh-cw",
+    "sun",
+    "user",
+    "volume-x"
+  ],
+  "fonts": [],
+  "iconCount": 9,
+  "fontFileCount": 0
+}

@@ -1,0 +1,19 @@
+{
+  "name": "SceneSnap",
+  "tagline": "Turn dead time into custom micro-escapes.",
+  "description": "SceneSnap is an entertainment app that generates personalized, bite-sized interactive stories, mini-games, and audio adventures based on your mood, location, and available time. It solves the common problem of having a few spare minutes but no energy to commit to a full show, game, or podcast episode, which often leads to endless scrolling instead of real relaxation. Users can choose a vibe like \"commute reset,\" \"post-work win,\" or \"late-night laugh,\" and the app instantly builds a 3-7 minute experience with branching choices, character voices, ambient sound, and lightweight challenges. For example, someone waiting in a coffee line could play a detective scene where each decision changes the ending, while a tired parent could launch a calm fantasy escape designed to reduce stress without demanding focus. What makes SceneSnap unique is that it treats entertainment like a personalized, disposable moment rather than a long-form commitment, adapting the content to the user's time, state of mind, and surroundings. Unlike streaming apps or casual games that require browsing or progression, SceneSnap creates a fresh experience on demand that feels handcrafted for the exact gap in your day. It makes downtime feel intentional, playful, and satisfying instead of fragmented.",
+  "features": [
+    "The app builds short interactive stories in seconds, so users can enjoy complete entertainment during tiny breaks without losing their place in a longer series.",
+    "Mood-aware scene generation tailors the tone and pacing to how the user feels, which helps turn stress, boredom, or fatigue into a matching entertainment experience.",
+    "Location-aware modes create context-specific adventures, such as quiet headphone-friendly journeys for public transit or playful, motion-light scenes for waiting rooms.",
+    "Each story includes branching choices and small wins, making the experience feel participatory and memorable instead of passive like standard short-form content.",
+    "A daily \"micro-escape\" feed remembers the user's preferences and suggests new experiences, reducing decision fatigue and making it easy to open the app whenever free time appears."
+  ],
+  "audience": "Busy teens and adults ages 16-40 who want quick, high-quality entertainment between obligations. It is especially appealing to commuters, office workers, students, and parents who have small pockets of downtime but no appetite for heavy screen time.",
+  "category": "entertainment",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to decompress before her next call, so she opens SceneSnap for a 4-minute fantasy escape that feels like a mental reset. She chooses a calm forest setting and follows a branching path where her decisions affect the ending.",
+    "Marcus is waiting for his train and only has a few minutes to spare, so he launches a mystery scene tailored to public transit and plays through a quick detective twist while standing on the platform.",
+    "Leila is lying in bed feeling too tired to start a show, so she picks a sleepy comedy micro-episode that gives her a few laughs and a satisfying ending without keeping her awake for another hour."
+  ]
+}

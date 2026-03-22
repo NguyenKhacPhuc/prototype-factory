@@ -1,0 +1,17 @@
+{
+  "appName": "SceneSnap",
+  "tagline": "Turn dead time into custom micro-escapes.",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#22D3EE",
+    "backgroundColor": "#08080F",
+    "fontFamily": "Outfit",
+    "style": "Dark glassmorphic UI with vibrant violet-cyan gradient accents, bold 800-weight headings, pill-shaped interactive elements, subtle glow shadows on CTAs, and a crisp monochromatic dark surface hierarchy"
+  },
+  "screens": [
+    "Home — Mood selector, time picker, Generate CTA, and recent escapes carousel",
+    "Play — Interactive story experience with branching choices, progress bar, and completion summary",
+    "Discover (Feed) — Featured hero card, category filter pills, and 2-column scene grid",
+    "Profile — User stats, level progress, achievement badges, preferences list, and dark/light theme toggle"
+  ]
+}
