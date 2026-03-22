@@ -1,5 +1,707 @@
 [
   {
+    "folder": "2026-03-22-microcast",
+    "appName": "Microcast",
+    "tagline": "Weather where your life actually happens.",
+    "designSystem": {
+      "primaryColor": "#0096C7",
+      "secondaryColor": "#48CAE4",
+      "backgroundColor": "#E8F4F8",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Modern glassmorphic weather app with vibrant cyan/teal accent palette, card-based layout, gradient hero sections, and micro-interaction-rich navigation. Light mode uses airy aqua tones; dark mode uses deep navy with luminous cyan highlights."
+    },
+    "screens": [
+      "home",
+      "route",
+      "alerts",
+      "explore",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "Microcast turns hyperlocal weather into block-by-block decision support by combining radar, crowd-sensed conditions, street topology, and your calendar. Instead of telling you it\u2019s \"rainy\" for a city, it predicts how weather will affect your exact route, corner caf\u00e9, bike lane, or park entrance over the next 90 minutes. The app solves the everyday frustration of being surprised by weather that\u2019s different from the forecast a few miles away, especially in dense cities and coastal areas. It helps users decide when to leave, which side of town to avoid, whether their jogging path will be windy, or if the sunny side of the block is worth taking for lunch. A commuter might get a warning that their usual bus stop will be soaked in 12 minutes, while a parent could see that the playground will stay dry long enough for a quick outing. What makes it unique is that it treats weather as a dynamic local experience tied to real places, not just a city-wide number, and it learns from patterns of movement to become more practical the more you use it.",
+    "features": [
+      "Route-aware forecasts show weather along your exact walking, biking, or driving path, so you can avoid getting caught in a sudden downpour halfway to your destination.",
+      "Street-level nowcasts predict wind, rain, heat pockets, and shade changes by block, which helps you choose the most comfortable side of a route or meeting spot.",
+      "Calendar-linked alerts warn you before appointments, workouts, or school runs if weather conditions at that specific time and place will make plans uncomfortable or risky.",
+      "Crowd-verified microreports let nearby users confirm hail, puddling, gusts, or sudden drizzle in real time, improving accuracy in neighborhoods where standard forecasts miss local changes.",
+      "Adaptive comfort suggestions translate weather into practical advice like \"leave 15 minutes earlier,\" \"take the covered station exit,\" or \"choose the west-facing caf\u00e9 patio,\" making decisions faster and easier."
+    ],
+    "audience": "Urban commuters, cyclists, runners, parents, and anyone living in weather-variable cities who relies on walking, transit, or outdoor errands. It is especially useful for people ages 18-55 who make frequent short trips and need to plan around highly local weather conditions.",
+    "category": "weather",
+    "useCases": [
+      "Sarah just finished a stressful meeting and wants to walk to lunch without getting drenched, so Microcast tells her which nearby streets have overhead cover and which block will start raining first. She picks a route that keeps her dry and arrives calm instead of soaked.",
+      "Jamal is biking home from work and sees a dark cloud building west of downtown, so he opens Microcast to compare his normal bike route with a safer path that avoids the strongest gusts. The app nudges him to leave five minutes earlier and use a lane with fewer exposed intersections.",
+      "Priya is taking her toddler to the park after nap time and only has a small window before dinner, so she checks whether the sandbox area will stay sunny and dry for the next hour. Microcast helps her choose the best playground entrance and avoid the wet, windy side of the park."
+    ]
+  },
+  {
+    "folder": "2026-03-22-fridge-forge",
+    "appName": "Fridge Forge",
+    "tagline": "Turn leftovers into dinner, not waste.",
+    "designSystem": {
+      "primaryColor": "#E8622A",
+      "secondaryColor": "#4CAF6E",
+      "backgroundColor": "#F5F2EC",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Warm, food-forward design with earthy tones and a vibrant burnt-orange primary accent. Clean card-based layout with urgency-coded color states (red for today, amber for tomorrow, green for safe). Tactile feel with subtle shadows and smooth micro-interactions."
+    },
+    "screens": [
+      "home",
+      "fridge",
+      "scan",
+      "recipes",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "Fridge Forge helps people cook from what they already have by scanning leftovers, partial ingredients, and near-expiry items to generate practical, realistic meal plans. Instead of suggesting vague recipes, it evaluates what\u2019s actually edible now, what should be used first, and what tiny add-ons from a nearby store would unlock the best meals. The app solves the everyday problem of food waste and decision fatigue, especially on busy nights when users stare into a fridge full of random ingredients and no plan. For example, it might turn half a roasted chicken, wilted herbs, yogurt, and rice into a fast cilantro-lime bowl, then suggest a next-day lunch from the remaining components. What makes it unique is its \u201cingredient rescue\u201d logic: it ranks recipes by urgency, flavor compatibility, and effort level, so users know what to cook before food spoils. It also adapts to cooking skill, available time, and kitchen tools, making it useful for students, parents, and anyone trying to stretch groceries without eating the same leftovers on repeat.",
+    "features": [
+      "The app scans ingredients by camera or receipt import and builds a live inventory with expiration warnings, so users always know what needs to be used first.",
+      "It generates recipes based on what is already on hand, prioritizing meals that minimize waste and avoid requiring a long grocery run.",
+      "It suggests tiny add-on purchases, like one lemon or a single onion, that dramatically improve a meal without turning it into a full shopping trip.",
+      "It transforms leftovers into second- and third-day dishes with different textures and flavors, which prevents meal boredom and extends the life of cooked food.",
+      "It learns household preferences, time limits, and cooking confidence to recommend meals that fit real life instead of idealized recipe conditions."
+    ],
+    "audience": "Busy adults ages 22-45, especially renters, students, parents, and budget-conscious households who cook at home but often have mismatched ingredients and little time. It is also ideal for people trying to reduce food waste without becoming meal-prep enthusiasts.",
+    "category": "food & drink",
+    "useCases": [
+      "Sarah just finished a stressful meeting and opens the app to figure out what she can make in 15 minutes from the mushrooms, rice, and half carton of cream in her fridge. It suggests a quick creamy mushroom risotto and tells her to use the mushrooms tonight because they expire tomorrow.",
+      "Darnell gets home from work and realizes he has random leftovers from three different meals, but nothing feels like a real dinner. The app combines them into a taco bowl plan and recommends buying only one avocado on his way home.",
+      "Mina is trying to spend less on groceries this month and wants to avoid throwing out produce. She scans her fridge on Sunday and the app creates a \u201cuse-first\u201d meal sequence for the week, starting with the spinach and ending with a soup that uses the last scraps."
+    ]
+  },
+  {
+    "folder": "2026-03-22-pulse-map",
+    "appName": "Pulse Map",
+    "tagline": "News that matters where you are",
+    "designSystem": {
+      "primaryColor": "#00B4D8",
+      "secondaryColor": "#FF6B35",
+      "backgroundColor": "#F0F4F8",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Clean card-based layout with vibrant teal primary, contextual color-coding per news category, map-integrated UI, high information density with clear urgency hierarchy"
+    },
+    "screens": [
+      "Feed",
+      "Map",
+      "Alerts",
+      "Explore",
+      "Profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Pulse Map is a location-aware news app that turns local events into an interactive story of your day. Instead of showing every headline at once, it filters news by where you are, where you\u2019re going, and what\u2019s changing around you, such as road closures on your commute, a council vote affecting your neighborhood, or a weather alert near your child\u2019s school. The app solves the overload problem by prioritizing only the news that can realistically affect your next few hours, while still letting you explore wider context when you want it. In daily life, it helps users leave home prepared, decide whether to reroute around disruptions, and understand why a story matters without having to read a dozen unrelated articles. A commuter could check it before heading out to see a train delay tied to a city strike, a parent could get notified about a water advisory near their daycare route, and a small business owner could monitor policy changes affecting their block. What makes Pulse Map unique is that it blends news, maps, and time-based relevance into a living feed of nearby impact rather than a generic headline list.",
+    "features": [
+      "The app builds a personalized map feed that ranks stories by proximity, urgency, and likely impact so users see the most relevant news first.",
+      "It combines headlines with exact places and route overlays, helping users understand where an event is happening and whether it affects their commute or plans.",
+      "It sends short, context-aware alerts for breaking developments like street closures, school announcements, and utility outages that matter within the user's current radius.",
+      "It explains each story in plain language with a 'why this affects you' summary, making complex civic or local issues easier to act on quickly.",
+      "It lets users follow specific addresses, neighborhoods, and routes, which matters because many important stories are local to a place rather than a topic."
+    ],
+    "audience": "Urban and suburban adults ages 18-55 who commute, care for families, run local businesses, or want to stay informed without drowning in national-news noise. It is especially useful for people living in fast-changing cities where transportation, weather, and city decisions directly affect everyday routines.",
+    "category": "news",
+    "useCases": [
+      "Sarah just finished a stressful meeting and wants to know if her train home will be delayed by the stadium event near the station, so she opens Pulse Map and sees a route-based alert with a faster alternate path.",
+      "Marcus runs a coffee shop on a busy corner and checks the app each morning to see if nearby construction, parking rule changes, or permit decisions might affect foot traffic or deliveries.",
+      "Priya is dropping her kid off at daycare and gets a notification about a water advisory on the way, so she reads the quick summary and adjusts her stop before leaving home."
+    ]
+  },
+  {
+    "folder": "2026-03-22-pocket-ritual",
+    "appName": "Pocket Ritual",
+    "tagline": "Turn tiny moments into better days.",
+    "designSystem": {
+      "primaryColor": "#7C5CFC",
+      "secondaryColor": "#C471ED",
+      "backgroundColor": "#F5F2FF",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Modern wellness app with vibrant violet-purple gradient branding, soft card-based layouts, rounded corners, micro-interaction button feedback, and a dual light/dark theme. Uses gradient hero sections, emoji-accented ritual cards, and bottom-sheet modals for an approachable yet polished feel."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "rituals",
+      "progress",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "Pocket Ritual is a micro-life design app that helps people build calming, energizing, and meaningful routines around the scattered moments already inside their day. Instead of asking users to commit to long habits or rigid schedules, it detects small openings like the five minutes before a commute, the pause after lunch, or the quiet reset after work, then suggests a fitting ritual such as a breathing check-in, a stretch sequence, a gratitude prompt, or a quick home reset. It solves the real problem of wanting a better lifestyle without having the time, mental bandwidth, or consistency to maintain traditional habit apps. Users can map rituals to specific situations like stress, fatigue, clutter, loneliness, or indecision, so the app feels practical in daily life rather than motivational in the abstract. For example, it might guide a parent through a three-step evening transition ritual before picking up kids, or help a remote worker create a six-minute desk reset after back-to-back calls. What makes it unique is that it treats life as a series of repeatable moments instead of goals, making small interventions feel natural, personalized, and easier to stick with than standard wellness or productivity apps.",
+    "features": [
+      "Context-based ritual matching suggests the best short routine based on the user's current situation, location, time window, and mood, which makes the app feel immediately relevant instead of generic.",
+      "Ritual templates offer tiny guided actions like a two-minute room reset, a pre-social confidence boost, or a post-argument cooldown, helping users respond to everyday friction with intention.",
+      "Moment logging lets users quickly tag real-life triggers such as 'after meetings' or 'Sunday dread' and attach a custom ritual, so the app learns their personal patterns over time.",
+      "One-tap execution mode keeps each ritual focused and low-friction with simple prompts, timers, and audio cues, which matters because most people abandon routines that feel too complicated.",
+      "Ritual streaks and reflection summaries show which small practices improved mood, energy, or calm, helping users see real lifestyle change without turning the app into a guilt-driven tracker."
+    ],
+    "audience": "Busy adults ages 22-45 who want a calmer, more intentional daily life but struggle to maintain traditional wellness habits. It is especially useful for remote workers, caregivers, commuters, and anyone whose day changes constantly and needs flexible, tiny interventions.",
+    "category": "lifestyle",
+    "useCases": [
+      "Maya just finished a stressful meeting and wants to avoid carrying that tension into her afternoon. She opens Pocket Ritual, taps 'post-meeting reset,' and follows a three-minute breathing and note-clearing ritual before her next call.",
+      "Jordan gets home from work feeling drained and keeps doom-scrolling instead of resting well. He uses the app to launch a 'transition ritual' that pairs a quick snack, a clothes change, and a five-minute kitchen tidy so his evening feels intentional.",
+      "Leah is about to go to a social gathering and feels unusually nervous. She opens the app for a pre-social confidence ritual, gets a short grounding sequence, and steps out feeling more centered and prepared."
+    ]
+  },
+  {
+    "folder": "2026-03-22-waste-whisper",
+    "appName": "Waste Whisper",
+    "tagline": "Turn leftovers into lower-impact meals.",
+    "designSystem": {
+      "primaryColor": "#1F8C5A",
+      "secondaryColor": "#F59E0B",
+      "backgroundColor": "#EFF8F2",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Eco-minimal with vibrant forest-green accent palette. Clean card-based layouts with freshness-coded urgency indicators (red/orange/amber/green), gradient hero cards, and sustainability-forward visual language. Light mode uses soft sage backgrounds with white surfaces; dark mode uses deep forest tones with luminous mint-green accents."
+    },
+    "screens": [
+      "home",
+      "pantry",
+      "recipes",
+      "impact",
+      "grocery"
+    ],
+    "hasScreenshot": true,
+    "description": "Waste Whisper helps households reduce food waste by reading what is actually in their fridge, pantry, and leftovers, then turning it into realistic meal plans before anything spoils. Users can quickly log ingredients by snapping a receipt, scanning package labels, or taking a fridge photo, and the app estimates freshness windows, portion sizes, and the carbon impact of wasting each item. It solves the everyday problem of buying too much, forgetting what is already at home, and throwing away good food because people lack a simple plan for using it in time. In daily life, the app suggests exact recipes based on what is expiring soon, such as turning wilted spinach, leftover rice, and one bell pepper into a stir-fry tonight or tomorrow\u2019s lunch. It also creates a \u201csave first\u201d grocery list that prioritizes buying only the missing ingredients needed to complete recipes you can already make. What makes it unique is that it focuses on the messy reality of home food management instead of generic recipe browsing, combining waste prediction, meal rescue planning, and climate feedback in one highly practical tool.",
+    "features": [
+      "The app scans fridge and pantry photos to identify ingredients and estimate what should be used first, which matters because most food waste happens when people simply forget what they already have.",
+      "It generates rescue recipes based on ingredient age, quantity, and household preferences, helping users cook with what is close to expiring instead of ordering takeout or buying duplicates.",
+      "It sends intelligent freshness reminders that are tied to likely meal times, so users get useful prompts like 'Use the mushrooms tonight' instead of vague expiration notifications.",
+      "It calculates the money and carbon emissions saved each week from avoided waste, making sustainability feel tangible and giving users a clear reason to keep using the app.",
+      "It builds a grocery list that avoids overbuying by showing which meals can be completed with existing items, which matters because smarter shopping is one of the easiest ways to cut household waste."
+    ],
+    "audience": "Busy households, renters, students, and young professionals ages 18-45 who cook at home irregularly and want to save money, reduce waste, and make weeknight meal planning easier. It is especially useful for people with packed schedules who forget what food they already have or struggle to use leftovers in time.",
+    "category": "sustainability",
+    "useCases": [
+      "Maya just got back from work and notices a carton of yogurt, half a bag of spinach, and cooked rice nearing the end of their shelf life. She opens the app and gets three fast dinner options that use those exact ingredients before they spoil.",
+      "Jordan is planning a grocery run for a family of four but keeps buying duplicates of items already sitting in the fridge. He checks the app first, which shows what needs to be used this week and builds a tighter shopping list.",
+      "Leah is trying to save money while living alone in a small apartment with an unpredictable schedule. She snaps a photo of her pantry on Sunday, then uses the app all week to turn random leftovers into meals instead of letting ingredients go bad."
+    ]
+  },
+  {
+    "folder": "2026-03-22-plotpocket",
+    "appName": "PlotPocket",
+    "tagline": "Turn dead time into tiny stories.",
+    "designSystem": {
+      "primaryColor": "#6C3FF5",
+      "secondaryColor": "#F0367A",
+      "backgroundColor": "#F4F1FF",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Modern glassmorphic mobile UI with vibrant violet-to-pink gradient brand language, soft purple-tinted surfaces, pill-shaped interactive elements, and layered card hierarchy. Light and dark themes with animated micro-interactions and smooth scene transitions."
+    },
+    "screens": [
+      "home",
+      "discover",
+      "play",
+      "library",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "PlotPocket is an entertainment app that generates interactive micro-adventures tailored to the user\u2019s exact moment, mood, and available time. Instead of browsing endlessly for something to watch, users answer a few quick prompts like \"I have 7 minutes,\" \"I want funny,\" or \"I\u2019m on a crowded train,\" and the app creates a choose-your-own-story experience that fits that slot perfectly. It solves the real problem of entertainment friction: people often want a fun escape but not enough time, attention, or decision energy to commit to a full show, game, or podcast. In daily life, it helps during commutes, coffee breaks, waiting rooms, and winding down before bed by offering tiny but satisfying narrative hits. For example, someone can play a tense office-saboteur story while waiting for food delivery, or a surreal detective mystery while standing in line at the airport. What makes it unique is that each story adapts not just to genre, but to the user\u2019s context, mood, and pace, making every session feel handcrafted rather than algorithmically recommended. Unlike streaming platforms that ask you to choose from massive libraries, PlotPocket creates the entertainment on demand, turning spare moments into personalized mini escapism.",
+    "features": [
+      "The app builds short interactive stories in under a minute based on the user\u2019s available time, mood, and preferred intensity, so entertainment starts immediately instead of requiring search or setup.",
+      "It adapts story length to real-world interruptions by saving progress in tiny checkpoints, which matters because users can pause during a stoplight, elevator ride, or queue without losing the experience.",
+      "It offers scene-based choices that branch into different endings, giving users a sense of agency and replay value even in very short sessions.",
+      "It uses context-aware themes like commute, stress relief, or sleep mode to match stories to the moment, making the app feel more useful and emotionally relevant than generic content feeds.",
+      "It includes a \"plot remix\" feature that transforms the same premise into comedy, mystery, romance, or sci-fi, helping users revisit favorite scenarios without boredom."
+    ],
+    "audience": "Busy adults and students ages 16-40 who want fast, low-commitment entertainment during commutes, breaks, or downtime. It especially appeals to people who enjoy stories and games but rarely have uninterrupted time for long-form content.",
+    "category": "entertainment",
+    "useCases": [
+      "Maya just got on a 12-minute train ride and wants something more engaging than scrolling social media, so she opens PlotPocket and starts a quick noir mystery that she can finish before her stop.",
+      "Jordan has a stressful lunch break between meetings and needs a mental reset, so he chooses a comedic sci-fi plot that makes him laugh without requiring any planning or commitment.",
+      "Elena is lying in bed with five minutes before sleep and wants to unwind, so she launches a calm fantasy story that slowly fades into a soothing ending when her timer runs out."
+    ]
+  },
+  {
+    "folder": "2026-03-22-dealmirror",
+    "appName": "DealMirror",
+    "tagline": "Turn shaky deals into clear next steps.",
+    "designSystem": {
+      "primaryColor": "#7B68EE",
+      "secondaryColor": "#00DFA0",
+      "backgroundColor": "#08091A",
+      "fontFamily": "Space Grotesk",
+      "style": "Dark glassmorphic enterprise app with vibrant violet-purple primary accent, teal success states, and red-pink danger indicators. Card-based layout with subtle borders, gradient hero elements, and micro-interaction toggles. Risk severity communicated through color-coded left-border cards."
+    },
+    "screens": [
+      "home",
+      "deals",
+      "analyze",
+      "messages",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "DealMirror helps small businesses and freelancers convert messy sales conversations into actionable, risk-aware deal plans. After a client call, the app ingests notes, emails, or a transcript and identifies hidden deal risks like vague scope, unclear decision makers, delayed timelines, or payment terms that were only implied. It then generates a visual \"deal health\" snapshot, a follow-up message draft, and a checklist of the exact questions needed to move the deal forward. For daily use, that means a consultant can leave a client meeting and immediately know whether the project is actually ready to close, or a sales rep can see which prospect needs legal review before a contract is sent. A design agency quoting a website rebuild, for example, could discover that the client never confirmed content ownership and get a polite follow-up drafted in seconds. What makes DealMirror unique is that it does not just summarize conversations; it spots business friction points in language, relationships, and commitments, then turns them into concrete next actions that reduce revenue leakage.",
+    "features": [
+      "The app analyzes meeting notes, call transcripts, and email threads to extract commitments, deadlines, objections, and decision-makers, which matters because important deal details often get lost in the rush after a conversation.",
+      "It produces a deal risk map that highlights missing scope, budget ambiguity, approval bottlenecks, and payment exposure, so users can prioritize the issues most likely to delay or derail a sale.",
+      "It drafts customized follow-up messages that are tactful and specific, helping users confirm next steps without sounding pushy or repetitive.",
+      "It generates a closing checklist based on the deal type, such as asking for legal contacts, confirming deliverables, or locking in kickoff dates, which saves time and reduces costly omissions.",
+      "It tracks deal momentum over time and alerts users when a prospect is stalling, ensuring they can intervene before a warm lead goes cold."
+    ],
+    "audience": "Independent consultants, small agency owners, freelancers, and early-stage B2B sales teams aged 25-50 who manage high-value client conversations without dedicated sales operations support. It is especially useful for people juggling many prospects at once and needing a faster, smarter way to close work.",
+    "category": "business",
+    "useCases": [
+      "Maya just finished a discovery call with a startup founder and wants to know whether the budget, timeline, and decision maker were actually confirmed before she spends time on a proposal.",
+      "Jordan has three active freelance clients and uses the app after each email thread to catch missing approvals, then sends a clean follow-up that keeps the deal moving.",
+      "Priya runs a two-person marketing agency and opens the app when a promising lead goes quiet, so she can see whether the blocker is legal review, pricing confusion, or an unanswered question about scope."
+    ]
+  },
+  {
+    "folder": "2026-03-22-kindred-loop",
+    "appName": "Kindred Loop",
+    "tagline": "Meet nearby needs before they become chores.",
+    "designSystem": {
+      "primaryColor": "#FF6B47",
+      "secondaryColor": "#FFB547",
+      "backgroundColor": "#0C0E14",
+      "accentTeal": "#40D9C0",
+      "accentPurple": "#9B7FFF",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Dark-first mobile social app with warm coral-orange primary, glassmorphic card surfaces, vibrant category color coding, and rounded organic UI shapes. Features gradient hero elements, pill filters, and micro-interaction press states throughout."
+    },
+    "screens": [
+      "home",
+      "discover",
+      "post",
+      "loop",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Kindred Loop is a neighborhood social network built around small, practical moments when people need help, spare time, or a quick connection. Instead of posting broadly and hoping for replies, users create or respond to tiny, time-boxed requests like borrowing a ladder for 20 minutes, finding someone to water plants during a weekend trip, or locating a dinner companion after a move to a new city. The app uses availability, location, skills, and trust circles to match people who can help right now with people who need something low-stakes and immediate. It solves the problem of modern isolation by turning everyday errands and inconveniences into lightweight opportunities to meet others without the pressure of \u201cmaking friends\u201d from scratch. In daily life, it helps users save time, reduce stress, and build familiarity with the people living and working near them through useful exchanges. A new parent could find another parent to swap stroller watches during a doctor's appointment, while a remote worker could find someone nearby to co-work with for one focused afternoon. What makes it unique is that the social value comes from utility first: relationships grow naturally from repeated micro-help, rather than profile browsing, likes, or endless feeds.",
+    "features": [
+      "Micro-requests let users post small, specific needs that expire automatically, keeping interactions focused, timely, and easy to act on.",
+      "Smart matching pairs people based on proximity, availability, and complementary skills so offers and requests feel relevant instead of random.",
+      "Trust circles let users connect through mutual neighbors, workplaces, schools, or verified community groups, which lowers the friction of meeting strangers.",
+      "Reciprocity tracking shows how often a user gives and receives help, encouraging balanced community relationships without turning kindness into a transaction.",
+      "Neighborhood pulses surface recurring local needs and common free-time windows, helping users spot easy ways to engage when they already have a spare hour.",
+      "audience"
+    ],
+    "audience": "Urban and suburban adults aged 22-45 who value convenience, community, and low-pressure social connection, especially newcomers, remote workers, parents, and people with busy or shifting schedules. It is especially useful in apartment-heavy neighborhoods, coworking communities, and areas where people live close together but rarely know each other.",
+    "category": "social networking",
+    "useCases": [
+      "Maya just moved to a new city and needs a drill to hang shelves tonight, so she posts a 30-minute micro-request and meets a neighbor who lends one and points her to a local coffee group.",
+      "Jordan works remotely and feels isolated after weeks at home, so he opens the app to find a nearby coworking partner who also wants a quiet, two-hour focus session at the library.",
+      "Elena is leaving for a weekend trip and needs someone to water her balcony herbs, so she offers a quick favor in return and connects with another resident who needs help carrying groceries."
+    ]
+  },
+  {
+    "folder": "2026-03-22-murmur-map",
+    "appName": "Murmur Map",
+    "tagline": "Decode the strange noises around you.",
+    "designSystem": {
+      "primaryColor": "#8B3DFF",
+      "secondaryColor": "#00DCBC",
+      "backgroundColor": "#07071A",
+      "fontFamily": "Space Grotesk",
+      "style": "Dark futuristic with deep navy/violet backgrounds, vibrant purple-to-teal gradient accents, glassmorphic card surfaces, pulsing animations for recording states, and high-contrast urgency indicators"
+    },
+    "screens": [
+      "home",
+      "library",
+      "map",
+      "reports",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "Murmur Map helps people identify and interpret mysterious sounds in their environment, turning everyday noise into actionable insight. If your apartment keeps making a metallic tapping at 2 a.m., your office ceiling buzzes every morning, or your neighborhood has a repeating whoop you cannot place, the app records a short audio clip and suggests likely sources, urgency levels, and next steps. It solves a real problem many people ignore until it becomes expensive or dangerous: weird noises often signal maintenance issues, wildlife activity, plumbing problems, or nearby equipment that affects comfort and safety. The app helps users in daily life by reducing anxiety, saving time on guesswork, and giving them a clear way to document issues for landlords, neighbors, or repair technicians. For example, a user can capture a rhythmic thump from an HVAC vent, get a probable diagnosis, and send a ready-made report with time, location, and sound pattern. Another user might identify an intermittent clicking outside a window as a pest or transformer issue and decide whether to call building maintenance or simply ignore it. What makes Murmur Map unique is that it treats odd sounds like a navigable map of causes rather than just audio to record, combining sound pattern analysis, context clues, and practical recommendations.",
+    "features": [
+      "The app records short sound snippets and classifies them by pattern, because many noises are too intermittent to describe accurately from memory.",
+      "It uses location, time, and motion context to narrow likely sources, which matters when the same sound could be plumbing, electronics, traffic, or wildlife.",
+      "It generates a plain-language explanation with urgency guidance, helping users decide whether they need to act now, document for later, or simply monitor the sound.",
+      "It creates a shareable incident report with timestamps, maps, and audio clips, so users can communicate clearly with landlords, building managers, or technicians.",
+      "It tracks recurring noises over time and visualizes trends, which matters because persistent problems are often missed when they happen in irregular bursts."
+    ],
+    "audience": "Urban renters, homeowners, and apartment dwellers aged 20\u201350 who live near other people, shared infrastructure, or busy streets. It is especially useful for anyone who hears unexplained sounds, manages property, or wants peace of mind without calling a professional for every odd noise.",
+    "category": "weird",
+    "useCases": [
+      "Sarah just finished a stressful meeting and keeps hearing a faint knocking from behind her kitchen wall. She opens the app, records 10 seconds, and learns it is likely pipe expansion from her building\u2019s heating cycle, not a structural problem.",
+      "Marcus lives in a top-floor apartment and notices a repeating chirp every night near midnight. He uses Murmur Map to compare the sound with common sources and discovers it matches a nearby rooftop vent fan, so he can document it before asking maintenance for a fix.",
+      "Aisha wakes up to a scraping sound in her attic after a windy night. She logs the noise, gets a likely wildlife-related alert, and uses the app\u2019s report to tell her landlord exactly when the sound started and how often it repeats."
+    ]
+  },
+  {
+    "folder": "2026-03-22-railyard-riddle",
+    "appName": "Railyard Riddle",
+    "tagline": "Solve plans before your day unravels.",
+    "designSystem": {
+      "primaryColor": "#FF6B00",
+      "secondaryColor": "#00D4AA",
+      "backgroundColor": "#080C18",
+      "fontFamily": "Space Grotesk",
+      "style": "Dark-first puzzle game UI with vibrant amber-orange accents, teal success states, and a railroad-themed scheduling aesthetic. Clean card-based layouts with subtle glows, stress indicators using warm-to-red color scales, and interactive block-swap mechanics."
+    },
+    "screens": [
+      "Today (Home)",
+      "Play (Puzzle)",
+      "Insights",
+      "Profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Railyard Riddle is a puzzle game that turns the chaos of daily scheduling into a strategic, satisfying challenge. Players are presented with a personal \"day map\" of meetings, errands, travel, and responsibilities, then must solve logic-based puzzles to fit everything into the most realistic, low-stress sequence. The app helps users spot hidden conflicts, wasted transit time, and impossible commitments before they become real-life problems, making it useful for anyone juggling work, family, and side projects. For example, a parent can rearrange school pickup, grocery shopping, and a dentist appointment into a feasible route, while a freelancer can discover that two client calls and a co-working commute actually leave no buffer for lunch. Unlike generic calendar apps that only show conflicts after they happen, Railyard Riddle transforms planning into a game that teaches better decision-making through play. Its uniqueness comes from combining route optimization, time-block logic, and stress-aware puzzle mechanics, so every solved level subtly improves how users organize their actual day.",
+    "features": [
+      "The app generates puzzle boards from real calendar entries and to-do lists, so each level feels personally relevant and helps users practice solving their own schedule problems.",
+      "A route-compression mechanic rewards players for minimizing travel, which matters because it trains users to notice inefficient errands and time lost between commitments.",
+      "Stress tokens highlight overbooked sections of the day, allowing players to experience the pressure of unrealistic planning and learn how to rebalance before burnout happens.",
+      "Adaptive hint puzzles teach players how to create buffer time, making it easier to build schedules that survive delays, traffic, and unexpected interruptions.",
+      "A weekly reflection mode turns solved puzzles into actionable insights, showing patterns like repeated late afternoons or chronic meeting overload that users can fix in real life."
+    ],
+    "audience": "Busy professionals, parents, students, and freelancers ages 18-45 who regularly juggle multiple commitments. It is especially useful for people who like puzzle games but also want a practical tool for managing time and reducing daily friction.",
+    "category": "game: puzzle",
+    "useCases": [
+      "Sarah just finished a stressful meeting and wants to figure out whether she can still make her gym class, pick up groceries, and get home before dinner. She opens the app and solves her evening like a puzzle before committing to the plan.",
+      "Malik has three client deadlines, a train commute, and a school event for his son, and he needs to know if all of it can fit without leaving him exhausted. He plays one quick level to test different orderings and finds a route that saves him 40 minutes.",
+      "Jenny keeps double-booking herself between her side business and family life, so she opens the app every Sunday to puzzle out the upcoming week. By the end, she has a realistic schedule and a clearer sense of where she needs to say no."
+    ]
+  },
+  {
+    "folder": "2026-03-22-pulse-pal",
+    "appName": "Pulse Pal",
+    "tagline": "Your symptoms, decoded in real time.",
+    "designSystem": {
+      "primaryColor": "#0EA5E9",
+      "secondaryColor": "#8B5CF6",
+      "backgroundColor": "#F4F7FB",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Clean health-tech UI with soft card surfaces, vibrant sky-blue and violet gradient branding, animated 30-second guided scan flow, timeline-based symptom history, and doctor-ready report generation. Light and dark themes with seamless transitions."
+    },
+    "screens": [
+      "home",
+      "scan",
+      "timeline",
+      "reports",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "Pulse Pal is a camera-based symptom tracking app that helps people capture and understand short, everyday health changes before they turn into bigger problems. Instead of asking users to manually log vague symptoms, it uses guided scans of the face, hands, voice, and breathing patterns to detect subtle shifts such as dehydration, fever onset, respiratory strain, or stress-related flareups. The app turns these quick checks into a personal health timeline, making it easier to notice patterns like migraines that consistently start after poor sleep or asthma symptoms that worsen after exposure to cold air. It is especially useful for busy people managing chronic conditions, parents monitoring a child\u2019s recovery, or anyone who struggles to describe symptoms accurately during a doctor visit. A mother can scan her child\u2019s breathing after a coughing fit, a commuter can check whether fatigue is likely from stress or something else, and an older adult can track warning signs without needing complex devices. What makes Pulse Pal unique is that it focuses on micro-observations in under 30 seconds and translates them into plain-language health guidance, rather than generic wellness advice or raw biometric dashboards.",
+    "features": [
+      "The app runs a 30-second guided scan using the phone camera and microphone to observe visible and audible symptom clues, which helps users notice changes they might otherwise ignore.",
+      "It builds a personalized symptom baseline over time, so the app can flag when today's breathing, skin tone, or voice pattern is meaningfully different from a user's normal state.",
+      "It converts scans into simple explanations like 'possible dehydration pattern' or 'respiratory strain increased,' making the results understandable without medical training.",
+      "It creates shareable doctor-ready summaries with timestamps, triggers, and example notes, which helps users communicate more clearly during appointments or telehealth visits.",
+      "It can send tailored prompts based on recent patterns, such as encouraging rest, hydration, or follow-up when a repeating warning sign appears across multiple days.",
+      "audience: \"Adults managing chronic conditions, parents of young children, and caregivers looking for a fast, low-friction way to monitor everyday health changes. It is also useful for people who frequently experience vague symptoms but struggle to describe them clearly to clinicians.\"",
+      "category: "
+    ],
+    "audience": "",
+    "category": "",
+    "useCases": [
+      "Sarah just finished a stressful meeting and feels unusually short of breath, so she opens the app to check whether her breathing pattern looks different from her normal baseline. She uses the result to decide whether to rest, hydrate, or message her doctor.",
+      "Marcus's toddler has been coughing off and on all evening, and he wants to know if the breathing sounds urgent enough to seek care. He runs a quick scan and saves the result to show the pediatrician if needed.",
+      "Linda has been getting recurring headaches after long shifts and wants to figure out whether dehydration or sleep disruption is the more likely trigger. She checks the app's timeline to compare symptoms against workdays, caffeine intake, and sleep hours."
+    ]
+  },
+  {
+    "folder": "2026-03-22-clipcue",
+    "appName": "ClipCue",
+    "tagline": "Find the moment without rewatching.",
+    "designSystem": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#EC4899",
+      "backgroundColor": "#F4F1FF",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Modern card-based UI with vibrant violet primary palette, gradient thumbnails, pill-shaped filter chips, and a clean hierarchy using bold 800-weight headings. Light and dark themes both built around a violet/purple accent with complementary pink, green, and blue secondaries. Micro-interactions on card press with smooth theme transitions."
+    },
+    "screens": [
+      "home",
+      "search",
+      "library",
+      "reels",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "ClipCue turns long videos into searchable, context-rich timelines by automatically detecting meaningful moments such as people speaking, objects appearing, emotional spikes, and scene changes. It solves the everyday frustration of digging through hours of footage to find one useful clip, whether that\u2019s a baby\u2019s first steps, a missed instruction in a lecture, or the exact second a repair tutorial explains the fix. In daily life, it helps users quickly resurface important moments from camera rolls, recordings, and live captures without manually scrubbing through each file. For example, a parent can search \"first words\" and jump to the right segment, a student can find the professor\u2019s board explanation from a 90-minute lecture, and a small business owner can pull the exact customer reaction from a product demo video. What makes ClipCue unique is that it builds a semantic map of each video, so users can search by intent, not just by file name or visual thumbnail. It also creates lightweight moment summaries and shareable clips that preserve surrounding context, reducing the risk of missing what happened before or after the key event.",
+    "features": [
+      "The app auto-tags videos with searchable moments like speech, laughter, motion peaks, objects, and scene changes, so users can find relevant segments in seconds instead of scrubbing manually.",
+      "It lets users search in natural language, such as 'when he explains the second step' or 'the part with the red backpack,' which matters because people remember context better than timestamps.",
+      "ClipCue generates compact moment summaries that show what happened before and after a highlight, helping users avoid sharing out-of-context clips or missing important setup.",
+      "The app creates smart highlight reels from long recordings based on user goals, such as a baby's milestones, a class lecture, or a home renovation process, saving time and organizing memory.",
+      "It supports shareable, privacy-aware clip links with optional blur and audio trimming, allowing users to send useful moments without exposing the entire original video.",
+      "audience"
+    ],
+    "audience": "Busy parents, students, creators, journalists, and small business owners who regularly record long videos and need to retrieve specific moments fast. It is especially useful for people who collect lots of footage on their phones but do not have time to edit or manually organize it.",
+    "category": "photo & video",
+    "useCases": [
+      "Maya just filmed her toddler\u2019s birthday party and wants to find the exact moment her son blew out the candles without watching the full 20-minute recording. She opens ClipCue, searches 'candles,' and jumps straight to the best 12-second clip.",
+      "Jordan recorded a two-hour training session for work and needs the part where the manager explains the new refund policy. He searches 'refund policy' and instantly gets the exact segment plus a summary of the surrounding context.",
+      "Elena is a DIY hobbyist who filmed herself fixing a sink and now wants to share the step where the leak finally stops. She uses ClipCue to isolate that moment, blur the messy background, and send a clean clip to her friend."
+    ]
+  },
+  {
+    "folder": "2026-03-22-time-anchor",
+    "appName": "Time Anchor",
+    "tagline": "Turn scattered time into usable momentum.",
+    "designSystem": {
+      "primaryColor": "#00D4AA",
+      "secondaryColor": "#7C6FFF",
+      "backgroundColor": "#080D1A",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Dark-first mobile productivity UI with deep navy backgrounds, vibrant teal/purple accent system, card-based layouts, glowing pill indicators, and subtle gradient overlays. Micro-interactions on task cards with smooth toggle animations and press states."
+    },
+    "screens": [
+      "home",
+      "tasks",
+      "momentum",
+      "insights",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "Time Anchor helps people recover from fragmented, unpredictable days by turning tiny pockets of time into a smart, actionable plan. Instead of relying on a rigid to-do list that fails the moment a meeting runs long or a commute gets delayed, the app continuously scans your calendar, location, and available attention level to recommend what can realistically be done right now. It solves the common problem of 'time blindness'\u2014that awkward gap between intention and execution that causes missed tasks, idle phone scrolling, and constant mental overhead. In daily life, it can suggest a five-minute inbox triage while you wait for coffee, a one-hand task like approving expenses on the subway, or a deep-work sprint when your next meeting is unexpectedly pushed back. What makes it unique is its focus on opportunity-based productivity: it doesn't ask users to build the perfect plan, it helps them convert unpredictable fragments into meaningful progress. Over time, it learns which kinds of tasks you actually complete in each context, so its suggestions get sharper and more personal. The result is a productivity system built for real life, not idealized schedules.",
+    "features": [
+      "The app detects micro-windows in your day from your calendar and location, then instantly proposes tasks that fit the exact amount of time available, which prevents wasted gaps between obligations.",
+      "A context-aware task sorter ranks your to-dos by effort, focus, and device needs so you can pick something you can truly finish instead of opening a long list and doing nothing.",
+      "A momentum mode bundles several tiny tasks into a single 'finish line' sprint, helping users clear administrative clutter like approvals, quick replies, and form submissions in one focused burst.",
+      "A personal completion model learns when you are most likely to succeed with specific task types, making recommendations more realistic and reducing the frustration of overcommitting.",
+      "One-tap friction notes let users record why a task was skipped, which helps the app improve future suggestions and reveals recurring productivity blockers in daily routines."
+    ],
+    "audience": "Busy professionals, freelancers, managers, and knowledge workers ages 22\u201345 who live in heavily scheduled, interruption-prone days. It is especially useful for people who work across meetings, commutes, client calls, and home responsibilities and need to make better use of fragmented time.",
+    "category": "productivity",
+    "useCases": [
+      "Sarah just finished a stressful meeting and has 12 minutes before her next call. She opens Time Anchor, which suggests two quick follow-ups she can send now and one document she can skim, instead of doom-scrolling while the gap disappears.",
+      "Marcus is commuting on a train with unreliable signal and low mental energy. The app notices the context and surfaces offline tasks like reviewing notes, drafting a message, or outlining tomorrow's agenda so he can still make progress without needing a perfect setup.",
+      "Nina's afternoon meeting was canceled at the last minute, giving her an unexpected 45-minute block. Time Anchor automatically turns that into a 'deep sprint' recommendation, pushing the one project task she has been avoiding and helping her actually use the bonus time."
+    ]
+  },
+  {
+    "folder": "2026-03-22-skillsnap",
+    "appName": "SkillSnap",
+    "tagline": "Learn from the things around you",
+    "designSystem": {
+      "primaryColor": "#00E5CC",
+      "secondaryColor": "#8B5CF6",
+      "backgroundColor": "#06090F",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Dark-first glassmorphic card UI with electric cyan-teal primary accent and violet secondary. Deep navy backgrounds with subtle grid overlays on the camera screen. Rounded card components with fine border strokes. Vibrant gradient CTAs and pill-shaped category tags. Clean typographic hierarchy with heavy 800-weight headings."
+    },
+    "screens": [
+      "home",
+      "scan",
+      "map",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "SkillSnap turns everyday objects, tasks, and moments into micro-lessons by using your camera and context to identify what you are looking at and teach the related concept instantly. It solves the common problem of learning being disconnected from real life, where people forget abstract lessons because they never see how they apply at the exact moment they matter. When a user points their phone at a bicycle chain, a restaurant receipt, a street sign, or a plant, the app explains the practical knowledge behind it in short, usable bursts tailored to the user\u2019s current level. It helps in daily life by teaching skills right when they are needed, such as understanding compound interest while scanning a loan offer, learning basic nutrition while grocery shopping, or grasping workplace jargon while reading an email. One unique example is a warehouse worker scanning a pallet label and getting a 90-second lesson on inventory codes and safety terms before starting a shift. Another is a traveler pointing at a transit map and receiving a quick explanation of route symbols and local etiquette. Unlike typical education apps that rely on scheduled courses or generic flashcards, SkillSnap learns from the real-world environment and delivers context-aware lessons that feel immediately useful and memorable.",
+    "features": [
+      "Contextual camera recognition identifies objects, documents, and scenes, then generates a lesson tied to what the user is seeing so learning happens at the exact point of confusion or curiosity.",
+      "Adaptive bite-sized explanations adjust in depth based on the user\u2019s age, prior knowledge, and time available, which keeps the experience practical instead of overwhelming.",
+      "Real-world skill modes focus on situations like shopping, commuting, parenting, workplace onboarding, and basic home repairs, helping users learn the knowledge they actually need day to day.",
+      "Interactive follow-up prompts ask the user to make a tiny decision or answer a quick question, which reinforces retention and turns passive reading into active learning.",
+      "A personal learning map stores every scanned topic into themed pathways, so a user who keeps scanning recipes, receipts, and labels can gradually build financial literacy or health knowledge over time."
+    ],
+    "audience": "Teenagers, college students, young professionals, and adult learners who prefer practical learning over traditional lessons will get the most value from this app. It is especially useful for busy people in urban environments, workers entering new jobs, immigrants learning a new system, and parents teaching themselves on the go.",
+    "category": "education",
+    "useCases": [
+      "Maria is shopping for her first apartment and scans rental listings, utility statements, and appliance manuals to understand the terms without needing to stop and research each one separately.",
+      "Jamal just started a job in a distribution center and uses the app to scan labels, equipment signs, and safety posters so he can learn the terminology and rules during his breaks.",
+      "Elena is preparing dinner and scans ingredients, spice jars, and a recipe card to quickly learn cooking techniques, substitutions, and measurements while she is already in the kitchen."
+    ]
+  },
+  {
+    "folder": "2026-03-22-roomlens",
+    "appName": "RoomLens",
+    "tagline": "Design spaces from a single photo.",
+    "designSystem": {
+      "primaryColor": "#5B6AF0",
+      "secondaryColor": "#2ECC96",
+      "backgroundColor": "#F5F4FF",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Modern mobile app with vibrant indigo-periwinkle primary accent, clean card-based layouts, gradient CTAs, and soft purple-tinted neutral backgrounds. Features AI-scan simulation, interactive design canvas with paint/furniture/decor/lighting tools, explore gallery, and settings with theme toggle."
+    },
+    "screens": [
+      "home",
+      "scan",
+      "design",
+      "explore",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "RoomLens turns any room photo into an interactive design canvas that helps people make faster, smarter decorating decisions without needing professional software. It solves the common problem of not knowing whether a color, layout, rug size, or wall art arrangement will actually work in a real space by analyzing the room\u2019s proportions, lighting, and existing furniture. Users can snap a picture of their bedroom, office, apartment corner, or storefront and instantly overlay realistic design options that stay aligned with the room\u2019s perspective. For daily life, it helps someone choose the right paint shade before buying samples, test whether a couch will block a walkway, or preview a gallery wall above a sofa. A renter could compare removable wallpaper styles, while a small business owner could test signage and branding on a reception wall. What makes RoomLens unique is that it focuses on practical, photo-based spatial decisions rather than abstract mood boards, so the designs are tied to real-world dimensions and usability instead of just inspiration.",
+    "features": [
+      "The app scans a room photo and detects walls, floors, furniture, and light sources so users can design against the actual space instead of guessing from a flat image.",
+      "It lets users preview paint, wallpaper, flooring, and accent colors with realistic shadows and lighting effects, which reduces costly buying mistakes.",
+      "It includes a drag-and-drop furniture planner that preserves scale and walking paths, helping users avoid layouts that look good but function poorly.",
+      "Users can generate gallery walls, shelving arrangements, and signage mockups in perspective, making it easy to visualize decor and branding before installation.",
+      "The app offers side-by-side comparison snapshots and shareable decision boards, which helps households, roommates, or clients agree on a final design faster."
+    ],
+    "audience": "Homeowners, renters, interior design hobbyists, real estate stagers, and small business owners aged roughly 22-55 who need quick visual design decisions in real spaces. It is especially useful for people decorating on a budget or working without access to professional design tools.",
+    "category": "graphic & design",
+    "useCases": [
+      "Maya just moved into a small apartment and wants to see whether a deeper blue accent wall will make the living room feel cozy or cramped. She snaps a photo, previews three shades, and chooses the one that looks best in the afternoon light.",
+      "Jordan is setting up a home office and needs to know if a larger desk will block the only window. He uses the furniture planner to test layouts and picks the version that keeps the room bright and walkable.",
+      "A caf\u00e9 owner is updating the shop interior and wants to preview a new logo sign above the counter. She uploads a wall photo, tests the sign in different sizes and materials, and shares the mockup with her contractor."
+    ]
+  },
+  {
+    "folder": "2026-03-22-marginmap",
+    "appName": "MarginMap",
+    "tagline": "Books that answer real life",
+    "designSystem": {
+      "primaryColor": "#00E5A0",
+      "secondaryColor": "#7C6FFF",
+      "backgroundColor": "#0D0F14",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Dark-first minimal with vibrant teal accent, glassmorphic cards, situational tag system, and cross-book knowledge graph visualization"
+    },
+    "screens": [
+      "home",
+      "search",
+      "library",
+      "map",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "MarginMap turns the books you own into a searchable, practical knowledge base tied to your everyday problems. Instead of simply highlighting passages, users tag insights by situation, such as \"job interview,\" \"parenting meltdown,\" or \"budget crisis,\" and the app automatically connects them to relevant notes, quotes, and book chapters. It solves the common problem of forgetting valuable ideas buried in books when you need them most, making reference material genuinely usable in the moment. For example, a user preparing for a difficult conversation can instantly pull together advice from psychology, negotiation, and memoir titles they already own. A student studying for exams can create topic-based maps from multiple textbooks and review only the passages that matter. What makes MarginMap unique is that it focuses on context-first retrieval, helping users find the right idea for the exact life situation they are facing rather than forcing them to remember the book or page number.",
+    "features": [
+      "The app lets users clip passages into situational folders like 'first day at work' or 'sleep training,' so important ideas are organized around real needs instead of book titles.",
+      "Smart search finds quotes and notes by problem, emotion, or goal, which makes it faster to rediscover advice when users are stressed or in a hurry.",
+      "A cross-book mapping tool links similar ideas from different texts, helping users see patterns across authors and build a stronger personal reference library.",
+      "Daily prompts suggest overlooked notes based on upcoming calendar events or routines, so the app resurfaces useful knowledge before it is needed.",
+      "An offline reference mode stores key excerpts locally, allowing users to access critical passages anywhere, including flights, commutes, or places with weak signal."
+    ],
+    "audience": "Students, avid readers, knowledge workers, parents, and lifelong learners aged roughly 16 to 45 who regularly read nonfiction, self-help, or instructional books. It is especially useful for people who want to turn reading into practical action rather than just passive consumption.",
+    "category": "books & reference",
+    "useCases": [
+      "Maya just got promoted and wants to prepare for her first hard performance review. She opens MarginMap to pull together every note she tagged under 'feedback,' 'confidence,' and 'management' from three leadership books she read last year.",
+      "Jonah is sitting in a pediatric waiting room and suddenly remembers a parenting technique he once read but cannot recall the source. He searches by 'calm toddler meltdown' and instantly finds the exact passages he saved from two child development books.",
+      "Elena is studying for a licensing exam and needs a faster way to review. She uses the app to gather all her highlighted definitions and comparison charts into one topic map, then revises only the concepts she keeps missing."
+    ]
+  },
+  {
+    "folder": "2026-03-22-quietroute",
+    "appName": "QuietRoute",
+    "tagline": "Navigate the calmest path, not just the fastest.",
+    "designSystem": {
+      "primaryColor": "#0CBF78",
+      "secondaryColor": "#2563EB",
+      "backgroundColor": "#F2FAF6",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Clean, calming mobile navigation UI with a vibrant mint-green brand palette built around a nature-inspired ethos. Features smooth card-based layouts, soft gradient accents, circular calm-score rings, SVG street map visualization with zone overlays, and gentle micro-interactions. Dual light/dark themes with deep forest-dark and fresh-white-green light modes."
+    },
+    "screens": [
+      "home",
+      "routes",
+      "navigate",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "QuietRoute helps people move through cities while avoiding the sensory overload, stress, and fatigue that can come from standard navigation apps. Instead of only optimizing for speed, it builds routes based on noise level, crowd density, lighting, construction, sidewalk quality, and even stressful transfer points like busy crossings or crowded station exits. This makes it especially useful for neurodivergent users, anxious travelers, parents with sleeping children, and anyone who simply wants a smoother, calmer trip. For example, a commuter can choose a slightly longer walk that avoids a chaotic subway exit and a loud avenue, while a parent pushing a stroller can prefer curb cuts and wide sidewalks over stairs and busy intersections. The app uses real-time and historical signals to predict which blocks, stations, and entrances will feel overwhelming, then explains why a route is calmer in simple terms. What makes it unique is that it treats navigation as a human experience, not just a shortest-path problem, giving users control over the kind of journey they want to have.",
+    "features": [
+      "The app scores routes by sensory comfort, showing how much noise, crowding, glare, stairs, and visual clutter each option contains so users can choose what feels manageable.",
+      "It offers customizable calmness preferences, allowing users to prioritize fewer people, less street noise, brighter lighting, smoother pavement, or fewer decision points depending on their needs.",
+      "It highlights stressful segments before the trip starts, such as a crowded station transfer or a construction-heavy block, so users can make informed decisions instead of being surprised mid-route.",
+      "It provides step-by-step calming guidance with simple, low-distraction instructions and optional reminders like where to pause, where to enter, and where to avoid peak foot traffic.",
+      "It learns from user feedback after each trip, improving future route recommendations based on what actually felt comfortable rather than only what the map data predicts."
+    ],
+    "audience": "Urban commuters, neurodivergent adults and teens, anxious travelers, caregivers, and parents navigating with children or strollers. It is especially relevant in dense cities, transit-heavy environments, and places where ordinary directions are technically correct but practically exhausting.",
+    "category": "navigation",
+    "useCases": [
+      "Maya just got off a packed train after work and wants to walk to dinner without passing through the loudest, most crowded streets. She opens QuietRoute to find a calmer path with fewer people and less traffic noise, even if it adds five extra minutes.",
+      "Jordan is traveling in a new city and feels overwhelmed by unfamiliar transit stations and confusing underground exits. He uses QuietRoute to pick the station entrance with fewer stairs, less crowding, and the clearest route to his hotel.",
+      "Priya is pushing a stroller with a sleeping baby and needs to get to a clinic without jostling the stroller on broken sidewalks or navigating stairs. She checks QuietRoute for a route with curb cuts, wider paths, and fewer chaotic crossings."
+    ]
+  },
+  {
+    "folder": "2026-03-22-layover-loom",
+    "appName": "Layover Loom",
+    "tagline": "Turn dead travel time into local time.",
+    "designSystem": {
+      "primaryColor": "#00CFAA",
+      "secondaryColor": "#6C8EFF",
+      "backgroundColor": "#090D18",
+      "fontFamily": "Space Grotesk",
+      "style": "Dark-first travel utility app with deep navy surfaces, vibrant teal-mint primary accent, and indigo secondary. Clean card-based layouts with subtle gradient overlays, color-coded risk indicators, and a confident data-dense aesthetic suited for time-critical decision making."
+    },
+    "screens": [
+      "home",
+      "plan",
+      "explore",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "Layover Loom helps travelers transform long layovers, delayed train transfers, and awkward transit gaps into curated mini-adventures that fit exactly into their available time. The app solves the common problem of wasted, stressful in-between hours by building hyper-local plans based on your current airport, station, baggage situation, budget, visa rules, weather, and energy level. It can suggest a 2-hour street-food loop near the terminal, a quiet cafe with reliable Wi\u2011Fi for a work reset, or a shower-and-nap stop before a red-eye. What makes it unique is that it dynamically designs itineraries around real constraints like security lines, boarding times, traffic risk, and return-buffer confidence, instead of just recommending nearby attractions. Users can choose goals like \u201crest,\u201d \u201ceat well,\u201d \u201csee one iconic thing,\u201d or \u201cprepare for my next meeting,\u201d and the app turns idle transit time into a useful, low-friction experience. For example, if a traveler has 4.5 hours between flights in Singapore, Layover Loom might suggest immigration timing, a fast monorail route, a hawker stall with minimal queue risk, and an automated reminder to head back with enough margin. It becomes a daily travel companion that reduces anxiety, saves time, and makes unavoidable waiting feel intentional and rewarding.",
+    "features": [
+      "The app calculates safe micro-itineraries using real-time flight, train, traffic, and security-delay data so users know exactly what they can do without risking a missed connection.",
+      "It adapts recommendations to traveler state, such as jet lag, baggage load, budget, and desired energy level, because a tired solo traveler needs very different options than a fit business traveler.",
+      "It offers route plans with return-benchmark reminders, showing users when to leave a cafe, museum, or market so they can get back with a comfortable buffer.",
+      "It generates context-aware place suggestions like nap pods, luggage-friendly restaurants, and walkable local highlights, which matters because most generic maps ignore transit-specific needs.",
+      "It can switch a layover into a productivity mode by surfacing nearby work spots, quiet lounges, and quick-reset routines, helping users arrive prepared instead of drained."
+    ],
+    "audience": "Frequent flyers, business travelers, remote workers, and urban explorers ages 22\u201355 who often face layovers, train transfers, or travel downtime. It is especially useful for people navigating unfamiliar cities with limited time and a strong need for reliability.",
+    "category": "travel",
+    "useCases": [
+      "Maya just landed in Doha with a 5-hour layover and no checked bag, and she wants to see something memorable without stressing about the next boarding time. Layover Loom builds her a tight plan for a nearby cultural district, a quick meal, and a return route with a safety buffer.",
+      "Ethan\u2019s train was delayed, leaving him with an unexpected 90-minute gap before his connection in a city he has never visited. He opens the app to find a walkable coffee stop, a good place to charge his phone, and a timer that tells him when to head back.",
+      "Priya finished a long international flight and has a business presentation two hours after landing. She uses the app to find a quiet airport work lounge, a shower option, and a light meal nearby so she can recover and show up sharp."
+    ]
+  },
+  {
+    "folder": "2026-03-22-bufferbloom",
+    "appName": "BufferBloom",
+    "tagline": "Turn cash flow chaos into calm.",
+    "designSystem": {
+      "primaryColor": "#00D4AA",
+      "secondaryColor": "#6C63FF",
+      "backgroundColor": "#0A0E1A",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Dark fintech dashboard with vibrant teal accent, glassmorphic card surfaces, real-time cash flow visualization, micro-interactions, and a clean data-forward hierarchy"
+    },
+    "screens": [
+      "home",
+      "timeline",
+      "alerts",
+      "insights",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "BufferBloom helps people avoid accidental overdrafts and late-fee spirals by predicting the \"danger zones\" in their checking account before they happen. Instead of only showing a balance, it analyzes recurring bills, paydays, card holds, subscriptions, and variable spending to create a day-by-day cash runway forecast that updates in real time. If you are about to spend too much on a weekend trip, it can quietly suggest how much to reserve so rent, utilities, and minimum debt payments stay safe. It also flags when a subscription is likely to hit right after a large purchase or when a paycheck delay could create a shortfall, then offers actionable choices like moving money, delaying nonessential spending, or setting a temporary spending cap. The app is especially useful for people who technically have enough money over the month but still get hit by timing mismatches that cause fees and stress. What makes it unique is that it behaves like a personal liquidity planner rather than a budgeting spreadsheet, focusing on exact payment timing and near-future survival instead of category tracking alone.",
+    "features": [
+      "The app builds a rolling 30-day cash-flow timeline that shows when your balance may dip dangerously low, helping you act before fees happen.",
+      "It detects upcoming bills, salary deposits, card authorizations, and subscription renewals automatically so users do not need to enter every transaction manually.",
+      "A smart safe-to-spend number updates throughout the day and tells you how much money is truly available after protecting essentials.",
+      "It sends plain-language alerts like \"Wait two days before buying this\" or \"Move $80 to checking tonight,\" which makes decisions fast and practical.",
+      "It learns from your spending habits and paycheck patterns to predict stress points unique to your life, making the guidance more accurate over time."
+    ],
+    "audience": "Young professionals, gig workers, and families living paycheck-to-paycheck or with irregular income, especially those aged 22-45 who manage multiple bills, subscriptions, and inconsistent pay timing. It also fits people who are financially stable overall but frequently get surprised by short-term cash crunches.",
+    "category": "finance",
+    "useCases": [
+      "Maya just got paid on a Friday, but her rent, utilities, and two subscriptions are all scheduled for the first week of the month. She opens BufferBloom to see whether her grocery trip today will leave enough cash for everything else.",
+      "Jordan drives for ride-share apps and never knows exactly when earnings will land. He checks the app before accepting a weekend hotel booking to see if a delayed payout would cause his auto insurance draft to bounce.",
+      "Elena notices a gym membership, streaming service, and car repair estimate all clustered around the same week. She uses BufferBloom to identify the safest transfer amount from savings and avoid an overdraft fee."
+    ]
+  },
+  {
+    "folder": "2026-03-22-flowforge",
+    "appName": "FlowForge",
+    "tagline": "Turn app chaos into testable flows.",
+    "designSystem": {
+      "primaryColor": "#00C9FF",
+      "secondaryColor": "#7B61FF",
+      "backgroundColor": "#080B12",
+      "fontFamily": "Space Grotesk",
+      "style": "Dark-first developer tool UI with electric cyan-to-violet gradient accents, deep navy surfaces, subtle card elevation, and data-dense layouts optimized for reading flow timelines and anomaly feeds"
+    },
+    "screens": [
+      "Home",
+      "Record",
+      "Flows",
+      "Insights",
+      "Settings"
+    ],
+    "hasScreenshot": true,
+    "description": "FlowForge is a mobile companion for developers that captures real product usage, then transforms it into reproducible API and UI workflow maps. It solves the painful gap between what users actually do and what teams think they do, especially when bugs only appear after a messy chain of taps, requests, retries, and edge cases. The app lets developers quickly record live app behavior from a phone, annotate the critical steps, and instantly generate a shareable flow diagram with timing, state changes, and failure points. During a commute or between meetings, engineers can review a production issue, replay the exact interaction sequence, and pin down where the logic broke without needing a laptop. A backend developer can use it to turn a support ticket into a reproducible test case, while a mobile engineer can compare a working flow against a failing one and spot the divergence immediately. What makes FlowForge unique is that it focuses on real-world user journeys as first-class debugging artifacts, rather than just logs, metrics, or static diagrams. It bridges observation and implementation by making the app behavior itself the source of truth.",
+    "features": [
+      "It records multi-step user interactions from a connected app session and converts them into an editable flow timeline, which helps developers preserve the exact sequence that caused a bug.",
+      "It overlays API calls, network delays, and state changes onto each step so engineers can see where a request failed or a screen diverged from expected behavior.",
+      "It turns captured flows into reproducible test scripts and checklist-style QA cases, which saves time when handing bugs from support to engineering.",
+      "It includes anomaly highlights that flag unusual retries, timeouts, and backtracks, helping teams identify brittle logic that traditional logs may not make obvious.",
+      "It lets users share a compact visual replay link with teammates, making it easier to debug collaboratively without screenshots, long explanations, or screen recordings."
+    ],
+    "audience": "Mobile and backend developers, QA engineers, and startup product teams working on consumer apps, SaaS tools, or complex onboarding flows. It is especially useful for teams of 5-200 people who need to debug fast without always being at their desks.",
+    "category": "developer tools",
+    "useCases": [
+      "Sarah just finished a stressful support call and wants to capture the exact checkout flow that failed for one customer, so she records the session and turns it into a reproducible bug report before the details are forgotten.",
+      "Diego is on the train home when his app's login process starts failing in production, so he opens FlowForge to compare the successful path against the broken one and spots a token refresh mismatch.",
+      "Mina is preparing a release checklist and wants to make sure onboarding still works after a backend change, so she replays a saved flow and auto-generates test steps for the QA team."
+    ]
+  },
+  {
     "folder": "2026-03-22-tracenest",
     "appName": "TraceNest",
     "tagline": "See bugs the way users do.",
