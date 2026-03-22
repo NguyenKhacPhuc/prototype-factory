@@ -1,0 +1,19 @@
+{
+  "name": "CodePulse",
+  "tagline": "Debug production with living context.",
+  "description": "CodePulse is a mobile incident companion for developers that turns raw alerts, logs, and metrics into a live, human-readable troubleshooting timeline. When something breaks in production, the app pulls in error traces, recent deploys, feature flag changes, dependency status, and related Slack or PagerDuty context, then compresses it into a single story you can understand on a phone in seconds. It solves the common problem of being away from a laptop when an outage hits, forcing engineers to hunt across dashboards and chat threads just to figure out whether a bug is real, who caused it, and what changed. In daily life, it helps on-call engineers decide whether to wake the team, acknowledge the alert, or roll back a release while commuting, in a meeting, or after hours. A concrete example is seeing a spike in checkout failures and instantly learning that a new payment SDK version was deployed 12 minutes earlier, only for Android devices in one region. Another use case is triaging noisy alerts by merging duplicates into one incident card so developers stop wasting time on repeated notifications. What makes it unique is that it does not just display observability data; it explains causality, highlights probable blast radius, and suggests the most likely next action using the current project\u2019s history and runbooks.",
+  "features": [
+    "The app builds a chronological incident timeline that combines deploys, error spikes, config changes, and team messages so developers can understand cause and effect without opening multiple tools.",
+    "It summarizes alerts into plain language and estimates severity, which helps engineers quickly separate urgent outages from harmless noise.",
+    "It detects likely regressions by comparing the current incident against recent releases, feature flag flips, and dependency changes, making root-cause hunting far faster.",
+    "It links directly to the most relevant logs, traces, dashboards, and runbooks so users can jump from a phone-friendly summary into deeper investigation when needed.",
+    "It suggests next-best actions such as rolling back, disabling a flag, or paging a teammate, which matters because it helps developers act decisively under pressure."
+  ],
+  "audience": "On-call software engineers, mobile-first startup teams, and DevOps-minded developers ages 22-45 who regularly respond to production issues outside their desk setup. It is especially useful for teams shipping frequently to cloud apps, APIs, and consumer products where fast incident triage matters.",
+  "category": "developer tools",
+  "useCases": [
+    "Sarah just finished dinner when PagerDuty pings her about a checkout failure spike, and she opens the app to see that a deployment five minutes earlier likely introduced the issue. From her phone, she checks the suggested rollback path and notifies the release owner before the outage grows.",
+    "Jamal is riding the train home when a noisy stream of alerts starts firing from his backend service, and he wants to know whether the incident is a real customer impact or duplicate spam. The app merges the alerts into one card and shows that the error rate is limited to a single API version behind a feature flag.",
+    "Priya is in a team meeting when a critical dependency goes down and she cannot access her laptop. She uses the app to review the incident timeline, confirm that the failure is upstream, and decide whether to pause the team\u2019s hotfix rollout until the dependency recovers."
+  ]
+}

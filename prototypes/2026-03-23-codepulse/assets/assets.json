@@ -1,0 +1,20 @@
+{
+  "appName": "CodePulse",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#C026D3",
+    "background": "#F7F5FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "activity",
+    "bell",
+    "home",
+    "settings",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 5,
+  "fontFileCount": 0
+}

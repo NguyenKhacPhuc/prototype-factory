@@ -1,0 +1,12 @@
+{
+  "appName": "CodePulse",
+  "tagline": "Debug production with living context.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#C026D3",
+    "backgroundColor": "#F7F5FF",
+    "fontFamily": "Space Grotesk",
+    "style": "Modern developer tooling UI with vivid violet-purple brand color, gradient hero headers, glassmorphic stat cards, and a dense-but-readable information hierarchy. Light and dark themes both built around a violet-purple core with semantic alert colors (red/amber/green) for incident severity. Micro-animations on critical status indicators."
+  },
+  "screens": ["Home", "Timeline", "Alerts", "Insights", "Settings"]
+}
