@@ -1,0 +1,19 @@
+{
+  "name": "LedgerPulse",
+  "tagline": "Turn business chaos into cash clarity.",
+  "description": "LedgerPulse is a mobile cash-flow companion for small business owners who need to make fast, confident decisions without living in spreadsheets. It connects invoices, bank feeds, bills, and project timelines to predict when money will actually arrive or leave, then translates that forecast into simple daily actions. The app solves the common problem of being profitable on paper but cash-strapped in reality, which often leads to missed payroll, late vendor payments, and rushed financing decisions. A bakery owner can see that a big catering invoice will land six days after rent is due, while a freelance agency can spot that two clients are likely to delay payment and adjust spending before it becomes a crisis. What makes it unique is that it doesn\u2019t just show numbers\u2014it suggests specific moves like nudge templates, expense deferrals, partial payment plans, and invoice sequencing based on your current risk. It also learns your business rhythms over time, so its forecasts become more accurate after every deposit, delay, and seasonal slump. Instead of replacing accounting software, it acts like a cash-flow GPS for everyday business survival.",
+  "features": [
+    "The app builds a live cash runway forecast by combining invoices, recurring bills, bank activity, and expected client payment behavior, which helps owners see shortfalls before they happen.",
+    "It ranks which customers are most likely to pay late and drafts personalized follow-up messages, saving time and improving collections without sounding pushy.",
+    "It recommends daily actions such as delaying a non-urgent purchase, splitting a supplier payment, or accelerating a specific invoice so users can protect payroll and rent money.",
+    "It simulates 'what-if' decisions, letting owners test scenarios like hiring a contractor, buying equipment, or losing a major client before committing real cash.",
+    "It sends plain-language alerts that explain the cause of a risk and the best next step, so owners can act quickly even when they are busy or not financially trained."
+  ],
+  "audience": "Small business owners, solo founders, freelancers, and boutique agencies aged 25\u201355 who manage cash flow themselves and need practical guidance between accounting reviews. It is especially useful for service businesses, seasonal retailers, and businesses with uneven client payment timing.",
+  "category": "business",
+  "useCases": [
+    "Maya runs a two-person design studio and just got a warning that next Tuesday\u2019s payroll will be tight if two overdue invoices don\u2019t land. She opens LedgerPulse to send follow-up reminders, postpone a software renewal, and see whether a partial payment from one client is enough to keep cash positive.",
+    "Andre owns a small landscaping company and is about to buy a new truck after a strong summer season. He checks the app to compare the purchase against upcoming fuel costs, tax estimates, and a predicted winter revenue dip before deciding whether to lease instead.",
+    "Priya manages a local coffee roaster and notices a supplier bill, a rent payment, and a festival catering deposit all clustering in the same week. She uses the app to rearrange outgoing payments and sequence customer invoices so she can avoid dipping into her emergency reserve."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "appName": "LedgerPulse",
+  "tagline": "Turn business chaos into cash clarity.",
+  "designSystem": {
+    "primaryColor": "#00E5C3",
+    "secondaryColor": "#7C6FF7",
+    "backgroundColor": "#08101F",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark fintech — deep navy surfaces with vivid teal-cyan primary accent, purple secondary, and purposeful danger/warning color semantics. Sharp typographic hierarchy with heavy weight numerals for financial data readability."
+  },
+  "screens": [
+    "Home — Cash position, 30-day runway bar, forecast sparkline, risk alerts, actions CTA",
+    "Forecast — SVG cash flow chart, what-if scenario simulator, upcoming bills timeline",
+    "Clients — Payment likelihood ranking with risk bars, personalized nudge drafts, send flow",
+    "Actions — Prioritized daily action cards (collect/defer/split), impact tracker, mark-done",
+    "Settings — Profile card, theme toggle (dark/light), connected accounts, preferences list"
+  ]
+}

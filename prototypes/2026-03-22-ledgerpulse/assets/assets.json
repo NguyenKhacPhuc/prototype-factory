@@ -1,0 +1,14 @@
+{
+  "appName": "LedgerPulse",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#00E5C3",
+    "secondary": "#7C6FF7",
+    "background": "#08101F",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
