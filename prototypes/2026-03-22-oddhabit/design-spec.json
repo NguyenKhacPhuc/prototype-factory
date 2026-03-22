@@ -1,0 +1,18 @@
+{
+  "appName": "OddHabit",
+  "tagline": "Fix life through tiny strange rituals.",
+  "designSystem": {
+    "primaryColor": "#C4FF5C",
+    "secondaryColor": "#8B5CF6",
+    "backgroundColor": "#0C0C14",
+    "fontFamily": "Bricolage Grotesque",
+    "style": "Dark-first neomorphic productivity with electric lime accent, deep dark surfaces, and playful emoji-forward ritual cards. Combines behavioral science credibility with intentional quirkiness through bold typography, glowing accent highlights, and smooth spring animations."
+  },
+  "screens": [
+    "Today (Home) — Daily ritual list with completion toggles, XP rewards, streak display, and animated progress bar",
+    "Library — Full ritual catalog with category filters, sticky ratings (1-5 stars), and add-to-today functionality",
+    "Emergency (SOS) — Anti-spiral mode with randomized absurd reset rituals, dramatic presentation, and completion feedback",
+    "Journey — Private streak tracker, weekly calendar grid, badges system, and category breakdown charts",
+    "Settings — Theme toggle (dark/light), profile card, location/notification/AI toggles, privacy controls"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "appName": "OddHabit",
+  "fontFamily": "Bricolage Grotesque",
+  "colors": {
+    "primary": "#C4FF5C",
+    "secondary": "#8B5CF6",
+    "background": "#0C0C14",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
