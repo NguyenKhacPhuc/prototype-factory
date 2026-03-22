@@ -1,0 +1,19 @@
+{
+  "name": "Oddly Useful",
+  "tagline": "Turn strange moments into smart actions.",
+  "description": "Oddly Useful is a mobile app that helps people decode bizarre everyday situations and turn them into practical next steps. If you find a mysterious smell in your apartment, hear a repeating sound in your car, or notice a weird rash-like stain on your shirt, the app helps you classify the oddity and suggests likely causes, safety checks, and the most efficient way to respond. It solves the real problem of uncertainty panic, when people waste time doomscrolling, overreacting, or ignoring something important because they do not know what they are dealing with. The app uses guided symptom-style prompts, contextual photo analysis, and location-aware troubleshooting to narrow down the cause without pretending to be a doctor, mechanic, or building inspector. In daily life, it can help a parent decide whether a strange noise from the freezer is harmless frost expansion or a sign of failure, or help a renter figure out whether a wet patch on the ceiling needs emergency action or just monitoring. What makes it unique is that it treats ordinary weirdness as a solvable category, combining practical decision trees with a playful, human tone so users feel less freaked out and more capable.",
+  "features": [
+    "The app asks a few unusually specific questions about the weird event, then translates the answers into a ranked list of likely causes so users can stop guessing and start acting.",
+    "Users can upload photos, short videos, or audio clips of odd occurrences, and the app highlights relevant details such as color changes, vibration patterns, or repeating sounds that matter most.",
+    "It offers a calm-action checklist for each situation, including what to inspect, what to ignore, and when the user should contact a professional or seek urgent help.",
+    "A neighborhood and home-context layer adapts advice to the setting, so a rattling sound in an apartment building gets different guidance than the same sound inside a parked car.",
+    "The app keeps a personal archive of past weird incidents, helping users recognize recurring patterns like seasonal smells, appliance quirks, or stress-linked misunderstandings over time."
+  ],
+  "audience": "Adults aged 18-45 who manage their own homes, commutes, or busy routines and often run into small but unsettling mysteries. It is especially useful for renters, new homeowners, parents, and anyone who tends to search the internet in a mild panic.",
+  "category": "weird",
+  "useCases": [
+    "Maya notices a sweet chemical smell near her hallway at 11 p.m. and opens the app to figure out whether it is likely from cleaning products, overheating electronics, or something that needs immediate attention.",
+    "Jordan hears a rhythmic thump from his washing machine and uses the app to compare the sound to common appliance issues before deciding whether to unplug it and call a repair service.",
+    "Elena sees a strange orange mark on her child\u2019s backpack and wants to know if it is rust, food dye, or something mold-related, so she checks the app before throwing the bag away."
+  ]
+}

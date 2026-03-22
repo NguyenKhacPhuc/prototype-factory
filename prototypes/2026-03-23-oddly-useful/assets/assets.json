@@ -1,0 +1,41 @@
+{
+  "appName": "Oddly Useful",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#8B5CF6",
+    "secondary": "#EC4899",
+    "background": "#0D0B1A",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "archive",
+    "arrow-right",
+    "battery",
+    "bell",
+    "camera",
+    "check",
+    "check-circle",
+    "chevron-left",
+    "chevron-right",
+    "clock",
+    "help-circle",
+    "home",
+    "info",
+    "lightbulb",
+    "map-pin",
+    "moon",
+    "scan",
+    "settings",
+    "shield",
+    "signal",
+    "sparkles",
+    "star",
+    "sun",
+    "trending-up",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 26,
+  "fontFileCount": 0
+}

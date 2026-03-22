@@ -1,0 +1,18 @@
+{
+  "appName": "Oddly Useful",
+  "tagline": "Turn strange moments into smart actions.",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#EC4899",
+    "backgroundColor": "#0D0B1A",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first glassmorphic mobile UI with vibrant violet-to-pink gradient accents, deep navy surfaces, and high-contrast card hierarchy. Playful but trustworthy — combines urgency indicators (red/amber/green severity system) with calm, human-readable copy. Micro-interactions on checklist items and smooth tab transitions reinforce a sense of control over uncertainty."
+  },
+  "screens": [
+    "home",
+    "detect",
+    "archive",
+    "insights",
+    "settings"
+  ]
+}
