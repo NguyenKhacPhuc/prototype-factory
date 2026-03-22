@@ -1,0 +1,20 @@
+{
+  "name": "Rally Rift",
+  "tagline": "Turn any break into a skill duel.",
+  "description": "Rally Rift is a location-aware sports game that transforms the spaces around you into fast, competitive micro-sports challenges built for real life, not stadiums. It solves the common problem of wanting to stay active, sharpen coordination, and have fun with friends without needing a full court, field, or hour-long workout. Users tap in to nearby \"rifts\"\u2014short, GPS- or camera-verified challenges like accuracy flicks, pace drills, stair sprints, wall-bounce volleys, or park bench agility runs\u2014that can be played solo or head-to-head in 3 to 7 minutes. A commuter can challenge a coworker on the walk to lunch, a parent can play a quick balance duel at a playground, or a pickup athlete can use it to warm up before practice. What makes it unique is that it uses everyday environments as the playing field, layering sports skill, physical movement, and game design into bite-sized matches with real-world constraints and rewards. Unlike generic fitness apps that only track exercise or sports apps that only organize teams, Rally Rift creates an actual competitive game out of the in-between moments of the day.",
+  "features": [
+    "The app generates adaptive micro-sport challenges based on the user\u2019s location, available space, and movement patterns so every session feels feasible and relevant.",
+    "It includes real-time head-to-head or asynchronous duels, letting friends compete immediately or leave a challenge that can be answered later without coordinating schedules.",
+    "A skill-mapping engine tracks categories like reaction, balance, accuracy, and agility, which helps users see concrete improvement instead of only calorie counts.",
+    "The app uses lightweight AR and camera verification to confirm actions like target hits or step sequences, making matches feel fair and adding a playful sense of physical presence.",
+    "It offers daily \"rifts\" with rewards, streaks, and team leagues, which keeps users motivated to move regularly and gives casual athletes a reason to return.",
+    "audience\": "
+  ],
+  "audience": "Urban teens, college students, young professionals, and recreational athletes aged roughly 14\u201335 who want short, social, competitive bursts of activity. It is especially useful for people with busy schedules, limited access to sports facilities, or a strong appetite for gamified fitness and friendly competition.",
+  "category": "game: sports",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to clear her head before the next one, so she opens Rally Rift and accepts a three-minute stair-agility duel against a friend across the city.",
+    "Devon is waiting for a train and wants to avoid doomscrolling, so he launches a nearby accuracy challenge that has him hit timed targets on a platform wall using controlled hand taps.",
+    "Mina and her coworkers are at a park during lunch and want something more exciting than a walk, so they start a team rift that turns a bench-and-path area into a mini relay tournament."
+  ]
+}

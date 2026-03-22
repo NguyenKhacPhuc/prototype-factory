@@ -1,0 +1,19 @@
+{
+  "appName": "Rally Rift",
+  "tagline": "Turn any break into a skill duel.",
+  "designSystem": {
+    "primaryColor": "#FF4D1C",
+    "secondaryColor": "#1C3FFF",
+    "backgroundColor": "#F5F4F0",
+    "fontFamily": "Outfit",
+    "style": "Energetic sports-tech aesthetic with bold orange-red primary accents, clean card-based layouts, progress bars, and skill-tracking UI. Light mode uses warm off-whites with vibrant accent pops; dark mode uses deep charcoal tones with glowing accent highlights. Rounded corners throughout, gradient hero cards, and micro-interaction feedback on all tappable elements."
+  },
+  "screens": [
+    "Discover — Nearby rifts map with GPS-based challenge cards, daily rift tracker, filter chips by skill type",
+    "Play — Active challenge view with AR camera verification, real-time progress bar, player list, start/stop flow and completion celebration",
+    "Duels — Head-to-head challenge inbox with live/pending/completed states, invite banner, and XP rewards",
+    "Skills — Skill map with animated progress bars across Reaction, Balance, Accuracy, Agility, Stamina plus overall level card",
+    "League — Competitive leaderboard with rank changes, team weekly goal progress, season banner",
+    "Profile — User stats, earned badges, settings (location, camera, notifications), dark/light theme toggle"
+  ]
+}
