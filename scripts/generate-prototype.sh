@@ -117,6 +117,27 @@ Create a single-file React prototype (App.tsx) that runs with Babel standalone.
 - Dynamic Island notch at top
 - Bottom navigation bar with 3-5 tabs (working navigation between screens)
 - At least 4 screens/tabs with real, detailed content
+- **CRITICAL NAV STRUCTURE** — The bottom nav MUST follow this exact pattern for design-tree extraction:
+  \`\`\`
+  const [activeTab, setActiveTab] = useState('home');
+  const tabs = [
+    { id: 'home', label: 'Home', icon: window.lucide.Home },
+    { id: 'search', label: 'Search', icon: window.lucide.Search },
+    // ... more tabs
+  ];
+  // In the nav bar JSX, render each tab as a clickable div with a span for the label:
+  tabs.map(tab => React.createElement('div', {
+    key: tab.id,
+    onClick: () => setActiveTab(tab.id),
+    style: navItemStyle
+  },
+    React.createElement(tab.icon, { size: 22 }),
+    React.createElement('span', { style: labelStyle }, tab.label)
+  ))
+  // Then switch screens: const screens = { home: HomeScreen, search: SearchScreen, ... };
+  // Render: React.createElement(screens[activeTab])
+  \`\`\`
+  Each nav item MUST have an onClick that calls setActiveTab directly, and a span child with the tab label text. This is required for automated tooling.
 - Realistic placeholder content (not lorem ipsum)
 - Smooth transitions between screens
 - Micro-interactions (button press effects, toggle animations)
