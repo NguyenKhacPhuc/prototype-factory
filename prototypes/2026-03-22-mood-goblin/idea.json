@@ -1,0 +1,19 @@
+{
+  "name": "Mood Goblin",
+  "tagline": "Turns emotional messes into tiny, useful rituals.",
+  "description": "Mood Goblin is a delightfully odd mobile app that helps people decode mysterious bad moods by treating them like mischievous little creatures with specific needs. Instead of asking users to \"track emotions\" in a clinical way, it prompts them with bizarre but insightful questions like \"Is your anger hungry, sticky, or socially overcaffeinated?\" and then maps the answer to a practical micro-action. It solves the very real problem of feeling off without knowing why, which often leads to procrastination, arguments, impulsive purchases, or doomscrolling. The app helps in daily life by translating fuzzy emotional states into concrete next steps such as drinking water, changing rooms, texting an apology, or setting a 12-minute timer to escape a task spiral. A user who feels inexplicably irritated before a commute might discover they are actually overstimulated and need silence, while someone dragging through the afternoon could learn they are \"crumbly-tired\" and need a snack plus a boundary. What makes it unique is that it never pretends emotions are neat; it uses surreal humor, voice notes, and oddly specific rituals to make self-regulation feel less like self-help and more like taming a household goblin.",
+  "features": [
+    "It identifies your mood by asking weird, metaphor-based questions that are easier to answer than standard emotional check-ins, helping users bypass the blankness of 'I don't know what I feel.'",
+    "It converts your answer into a tiny action plan, such as 'open a window,' 'send one clarifying text,' or 'stand in a doorway for 30 seconds,' so the app always ends with something doable.",
+    "It keeps a personal 'Goblin Almanac' that notices patterns like recurring Tuesday afternoon dread or post-meeting irritability, which matters because many moods are triggered by context rather than personality.",
+    "It offers 90-second anti-spiral rituals with strange themes like 'reset the haunted desk' or 'evict the brain pigeon,' making emotional regulation feel playful enough to actually use during stressful moments.",
+    "It can generate social scripts for delicate situations, such as a gentle way to cancel plans or ask for space, which helps users protect relationships when they are emotionally overloaded."
+  ],
+  "audience": "Young adults and busy professionals ages 18-40 who feel overwhelmed, emotionally foggy, or easily overstimulated in daily life. It is especially useful for people who dislike traditional journaling apps but still want help understanding and responding to their moods.",
+  "category": "weird",
+  "useCases": [
+    "Sarah just finished a stressful meeting and feels suddenly angry for no clear reason. She opens Mood Goblin, realizes she is 'buzzy-bitter,' and gets a prompt to step outside, drink water, and send a short follow-up message instead of snapping at a coworker.",
+    "Jay is sitting on the couch at 11 p.m. doomscrolling and feeling restless, but he can't tell whether he's anxious, lonely, or just tired. He checks the app, which identifies a 'sticky-overstimulated' pattern and guides him through a 3-minute room reset and a no-phone bedtime script.",
+    "Mina wakes up oddly sad every Sunday evening before the workweek starts. She uses Mood Goblin to log the feeling, sees the pattern repeated for three weeks, and gets a custom ritual that includes planning one pleasant Monday event and preparing her bag before dinner."
+  ]
+}

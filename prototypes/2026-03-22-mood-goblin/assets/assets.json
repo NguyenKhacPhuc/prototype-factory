@@ -1,0 +1,14 @@
+{
+  "appName": "Mood Goblin",
+  "fontFamily": "Sora",
+  "colors": {
+    "primary": "#E8520A",
+    "secondary": "#7B2D8B",
+    "background": "#FFF8F0",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

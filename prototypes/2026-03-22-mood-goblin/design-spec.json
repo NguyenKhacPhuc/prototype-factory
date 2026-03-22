@@ -1,0 +1,18 @@
+{
+  "appName": "Mood Goblin",
+  "tagline": "Turns emotional messes into tiny, useful rituals.",
+  "designSystem": {
+    "primaryColor": "#E8520A",
+    "secondaryColor": "#7B2D8B",
+    "backgroundColor": "#FFF8F0",
+    "fontFamily": "Sora",
+    "style": "Warm, playful, and quirky with an earthy orange-amber palette. Features surreal humor through emoji-based goblin characters, rounded card layouts, and gradient CTAs. Balances whimsy with utility — each screen feels approachable rather than clinical."
+  },
+  "screens": [
+    "Home — Daily overview, last caught goblin, quick rituals carousel, weekly pattern peek",
+    "Check-in — 4-question metaphor-based mood quiz leading to goblin identification and ritual selection",
+    "Goblin Almanac — Weekly calendar heatmap, pattern detection, frequency breakdown per goblin type",
+    "Social Scripts — Expandable pre-written scripts for canceling plans, asking for space, defusing tension",
+    "Settings — Theme toggle (light/dark), check-in schedule, goblin stats, profile"
+  ]
+}
