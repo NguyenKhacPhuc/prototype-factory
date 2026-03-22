@@ -1,0 +1,12 @@
+{
+  "appName": "Pulse Pal",
+  "tagline": "Your symptoms, decoded in real time.",
+  "designSystem": {
+    "primaryColor": "#0EA5E9",
+    "secondaryColor": "#8B5CF6",
+    "backgroundColor": "#F4F7FB",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean health-tech UI with soft card surfaces, vibrant sky-blue and violet gradient branding, animated 30-second guided scan flow, timeline-based symptom history, and doctor-ready report generation. Light and dark themes with seamless transitions."
+  },
+  "screens": ["home", "scan", "timeline", "reports", "settings"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Pulse Pal",
+  "tagline": "Your symptoms, decoded in real time.",
+  "description": "Pulse Pal is a camera-based symptom tracking app that helps people capture and understand short, everyday health changes before they turn into bigger problems. Instead of asking users to manually log vague symptoms, it uses guided scans of the face, hands, voice, and breathing patterns to detect subtle shifts such as dehydration, fever onset, respiratory strain, or stress-related flareups. The app turns these quick checks into a personal health timeline, making it easier to notice patterns like migraines that consistently start after poor sleep or asthma symptoms that worsen after exposure to cold air. It is especially useful for busy people managing chronic conditions, parents monitoring a child\u2019s recovery, or anyone who struggles to describe symptoms accurately during a doctor visit. A mother can scan her child\u2019s breathing after a coughing fit, a commuter can check whether fatigue is likely from stress or something else, and an older adult can track warning signs without needing complex devices. What makes Pulse Pal unique is that it focuses on micro-observations in under 30 seconds and translates them into plain-language health guidance, rather than generic wellness advice or raw biometric dashboards.",
+  "features": [
+    "The app runs a 30-second guided scan using the phone camera and microphone to observe visible and audible symptom clues, which helps users notice changes they might otherwise ignore.",
+    "It builds a personalized symptom baseline over time, so the app can flag when today's breathing, skin tone, or voice pattern is meaningfully different from a user's normal state.",
+    "It converts scans into simple explanations like 'possible dehydration pattern' or 'respiratory strain increased,' making the results understandable without medical training.",
+    "It creates shareable doctor-ready summaries with timestamps, triggers, and example notes, which helps users communicate more clearly during appointments or telehealth visits.",
+    "It can send tailored prompts based on recent patterns, such as encouraging rest, hydration, or follow-up when a repeating warning sign appears across multiple days.",
+    "audience: \"Adults managing chronic conditions, parents of young children, and caregivers looking for a fast, low-friction way to monitor everyday health changes. It is also useful for people who frequently experience vague symptoms but struggle to describe them clearly to clinicians.\"",
+    "category: "
+  ],
+  "useCases": [
+    "Sarah just finished a stressful meeting and feels unusually short of breath, so she opens the app to check whether her breathing pattern looks different from her normal baseline. She uses the result to decide whether to rest, hydrate, or message her doctor.",
+    "Marcus's toddler has been coughing off and on all evening, and he wants to know if the breathing sounds urgent enough to seek care. He runs a quick scan and saves the result to show the pediatrician if needed.",
+    "Linda has been getting recurring headaches after long shifts and wants to figure out whether dehydration or sleep disruption is the more likely trigger. She checks the app's timeline to compare symptoms against workdays, caffeine intake, and sleep hours."
+  ]
+}
