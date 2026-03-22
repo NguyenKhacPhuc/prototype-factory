@@ -1,0 +1,14 @@
+{
+  "appName": "Marginalia",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#0D9488",
+    "secondary": "#D97706",
+    "background": "#EEF7F6",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

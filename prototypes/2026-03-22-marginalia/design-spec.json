@@ -1,0 +1,18 @@
+{
+  "appName": "Marginalia",
+  "tagline": "News that knows your life",
+  "designSystem": {
+    "primaryColor": "#0D9488",
+    "secondaryColor": "#D97706",
+    "backgroundColor": "#EEF7F6",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Editorial teal-and-amber palette with clean card-based layout, context-stacking banners, and a calm yet informative visual hierarchy designed to feel like a sharp local newspaper editor"
+  },
+  "screens": [
+    "Today — Morning briefing with calendar events, featured story, route alert, and evening read-later preview",
+    "Stories — Filterable article feed with Context Stack banners showing personal relevance cues",
+    "Route Watch — Commute map visualization with transit alerts and linked news stories",
+    "Neighborhood — Expandable impact cards translating national news into local ZIP-code implications",
+    "Settings — Theme toggle (light/dark), context source toggles (calendar, location, transit), reading profile"
+  ]
+}

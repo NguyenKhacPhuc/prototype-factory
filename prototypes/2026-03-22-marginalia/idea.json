@@ -1,0 +1,19 @@
+{
+  "name": "Marginalia",
+  "tagline": "News that knows your life",
+  "description": "Marginalia is a hyper-personalized magazine and newspaper companion that reshapes articles around your actual day, not just your interests. It scans your calendar, commute, weather, location, and reading habits to surface the most relevant stories at the moments you can realistically act on them, then adds smart context like \"what this means for your rent,\" \"how this affects your route,\" or \"why this matters in your city.\" The app solves the common problem of feeling informed but not truly connected, where people read plenty of headlines yet miss the local or practical implications. In daily life, it helps users discover coverage tied to their next meeting, neighborhood, or upcoming expense, making news feel immediately useful instead of abstract. For example, a parent might see a school-policy story paired with a note about their district, while a commuter gets a transit disruption article tagged to their usual route and departure time. Unlike traditional news apps that simply recommend more content, Marginalia turns journalism into situational guidance by layering live context on top of editorial reporting. The result is a reading experience that feels like a sharp local editor anticipating what you need before you even search for it.",
+  "features": [
+    "Context Stacking rewrites the top of each article with personal relevance cues, so users instantly see why a story matters to their day, location, or responsibilities.",
+    "Calendar-Aware Briefings deliver a short morning and evening digest based on upcoming events, helping people prioritize which stories deserve attention before a meeting, trip, or deadline.",
+    "Route Watch links breaking news to commute paths and travel windows, alerting users when a story could affect their train line, airport, neighborhood, or delivery route.",
+    "Neighborhood Impact Cards translate broad policy, economic, and civic stories into plain-language local implications, which helps users understand how national news lands in their own ZIP code.",
+    "Read-Later Reshaping saves long-form journalism and resurfaces it when the user has the right time, mood, and available minutes, improving completion and reducing abandoned reads."
+  ],
+  "audience": "Busy adults aged 24-55 who want to stay informed without doomscrolling, especially urban professionals, commuters, parents, and civic-minded readers. It also appeals to local-news readers who care more about practical impact than endless headline volume.",
+  "category": "magazines & newspapers",
+  "useCases": [
+    "Sarah just finished a stressful meeting and checks Marginalia while waiting for her train. The app surfaces a city transit story because her usual line has delays tonight, along with a quick summary of alternate routes.",
+    "Marcus is a parent with three school-age kids and only ten minutes before pickup. He opens the app and sees a school-board article rewritten with his district\u2019s context, so he understands whether a policy change affects his child\u2019s bus schedule.",
+    "Amina is packing for a work trip and wants to catch up on current affairs without wasting time. Marginalia bundles travel, weather, and business headlines into one digest and highlights only the stories that could affect her flight, meetings, or destination city."
+  ]
+}
