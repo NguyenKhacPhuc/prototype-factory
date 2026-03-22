@@ -1,0 +1,14 @@
+{
+  "appName": "GatePatch",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#FF5533",
+    "secondary": "#00D4AA",
+    "background": "#08090F",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

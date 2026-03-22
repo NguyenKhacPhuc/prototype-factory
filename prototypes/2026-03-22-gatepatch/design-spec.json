@@ -1,0 +1,18 @@
+{
+  "appName": "GatePatch",
+  "tagline": "Fix travel chaos before it ruins the trip.",
+  "designSystem": {
+    "primaryColor": "#FF5533",
+    "secondaryColor": "#00D4AA",
+    "backgroundColor": "#08090F",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first travel copilot UI with high-contrast disruption cards, left-border severity indicators, impact cascade panels, and a teal/orange dual-accent system that communicates problems (orange) and solutions (teal). Timeline-based plan view with animated active state pulses. Clean pill chips and expandable alert cards with micro-interactions."
+  },
+  "screens": [
+    "Home — Active trip card with flight delay badge, boarding countdown, gate info, micro-tip panel, and ranked disruption list",
+    "Alerts — Full disruption list ranked by schedule impact with expandable impact cascade and recovery action options",
+    "Plan — Day-selector timeline view with rebuilt itinerary, micro-plan chips, and warning states for strike/weather items",
+    "Nearby — Categorized service finder with search, filter chips, distance, rating, and price tags for airport services",
+    "Settings — Profile card, dark/light theme toggle, alert toggles, travel priority sliders, and account management rows"
+  ]
+}

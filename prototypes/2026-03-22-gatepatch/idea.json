@@ -1,0 +1,19 @@
+{
+  "name": "GatePatch",
+  "tagline": "Fix travel chaos before it ruins the trip.",
+  "description": "GatePatch is a travel copilot that watches your itinerary, local transit, airport conditions, hotel policies, and live disruption signals to help you recover from the small disasters that usually derail a trip. Instead of only alerting you that a flight is delayed, it tells you the practical next move: whether to rebook, which alternate route to take, where to store luggage, and how to compress the rest of your day so you still make the concert, meeting, or dinner reservation. It solves the real problem that travelers rarely need more information\u2014they need fast, confident decisions under pressure. In daily life, the app can reroute a commuter heading to a business trip after a train strike, find a cheaper same-day bag drop near a museum, or build a revised 4-hour city plan when a weather alert cancels an outdoor tour. What makes it unique is its \u201cimpact-first\u201d approach: it ranks disruptions by what they affect in your actual schedule, not by severity alone. It also generates micro-plans that fit the exact time you have left, like \u201cYou still have 42 minutes before boarding, so go to Gate C8, fill water, and grab food from the nearest 8-minute line.\u201d Unlike generic travel planners, GatePatch is built for real-world recovery, not just itinerary organization.",
+  "features": [
+    "It continuously scans bookings, weather, transit, and venue changes to detect disruptions before they become a full travel headache.",
+    "It converts each problem into a ranked action plan, showing the fastest and cheapest recovery path based on your time, budget, and location.",
+    "It rebuilds your remaining day into a realistic micro-itinerary after delays, so you can still fit in meals, meetings, and must-see stops.",
+    "It suggests nearby services like luggage storage, quiet workspaces, late-night pharmacies, and alternate pickup spots when plans collapse.",
+    "It learns your travel style and priorities over time, so its recommendations get better at protecting the things you care about most."
+  ],
+  "audience": "Frequent flyers, business travelers, weekend city-break tourists, and remote workers aged 22-55 who often juggle tight schedules, connections, and reservations. It is especially useful for people traveling through unfamiliar cities or airports where a small delay can cascade into missed plans.",
+  "category": "travel",
+  "useCases": [
+    "Sarah just finished a stressful meeting and sees her return flight delayed by 90 minutes. She opens GatePatch to find the best rebook option, a quiet lounge nearby, and whether she can still make her airport dinner reservation.",
+    "Andre lands in a new city after midnight and his train to the hotel is cancelled. He uses the app to compare the fastest backup route, book a luggage storage spot for the next morning, and find an all-night pharmacy near his stop.",
+    "Maya is on a weekend trip and a sudden storm cancels her outdoor walking tour. She opens GatePatch to turn the rest of the afternoon into a weather-safe plan with indoor museums, a coffee stop, and a timed route that still gets her back for sunset cocktails."
+  ]
+}
