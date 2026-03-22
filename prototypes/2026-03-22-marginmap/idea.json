@@ -1,0 +1,19 @@
+{
+  "name": "MarginMap",
+  "tagline": "Books that answer real life",
+  "description": "MarginMap turns the books you own into a searchable, practical knowledge base tied to your everyday problems. Instead of simply highlighting passages, users tag insights by situation, such as \"job interview,\" \"parenting meltdown,\" or \"budget crisis,\" and the app automatically connects them to relevant notes, quotes, and book chapters. It solves the common problem of forgetting valuable ideas buried in books when you need them most, making reference material genuinely usable in the moment. For example, a user preparing for a difficult conversation can instantly pull together advice from psychology, negotiation, and memoir titles they already own. A student studying for exams can create topic-based maps from multiple textbooks and review only the passages that matter. What makes MarginMap unique is that it focuses on context-first retrieval, helping users find the right idea for the exact life situation they are facing rather than forcing them to remember the book or page number.",
+  "features": [
+    "The app lets users clip passages into situational folders like 'first day at work' or 'sleep training,' so important ideas are organized around real needs instead of book titles.",
+    "Smart search finds quotes and notes by problem, emotion, or goal, which makes it faster to rediscover advice when users are stressed or in a hurry.",
+    "A cross-book mapping tool links similar ideas from different texts, helping users see patterns across authors and build a stronger personal reference library.",
+    "Daily prompts suggest overlooked notes based on upcoming calendar events or routines, so the app resurfaces useful knowledge before it is needed.",
+    "An offline reference mode stores key excerpts locally, allowing users to access critical passages anywhere, including flights, commutes, or places with weak signal."
+  ],
+  "audience": "Students, avid readers, knowledge workers, parents, and lifelong learners aged roughly 16 to 45 who regularly read nonfiction, self-help, or instructional books. It is especially useful for people who want to turn reading into practical action rather than just passive consumption.",
+  "category": "books & reference",
+  "useCases": [
+    "Maya just got promoted and wants to prepare for her first hard performance review. She opens MarginMap to pull together every note she tagged under 'feedback,' 'confidence,' and 'management' from three leadership books she read last year.",
+    "Jonah is sitting in a pediatric waiting room and suddenly remembers a parenting technique he once read but cannot recall the source. He searches by 'calm toddler meltdown' and instantly finds the exact passages he saved from two child development books.",
+    "Elena is studying for a licensing exam and needs a faster way to review. She uses the app to gather all her highlighted definitions and comparison charts into one topic map, then revises only the concepts she keeps missing."
+  ]
+}

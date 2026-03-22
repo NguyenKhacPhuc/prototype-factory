@@ -1,0 +1,12 @@
+{
+  "appName": "MarginMap",
+  "tagline": "Books that answer real life",
+  "designSystem": {
+    "primaryColor": "#00E5A0",
+    "secondaryColor": "#7C6FFF",
+    "backgroundColor": "#0D0F14",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first minimal with vibrant teal accent, glassmorphic cards, situational tag system, and cross-book knowledge graph visualization"
+  },
+  "screens": ["home", "search", "library", "map", "settings"]
+}
