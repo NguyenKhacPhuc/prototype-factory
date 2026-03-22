@@ -1,0 +1,19 @@
+{
+  "name": "Echo Atlas",
+  "tagline": "Find music by how your world feels.",
+  "description": "Echo Atlas is a music discovery app that recommends songs based on your real-world context, not just your listening history. It combines location, time, weather, calendar pressure, and brief mood check-ins to suggest tracks that fit the moment, like a calm instrumental set for a packed commute or high-energy Latin pop before a workout. The app solves a common problem: people often know the feeling they want from music, but not the exact song, playlist, or genre to search for. In daily life, it helps users move through different emotional states more smoothly by turning vague needs into precise soundtracks, such as easing anxiety after a tough call, focusing during a study session, or resetting after a noisy train ride. Its unique value is that it treats music as situational support instead of static preferences, so the recommendations adapt as life changes throughout the day. Unlike standard streaming services that rely mostly on past plays and broad recommendations, Echo Atlas builds a living map of sound that matches the moment you're in.",
+  "features": [
+    "The app reads optional context signals like weather, location type, calendar stress, and time of day to generate music suggestions that feel emotionally relevant.",
+    "A one-tap mood compass lets users choose feelings such as tense, foggy, or celebratory, and the app instantly tunes recommendations to that state.",
+    "The app creates short situational mixes for everyday moments like commute, deep work, workout, or decompression, which makes it easier to press play without browsing for ages.",
+    "It offers a post-listen feedback loop that learns which contexts actually worked, improving future suggestions and reducing irrelevant recommendations.",
+    "The app can build transition playlists, such as a five-minute bridge from work mode to home mode, which helps users shift mental states more deliberately."
+  ],
+  "audience": "Young adults and working professionals aged 18-40 who use music to regulate focus, mood, and energy throughout busy days. It is especially useful for commuters, remote workers, students, and people who want more intentional listening without spending time curating playlists.",
+  "category": "music",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to calm down before she picks up her kids, so she opens the app and gets a 7-minute decompression mix that gradually lowers intensity. The app notices her calendar is packed and suggests gentle ambient tracks instead of her usual upbeat favorites.",
+    "Marcus is walking into the office on a rainy Monday morning and feels sluggish, so he taps \u201cfoggy\u201d and gets a crisp, high-tempo playlist designed to sharpen attention. He uses it again every time bad weather and low energy threaten his focus.",
+    "Leah is at the gym but feels unmotivated halfway through her session, so she switches the app to \u201cpush through\u201d mode and it builds a stronger, escalating workout set. The mix adapts in real time, helping her finish with energy instead of abandoning the session early."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "appName": "Echo Atlas",
+  "tagline": "Find music by how your world feels.",
+  "designSystem": {
+    "primaryColor": "#A855F7",
+    "secondaryColor": "#22D3EE",
+    "backgroundColor": "#08080F",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark glassmorphic with vibrant purple accent gradients, pill tags, and context-aware card layouts. Micro-interactions on mood chips and play buttons. Energy bar visualizations and timeline-based atlas view."
+  },
+  "screens": ["home", "discover", "mixes", "atlas", "profile"]
+}
