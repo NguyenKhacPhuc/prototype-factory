@@ -1,0 +1,19 @@
+{
+  "name": "Pocket Ritual",
+  "tagline": "Turn tiny moments into better days.",
+  "description": "Pocket Ritual is a micro-life design app that helps people build calming, energizing, and meaningful routines around the scattered moments already inside their day. Instead of asking users to commit to long habits or rigid schedules, it detects small openings like the five minutes before a commute, the pause after lunch, or the quiet reset after work, then suggests a fitting ritual such as a breathing check-in, a stretch sequence, a gratitude prompt, or a quick home reset. It solves the real problem of wanting a better lifestyle without having the time, mental bandwidth, or consistency to maintain traditional habit apps. Users can map rituals to specific situations like stress, fatigue, clutter, loneliness, or indecision, so the app feels practical in daily life rather than motivational in the abstract. For example, it might guide a parent through a three-step evening transition ritual before picking up kids, or help a remote worker create a six-minute desk reset after back-to-back calls. What makes it unique is that it treats life as a series of repeatable moments instead of goals, making small interventions feel natural, personalized, and easier to stick with than standard wellness or productivity apps.",
+  "features": [
+    "Context-based ritual matching suggests the best short routine based on the user's current situation, location, time window, and mood, which makes the app feel immediately relevant instead of generic.",
+    "Ritual templates offer tiny guided actions like a two-minute room reset, a pre-social confidence boost, or a post-argument cooldown, helping users respond to everyday friction with intention.",
+    "Moment logging lets users quickly tag real-life triggers such as 'after meetings' or 'Sunday dread' and attach a custom ritual, so the app learns their personal patterns over time.",
+    "One-tap execution mode keeps each ritual focused and low-friction with simple prompts, timers, and audio cues, which matters because most people abandon routines that feel too complicated.",
+    "Ritual streaks and reflection summaries show which small practices improved mood, energy, or calm, helping users see real lifestyle change without turning the app into a guilt-driven tracker."
+  ],
+  "audience": "Busy adults ages 22-45 who want a calmer, more intentional daily life but struggle to maintain traditional wellness habits. It is especially useful for remote workers, caregivers, commuters, and anyone whose day changes constantly and needs flexible, tiny interventions.",
+  "category": "lifestyle",
+  "useCases": [
+    "Maya just finished a stressful meeting and wants to avoid carrying that tension into her afternoon. She opens Pocket Ritual, taps 'post-meeting reset,' and follows a three-minute breathing and note-clearing ritual before her next call.",
+    "Jordan gets home from work feeling drained and keeps doom-scrolling instead of resting well. He uses the app to launch a 'transition ritual' that pairs a quick snack, a clothes change, and a five-minute kitchen tidy so his evening feels intentional.",
+    "Leah is about to go to a social gathering and feels unusually nervous. She opens the app for a pre-social confidence ritual, gets a short grounding sequence, and steps out feeling more centered and prepared."
+  ]
+}

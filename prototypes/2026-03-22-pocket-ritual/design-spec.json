@@ -1,0 +1,12 @@
+{
+  "appName": "Pocket Ritual",
+  "tagline": "Turn tiny moments into better days.",
+  "designSystem": {
+    "primaryColor": "#7C5CFC",
+    "secondaryColor": "#C471ED",
+    "backgroundColor": "#F5F2FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern wellness app with vibrant violet-purple gradient branding, soft card-based layouts, rounded corners, micro-interaction button feedback, and a dual light/dark theme. Uses gradient hero sections, emoji-accented ritual cards, and bottom-sheet modals for an approachable yet polished feel."
+  },
+  "screens": ["home", "explore", "rituals", "progress", "settings"]
+}

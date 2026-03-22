@@ -1,0 +1,36 @@
+{
+  "appName": "Pocket Ritual",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C5CFC",
+    "secondary": "#C471ED",
+    "background": "#F5F2FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-right",
+    "battery",
+    "bell",
+    "check-circle",
+    "chevron-right",
+    "clock",
+    "compass",
+    "download",
+    "home",
+    "moon",
+    "pause",
+    "play",
+    "plus",
+    "search",
+    "settings",
+    "smartphone",
+    "sparkles",
+    "sun",
+    "target",
+    "wifi",
+    "x"
+  ],
+  "fonts": [],
+  "iconCount": 21,
+  "fontFileCount": 0
+}
