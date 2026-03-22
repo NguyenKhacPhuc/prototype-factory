@@ -1,0 +1,19 @@
+{
+  "name": "NeedSwap",
+  "tagline": "Shop only what you can actually use.",
+  "description": "NeedSwap is a shopping app that helps people buy smarter by turning vague wants into precise, situational needs before they spend. Instead of browsing endless product lists, users start with a real-life moment, like \"I have one weekend to fix a leaky bathroom\" or \"I need shoes for a two-week business trip,\" and the app builds a needs-based shopping plan. It compares product options through the lens of durability, frequency of use, size constraints, return risk, and hidden ownership costs, so users can avoid impulse buys and mismatched purchases. The app also learns from household habits, past purchases, and upcoming calendar events to suggest what is truly worth buying now versus borrowing, delaying, or buying used. For example, if someone is preparing for a beach vacation, NeedSwap can recommend a compact sunscreen size, a sand-friendly tote, and a cheaper portable charger that fits a carry-on, rather than generic travel gear. What makes it unique is that it does not start with products; it starts with the problem, making shopping feel like practical decision-making instead of endless scrolling.",
+  "features": [
+    "The app turns a user\u2019s real-life situation into a structured shopping brief, which helps clarify exactly what needs to be bought and prevents vague, wasteful browsing.",
+    "It ranks items by fit-for-purpose factors like durability, portability, frequency of use, and total cost of ownership, so users can choose products that actually match their lifestyle.",
+    "It flags alternatives such as borrowing, renting, repairing, or buying used when those options make more sense, saving money and reducing unnecessary purchases.",
+    "It creates micro-shopping lists for specific events, trips, or home projects, making it easy to shop efficiently for concrete scenarios like a weekend camping trip or a first apartment.",
+    "It tracks past buying mistakes and successful purchases to refine future recommendations, which matters because the app gets more useful as it learns what each user really needs."
+  ],
+  "audience": "Adults aged 22-45 who are busy, budget-conscious, or trying to reduce clutter, especially urban professionals, young families, and frequent planners. It is especially useful for people who make many practical purchases for travel, home maintenance, work, or daily life.",
+  "category": "shopping",
+  "useCases": [
+    "Maya just got invited to a last-minute wedding and needs to shop fast without buying something she will never wear again. She opens NeedSwap, enters the dress code and weather, and gets a short list of versatile outfit options plus accessories she can reuse later.",
+    "Jordan moved into his first apartment and realizes he does not need to buy every kitchen item at once. He uses the app to prioritize the few essentials he will actually use weekly, then postpones low-value purchases like specialty gadgets.",
+    "Elena is planning a three-day work trip and wants to pack light while avoiding inconvenient airport purchases. She uses NeedSwap to build a travel-specific shopping plan that recommends compact toiletries, a multi-use bag, and charging accessories that fit her itinerary."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "appName": "NeedSwap",
+  "tagline": "Shop only what you can actually use.",
+  "designSystem": {
+    "primaryColor": "#00C9A7",
+    "secondaryColor": "#6C63FF",
+    "backgroundColor": "#080C14",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first mobile app with vibrant teal/indigo accent palette, glassmorphic card surfaces, pill badges, progress bars, and gradient CTAs. Clean information hierarchy with subtle border treatments and micro-interactions."
+  },
+  "screens": [
+    "Home — Dashboard with active briefs, savings stats, upcoming events strip, and a gradient New Brief CTA",
+    "Brief Builder — 3-step guided flow: scenario picker → refinement form → AI-generated smart brief with ranked item recommendations and save/borrow/rent/wait badges",
+    "My Lists — Browsable shopping lists per scenario with checkable items, fit-for-purpose scores, durability/frequency metadata, and action badges",
+    "Insights — Savings trends chart, category breakdown bars, past-mistake tracker, smart behavioral tips, and light/dark theme toggle"
+  ]
+}

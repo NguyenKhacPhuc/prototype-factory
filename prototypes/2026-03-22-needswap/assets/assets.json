@@ -1,0 +1,38 @@
+{
+  "appName": "NeedSwap",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#00C9A7",
+    "secondary": "#6C63FF",
+    "background": "#080C14",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "arrow-left",
+    "arrow-right",
+    "battery-full",
+    "calendar",
+    "check",
+    "chevron-right",
+    "clock",
+    "filter",
+    "home",
+    "list",
+    "moon",
+    "package",
+    "plus-circle",
+    "refresh-ccw",
+    "shield",
+    "signal",
+    "sparkles",
+    "sun",
+    "trending-down",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 23,
+  "fontFileCount": 0
+}
