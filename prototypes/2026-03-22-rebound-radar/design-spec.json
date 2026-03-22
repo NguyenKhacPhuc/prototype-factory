@@ -1,0 +1,17 @@
+{
+  "appName": "Rebound Radar",
+  "tagline": "Find the perfect pickup game nearby.",
+  "designSystem": {
+    "primaryColor": "#FF5C1A",
+    "secondaryColor": "#3B82F6",
+    "backgroundColor": "#FFF7F0",
+    "fontFamily": "Outfit",
+    "style": "Energetic sports app with warm orange-coral brand color, clean card-based layout, vibrant match score indicators, and micro-interactions throughout. Features a dynamic map preview, sport/skill filters, and a bottom nav with a prominent Post floating action button."
+  },
+  "screens": [
+    "Discover - nearby games map + filtered list with match fit scores",
+    "Board - my games, alerts, and saved games tabs",
+    "Post Game - sport selector, intensity/vibe picker, slot counter, and location",
+    "Profile - stats, preferences, settings with theme toggle, and fit history"
+  ]
+}

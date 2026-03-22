@@ -1,0 +1,25 @@
+{
+  "appName": "Rebound Radar",
+  "fontFamily": "Outfit",
+  "colors": {
+    "primary": "#FF5C1A",
+    "secondary": "#3B82F6",
+    "background": "#FFF7F0",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "layout-grid",
+    "map-pin",
+    "moon",
+    "plus-circle",
+    "settings",
+    "sun",
+    "user",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 10,
+  "fontFileCount": 0
+}

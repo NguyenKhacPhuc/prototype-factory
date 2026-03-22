@@ -1,0 +1,19 @@
+{
+  "name": "Rebound Radar",
+  "tagline": "Find the perfect pickup game nearby.",
+  "description": "Rebound Radar helps sports players find or create the right casual game at the right moment, based on skill level, pace, court conditions, and the kind of game they actually want to play. Instead of dumping users into generic group chats or full courts, it matches people to nearby micro-games like a 30-minute half-court basketball run, a competitive soccer scrimmage, or a beginner-friendly tennis hitting session. The app solves the common problem of wasted time: showing up to crowded parks with no plan, joining games that are too intense, or struggling to recruit enough players at the last minute. It fits into daily life by turning idle windows, lunch breaks, and spontaneous free evenings into reliable sports time, with push alerts for nearby openings and quick join buttons. A player can see that a fast-paced 3v3 basketball game is starting 12 minutes away and join instantly, or post an empty spot in a Sunday softball game and have substitutes filtered by position and level. What makes it unique is that it uses game quality, not just location, as the matching engine, so users can avoid mismatched pickups and find sessions that feel genuinely worth leaving the house for. It also learns preferences like preferred intensity, travel radius, and weather tolerance to predict which games each user will actually enjoy.",
+  "features": [
+    "The app matches users to live games by skill, pace, and format so they do not waste time joining sessions that feel mismatched or unfun.",
+    "A smart availability board shows open slots, missing positions, and start times so users can quickly see where they are needed most.",
+    "Location and weather-aware alerts notify players when a nearby game is forming, which helps them turn short free windows into usable play time.",
+    "Built-in game descriptions let organizers specify rules, intensity, and vibe, so a user can choose between a laid-back practice session and a competitive run.",
+    "After each game, the app remembers preferences and rates game fit, which gradually improves future recommendations and makes the app more useful over time."
+  ],
+  "audience": "Adults and older teens ages 16-40 who play recreational team or court sports and want flexible, low-friction ways to get into games. It is especially useful for city dwellers, commuters, college students, and weekend athletes who have limited time and inconsistent access to organized leagues.",
+  "category": "sports",
+  "useCases": [
+    "Sarah just finished a stressful meeting and has two free hours before dinner, so she opens the app to find a nearby basketball run that starts soon and matches her intermediate skill level. Instead of scrolling through group chats, she joins a 4v4 game with one tap and heads straight to the court.",
+    "Devin\u2019s Saturday soccer scrimmage is missing two players, and he needs dependable replacements who can handle a fast pace. He posts the openings with the match intensity set to competitive, and the app suggests local players who prefer exactly that style.",
+    "Maya is new to tennis and wants practice without the pressure of league play, so she searches for beginner-friendly hitting partners within her neighborhood. The app shows a short session on a public court with notes about relaxed drilling, helping her build confidence and consistency."
+  ]
+}
