@@ -1,0 +1,39 @@
+{
+  "appName": "SkillSnap",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#00E5CC",
+    "secondary": "#8B5CF6",
+    "background": "#06090F",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-right",
+    "battery",
+    "bell",
+    "book-open",
+    "brain",
+    "camera",
+    "check",
+    "chevron-right",
+    "flame",
+    "globe",
+    "help-circle",
+    "home",
+    "log-out",
+    "map",
+    "moon",
+    "shield",
+    "signal",
+    "sun",
+    "target",
+    "trophy",
+    "user",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 24,
+  "fontFileCount": 0
+}

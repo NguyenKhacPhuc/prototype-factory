@@ -1,0 +1,17 @@
+{
+  "appName": "SkillSnap",
+  "tagline": "Learn from the things around you",
+  "designSystem": {
+    "primaryColor": "#00E5CC",
+    "secondaryColor": "#8B5CF6",
+    "backgroundColor": "#06090F",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first glassmorphic card UI with electric cyan-teal primary accent and violet secondary. Deep navy backgrounds with subtle grid overlays on the camera screen. Rounded card components with fine border strokes. Vibrant gradient CTAs and pill-shaped category tags. Clean typographic hierarchy with heavy 800-weight headings."
+  },
+  "screens": [
+    "home",
+    "scan",
+    "map",
+    "profile"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "SkillSnap",
+  "tagline": "Learn from the things around you",
+  "description": "SkillSnap turns everyday objects, tasks, and moments into micro-lessons by using your camera and context to identify what you are looking at and teach the related concept instantly. It solves the common problem of learning being disconnected from real life, where people forget abstract lessons because they never see how they apply at the exact moment they matter. When a user points their phone at a bicycle chain, a restaurant receipt, a street sign, or a plant, the app explains the practical knowledge behind it in short, usable bursts tailored to the user\u2019s current level. It helps in daily life by teaching skills right when they are needed, such as understanding compound interest while scanning a loan offer, learning basic nutrition while grocery shopping, or grasping workplace jargon while reading an email. One unique example is a warehouse worker scanning a pallet label and getting a 90-second lesson on inventory codes and safety terms before starting a shift. Another is a traveler pointing at a transit map and receiving a quick explanation of route symbols and local etiquette. Unlike typical education apps that rely on scheduled courses or generic flashcards, SkillSnap learns from the real-world environment and delivers context-aware lessons that feel immediately useful and memorable.",
+  "features": [
+    "Contextual camera recognition identifies objects, documents, and scenes, then generates a lesson tied to what the user is seeing so learning happens at the exact point of confusion or curiosity.",
+    "Adaptive bite-sized explanations adjust in depth based on the user\u2019s age, prior knowledge, and time available, which keeps the experience practical instead of overwhelming.",
+    "Real-world skill modes focus on situations like shopping, commuting, parenting, workplace onboarding, and basic home repairs, helping users learn the knowledge they actually need day to day.",
+    "Interactive follow-up prompts ask the user to make a tiny decision or answer a quick question, which reinforces retention and turns passive reading into active learning.",
+    "A personal learning map stores every scanned topic into themed pathways, so a user who keeps scanning recipes, receipts, and labels can gradually build financial literacy or health knowledge over time."
+  ],
+  "audience": "Teenagers, college students, young professionals, and adult learners who prefer practical learning over traditional lessons will get the most value from this app. It is especially useful for busy people in urban environments, workers entering new jobs, immigrants learning a new system, and parents teaching themselves on the go.",
+  "category": "education",
+  "useCases": [
+    "Maria is shopping for her first apartment and scans rental listings, utility statements, and appliance manuals to understand the terms without needing to stop and research each one separately.",
+    "Jamal just started a job in a distribution center and uses the app to scan labels, equipment signs, and safety posters so he can learn the terminology and rules during his breaks.",
+    "Elena is preparing dinner and scans ingredients, spice jars, and a recipe card to quickly learn cooking techniques, substitutions, and measurements while she is already in the kitchen."
+  ]
+}
