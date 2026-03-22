@@ -1,0 +1,36 @@
+{
+  "appName": "RallyMap",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#FF5C28",
+    "secondary": "#00D4AA",
+    "background": "#07090F",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "activity",
+    "battery",
+    "bell",
+    "chevron-right",
+    "clock",
+    "filter",
+    "map-pin",
+    "moon",
+    "navigation",
+    "search",
+    "settings",
+    "star",
+    "sun",
+    "target",
+    "trending-up",
+    "trophy",
+    "user",
+    "users",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 21,
+  "fontFileCount": 0
+}

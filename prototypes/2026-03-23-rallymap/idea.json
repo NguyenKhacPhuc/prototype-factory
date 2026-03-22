@@ -1,0 +1,19 @@
+{
+  "name": "RallyMap",
+  "tagline": "Find the right game, right now.",
+  "description": "RallyMap helps people find spontaneous, skill-matched pickup sports games happening nearby in real time, while solving the common problem of showing up to overcrowded courts, mismatched skill levels, or dead gym sessions. The app combines live player check-ins, venue occupancy signals, and an AI-powered skill matcher to recommend games where a user is actually likely to fit in and enjoy the competition. It is designed for busy adults who want to stay active without spending time organizing teams, texting group chats, or gambling on whether a local court will be usable. For example, a beginner basketball player can open the app after work and instantly see a half-full court with other novices, while an experienced tennis player can filter for competitive singles matches happening within the next hour. RallyMap is unique because it focuses on real-time game quality, not just location, using social signals and predictive fill rates to reduce wasted trips and awkward mismatches. It also helps users build routine by suggesting the most reliable windows for their preferred sport based on their past attendance and local crowd patterns.",
+  "features": [
+    "Live court and field status updates show whether a venue is empty, crowded, or mid-game, so users avoid wasted trips.",
+    "Skill matching pairs players with others at a similar level, making pickup games more enjoyable and less frustrating.",
+    "Predictive game timing estimates when a court is likely to open up or fill in, helping users time their arrival better.",
+    "One-tap join and RSVP tools let users signal interest instantly, which makes it easier to form balanced games without long group chats.",
+    "Personal activity patterns learn which sports, times, and venues a user prefers, then recommend the best recurring opportunities nearby."
+  ],
+  "audience": "Urban and suburban adults ages 18 to 40 who play recreational sports before work, after work, or on weekends. It is especially useful for newcomers to a city, solo players, and people who want flexible exercise without committing to a league.",
+  "category": "sports",
+  "useCases": [
+    "Marcus just got off a late shift and wants a quick basketball run, so he opens the app to find a nearby court with four players already checked in and a similar skill range.",
+    "Priya moved to a new city and does not know anyone at the local tennis clubs, so she uses the app to join a same-night doubles session instead of waiting weeks for a league to start.",
+    "Jamal wants to practice soccer but hates arriving to packed fields, so he checks live occupancy and chooses a field that is predicted to clear in 20 minutes."
+  ]
+}

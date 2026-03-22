@@ -1,0 +1,12 @@
+{
+  "appName": "RallyMap",
+  "tagline": "Find the right game, right now.",
+  "designSystem": {
+    "primaryColor": "#FF5C28",
+    "secondaryColor": "#00D4AA",
+    "backgroundColor": "#07090F",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first sports tech UI with vibrant orange-coral accent, teal secondary, navy surfaces, and clean card-based layout with left-border sport color indicators"
+  },
+  "screens": ["home", "discover", "activity", "profile"]
+}
