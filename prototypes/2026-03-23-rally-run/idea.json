@@ -1,0 +1,19 @@
+{
+  "name": "Rally Run",
+  "tagline": "Turn any open space into a tactical sport game.",
+  "description": "Rally Run is an augmented-reality sports game that transforms parks, campuses, and empty courts into fast-paced skill challenges based on real-world movement. It solves a common problem for people who want to play sports casually but don't have enough players, a full field, or structured practice time. The app creates short, location-aware missions such as precision sprints, reaction drills, passing routes, and target zones that can be played solo or with nearby friends in under 15 minutes. For example, a commuter can turn a lunch break into a passing challenge in a plaza, while a weekend runner can compete against their own best route times and accuracy scores. Unlike typical fitness apps that only track steps or heart rate, Rally Run feels like a game first and a workout second, with dynamic objectives that adapt to the space around you. It also helps users build sport-specific agility, coordination, and decision-making without needing a coach or full team. The uniqueness comes from combining tactical game design, real-time map generation, and sports skill progression into one mobile experience.",
+  "features": [
+    "The app scans the user's surroundings and generates playable sports missions that fit the available space, so players can start quickly without needing a dedicated field.",
+    "It offers solo and multiplayer challenge modes that let friends compete asynchronously or live, making it easy to play even when schedules do not match.",
+    "A skill engine tracks precision, speed, balance, and reaction time to give users meaningful feedback that improves both game performance and real athletic ability.",
+    "Custom mission types, such as cone-dash sprints, moving-target passes, and reaction pivot drills, keep each session fresh and tied to recognizable sports movements.",
+    "Location-based progress maps and seasonal leagues motivate users to return often by showing improvement across favorite routes and neighborhood play zones."
+  ],
+  "audience": "Teens, college students, and young adults aged 13-30 who enjoy sports, mobile games, and active outdoor experiences. It especially fits urban users, casual athletes, and social players looking for short bursts of competitive fun.",
+  "category": "game: sports",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to clear her head without going to the gym, so she opens Rally Run and plays a 12-minute agility challenge in the nearby park.",
+    "Jamal and two friends are hanging out after class and want something more exciting than scrolling on their phones, so they launch a multiplayer passing route game using the open basketball court.",
+    "Mina is training for her school's soccer tryouts and wants to sharpen reaction time on her own, so she uses Rally Run to practice timed sprints and target turns around her apartment complex."
+  ]
+}

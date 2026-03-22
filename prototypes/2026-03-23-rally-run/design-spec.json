@@ -1,0 +1,12 @@
+{
+  "appName": "Rally Run",
+  "tagline": "Turn any open space into a tactical sport game.",
+  "designSystem": {
+    "primaryColor": "#4F46E5",
+    "secondaryColor": "#06B6D4",
+    "backgroundColor": "#F0F4FF",
+    "fontFamily": "Space Grotesk",
+    "style": "Modern glassmorphic sports app with vibrant indigo-cyan gradient accents, clean card-based layout, and dynamic AR-inspired UI elements"
+  },
+  "screens": ["home", "explore", "play", "progress", "profile"]
+}

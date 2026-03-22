@@ -1,0 +1,36 @@
+{
+  "appName": "Rally Run",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#4F46E5",
+    "secondary": "#06B6D4",
+    "background": "#F0F4FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "activity",
+    "battery",
+    "bell",
+    "camera",
+    "check-circle",
+    "chevron-right",
+    "download",
+    "lock",
+    "map",
+    "map-pin",
+    "moon",
+    "navigation",
+    "play",
+    "scan-line",
+    "signal",
+    "sun",
+    "trophy",
+    "user",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 21,
+  "fontFileCount": 0
+}
