@@ -1,0 +1,19 @@
+{
+  "name": "QuietPath",
+  "tagline": "Navigate by calm, not just speed.",
+  "description": "QuietPath is a navigation app that helps people choose routes based on sensory comfort, not only distance or arrival time. It solves a common but overlooked problem: many routes that are technically efficient are exhausting because they pass through loud intersections, cramped sidewalks, chaotic transit hubs, or overstimulating neighborhoods. The app builds a personalized \"comfort map\" using real-time traffic, crowd density, construction, noise estimates, lighting conditions, and user feedback to guide people through calmer streets. It fits into daily life by helping commuters, neurodivergent users, parents with sleeping children, older adults, and anyone who simply wants a less stressful journey home or across town. For example, it can route someone away from a festival-blocked avenue, guide a stroller user toward smoother sidewalks, or suggest a safer, better-lit path after sunset. What makes QuietPath unique is that it scores routes by mental load and environmental ease, turning navigation into an accessibility and well-being tool rather than a race to the destination.",
+  "features": [
+    "The app generates routes with a Calm Score that combines noise, crowding, curb accessibility, lighting, and intersection complexity so users can choose the least stressful path.",
+    "It offers sensory-aware rerouting in real time when a street becomes too loud, too crowded, or unexpectedly blocked, which helps users avoid overload without stopping to replanning.",
+    "Users can set personal sensitivity profiles, such as low-noise, low-stimulus, stroller-friendly, or low-walking-drain, so every route matches their specific needs.",
+    "The app highlights calm landmarks like benches, quiet crosswalks, and low-traffic detours, which matters because small relief points can make long trips feel manageable.",
+    "A community feedback layer lets users flag newly stressful locations, helping the map stay accurate for situations that traditional navigation apps miss."
+  ],
+  "audience": "Urban commuters, neurodivergent adults, caregivers with young children, older adults, and anyone living in dense cities who values a less overwhelming route. It is especially useful in places with heavy pedestrian traffic, frequent construction, or inconsistent sidewalk quality.",
+  "category": "navigation",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to walk to the train without crossing the loudest, busiest avenue downtown. She opens QuietPath to find a quieter block-by-block route with fewer crowds and calmer intersections.",
+    "Marcus is pushing a stroller through an unfamiliar neighborhood and needs a route with smoother sidewalks and fewer stairs. He uses the app to avoid steep curb cuts and construction zones that would slow him down.",
+    "Lina is heading home after sunset and feels uneasy in poorly lit areas. She opens QuietPath to choose a brighter, more open path even if it takes two extra minutes."
+  ]
+}

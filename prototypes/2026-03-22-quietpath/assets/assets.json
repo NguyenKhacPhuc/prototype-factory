@@ -1,0 +1,14 @@
+{
+  "appName": "QuietPath",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#2BB896",
+    "secondary": "#FF8C61",
+    "background": "#EDF2F0",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

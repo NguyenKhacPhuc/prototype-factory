@@ -1,0 +1,17 @@
+{
+  "appName": "QuietPath",
+  "tagline": "Navigate by calm, not just speed.",
+  "designSystem": {
+    "primaryColor": "#2BB896",
+    "secondaryColor": "#FF8C61",
+    "backgroundColor": "#EDF2F0",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Calm, nature-inspired minimalism with teal/mint accent palette, soft surface layering, and purposeful whitespace evoking clarity and ease"
+  },
+  "screens": [
+    "Navigate — Live map with calm route overlay, dynamic island navigation status, calm score ring, noise alert banner, and bottom route card with start/stop navigation",
+    "Routes — Route comparison cards with CalmScore rings, highlights, tags, turn-by-turn directions, and personalized profile banner",
+    "Community — Live community reports with filter tabs, confirm/navigate-around actions, report submission button, and weekly area stats",
+    "Profile — Sensitivity level selector, route preference toggles, appearance/theme switcher, and personal journey stats dashboard"
+  ]
+}
