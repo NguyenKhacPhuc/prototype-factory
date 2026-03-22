@@ -1,0 +1,19 @@
+{
+  "name": "PlotPocket",
+  "tagline": "Turn dead time into tiny stories.",
+  "description": "PlotPocket is an entertainment app that generates interactive micro-adventures tailored to the user\u2019s exact moment, mood, and available time. Instead of browsing endlessly for something to watch, users answer a few quick prompts like \"I have 7 minutes,\" \"I want funny,\" or \"I\u2019m on a crowded train,\" and the app creates a choose-your-own-story experience that fits that slot perfectly. It solves the real problem of entertainment friction: people often want a fun escape but not enough time, attention, or decision energy to commit to a full show, game, or podcast. In daily life, it helps during commutes, coffee breaks, waiting rooms, and winding down before bed by offering tiny but satisfying narrative hits. For example, someone can play a tense office-saboteur story while waiting for food delivery, or a surreal detective mystery while standing in line at the airport. What makes it unique is that each story adapts not just to genre, but to the user\u2019s context, mood, and pace, making every session feel handcrafted rather than algorithmically recommended. Unlike streaming platforms that ask you to choose from massive libraries, PlotPocket creates the entertainment on demand, turning spare moments into personalized mini escapism.",
+  "features": [
+    "The app builds short interactive stories in under a minute based on the user\u2019s available time, mood, and preferred intensity, so entertainment starts immediately instead of requiring search or setup.",
+    "It adapts story length to real-world interruptions by saving progress in tiny checkpoints, which matters because users can pause during a stoplight, elevator ride, or queue without losing the experience.",
+    "It offers scene-based choices that branch into different endings, giving users a sense of agency and replay value even in very short sessions.",
+    "It uses context-aware themes like commute, stress relief, or sleep mode to match stories to the moment, making the app feel more useful and emotionally relevant than generic content feeds.",
+    "It includes a \"plot remix\" feature that transforms the same premise into comedy, mystery, romance, or sci-fi, helping users revisit favorite scenarios without boredom."
+  ],
+  "audience": "Busy adults and students ages 16-40 who want fast, low-commitment entertainment during commutes, breaks, or downtime. It especially appeals to people who enjoy stories and games but rarely have uninterrupted time for long-form content.",
+  "category": "entertainment",
+  "useCases": [
+    "Maya just got on a 12-minute train ride and wants something more engaging than scrolling social media, so she opens PlotPocket and starts a quick noir mystery that she can finish before her stop.",
+    "Jordan has a stressful lunch break between meetings and needs a mental reset, so he chooses a comedic sci-fi plot that makes him laugh without requiring any planning or commitment.",
+    "Elena is lying in bed with five minutes before sleep and wants to unwind, so she launches a calm fantasy story that slowly fades into a soothing ending when her timer runs out."
+  ]
+}

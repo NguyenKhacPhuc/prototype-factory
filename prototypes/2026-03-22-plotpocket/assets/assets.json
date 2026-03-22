@@ -1,0 +1,20 @@
+{
+  "appName": "PlotPocket",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#6C3FF5",
+    "secondary": "#F0367A",
+    "background": "#F4F1FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "book-open",
+    "compass",
+    "home",
+    "library",
+    "user"
+  ],
+  "fonts": [],
+  "iconCount": 5,
+  "fontFileCount": 0
+}

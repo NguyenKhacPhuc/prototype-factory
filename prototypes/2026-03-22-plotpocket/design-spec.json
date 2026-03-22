@@ -1,0 +1,18 @@
+{
+  "appName": "PlotPocket",
+  "tagline": "Turn dead time into tiny stories.",
+  "designSystem": {
+    "primaryColor": "#6C3FF5",
+    "secondaryColor": "#F0367A",
+    "backgroundColor": "#F4F1FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern glassmorphic mobile UI with vibrant violet-to-pink gradient brand language, soft purple-tinted surfaces, pill-shaped interactive elements, and layered card hierarchy. Light and dark themes with animated micro-interactions and smooth scene transitions."
+  },
+  "screens": [
+    "home",
+    "discover",
+    "play",
+    "library",
+    "profile"
+  ]
+}
