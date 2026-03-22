@@ -1,0 +1,18 @@
+{
+  "appName": "Route Roast",
+  "tagline": "Simulate better commutes, daily.",
+  "designSystem": {
+    "primaryColor": "#F97316",
+    "secondaryColor": "#6366F1",
+    "backgroundColor": "#FDF4EC",
+    "fontFamily": "Space Grotesk",
+    "style": "Warm, gamified productivity app with an orange-indigo accent palette. Card-based layout with bold typography, metric bars, and simulation progress animations. Light mode uses a warm cream base (#FDF4EC) with crisp white cards. Dark mode uses deep navy-black (#0C0C18) with elevated surface cards. Micro-interactions on route selection and toggle events."
+  },
+  "screens": [
+    "Home — greeting, streak + savings banner, today's best route card, weekly bar chart, active disruptions",
+    "Simulate — route option cards with stress/reliability bars, life event chips, animated progress simulation, result score display",
+    "Events — 2-column grid of toggleable life event cards (rain, delays, school pickup, sick kid, etc.) with impact badges",
+    "Insights — 2x2 stat grid (time/money/stress/CO2), route performance bars, expandable smart recommendation cards",
+    "Settings — profile card, routine addresses, dark mode toggle, notification and priority preferences"
+  ]
+}

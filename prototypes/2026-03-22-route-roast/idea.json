@@ -1,0 +1,19 @@
+{
+  "name": "Route Roast",
+  "tagline": "Simulate better commutes, daily.",
+  "description": "Route Roast is a simulation game where players run a living model of their daily commute, errands, and transit choices to discover the cheapest, calmest, and most reliable way to get through the week. Users enter their real home, work, school, and appointment patterns, then the app generates a dynamic city simulation with traffic jams, train delays, weather, bike conditions, and unexpected life events that mirror their own routines. The problem it solves is decision fatigue around getting places on time while balancing cost, stress, and sustainability, especially for people juggling work, childcare, and irregular schedules. In daily life, it helps users test \"what if\" scenarios like leaving 20 minutes earlier, switching from driving to bus-plus-walk, combining errands into one trip, or adjusting daycare drop-off order. A user might simulate a rainy Tuesday after a late night to see whether driving, rideshare, or transit will be least stressful and most affordable. Another might compare three grocery-and-gym routes to find the one that saves 18 minutes without adding parking hassle. What makes Route Roast unique is that it turns personal logistics into a playful systems simulator, showing not just fastest routes but the hidden tradeoffs in time, money, energy, and reliability.",
+  "features": [
+    "The app builds a personalized city simulation from your real routine, so every commute and errand reflects your actual constraints instead of generic map results.",
+    "It runs parallel route experiments that compare time, cost, stress, and reliability, helping users choose the option that best fits their day rather than just the fastest one.",
+    "A \"life events\" engine injects realistic disruptions like rain, late trains, surprise meetings, or a sick child pickup, which matters because daily plans rarely go perfectly.",
+    "The app rewards smart planning with simulation outcomes and streaks, making it fun to iterate on routines and build better habits over time.",
+    "It generates practical weekly insights, such as when to leave earlier or batch errands, so users can save minutes, money, and mental energy in real life."
+  ],
+  "audience": "Busy adults ages 20-45, including commuters, parents, students, and shift workers who manage multiple time-sensitive stops each week. It is especially useful for urban and suburban users who regularly balance transit, driving, walking, and rideshare options.",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to figure out whether taking the train home or ordering a rideshare will get her to daycare before pickup fees kick in. She opens Route Roast to simulate both options with current delay risks and picks the calmer, cheaper path.",
+    "Marcus has a grocery run, a gym session, and a doctor appointment packed into one evening, and he wants to avoid wasting time hunting for parking twice. He uses the app to test several stop orders and finds a route that cuts 24 minutes and one parking lot detour.",
+    "Nina works variable shifts and needs a backup plan for days when the bus is unreliable or it starts raining hard. She opens Route Roast before leaving, runs a rainy-day simulation, and decides whether to leave early, take a different line, or bike partway instead."
+  ],
+  "category": "game: simulation"
+}
