@@ -1,0 +1,19 @@
+{
+  "name": "LoopLens",
+  "tagline": "See waste before you make it.",
+  "description": "LoopLens helps people make lower-waste choices in the exact moment they are about to buy, toss, or replace something. Using a phone camera, barcode scan, and local context, it recognizes common household items, packaging, and worn-out products, then suggests the best next action: repair, refill, reuse, donate, recycle, or avoid entirely. The app solves a frustrating real-world problem\u2014people often want to live more sustainably but don\u2019t know what option is actually best for a specific item in their city. In daily life, it works like a decision layer for everything from a cracked phone charger to a nearly empty detergent bottle, showing nearby repair kiosks, refill stations, secondhand drop-offs, and recycling rules that are specific to the user\u2019s neighborhood. A parent can scan a broken blender and instantly see whether a cheap replacement part exists, while a renter can point the camera at a yogurt tub and learn whether the lid and cup need to be separated before disposal. What makes LoopLens unique is that it doesn\u2019t just teach sustainability in theory; it turns environmental decisions into instant, location-aware actions at the moment of choice. Instead of generic \u201cgo green\u201d advice, it offers a practical path for each item based on local infrastructure, product lifespan, and waste impact.",
+  "features": [
+    "The camera-based item analyzer identifies products, packaging, and wear patterns so users can understand what they have and what to do with it next.",
+    "The local action engine recommends repair, refill, resale, donation, or recycling options based on the user's city, which matters because disposal rules and services vary widely.",
+    "The repair guidance layer surfaces likely fixes, compatible parts, and nearby makerspaces or technicians, helping users extend product life instead of replacing things too soon.",
+    "The refill and reuse map shows nearby stations and stores that support low-waste habits, making sustainable errands easier to fit into a normal routine.",
+    "The impact tracker shows how much waste, carbon, and money each decision saves over time, which helps users stay motivated by seeing real results."
+  ],
+  "audience": "Urban and suburban adults aged 18-45 who want practical sustainability help without spending time researching every purchase or disposal rule. It is especially useful for renters, young families, and busy professionals living in areas with uneven recycling systems and growing repair/refill options.",
+  "category": "sustainability",
+  "useCases": [
+    "Sarah just moved into a new apartment and is holding a pile of shipping boxes, plastic mailers, and mixed-material packaging she doesn\u2019t know how to sort. She opens LoopLens, scans each item, and gets a local breakdown of what can be recycled, reused for storage, or should go to specialized drop-off.",
+    "Diego\u2019s phone charger is fraying, and he is about to order a replacement. He uses LoopLens to check whether a repair is possible, finds a compatible cable end within three miles, and chooses to fix it instead of buying a whole new charger.",
+    "Mina finishes grocery shopping and wants to reduce household waste without changing her routine. She scans a detergent bottle and a jar of sauce in the store parking lot, then gets directions to a nearby refill shop and a deposit-return kiosk she can visit on the way home."
+  ]
+}

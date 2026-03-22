@@ -1,0 +1,17 @@
+{
+  "appName": "LoopLens",
+  "tagline": "See waste before you make it.",
+  "designSystem": {
+    "primaryColor": "#1A9E5C",
+    "secondaryColor": "#0EA5E9",
+    "backgroundColor": "#EDF8F3",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean mobile-first design with an emerald-green and sky-blue gradient brand palette. Dark camera UI for the scanner, light surfaces for content. Emphasis on action-oriented cards with color-coded waste categories (repair=amber, refill=green, recycle=blue, donate=red, thrift=purple). Micro-interactions on all tappable elements with scale press feedback."
+  },
+  "screens": [
+    "Scan — Camera viewfinder with green corner brackets, tap-to-scan CTA, animated scan progress with sweeping line, and bottom result sheet with item identification, waste impact score, tip, and prioritized action cards",
+    "Nearby — Location-aware list of repair shops, refill stations, donation centers, recyclers, and thrift stores with category filter chips, ratings, hours, and accepted item tags with Directions/Contact CTAs",
+    "Impact — Personal sustainability dashboard with gradient header showing CO₂ avoided, money saved, and items rescued; weekly bar chart; monthly goal progress bar; and chronological activity feed",
+    "Profile — User stats summary, dark/light theme toggle with animated switch, location and notification preferences, and app info section"
+  ]
+}

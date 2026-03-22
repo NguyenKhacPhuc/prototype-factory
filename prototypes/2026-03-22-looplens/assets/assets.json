@@ -1,0 +1,27 @@
+{
+  "appName": "LoopLens",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#1A9E5C",
+    "secondary": "#0EA5E9",
+    "background": "#EDF8F3",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "camera",
+    "chevron-right",
+    "moon",
+    "navigation",
+    "phone",
+    "scan",
+    "search",
+    "sliders-horizontal",
+    "sun",
+    "wifi",
+    "x"
+  ],
+  "fonts": [],
+  "iconCount": 12,
+  "fontFileCount": 0
+}
