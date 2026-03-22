@@ -1,0 +1,14 @@
+{
+  "appName": "MicroShift",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#00D4FF",
+    "secondary": "#7C4DFF",
+    "background": "#080C14",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

@@ -1,0 +1,14 @@
+{
+  "name": "MicroShift",
+  "tagline": "Weather for your exact next hour.",
+  "description": "MicroShift predicts weather at the level of a single commute, block, or event window instead of a whole city. It solves the common problem of getting caught by sudden rain, wind, heat bursts, or fog that traditional weather apps smooth over with broad forecasts. The app combines street-level weather mapping, calendar context, and real-time crowd-sourced observations to tell users not just what the weather is, but what it will feel like when they actually step outside. For example, it can warn that the north side of a stadium will be windy for the next 40 minutes, suggest the best time to leave for school pickup before a drizzle hits your route, or flag that a lunch break walk will be uncomfortably humid unless you leave 15 minutes earlier. What makes it unique is its emphasis on decision timing and location microclimates, turning weather into actionable guidance instead of generic percentages. It helps people choose when to leave, where to wait, and which side of the city to use for errands, travel, and outdoor plans.",
+  "features": [
+    "The app forecasts weather by block and by 15-minute window so users can plan around conditions that citywide forecasts usually miss.",
+    "It compares multiple nearby routes and entrances, helping users choose the driest, coolest, or least windy way to get somewhere.",
+    "It syncs with calendars and event locations to send timely suggestions like when to leave early, bring a jacket, or wait 20 minutes for safer conditions.",
+    "It uses live crowd reports and quick photo check-ins to confirm sudden changes such as puddles, haze, or dangerous gusts in real time.",
+    "It creates personalized comfort alerts based on your habits, so runners, parents, commuters, and delivery drivers each get different guidance from the same forecast.",
+    "audience: ",
+    "useCases: [?"
+  ]
+}

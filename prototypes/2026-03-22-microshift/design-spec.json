@@ -1,0 +1,18 @@
+{
+  "appName": "MicroShift",
+  "tagline": "Weather for your exact next hour.",
+  "designSystem": {
+    "primaryColor": "#00D4FF",
+    "secondaryColor": "#7C4DFF",
+    "backgroundColor": "#080C14",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first hyper-local weather UI with cyan primary accent, deep navy surfaces, vibrant status color coding (cyan/purple/amber/red/green), card-based layout with glowing micro-indicators, gradient hero cards, and 15-minute timeline scrollers. Emphasizes data density without cognitive overload through layered information hierarchy."
+  },
+  "screens": [
+    "Now — Real-time block-level micro-forecast with 15-min timeline, nearby blocks comparison, and live reports banner",
+    "Routes — Side-by-side route comparison with comfort scores, per-segment conditions, and smart navigation CTA",
+    "Events — Calendar-synced smart timing suggestions with departure optimization and gear recommendations",
+    "Reports — Community crowd-sourced live reports with quick-submit check-ins, photo support, and confirmation voting",
+    "Settings — Profile personalization (commuter/runner/parent/delivery), theme toggle, notification controls, calendar sync"
+  ]
+}
