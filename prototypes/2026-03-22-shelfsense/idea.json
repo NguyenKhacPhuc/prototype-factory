@@ -1,0 +1,19 @@
+{
+  "name": "ShelfSense",
+  "tagline": "Know what to buy before you run out.",
+  "description": "ShelfSense is a smart household inventory app that turns your pantry, fridge, medicine cabinet, and cleaning closet into a living checklist. Instead of forcing users to manually track everything, it learns what you own from quick photo scans, receipt imports, and simple voice updates, then predicts when items will run low based on your habits. The app solves the common problem of forgetting essentials until the exact moment you need them, which leads to wasted trips, duplicate purchases, and last-minute stress. In daily life, it helps a parent notice that toothpaste, coffee, and laundry detergent will run out before the weekend, or reminds a renter to restock cat food before an automatic delivery gap becomes a problem. What makes it unique is its \u201chome rhythm\u201d engine, which adapts to your actual consumption patterns instead of using generic expiration reminders. It can also group items into smart replenishment runs, like suggesting a single shopping list that combines grocery needs, OTC meds, and bathroom staples by where they are stored. By making household stock feel visible and predictable, ShelfSense reduces mental load and keeps routines running smoothly.",
+  "features": [
+    "The app builds a virtual inventory from quick shelf photos and receipt scans, so users can set up their home without tedious manual data entry.",
+    "Its predictive depletion engine estimates when items will run out based on household usage patterns, which helps people restock before they hit an empty cabinet.",
+    "Smart reorder bundles group items by room, store, or shipping source, making it easier to shop efficiently and avoid unnecessary trips.",
+    "Shared household syncing lets roommates or family members update stock in real time, preventing duplicate purchases and confusion about what is already available.",
+    "Low-stock alerts can be timed around user routines, such as reminding someone on Thursday night that they will need dish soap and oatmeal before the weekend begins."
+  ],
+  "audience": "Busy adults, families, roommates, and caregivers ages 20\u201355 who manage shared homes, tight schedules, or recurring household purchases. It is especially useful for people who frequently forget essentials, split shopping duties, or want to reduce waste and last-minute store runs.",
+  "category": "utilities",
+  "useCases": [
+    "Sarah just got home from work and realizes she cannot remember whether the apartment has enough detergent for laundry day. She opens ShelfSense, scans the laundry shelf, and sees a reminder that she will run out after two more loads.",
+    "Marcus shares groceries with two roommates, and they keep buying duplicate pasta sauces because no one knows what is left. He checks ShelfSense before shopping and sees an updated shared pantry list with item counts and who last added them.",
+    "Alyssa is packing for a weekend with her kids and wants to avoid a midnight pharmacy run. She opens the app and gets a combined restock list for sunscreen, ibuprofen, diapers, and snacks based on what is nearly depleted at home."
+  ]
+}

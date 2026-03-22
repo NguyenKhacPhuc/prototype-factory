@@ -1,0 +1,14 @@
+{
+  "appName": "ShelfSense",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#2DD4BF",
+    "secondary": "#818CF8",
+    "background": "#07090F",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

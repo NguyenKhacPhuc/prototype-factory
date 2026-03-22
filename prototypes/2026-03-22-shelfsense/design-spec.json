@@ -1,0 +1,18 @@
+{
+  "appName": "ShelfSense",
+  "tagline": "Know what to buy before you run out.",
+  "designSystem": {
+    "primaryColor": "#2DD4BF",
+    "secondaryColor": "#818CF8",
+    "backgroundColor": "#07090F",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first glassmorphic mobile UI with teal-cyan accent gradient, deep navy surfaces, vibrant status indicators (teal/amber/rose), rounded card components, and subtle border glow effects"
+  },
+  "screens": [
+    "Home — Greeting, Home Rhythm prediction card, critical stock alerts, room-based quick stats grid, activity feed",
+    "Inventory — Search bar, category filter pills, item list with stock progress bars and days-left badges",
+    "Scan — Photo/Receipt/Voice mode tabs, animated camera viewfinder with corner markers and scan line, detected items confirmation list",
+    "Lists — Smart shopping bundles grouped by store, collapsible lists with checkbox items and price totals, urgency banner",
+    "Settings — Profile card, dark/light theme toggle, household members list, notification toggles, about links"
+  ]
+}
