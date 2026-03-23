@@ -14,5 +14,6 @@
     "Events — Calendar-synced smart timing suggestions with departure optimization and gear recommendations",
     "Reports — Community crowd-sourced live reports with quick-submit check-ins, photo support, and confirmation voting",
     "Settings — Profile personalization (commuter/runner/parent/delivery), theme toggle, notification controls, calendar sync"
-  ]
+  ],
+  "category": "weather"
 }

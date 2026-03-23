@@ -8,5 +8,12 @@
     "fontFamily": "Plus Jakarta Sans",
     "style": "Clean health-tech UI with soft card surfaces, vibrant sky-blue and violet gradient branding, animated 30-second guided scan flow, timeline-based symptom history, and doctor-ready report generation. Light and dark themes with seamless transitions."
   },
-  "screens": ["home", "scan", "timeline", "reports", "settings"]
+  "screens": [
+    "home",
+    "scan",
+    "timeline",
+    "reports",
+    "settings"
+  ],
+  "category": "health & fitness"
 }

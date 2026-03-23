@@ -13,5 +13,6 @@
     "Discover — Sport filter pills, venue browser with openness bars and activity dot indicators",
     "Alerts — Live opportunity feed with colored accent borders, dismissable cards, check-in banner",
     "Profile — User stats grid, sport preferences, skill-level selector, settings list with dark mode toggle"
-  ]
+  ],
+  "category": "sports"
 }

@@ -13,5 +13,6 @@
     "Scan — receipt/label camera scanner with multi-stage flow: choose input → camera viewfinder → detected items review → confirm add to pantry",
     "Recipes — ranked recipe cards with match percentage, rescue notes, urgency color-coding, and full detail modal with step-by-step cook mode",
     "Leftover Lore — leftover transformation tracker showing multi-meal chains (e.g. roast chicken → tacos → soup → sandwich) with savings stats"
-  ]
+  ],
+  "category": "food & cooking"
 }

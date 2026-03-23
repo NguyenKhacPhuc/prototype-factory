@@ -8,5 +8,12 @@
     "fontFamily": "Plus Jakarta Sans, Bricolage Grotesque",
     "style": "Vibrant violet-purple accent with soft lavender surfaces. Layered depth, warm luminosity, editorial card layouts. Dual light/dark themes with smooth transitions. Modern humanist typography pairing expressive display with clean body copy."
   },
-  "screens": ["home", "canvas", "timeline", "export", "settings"]
+  "screens": [
+    "home",
+    "canvas",
+    "timeline",
+    "export",
+    "settings"
+  ],
+  "category": "creative tools"
 }

@@ -15,5 +15,6 @@
     "Drills — daily 3-minute burst drill with countdown timer, progress bar, instant answer feedback, and end-of-drill EQ XP summary",
     "Party — cooperative mode with room code sharing, player lobby, and scenario pack selection for interview prep/family/dating/difficult conversations",
     "Profile — EQ breakdown bars, achievement tracker with progress, settings panel, and light/dark theme toggle"
-  ]
+  ],
+  "category": "game: strategy"
 }

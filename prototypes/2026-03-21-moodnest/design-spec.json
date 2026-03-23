@@ -14,5 +14,6 @@
     "Discover (category grid, featured rituals carousel, and trending rituals list)",
     "Playbook (personal saved ritual collection with usage stats and mood insights)",
     "Settings / Profile (theme toggle, notification preferences, streak display, and app info)"
-  ]
+  ],
+  "category": "health & fitness"
 }

@@ -14,5 +14,6 @@
     "Quests - Mission board with trust streak calendar, dismissible quest cards (reminders, unlocks, milestones, progress quests)",
     "Groups - Community boards with trust ring scores, expandable group cards with stats, recent activity feed",
     "Profile - User hero with trust ring, stats, full loan history, settings list, and light/dark theme toggle"
-  ]
+  ],
+  "category": "lifestyle"
 }

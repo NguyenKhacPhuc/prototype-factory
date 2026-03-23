@@ -13,5 +13,6 @@
     "Create Pivot (modal) — 3-step bottom-sheet flow: choose activity → set social energy → configure duration and preview summary",
     "Matches — Active pivot conversations with auto-expiring chat, meet-zone banner, safety indicators, and micro-community tracker",
     "Profile — Personal stats, recent activity log, safety/verification settings, and light/dark theme toggle"
-  ]
+  ],
+  "category": "social networking"
 }

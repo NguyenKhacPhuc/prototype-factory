@@ -13,5 +13,6 @@
     "Forge — AI recipe suggestions ranked by rescue score, ingredient chips with urgency highlights, full recipe detail view with step-by-step instructions and leftover plan",
     "Plan — weekly meal plan with leftover chain visualization, waste-saved metric, smart suggestion cards",
     "Settings — profile, cooking skill level selector, kitchen equipment toggles, dietary preferences, light/dark theme toggle"
-  ]
+  ],
+  "category": "food & cooking"
 }

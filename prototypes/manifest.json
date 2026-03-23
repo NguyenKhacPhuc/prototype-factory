@@ -192,6 +192,7 @@
       "Routes",
       "Profile"
     ],
+    "category": "navigation",
     "hasScreenshot": true,
     "description": "QuietRoute helps people navigate cities based on sensory comfort, not only distance or speed. It analyzes live data like traffic noise, construction, crowd density, street lighting, sidewalk quality, and air quality to recommend routes that are calmer, safer, and less overwhelming. This solves a real problem for commuters, parents, seniors, people with anxiety, neurodivergent users, and anyone who wants a more peaceful walk, bike ride, or transit transfer. For example, it can steer a user away from a loud avenue during rush hour, find a better-lit path home after dark, or guide a parent pushing a stroller onto smoother sidewalks with fewer abrupt crossings. What makes it unique is that it treats navigation as a comfort decision, not just a directions problem, combining practical wayfinding with emotional well-being. The app also learns individual preferences over time, so one user might prioritize silence while another cares most about shade, ramps, or fewer crowd bottlenecks. Instead of simply getting you there faster, QuietRoute helps you arrive less stressed.",
     "features": [
@@ -203,7 +204,6 @@
       "audience\": \"Urban commuters, neurodivergent adults, parents with young children, seniors, and people with mobility or sensory sensitivities who want navigation that fits their comfort level. It is especially useful in dense cities, late-night travel, and areas with frequent construction or heavy foot traffic.\",\n  \"category\": \"navigation\",\n  \"useCases\": [\n    \"Sarah just finished a stressful meeting and wants to walk to the train without dealing with noisy streets, so she opens QuietRoute to find the least overwhelming path home.\",\n    \"Jamal is pushing a stroller across downtown at dusk and needs a route with smoother sidewalks, safer crossings, and better lighting, so he checks the app before leaving the caf\u00e9.\",\n    \"Mina is visiting a new city with anxiety about crowded transit stations and wants to avoid bottlenecks, so she uses QuietRoute to choose a calmer station entrance and a quieter last-mile walk.\"\n  ]\n}"
     ],
     "audience": "",
-    "category": "",
     "useCases": []
   },
   {
@@ -1200,6 +1200,7 @@
       "export",
       "settings"
     ],
+    "category": "creative tools",
     "hasScreenshot": true,
     "description": "MoodCanvas helps people capture messy emotions and turn them into immediate creative direction. Instead of starting from a blank page, users type a feeling, paste a journal entry, or describe a situation, and the app transforms it into moodboards, color palettes, typography pairings, visual prompts, and short creative briefs. It solves the everyday problem of emotional overload and creative paralysis by giving users a concrete visual language for ideas they can\u2019t easily articulate. In daily life, it can help a freelancer define the tone of a client project, a writer find the atmosphere of a scene, or someone planning an event match d\u00e9cor to a feeling like \"calm but energetic.\" What makes it unique is that it does not just generate inspiration images; it translates emotion into structured creative assets that are directly usable in design, writing, planning, or brainstorming. The app also learns a user\u2019s recurring emotional patterns over time, so it can suggest styles and palettes that match how they naturally think and work.",
     "features": [
@@ -1211,7 +1212,6 @@
       "audience line break? Wait JSON malformed."
     ],
     "audience": "",
-    "category": "",
     "useCases": []
   },
   {
@@ -1337,6 +1337,7 @@
       "itinerary",
       "settings"
     ],
+    "category": "travel",
     "hasScreenshot": true,
     "description": "Layover Lens helps travelers make the most of awkward gaps between flights, trains, and meetings by creating hyper-practical micro-itineraries based on exactly how much time they have, where they are, and how risky their schedule is. Instead of generic sightseeing lists, it maps safe, low-friction experiences that fit real-world constraints like immigration lines, luggage storage, weather, and transportation reliability. A user with a four-hour layover in Tokyo might get a route for a two-station ramen stop, a quick bathhouse visit, and a return plan with buffer time, while someone with 90 minutes in Lisbon could be guided to a scenic viewpoint near the station and back before boarding. The app solves the common problem of wasted transit time by translating spare hours into memorable, low-stress mini adventures. What makes it unique is its risk-aware planning engine: it doesn\u2019t just tell you what\u2019s nearby, it tells you what is actually feasible right now. It also adapts suggestions based on user energy, budget, luggage, mobility needs, and even whether they want to stay inside security or leave the terminal. In daily life, it becomes the travel companion that transforms unpredictable downtime into confidence and a sense of place.",
     "features": [
@@ -1348,7 +1349,6 @@
       "audience =?"
     ],
     "audience": "",
-    "category": "",
     "useCases": []
   },
   {
@@ -1892,6 +1892,7 @@
       "reports",
       "settings"
     ],
+    "category": "health & fitness",
     "hasScreenshot": true,
     "description": "Pulse Pal is a camera-based symptom tracking app that helps people capture and understand short, everyday health changes before they turn into bigger problems. Instead of asking users to manually log vague symptoms, it uses guided scans of the face, hands, voice, and breathing patterns to detect subtle shifts such as dehydration, fever onset, respiratory strain, or stress-related flareups. The app turns these quick checks into a personal health timeline, making it easier to notice patterns like migraines that consistently start after poor sleep or asthma symptoms that worsen after exposure to cold air. It is especially useful for busy people managing chronic conditions, parents monitoring a child\u2019s recovery, or anyone who struggles to describe symptoms accurately during a doctor visit. A mother can scan her child\u2019s breathing after a coughing fit, a commuter can check whether fatigue is likely from stress or something else, and an older adult can track warning signs without needing complex devices. What makes Pulse Pal unique is that it focuses on micro-observations in under 30 seconds and translates them into plain-language health guidance, rather than generic wellness advice or raw biometric dashboards.",
     "features": [
@@ -1904,7 +1905,6 @@
       "category: "
     ],
     "audience": "",
-    "category": "",
     "useCases": [
       "Sarah just finished a stressful meeting and feels unusually short of breath, so she opens the app to check whether her breathing pattern looks different from her normal baseline. She uses the result to decide whether to rest, hydrate, or message her doctor.",
       "Marcus's toddler has been coughing off and on all evening, and he wants to know if the breathing sounds urgent enough to seek care. He runs a quick scan and saves the result to show the pediatrician if needed.",
@@ -2589,6 +2589,7 @@
         "warning": "#D08000"
       }
     },
+    "category": "personal finance",
     "hasScreenshot": true,
     "description": "SpendShield is a bill-defense app that watches your recurring payments, trial subscriptions, annual renewals, and fee-prone services to predict exactly when your cash flow is at risk. Instead of just listing subscriptions, it creates a personal \u201cexpense weather report\u201d that shows likely bill spikes, hidden price increases, and duplicate charges before they happen. It solves the everyday problem of people getting blindsided by unpredictable financial drains that make budgeting feel impossible. In daily life, the app nudges users a few days before a gym renewal, streaming bundle increase, or annual software charge, then suggests actions like downgrade, cancel, pause, or move funds to avoid overdrafts. For example, if a freelancer has a large car insurance payment due the same week rent clears, SpendShield warns them early and recommends a safer payment sequence. What makes it unique is that it focuses on preventing financial surprises, not just tracking past spending, turning recurring bills into a forecastable, manageable calendar rather than a source of stress.",
     "features": [
@@ -2601,7 +2602,6 @@
       "category\": \"finance\",\n  \"useCases\": [\n    \"Maya just got paid on Friday and wants to know whether her rent, phone bill, and software subscriptions will collide before her next paycheck. She opens SpendShield to see a forecast that warns her a premium plan renewal would likely trigger a low-balance week.\",\n    \"Jordan is a freelancer with irregular income and notices a series of upcoming annual charges he forgot about. He uses the app to spot the cash-flow gap, then delays one payment and sets aside funds to avoid an overdraft.\",\n    \"Elena sees a notification that her streaming bundle quietly increased by $6 per month and her gym trial converts next week. She opens SpendShield, compares the old and new prices, and cancels the gym before the charge posts.\"\n  ]\n}\u3011() 1000 \u0a24\u0c4b? \u3011 }\u06c8\u09a4\u1004\u1039}"
     ],
     "audience": "",
-    "category": "",
     "useCases": []
   },
   {
@@ -3237,6 +3237,7 @@
       "Journey \u2014 Private streak tracker, weekly calendar grid, badges system, and category breakdown charts",
       "Settings \u2014 Theme toggle (dark/light), profile card, location/notification/AI toggles, privacy controls"
     ],
+    "category": "lifestyle",
     "hasScreenshot": true,
     "description": "OddHabit turns everyday frustrations into playful, bizarre micro-rituals that help users break inertia, reduce stress, and remember important tasks. Instead of generic reminders or habit trackers, it assigns weird but practical actions tied to real-world moments, like whispering a grocery item into your sleeve so you remember it later or taking a photo of a messy cord to trigger a cleanup challenge. The app solves the problem of people ignoring normal productivity tools by making memory and behavior change feel novel, memorable, and emotionally sticky. It helps users in daily life by turning forgetfulness, avoidance, and mental clutter into small interactive games that fit into the moments where those problems actually happen. For example, before leaving home, it might ask you to do a 3-second \u201cdoorway pat-down ritual\u201d that checks for keys, wallet, and meds in a quirky sequence you\u2019ll remember. What makes it unique is that every nudge is intentionally odd, but still grounded in behavioral science and built to work in real situations, not just to amuse users.",
     "features": [
@@ -3251,7 +3252,6 @@
       "useCases2"
     ],
     "audience": "",
-    "category": "",
     "useCases": []
   },
   {
@@ -3627,6 +3627,7 @@
       "Reports \u2014 Community crowd-sourced live reports with quick-submit check-ins, photo support, and confirmation voting",
       "Settings \u2014 Profile personalization (commuter/runner/parent/delivery), theme toggle, notification controls, calendar sync"
     ],
+    "category": "weather",
     "hasScreenshot": true,
     "description": "MicroShift predicts weather at the level of a single commute, block, or event window instead of a whole city. It solves the common problem of getting caught by sudden rain, wind, heat bursts, or fog that traditional weather apps smooth over with broad forecasts. The app combines street-level weather mapping, calendar context, and real-time crowd-sourced observations to tell users not just what the weather is, but what it will feel like when they actually step outside. For example, it can warn that the north side of a stadium will be windy for the next 40 minutes, suggest the best time to leave for school pickup before a drizzle hits your route, or flag that a lunch break walk will be uncomfortably humid unless you leave 15 minutes earlier. What makes it unique is its emphasis on decision timing and location microclimates, turning weather into actionable guidance instead of generic percentages. It helps people choose when to leave, where to wait, and which side of the city to use for errands, travel, and outdoor plans.",
     "features": [
@@ -3639,7 +3640,6 @@
       "useCases: [?"
     ],
     "audience": "",
-    "category": "",
     "useCases": []
   },
   {
@@ -4607,6 +4607,7 @@
       "Groups - Community boards with trust ring scores, expandable group cards with stats, recent activity feed",
       "Profile - User hero with trust ring, stats, full loan history, settings list, and light/dark theme toggle"
     ],
+    "category": "lifestyle",
     "hasScreenshot": true,
     "description": "BorrowBoard is a social board game app that helps neighbors, roommates, clubs, and small communities keep track of shared items without awkward reminders or lost stuff. Players build a digital game board around real-world objects like power tools, books, cooking gear, sports equipment, or event supplies, and every loan becomes a move with a due date, value, and accountability score. The app solves the everyday problem of borrowing friction by making tracking feel playful instead of bureaucratic, which reduces forgotten returns, duplicate purchases, and uncomfortable follow-ups. In daily life, a parent can lend a snow shovel to a neighbor, a coworker can borrow a portable projector for a presentation, or a friend group can rotate camping gear while the app reminds everyone who has what and when it should come back. What makes it unique is that the board changes dynamically based on trust, timeliness, and item importance, so good habits unlock bonuses while repeated late returns create new challenges and visibility. It also supports in-person play modes for households or community groups, turning shared ownership into a cooperative experience rather than a messy spreadsheet. Unlike generic lending trackers, BorrowBoard uses game mechanics to make real-life accountability feel rewarding, social, and easy to stick with.",
     "features": [
@@ -4621,7 +4622,6 @@
       "content_hash2?]}"
     ],
     "audience": "",
-    "category": "",
     "useCases": []
   },
   {
@@ -4782,6 +4782,7 @@
       "Alerts \u2014 Live opportunity feed with colored accent borders, dismissable cards, check-in banner",
       "Profile \u2014 User stats grid, sport preferences, skill-level selector, settings list with dark mode toggle"
     ],
+    "category": "sports",
     "hasScreenshot": true,
     "description": "RallyPulse helps people find the best spontaneous sports opportunity around them, matching open courts, fields, weather, skill level, and the exact time they have available. Instead of endlessly texting group chats or showing up to crowded facilities, users can instantly discover where a pickup game is likely to happen, when a court will be open, and whether they can realistically join without waiting around. The app solves the common problem of wasted time and missed games by using live signals from parks, rec centers, local leagues, and community check-ins to predict the best place to play. It fits into daily life by helping commuters, students, and busy workers squeeze in exercise and social time between errands, meetings, or family obligations. A basketball player can find a half-full court near the office at 6:10 p.m., a soccer parent can locate an open field after school pickup, and a tennis player can see which nearby courts typically clear out after 7 p.m. What makes it unique is that it doesn't just list facilities; it anticipates actual playable moments and explains the best match based on your skill, energy, and available window. This turns sports planning from a guessing game into a real-time opportunity engine.",
     "features": [
@@ -4793,7 +4794,6 @@
       "audience"
     ],
     "audience": "",
-    "category": "",
     "useCases": []
   },
   {
@@ -4815,6 +4815,7 @@
       "Party \u2014 cooperative mode with room code sharing, player lobby, and scenario pack selection for interview prep/family/dating/difficult conversations",
       "Profile \u2014 EQ breakdown bars, achievement tracker with progress, settings panel, and light/dark theme toggle"
     ],
+    "category": "game: strategy",
     "hasScreenshot": true,
     "description": "Mosaic Bluff is a social strategy card game that turns everyday communication problems into fast, replayable rounds. Players build hands from \"intent,\" \"tone,\" and \"context\" cards to decode messy situations like a passive-aggressive text, a tense team chat, or a friend who says \"I'm fine\" but isn't. The app helps users sharpen emotional intelligence and conflict navigation by training them to spot hidden meaning, choose better responses, and see how small wording changes can escalate or defuse a situation. In daily life, it acts like a playable simulator for real conversations: one round might help a manager prepare for giving feedback, while another might help a roommate respond to a vague request without starting an argument. What makes it unique is that winning depends less on luck and more on anticipating human behavior, using subtle clues, and learning from an AI referee that explains why a move worked or backfired. Instead of generic trivia or fantasy combat, Mosaic Bluff makes social decision-making the core game mechanic, so players improve practical communication skills while enjoying a competitive card experience.",
     "features": [
@@ -4826,7 +4827,6 @@
       "audience: "
     ],
     "audience": "",
-    "category": "",
     "useCases": []
   },
   {
@@ -5063,6 +5063,7 @@
       "Matches \u2014 Active pivot conversations with auto-expiring chat, meet-zone banner, safety indicators, and micro-community tracker",
       "Profile \u2014 Personal stats, recent activity log, safety/verification settings, and light/dark theme toggle"
     ],
+    "category": "social networking",
     "hasScreenshot": true,
     "description": "Pivot Circle is a social networking app that connects people in the exact in-between moments of daily life, such as after a canceled plan, during a solo lunch break, or when moving to a new neighborhood. Instead of following influencers or browsing endless feeds, users post short-lived \"pivots\" that describe what they suddenly have free time for, what kind of company they want, and how far they\u2019re willing to travel. The app then matches them with nearby people whose timing, mood, and preferences align, making it easy to turn dead time into meaningful micro-connections. It solves the common problem of loneliness and logistical friction by making spontaneous socializing feel safe, structured, and low-pressure. For example, someone stuck downtown after a meeting can find a nearby person also free for a 20-minute coffee, or a new parent can discover another parent available for a stroller walk in the park. What makes Pivot Circle unique is that it prioritizes moment-to-moment compatibility over identity curation, creating a social network built around actual availability and intent rather than polished profiles. Over time, it helps users build a real-world social fabric from the small openings in their day.",
     "features": [
@@ -5078,7 +5079,6 @@
       "useCases\":[\"Sarah just finished a stressful meeting and has 40 minutes before her train, so she opens Pivot Circle and finds another nearby user also looking for a quick coffee and decompressing conversation. They meet at a station caf\u00e9, and what would have been dead time becomes a genuine human reset.\",\"Jay recently moved to a new city and does not want to wait weeks for an organized meetup, so he posts a pivot for a beginner-friendly park walk after work. The app connects him with two locals who share his route and hobbies, giving him an easy first foothold in the neighborhood.\",\"Mina is a parent whose babysitter canceled at the last minute, leaving her with a free afternoon and no energy for a big plan. She uses the app to find a nearby parent available for a stroller walk, which gives her adult conversation, fresh air, and a practical way to avoid feeling isolated.\"]}]}  \u0947\u043a\u0456\u043d\u0448\u0456 to=final \uff3f\u8001\u53f8\u673a \u0580\u0565\u056c json only}]}]}endphp```\u3011}]}}```json_here```}]}]}\u3011   \u0a98\u3011]}]}\u3011}]]}]  }]}}] } \uff3d}}}\u3011]}\u3011]}]} }]}]}]}] } }]} }}]}}]}}}} } } } \ud8f9\udedc```json{"
     ],
     "audience": "",
-    "category": "",
     "useCases": []
   },
   {
@@ -5249,6 +5249,7 @@
       "Recipes \u2014 ranked recipe cards with match percentage, rescue notes, urgency color-coding, and full detail modal with step-by-step cook mode",
       "Leftover Lore \u2014 leftover transformation tracker showing multi-meal chains (e.g. roast chicken \u2192 tacos \u2192 soup \u2192 sandwich) with savings stats"
     ],
+    "category": "food & cooking",
     "hasScreenshot": true,
     "description": "Leftover Lore helps people cook from what they already have by identifying ingredients in their fridge, freezer, and pantry through quick scans or simple voice input, then generating recipes built around combinations that are actually usable, not just inspirational. It solves the common problem of food waste and last-minute meal paralysis, especially when users have random leftovers, partial ingredients, or too little time to plan. The app suggests realistic dishes based on freshness, quantity, dietary needs, and cooking equipment, so a half onion, a jar of pesto, and two eggs can become a specific dinner instead of a vague idea. In daily life, it helps users rescue ingredients before they spoil, stretch grocery budgets, and decide what to cook on a busy weeknight without endless searching. A unique feature is its \u201crescue logic,\u201d which prioritizes ingredients nearing expiration and explains why a recipe fits the exact contents of the user\u2019s kitchen. Unlike generic recipe apps, it does not start with a perfect grocery list; it starts with the messy, incomplete reality of home cooking and turns it into something practical and delicious.",
     "features": [
@@ -5260,7 +5261,6 @@
       "audience:"
     ],
     "audience": "",
-    "category": "",
     "useCases": []
   },
   {
@@ -5546,6 +5546,7 @@
       "Plan \u2014 weekly meal plan with leftover chain visualization, waste-saved metric, smart suggestion cards",
       "Settings \u2014 profile, cooking skill level selector, kitchen equipment toggles, dietary preferences, light/dark theme toggle"
     ],
+    "category": "food & cooking",
     "hasScreenshot": true,
     "description": "Fridge Forge helps home cooks transform scattered leftovers, half-used ingredients, and nearly-forgotten produce into complete, realistic meals. Instead of showing generic recipes, it scans what you actually have on hand, estimates what is likely to spoil soon, and suggests combinations that fit your time, skill level, and kitchen equipment. The app solves the common problem of food waste and last-minute takeout by turning ingredient chaos into a usable plan for tonight\u2019s dinner or tomorrow\u2019s lunch. For example, if you have chicken thighs, yogurt, spinach, and a lone lemon, it might suggest a one-pan herby yogurt chicken with a quick spinach salad and tell you exactly what can be substituted. If you only have a microwave and a cutting board, it adjusts suggestions to match that reality rather than pretending you have a full pantry. What makes it unique is its \u201crescue-first\u201d logic: it prioritizes saving ingredients before suggesting buying more, and it builds recipes around the constraints of the home, not an idealized chef kitchen.",
     "features": [
@@ -5562,7 +5563,6 @@
       "\"Alicia meal-preps on Sunday and notices she has yogurt, berries, and oats that will expire soon. She uses Fridge Forge to build breakfast jars and a snack plan for the workweek so nothing gets thrown away.\""
     ],
     "audience": "",
-    "category": "",
     "useCases": []
   },
   {
@@ -5994,6 +5994,7 @@
       "Playbook (personal saved ritual collection with usage stats and mood insights)",
       "Settings / Profile (theme toggle, notification preferences, streak display, and app info)"
     ],
+    "category": "health & fitness",
     "hasScreenshot": true,
     "description": "MoodNest is a lifestyle app that helps people create micro-rituals for everyday moments of emotional overwhelm, decision fatigue, and scattered routines. Instead of tracking habits in a generic way, it detects the kind of situation you're in, such as a tense workday, post-argument slump, or Sunday night dread, and offers a tiny, personalized reset plan that fits the moment. The app solves the common problem of knowing you need to feel better but not knowing what to do that actually works in real life. It helps users by turning vague intentions like \"relax more\" into concrete actions, such as a three-minute desk decompression, a frictionless grocery-day wind-down, or a pre-sleep ritual built around their energy level, environment, and available time. A person preparing for a big presentation might get a breathing prompt, a 90-second posture reset, and a confidence cue; someone recovering from a hard social interaction might get a sensory grounding routine and a short boundary-setting reflection. What makes MoodNest unique is that it treats emotional maintenance like a contextual design problem, blending mood signals, time constraints, and daily habits into highly specific, practical rituals instead of generic meditation or to-do lists.",
     "features": [
@@ -6007,7 +6008,6 @@
       "useCases"
     ],
     "audience": "",
-    "category": "",
     "useCases": []
   },
   {
