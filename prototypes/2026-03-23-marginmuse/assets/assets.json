@@ -1,0 +1,32 @@
+{
+  "appName": "MarginMuse",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#8B5CF6",
+    "secondary": "#FBBF24",
+    "background": "#0D0B1A",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "book-open",
+    "chevron-right",
+    "help-circle",
+    "home",
+    "moon",
+    "plus",
+    "refresh-cw",
+    "search",
+    "shield",
+    "sparkles",
+    "sun",
+    "tag",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 17,
+  "fontFileCount": 0
+}

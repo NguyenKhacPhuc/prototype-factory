@@ -1,0 +1,12 @@
+{
+  "appName": "MarginMuse",
+  "tagline": "Books, reframed around your life.",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#FBBF24",
+    "backgroundColor": "#0D0B1A",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first glassmorphic reading app with deep navy-purple backgrounds, vibrant violet accent, warm amber highlights, and minimal card-based layouts. Typography-forward with italic quotes, strong weight hierarchy, and contextual color coding for different knowledge states."
+  },
+  "screens": ["home", "library", "insights", "moments", "profile"]
+}

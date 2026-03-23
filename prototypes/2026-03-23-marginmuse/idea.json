@@ -1,0 +1,19 @@
+{
+  "name": "MarginMuse",
+  "tagline": "Books, reframed around your life.",
+  "description": "MarginMuse turns any book, manual, or article into a personalized, actionable reference companion. It helps people remember and apply what they read by letting them tag passages to real-life goals like parenting, leadership, studying, or mental health, then resurfacing those quotes exactly when they matter. Instead of a static library app, it behaves like an adaptive reading notebook that connects ideas across books, so a user reading about negotiation can later see the same principle inside a parenting chapter or a work handbook. It solves the common problem of forgetting valuable insights after reading and having no easy way to retrieve the right passage in the right moment. For example, a new manager can save conflict-resolution notes from three different books and get a curated reminder before a difficult one-on-one meeting. A student can annotate textbook sections with plain-language summaries and receive quick refresh cards before exams, while a parent can collect bedtime or discipline strategies and pull them up during stressful moments. What makes it unique is its context engine: instead of organizing information by shelf or title alone, it organizes knowledge by situation, so reference material becomes instantly useful in daily life.",
+  "features": [
+    "The app lets users tag any passage with a life context, such as 'job interview,' 'anxious night,' or 'team feedback,' so the right idea can be found without remembering the exact book it came from.",
+    "It generates cross-book insight threads that connect similar themes, helping users see how different authors explain the same concept and why that matters in practice.",
+    "It offers situation-based resurfacing, sending timely quotes and summaries when a user schedules a meeting, starts studying, or sets a personal goal that matches saved material.",
+    "It includes a plain-language rewrite tool that turns dense passages into short, actionable notes, which is valuable for students, professionals, and casual readers alike.",
+    "It tracks how often saved ideas are used in real situations, giving users a practical 'applied knowledge' record that encourages follow-through rather than passive collecting."
+  ],
+  "audience": "Adults 18-45 who read nonfiction, self-help, textbooks, manuals, or professional development books, especially busy students, early-career professionals, managers, and parents juggling multiple responsibilities. It is ideal for people who value learning but need reference material to show up at the right time in a usable form.",
+  "category": "books & reference",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to remember the calm feedback framework she highlighted in a leadership book, so she opens MarginMuse and instantly sees the exact passage tagged for 'conflict conversation.'",
+    "Jamal is studying for a certification exam and needs a faster way to review dense chapters, so he opens the app to read his rewritten notes and the cross-book explanation that connects three similar concepts.",
+    "Priya is putting her child to bed after a hard day and wants a gentle discipline reminder, so she searches her saved 'parenting' context and pulls up a practical quote she tagged weeks earlier from a trusted book."
+  ]
+}
