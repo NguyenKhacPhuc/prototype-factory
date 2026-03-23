@@ -1,0 +1,12 @@
+{
+  "appName": "EchoLink",
+  "tagline": "Find the people who just lived your moment.",
+  "designSystem": {
+    "primaryColor": "#FF4D8D",
+    "secondaryColor": "#00D4AA",
+    "backgroundColor": "#080C1A",
+    "fontFamily": "Sora",
+    "style": "Aurora glassmorphism with vibrant hot-pink/teal accents on deep navy. Ephemeral, real-time social feel with glowing dot indicators, gradient hero cards, and ephemeral chat bubbles. Dark-default with polished light mode toggle."
+  },
+  "screens": ["onboarding", "home", "explore", "circles", "profile"]
+}

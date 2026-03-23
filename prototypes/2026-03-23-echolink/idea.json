@@ -1,0 +1,19 @@
+{
+  "name": "EchoLink",
+  "tagline": "Find the people who just lived your moment.",
+  "description": "EchoLink is a social networking app that connects you with people who are experiencing the same real-world moment within a short time window and nearby location, turning everyday life into instant micro-communities. Instead of posting into a noisy public feed, users tap into situation-based circles like \"missed flight,\" \"new city solo dinner,\" \"first day at a conference,\" or \"stuck in a long hospital wait,\" where people can swap advice, emotional support, or useful local tips in real time. The app solves the loneliness and friction of modern life by making it easy to find relevant, human help exactly when it is needed, without requiring a pre-existing friend network. For example, someone arriving late to an airport can connect with others on the same delay for ride-share splitting and gate updates, while a new resident can find nearby people who just moved and compare neighborhood grocery stores, gyms, and coffee shops. EchoLink is unique because it matches users by context and moment, not followers, interests alone, or broad geography, which makes every conversation immediately useful and surprisingly personal. It also uses ephemeral rooms that disappear after the moment passes, keeping the experience practical, low-pressure, and free from the performance anxiety of traditional social platforms.",
+  "features": [
+    "Moment-based matching groups users by shared situation, location, and time so conversations feel immediately relevant and useful.",
+    "Ephemeral circles automatically expire after the event ends, which keeps the app focused on real-world needs instead of endless posting.",
+    "Smart prompt cards suggest practical conversation starters like \"best taxi option here\" or \"anyone want to split a table,\" helping strangers connect quickly without awkwardness.",
+    "Local resource swapping lets users share live tips, recommendations, and small offers such as borrowing a charger, comparing transit routes, or finding open seating.",
+    "Safety and trust tools verify context through optional location and event signals, which helps users feel comfortable engaging with nearby strangers."
+  ],
+  "audience": "Urban adults ages 18-40, especially commuters, solo travelers, new residents, remote workers, and event-goers who often find themselves in temporary, shared situations. It is especially useful for people who want practical connection without committing to a traditional friend network.",
+  "category": "social networking",
+  "useCases": [
+    "Sarah just finished a stressful meeting at a downtown conference and wants to find other attendees who are also heading to the same evening networking event so she can share a rideshare and arrive with someone familiar.",
+    "Jamal is stuck at the airport after a canceled flight and opens EchoLink to join a delay circle where he can compare rebooking tips, find a food court buddy, and maybe split a hotel shuttle.",
+    "Mina moved to a new city last week and, after standing in a long line at the neighborhood DMV, uses the app to connect with other recent arrivals who can recommend nearby lunch spots, internet providers, and weekend hangouts."
+  ]
+}

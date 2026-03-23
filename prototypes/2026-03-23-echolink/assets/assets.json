@@ -1,0 +1,33 @@
+{
+  "appName": "EchoLink",
+  "fontFamily": "Sora",
+  "colors": {
+    "primary": "#FF4D8D",
+    "secondary": "#00D4AA",
+    "background": "#080C1A",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "chevron-left",
+    "chevron-right",
+    "circle",
+    "compass",
+    "home",
+    "map-pin",
+    "more-horizontal",
+    "plus",
+    "radio",
+    "search",
+    "send",
+    "signal",
+    "user",
+    "users",
+    "wifi",
+    "x"
+  ],
+  "fonts": [],
+  "iconCount": 18,
+  "fontFileCount": 0
+}
