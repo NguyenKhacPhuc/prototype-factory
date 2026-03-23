@@ -1,0 +1,50 @@
+{
+  "appName": "EchoShift",
+  "tagline": "Music that fits your next moment",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#F97316",
+    "accentColor": "#22D3EE",
+    "backgroundColor": "#F5F0FF",
+    "backgroundColorDark": "#080611",
+    "fontFamily": "Sora",
+    "bodyFont": "DM Sans",
+    "style": "Aurora UI + Glassmorphism — ethereal gradient-mesh surfaces with frosted-glass cards, violet-to-cyan emotional arc gradients, and depth-layered card hierarchy. Mood transitions visualized as live gradient progress bars. Dark mode uses deep indigo-black with luminous violet accents."
+  },
+  "screens": [
+    "Onboarding (3-step: context-aware intro, Moment Bridge, energy timeline)",
+    "Home (energy state, Up Next prediction card, Scene Modes 2×2 grid, today's predictions)",
+    "Bridge (Moment Bridge transition engine, scene selector pills, emotional arc visualization, transition track sequence)",
+    "Now Playing (waveform album art, mood transition mini-bar, playback controls, up next)",
+    "Day (energy curve bar chart, planned transitions timeline with type-coded entries)",
+    "Settings (profile stats, light/dark theme toggle, intelligence toggles, calibration)"
+  ],
+  "themeTokens": {
+    "light": {
+      "bg": "#F5F0FF",
+      "surface": "#FFFFFF",
+      "primary": "#8B5CF6",
+      "secondary": "#F97316",
+      "accent": "#22D3EE",
+      "text": "#1C1033",
+      "border": "#E8E0FF"
+    },
+    "dark": {
+      "bg": "#080611",
+      "surface": "#120D28",
+      "primary": "#A78BFA",
+      "secondary": "#FB923C",
+      "accent": "#38BDF8",
+      "text": "#EEE8FF",
+      "border": "#2A1F50"
+    }
+  },
+  "keyFeatures": [
+    "Predicted activity playlists from calendar + location",
+    "Moment Bridge: 4-phase emotional transition sequences (Release → Settle → Ground → Arrive)",
+    "Daily energy timeline with bar chart and type-coded activity blocks",
+    "One-tap scene modes: Post-Meeting Reset, Pre-Date Confidence, Deep Work Entry, Late Night Unwind",
+    "Interactive waveform player with live mood-phase indicator",
+    "Animated onboarding with per-step accent color theming"
+  ]
+}

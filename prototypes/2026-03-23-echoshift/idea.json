@@ -1,0 +1,19 @@
+{
+  "name": "EchoShift",
+  "tagline": "Music that fits your next moment",
+  "description": "EchoShift is a context-aware music companion that helps people smoothly transition through the real emotional mess of a day by generating micro-playlists designed for what comes next, not just how you feel now. Instead of giving you another endless recommendation feed, it learns your routine through calendar events, location patterns, activity, and listening history to predict the energy you need for a commute, workout, deep work block, social gathering, or winding down. If you have a 12-minute drive after a tense client call, it can build a short \u201creset\u201d sequence that starts with breath-calming tracks and ends with a focused instrumental to get you home grounded. If you are about to enter a crowded restaurant before a date, it can offer a confidence boost playlist with the right tempo progression to shift your mood in five minutes. What makes it unique is its \u201cmoment bridge\u201d engine, which designs music sequences around emotional transitions, so users do not have to manually search for the right vibe every time life changes pace. Over time, it becomes a practical daily tool for managing energy, not just a place to discover songs. It solves the common problem of music apps being great for browsing but terrible at helping people move from one state of mind to another on demand.",
+  "features": [
+    "The app predicts your next likely activity from your calendar, location, and habits, then prepares a matching playlist before you even ask so music feels timely instead of reactive.",
+    "Its Moment Bridge feature builds short transition sets that guide you from one mood to another, such as calming you after a work crisis or sharpening focus before a study session.",
+    "A daily energy timeline shows when you are most likely to need a mood shift, helping you plan music for commutes, workouts, errands, and evening decompression.",
+    "The app offers one-tap scene modes like \u201cpost-meeting reset,\u201d \u201cpre-date confidence,\u201d and \u201clate-night unwind,\u201d which matters because users can choose real-life situations instead of vague genres.",
+    "It learns from quick feedback on how each transition felt, making future playlists more accurate and personally useful without requiring users to tag songs manually."
+  ],
+  "audience": "Busy professionals, students, and urban commuters ages 18\u201340 who use music as a tool for emotional regulation, focus, and daily routine management. It is especially useful for people with packed schedules who want music to help them switch gears quickly and intentionally.",
+  "category": "music",
+  "useCases": [
+    "Sarah just finished a stressful client meeting and has a 15-minute subway ride home. She opens EchoShift to get a \u201creset\u201d playlist that helps her stop replaying the conversation and arrive home calm.",
+    "Devon is about to walk into a networking event after work and feels flat. He uses the app to generate a confidence-boosting transition sequence that gradually raises his energy without feeling fake or overhyped.",
+    "Maya has a late-night study session coming up after dinner. She taps the \u201cdeep focus\u201d mode, and EchoShift creates a playlist that reduces distraction and helps her settle into a sustained work rhythm."
+  ]
+}
