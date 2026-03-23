@@ -1,0 +1,12 @@
+{
+  "appName": "MoodGrid",
+  "tagline": "Design visuals that match real feelings.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#A855F7",
+    "backgroundColor": "#F5F3FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Emotional design tool with vibrant violet accent, soft purple surfaces, and warm neutral tones. Clean card-based layout with micro-interactions and clear visual hierarchy."
+  },
+  "screens": ["home", "palette", "type", "check", "vault"]
+}

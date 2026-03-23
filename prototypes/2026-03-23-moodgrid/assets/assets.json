@@ -1,0 +1,33 @@
+{
+  "appName": "MoodGrid",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#A855F7",
+    "background": "#F5F3FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "arrow-left",
+    "brain-circuit",
+    "folder-heart",
+    "moon",
+    "palette",
+    "play-circle",
+    "plus",
+    "scan-line",
+    "sparkles",
+    "sun",
+    "target",
+    "trending-up",
+    "type",
+    "vault",
+    "wifi",
+    "x-circle",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 18,
+  "fontFileCount": 0
+}

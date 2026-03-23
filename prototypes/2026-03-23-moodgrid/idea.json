@@ -1,0 +1,19 @@
+{
+  "name": "MoodGrid",
+  "tagline": "Design visuals that match real feelings.",
+  "description": "MoodGrid helps people create visually coherent color palettes, social graphics, and brand assets based on a specific emotional goal instead of vague aesthetic inspiration. It solves the common problem of designing something that looks nice but fails to communicate the right mood, which is especially frustrating for small businesses, creators, and non-designers working under time pressure. Users can start with a feeling like \"calm but premium,\" \"urgent yet reassuring,\" or \"playful without childishness,\" and the app translates that into typography suggestions, color logic, layout direction, and visual references. In daily life, this means a bakery owner can quickly build an Instagram promo that feels warm and homemade, while a wellness coach can create a serene workshop flyer without guessing which shades or fonts will work. What makes MoodGrid unique is that it combines emotional intent, audience context, and brand constraints into a guided design system rather than a generic template library. It also learns from feedback, so if a user says a concept feels too cold or too corporate, it instantly recalibrates the visual direction. The result is a practical design companion that helps people communicate the right feeling the first time.",
+  "features": [
+    "The Emotional Brief Builder turns simple prompts like \"trustworthy and energetic\" into structured design inputs, helping users define the mood before they start designing.",
+    "The Palette Translator generates color combinations with emotional labels and contrast guidance, so users can choose colors that communicate intent and remain readable.",
+    "The Typography Matchmaker recommends font pairings based on tone and use case, making it easier to avoid clashes between the message and the visual style.",
+    "The Live Mood Check scores a draft design against the selected emotional goal and flags elements that feel off, which saves users from trial-and-error frustration.",
+    "The Brand Memory Vault stores recurring mood profiles, visual preferences, and past approvals, so freelancers and small teams can keep projects consistent over time."
+  ],
+  "audience": "Freelancers, small business owners, social media managers, and indie creators aged 20-45 who need polished visuals without a full design team. It is especially useful for people creating flyers, posts, pitch decks, and brand assets in fast-moving, deadline-driven contexts.",
+  "category": "graphic & design",
+  "useCases": [
+    "Sarah just finished a stressful meeting and needs a charity event flyer that feels hopeful rather than pushy. She opens MoodGrid, selects \"uplifting but credible,\" and gets a palette and layout that instantly fit the cause.",
+    "Jay runs a one-person coffee brand and wants tomorrow's Instagram post to feel cozy without looking amateurish. He enters \"warm, artisanal, premium,\" and MoodGrid suggests fonts, tones, and spacing that match his packaging style.",
+    "Mina is a freelance designer revising a client pitch deck after feedback that it felt \"too corporate.\" She uses the app to shift the visual mood toward approachable professionalism and quickly compares alternative directions before exporting."
+  ]
+}
