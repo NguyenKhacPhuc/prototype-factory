@@ -35,4 +35,7 @@ if (htmlFile) {
 // Copy prototypes/ to dist/prototypes/
 await $`cp -r prototypes dist/prototypes`;
 
+// Copy public/ assets to dist/ root
+await $`cp -r public/. dist/`;
+
 console.log("Build complete! Output in ./dist/");
