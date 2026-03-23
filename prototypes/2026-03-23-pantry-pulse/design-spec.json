@@ -1,0 +1,12 @@
+{
+  "appName": "Pantry Pulse",
+  "tagline": "Turn leftovers into real meals.",
+  "designSystem": {
+    "primaryColor": "#3DFF84",
+    "secondaryColor": "#FFB340",
+    "backgroundColor": "#080C09",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first mobile dashboard with vibrant neon green accent, card-based layout, urgency-coded color system (red/amber/green), rescue-score progress bars, and smooth toggle micro-interactions"
+  },
+  "screens": ["home", "pantry", "recipes", "plan", "settings"]
+}
