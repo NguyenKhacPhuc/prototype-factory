@@ -1,0 +1,12 @@
+{
+  "appName": "QuietRoute",
+  "tagline": "Find the calmest path, not just the fastest.",
+  "designSystem": {
+    "primaryColor": "#00D9B4",
+    "secondaryColor": "#8B7FFF",
+    "backgroundColor": "#07090F",
+    "fontFamily": "Sora / DM Sans",
+    "style": "Organic Biophilic + Dark OLED — deep navy backgrounds with teal-mint primary accent evoking calm, nature, and safety. Comfort ring gauges, heatmap overlays, and animated SVG route paths create a sensory-aware navigation experience. Glassmorphic overlays on the map screen. Smooth 300ms screen transitions with slide-up animation."
+  },
+  "screens": ["Onboarding", "Home", "Map", "Routes", "Profile"]
+}

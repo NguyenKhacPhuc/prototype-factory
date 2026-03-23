@@ -1,0 +1,36 @@
+{
+  "appName": "QuietRoute",
+  "fontFamily": "Sora / DM Sans",
+  "colors": {
+    "primary": "#00D9B4",
+    "secondary": "#8B7FFF",
+    "background": "#07090F",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "activity",
+    "battery",
+    "briefcase",
+    "coffee",
+    "compass",
+    "hard-hat",
+    "heart",
+    "home",
+    "leaf",
+    "map",
+    "moon",
+    "navigation",
+    "search",
+    "signal",
+    "sliders",
+    "sun",
+    "tree-pine",
+    "user",
+    "users",
+    "wifi",
+    "wind"
+  ],
+  "fonts": [],
+  "iconCount": 21,
+  "fontFileCount": 0
+}
