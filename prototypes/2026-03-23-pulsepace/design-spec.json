@@ -1,0 +1,12 @@
+{
+  "appName": "PulsePace",
+  "tagline": "Train by your real-game rhythm.",
+  "designSystem": {
+    "primaryColor": "#6C63FF",
+    "secondaryColor": "#4ECDC4",
+    "backgroundColor": "#0A0A0F",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first sports analytics UI with vibrant violet-purple accent, neon teal highlights, and data-dense card layouts. Clean typographic hierarchy with bold metric displays, gradient hero cards, and SVG-based inline charts."
+  },
+  "screens": ["home", "analyze", "train", "progress", "settings"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "PulsePace",
+  "tagline": "Train by your real-game rhythm.",
+  "description": "PulsePace is a sports training app that learns how you actually play from short clips of your matches or scrimmages, then builds micro-drills that target the exact habits costing you performance. Instead of generic conditioning plans, it analyzes movement tempo, decision timing, recovery gaps, and fatigue patterns to spot issues like late closeouts, rushed shots, or dropped intensity after substitutions. The app helps athletes fit meaningful training into daily life by turning 8- to 15-minute windows into highly specific workouts that match their current game demands. For example, a soccer midfielder can upload a Saturday match clip and receive a Monday drill set for quicker first-touch turns under pressure, while a basketball guard might get a post-game recovery routine designed to restore explosiveness after heavy minutes. What makes PulsePace unique is that it pairs performance diagnostics with calendar-aware training, so it adapts drills based on upcoming games, commute time, sleep, and soreness. It also tracks whether corrections show up in the next real session, creating a feedback loop that measures in-game improvement rather than just workout completion.",
+  "features": [
+    "It turns uploaded game clips into personalized performance insights by detecting timing, positioning, and effort patterns that ordinary fitness apps miss.",
+    "It generates micro-drill workouts based on the exact mistake or weakness it identifies, making training practical for busy athletes who only have a few minutes.",
+    "It adjusts daily training intensity using upcoming fixtures, sleep, soreness, and schedule constraints so athletes can improve without overtraining.",
+    "It compares repeated clips over time to show whether specific habits are actually changing in real play, not just in drills.",
+    "It sends context-aware prompts before games and practices, such as a pre-match warmup focused on first-step acceleration or defensive reactions."
+  ],
+  "audience": "Competitive youth and amateur athletes ages 14-35, especially those balancing school, work, or family with regular practices and games. It is also useful for coaches and trainers who need fast, individualized feedback without building every plan from scratch.",
+  "category": "sports",
+  "useCases": [
+    "A high school basketball guard finishes practice and uploads a two-minute highlight reel because she keeps getting beat on closeouts; the app returns a 12-minute drill sequence that targets reaction timing and hip angles before tomorrow\u2019s game.",
+    "A weekend soccer player who works a 9-to-5 opens the app at lunch and gets a compact session tailored to his heavy legs and a league match on Sunday, so he can stay sharp without draining himself after work.",
+    "A tennis player reviews a rainy tournament match and sees that her serve speed drops after long rallies; she uses the app\u2019s recovery-and-power plan that evening to prepare for the next round."
+  ]
+}

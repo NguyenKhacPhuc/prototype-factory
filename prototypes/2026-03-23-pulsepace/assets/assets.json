@@ -1,0 +1,34 @@
+{
+  "appName": "PulsePace",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#6C63FF",
+    "secondary": "#4ECDC4",
+    "background": "#0A0A0F",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-left",
+    "arrow-right",
+    "battery",
+    "check",
+    "chevron-right",
+    "home",
+    "log-out",
+    "moon",
+    "pause",
+    "play",
+    "settings",
+    "signal",
+    "sun",
+    "trending-up",
+    "upload",
+    "video",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 19,
+  "fontFileCount": 0
+}
