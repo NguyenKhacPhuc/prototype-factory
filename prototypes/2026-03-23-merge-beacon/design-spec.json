@@ -1,0 +1,12 @@
+{
+  "appName": "Merge Beacon",
+  "tagline": "See your codebase like a living map.",
+  "designSystem": {
+    "primaryColor": "#00d4ff",
+    "secondaryColor": "#9b5de5",
+    "backgroundColor": "#050c1a",
+    "fontFamily": "Space Grotesk",
+    "style": "HUD/Sci-Fi FUI with Dark OLED — electric cyan and violet accents on deep navy, precision grid overlays, glowing node indicators, and clinical data typography evoking a GPS navigation system for code"
+  },
+  "screens": ["home", "map", "tickets", "alerts", "settings"]
+}

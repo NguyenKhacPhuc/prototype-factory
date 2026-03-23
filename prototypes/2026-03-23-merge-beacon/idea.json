@@ -1,0 +1,19 @@
+{
+  "name": "Merge Beacon",
+  "tagline": "See your codebase like a living map.",
+  "description": "Merge Beacon turns a messy codebase into an interactive, GPS-like map for developers navigating large projects. It analyzes repository structure, recent commits, file ownership, and dependency paths to answer the questions that usually cost teams the most time: \"Where do I change this safely?\", \"Who knows this area?\", and \"What will this break?\" Instead of digging through grep results and stale documentation, users can tap a feature or bug ticket and instantly see the likely files, impacted services, and maintainers. For daily work, this means faster onboarding, safer refactors, and fewer late-night surprises after merging changes. A mobile-first interface lets engineers check architectural context from anywhere\u2014during standups, in a cab before a deploy, or while reviewing a pull request on the go. What makes it unique is its visual impact tracing engine, which combines commit history, runtime telemetry, and code ownership into a single explorable map rather than a static dashboard or search tool.",
+  "features": [
+    "The app generates a live dependency map that shows how modules, APIs, and services connect, so developers can understand impact before touching code.",
+    "It highlights probable code owners and experts based on recent changes, making it easier to know who to ask when a file or service is unfamiliar.",
+    "It traces a proposed edit through the repository to estimate blast radius, helping teams avoid regressions during refactors and urgent fixes.",
+    "It converts Jira, Linear, or GitHub issue text into likely code hotspots, saving time when developers start work on an unfamiliar ticket.",
+    "It sends mobile-friendly deployment and change alerts that summarize what was modified, why it matters, and which parts of the system deserve a quick sanity check."
+  ],
+  "audience": "Software engineers, tech leads, and on-call developers working on mid-size to large codebases, especially those in remote or fast-moving teams. It is especially useful for people onboarding to a new repo or jumping between services under time pressure.",
+  "category": "developer tools",
+  "useCases": [
+    "Sarah just joined a backend team and needs to fix a payment bug in a codebase she barely knows; she opens Merge Beacon to find the service boundaries, the likely owner, and the safest files to edit. Within minutes, she understands where the logic lives instead of spending an hour hunting through the repository.",
+    "Andre is about to merge a refactor before the release freeze and wants to avoid breaking analytics downstream; he uses the app to trace the changed files through dependent services and sees which dashboards and APIs might be affected. That quick review helps him narrow the risk and add the right tests.",
+    "Mina is on call at 11:30 p.m. and gets an alert that a recent deploy changed authentication behavior; she opens Merge Beacon on her phone to see the exact commit, impacted routes, and the teammates most likely to know the area. She can triage the incident immediately without waiting to get back to her laptop."
+  ]
+}

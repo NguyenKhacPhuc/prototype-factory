@@ -1,0 +1,39 @@
+{
+  "appName": "Merge Beacon",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#00d4ff",
+    "secondary": "#9b5de5",
+    "background": "#050c1a",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "arrow-right",
+    "battery",
+    "bell",
+    "check-circle",
+    "chevron-right",
+    "code",
+    "crosshair",
+    "git-branch",
+    "home",
+    "log-out",
+    "map",
+    "moon",
+    "search",
+    "send",
+    "settings",
+    "signal",
+    "sliders",
+    "sun",
+    "tag",
+    "user",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 24,
+  "fontFileCount": 0
+}
