@@ -1,0 +1,19 @@
+{
+  "appName": "PulsePatch",
+  "tagline": "Turn stress into movement",
+  "designSystem": {
+    "primaryColor": "#00E8B4",
+    "secondaryColor": "#7C6FF5",
+    "accentColor": "#FF6E4A",
+    "backgroundColor": "#080C14",
+    "surfaceColor": "#0E1625",
+    "fontFamily": "Space Grotesk",
+    "style": "HUD/Sci-Fi FUI meets Dark Mode OLED — biometric data dashboard with vibrant electric-mint accent, deep navy-black backgrounds, subtle card layering, and motion-driven micro-interactions. Conveys intelligent, science-backed wellness without clinical coldness."
+  },
+  "screens": [
+    "home",
+    "moves",
+    "insights",
+    "profile"
+  ]
+}

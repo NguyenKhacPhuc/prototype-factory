@@ -1,0 +1,19 @@
+{
+  "name": "PulsePatch",
+  "tagline": "Turn stress into movement",
+  "description": "PulsePatch is a just-in-time health app that detects when your body is drifting into sedentary stress patterns and gives you tiny, personalized movement resets before they snowball into fatigue, stiffness, or burnout. It combines wearable signals, calendar context, and phone behavior to spot moments when you\u2019re not just sitting too long, but likely becoming mentally stuck too. Instead of generic workout reminders, it suggests ultra-specific interventions like a 90-second desk mobility sequence after three back-to-back meetings or a hallway walking loop when your heart rate is elevated but your activity is flat. The app solves a real modern problem: people know exercise is important, but they struggle to interrupt fragmented workdays in ways that actually feel doable. In daily life, it helps users recover energy during busy work shifts, reduce neck and back tension from laptop use, and build more movement into routines without needing a gym session. What makes it unique is that it behaves like a real-time \u201cmovement triage\u201d system, adapting prompts to your physical state, location, and schedule rather than asking you to commit to broad wellness goals. Over time, it learns which micro-resets improve your mood, focus, and soreness most, turning your own data into a personalized anti-burnout playbook.",
+  "features": [
+    "The app reads wearable and phone signals to detect when your body shows signs of prolonged stillness mixed with rising stress, so it can intervene at the right moment instead of sending random reminders.",
+    "It generates micro-movement prescriptions that match your environment, such as a two-minute kitchen stretch sequence at home or a quiet seated reset in an office meeting room, which makes the advice practical and realistic.",
+    "It builds a personal trigger map from your schedule and habits, helping you discover patterns like post-lunch energy crashes or late-afternoon desk stiffness that you can actually act on.",
+    "It offers guided \u201cmovement snacks\u201d that take under three minutes and are designed to improve circulation, posture, and focus without requiring workout clothes or special equipment.",
+    "It tracks which mini-interventions reduce stress, pain, and sluggishness most effectively, so the app becomes more personalized and useful over time."
+  ],
+  "audience": "Busy professionals, remote workers, and caregivers ages 25\u201350 who spend long periods sitting, switching between tasks, or working under stress. It is especially useful for people who want better energy and less tension but cannot realistically follow rigid workout schedules.",
+  "category": "health & fitness",
+  "useCases": [
+    "Sarah just finished a stressful two-hour meeting block and notices her shoulders are tight and her attention is fading. PulsePatch suggests a 90-second shoulder-opening sequence plus a quick stair lap before her next call.",
+    "Marcus works from home and keeps forgetting to move until his lower back starts aching. The app detects his afternoon stillness pattern and nudges him into a short hallway walk and hip reset at the time he is most likely to actually do it.",
+    "Aisha is a nurse on a long shift and only has tiny windows between patients to recover. PulsePatch recommends discreet standing calf raises, breathing paired with posture resets, and brief walk routes that fit her exact break timing."
+  ]
+}

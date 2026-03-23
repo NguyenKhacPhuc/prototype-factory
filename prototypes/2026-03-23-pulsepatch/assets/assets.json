@@ -1,0 +1,18 @@
+{
+  "appName": "PulsePatch",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#00E8B4",
+    "secondary": "#7C6FF5",
+    "background": "#080C14",
+    "accent": "#FF6E4A"
+  },
+  "icons": [
+    "home",
+    "user",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 3,
+  "fontFileCount": 0
+}
