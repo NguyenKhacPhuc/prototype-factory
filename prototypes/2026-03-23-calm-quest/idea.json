@@ -1,0 +1,19 @@
+{
+  "name": "Calm Quest",
+  "tagline": "Turn daily meltdowns into tiny missions.",
+  "description": "Calm Quest is a child-friendly emotional regulation app that helps kids aged 4\u201310 navigate big feelings through short, interactive adventures instead of generic breathing exercises. When a child feels upset, overstimulated, or stuck in a transition, the app turns the moment into a personalized mini-mission such as \"Pack the worry clouds,\" \"Help the sleepy robot reset,\" or \"Find the brave color.\" It solves a real daily problem for parents and teachers: kids often know they are upset but do not yet have the language or tools to calm themselves quickly. The app uses visual prompts, voice guidance, and simple choices to help children identify what they feel, what caused it, and what to do next, like asking for a break, taking three body shakes, or getting a comforting object. In everyday life, it can be used after a tantrum at home, before school drop-off, after playground conflict, or during classroom overstimulation. What makes it unique is that it blends emotional coaching with playful storytelling and real-time reset tools, so the child is not just distracted but actually guided through the exact situation they are in.",
+  "features": [
+    "Emotion missions transform a child\u2019s current mood into a short story-driven task that makes calming down feel like play, not correction.",
+    "Voice-guided check-ins let kids tap or speak how they feel using simple visuals, which helps children who cannot yet explain their emotions well.",
+    "Situation-specific resets suggest age-appropriate actions like a water break, stretch break, apology practice, or quiet corner routine based on the trigger.",
+    "Parent and caregiver prompts explain what the child is likely experiencing and offer a matching response script, which helps adults respond consistently.",
+    "Progress maps celebrate patterns like \"you recovered faster today\" so children build confidence in their ability to handle big feelings over time."
+  ],
+  "audience": "Parents, guardians, and elementary school teachers of children ages 4\u201310 who need help with emotional regulation, transitions, tantrums, and sensory overload. It is especially useful for families with neurodivergent children, anxious children, or kids adjusting to new routines.",
+  "category": "kids",
+  "useCases": [
+    "Maya just got home from preschool crying because her block tower fell apart, and her dad opens Calm Quest to guide her through a \"repair mission\" that helps her name her frustration and try again without another meltdown.",
+    "Jordan\u2019s teacher notices he is getting overwhelmed during a noisy indoor recess, so she opens the app\u2019s quick reset mode and gives him a three-minute \"quiet astronaut\" mission that helps him return to class calmer.",
+    "Ari is melting down before school because the morning routine changed, and his mom uses the app\u2019s transition support to walk him through a visual countdown, a reassurance script, and a choose-one calming action before leaving the house."
+  ]
+}

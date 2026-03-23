@@ -1,0 +1,12 @@
+{
+  "appName": "Calm Quest",
+  "tagline": "Turn daily meltdowns into tiny missions.",
+  "designSystem": {
+    "primaryColor": "#9B6BFF",
+    "secondaryColor": "#22D3EE",
+    "backgroundColor": "#0C0820",
+    "fontFamily": "Nunito",
+    "style": "Playful dark-first mobile app with vibrant purple accent, soft rounded cards, emoji-rich UI, gentle gradients, and child-friendly micro-interactions designed for kids 4–10 and their caregivers"
+  },
+  "screens": ["home", "quest", "progress", "guide", "settings"]
+}

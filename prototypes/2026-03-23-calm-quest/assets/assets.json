@@ -1,0 +1,20 @@
+{
+  "appName": "Calm Quest",
+  "fontFamily": "Nunito",
+  "colors": {
+    "primary": "#9B6BFF",
+    "secondary": "#22D3EE",
+    "background": "#0C0820",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "heart",
+    "home",
+    "settings",
+    "sparkles",
+    "star"
+  ],
+  "fonts": [],
+  "iconCount": 5,
+  "fontFileCount": 0
+}
