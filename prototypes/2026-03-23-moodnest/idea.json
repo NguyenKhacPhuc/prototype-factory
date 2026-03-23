@@ -1,0 +1,19 @@
+{
+  "name": "MoodNest",
+  "tagline": "Shape your space around your state.",
+  "description": "MoodNest helps people adapt their living space to their current emotional, social, and practical needs using tiny, purposeful environmental changes. Instead of generic mood tracking, the app asks how you feel and what you\u2019re about to do, then suggests precise adjustments like lighting warmth, soundscapes, scent prompts, object placement, and room layout tweaks that take under five minutes. It solves the daily friction of feeling stuck, overstimulated, unmotivated, or disconnected at home by turning your environment into an active support system. For example, after a difficult work call, it might guide a user to create a \"reset corner\" with a lamp angle, calming audio, and a visible water bottle; before hosting friends, it may recommend a quick setup to make the room feel more welcoming; and on low-energy mornings, it can suggest a smaller \u201cstarter zone\u201d that reduces overwhelm and helps users begin. The app is unique because it combines emotional check-ins with spatial coaching, making home optimization personal and situational rather than purely aesthetic or productivity-focused. Over time, it learns which environmental changes reliably improve focus, calm, sleepiness, or sociability for each user, building a customized playbook for better everyday living.",
+  "features": [
+    "A fast check-in captures your current mood, energy, and goal, then translates that into a practical room adjustment plan you can complete in minutes.",
+    "The app creates personalized space recipes such as 'calm after work' or 'focus for 25 minutes' that combine lighting, sound, scent, and clutter fixes into one guided routine.",
+    "MoodNest learns from your feedback and tracks which micro-changes actually improve your day, so its recommendations become more accurate and personal over time.",
+    "A room-scanner mode uses your camera to suggest low-effort layout improvements, like moving a chair, clearing a surface, or changing where you sit to reduce stress or increase focus.",
+    "Shared household modes let roommates or partners coordinate environment changes without conflict by proposing compromise setups for sleep, guests, cleaning, or quiet time."
+  ],
+  "audience": "Busy adults ages 22\u201345 living in apartments, shared homes, or small spaces who want their environment to support focus, calm, and routines. It is especially useful for remote workers, neurodivergent users, and people who feel emotionally impacted by clutter, lighting, or noise.",
+  "category": "lifestyle",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to stop carrying that tension into the rest of her evening. She opens MoodNest, taps 'decompress,' and gets a three-minute reset plan for her living room.",
+    "Marcus works from a studio apartment and needs to switch from lunch mode to deep work without rearranging his whole life. He uses the app to create a temporary focus zone by adjusting lamp brightness, moving a chair, and starting a concentration soundscape.",
+    "Priya is expecting friends in 20 minutes and wants her place to feel warm without cleaning for an hour. MoodNest suggests a quick hospitality setup that prioritizes lighting, seating, and visible surfaces for an inviting first impression."
+  ]
+}

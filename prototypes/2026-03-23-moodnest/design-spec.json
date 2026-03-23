@@ -1,0 +1,12 @@
+{
+  "appName": "MoodNest",
+  "tagline": "Shape your space around your state.",
+  "designSystem": {
+    "primaryColor": "#7C6AF5",
+    "secondaryColor": "#4ECDC4",
+    "backgroundColor": "#0D0F14",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first spatial wellness app with deep navy backgrounds, vibrant violet primary accents, and teal/amber complementary colors. Glassmorphic cards with subtle borders, gradient CTAs, pill badges, and smooth micro-interactions. Mobile-first phone frame with Dynamic Island and clean bottom navigation."
+  },
+  "screens": ["home", "checkin", "recipes", "insights", "settings"]
+}

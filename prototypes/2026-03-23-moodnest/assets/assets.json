@@ -1,0 +1,19 @@
+{
+  "appName": "MoodNest",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C6AF5",
+    "secondary": "#4ECDC4",
+    "background": "#0D0F14",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "book-open",
+    "home",
+    "settings",
+    "sparkles"
+  ],
+  "fonts": [],
+  "iconCount": 4,
+  "fontFileCount": 0
+}
