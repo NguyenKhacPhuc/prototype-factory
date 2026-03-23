@@ -1,0 +1,19 @@
+{
+  "name": "PulseMap",
+  "tagline": "News, filtered by what affects you",
+  "description": "PulseMap turns the firehose of daily news into a personal impact brief based on your location, job, routines, and upcoming plans. Instead of flooding you with headlines, it identifies which stories could change your commute, bills, health, schedule, or safety, then explains exactly why they matter in plain language. A user might wake up to see that a nearby transit strike could delay their train, a local policy change could affect childcare costs, or an extreme weather alert could alter their afternoon plans. The app goes beyond summaries by mapping each story to your actual life context, such as your neighborhood, employer type, travel calendar, and saved interests. It is especially useful when users are busy and need to know what to do, not just what happened. What makes it unique is that it combines news, personal planning, and location-aware relevance into one adaptive feed that feels like a smart assistant for staying informed without overwhelm.",
+  "features": [
+    "The app builds a personal relevance graph from your location, calendar, commute patterns, and topics you care about, so it can rank stories by real-world impact instead of generic popularity.",
+    "Each news item includes a 'why this matters to you' explanation that translates complex events into practical consequences, such as higher grocery prices, longer travel times, or school closures.",
+    "A live impact map highlights nearby events, outages, and policy changes, helping users quickly see whether a story is urgent, local, or simply informative.",
+    "The app generates action prompts like rescheduling a trip, checking a parking restriction, or carrying an umbrella, which helps users respond to news instead of passively consuming it.",
+    "A daily 60-second briefing consolidates only the most relevant updates into a calm, readable summary, which matters because it reduces news fatigue while keeping users prepared."
+  ],
+  "audience": "Busy professionals, parents, commuters, and city dwellers ages 18\u201355 who want news that connects directly to daily decisions. It is especially valuable for people living in fast-changing urban areas or managing packed schedules.",
+  "category": "news",
+  "useCases": [
+    "Maya just woke up late and wants to know if her subway line is delayed, whether the weather will affect her commute, and if there is any local event that could change parking near her office.",
+    "Andre is planning a weekend trip and opens the app to check for airport disruptions, travel advisories, and destination-specific political or weather news that might affect his plans.",
+    "Elena is picking up her kids after work and wants to see if there is a school-related alert, neighborhood safety update, or policy change that could affect childcare pickup time."
+  ]
+}

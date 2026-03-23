@@ -1,0 +1,12 @@
+{
+  "appName": "PulseMap",
+  "tagline": "News, filtered by what affects you",
+  "designSystem": {
+    "primaryColor": "#4F6EF7",
+    "secondaryColor": "#FF6B35",
+    "backgroundColor": "#F0F4FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean modern news app with a personal impact focus. Vibrant blue primary palette with warm orange accents. Card-based layout with subtle depth, pill tags for urgency levels, and gradient hero sections. Light/dark dual theme with full palette support."
+  },
+  "screens": ["home", "map", "briefing", "profile"]
+}

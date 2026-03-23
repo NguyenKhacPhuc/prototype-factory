@@ -1,0 +1,41 @@
+{
+  "appName": "PulseMap",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#4F6EF7",
+    "secondary": "#FF6B35",
+    "background": "#F0F4FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "activity",
+    "alert-circle",
+    "alert-triangle",
+    "arrow-right",
+    "battery",
+    "bell",
+    "calendar",
+    "check",
+    "chevron-right",
+    "clock",
+    "cloud-rain",
+    "dollar-sign",
+    "home",
+    "map",
+    "map-pin",
+    "moon",
+    "pause",
+    "play",
+    "signal",
+    "sun",
+    "train",
+    "trending-up",
+    "user",
+    "wifi",
+    "wind",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 26,
+  "fontFileCount": 0
+}
