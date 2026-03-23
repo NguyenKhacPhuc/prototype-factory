@@ -1,0 +1,38 @@
+{
+  "appName": "ShelfSense",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#4F8EF7",
+    "secondary": "#10D9A0",
+    "background": "#F5F6FA",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "battery",
+    "bell",
+    "box",
+    "calendar",
+    "camera",
+    "check",
+    "chevron-right",
+    "clock",
+    "help-circle",
+    "home",
+    "log-out",
+    "minus",
+    "moon",
+    "package",
+    "plus",
+    "scan-line",
+    "shopping-cart",
+    "sun",
+    "trending-down",
+    "users",
+    "wallet",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 23,
+  "fontFileCount": 0
+}

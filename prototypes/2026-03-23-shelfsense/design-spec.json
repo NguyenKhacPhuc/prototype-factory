@@ -1,0 +1,12 @@
+{
+  "appName": "ShelfSense",
+  "tagline": "Shop only what fits, needed now.",
+  "designSystem": {
+    "primaryColor": "#4F8EF7",
+    "secondaryColor": "#10D9A0",
+    "backgroundColor": "#F5F6FA",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean modern mobile UI with glassmorphic accents, vibrant blue-teal palette, card-based layout, and AR scanning dark theme"
+  },
+  "screens": ["home", "scan", "lists", "spaces", "settings"]
+}

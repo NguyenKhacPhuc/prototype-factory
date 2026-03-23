@@ -1,0 +1,19 @@
+{
+  "name": "ShelfSense",
+  "tagline": "Shop only what fits, needed now.",
+  "description": "ShelfSense helps shoppers buy groceries and household items that actually fit into their real-world space, budget, and routines. The app lets users scan a pantry, fridge, closet, or under-sink area with their phone camera to estimate usable storage, then recommends shopping lists and product sizes that match those limits. It solves the common problem of overbuying things that clutter homes, expire before use, or arrive in awkward package sizes that don\u2019t work for small apartments and shared households. In daily life, it helps a busy parent avoid ordering a giant detergent jug that won\u2019t fit in a narrow laundry cabinet, or helps a student living in a studio choose the right amount of rice, paper towels, and toiletries for two weeks instead of two months. A key use case is meal planning: the app suggests grocery quantities based on what is already visible on shelves, so users don\u2019t duplicate items they already have. Another is household restocking, where it warns when a bulk purchase will exceed storage space or budget, then offers smarter alternatives like two medium packs instead of one oversized one. What makes ShelfSense unique is that it connects shopping decisions to physical reality, not just price or preferences, turning the phone into a space-aware shopping assistant rather than a generic cart builder.",
+  "features": [
+    "The app scans storage spaces with augmented reality and estimates how much room is actually available, so users can shop based on capacity instead of guessing.",
+    "It generates shopping recommendations in exact sizes and quantities that fit the user\u2019s shelves, cabinets, or fridge, which reduces clutter and wasted purchases.",
+    "ShelfSense tracks visible household inventory from quick camera scans, helping users avoid duplicate buys and remember what they already own.",
+    "The app compares multiple product package sizes against both cost and storage efficiency, making it easier to choose the best option for a small home or shared living space.",
+    "It creates space-aware restock alerts for frequently used items, so users get timely reminders before essentials run out without encouraging unnecessary bulk buying."
+  ],
+  "audience": "Urban renters, college students, young families, and small-household shoppers who manage limited storage and tight budgets. It is especially useful for people living in apartments, shared homes, or compact city spaces.",
+  "category": "shopping",
+  "useCases": [
+    "Maya just moved into a studio apartment and wants to buy cleaning supplies without filling the only cabinet in her kitchen. She opens ShelfSense, scans the cabinet, and picks a smaller detergent bottle that will fit beside her other essentials.",
+    "Daniel is planning a week of lunches for work and needs groceries that won\u2019t go bad before he finishes them. He uses the app to see what is already in his fridge and gets a list sized exactly for five days, not a bulk supermarket haul.",
+    "Aisha and her roommate are sharing toiletries and pantry items but keep accidentally buying duplicates. Before their weekend shop, they scan their bathroom shelf and pantry, and ShelfSense tells them they already have enough pasta and toothpaste for another two weeks."
+  ]
+}
