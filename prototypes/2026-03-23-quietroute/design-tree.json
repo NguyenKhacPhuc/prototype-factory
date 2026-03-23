@@ -1,0 +1,399 @@
+{
+  "version": 1,
+  "appName": "QuietRoute",
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "fonts": [
+    "Sora / DM Sans"
+  ],
+  "designTokens": {},
+  "root": {
+    "type": "frame",
+    "name": "div",
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 812,
+    "styles": {
+      "backgroundColor": "rgb(7, 9, 15)",
+      "borderRadius": 52,
+      "overflow": "hidden",
+      "display": "flex",
+      "flexDirection": "column",
+      "justifyContent": "normal",
+      "alignItems": "normal"
+    },
+    "children": [
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 50,
+        "styles": {
+          "backgroundColor": "rgb(7, 9, 15)",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "alignItems": "center",
+          "paddingTop": 6,
+          "paddingRight": 16,
+          "paddingLeft": 22
+        },
+        "children": [
+          {
+            "type": "text",
+            "name": "span",
+            "x": 22,
+            "y": 19,
+            "width": 54,
+            "height": 18,
+            "styles": {},
+            "textContent": "4:33 PM",
+            "textStyles": {
+              "fontFamily": "DM Sans",
+              "fontSize": 14,
+              "fontWeight": 700,
+              "color": "rgb(236, 240, 255)"
+            },
+            "children": []
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 129,
+            "y": 8,
+            "width": 118,
+            "height": 32,
+            "styles": {
+              "backgroundColor": "rgb(0, 0, 0)",
+              "borderRadius": 20
+            },
+            "children": []
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 278,
+            "y": 20,
+            "width": 81,
+            "height": 16,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 5
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 0,
+                "y": 2,
+                "width": 13,
+                "height": 13,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ECF0FF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-wifi\" aria-hidden=\"true\"><path d=\"M12 20h.01\"/><path d=\"M2 8.82a15 15 0 0 1 20 0\"/><path d=\"M5 12.859a10 10 0 0 1 14 0\"/><path d=\"M8.5 16.429a5 5 0 0 1 7 0\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 18,
+                "y": 2,
+                "width": 13,
+                "height": 13,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ECF0FF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-signal\" aria-hidden=\"true\"><path d=\"M2 20h.01\"/><path d=\"M7 20v-4\"/><path d=\"M12 20v-8\"/><path d=\"M17 20V8\"/><path d=\"M22 4v16\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "text",
+                "name": "span",
+                "x": 36,
+                "y": 1,
+                "width": 24,
+                "height": 14,
+                "styles": {},
+                "textContent": "94%",
+                "textStyles": {
+                  "fontFamily": "DM Sans",
+                  "fontSize": 11,
+                  "fontWeight": 700,
+                  "color": "rgb(236, 240, 255)"
+                },
+                "children": []
+              },
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 65,
+                "y": 0,
+                "width": 16,
+                "height": 16,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ECF0FF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-battery\" aria-hidden=\"true\"><path d=\"M 22 14 L 22 10\"/><rect x=\"2\" y=\"6\" width=\"16\" height=\"12\" rx=\"2\"/></svg>",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 0,
+        "y": 50,
+        "width": 375,
+        "height": 762,
+        "styles": {
+          "overflow": "hidden"
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "screen-in",
+            "x": 0,
+            "y": 0,
+            "width": 375,
+            "height": 762,
+            "styles": {
+              "backgroundColor": "rgb(7, 9, 15)",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "paddingTop": 32,
+              "paddingRight": 28,
+              "paddingBottom": 28,
+              "paddingLeft": 28
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 28,
+                "y": 32,
+                "width": 319,
+                "height": 604,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "gap": 30
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 86,
+                    "y": 132,
+                    "width": 148,
+                    "height": 148,
+                    "styles": {
+                      "backgroundColor": "rgba(0, 217, 180, 0.1)",
+                      "borderRadius": 48,
+                      "borderWidth": 1,
+                      "borderColor": "rgba(0, 217, 180, 0.208)",
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 40,
+                        "y": 40,
+                        "width": 68,
+                        "height": 68,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"68\" height=\"68\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#00D9B4\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-leaf\" aria-hidden=\"true\"><path d=\"M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z\"/><path d=\"M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 0,
+                    "y": 312,
+                    "width": 319,
+                    "height": 120,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "h1",
+                        "x": 0,
+                        "y": 0,
+                        "width": 319,
+                        "height": 34,
+                        "styles": {},
+                        "textContent": "Find Your Calm Path",
+                        "textStyles": {
+                          "fontFamily": "Sora",
+                          "fontSize": 28,
+                          "fontWeight": 800,
+                          "color": "rgb(236, 240, 255)",
+                          "textAlign": "center",
+                          "lineHeight": 33.6,
+                          "letterSpacing": -0.56
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "name": "p",
+                        "x": 0,
+                        "y": 46,
+                        "width": 319,
+                        "height": 74,
+                        "styles": {},
+                        "textContent": "Navigate cities based on sensory comfort — not just distance. Quieter streets, better lighting, calmer air. Every walk on your terms.",
+                        "textStyles": {
+                          "fontFamily": "DM Sans",
+                          "fontSize": 15,
+                          "fontWeight": 400,
+                          "color": "rgb(139, 162, 204)",
+                          "textAlign": "center",
+                          "lineHeight": 24.75
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 131,
+                    "y": 462,
+                    "width": 58,
+                    "height": 8,
+                    "styles": {
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "normal",
+                      "alignItems": "normal",
+                      "gap": 8
+                    },
+                    "children": [
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 0,
+                        "y": 0,
+                        "width": 26,
+                        "height": 8,
+                        "styles": {
+                          "backgroundColor": "rgb(0, 217, 180)",
+                          "borderRadius": 4
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 34,
+                        "y": 0,
+                        "width": 8,
+                        "height": 8,
+                        "styles": {
+                          "backgroundColor": "rgb(30, 45, 74)",
+                          "borderRadius": 4
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "frame",
+                        "name": "div",
+                        "x": 50,
+                        "y": 0,
+                        "width": 8,
+                        "height": 8,
+                        "styles": {
+                          "backgroundColor": "rgb(30, 45, 74)",
+                          "borderRadius": 4
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 28,
+                "y": 636,
+                "width": 319,
+                "height": 98,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "normal",
+                  "alignItems": "normal",
+                  "gap": 10
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "name": "button",
+                    "x": 0,
+                    "y": 0,
+                    "width": 319,
+                    "height": 54,
+                    "styles": {
+                      "backgroundColor": "rgba(0, 217, 180, 0.1)",
+                      "borderRadius": 18,
+                      "borderWidth": 1,
+                      "borderColor": "rgba(0, 217, 180, 0.25)"
+                    },
+                    "textContent": "Continue",
+                    "textStyles": {
+                      "fontFamily": "DM Sans",
+                      "fontSize": 16,
+                      "fontWeight": 700,
+                      "color": "rgb(0, 217, 180)",
+                      "textAlign": "center"
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "text",
+                    "name": "button",
+                    "x": 0,
+                    "y": 64,
+                    "width": 319,
+                    "height": 34,
+                    "styles": {
+                      "paddingTop": 8,
+                      "paddingRight": 8,
+                      "paddingBottom": 8,
+                      "paddingLeft": 8
+                    },
+                    "textContent": "Skip",
+                    "textStyles": {
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": 400,
+                      "color": "rgb(74, 94, 130)",
+                      "textAlign": "center"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

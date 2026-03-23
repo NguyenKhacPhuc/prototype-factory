@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "appName": "EchoLink",
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "fonts": [
+    "Sora"
+  ],
+  "designTokens": {},
+  "root": {
+    "type": "frame",
+    "name": "div",
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 812,
+    "styles": {
+      "backgroundColor": "rgb(8, 12, 26)",
+      "borderRadius": 50,
+      "borderWidth": 9,
+      "borderColor": "rgb(26, 26, 46)",
+      "overflow": "hidden"
+    },
+    "children": [
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 129,
+        "y": 21,
+        "width": 118,
+        "height": 34,
+        "styles": {
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": 20
+        },
+        "children": []
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 9,
+        "y": 9,
+        "width": 357,
+        "height": 56,
+        "styles": {
+          "backgroundColor": "rgb(8, 12, 26)",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "alignItems": "flex-end",
+          "paddingRight": 22,
+          "paddingBottom": 8,
+          "paddingLeft": 22
+        },
+        "children": [
+          {
+            "type": "text",
+            "name": "span",
+            "x": 22,
+            "y": 30,
+            "width": 29,
+            "height": 18,
+            "styles": {},
+            "textContent": "9:41",
+            "textStyles": {
+              "fontFamily": "Sora",
+              "fontSize": 14,
+              "fontWeight": 700,
+              "color": "rgb(239, 243, 255)"
+            },
+            "children": []
+          },
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 281,
+            "y": 32,
+            "width": 54,
+            "height": 16,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "normal",
+              "alignItems": "center",
+              "gap": 5
+            },
+            "children": [
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 0,
+                "y": 1,
+                "width": 14,
+                "height": 14,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EFF3FF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-signal\" aria-hidden=\"true\"><path d=\"M2 20h.01\"/><path d=\"M7 20v-4\"/><path d=\"M12 20v-8\"/><path d=\"M17 20V8\"/><path d=\"M22 4v16\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 19,
+                "y": 1,
+                "width": 14,
+                "height": 14,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EFF3FF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-wifi\" aria-hidden=\"true\"><path d=\"M12 20h.01\"/><path d=\"M2 8.82a15 15 0 0 1 20 0\"/><path d=\"M5 12.859a10 10 0 0 1 14 0\"/><path d=\"M8.5 16.429a5 5 0 0 1 7 0\"/></svg>",
+                "children": []
+              },
+              {
+                "type": "svg",
+                "name": "svg",
+                "x": 38,
+                "y": 0,
+                "width": 16,
+                "height": 16,
+                "styles": {},
+                "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#EFF3FF\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-battery\" aria-hidden=\"true\"><path d=\"M 22 14 L 22 10\"/><rect x=\"2\" y=\"6\" width=\"16\" height=\"12\" rx=\"2\"/></svg>",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 9,
+        "y": 65,
+        "width": 357,
+        "height": 738,
+        "styles": {},
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 0,
+            "y": 0,
+            "width": 357,
+            "height": 738,
+            "styles": {
+              "backgroundColor": "rgb(8, 12, 26)",
+              "display": "flex",
+              "flexDirection": "column",
+              "justifyContent": "normal",
+              "alignItems": "normal",
+              "paddingRight": 24,
+              "paddingBottom": 32,
+              "paddingLeft": 24
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 24,
+                "y": 0,
+                "width": 309,
+                "height": 38,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
+                  "alignItems": "normal",
+                  "paddingTop": 12
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "name": "button",
+                    "x": 261,
+                    "y": 12,
+                    "width": 48,
+                    "height": 26,
+                    "styles": {
+                      "paddingTop": 4,
+                      "paddingRight": 8,
+                      "paddingBottom": 4,
+                      "paddingLeft": 8
+                    },
+                    "textContent": "Skip",
+                    "textStyles": {
+                      "fontFamily": "Sora",
+                      "fontSize": 14,
+                      "fontWeight": 400,
+                      "color": "rgb(125, 143, 171)",
+                      "textAlign": "center"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 24,
+                "y": 38,
+                "width": 309,
+                "height": 577,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "gap": 28
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 90,
+                    "y": 119,
+                    "width": 130,
+                    "height": 130,
+                    "styles": {
+                      "backgroundColor": "rgba(255, 77, 141, 0.094)",
+                      "borderRadius": 44,
+                      "borderWidth": 1,
+                      "borderColor": "rgba(255, 77, 141, 0.208)",
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                      "alignItems": "center"
+                    },
+                    "children": [
+                      {
+                        "type": "svg",
+                        "name": "svg",
+                        "x": 38,
+                        "y": 38,
+                        "width": 54,
+                        "height": 54,
+                        "styles": {},
+                        "svgString": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"54\" height=\"54\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#FF4D8D\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-radio\" aria-hidden=\"true\"><path d=\"M16.247 7.761a6 6 0 0 1 0 8.478\"/><path d=\"M19.075 4.933a10 10 0 0 1 0 14.134\"/><path d=\"M4.925 19.067a10 10 0 0 1 0-14.134\"/><path d=\"M7.753 16.239a6 6 0 0 1 0-8.478\"/><circle cx=\"12\" cy=\"12\" r=\"2\"/></svg>",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 10,
+                    "y": 277,
+                    "width": 290,
+                    "height": 182,
+                    "styles": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "name": "h1",
+                        "x": 0,
+                        "y": 0,
+                        "width": 290,
+                        "height": 69,
+                        "styles": {},
+                        "textContent": "Your moment, shared.",
+                        "textStyles": {
+                          "fontFamily": "Sora",
+                          "fontSize": 30,
+                          "fontWeight": 800,
+                          "color": "rgb(239, 243, 255)",
+                          "textAlign": "center",
+                          "lineHeight": 34.5
+                        },
+                        "children": []
+                      },
+                      {
+                        "type": "text",
+                        "name": "p",
+                        "x": 0,
+                        "y": 83,
+                        "width": 290,
+                        "height": 99,
+                        "styles": {},
+                        "textContent": "EchoLink finds people living the same real-world moment nearby — turning everyday friction into instant community.",
+                        "textStyles": {
+                          "fontFamily": "Sora",
+                          "fontSize": 15,
+                          "fontWeight": 400,
+                          "color": "rgb(125, 143, 171)",
+                          "textAlign": "center",
+                          "lineHeight": 24.75
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 24,
+                "y": 615,
+                "width": 309,
+                "height": 8,
+                "styles": {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "alignItems": "normal",
+                  "gap": 8
+                },
+                "children": [
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 125,
+                    "y": 0,
+                    "width": 28,
+                    "height": 8,
+                    "styles": {
+                      "backgroundColor": "rgb(255, 77, 141)",
+                      "borderRadius": 4
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 161,
+                    "y": 0,
+                    "width": 8,
+                    "height": 8,
+                    "styles": {
+                      "backgroundColor": "rgb(30, 46, 74)",
+                      "borderRadius": 4
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "frame",
+                    "name": "div",
+                    "x": 177,
+                    "y": 0,
+                    "width": 8,
+                    "height": 8,
+                    "styles": {
+                      "backgroundColor": "rgb(30, 46, 74)",
+                      "borderRadius": 4
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "name": "button",
+                "x": 24,
+                "y": 651,
+                "width": 309,
+                "height": 55,
+                "styles": {
+                  "backgroundGradient": [
+                    {
+                      "color": "rgb(255, 77, 141)",
+                      "position": 0
+                    },
+                    {
+                      "color": "rgba(255, 77, 141, 0.8)",
+                      "position": 1
+                    }
+                  ],
+                  "borderRadius": 18,
+                  "paddingTop": 17,
+                  "paddingRight": 17,
+                  "paddingBottom": 17,
+                  "paddingLeft": 17
+                },
+                "textContent": "Continue",
+                "textStyles": {
+                  "fontFamily": "Sora",
+                  "fontSize": 16,
+                  "fontWeight": 700,
+                  "color": "rgb(255, 255, 255)",
+                  "textAlign": "center"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
