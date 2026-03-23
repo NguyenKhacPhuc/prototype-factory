@@ -1,0 +1,30 @@
+{
+  "appName": "LaneShift",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#00D4FF",
+    "secondary": "#FF6B35",
+    "background": "#0A0E1A",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "award",
+    "battery",
+    "check-circle",
+    "chevron-right",
+    "clock",
+    "flame",
+    "map",
+    "map-pin",
+    "navigation",
+    "settings",
+    "swords",
+    "trophy",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 15,
+  "fontFileCount": 0
+}

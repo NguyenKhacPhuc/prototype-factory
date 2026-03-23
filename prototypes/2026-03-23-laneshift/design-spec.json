@@ -1,0 +1,12 @@
+{
+  "appName": "LaneShift",
+  "tagline": "Turn commute stress into street-smart racing.",
+  "designSystem": {
+    "primaryColor": "#00D4FF",
+    "secondaryColor": "#FF6B35",
+    "backgroundColor": "#0A0E1A",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark tactical UI with cyan and orange accents, map-inspired grid overlays, glowing card surfaces, and game-like score readouts — blending navigation app clarity with racing game energy"
+  },
+  "screens": ["home", "map", "rivals", "garage", "settings"]
+}

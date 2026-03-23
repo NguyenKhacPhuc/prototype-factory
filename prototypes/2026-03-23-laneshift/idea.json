@@ -1,0 +1,19 @@
+{
+  "name": "LaneShift",
+  "tagline": "Turn commute stress into street-smart racing.",
+  "description": "LaneShift is a racing game that transforms your real-world commute into a tactical, map-based driving challenge where you earn points for smarter route decisions, not speed. It solves the everyday problem of boring, frustrating traffic by turning bottlenecks, lane merges, and detours into short race missions that reward efficient, safe, and time-saving driving habits. During a daily drive, users can compete against their own historical commute times, complete micro-objectives like \"anticipate a merge without braking\" or \"find a faster alternate block,\" and see live feedback on how small choices affect their trip. A parent dropping kids off can turn a predictable school run into a 6-minute strategy session, while a commuter stuck in traffic can use the app to discover better reroutes and earn upgrades for perfect timing and lane discipline. What makes LaneShift unique is that it makes racing about route intelligence and composure instead of reckless acceleration, blending game mechanics with practical navigation. It is designed to help people arrive calmer, more aware, and often faster\u2014without asking them to break traffic rules or drive unsafely.",
+  "features": [
+    "Dynamic Route Races turn your actual daily paths into episodic races with changing objectives, so users stay engaged even on familiar routes and can improve their commute over time.",
+    "Traffic Tactics missions reward safe, real-world decisions like choosing the less congested lane early or taking a smart detour, which helps users save time without encouraging speeding.",
+    "Composure Scoring tracks braking smoothness, stop-and-go consistency, and route efficiency, giving drivers feedback that improves their driving habits and lowers stress.",
+    "Commute Rivals lets users race against their own previous best times, coworkers, or nearby friends on the same route, making routine trips feel social and competitive.",
+    "Recovery Boost challenges activate during delays or unexpected traffic jams, turning frustrating moments into short side quests that help users discover alternate routes and keep the experience fun."
+  ],
+  "audience": "Urban commuters, rideshare drivers, delivery workers, and parents who spend significant time in the car and want a more engaging, less stressful driving routine. It also appeals to casual mobile gamers who enjoy strategy, competition, and progress systems rooted in real life.",
+  "category": "game: racing",
+  "useCases": [
+    "Marcus leaves work late and sees the usual highway slowdown building up. He opens LaneShift to take a quick race mission that helps him choose the best alternate route before the jam gets worse.",
+    "Sarah just finished a stressful meeting and wants her drive home to feel less draining. She starts a commute race to beat her last Friday time while earning points for smooth, calm driving.",
+    "A food delivery driver is between orders and has 18 minutes to reach the next pickup. They use LaneShift to turn the trip into a time trial that rewards smart lane choices and efficient rerouting."
+  ]
+}
