@@ -1,0 +1,12 @@
+{
+  "appName": "BillBloom",
+  "tagline": "Turn bills into smarter spending",
+  "designSystem": {
+    "primaryColor": "#00E5BB",
+    "secondaryColor": "#8B5CF6",
+    "backgroundColor": "#07090F",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first finance app with vibrant teal accent, glassmorphic cards, gradient hero elements, and clean data-dense layouts. Warm amber and red used for warnings and price increases. Smooth transitions and micro-interaction press states throughout."
+  },
+  "screens": ["Home", "Calendar", "Insights", "Actions", "Settings"]
+}

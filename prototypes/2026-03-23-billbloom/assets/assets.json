@@ -1,0 +1,27 @@
+{
+  "appName": "BillBloom",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#00E5BB",
+    "secondary": "#8B5CF6",
+    "background": "#07090F",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "battery",
+    "calendar",
+    "chevron-right",
+    "home",
+    "moon",
+    "settings",
+    "signal",
+    "sun",
+    "trending-up",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 12,
+  "fontFileCount": 0
+}

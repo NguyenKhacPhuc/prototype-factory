@@ -1,0 +1,19 @@
+{
+  "name": "BillBloom",
+  "tagline": "Turn bills into smarter spending",
+  "description": "BillBloom is a mobile finance app that helps people understand, predict, and reduce the hidden cost of recurring expenses by turning every bill, subscription, and rate change into a live financial plan. Users connect accounts or forward invoices, and the app detects price creep, duplicate services, silent renewals, and unusual fee spikes across utilities, insurance, streaming, phone plans, and memberships. Instead of simply listing transactions, it explains how each bill affects monthly cash flow, shows likely future increases based on historical patterns, and suggests exact actions such as downgrading a plan, negotiating a better rate, or timing a cancellation before renewal. A commuter might discover their electric bill will jump next month due to seasonal usage, while a freelancer could see that overlapping cloud subscriptions are draining cash during a slow season. The app stands out by combining bill intelligence with behavioral prompts, so it not only shows what to cut but also when to act for the biggest savings. It also builds a personalized \u201cbill calendar\u201d that helps users avoid surprise charges and align expensive payments with paydays. Unlike generic budgeting apps, BillBloom is designed around the real-world problem of subscription sprawl and bill volatility, making everyday money decisions feel proactive instead of reactive.",
+  "features": [
+    "It automatically scans connected accounts, emails, and uploaded invoices to identify recurring charges, hidden fees, and duplicate services, which matters because many costly leaks are invisible until months later.",
+    "It forecasts upcoming bill amounts using seasonal patterns, past usage, and renewal dates so users can plan ahead instead of being surprised by a larger-than-expected payment.",
+    "It creates a bill calendar that syncs with paydays and cash-balance trends, helping users avoid overdrafts and know which expenses need attention first.",
+    "It generates personalized savings actions, such as suggesting the best time to cancel a subscription or highlighting a cheaper phone plan based on actual usage.",
+    "It sends negotiation and switch prompts with ready-made scripts and provider comparisons, making it easier for users to lower costs without spending hours researching."
+  ],
+  "audience": "Young professionals, freelancers, and budget-conscious families ages 22\u201345 who manage multiple subscriptions and variable monthly bills. It is especially useful for people with irregular income or tight cash flow who need clearer visibility into upcoming expenses.",
+  "category": "finance",
+  "useCases": [
+    "Sarah just got her water bill and wants to know whether the spike is normal or a leak. She opens BillBloom to compare the charge against her past usage and sees a forecast warning that her next bill may be even higher unless she checks outdoor sprinklers.",
+    "David is reviewing his monthly expenses during lunch and realizes he is paying for two music services, a premium cloud backup plan, and an old gym membership. BillBloom flags the overlap and shows exactly how much he could save by canceling the unused accounts before their renewal dates.",
+    "Maya is a freelance designer waiting on a client payment and needs to avoid overdrawing her account. She opens BillBloom to see which upcoming bills can be safely delayed, which are due before payday, and which subscriptions should be paused until cash flow improves."
+  ]
+}
