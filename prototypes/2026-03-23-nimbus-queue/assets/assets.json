@@ -1,0 +1,35 @@
+{
+  "appName": "Nimbus Queue",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#4B7BF5",
+    "secondary": "#7C5CF5",
+    "background": "#F2F5FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery-medium",
+    "bell",
+    "chevron-right",
+    "clock",
+    "help-circle",
+    "home",
+    "map-pin",
+    "message-square",
+    "moon",
+    "navigation",
+    "plus-circle",
+    "refresh-cw",
+    "search",
+    "settings",
+    "sliders",
+    "star",
+    "sun",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 20,
+  "fontFileCount": 0
+}

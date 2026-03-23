@@ -1,0 +1,19 @@
+{
+  "name": "Nimbus Queue",
+  "tagline": "Instantly tame every waiting line.",
+  "description": "Nimbus Queue is a smart queue companion that helps people avoid wasted time in physical lines by predicting crowd patterns, estimating true wait times, and letting users share their place when it matters. It solves the everyday frustration of arriving at a pharmacy, DMV, clinic, cafe, or service desk only to discover the line is far longer than expected. The app combines location-aware crowd sensing, community check-ins, and historical flow data to generate a live wait forecast and suggest the best time to arrive. Users can set a trip goal like \"pick up prescription in under 15 minutes\" and the app will recommend nearby windows, backup locations, and even the best route to minimize waiting. What makes it unique is that it does not just report a queue; it turns the queue into a manageable task by helping users decide whether to wait, leave, delegate, or come back later. For example, a parent can see that the grocery service desk will spike after 5 p.m., a commuter can time a lunch-hour passport appointment, and an older adult can reserve a virtual hold spot while walking over. Unlike generic maps or reservation tools, Nimbus Queue is built specifically around real-world waiting uncertainty and gives practical action steps instead of passive status updates.",
+  "features": [
+    "Live wait prediction combines user check-ins, store patterns, and time-of-day trends to estimate how long a line will actually take, so users can plan around delays instead of guessing.",
+    "Smart backup suggestions recommend nearby alternatives with shorter waits, which matters when a pharmacy counter or government office is unexpectedly crowded.",
+    "Queue reminders and departure alerts tell users when to leave, when to arrive, and when a queue is about to surge, reducing wasted trips and stressful standing around.",
+    "Shared spot handoff lets one person hold a place digitally for a family member or teammate when the venue allows it, which helps with errands, appointments, and multi-person tasks.",
+    "Wait history insights show recurring congestion by location and hour, enabling users to build better routines such as choosing Tuesday mornings over Friday afternoons."
+  ],
+  "audience": "Busy urban and suburban adults ages 18-65 who regularly deal with service lines, appointments, and errands, especially parents, commuters, caregivers, freelancers, and older adults. It is especially useful for people managing tight schedules or limited mobility who need reliable timing rather than just directions.",
+  "category": "utilities",
+  "useCases": [
+    "Sarah just finished a stressful meeting and needs to pick up a prescription before heading home. She opens Nimbus Queue, sees that her neighborhood pharmacy will peak in 20 minutes, and gets sent to a nearby branch with a much shorter wait.",
+    "Derek is trying to renew his ID during lunch break and cannot afford to stand in line for an hour. The app shows that the government office is quiet for the next 35 minutes, so he leaves immediately and arrives during the best window.",
+    "Mina is taking care of her father and wants to avoid a crowded clinic lobby. She uses the app to estimate the check-in line, holds a virtual queue spot from the parking lot, and only walks in when it is almost her turn."
+  ]
+}

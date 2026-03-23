@@ -1,0 +1,12 @@
+{
+  "appName": "Nimbus Queue",
+  "tagline": "Instantly tame every waiting line.",
+  "designSystem": {
+    "primaryColor": "#4B7BF5",
+    "secondaryColor": "#7C5CF5",
+    "backgroundColor": "#F2F5FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern glassmorphic cards with a vibrant indigo-violet gradient brand system, smooth rounded corners, and a data-dense but breathable layout optimized for at-a-glance queue decisions. Dual light/dark themes with cohesive blue-purple accent palette throughout."
+  },
+  "screens": ["Home", "Explore", "My Queue", "Insights", "Settings"]
+}
