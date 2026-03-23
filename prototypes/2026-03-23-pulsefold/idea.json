@@ -1,0 +1,19 @@
+{
+  "name": "PulseFold",
+  "tagline": "News tuned to your day.",
+  "description": "PulseFold is a newspaper and magazine app that turns overwhelming journalism into a time-aware, location-aware briefing you can actually use. It learns when you are commuting, in a meeting-heavy stretch, traveling, or winding down at night, then reshapes articles into formats that fit the moment: a 90-second audio rundown, a five-minute deep dive, or a visual explainer with only the most relevant context. The app solves the real problem of people missing important coverage because traditional feeds are too broad, too long, or poorly timed for daily life. For example, a parent heading to school drop-off might get local traffic, weather, and a city policy story that could affect pickup routes, while a consultant in between flights could receive a compact briefing on business, tech, and destination headlines. Its standout feature is \u201ccontext windows,\u201d which pair journalism with your schedule and habits so every issue feels like a personalized front page rather than a noisy infinite scroll. Unlike typical news aggregators, PulseFold does not just recommend topics; it curates the reading experience itself around the user\u2019s real-world moment. It makes newspapers feel timely again while keeping the depth, credibility, and editorial voice people want from magazines.",
+  "features": [
+    "Context Windows detect your routine and automatically assemble editions for commuting, working, traveling, or relaxing so the right type of content appears at the right time.",
+    "Story Compression lets users switch any article between summary, standard, and deep-dive modes, which matters because it saves time without losing meaning when attention is limited.",
+    "Local Impact Labels explain how each major story could affect your neighborhood, budget, commute, or schedule, helping readers understand why news matters to them personally.",
+    "Adaptive Audio Editions convert selected stories into natural-sounding briefings with chapter markers and skip controls, making it easy to stay informed while driving, cooking, or exercising.",
+    "Issue Builder lets users save articles into a custom daily or weekly magazine that can be revisited offline, turning scattered headlines into a coherent personal publication."
+  ],
+  "audience": "Busy adults ages 22\u201355 who want high-quality journalism but struggle to keep up during fragmented days. It is especially useful for commuters, professionals, frequent travelers, and parents who need news to fit into short windows of attention.",
+  "category": "magazines & newspapers",
+  "useCases": [
+    "Sarah just finished a stressful meeting and wants to catch up quickly before her next call. She opens PulseFold and gets a five-minute briefing of the top business stories plus one local transit update that could affect her commute home.",
+    "Dev is on a morning train and only has one earbud in. He launches an audio edition that summarizes three major headlines, then taps one story to expand into a deeper magazine-style analysis when he arrives at the office.",
+    "Mina is planning a weekend budget after seeing a new city policy headline. She opens the app to view the article with a local impact label and learns exactly how the change may affect parking fees and neighborhood events."
+  ]
+}

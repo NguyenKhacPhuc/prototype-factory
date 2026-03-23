@@ -1,0 +1,12 @@
+{
+  "appName": "PulseFold",
+  "tagline": "News tuned to your day.",
+  "designSystem": {
+    "primaryColor": "#E8455A",
+    "secondaryColor": "#F5892A",
+    "backgroundColor": "#F5F1EB",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Editorial minimalism with warm newspaper-inspired tones, vibrant accent color family (coral-red primary, orange/blue/green/purple categorical), card-based layout with micro-interactions, dual light/dark themes"
+  },
+  "screens": ["today", "audio", "issues", "settings"]
+}
