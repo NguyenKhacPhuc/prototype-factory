@@ -1,0 +1,19 @@
+{
+  "name": "SkillMap Pulse",
+  "tagline": "Learn what you need, when you need it.",
+  "description": "SkillMap Pulse is a just-in-time learning app that turns the tasks you\u2019re about to do into short, actionable lessons. Instead of generic courses, it scans your calendar, habits, and chosen goals to predict what you\u2019ll need next, then builds micro-lessons around real moments in your day, like presenting in a meeting, helping a child with fractions, or understanding a form at the doctor\u2019s office. It solves the common problem of forgetting most of what you learn because the lesson happened far too early or too abstractly. The app helps users by delivering 3-5 minute interactive lessons right before relevant situations, so learning feels useful immediately and is easier to retain. For example, if your calendar shows a client demo, it might generate a quick refresher on explaining charts clearly and handling common questions; if your child has a science project, it can turn their requirements into a simple parent-friendly support guide. What makes it unique is that it connects education to real-world context, using timing and task relevance as the core of the learning experience rather than static curriculum paths.",
+  "features": [
+    "Context-aware lesson timing predicts upcoming tasks and delivers lessons when they are most likely to be useful, which improves retention and reduces wasted study time.",
+    "Micro-simulations let users practice in realistic scenarios, such as answering a difficult customer question or explaining a concept to a child, so they can rehearse before the real moment happens.",
+    "Smart gap detection identifies missing knowledge from everyday needs and converts them into tiny lessons, helping users learn practical skills they did not realize they lacked.",
+    "Offline pocket lessons store essential guides on the device, ensuring users can access last-minute help during travel, poor connectivity, or high-stress situations.",
+    "Progress maps show which real-life situations the user has mastered and which still need support, making learning feel measurable and directly tied to daily life."
+  ],
+  "audience": "Busy students, working adults, parents, and career-switchers ages 16-50 who need practical learning in the middle of real-life responsibilities. It is especially useful for people who learn best through immediate application rather than long courses.",
+  "category": "education",
+  "useCases": [
+    "Sarah just finished a stressful meeting and sees a notification that she has a presentation tomorrow, so she opens the app to practice a two-minute explanation of her slides and get quick tips on speaking clearly.",
+    "Marcus is helping his daughter with homework and realizes he has forgotten how to explain decimals, so he opens the app for a parent-friendly mini lesson with a visual example and a simple teaching script.",
+    "Aisha is traveling for a job interview and wants to refresh her knowledge of behavioral interview answers, so she uses the app on the train to run through a short mock interview based on the role she applied for."
+  ]
+}

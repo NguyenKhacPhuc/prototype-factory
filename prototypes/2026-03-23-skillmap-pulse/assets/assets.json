@@ -1,0 +1,28 @@
+{
+  "appName": "SkillMap Pulse",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#F59E0B",
+    "background": "#F5F3FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-left",
+    "battery",
+    "book-open",
+    "calendar",
+    "check",
+    "chevron-right",
+    "clock",
+    "download",
+    "search",
+    "settings",
+    "wifi",
+    "wifi-off",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 13,
+  "fontFileCount": 0
+}

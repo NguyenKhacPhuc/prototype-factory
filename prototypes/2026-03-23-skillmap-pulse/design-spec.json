@@ -1,0 +1,12 @@
+{
+  "appName": "SkillMap Pulse",
+  "tagline": "Learn what you need, when you need it.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#F5F3FF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Modern glassmorphic mobile UI with vibrant violet-purple brand color, warm amber accent, card-based layout, smooth micro-interactions, and dual light/dark theme support"
+  },
+  "screens": ["home", "explore", "progress", "library", "settings"]
+}
