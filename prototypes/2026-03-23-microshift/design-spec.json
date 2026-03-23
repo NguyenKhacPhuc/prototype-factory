@@ -1,0 +1,12 @@
+{
+  "appName": "MicroShift",
+  "tagline": "Weather for your exact next move.",
+  "designSystem": {
+    "primaryColor": "#00C8FF",
+    "secondaryColor": "#9B8FFF",
+    "backgroundColor": "#070D1B",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first hyperlocal weather UI with electric cyan accent, deep navy backgrounds, glassmorphic cards, and data-dense route visualization. Clean typographic hierarchy with vibrant impact scoring and timeline-based forecasting."
+  },
+  "screens": ["home", "route", "alerts", "shelters", "settings"]
+}

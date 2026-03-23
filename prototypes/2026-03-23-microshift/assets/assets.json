@@ -1,0 +1,23 @@
+{
+  "appName": "MicroShift",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#00C8FF",
+    "secondary": "#9B8FFF",
+    "background": "#070D1B",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "home",
+    "map-pin",
+    "navigation",
+    "settings",
+    "signal",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 8,
+  "fontFileCount": 0
+}

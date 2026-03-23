@@ -1,0 +1,19 @@
+{
+  "name": "MicroShift",
+  "tagline": "Weather for your exact next move.",
+  "description": "MicroShift predicts street-by-street weather changes around your immediate route, not just your city, so you can make better decisions in the next 30 minutes. It solves the common problem of being caught by sudden rain, wind gusts, heat pockets, or fog that standard forecasts miss because they speak in broad averages. The app maps your upcoming movements\u2014walking to lunch, biking home, waiting for a rideshare, or picking kids up from school\u2014and translates weather into practical actions like which side of the street will be driest or whether to leave five minutes later. For example, it can warn that your usual bus stop will be windy and cold while the stop one block away will be sheltered, or tell you that a brief rain band will hit only your commute corridor. What makes it unique is its hyperlocal, motion-aware forecasting engine that combines live sensor data, topography, and route-specific timing to predict how weather will actually feel where you are going, not where you are. Instead of generic weather icons, it gives decision-ready guidance for the exact minute and place your plans depend on.",
+  "features": [
+    "Route-based forecasting shows how weather changes along your specific path, so you know whether to delay, reroute, or continue as planned.",
+    "Minute-by-minute microalerts warn about sudden shifts like a gust front or passing shower, which helps users avoid getting stranded or underprepared.",
+    "Shelter and exposure guidance recommends nearby covered spots, calmer streets, or shaded walking routes, making daily travel safer and more comfortable.",
+    "Feel-like impact scoring translates wind, humidity, and sun into practical discomfort levels, which matters more than raw temperature for everyday decisions.",
+    "Plan timing nudges suggest the best departure window for errands, school runs, or workouts, helping users save time and avoid weather-related friction."
+  ],
+  "audience": "Urban commuters, cyclists, parents, and outdoor workers ages 18\u201355 who move through weather-sensitive environments throughout the day. It is especially useful for people in cities with rapid weather changes, dense buildings, or highly variable microclimates.",
+  "category": "weather",
+  "useCases": [
+    "Sarah leaves a client meeting and needs to walk seven minutes to the train, so she checks whether a sudden shower will hit her block before she gets outside. The app suggests waiting six minutes and taking a more sheltered route down a parallel street.",
+    "Marcus bikes to work every morning and wants to know whether strong crosswinds will make his bridge crossing dangerous today. MicroShift flags the bridge section as exposed and recommends a slightly longer inland route with safer wind conditions.",
+    "Alyssa is picking up her kids after school and has only a narrow window between traffic and a rainband moving in. The app tells her which school exit is dryest and whether leaving ten minutes earlier will let her avoid the heaviest rain."
+  ]
+}
