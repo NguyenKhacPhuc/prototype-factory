@@ -1,0 +1,12 @@
+{
+  "appName": "TraceLens",
+  "tagline": "Turn chaotic footage into usable proof.",
+  "designSystem": {
+    "primaryColor": "#0EA5E9",
+    "secondaryColor": "#06B6D4",
+    "backgroundColor": "#F0F4F8",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean mobile-first UI with sky-blue/cyan accent palette, card-based layout, gradient headers, timeline-driven content hierarchy, and dual light/dark themes"
+  },
+  "screens": ["home", "capture", "timeline", "reports", "settings"]
+}

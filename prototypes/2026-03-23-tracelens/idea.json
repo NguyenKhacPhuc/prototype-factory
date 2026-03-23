@@ -1,0 +1,19 @@
+{
+  "name": "TraceLens",
+  "tagline": "Turn chaotic footage into usable proof.",
+  "description": "TraceLens is a mobile app that helps people quickly turn raw photos and videos into clear, time-stamped incident records. It solves the frustrating problem of having important visual evidence scattered across camera rolls, hard to organize, and missing the context needed to actually be useful later. The app automatically detects key moments in a clip, attaches location, weather, and object-context tags, and lets users add voice annotations while the event is still fresh. In daily life, this means a renter can document apartment damage, a cyclist can record a road hazard, or a parent can capture a daycare issue in a way that is immediately organized and easy to share. One unique part is that it creates an editable \u201cincident timeline\u201d from multiple short clips and still images, so users can reconstruct what happened without manually stitching everything together. It also generates neutral, report-ready summaries from the media, which makes the content useful for landlords, insurers, HR teams, customer service, or official complaints. Unlike generic camera apps or cloud galleries, TraceLens is designed around turning messy real-world footage into evidence with context, sequence, and clarity.",
+  "features": [
+    "The app automatically groups related photos and videos into a single incident timeline, so users do not have to search through a cluttered gallery later.",
+    "It adds contextual metadata like time, GPS, weather, and detected scene details, which matters because evidence is far more useful when it can be verified.",
+    "Users can record quick voice notes over each clip to capture what happened in the moment, helping preserve facts before memory gets fuzzy.",
+    "The app generates a clean, shareable incident summary with thumbnails and timestamps, making it easier to file claims, report hazards, or document disputes.",
+    "It offers privacy controls that blur faces, license plates, and sensitive areas before sharing, which protects people while still preserving the event record."
+  ],
+  "audience": "Adults aged 20-55 who need to document real-world incidents for housing, commuting, work, insurance, or caregiving. It is especially useful for renters, gig workers, parents, campus staff, delivery drivers, and anyone who frequently needs reliable visual proof.",
+  "category": "photo & video",
+  "useCases": [
+    "Maya just discovered water damage under her kitchen sink and wants to document it before texting her landlord. She opens TraceLens, records a few short clips, and the app automatically builds a dated incident timeline she can send with a repair request.",
+    "Jordan is biking home when a parked car door nearly clips him, and he wants to report the dangerous street layout to the city. He captures the scene, adds a voice note explaining the location, and TraceLens turns it into a clear, shareable hazard report.",
+    "Elena is picking up her child from daycare and notices a concerning bruise she wants to log calmly and accurately. She uses the app to create a private record with timestamps and notes, so she has an organized account without relying on shaky memory later."
+  ]
+}
