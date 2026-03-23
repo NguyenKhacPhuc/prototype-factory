@@ -1,0 +1,31 @@
+{
+  "appName": "Symptom Shift",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#0891B2",
+    "secondary": "#7C3AED",
+    "background": "#EFF9F8",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "activity",
+    "alert-triangle",
+    "bell",
+    "chevron-left",
+    "chevron-right",
+    "clock",
+    "download",
+    "filter",
+    "home",
+    "mic",
+    "moon",
+    "plus",
+    "settings",
+    "sun",
+    "trending-up",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}

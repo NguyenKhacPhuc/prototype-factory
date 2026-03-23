@@ -1,0 +1,12 @@
+{
+  "appName": "Symptom Shift",
+  "tagline": "Decode symptoms before they drift.",
+  "designSystem": {
+    "primaryColor": "#0891B2",
+    "secondaryColor": "#7C3AED",
+    "backgroundColor": "#EFF9F8",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean medical-adjacent UI with teal/cyan accent palette, card-based layouts, subtle gradients, and high-contrast severity indicators. Supports full light/dark mode. Emphasizes clarity and health data trust."
+  },
+  "screens": ["Home", "Log", "Timeline", "Insights", "Settings"]
+}

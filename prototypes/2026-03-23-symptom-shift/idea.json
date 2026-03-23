@@ -1,0 +1,19 @@
+{
+  "name": "Symptom Shift",
+  "tagline": "Decode symptoms before they drift.",
+  "description": "Symptom Shift is a mobile app that helps people track vague, changing health symptoms by turning everyday signals into a clear, time-stamped health story. It solves the common problem of feeling \"off\" for days or weeks without knowing whether it is stress, a side effect, an infection, or the start of something more serious. Users quickly log symptoms using plain language, voice notes, photos, and context like meals, sleep, medications, menstrual cycle, and recent travel, and the app maps patterns over time instead of treating each symptom as isolated. For example, someone with recurring afternoon headaches can see whether they line up with caffeine drops, dehydration, screen time, or missed meals, while a parent can document a child\u2019s rash progression and fever spikes before a telehealth visit. What makes it unique is its \"pattern drift\" engine, which highlights small changes that are easy to ignore, such as a cough becoming wetter, pain migrating, or fatigue intensifying after a specific medication. The app is designed for daily life, so it can prompt brief check-ins, prepare a concise export for clinicians, and help users know when symptoms look stable, worth monitoring, or urgent enough to seek care.",
+  "features": [
+    "The app creates a timeline of symptoms, habits, and exposures so users can see what changes right before they feel worse, which helps uncover hidden triggers and trends.",
+    "Its voice-first logging lets users describe how they feel in seconds without needing medical jargon, making it easier to track symptoms consistently even on busy or exhausting days.",
+    "The pattern drift analyzer flags subtle but meaningful shifts, such as a rash spreading, pain becoming more localized, or fatigue increasing after a new medication, which can help users act earlier.",
+    "The app generates a clinician-ready summary with charts, notes, and dates, so users can bring a precise health history to appointments instead of relying on memory.",
+    "Context prompts for sleep, stress, meals, hydration, periods, travel, and medications help connect symptoms to real life, making the app useful for everyday self-management and informed medical conversations."
+  ],
+  "audience": "Adults and caregivers who experience recurring, hard-to-explain symptoms, including people managing chronic conditions, busy professionals, parents tracking child illnesses, and patients between doctor visits. It is especially helpful for 18-60 year olds who want a lightweight way to make symptoms more understandable before seeking care.",
+  "category": "medical",
+  "useCases": [
+    "Sarah just finished a stressful meeting and notices her heart racing again, so she opens the app to log the time, what she drank, and how long the episode lasted. A week later she sees the episodes cluster after heavy caffeine and poor sleep, giving her a clearer picture to discuss with her doctor.",
+    "Miguel's child develops a fever and rash over the weekend, and he wants to remember exactly when each symptom appeared. He uses the app to photograph the rash, record temperatures, and track medication timing so the pediatrician can quickly see the progression.",
+    "Priya has been dealing with on-and-off stomach pain for two months and cannot tell whether certain foods are making it worse. She logs meals, bowel changes, stress levels, and pain intensity each day, then uses the app\u2019s summary to identify patterns before her gastroenterology appointment."
+  ]
+}
