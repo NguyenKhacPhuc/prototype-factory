@@ -1,0 +1,19 @@
+{
+  "name": "TaskWeave",
+  "tagline": "Turn scattered tasks into smooth action",
+  "description": "TaskWeave is a context-aware productivity app that rebuilds your to-do list around the moment you\u2019re actually in, not just the day you planned it. Instead of showing a flat list of tasks, it automatically bundles items into \u201cmicro-sprints\u201d based on your location, available time, energy level, and the tools you have nearby, so you can act immediately instead of endlessly reorganizing. It solves the common problem of task paralysis, where people waste time deciding what to do next because their list is too broad, too abstract, or too unrealistic for the current situation. For example, if you have 12 minutes between meetings, it might surface a reply you can send, a bill you can pay, and a note you can voice-dictate, all tailored to that small window. If you\u2019re at a coffee shop with your laptop open, it can group deeper work tasks that need Wi-Fi and focused attention. What makes it unique is that it treats productivity as a sequence of possible actions rather than a static checklist, helping users make progress in the real constraints of daily life.",
+  "features": [
+    "The app converts long to-do lists into time-boxed micro-sprints, so users can take meaningful action even during short gaps in their day.",
+    "It uses context signals like location, calendar gaps, device state, and user-set energy levels to suggest the most realistic next task, reducing decision fatigue.",
+    "A smart task splitter turns vague items like 'work on presentation' into concrete next steps such as outline slides, gather data, or rehearse, which makes starting much easier.",
+    "The app can bundle tasks by environment, such as offline errands, laptop-based work, or phone-only admin, so users waste less time switching modes.",
+    "It learns from completion patterns and postponements to predict when a task is most likely to get done, improving daily planning without requiring constant manual rescheduling."
+  ],
+  "audience": "Busy professionals, freelancers, parents, and students ages 20\u201345 who juggle fragmented schedules and feel overwhelmed by open-ended task lists. It is especially useful for people who work across multiple contexts, such as hybrid workers, caregivers, and commuters.",
+  "category": "productivity",
+  "useCases": [
+    "Sarah just finished a stressful meeting and only has 11 minutes before her next call, so she opens TaskWeave to see a realistic micro-sprint of two replies she can send and one note she can voice-dictate. Instead of scrolling a giant list, she gets immediate momentum without thinking too hard.",
+    "Jamal is sitting on a train with no internet and remembers several errands he has been avoiding, so TaskWeave surfaces offline-friendly tasks like sorting receipts, drafting a grocery list, and reviewing a saved document. He uses the time productively instead of waiting until he gets home.",
+    "Priya has 40 minutes at a caf\u00e9 before picking up her kid and needs to do deep work, so the app groups her outline review, slide edits, and a focus timer into one environment-aware sprint. She can make visible progress without manually reshuffling her priorities."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "appName": "TaskWeave",
+  "tagline": "Turn scattered tasks into smooth action",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#06D6A0",
+    "backgroundColor": "#0A0A0F",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Dark-first productivity UI with vibrant violet accent, glassmorphism-lite surfaces, and context-aware micro-sprint cards. Clean hierarchy with muted secondaries and glowing primary states."
+  },
+  "screens": ["Today", "Sprints", "Tasks", "Insights", "Settings"]
+}

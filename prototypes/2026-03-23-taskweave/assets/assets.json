@@ -1,0 +1,40 @@
+{
+  "appName": "TaskWeave",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#06D6A0",
+    "background": "#0A0A0F",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "battery-full",
+    "battery-medium",
+    "bell",
+    "calendar",
+    "check",
+    "chevron-down",
+    "chevron-right",
+    "chevron-up",
+    "clipboard-list",
+    "clock",
+    "laptop",
+    "list-todo",
+    "map-pin",
+    "moon",
+    "play",
+    "plus",
+    "scissors",
+    "signal",
+    "smartphone",
+    "sun",
+    "timer",
+    "trending-up",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 25,
+  "fontFileCount": 0
+}
