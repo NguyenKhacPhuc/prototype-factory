@@ -1,0 +1,29 @@
+{
+  "appName": "WorryWizard",
+  "fontFamily": "Nunito",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#06B6D4",
+    "background": "#0D0A1E",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "check",
+    "chevron-right",
+    "home",
+    "info",
+    "map",
+    "message-circle",
+    "settings",
+    "shield",
+    "signal",
+    "sparkles",
+    "star",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 14,
+  "fontFileCount": 0
+}

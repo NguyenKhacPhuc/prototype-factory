@@ -1,0 +1,12 @@
+{
+  "appName": "WorryWizard",
+  "tagline": "Turns kid anxieties into tiny quests.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#06B6D4",
+    "backgroundColor": "#0D0A1E",
+    "fontFamily": "Nunito",
+    "style": "Claymorphism-inspired dark theme with vibrant purple wizard brand color, soft gradients, rounded cards, and playful micro-interactions designed for children aged 5–12"
+  },
+  "screens": ["home", "worry", "quests", "rewards", "settings"]
+}

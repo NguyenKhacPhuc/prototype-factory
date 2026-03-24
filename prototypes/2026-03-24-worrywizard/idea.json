@@ -1,0 +1,19 @@
+{
+  "name": "WorryWizard",
+  "tagline": "Turns kid anxieties into tiny quests.",
+  "description": "WorryWizard is a calming companion app that helps kids name, understand, and manage everyday worries through interactive story quests and simple coping tools. Instead of just offering generic mindfulness exercises, it lets children \u201cfeed\u201d a worry to a friendly magic creature, then guides them through age-appropriate steps to shrink the problem into something manageable. The app solves a real daily challenge for families: kids often feel big emotions they can\u2019t explain well, and parents struggle to know how to help without making things worse. In practice, a child nervous about a school presentation can open the app, describe the fear with voice or drawings, and get a short quest that breaks the task into tiny brave steps, like practicing once, choosing a confidence phrase, and earning a \u201ccourage badge.\u201d At bedtime, a child worried about monsters or tomorrow\u2019s test can use the app\u2019s worry journal to unload thoughts and get a personalized nighttime reset. What makes it unique is that it treats emotions like adventures to solve, combining emotional coaching, imaginative play, and practical routines in a way that feels like a game but teaches real coping skills parents and teachers can reinforce offline.",
+  "features": [
+    "The app turns a child\u2019s spoken or drawn worry into a playful \u201cquest\u201d that reframes anxiety as a challenge with clear, manageable steps.",
+    "It offers guided coping mini-games such as breathing bubbles, brave-speech practice, and imagination flips, which help kids calm their bodies and minds quickly.",
+    "The app creates personalized \u201ccourage plans\u201d for common situations like sleepovers, doctor visits, or class presentations so kids know exactly what to do next.",
+    "It includes a parent mode that translates a child\u2019s worry into simple support tips, helping adults respond with empathy and useful prompts.",
+    "The app rewards consistency with collectible story characters and badges, making emotional regulation feel motivating without turning serious feelings into something silly."
+  ],
+  "audience": "Kids ages 5\u201311 who experience everyday worries, big feelings, or transition stress, especially those in homes where parents want practical emotional support tools. It also fits caregivers and teachers looking for a gentle, screen-based way to help children build coping skills.",
+  "category": "kids",
+  "useCases": [
+    "Maya has to present her science project tomorrow and keeps freezing whenever she thinks about standing in front of the class. She opens WorryWizard, records her fear, and gets a three-step bravery quest that helps her rehearse once, pick a power phrase, and calm down before bed.",
+    "Noah is lying in bed after a busy day and keeps worrying about a loud storm outside and whether his mom will remember to wake him up for school. He uses the app\u2019s nighttime worry journal, then follows a sleepy breathing game that helps him feel safe enough to fall asleep.",
+    "Ella\u2019s mom notices she\u2019s unusually quiet after school and suspects she had a tough playground interaction. Ella opens the app, draws the problem, and gets a simple story response that helps her label her feelings and practice what to say if it happens again."
+  ]
+}
