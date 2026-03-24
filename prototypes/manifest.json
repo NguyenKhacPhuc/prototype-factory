@@ -1,5 +1,83 @@
 [
   {
+    "folder": "2026-03-24-worrywizard",
+    "appName": "WorryWizard",
+    "tagline": "Turns kid anxieties into tiny quests.",
+    "designSystem": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#06B6D4",
+      "backgroundColor": "#0D0A1E",
+      "fontFamily": "Nunito",
+      "style": "Claymorphism-inspired dark theme with vibrant purple wizard brand color, soft gradients, rounded cards, and playful micro-interactions designed for children aged 5\u201312"
+    },
+    "screens": [
+      "home",
+      "worry",
+      "quests",
+      "rewards",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "WorryWizard is a calming companion app that helps kids name, understand, and manage everyday worries through interactive story quests and simple coping tools. Instead of just offering generic mindfulness exercises, it lets children \u201cfeed\u201d a worry to a friendly magic creature, then guides them through age-appropriate steps to shrink the problem into something manageable. The app solves a real daily challenge for families: kids often feel big emotions they can\u2019t explain well, and parents struggle to know how to help without making things worse. In practice, a child nervous about a school presentation can open the app, describe the fear with voice or drawings, and get a short quest that breaks the task into tiny brave steps, like practicing once, choosing a confidence phrase, and earning a \u201ccourage badge.\u201d At bedtime, a child worried about monsters or tomorrow\u2019s test can use the app\u2019s worry journal to unload thoughts and get a personalized nighttime reset. What makes it unique is that it treats emotions like adventures to solve, combining emotional coaching, imaginative play, and practical routines in a way that feels like a game but teaches real coping skills parents and teachers can reinforce offline.",
+    "features": [
+      "The app turns a child\u2019s spoken or drawn worry into a playful \u201cquest\u201d that reframes anxiety as a challenge with clear, manageable steps.",
+      "It offers guided coping mini-games such as breathing bubbles, brave-speech practice, and imagination flips, which help kids calm their bodies and minds quickly.",
+      "The app creates personalized \u201ccourage plans\u201d for common situations like sleepovers, doctor visits, or class presentations so kids know exactly what to do next.",
+      "It includes a parent mode that translates a child\u2019s worry into simple support tips, helping adults respond with empathy and useful prompts.",
+      "The app rewards consistency with collectible story characters and badges, making emotional regulation feel motivating without turning serious feelings into something silly."
+    ],
+    "audience": "Kids ages 5\u201311 who experience everyday worries, big feelings, or transition stress, especially those in homes where parents want practical emotional support tools. It also fits caregivers and teachers looking for a gentle, screen-based way to help children build coping skills.",
+    "category": "kids",
+    "useCases": [
+      "Maya has to present her science project tomorrow and keeps freezing whenever she thinks about standing in front of the class. She opens WorryWizard, records her fear, and gets a three-step bravery quest that helps her rehearse once, pick a power phrase, and calm down before bed.",
+      "Noah is lying in bed after a busy day and keeps worrying about a loud storm outside and whether his mom will remember to wake him up for school. He uses the app\u2019s nighttime worry journal, then follows a sleepy breathing game that helps him feel safe enough to fall asleep.",
+      "Ella\u2019s mom notices she\u2019s unusually quiet after school and suspects she had a tough playground interaction. Ella opens the app, draws the problem, and gets a simple story response that helps her label her feelings and practice what to say if it happens again."
+    ]
+  },
+  {
+    "folder": "2026-03-24-painmap",
+    "appName": "PainMap",
+    "tagline": "Track symptoms where life happens.",
+    "designSystem": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#9333EA",
+      "accentColor": "#F43F5E",
+      "backgroundColor": "#F8F7FF",
+      "surfaceColor": "#FFFFFF",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "Soft UI Evolution with Inclusive Design \u2014 empathetic, trustworthy, calming violet palette with warm coral accents for alerts. Refined shadows, generous whitespace, 8px grid. Light-first with polished dark mode.",
+      "darkMode": {
+        "backgroundColor": "#0D0B18",
+        "surfaceColor": "#1A1729",
+        "primaryColor": "#A78BFA"
+      }
+    },
+    "screens": [
+      "onboarding",
+      "home",
+      "log",
+      "insights",
+      "reports",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "PainMap is a mobile app that helps people with chronic pain, migraines, autoimmune flares, and other hard-to-predict symptoms connect their symptoms to real-world triggers using quick, everyday check-ins. Instead of asking users to fill out long medical diaries, it turns a few taps and phone sensor signals into a living timeline of pain, fatigue, stress, sleep, weather, movement, and activity patterns. The app solves the common problem of patients forgetting what happened before a flare-up, which makes doctor visits vague and treatment changes harder than they need to be. In daily life, it helps someone notice that migraines often follow skipped lunches, that joint pain rises after long car rides, or that flare patterns intensify during high-stress workweeks. A user might log a sudden headache after a screen-heavy afternoon, and PainMap could show that similar episodes often cluster on days with poor hydration, low sleep, and bright light exposure. What makes it unique is that it focuses on context-first symptom mapping rather than generic health journaling, combining passive environmental data with ultra-fast symptom input to reveal patterns people can actually act on. It also produces doctor-friendly summaries that translate messy lived experience into clear, clinically useful insights without requiring manual data entry overload.",
+    "features": [
+      "The app offers one-tap symptom capture with body-location tagging so users can quickly record where they hurt, how intense it feels, and what it feels like without interrupting their day.",
+      "PainMap correlates symptom spikes with contextual data like sleep, weather, movement, meals, screen time, and stress patterns so users can identify triggers that would be hard to notice manually.",
+      "It generates plain-language flare previews that warn users when their recent patterns suggest elevated risk, helping them adjust plans before pain derails work, travel, or family commitments.",
+      "The app creates concise doctor visit reports that summarize trends, likely triggers, and timeline snapshots, making appointments more productive and reducing the need to rely on memory alone.",
+      "It includes personalized experiment tracking so users can test changes such as hydration, caffeine timing, stretching, or lighting adjustments and see which interventions actually reduce symptoms."
+    ],
+    "audience": "Adults and teens living with chronic or recurring conditions such as migraines, fibromyalgia, endometriosis, rheumatoid arthritis, IBS, or unexplained pain. It is especially useful for busy patients who need a lightweight way to track symptoms between appointments without spending hours journaling.",
+    "category": "medical",
+    "useCases": [
+      "Maya just got home from work with a migraine starting and wants to log the pain in under five seconds before she forgets what might have triggered it. She taps the head pain location, selects nausea and light sensitivity, and later sees that similar episodes often follow skipped lunches and long screen sessions.",
+      "Jordan has rheumatoid arthritis and notices his joints feel stiff after commuting. He opens the app to compare flare-ups against weather changes and long sitting periods, then uses the report at his next rheumatology appointment to discuss possible mobility adjustments.",
+      "Leila is planning a weekend trip but has had unpredictable fatigue flares for months. She checks PainMap\u2019s pattern forecast to see whether poor sleep and high stress are likely to make symptoms worse, helping her decide how much activity she can realistically schedule."
+    ]
+  },
+  {
     "folder": "2026-03-23-tracelens",
     "appName": "TraceLens",
     "tagline": "Turn chaotic footage into usable proof.",
