@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "appName": "WorryWizard",
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "fonts": [
+    "Nunito"
+  ],
+  "designTokens": {},
+  "root": {
+    "type": "frame",
+    "name": "div",
+    "x": 0,
+    "y": 0,
+    "width": 375,
+    "height": 812,
+    "styles": {
+      "backgroundGradient": [
+        {
+          "color": "rgb(45, 27, 105)",
+          "position": 0
+        },
+        {
+          "color": "rgb(13, 10, 30)",
+          "position": 1
+        }
+      ],
+      "borderRadius": 44,
+      "borderWidth": 8,
+      "borderColor": "rgb(17, 17, 17)",
+      "overflow": "hidden",
+      "display": "flex",
+      "flexDirection": "column",
+      "justifyContent": "normal",
+      "alignItems": "normal"
+    },
+    "children": [
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 128,
+        "y": 18,
+        "width": 120,
+        "height": 32,
+        "styles": {
+          "backgroundColor": "rgb(0, 0, 0)",
+          "borderRadius": 20
+        },
+        "children": []
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 8,
+        "y": 8,
+        "width": 359,
+        "height": 619,
+        "styles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "paddingTop": 60,
+          "paddingRight": 36,
+          "paddingLeft": 36
+        },
+        "children": [
+          {
+            "type": "text",
+            "name": "div",
+            "x": 136,
+            "y": 219,
+            "width": 88,
+            "height": 88,
+            "styles": {},
+            "textContent": "🧙‍♂️",
+            "textStyles": {
+              "fontFamily": "Nunito",
+              "fontSize": 88,
+              "fontWeight": 400,
+              "color": "rgb(0, 0, 0)",
+              "textAlign": "center",
+              "lineHeight": 88
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "name": "h1",
+            "x": 84,
+            "y": 331,
+            "width": 192,
+            "height": 37,
+            "styles": {},
+            "textContent": "Meet Wizzo!",
+            "textStyles": {
+              "fontFamily": "Nunito",
+              "fontSize": 32,
+              "fontWeight": 900,
+              "color": "rgb(240, 233, 255)",
+              "textAlign": "center",
+              "lineHeight": 36.8
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "name": "div",
+            "x": 87,
+            "y": 376,
+            "width": 186,
+            "height": 20,
+            "styles": {},
+            "textContent": "Your magical worry wizard",
+            "textStyles": {
+              "fontFamily": "Nunito",
+              "fontSize": 15,
+              "fontWeight": 700,
+              "color": "rgb(124, 58, 237)",
+              "textAlign": "center"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "name": "p",
+            "x": 36,
+            "y": 410,
+            "width": 287,
+            "height": 50,
+            "styles": {},
+            "textContent": "Wizzo turns big feelings into tiny adventures you can actually solve.",
+            "textStyles": {
+              "fontFamily": "Nunito",
+              "fontSize": 15,
+              "fontWeight": 400,
+              "color": "rgb(168, 153, 204)",
+              "textAlign": "center",
+              "lineHeight": 24.75
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "frame",
+        "name": "div",
+        "x": 8,
+        "y": 627,
+        "width": 359,
+        "height": 177,
+        "styles": {
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "normal",
+          "alignItems": "center",
+          "gap": 20,
+          "paddingRight": 32,
+          "paddingBottom": 56,
+          "paddingLeft": 32
+        },
+        "children": [
+          {
+            "type": "frame",
+            "name": "div",
+            "x": 153,
+            "y": 0,
+            "width": 54,
+            "height": 8,
+            "styles": {
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "normal",
+              "alignItems": "normal",
+              "gap": 8
+            },
+            "children": [
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 0,
+                "y": 0,
+                "width": 22,
+                "height": 8,
+                "styles": {
+                  "backgroundColor": "rgb(124, 58, 237)",
+                  "borderRadius": 100
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 30,
+                "y": 0,
+                "width": 8,
+                "height": 8,
+                "styles": {
+                  "backgroundColor": "rgb(46, 31, 90)",
+                  "borderRadius": 100
+                },
+                "children": []
+              },
+              {
+                "type": "frame",
+                "name": "div",
+                "x": 46,
+                "y": 0,
+                "width": 8,
+                "height": 8,
+                "styles": {
+                  "backgroundColor": "rgb(46, 31, 90)",
+                  "borderRadius": 100
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "name": "div",
+            "x": 32,
+            "y": 28,
+            "width": 295,
+            "height": 55,
+            "styles": {
+              "backgroundColor": "rgb(124, 58, 237)",
+              "borderRadius": 20,
+              "paddingTop": 16,
+              "paddingBottom": 16
+            },
+            "textContent": "Next →",
+            "textStyles": {
+              "fontFamily": "Nunito",
+              "fontSize": 17,
+              "fontWeight": 900,
+              "color": "rgb(255, 255, 255)",
+              "textAlign": "center"
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "name": "div",
+            "x": 152,
+            "y": 103,
+            "width": 55,
+            "height": 18,
+            "styles": {},
+            "textContent": "Skip intro",
+            "textStyles": {
+              "fontFamily": "Nunito",
+              "fontSize": 13,
+              "fontWeight": 400,
+              "color": "rgb(157, 142, 199)"
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}
