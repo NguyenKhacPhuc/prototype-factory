@@ -1,0 +1,26 @@
+{
+  "appName": "PainMap",
+  "tagline": "Track symptoms where life happens.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#9333EA",
+    "accentColor": "#F43F5E",
+    "backgroundColor": "#F8F7FF",
+    "surfaceColor": "#FFFFFF",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Soft UI Evolution with Inclusive Design — empathetic, trustworthy, calming violet palette with warm coral accents for alerts. Refined shadows, generous whitespace, 8px grid. Light-first with polished dark mode.",
+    "darkMode": {
+      "backgroundColor": "#0D0B18",
+      "surfaceColor": "#1A1729",
+      "primaryColor": "#A78BFA"
+    }
+  },
+  "screens": [
+    "onboarding",
+    "home",
+    "log",
+    "insights",
+    "reports",
+    "settings"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "appName": "PainMap",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#7C3AED",
+    "secondary": "#9333EA",
+    "background": "#F8F7FF",
+    "accent": "#F43F5E"
+  },
+  "icons": [
+    "bell",
+    "chevron-left",
+    "chevron-right",
+    "download",
+    "file-text",
+    "home",
+    "link",
+    "map-pin",
+    "moon",
+    "plus",
+    "plus-circle",
+    "settings",
+    "shield",
+    "sparkles",
+    "sun",
+    "trending-up",
+    "type",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 18,
+  "fontFileCount": 0
+}

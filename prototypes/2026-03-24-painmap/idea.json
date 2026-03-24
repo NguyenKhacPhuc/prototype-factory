@@ -1,0 +1,19 @@
+{
+  "name": "PainMap",
+  "tagline": "Track symptoms where life happens.",
+  "description": "PainMap is a mobile app that helps people with chronic pain, migraines, autoimmune flares, and other hard-to-predict symptoms connect their symptoms to real-world triggers using quick, everyday check-ins. Instead of asking users to fill out long medical diaries, it turns a few taps and phone sensor signals into a living timeline of pain, fatigue, stress, sleep, weather, movement, and activity patterns. The app solves the common problem of patients forgetting what happened before a flare-up, which makes doctor visits vague and treatment changes harder than they need to be. In daily life, it helps someone notice that migraines often follow skipped lunches, that joint pain rises after long car rides, or that flare patterns intensify during high-stress workweeks. A user might log a sudden headache after a screen-heavy afternoon, and PainMap could show that similar episodes often cluster on days with poor hydration, low sleep, and bright light exposure. What makes it unique is that it focuses on context-first symptom mapping rather than generic health journaling, combining passive environmental data with ultra-fast symptom input to reveal patterns people can actually act on. It also produces doctor-friendly summaries that translate messy lived experience into clear, clinically useful insights without requiring manual data entry overload.",
+  "features": [
+    "The app offers one-tap symptom capture with body-location tagging so users can quickly record where they hurt, how intense it feels, and what it feels like without interrupting their day.",
+    "PainMap correlates symptom spikes with contextual data like sleep, weather, movement, meals, screen time, and stress patterns so users can identify triggers that would be hard to notice manually.",
+    "It generates plain-language flare previews that warn users when their recent patterns suggest elevated risk, helping them adjust plans before pain derails work, travel, or family commitments.",
+    "The app creates concise doctor visit reports that summarize trends, likely triggers, and timeline snapshots, making appointments more productive and reducing the need to rely on memory alone.",
+    "It includes personalized experiment tracking so users can test changes such as hydration, caffeine timing, stretching, or lighting adjustments and see which interventions actually reduce symptoms."
+  ],
+  "audience": "Adults and teens living with chronic or recurring conditions such as migraines, fibromyalgia, endometriosis, rheumatoid arthritis, IBS, or unexplained pain. It is especially useful for busy patients who need a lightweight way to track symptoms between appointments without spending hours journaling.",
+  "category": "medical",
+  "useCases": [
+    "Maya just got home from work with a migraine starting and wants to log the pain in under five seconds before she forgets what might have triggered it. She taps the head pain location, selects nausea and light sensitivity, and later sees that similar episodes often follow skipped lunches and long screen sessions.",
+    "Jordan has rheumatoid arthritis and notices his joints feel stiff after commuting. He opens the app to compare flare-ups against weather changes and long sitting periods, then uses the report at his next rheumatology appointment to discuss possible mobility adjustments.",
+    "Leila is planning a weekend trip but has had unpredictable fatigue flares for months. She checks PainMap\u2019s pattern forecast to see whether poor sleep and high stress are likely to make symptoms worse, helping her decide how much activity she can realistically schedule."
+  ]
+}
