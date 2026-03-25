@@ -205,6 +205,23 @@ function App() {
 
   // ─── Screens ──────────────────────────────────────────────────────
 
+  function ToolButton({ tool }) {
+    const [pressed, setPressed] = useState(false);
+    return React.createElement('div', {
+      onClick: tool.action,
+      onMouseDown: () => setPressed(true), onMouseUp: () => setPressed(false),
+      style: {
+        flex: 1, textAlign: 'center', padding: '14px 8px',
+        background: tool.color + '20', border: `1.5px solid ${tool.color}40`,
+        borderRadius: 16, cursor: 'pointer',
+        transform: pressed ? 'scale(0.93)' : 'scale(1)', transition: 'transform 0.12s ease',
+      },
+    },
+      React.createElement('div', { style: { fontSize: 24, marginBottom: 5 } }, tool.icon),
+      React.createElement('div', { style: { fontSize: 11, fontWeight: 800, color: tool.color } }, tool.label),
+    );
+  }
+
   function HomeScreen() {
     const [tapped, setTapped] = useState(false);
     const [selectedMood, setSelectedMood] = useState(null);
@@ -283,22 +300,7 @@ function App() {
             { icon: '🫧', label: 'Breathe', color: '#06B6D4', action: () => setShowBreathing(true) },
             { icon: '💪', label: 'Brave Talk', color: '#F59E0B', action: () => setActiveTab('worry') },
             { icon: '📖', label: 'Journal', color: '#10B981', action: () => setActiveTab('worry') },
-          ].map((tool, i) => {
-            const [pressed, setPressed] = useState(false);
-            return React.createElement('div', {
-              key: i, onClick: tool.action,
-              onMouseDown: () => setPressed(true), onMouseUp: () => setPressed(false),
-              style: {
-                flex: 1, textAlign: 'center', padding: '14px 8px',
-                background: tool.color + '20', border: `1.5px solid ${tool.color}40`,
-                borderRadius: 16, cursor: 'pointer',
-                transform: pressed ? 'scale(0.93)' : 'scale(1)', transition: 'transform 0.12s ease',
-              },
-            },
-              React.createElement('div', { style: { fontSize: 24, marginBottom: 5 } }, tool.icon),
-              React.createElement('div', { style: { fontSize: 11, fontWeight: 800, color: tool.color } }, tool.label),
-            );
-          }),
+          ].map((tool, i) => React.createElement(ToolButton, { key: i, tool })),
         ),
       ),
     );
