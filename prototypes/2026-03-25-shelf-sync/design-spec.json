@@ -1,0 +1,42 @@
+{
+  "appName": "Shelf Sync",
+  "tagline": "Use what you own, before you buy more.",
+  "designSystem": {
+    "primaryColor": "#10B981",
+    "secondaryColor": "#F59E0B",
+    "accentColor": "#6366F1",
+    "backgroundColor": "#F0F9F5",
+    "surfaceColor": "#FFFFFF",
+    "darkBackground": "#091812",
+    "darkSurface": "#0E2019",
+    "fontFamily": "Sora",
+    "bodyFont": "DM Sans",
+    "style": "Organic Biophilic meets Soft UI — natural emerald-green palette evoking freshness and sustainability, with warm amber for urgency cues and indigo for smart AI features. Clean card layouts with generous whitespace, subtle color-coded category system, and a floating elevated Add button as the primary action. Micro-interactions on all tap targets."
+  },
+  "screens": [
+    "Onboarding (3-slide carousel with animated gradient cards and dot pagination)",
+    "Home (dashboard with bento stats, expiring-soon horizontal scroll, smart nudges, recipe CTA)",
+    "Inventory (searchable list/grid with category pill filters and expiry badges)",
+    "Add (3 input method cards + manual form + recently added feed)",
+    "Recipes (match-% recipe cards with expandable steps and bookmark save)",
+    "Settings (profile card, impact stats bento, dark mode toggle, notification toggles, menu)"
+  ],
+  "navigation": {
+    "type": "bottom-tab",
+    "tabs": ["home", "inventory", "add", "recipes", "settings"],
+    "primaryAction": "add (elevated floating button)"
+  },
+  "themes": {
+    "default": "light",
+    "light": {
+      "bg": "#F0F9F5",
+      "primary": "#10B981",
+      "text": "#0D2018"
+    },
+    "dark": {
+      "bg": "#091812",
+      "primary": "#34D399",
+      "text": "#E6F7EF"
+    }
+  }
+}

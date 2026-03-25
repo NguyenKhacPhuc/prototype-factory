@@ -1,0 +1,15 @@
+{
+  "name": "Shelf Sync",
+  "tagline": "Use what you own, before you buy more.",
+  "description": "Shelf Sync helps people cut waste, save money, and make everyday decisions faster by turning their pantry, fridge, closet, and household drawers into a live, searchable life inventory. Instead of guessing what groceries are already at home or forgetting about a jacket, candle, or kitchen ingredient tucked away somewhere, users log items by scanning receipts, snapping quick photos, or speaking a voice note, and the app organizes everything into practical, useful categories. It solves the common lifestyle problem of overbuying, duplicate purchases, and forgotten stuff that expires, gets lost, or never gets used. In daily life, it can suggest dinner recipes based on what is expiring soon, remind you that you already own a black blazer before a work trip, or alert you that your laundry detergent will run out in four uses. What makes it unique is that it focuses on the hidden friction of household decision-making, not just storage, and it learns patterns like how often you restock, what you tend to forget, and what you consistently overbuy. Instead of being another shopping list or home-organization app, Shelf Sync acts like a quiet memory layer for your life, reducing mental load at the exact moments you are about to spend money or waste time.",
+  "features": [
+    "The app builds a smart personal inventory from receipt scans, quick photos, and voice input, which matters because it removes the tedious burden of manually cataloging every item you own.",
+    "It tracks expiration dates and usage estimates for food and household essentials, helping users avoid waste by nudging them before items spoil or run out.",
+    "It suggests recipes, outfits, and replenishment decisions based on what is already at home, so users can make better choices without opening multiple apps or guessing from memory.",
+    "It sends context-aware reminders like 'you already have three unopened candles' or 'your protein yogurt expires tomorrow,' which matters because it prevents duplicate purchases and missed opportunities to use what you have.",
+    "It provides a quick 'before you buy' search at stores and online checkouts, allowing users to check their home inventory in seconds and saving money on unnecessary repeats.",
+    "audience: Young professionals, busy parents, renters, and minimalist-minded adults aged 22-45 who want to spend less, waste less, and reduce everyday decision fatigue. It is especially useful for people juggling a shared household, irregular routines, or tight budgets.",
+    "category: lifestyle",
+    "useCases: true"
+  ]
+}
