@@ -1,0 +1,37 @@
+{
+  "name": "PulseCircle",
+  "tagline": "Live shared rituals strengthening identity bonds",
+  "description": "PulseCircle is a social app designed around live, collectively aspirational rituals tailored for identity-based communities\u2014from artists to marathon runners or wellness advocates. Users join scheduled, live communal events where participants perform and share ritualistic behaviors, such as synchronized journaling prompts, creative challenges, or rhythmic movement exercises. The shared timing heightens accountability and the emotional drive to show up, creating a dependable social contract that users find energizing and motivating. What sets PulseCircle apart is its 'Pulse Sync' mechanic: each event has an interconnected sensory trigger (like a distinct sound, visual drop, or thematic prompt) that reverberates with member input and evolves in real-time, making the ritual literally feel co-created each session. This fosters deep connection, ritual familiarity, and compelling reasons to rejoin sessions multiple times per week to not miss the evolving collective \u2018pulse.\u2019 PulseCircle fills the real human desire for meaningful communal rhythm in niche identity groups, creating joyful motivation habits rather than solo discipline.",
+  "features": [
+    {
+      "title": "Scheduled Ritual Circles",
+      "detail": "Join identity-focused live events where everyone performs the same themed ritual simultaneously, reinforcing collective commitment and shared experience."
+    },
+    {
+      "title": "Pulse Sync Sensory Trigger",
+      "detail": "Experience evolving shared audiovisual cues that respond dynamically to participant input, making each ritual feel alive and community-co-created."
+    },
+    {
+      "title": "Real-Time Pulse Chat",
+      "detail": "Engage in vibrant, supportive commentary streams during rituals, boosting motivation and accountability through instant peer reactions."
+    },
+    {
+      "title": "Identity Tribe Matchmaking",
+      "detail": "Discover and join highly curated identity micro-communities with rituals attuned to users' specific cultural, creative, or lifestyle values."
+    },
+    {
+      "title": "Ritual Archive & Growth Roadmap",
+      "detail": "Access a visually-immersive history of your committed rituals to reflect on personal growth and unlock new, progressively-embraced rituals."
+    }
+  ],
+  "audience": "Passionate 20-35-year-olds active in interest-based communities (e.g., artists, fitness enthusiasts, mindful creatives) seeking shared ritual and identity reinforcement beyond passive scrolling.",
+  "category": "social & community",
+  "useCases": [
+    "An indie poet opens PulseCircle every Tuesday evening for a live collective reading and writing prompt ritual with a fellow wordsmith tribe, feeling accountable to participate consistently.",
+    "A new marathon runner joins a synchronous weekly morning stretch and motivational mantra ritual with others in their neighborhood identity tribe to stay energized.",
+    "A mindful illustrator uses PulseCircle\u2019s sensory triggered group sketch sessions, coming back multiple times a week to join evolving creative jams that deepen community ties."
+  ],
+  "engagementLoop": "Users come back for regularly scheduled live rituals that integrate dynamic, co-created sensory pulses and immediate peer energy. The progressive unlocking of new rituals and archiving of personal commitment history deepens emotional attachment and motivates repeat participation.",
+  "trendFit": "PulseCircle taps into the growing craving for identity-affirming communities and live collective experiences that disrupt passive content consumption. It leverages ritualistic behavior and synchronous reward loops that are trending as digital antidotes to isolation and motivation struggles.",
+  "monetization": "The app monetizes through premium subscriptions offering access to exclusive identity tribes, advanced ritual customizations, and archived ritual insights for personal growth journaling."
+}

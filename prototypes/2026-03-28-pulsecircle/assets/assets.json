@@ -1,0 +1,26 @@
+{
+  "appName": "PulseCircle",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#A855F7",
+    "secondary": "#06B6D4",
+    "background": "#0D0B14",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "compass",
+    "home",
+    "message-circle",
+    "moon",
+    "search",
+    "send",
+    "sun",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 11,
+  "fontFileCount": 0
+}
