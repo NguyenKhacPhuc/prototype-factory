@@ -1,0 +1,29 @@
+{
+  "appName": "AuraRhythms",
+  "fontFamily": "Sora",
+  "colors": {
+    "primary": "#9B6DFF",
+    "secondary": "#FF6B9D",
+    "background": "#0A0812",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-left",
+    "battery",
+    "bell",
+    "chevron-right",
+    "globe",
+    "heart",
+    "home",
+    "moon",
+    "music",
+    "sun",
+    "user",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 14,
+  "fontFileCount": 0
+}

@@ -1,0 +1,12 @@
+{
+  "appName": "AuraRhythms",
+  "tagline": "Seasonal vibes meet micro-challenge mastery.",
+  "designSystem": {
+    "primaryColor": "#9B6DFF",
+    "secondaryColor": "#FF6B9D",
+    "backgroundColor": "#0A0812",
+    "fontFamily": "Sora",
+    "style": "Dark ambient mystical with glowing aura rings, seasonal gradients, and soft neon accents on deep purple-black surfaces"
+  },
+  "screens": ["home", "challenges", "community", "profile"]
+}
