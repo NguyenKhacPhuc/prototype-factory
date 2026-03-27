@@ -1,0 +1,37 @@
+{
+  "name": "FlavorTribe",
+  "tagline": "Celebrate local dishes, one streak at a time.",
+  "description": "FlavorTribe is a vibrant mobile community where food lovers strengthen their local identity by sharing and experiencing heritage recipes tied to their towns or neighborhoods. Users embark on daily streaks of trying, cooking, or learning about local dishes brought alive through neighbors\u2019 stories, rare ingredient challenges, and homemade taste tests. The app curates weekly \u2018flavor missions\u2019 prompting users to dive deeper into underrepresented cultural spots and share discoveries through mini video journals, forging a strong sense of communal pride and belonging. Unlike typical cooking apps, FlavorTribe turns local culinary exploration into a shared ritual, making users eager to keep their streaks alive alongside friends and nearby groups. Habit-formation blossoms from friendly streak competitions, intimate sharing spots for personal twists on recipes, and surprise local ingredient hunts tied to live community events. FlavorTribe transforms food from a solo activity into a dynamic belonging experience rooted in real places and real stories, cultivating a natural global-local fusion that keeps users returning multiple times per week.",
+  "features": [
+    {
+      "title": "Daily Local Dish Streak",
+      "detail": "Encourages users to engage daily by trying or sharing regional dishes, building a social eating streak that fuels community identity."
+    },
+    {
+      "title": "Neighborhood Flavor Missions",
+      "detail": "Weekly curated challenges focused on discovering intimate local food spots, recipes, or ingredients that deepen user connection to place."
+    },
+    {
+      "title": "Community-Powered Taste Journals",
+      "detail": "Enables sharing of personal culinary stories, tweaks, and short videos, turning recipes into narrative threads that build social bonds."
+    },
+    {
+      "title": "Real-Time Ingredient Hunts",
+      "detail": "Activates users with location-based ingredient discoveries and flash events, blending digital streaks with physical world exploration."
+    },
+    {
+      "title": "Tribe Leaderboards & Rituals",
+      "detail": "Supports seasonal leaderboards that celebrate community milestones and unusual cuisine rituals, reinforcing long-term belonging."
+    }
+  ],
+  "audience": "Urban food enthusiasts aged 20-40 who crave connection through local culture and love experiential food discovery alongside like-minded neighbors.",
+  "category": "food & cooking",
+  "useCases": [
+    "Maria opens FlavorTribe each morning to complete her daily streak by cooking a centuries-old recipe from her neighborhood and sharing a quick taste journal video.",
+    "On a weekend hike, James follows a FlavorTribe\u2019s ingredient hunt alert about a nearby farmer\u2019s market stall selling rare local spices and adds them to his pantry.",
+    "Sophia joins a community flavor mission to document family food traditions in her city\u2019s immigrant district, inspiring new friendships and recipe experiments."
+  ],
+  "engagementLoop": "Users return frequently to maintain streaks that symbolize their commitment to local culinary culture and to see how their tribe members deepen their shared identity. Regularly refreshed flavor missions and live ingredient hunts create appetizing reasons to revisit, while the social leaderboard sparks ongoing friendly rivalry and group pride.",
+  "trendFit": "FlavorTribe capitalizes on the surge of hyperlocal discovery trends and people\u2019s craving for meaningful niche communities. It taps into streak-driven habits popularized by challenge apps and blends that with powerful storytelling and neighborhood exploration, satisfying users\u2019 yearning for rooted belonging in a globally interconnected era.",
+  "monetization": "The app generates revenue through partnerships with local markets and cultural food events offering sponsored missions, plus premium subscriptions providing curated content collections and exclusive ingredient-hunt passes."
+}

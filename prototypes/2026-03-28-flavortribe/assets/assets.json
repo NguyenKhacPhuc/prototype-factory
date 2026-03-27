@@ -1,0 +1,33 @@
+{
+  "appName": "FlavorTribe",
+  "fontFamily": "Sora",
+  "colors": {
+    "primary": "#FF6B35",
+    "secondary": "#FFB800",
+    "background": "#0D0906",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "bell",
+    "clock",
+    "compass",
+    "heart",
+    "home",
+    "map",
+    "map-pin",
+    "message-circle",
+    "moon",
+    "plus",
+    "search",
+    "settings",
+    "signal",
+    "star",
+    "sun",
+    "user",
+    "users",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 18,
+  "fontFileCount": 0
+}

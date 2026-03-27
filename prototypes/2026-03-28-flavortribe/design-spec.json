@@ -1,0 +1,12 @@
+{
+  "appName": "FlavorTribe",
+  "tagline": "Celebrate local dishes, one streak at a time.",
+  "designSystem": {
+    "primaryColor": "#FF6B35",
+    "secondaryColor": "#FFB800",
+    "backgroundColor": "#0D0906",
+    "fontFamily": "Sora",
+    "style": "Dark-first vibrant food community app with warm amber-orange accent palette. Deep charcoal-brown backgrounds with glowing streak indicators, gradient hero cards, and organic rounded surfaces evoking warmth and culinary richness."
+  },
+  "screens": ["home", "missions", "explore", "tribe", "profile"]
+}
