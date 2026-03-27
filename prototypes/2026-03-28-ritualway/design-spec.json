@@ -1,0 +1,18 @@
+{
+  "appName": "Ritualway",
+  "tagline": "Travel wellness journeys, unlocked together",
+  "designSystem": {
+    "primaryColor": "#5BC8AF",
+    "secondaryColor": "#F4A261",
+    "backgroundColor": "#0A1628",
+    "fontFamily": "Sora",
+    "style": "Dark-first wellness app with jade teal accent, deep navy surfaces, warm terracotta secondary, soft glassmorphic cards, and destination-inspired gradient overlays"
+  },
+  "screens": [
+    "home",
+    "journey",
+    "group",
+    "reflections",
+    "profile"
+  ]
+}

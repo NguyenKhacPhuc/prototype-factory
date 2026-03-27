@@ -1,0 +1,20 @@
+{
+  "appName": "Ritualway",
+  "fontFamily": "Sora",
+  "colors": {
+    "primary": "#5BC8AF",
+    "secondary": "#F4A261",
+    "background": "#0A1628",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "home",
+    "map",
+    "mic",
+    "user",
+    "users"
+  ],
+  "fonts": [],
+  "iconCount": 5,
+  "fontFileCount": 0
+}

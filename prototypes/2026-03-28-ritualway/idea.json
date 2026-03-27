@@ -1,0 +1,37 @@
+{
+  "name": "Ritualway",
+  "tagline": "Travel wellness journeys, unlocked together",
+  "description": "Ritualway is a collaborative travel game app where users journey together through immersive, location-inspired wellness rituals crafted around calming daily habits. Each user contributes to unlocking multi-day, gradual wellness quests themed by specific travel destinations\u2019 mindful traditions\u2014think sunrise Tai Chi on the cliffs of Bali, or evening tea ceremonies in Kyoto. Players join or create groups to progress through ritual levels, sharing audio reflections and gentle challenges that nurture calm and reassurance across time zones. The central twist is its progressive unlock system tied to actual ritual development rhythms; rituals can only advance as group members consistently complete small, personalized steps, fueling deep habit formation through community accountability. This mechanic turns transient travel moods into a relaxing shared journey of self-care and discovery, giving travelers a soothing way to stay emotionally grounded anytime, anywhere. It encourages multiple check-ins weekly to log experiences, reveal new ritual layers, and receive soothing community affirmation. Ritualway transforms travel from a hustle into a curated, slow ritual, making each trip feel emotionally richer and sustainably peaceful.",
+  "features": [
+    {
+      "title": "Progressive Ritual Quests",
+      "detail": "Groups unlock wellness rituals stage-by-stage, matching destinations\u2019 cultural practices to weave calm and reassurance into travel habits."
+    },
+    {
+      "title": "Collaborative Audio Reflections",
+      "detail": "Users share short soothing voice notes capturing feelings and insights, bonding emotionally and sustaining engagement through melodic journaling."
+    },
+    {
+      "title": "Location-Inspired Ritual Themes",
+      "detail": "Each ritual draws authentically from unique cultural wellness traditions, offering fresh, serene experiences linked to real-world places."
+    },
+    {
+      "title": "Community-paced Unlocking",
+      "detail": "Ritual advancement depends on group members completing mini tasks consistently, reinforcing calm habits via shared ongoing commitment."
+    },
+    {
+      "title": "Time-Zone Friendly Scheduling",
+      "detail": "Ritual timers and reminders adapt thoughtfully around members\u2019 local times, ensuring stress-free participation and gentle, reassuring pacing."
+    }
+  ],
+  "audience": "Mindful travelers aged 25-45 seeking calm during trips and craving meaningful connection with others through shared wellness practices.",
+  "category": "travel",
+  "useCases": [
+    "Lily and her friends start a Bali-inspired morning meditation quest to stay connected and calm while some are traveling abroad.",
+    "Marcus uses Ritualway to progressively explore Kyoto tea rituals with new connections he made at a wellness retreat.",
+    "Sara checks in daily to complete wellness challenges from a coastal mindfulness ritual while working remotely from different time zones."
+  ],
+  "engagementLoop": "Users return multiple times weekly to contribute to their groups\u2019 ritual progress and light check-ins with soothing audio reflections ensure calm familiarity. The steady, incremental unlocking of new ritual stages always promises fresh yet reassuring experiences tied to places users love or plan to visit.",
+  "trendFit": "Ritualway aligns with growing interest in collaborative digital wellness supported by travel inspiration, blending slow-living and mindfulness trends with deepening emotional bonds fostered by consistent, gentle habit-building across globally distributed communities.",
+  "monetization": "The app offers a freemium model where core rituals are free but exotic or seasonal destination wellness quests and enhanced guided audio packs unlock via subscription or one-time purchase."
+}
