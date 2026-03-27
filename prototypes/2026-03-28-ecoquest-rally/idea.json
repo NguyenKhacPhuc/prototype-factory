@@ -1,0 +1,37 @@
+{
+  "name": "EcoQuest Rally",
+  "tagline": "Race to unlock surprises through green actions.",
+  "description": "EcoQuest Rally transforms daily sustainability efforts into a dynamic, competitive adventure where players engage in eco-friendly challenges tied to tangible real-world behaviors. Users join neighborhood or city-wide 'Rallies' where completing tasks\u2014like swapping a plastic item for a reusable one, joining a local cleanup, or biking 5 miles\u2014earns points and unlocks unexpected community-powered rewards, such as pop-up art installations, secret garden tours, or discounts at indie eco-shops. The app leverages location-triggered missions and a surprise mechanic where completing specific combos of green behaviors unlocks mystery events or digital collectibles that reveal inspiring stories of planetary impact. This layered challenge and reveal format keeps users returning multiple times weekly, eager to discover and contribute to new localized experiences and personal greener habits. By focusing on friendly competition and real-world unlocking tied to community engagement rather than abstract tracking, EcoQuest Rally delivers surprise and joyful discovery with every action, replacing typical sustainability gamification with an experiential social layer and profound emotional motivation.",
+  "features": [
+    {
+      "title": "Geo-Activated Eco Missions",
+      "detail": "Trigger green challenges linked to users\u2019 locations such as waste pickups or farmer\u2019s market visits that deepen community bonds and real-world impact."
+    },
+    {
+      "title": "Mystery Unlock Surprises",
+      "detail": "Unlock hidden content\u2014such as limited pop-up events, eco-stories, or collectible digital badges\u2014by completing curated combos of ecological actions."
+    },
+    {
+      "title": "Local Leaderboard Rallies",
+      "detail": "Foster friendly competition through city and neighborhood rankings that refresh weekly, encouraging continuous consensus around joint environmental goals."
+    },
+    {
+      "title": "Community Shared Rewards",
+      "detail": "Link users\u2019 achievements to unlocking tangible local rewards like discounts at cooperating eco-conscious stores or secret garden access."
+    },
+    {
+      "title": "Storytrail Integration",
+      "detail": "Reveal episodic narratives of sustainability heroes and initiatives tied to the user\u2019s actions and unlocked milestones, inspiring deeper connection."
+    }
+  ],
+  "audience": "Urban millennials and Gen Z environmentalists aged 18\u201335 who thrive on social engagement and desire meaningful, playful ways to integrate sustainability in daily life.",
+  "category": "sustainability",
+  "useCases": [
+    "On a weekend walk, a user unlocks a geo-mission to collect litter in their local park, feeling motivated knowing their action counts toward a community leaderboard and surprise rewards.",
+    "While deciding how to commute, a player opts to bike instead of drive, immediately gaining points within the app and edging closer to unlocking a nearby pop-up sustainable fashion tour.",
+    "A user attends a local farmer\u2019s market, unlocks a mystery badge for supporting local organic produce, and discovers an invite to a secret community eco-workshop triggered by their unlocked combo."
+  ],
+  "engagementLoop": "Weekly rotating local Rallies and leaderboards inspire users to repeatedly compete, complete fresh missions, and unlock story-driven surprises. Seasonal combos and newly available rewards require ongoing participation to explore evolving sustainability narratives, driving habitual app engagement multiple times weekly.",
+  "trendFit": "EcoQuest Rally taps into the rising waves of gamified self-improvement mixed with location-based social competition and surprise mechanics. It meets the demand for experience-driven, multi-sensory app engagement that moves beyond step-tracking to create real-world impact and communal joy.",
+  "monetization": "Revenue stems from partnerships with local eco-conscious businesses sponsoring rewards and events, plus optional premium passes unlocking exclusive missions, advanced leaderboard statuses, and collectible digital assets."
+}

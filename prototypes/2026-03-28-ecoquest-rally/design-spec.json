@@ -1,0 +1,12 @@
+{
+  "appName": "EcoQuest Rally",
+  "tagline": "Race to unlock surprises through green actions.",
+  "designSystem": {
+    "primaryColor": "#39FF14",
+    "secondaryColor": "#00E5FF",
+    "backgroundColor": "#0D1117",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark gamified adventure with electric neon-green accent, glassmorphic cards, and vibrant podium leaderboard — blending eco-consciousness with competitive excitement"
+  },
+  "screens": ["home", "missions", "rewards", "leaderboard", "profile"]
+}

@@ -1,0 +1,29 @@
+{
+  "appName": "EcoQuest Rally",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#39FF14",
+    "secondary": "#00E5FF",
+    "background": "#0D1117",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "check",
+    "chevron-down",
+    "chevron-right",
+    "gift",
+    "map-pin",
+    "moon",
+    "signal",
+    "sun",
+    "trophy",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 14,
+  "fontFileCount": 0
+}
