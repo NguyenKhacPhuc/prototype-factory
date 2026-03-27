@@ -1,0 +1,23 @@
+{
+  "appName": "PulseQuest",
+  "fontFamily": "Sora",
+  "colors": {
+    "primary": "#8B5CF6",
+    "secondary": "#EC4899",
+    "background": "#07070F",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "home",
+    "play",
+    "signal",
+    "user",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 8,
+  "fontFileCount": 0
+}

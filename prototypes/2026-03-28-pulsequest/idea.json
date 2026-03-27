@@ -1,0 +1,37 @@
+{
+  "name": "PulseQuest",
+  "tagline": "Co-challenge your flow, unlock new productivity worlds",
+  "description": "PulseQuest is a productivity challenge app where users team up in small squads to tackle themed sprints that encourage bursts of deep work, exploration, and creativity. Unlike traditional goal apps, PulseQuest scores progress not just on completed tasks but on emerging workflows discovered collaboratively through shareable 15-second activity recaps, blending the format of short-form video with productivity insights. Each team picks unlocked \u201cmystery missions\u201d with dynamic objectives that evolve as input from members shapes the challenge landscape, fostering continuous novelty and serendipitous discovery about personal and group work styles. Users return multiple times per week to contribute to pulse-check mini updates \u2014 quick paced videos reflecting real moments of work progress or pivot \u2014 earning rewards and unlocking new challenge realms. Felt like a creative co-op game crossed with micro-documentaries of work life, PulseQuest ups the fun and habits around productivity by injecting discovery, social momentum, and bite-sized storytelling.",
+  "features": [
+    {
+      "title": "Mystery Missions",
+      "detail": "Teams choose from ever-evolving themed challenges that shape work sprints, keeping engagement fresh and prompting discovery of new productivity rhythms."
+    },
+    {
+      "title": "Pulse Clips",
+      "detail": "Users upload 15-second video snippets capturing little breakthroughs or tweaks, mixing accountability with storytelling and short-form content dopamine triggers."
+    },
+    {
+      "title": "Co-Op Scoreboard",
+      "detail": "A dynamic team leaderboard encourages collaboration, amplifying the group's momentum rather than pitting individuals against each other."
+    },
+    {
+      "title": "Challenge Remix",
+      "detail": "Squads can remix unfinished missions into new variants using their clips, transforming and evolving challenges continuously to fit emerging group trends."
+    },
+    {
+      "title": "Unlockable Realms",
+      "detail": "Completing challenges unlocks \u2018productivity worlds\u2019 with unique rules and themes, sustaining novelty and surprise over multiple weekly sessions."
+    }
+  ],
+  "audience": "Young professionals aged 22-35 who engage with short videos and seek fresh, community-driven ways to structure focused work sessions and creative sprints.",
+  "category": "productivity",
+  "useCases": [
+    "A remote software development team uses PulseQuest to collectively tackle a tough bug, updating short Pulse Clips to share incremental discovery and creative problem-solving approaches.",
+    "Freelancers form a new squad to maintain daily creative practice by unlocking themed art and writing missions, motivating each other through brief shareable work moment recaps.",
+    "Students studying for an exam co-create remix challenges reflecting various subjects, discovering novel ways of chunking study material collaboratively in fast, engaging bursts."
+  ],
+  "engagementLoop": "PulseQuest feeds habitual interaction by cycling users through fresh, evolving group challenges and unlocks new realms as their teams contribute Pulse Clips, creating continual anticipation. The bite-sized video format suits natural micro-breaks and spontaneous motivational boosts many users crave throughout the workweek.",
+  "trendFit": "PulseQuest taps directly into the surge in popularity of short-form video by embedding quick video shares into productivity, marrying the \u2018scroll and snap\u2019 reflex with goal achievement. It embraces social and discovery-centered behaviors seen in collaborative apps but reframes them into active work reflection and coaching.",
+  "monetization": "The app offers premium \u2018realm packs\u2019 and custom challenge themes for purchase, alongside optional team productivity analytics subscriptions providing deeper insights and recommendations based on pulse clip trends."
+}

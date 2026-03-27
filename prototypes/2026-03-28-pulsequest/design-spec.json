@@ -1,0 +1,12 @@
+{
+  "appName": "PulseQuest",
+  "tagline": "Co-challenge your flow, unlock new productivity worlds",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#EC4899",
+    "backgroundColor": "#07070F",
+    "fontFamily": "Sora",
+    "style": "Dark glassmorphic with vibrant electric-violet primary, gradient squad cards, neon glow accents, and high-contrast typography hierarchy"
+  },
+  "screens": ["home", "missions", "pulse", "squad", "profile"]
+}
