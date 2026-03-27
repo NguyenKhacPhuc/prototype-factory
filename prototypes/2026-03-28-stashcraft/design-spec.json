@@ -1,0 +1,19 @@
+{
+  "appName": "StashCraft",
+  "tagline": "Craft wealth. Share wins. Build clubs.",
+  "designSystem": {
+    "primaryColor": "#0BB86A",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#EFF6F2",
+    "darkBackgroundColor": "#091410",
+    "accentColor": "#7C3AED",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "Clean card-based layout with emerald-green brand identity, vibrant gradient hero sections, soft glassmorphism-lite surfaces, and warm amber accent for gamification elements. Light/dark themes with distinct palettes."
+  },
+  "screens": [
+    "Feed - Creative progress diary feed with club stories, post cards showing milestones, strategies, and journals with progress bars and reactions",
+    "Clubs - My clubs with impact stats and progress, club discovery with search, per-club contribution tracking and active challenge indicators",
+    "Quests - Goal Challenge Cycles with gradient headers, task checklists, day countdowns, upcoming cycles preview",
+    "Profile - User stats hero, badge collection grid (earned/locked), settings with toggles, light/dark theme switcher"
+  ]
+}

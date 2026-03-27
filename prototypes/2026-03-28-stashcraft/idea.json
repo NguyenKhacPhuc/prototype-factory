@@ -1,0 +1,37 @@
+{
+  "name": "StashCraft",
+  "tagline": "Craft wealth. Share wins. Build clubs.",
+  "description": "StashCraft transforms personal finance into a collaborative craft by creating tightly-knit clubs focused on shared money goals, where users contribute creative progress logs, success stories, and experimental saving or investment tactics asynchronously. Members submit short user-generated content like mini videos, GIF updates, or vivid journal entries showcasing their milestones and setbacks towards goals like paying off debt or a dream trip. This continuous storytelling forms a living archive of strategies that evolves with the group, inspiring others and fostering peer accountability. Unlike typical finance apps, StashCraft\u2019s twist lies in its \u2018Goal Challenge Cycles\u2019: timed themed journeys where clubs propose layered tasks involving budget experiments and knowledge swaps. Users return multiple times a week to add progress, reflect on others\u2019 submissions, and unlock collective achievements that highlight both individual growth and group impact. The app taps into intrinsic motivation with a sense of co-creative journeying, making finance less abstract and more social art.",
+  "features": [
+    {
+      "title": "Creative Progress Diaries",
+      "detail": "Users post images, short videos, or stylized journal entries chronicling their financial journey, blending personal storytelling with concrete numbers to create an emotional connection with their progress."
+    },
+    {
+      "title": "Goal Challenge Cycles",
+      "detail": "Time-limited, community-designed missions with layered tasks dive beyond saving goals into eco-swaps, minimalist challenges, or investment experiments fostering deeper engagement and practical learnings."
+    },
+    {
+      "title": "Peer-Led Strategy Showcase",
+      "detail": "Members share and rate innovative saving/investing hacks and motivational tactics, making the app a dynamic playground for evolving personal finance methods crowdsourced from real experiences."
+    },
+    {
+      "title": "Club Impact Badges",
+      "detail": "Each club unlocks visual badges reflecting both individual milestones and group achievements, gamifying progress and promoting a strong sense of shared accomplishment."
+    },
+    {
+      "title": "Asynchronous Collaboration Feed",
+      "detail": "A smooth timeline where club members can asynchronously comment, inspire, and challenge each other's financial experiments, allowing interaction without needing simultaneous presence."
+    }
+  ],
+  "audience": "Millennial and Gen Z adults aged 22-38 who value community and creativity in self-improvement and want pocket-sized guidance for ambitious financial goals beyond standard tracking.",
+  "category": "personal finance",
+  "useCases": [
+    "A recent graduate joins a StashCraft club focused on paying off student loans, contributing creative monthly updates about budget hacks that work for their lifestyle.",
+    "Two friends create a club to experiment with eco-friendly spending cuts for a sustainable home deposit, sharing GIF guides and rewarding small wins to keep motivation high.",
+    "Work colleagues asynchronously collaborate on a themed 'investment experiment' cycle, testing small amounts in micro-investing plans and exchanging animated reviews during breaks."
+  ],
+  "engagementLoop": "Users return multiple times weekly to capture personal financial wins creatively and to engage with peer-shared strategies presented in digestible asynchronous formats. The evolving Goal Challenge Cycles introduce fresh missions that reset member focus and tap into community momentum, while unlocking shared badges drives collective encouragement.",
+  "trendFit": "StashCraft aligns with the growing appetite for asynchronous social collaboration where users co-create meaningful content over time instead of live chat. It leverages current interest in identity-driven micro-communities and storytelling to deepen engagement beyond static tracking or passive browsing.",
+  "monetization": "The app offers premium \u2018Challenge Cycle Packs\u2019 featuring exclusive themed missions and expert-crafted templates for clubs, alongside a subscription tier unlocking advanced analytics and specialist-led content workshops."
+}

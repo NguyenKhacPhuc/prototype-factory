@@ -1,0 +1,37 @@
+{
+  "appName": "StashCraft",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#0BB86A",
+    "secondary": "#F59E0B",
+    "background": "#EFF6F2",
+    "accent": "#7C3AED"
+  },
+  "icons": [
+    "bell",
+    "check",
+    "chevron-down",
+    "chevron-right",
+    "chevron-up",
+    "heart",
+    "help-circle",
+    "home",
+    "mail",
+    "message-circle",
+    "moon",
+    "plus",
+    "search",
+    "shield",
+    "signal",
+    "sliders-horizontal",
+    "sun",
+    "user",
+    "user-plus",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 22,
+  "fontFileCount": 0
+}
