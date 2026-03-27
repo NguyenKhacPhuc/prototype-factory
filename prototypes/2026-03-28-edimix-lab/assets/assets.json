@@ -1,0 +1,35 @@
+{
+  "appName": "Edimix Lab",
+  "fontFamily": "Space Grotesk",
+  "colors": {
+    "primary": "#8B5CF6",
+    "secondary": "#22D3EE",
+    "background": "#080810",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "clock",
+    "compass",
+    "dna",
+    "grip-vertical",
+    "heart",
+    "home",
+    "image",
+    "layers",
+    "mic",
+    "moon",
+    "plus",
+    "search",
+    "signal",
+    "sliders-horizontal",
+    "sparkles",
+    "sun",
+    "trophy",
+    "type",
+    "user",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 20,
+  "fontFileCount": 0
+}

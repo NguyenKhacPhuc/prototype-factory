@@ -1,0 +1,12 @@
+{
+  "appName": "Edimix Lab",
+  "tagline": "Remix knowledge. Create your course playground.",
+  "designSystem": {
+    "primaryColor": "#8B5CF6",
+    "secondaryColor": "#22D3EE",
+    "backgroundColor": "#080810",
+    "fontFamily": "Space Grotesk",
+    "style": "Dark-first glassmorphic design with vibrant purple-cyan gradient accents, card-based layouts, subtle glow effects, and a data-rich dashboard aesthetic. Light mode offers a soft lavender-white palette with the same vivid accent family."
+  },
+  "screens": ["home", "studio", "explore", "challenges", "profile"]
+}

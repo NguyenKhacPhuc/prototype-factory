@@ -1,0 +1,37 @@
+{
+  "name": "Edimix Lab",
+  "tagline": "Remix knowledge. Create your course playground.",
+  "description": "Edimix Lab invites users to actively remix the world's top educational content\u2014lectures, articles, videos\u2014into personalized, mashup-based micro-courses tailored to their unique interests and learning styles. Unlike static courses, Edimix Lab continuously adapts recommendations and remix toolkits to how users create and engage, unlocking unforeseen topic combinations. Imagine drawing from a physics lecture, a historical documentary, and pop-culture references to reframe a new understanding of technology\u2019s evolution. The sense of ownership in building and sharing original course hybrids fuels self-expression and educational creativity, transforming users from passive consumers to \u2018learning creators.\u2019 The platform\u2019s distinctive twist is its \u2018dynamic remix DNA,\u2019 a real-time learning fingerprint that guides evolving content templates and community challenges, making returning weekly an opportunity to deepen your personalized knowledge and social learning sandbox. This constantly inventive remix culture encourages exploration, mastery, and social recognition, making learning a playful and identity-driven act.",
+  "features": [
+    {
+      "title": "Dynamic Remix DNA",
+      "detail": "Tracks your evolving mix preferences and learning patterns to suggest personalized remix content and thematic mashup templates that grow with your intellect."
+    },
+    {
+      "title": "Creator Mashup Studio",
+      "detail": "An intuitive workspace where users combine diverse educational materials with creative tools\u2014annotations, visual layering, narrative threading\u2014to build novel micro-courses."
+    },
+    {
+      "title": "Weekly Remix Challenges",
+      "detail": "Community-driven theme challenges prompting users to creatively repurpose content around timely or fun topics, fostering engagement and social learning."
+    },
+    {
+      "title": "Shareable Learning Pods",
+      "detail": "Creates bite-sized remix bundles easily shareable with friends or social channels, encouraging collaboration and feedback loops in your learning journey."
+    },
+    {
+      "title": "Adaptive Growth Metrics",
+      "detail": "Personalized dashboards provide insights on evolving subject mastery and creativity trends, motivating users to experiment and deepen knowledge regularly."
+    }
+  ],
+  "audience": "Curious learners aged 18-35, active creators and lifelong autodidacts, keen on shaping education through creativity. Ideal for college students, hobbyists, and knowledge influencers looking for a bespoke, engaging alternative to traditional coursework.",
+  "category": "education",
+  "useCases": [
+    "A college student open sources her neuroscience textbook notes, combining them with podcasts and documentary clips to create a fresh, personal mini-course for her study group.",
+    "An aspiring entrepreneur remixes discrete lessons on marketing, behavioral economics, and design thinking into a compact entrepreneurial toolkit to sharpen daily workflows.",
+    "A teacher blends citizen science videos and local history PDFs, preparing interactive neighborhood heritage courses to share with her middle school class through the app."
+  ],
+  "engagementLoop": "Users return weekly to tackle new remix challenges, refine their courses based on adaptive AI feedback, and discover evolving thematic mashup suggestions tailored to their unique learning journey. The community-driven events and viewing of popular remix Pods provide fresh inspiration and recognition.",
+  "trendFit": "Edimix Lab taps into the creator economy by empowering knowledge remixing as a personal expression, aligned with the surge in bite-sized creative video content and micro-learning. Its cultural remix mechanic resonates with Gen Z and millennials who thrive in participatory, identity-driven digital environments and crave non-linear knowledge construction.",
+  "monetization": "The app offers a freemium model with advanced remix toolkits, exclusive challenge packs, and detailed growth analytics available via subscription, complimented by brand-sponsored remix themes and educational partnership licensing."
+}
