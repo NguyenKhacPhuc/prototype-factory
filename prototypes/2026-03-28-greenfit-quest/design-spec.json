@@ -1,0 +1,12 @@
+{
+  "appName": "GreenFit Quest",
+  "tagline": "Get fit, collect nature, unlock eco-adventures",
+  "designSystem": {
+    "primaryColor": "#22C55E",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#EDF7EF",
+    "fontFamily": "Outfit",
+    "style": "Nature-inspired gamified fitness app with vibrant green accent palette, card-based layouts, evolution progress indicators, and AR ecosystem visuals. Combines playful collectible mechanics with eco-mission storytelling."
+  },
+  "screens": ["home", "collect", "realm", "community", "profile"]
+}

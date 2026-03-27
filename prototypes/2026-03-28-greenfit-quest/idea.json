@@ -1,0 +1,37 @@
+{
+  "name": "GreenFit Quest",
+  "tagline": "Get fit, collect nature, unlock eco-adventures",
+  "description": "GreenFit Quest blends health coaching with a collectible adventure game that rewards sustainable fitness habits. Users receive personalized daily eco-challenges\u2014like walking or biking instead of driving\u2014that earn them unique virtual flora and fauna tokens representing real-world endangered species. Each collectible evolves or unlocks surprises when fitness goals are met repeatedly, creating an addictive progression loop mixing playfulness and discovery. The app's twist is an AR-driven 'Eco Realm' where users plant their collections into virtual environments inspired by global ecosystems, enabling community care competitions and evolving storylines rooted in sustainability. People care because they directly link personal health improvements to tangible ecological impact, fueling motivation through surprise rewards and a shared environmental mission. Habit formation comes from repeated daily quests and the excitement of unboxing new species or habitats multiple times per week, combined with live seasonal events that alter collections and stories. This novel combination of health, gaming, and sustainability taps into users\u2019 desires to make a positive difference while enjoying a playful and emotionally gratifying experience.",
+  "features": [
+    {
+      "title": "Daily Eco-Challenges",
+      "detail": "Personalized sustainable fitness tasks encourage health improvements while reducing carbon footprints, merging exercise with meaningful environmental action."
+    },
+    {
+      "title": "Collectible Species Tokens",
+      "detail": "Earn limited-edition virtual wildlife linked to real-world endangered animals that evolve with continued engagement, tapping into the joy of collecting and surprising discoveries."
+    },
+    {
+      "title": "AR Eco Realm",
+      "detail": "Build, nurture, and explore your virtual ecosystems by planting collected species, fostering a playful and social dimension of environment care visible through augmented reality."
+    },
+    {
+      "title": "Community Impact Competitions",
+      "detail": "Join teams fighting for ecosystem preservation trophies based on collective challenge completions, creating friendly rivalry and a shared eco-mission."
+    },
+    {
+      "title": "Seasonal Storyline Events",
+      "detail": "Engage with shifting narratives guided by real-world environmental themes, which unlock exclusive collectibles and keep the app fresh and emotionally compelling."
+    }
+  ],
+  "audience": "Environmentally-conscious health enthusiasts, primarily aged 20-40, who enjoy interactive mobile games and want their fitness habits to create tangible environmental value.",
+  "category": "health & fitness",
+  "useCases": [
+    "A commuter swaps a car trip for cycling, earning a new virtual rare butterfly token, and later uses AR mode at home to plant it into their virtual rainforest.",
+    "A weekend runner accepts a 'plastic clean-up jog' challenge that awards collectible species and contributes to a local team objective with others battling for ecosystem restoration prizes.",
+    "During a seasonal event, a user checks in multiple times a week to track evolving story chapters, unbox newly unlocked eco-species, and complete daily sustainability fitness quests."
+  ],
+  "engagementLoop": "Users return regularly to unlock new and evolving collectible species by completing fresh eco-friendly fitness challenges daily. The ongoing seasonal storylines and community competitions stimulate emotional investment and friendly rivalry, encouraging repeat visits multiple times a week to nurture their AR Eco Realm and track impact progress.",
+  "trendFit": "GreenFit Quest leverages the increasing consumer drive for sustainability awareness and purpose-driven fitness alongside gamified loot and AR-driven social experiences. It taps into current trends for playful surprise mechanics and community engagement around meaningful goals, transforming workout routines into eco-conscious adventures.",
+  "monetization": "A freemium model offers premium rare collectible bundles and exclusive AR habitats as in-app purchases, alongside brand sponsorships from eco-focused companies and optional subscription tiers unlocking enhanced personalized coaching and expanded seasonal content."
+}
