@@ -1,0 +1,12 @@
+{
+  "appName": "CraftQuest",
+  "tagline": "Buy, Create & Compete in Art Challenges",
+  "designSystem": {
+    "primaryColor": "#A855F7",
+    "secondaryColor": "#F59E0B",
+    "backgroundColor": "#0C0C15",
+    "fontFamily": "Sora",
+    "style": "Dark-first creative marketplace with vibrant purple-amber accent palette, glassmorphic cards, gradient challenge banners, and bold 800-weight headings. Micro-interactions on join buttons and cart toggles. Smooth 0.2–0.35s transitions between light and dark themes."
+  },
+  "screens": ["home", "quests", "shop", "ranks", "profile"]
+}

@@ -1,0 +1,43 @@
+{
+  "appName": "CraftQuest",
+  "fontFamily": "Sora",
+  "colors": {
+    "primary": "#A855F7",
+    "secondary": "#F59E0B",
+    "background": "#0C0C15",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "award",
+    "battery",
+    "bell",
+    "camera",
+    "check",
+    "chevron-right",
+    "clock",
+    "flame",
+    "help-circle",
+    "home",
+    "log-out",
+    "moon",
+    "plus",
+    "search",
+    "settings",
+    "shield",
+    "shopping-bag",
+    "shopping-cart",
+    "sliders-horizontal",
+    "star",
+    "sun",
+    "target",
+    "trending-up",
+    "trophy",
+    "user",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 28,
+  "fontFileCount": 0
+}

@@ -1,0 +1,37 @@
+{
+  "name": "CraftQuest",
+  "tagline": "Buy, Create & Compete in Art Challenges",
+  "description": "CraftQuest is a dynamic creative marketplace where artists and makers don\u2019t just sell their unique creations\u2014they issue and participate in themed community challenges that push artistic boundaries. Users browse handcrafted supplies, templates, and exclusive digital assets needed to enter current challenges hosted by professionals or peers. By committing publicly to a challenge goal, creators gain social accountability that fuels productivity and growth. Progress is tracked through step milestones and peer feedback, turning creative bursts into steady momentum. Regularly refreshed seasonal quests and ranked leaderboards spark friendly rivalry, fostering a thriving culture of constant creative achievement. Unlike hobby marketplaces, CraftQuest makes creation itself a shared, recognized journey blending commerce, skill-building, and communal celebration.",
+  "features": [
+    {
+      "title": "Challenge Hub",
+      "detail": "Discover themed creative quests that users commit to complete, driving regular engagement through social accountability."
+    },
+    {
+      "title": "Marketplace for Challenge Materials",
+      "detail": "Offers curated, challenge-specific tools and materials sourced from sellers, tightly linked to current and upcoming quests."
+    },
+    {
+      "title": "Progress Milestones & Social Streaks",
+      "detail": "Track creation progress and showcase milestones to friends, reinforcing pride and social momentum to complete projects."
+    },
+    {
+      "title": "Peer Review & Spotlight",
+      "detail": "Community voting and feedback help creators refine their work and earn spotlight honors boosting visibility in the marketplace."
+    },
+    {
+      "title": "Seasonal Camps & Leaderboards",
+      "detail": "Competitive, timed crafting events encourage repeat visits as communities rally, cheer on peers, and win creative rewards."
+    }
+  ],
+  "audience": "Creative hobbyists aged 18-40 who enjoy arts & crafts, value community motivation, and seek fresh challenges to develop skills and monetize their art.",
+  "category": "creative tools",
+  "useCases": [
+    "A ceramic artist commits to a month-long 'Nature Vessel' challenge, buys specially curated glazes through the marketplace, regularly submits photos of their work-in-progress for feedback, and tracks their improvement via milestone badges.",
+    "A digital illustrator joins a weekly color-themed sketch challenge, purchases exclusive brush packs and templates, competes for leaderboard positions, and thrives on peer recognition to fuel daily art creation.",
+    "A crafter new to woodworking takes part in a seasonal 'Upcycle Furniture' quest, acquires rare reclaimed materials through the app, shares progress updates with their accountability pod, and auctions their final piece on the platform."
+  ],
+  "engagementLoop": "Weekly refreshed challenges and evolving materials spark a rhythmic creation ritual supported by social streaks and peer recognition. The blend of community goals, personal progress tracking, and competitive spotlight drives creators to return frequently to push new projects forward and capitalize on sales momentum.",
+  "trendFit": "CraftQuest taps into growing interest in community-driven micro challenges and social accountability, replacing isolated crafting with interactive, goal-driven creation. It leverages the resurgence of handmade market shopping and the desire for meaningful achievements within hobbyist subcultures.",
+  "monetization": "Revenue comes from transaction fees on marketplace sales, premium challenge entry passes with exclusive materials, and featured creator sponsorships to boost visibility within active quests."
+}
