@@ -1,0 +1,12 @@
+{
+  "appName": "PulseQuest",
+  "tagline": "Unlock your flow in bursts—together.",
+  "designSystem": {
+    "primaryColor": "#E8614D",
+    "secondaryColor": "#D4A853",
+    "backgroundColor": "#FAF7F4",
+    "fontFamily": "Playfair Display",
+    "style": "Editorial magazine — typographic, spacious, confident. Warm coral on off-white. Overlapping angled cards for depth. Italic serif headings with clean Inter body copy."
+  },
+  "screens": ["Home", "Squad", "Discover", "Feed", "Settings"]
+}
