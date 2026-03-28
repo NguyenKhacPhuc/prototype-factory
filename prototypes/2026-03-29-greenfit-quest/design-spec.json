@@ -1,0 +1,12 @@
+{
+  "appName": "GreenFit Quest",
+  "tagline": "Collect sustainability, play for fitness rewards",
+  "designSystem": {
+    "primaryColor": "#D4522A",
+    "secondaryColor": "#4A7C59",
+    "backgroundColor": "#FAF8F5",
+    "fontFamily": "Playfair Display",
+    "style": "Editorial magazine with warm coral on off-white, overlapping angled cards, confident and refined typography"
+  },
+  "screens": ["home", "collection", "quests", "impact", "profile"]
+}

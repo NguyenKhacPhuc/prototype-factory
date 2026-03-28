@@ -1,0 +1,37 @@
+{
+  "name": "GreenFit Quest",
+  "tagline": "Collect sustainability, play for fitness rewards",
+  "description": "GreenFit Quest turns your fitness routine into an exciting adventure where every healthy action earns you unique collectible eco-tokens representing endangered species and habitats. As you walk, run, bike, or practice sustainable workouts (like bodyweight exercises using reused gear), you unlock surprises and build a personalized virtual eco-collection. This collection grows with your progress and directly connects to global reforestation and conservation efforts, granting a tangible sense of impact and discovery. Weekly surprise challenges nudge you to try new fitness-sustainability combos, like 'plogging' or plant-based meal days, blending play with conscious action. The app\u2019s coach personality guides with witty commentary and unexpected eco-facts, fostering emotional attachment to both personal health and planet care. Users return repeatedly not just to level up but to unveil rare digital collectibles and unlock actual rewards such as tree-planting donations named after their collections.",
+  "features": [
+    {
+      "title": "Eco-Token Collectibles",
+      "detail": "Earn rare virtual tokens representing real endangered species through completing diverse fitness activities blended with sustainability tasks."
+    },
+    {
+      "title": "Weekly Surprise Quests",
+      "detail": "Engage with new, short challenges combining fitness and eco-friendly habits that unlock limited-edition collectibles and real-world impact."
+    },
+    {
+      "title": "Impact Map",
+      "detail": "Visualize your collective fitness and sustainability contributions on a global map powered by conservation partners."
+    },
+    {
+      "title": "Habit-Focused Coach",
+      "detail": "Receive playful, personalized coaching emphasizing gradual sustainable-lifestyle adoption alongside fitness improvements, keeping motivation high."
+    },
+    {
+      "title": "Community Eco-Exchange",
+      "detail": "Trade collectibles with others and collaborate on unlocking exclusive, community-only eco-fitness challenges enhancing social bonds."
+    }
+  ],
+  "audience": "Environmentally conscious adults and young adults aged 18-40 who want a fun, richly engaging way to combine fitness with sustainability impact.",
+  "category": "health & fitness",
+  "useCases": [
+    "After a morning run, Emma opens GreenFit Quest to log her activity and discovers she unlocked a rare rainforest frog collectible for running while recycling.",
+    "David completes the weekly \u2018plogging\u2019 quest by jogging and picking trash, then trades newly earned eco-tokens with friends in the app\u2019s community exchange.",
+    "On his rest day, Lee checks the Impact Map to see how his combined workouts and sustainable actions contributed to recent tree planting in his region."
+  ],
+  "engagementLoop": "Users come back weekly for refreshing surprise quests that combine exploration and challenge with fitness and sustainability, unlocking novel collectibles and emotional milestones tied to real-world ecological good deeds. Social trading adds dynamic variability, deepening engagement through community interaction and a sense of shared impact.",
+  "trendFit": "This app aligns with the rising integration of sustainability into lifestyle choices and the gamer mindset around collectible ecosystems, while tapping into health apps\u2019 shift toward motivation fueled by emotional storytelling and real-world impact. It fits today\u2019s playful yet purposeful tech user looking for significance alongside self-improvement.",
+  "monetization": "Revenue stems from premium subscription tiers that offer exclusive quests, branded collectible packs, and advanced coaching analytics, paired with optional user donations that support verified green initiatives linked to the collectibles."
+}

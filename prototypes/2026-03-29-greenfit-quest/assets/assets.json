@@ -1,0 +1,38 @@
+{
+  "appName": "GreenFit Quest",
+  "fontFamily": "Playfair Display",
+  "colors": {
+    "primary": "#D4522A",
+    "secondary": "#4A7C59",
+    "background": "#FAF8F5",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "award",
+    "battery",
+    "check",
+    "chevron-down",
+    "chevron-right",
+    "chevron-up",
+    "flame",
+    "footprints",
+    "gift",
+    "globe",
+    "home",
+    "leaf",
+    "lock",
+    "map-pin",
+    "signal",
+    "sparkles",
+    "timer",
+    "tree-pine",
+    "user",
+    "wifi",
+    "wind",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 23,
+  "fontFileCount": 0
+}
