@@ -1,0 +1,31 @@
+{
+  "appName": "Local Bites",
+  "fontFamily": "Playfair Display",
+  "colors": {
+    "primary": "#E86449",
+    "secondary": "#B85030",
+    "background": "#1B1208",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "bell",
+    "book-open",
+    "bookmark",
+    "chevron-right",
+    "heart",
+    "home",
+    "map-pin",
+    "message-circle",
+    "moon",
+    "plus",
+    "search",
+    "settings",
+    "sun",
+    "user",
+    "users",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}
