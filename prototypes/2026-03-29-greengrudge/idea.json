@@ -1,0 +1,37 @@
+{
+  "name": "GreenGrudge",
+  "tagline": "Compete, Survive, and Outsmart Waste",
+  "description": "GreenGrudge flips sustainability into a high-stakes social game where players unlock exclusive real-world rewards by reducing personal waste and out-performing friends in eco-challenges. Players secretly assign weekly \u201cgrudges\u201d \u2014 targeted waste-cutting goals \u2014 to rivals, fueling friendly but surprising sustainability battles that drive creativity and deeper commitment. The app integrates with user location and purchase data via partnerships to verify organic impact without tedious logs, turning every action into playful secret missions like \"Beat Joe\u2019s plastic fork count this week\". Real-time leaderboards blend bragging rights with incentives like local store discounts and surprise collectible eco-art, prompting users to return multiple times weekly to strategize, check rivals\u2019 moves, and claim faction bonuses. The twist: a covert sabotage mechanic lets you send random eco-challenges to friends that disrupt their plans and keep competition fresh, injecting unpredictability into typical self-improvement routines. This approach makes ecological responsibility a living, evolving experience driven by social connection and playful rivalry.",
+  "features": [
+    {
+      "title": "Secret Waste Challenges",
+      "detail": "Players assign hidden reduction goals to friends each week, creating surprise eco-battles that spark engagement and innovative strategies."
+    },
+    {
+      "title": "Impact Verification Engine",
+      "detail": "Connects with partner data sources to quietly confirm reductions in waste without manual input, keeping the game effortless but trustworthy."
+    },
+    {
+      "title": "Sabotage Missions",
+      "detail": "Unique power that lets you challenge and disrupt competitors\u2019 efforts, offering a fresh twist to maintain excitement and unpredictability."
+    },
+    {
+      "title": "Faction Rewards & Leaderboards",
+      "detail": "Groups of users join factions competing globally, earning real-world discounts and exclusive digital collectibles that nourish continued motivation."
+    },
+    {
+      "title": "Surprise Unlockables",
+      "detail": "Unlock whimsical, eco-themed digital art and local event invitations by hitting performance milestones, blending playfulness with real benefits."
+    }
+  ],
+  "audience": "Eco-conscious millennials and Gen Z adults (18-35) urban dwellers who enjoy games and social competition with a passion for impactful, fun sustainability goals.",
+  "category": "sustainability",
+  "useCases": [
+    "A user opens GreenGrudge on Monday morning to assign a waste reduction grudge to a friend and check if they have discovered new surprise challenges sent to them.",
+    "Midweek, someone visits an affiliated zero-waste store after unlocking a faction discount and scans their purchases to verify impact and gain faction points.",
+    "On Friday, a player strategizes by reviewing leaderboards, planning sabotage moves, and chatting in faction channels to coordinate team eco-strategies for the weekend."
+  ],
+  "engagementLoop": "Regular weekly secret challenges, faction cooperation, and sabotage keep users locked into ongoing playful rivalry. Frequent real rewards and surprise unlocks encourage players to re-engage multiple times each week for strategic advantage and social bragging rights.",
+  "trendFit": "GreenGrudge taps into the gamified self-improvement trend blended with emerging real-world impact tracking and nostalgia for retro social competition games. It leverages growing consumer desire for sustainability embedded into playful, surprise-driven social experiences rather than dull chores.",
+  "monetization": "Revenue is generated through strategic partnerships with eco-friendly retailers paying for in-app promotion tied to discounts and real-world rewards, along with premium subscription tiers offering exclusive sabotage powers and aesthetic unlocks."
+}

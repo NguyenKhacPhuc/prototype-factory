@@ -1,0 +1,13 @@
+{
+  "appName": "GreenGrudge",
+  "tagline": "Compete, Survive, and Outsmart Waste",
+  "designSystem": {
+    "primaryColor": "#E8735A",
+    "secondaryColor": "#C4956A",
+    "backgroundColor": "#141210",
+    "accentColor": "#4A8C6F",
+    "fontFamily": "Playfair Display / Inter",
+    "style": "Editorial magazine — typographic serif headings, warm coral on deep charcoal (dark default) or off-white (light), overlapping angled cards, confident and refined spacing"
+  },
+  "screens": ["Home", "Grudges", "Faction", "Sabotage", "Profile"]
+}
