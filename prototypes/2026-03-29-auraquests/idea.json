@@ -1,0 +1,37 @@
+{
+  "name": "AuraQuests",
+  "tagline": "Seasonal vibes, micro-challenges, express your mood.",
+  "description": "AuraQuests is an ambient companion app that invites users into evolving, seasonal micro-challenges designed not for productivity but for playful self-expression and social status. Each season, users receive immersive thematic quests\u2014like \u2018Harvest Glory\u2019 in autumn or \u2018Winter Radiance\u2019 challenges\u2014that encourage engaging, bite-sized ambient interactions such as crafting virtual moodscapes, coding short poetic haikus, or remixing micro-melodies triggered by subtle emotional inputs. These challenges unlock unique badges, digital accessories for an app avatar, and visual aura flares that amplify personal identity within an intimate community. AuraQuests fits naturally into everyday life as an unobtrusive screen companion that refreshes your emotional palette and status, making users eager to return multiple times per week to participate in shifting quests and showcase evolving personal styles. It feels new because it turns ambient engagement into a canvas for personal cultural expression refined over changing seasons rather than mindless check-ins or straightforward gamification.",
+  "features": [
+    {
+      "title": "Seasonal Quest Cycles",
+      "detail": "Roll out curated seasonal ambient challenges that refresh every 6-8 weeks, inspiring unique emotional and creative micro-tasks that deepen the ambient companion experience."
+    },
+    {
+      "title": "Mood Mosaic Creator",
+      "detail": "Allows users to blend visual, sound, and short poetic fragments unlocked from quests to craft shareable aura mosaics that express evolving moods and seasonal identity."
+    },
+    {
+      "title": "Status Aura Avatars",
+      "detail": "Customize an ambient avatar enriched with badges and aura effects earned from seasonal challenges, acting as a stylish personal emblem across the app\u2019s private community."
+    },
+    {
+      "title": "Micro-learning Inspirations",
+      "detail": "Delivers bite-sized thematic skill hints and artistic mini-lessons embedded within quests, such as crafting haikus, sound layering, or color theory, deepening engagement through creative micro-learning."
+    },
+    {
+      "title": "Hidden Ambient Boosts",
+      "detail": "Strategically placed ambient tasks that reward users with subtle emotional boosts or visual enhancements when completed, encouraging exploration and repeated return visits."
+    }
+  ],
+  "audience": "Young adults aged 18-30 who enjoy self-expression through digital art, wish to build a distinctive seasonal identity, and seek novel ambient companion experiences beyond conventional social apps.",
+  "category": "entertainment",
+  "useCases": [
+    "On a quiet coffee break, a user opens AuraQuests to craft a quick haiku challenge reflecting the current autumn theme, merging words and colors to share as a new mosaic emblem.",
+    "During a commuted train ride, a user completes a brief seasonal sound layering task, earning a glowing badge and upgrading their status aura avatar before arriving at work.",
+    "Each weekend, a user opens the app to explore newly unlocked quests and add fresh emotional layers to their profile, then subtly shares their updated aura mosaic with friends within the community."
+  ],
+  "engagementLoop": "Users return to engage in frequently refreshed seasonal quests offering new emotional and artistic challenges, reinforcing a sense of evolving personal identity and status through rich ambient expression. The ongoing micro-learning elements and discovery of hidden rewards drive curiosity and subtle attachment throughout the season.",
+  "trendFit": "AuraQuests taps into the rise of micro-learning by delivering fragmentary skills and creativity boosts in a low-commitment format. It also resonates with growing demand for ambient digital companions that support emotional self-expression and mutable digital identity without heavy social feed fatigue.",
+  "monetization": "Monetization comes from seasonal premium quest packs that offer exclusive creative tools, aura customizations, and early access to limited-time emotional themes, paired with optional small monthly subscriptions for enhanced avatar status display options."
+}

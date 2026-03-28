@@ -1,0 +1,31 @@
+{
+  "appName": "AuraQuests",
+  "fontFamily": "Playfair Display",
+  "colors": {
+    "primary": "#E8654A",
+    "secondary": "#D4A853",
+    "background": "#12100E",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "check-circle",
+    "chevron-right",
+    "feather",
+    "heart",
+    "home",
+    "info",
+    "layers",
+    "lock",
+    "settings",
+    "star",
+    "sun",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}
