@@ -1,0 +1,37 @@
+{
+  "name": "RiteCircle",
+  "tagline": "Live rituals, bonded identities, daily drive.",
+  "description": "RiteCircle is a live event\u2013driven app that connects tightly knit identity-based communities around shared daily or weekly rituals to build mutual accountability and motivation. Unlike generic social apps, it centers on synchronous group gatherings\u2014think live morning mindfulness, evening cultural storytelling, or weekly creative jams\u2014that transform solitary habits into vibrant shared experiences. Users join small authentic circles (5-12 members) aligned by passions, heritage, or lifestyles, committing upfront to ritual attendance times, ensuring accountability beyond simple check-ins. A standout twist is the dynamic \u2018RiteKeeper\u2019 role rotating across users each event, who leads and personalizes the ritual to deepen engagement and ownership. This compelling in-the-moment ritual activation naturally creates a magnetic retention loop for repetitive live participation and social bonds, satisfying identity affirmation and collective growth needs.",
+  "features": [
+    {
+      "title": "Micro-Community Circles",
+      "detail": "Users form tight groups based on distinct identities or interests, fostering deeper connections and consistent ritual attendance."
+    },
+    {
+      "title": "Live Ritual Broadcasts",
+      "detail": "Scheduled synchronous sessions where users participate together in rituals, enhancing accountability and emotional connection."
+    },
+    {
+      "title": "Rotating RiteKeeper Role",
+      "detail": "Every event features a different group member leading the ritual with personalized content, empowering member creativity and leadership."
+    },
+    {
+      "title": "Progressual Commitment Paths",
+      "detail": "Structured ritual streaks combined with peer encouragement cultivate motivation and reward persistence with community honors."
+    },
+    {
+      "title": "Identity Highlight Tokens",
+      "detail": "Unique digital tokens celebrate personal stories and role contributions, visible in ritual sessions to strengthen in-group pride."
+    }
+  ],
+  "audience": "Millennial and Gen Z users deeply invested in identity-driven lifestyles\u2014such as cultural heritage groups, mindful creatives, or niche hobby collectives\u2014looking for purposeful live community interaction and structured encouragement.",
+  "category": "social & community",
+  "useCases": [
+    "A young woman joins a Native storytelling circle to tune in live every weekend, guided by her rotating RiteKeeper friend, to share and preserve her cultural tales.",
+    "A small digital art group holds a daily 20-minute live ritual where members co-create a themed piece, each taking turns leading fresh challenges to build careers and camaraderie.",
+    "Two friends from a wellness community commit to morning group meditations three times a week on RiteCircle, ensuring they stay motivated and accountable through live interaction."
+  ],
+  "engagementLoop": "By embedding live rituals with rotating leadership and identity-affirming tokens, members are intrinsically motivated to show up regularly, contribute to the event\u2019s pace, and visibly track their community status. The promise of scheduled synchronous bonding enforces habitual engagement multiple times weekly.",
+  "trendFit": "RiteCircle taps into rising desires for curated, intimate identity communities and live, scheduled experiences within social platforms. It builds on momentum seen in live audio, wearable-driven habits, and micro-community ritualization, avoiding passive scrolling in favor of active, motivated presence.",
+  "monetization": "Offers premium tiers unlocking enhanced RiteKeeper tools, exclusive identity tokens, and expanded circle sizes; and brands can sponsor specific rituals aligned with community identities, providing tasteful event support without disrupting authenticity."
+}

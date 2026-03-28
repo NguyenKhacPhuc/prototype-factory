@@ -1,0 +1,27 @@
+{
+  "appName": "RiteCircle",
+  "fontFamily": "Playfair Display",
+  "colors": {
+    "primary": "#E8724A",
+    "secondary": "#C4956A",
+    "background": "#1A1410",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "chevron-right",
+    "clock",
+    "crown",
+    "home",
+    "moon",
+    "radio",
+    "search",
+    "sun",
+    "user",
+    "users",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 12,
+  "fontFileCount": 0
+}
