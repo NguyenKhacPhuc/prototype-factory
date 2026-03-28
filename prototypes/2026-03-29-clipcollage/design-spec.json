@@ -1,0 +1,43 @@
+{
+  "appName": "ClipCollage",
+  "tagline": "Learn by remixing creativity in motion",
+  "designSystem": {
+    "primaryColor": "#E8735A",
+    "secondaryColor": "#4A6B8A",
+    "backgroundColor": "#1A1410",
+    "surfaceColor": "#241C14",
+    "textColor": "#FAF7F2",
+    "fontFamily": "Playfair Display",
+    "bodyFont": "Source Sans 3",
+    "style": "Editorial magazine — warm coral accents on rich dark-brown backgrounds (dark default) or off-white (light mode). Playfair Display serif headings for typographic personality. Overlapping angled cards on Home and Community screens. Column-grid layout with ALL-CAPS overlines, pull quotes, and thick editorial rule borders.",
+    "moodKeywords": ["confident", "refined", "editorial", "typographic", "warm"],
+    "colorPalette": {
+      "coral": "#E8735A",
+      "darkBg": "#1A1410",
+      "darkSurface": "#241C14",
+      "lightBg": "#FAF7F2",
+      "lightSurface": "#FFFFFF",
+      "accent1": "#4A6B8A",
+      "accent2": "#7A4A6B",
+      "accent3": "#4A7A5A"
+    }
+  },
+  "screens": [
+    "Onboarding (3 slides: Remix to Learn, Temporal Layering, Battle & Collaborate)",
+    "Home — Editorial feed with weekly battle banner, overlapping angled featured remix card stack, trending horizontal scroll, recent activity",
+    "Create — Clip & Blend Editor with multi-track timeline, Temporal Layering toggle, playhead controls, clip library grid",
+    "Explore — Search bar, category pills, Adapted For You section, trending content list",
+    "Community — Tabbed: Battles (overlapping angled challenge cards), Leaderboard, Collabs",
+    "Profile — User card with stats grid, my remixes list, achievements/badges, settings with theme toggle"
+  ],
+  "keyFeatures": [
+    "Temporal Layering Mode — multi-track time-sync toggle in editor",
+    "Overlapping angled card stacks on Home and Community screens",
+    "Dark/Light theme toggle in Profile settings",
+    "Working tab navigation: Home, Explore, Create, Community, Profile",
+    "Adaptive 'For You' section in Explore",
+    "Community remix battle cards with entry counts and countdowns",
+    "Real-time collab space with member avatars"
+  ],
+  "techStack": "React (Babel standalone), Lucide icons CDN, Google Fonts (Playfair Display + Source Sans 3), inline styles only"
+}

@@ -1,0 +1,38 @@
+{
+  "appName": "ClipCollage",
+  "fontFamily": "Playfair Display",
+  "colors": {
+    "primary": "#E8735A",
+    "secondary": "#4A6B8A",
+    "background": "#1A1410",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "award",
+    "battery",
+    "bookmark",
+    "heart",
+    "home",
+    "layers",
+    "log-out",
+    "moon",
+    "pause",
+    "play",
+    "plus",
+    "plus-circle",
+    "scissors",
+    "search",
+    "settings",
+    "sparkles",
+    "sun",
+    "trending-up",
+    "trophy",
+    "user",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 23,
+  "fontFileCount": 0
+}
