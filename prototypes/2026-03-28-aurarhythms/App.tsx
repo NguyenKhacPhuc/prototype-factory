@@ -812,7 +812,7 @@ function App() {
   // ─── Root Render ──────────────────────────────────────────────────────────
   return React.createElement('div', {
     style: {
-      minHeight: '100vh', background: '#1a1025',
+      minHeight: '100vh', background: '#f0f0f0',
       display: 'flex', alignItems: 'center', justifyContent: 'center',
       padding: '20px',
       fontFamily: "'Sora', sans-serif",

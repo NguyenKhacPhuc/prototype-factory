@@ -1025,7 +1025,7 @@ function App() {
     styleTag,
     React.createElement('div', {
       style: {
-        minHeight: '100vh', background: '#e8e8e8',
+        minHeight: '100vh', background: '#f0f0f0',
         display: 'flex', alignItems: 'center', justifyContent: 'center',
         fontFamily: 'Space Grotesk, sans-serif',
       }

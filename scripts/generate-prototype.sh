@@ -33,7 +33,14 @@ IDEA_JSON=$("$SCRIPTS_DIR/openai-idea.sh") || {
 APP_NAME=$(echo "$IDEA_JSON" | python3 -c "import sys,json; print(json.load(sys.stdin)['name'])")
 APP_TAGLINE=$(echo "$IDEA_JSON" | python3 -c "import sys,json; print(json.load(sys.stdin)['tagline'])")
 APP_DESC=$(echo "$IDEA_JSON" | python3 -c "import sys,json; print(json.load(sys.stdin)['description'])")
-APP_FEATURES=$(echo "$IDEA_JSON" | python3 -c "import sys,json; print(', '.join(json.load(sys.stdin)['features']))")
+APP_FEATURES=$(echo "$IDEA_JSON" | python3 -c "
+import sys,json
+features = json.load(sys.stdin)['features']
+if features and isinstance(features[0], dict):
+    print(', '.join(f['title'] + ': ' + f['detail'] for f in features))
+else:
+    print(', '.join(features))
+")
 
 # Create slug from app name
 # Randomly pick default theme for variety (roughly 50/50 light vs dark)
@@ -113,7 +120,7 @@ Create a single-file React prototype (App.tsx) that runs with Babel standalone.
 
 **Design Requirements:**
 - Phone frame container (375x812px) with rounded corners, centered on page
-- Neutral background (#f0f0f0) behind the phone frame
+- **MANDATORY**: The outermost wrapper div (the one with minHeight: '100vh') MUST always use background: '#f0f0f0' regardless of light/dark theme. This is the page background BEHIND the phone, not the app itself. NEVER use a dark color here.
 - Dynamic Island notch at top
 - Bottom navigation bar with 3-5 tabs (working navigation between screens)
 - At least 4 screens/tabs with real, detailed content
@@ -187,7 +194,7 @@ if [ -f "$TEMPLATE" ]; then
   python3 -c "
 with open('$TEMPLATE') as f:
     html = f.read()
-shim = '<script>window.react = window.React;</script>\n<script src=\"https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.min.js\"></script>\n<script>window.lucide = window.LucideReact || {};</script>\n</head>'
+shim = '<script>window.react = window.React;</script>\n<script src=\"https://unpkg.com/lucide-react@0.469.0/dist/umd/lucide-react.min.js\"></script>\n<script>window.lucide = window.LucideReact || {};</script>\n</head>'
 html = html.replace('</head>', shim)
 with open('$TARGET_DIR/preview.html', 'w') as f:
     f.write(html)
@@ -205,7 +212,7 @@ else
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <script>window.react = window.React;</script>
-  <script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide-react.min.js"></script>
+  <script src="https://unpkg.com/lucide-react@0.469.0/dist/umd/lucide-react.min.js"></script>
   <script>window.lucide = window.LucideReact || {};</script>
 </head>
 <body>

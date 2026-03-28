@@ -1,6 +1,6 @@
 #!/bin/bash
-# Generate a creative app idea using OpenAI API (gpt-4o-mini)
-# Output: JSON with name, tagline, description, features, audience, category
+# Generate a creative app idea using OpenAI API
+# Output: JSON with name, tagline, description, features, audience, category, useCases, engagementLoop, trendFit, monetization
 
 set -euo pipefail
 
@@ -11,16 +11,93 @@ if [ -z "${OPENAI_API_KEY:-}" ] || [ "$OPENAI_API_KEY" = "your-openai-api-key-he
   echo "Error: Set OPENAI_API_KEY in .env" >&2
   exit 1
 fi
+CATEGORIES=(
+  "health & fitness"
+  "personal finance"
+  "social & community"
+  "productivity"
+  "education"
+  "entertainment"
+  "travel"
+  "food & cooking"
+  "sustainability"
+  "creative tools"
+)
 
-# Rotate categories based on day-of-year to ensure variety
-CATEGORIES=("health & fitness" "finance" "social networking" "productivity" "education" "entertainment" "travel" "food & drink" "sustainability" "creative tools" "game" "weird" "books & reference" "business" "lifestyle" "news" "photo & video" "developer tools" "music" "navigation" "medical" "sports" "graphic & design" "shopping" "kids" "weather" "utilities" "magazines & newspapers")
-# Use batch index if provided (guarantees no duplicates in a batch), otherwise random
+# Extra creative dimensions to increase variety without changing external behavior
+ARCHETYPES=(
+  "coach"
+  "club"
+  "ritual"
+  "challenge app"
+  "remix tool"
+  "ambient companion"
+  "collaborative game"
+  "identity community"
+  "real-world unlock app"
+  "marketplace with a twist"
+)
+
+ENGAGEMENT_MECHANICS=(
+  "streaks"
+  "friendly competition"
+  "social accountability"
+  "collectibles"
+  "user-generated content"
+  "live events"
+  "co-op goals"
+  "adaptive personalization"
+  "seasonal challenges"
+  "progressive unlocks"
+)
+
+TREND_ANGLES=(
+  "short-form content behavior"
+  "creator economy"
+  "micro-learning"
+  "wellness rituals"
+  "local discovery"
+  "gamified self-improvement"
+  "community challenges"
+  "sustainability rewards"
+  "asynchronous collaboration"
+  "identity-based communities"
+)
+
+EMOTIONAL_HOOKS=(
+  "status and self-expression"
+  "calm and reassurance"
+  "belonging and community"
+  "play and surprise"
+  "progress and achievement"
+  "accountability and motivation"
+  "discovery and novelty"
+  "creativity and remix culture"
+)
+
+DAY_OF_YEAR=$(date +%-j)
+OFFSET=${RANDOM_OFFSET:-0}
+
+# Use batch index if provided (guarantees no duplicates in a batch), otherwise day-based rotation
 if [ -n "${BATCH_CATEGORY_INDEX:-}" ]; then
   CATEGORY_INDEX=$(( BATCH_CATEGORY_INDEX % ${#CATEGORIES[@]} ))
+  ARCHETYPE_INDEX=$(( BATCH_CATEGORY_INDEX % ${#ARCHETYPES[@]} ))
+  ENGAGEMENT_INDEX=$(( (BATCH_CATEGORY_INDEX + 3) % ${#ENGAGEMENT_MECHANICS[@]} ))
+  TREND_INDEX=$(( (BATCH_CATEGORY_INDEX + 7) % ${#TREND_ANGLES[@]} ))
+  EMOTION_INDEX=$(( (BATCH_CATEGORY_INDEX + 11) % ${#EMOTIONAL_HOOKS[@]} ))
 else
-  CATEGORY_INDEX=$(( ($(date +%-j) + ${RANDOM_OFFSET:-0}) % ${#CATEGORIES[@]} ))
+  CATEGORY_INDEX=$(( (DAY_OF_YEAR + OFFSET) % ${#CATEGORIES[@]} ))
+  ARCHETYPE_INDEX=$(( (DAY_OF_YEAR + 3 + OFFSET) % ${#ARCHETYPES[@]} ))
+  ENGAGEMENT_INDEX=$(( (DAY_OF_YEAR + 7 + OFFSET) % ${#ENGAGEMENT_MECHANICS[@]} ))
+  TREND_INDEX=$(( (DAY_OF_YEAR + 11 + OFFSET) % ${#TREND_ANGLES[@]} ))
+  EMOTION_INDEX=$(( (DAY_OF_YEAR + 17 + OFFSET) % ${#EMOTIONAL_HOOKS[@]} ))
 fi
+
 CATEGORY="${CATEGORIES[$CATEGORY_INDEX]}"
+ARCHETYPE="${ARCHETYPES[$ARCHETYPE_INDEX]}"
+ENGAGEMENT="${ENGAGEMENT_MECHANICS[$ENGAGEMENT_INDEX]}"
+TREND="${TREND_ANGLES[$TREND_INDEX]}"
+EMOTIONAL_HOOK="${EMOTIONAL_HOOKS[$EMOTION_INDEX]}"
 
 # If game category, pick a random sub-genre
 if [ "$CATEGORY" = "game" ]; then
@@ -29,27 +106,69 @@ if [ "$CATEGORY" = "game" ]; then
   CATEGORY="game: ${GAME_GENRES[$GENRE_INDEX]}"
 fi
 
+PAYLOAD=$(python3 -c "
+import json
+category = '''${CATEGORY}'''
+archetype = '''${ARCHETYPE}'''
+engagement = '''${ENGAGEMENT}'''
+trend = '''${TREND}'''
+emotional_hook = '''${EMOTIONAL_HOOK}'''
+
+system_msg = 'You are a creative mobile app idea generator. Output valid JSON only. Prioritize originality, strong differentiation, believable consumer appeal, and engagement depth. Avoid repetitive startup clichés and generic utility app framing.'
+
+user_msg = f'''Generate a highly original mobile app idea in the category: {category}.
+
+Creative direction:
+- Product archetype: {archetype}
+- Primary engagement mechanic: {engagement}
+- Trend inspiration: {trend}
+- Emotional hook: {emotional_hook}
+
+Requirements:
+- The idea must feel fresh, trend-aware, and capable of strong repeat engagement.
+- Avoid generic ideas like a basic tracker, planner, marketplace, social feed, or a simple \"AI assistant for X\" unless there is a surprising twist.
+- The concept can be practical, playful, identity-driven, emotional, community-based, or entertainment-first, as long as it has a believable use case.
+- Include a clear reason users would come back multiple times per week.
+- Include one distinctive product twist that helps it stand out from existing apps.
+- Do not rely on vague buzzwords like \"smart\", \"seamless\", or \"AI-powered\" unless absolutely necessary.
+
+Before writing the final answer, internally choose a distinct behavior pattern, retention loop, and product personality so the idea does not feel like a generic utility app.
+
+Return JSON with these fields:
+- name: catchy app name (2-3 words max)
+- tagline: one-line pitch (under 10 words)
+- description: A rich, detailed paragraph (5-8 sentences) explaining what the app does, why people care, how it fits into real behavior, concrete examples of use, what makes it habit-forming, and what makes it feel new.
+- features: array of exactly 5 feature objects, each with:
+  - title: short feature name
+  - detail: 1-2 sentences explaining what it does and why it matters
+- audience: target audience with demographics and context (1-2 sentences)
+- category: \"{category}\"
+- useCases: array of 3 specific real-world scenarios where someone would open and use this app (each 1-2 sentences, written as mini user stories)
+- engagementLoop: 2-3 sentences explaining why users keep coming back weekly
+- trendFit: 2-3 sentences explaining which current consumer/mobile behavior this app aligns with
+- monetization: 1-2 sentences explaining a believable revenue model
+
+Variation rules:
+- Make the concept specific enough that it could be pitched or prototyped next week.
+- Do not make it sound like a school-project app idea.
+- Make the idea meaningfully different from common productivity-tool patterns.'''
+
+payload = {
+    'model': 'gpt-4.1-mini',
+    'temperature': 1.2,
+    'response_format': {'type': 'json_object'},
+    'messages': [
+        {'role': 'system', 'content': system_msg},
+        {'role': 'user', 'content': user_msg}
+    ]
+}
+print(json.dumps(payload))
+")
+
 RESPONSE=$(curl -s https://api.openai.com/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $OPENAI_API_KEY" \
-  -d "$(cat <<PAYLOAD
-{
-  "model": "gpt-5.4-mini",
-  "temperature": 1.2,
-  "response_format": { "type": "json_object" },
-  "messages": [
-    {
-      "role": "system",
-      "content": "You are a creative app idea generator. Output valid JSON only."
-    },
-    {
-      "role": "user",
-      "content": "Generate a unique, innovative mobile app idea in the category: ${CATEGORY}. Be creative and specific - avoid generic ideas. The app should solve a real problem in an interesting way.\n\nReturn JSON with these fields:\n- name: catchy app name (2-3 words max)\n- tagline: one-line pitch (under 10 words)\n- description: A rich, detailed paragraph (5-8 sentences) explaining: what the app does, the problem it solves, how it helps users in their daily life, key use cases with concrete examples, and what makes it unique compared to existing solutions.\n- features: array of exactly 5 key features. Each feature should be a full sentence explaining what it does and why it matters (not just a short phrase).\n- audience: target audience with demographics and context (1-2 sentences)\n- category: \"${CATEGORY}\"\n- useCases: array of 3 specific real-world scenarios where someone would open and use this app (each 1-2 sentences, written as mini user stories like 'Sarah just finished a stressful meeting and wants to...')"
-    }
-  ]
-}
-PAYLOAD
-)")
+  -d "$PAYLOAD")
 
 # Extract the content from OpenAI response
 echo "$RESPONSE" | python3 -c "
@@ -59,7 +178,6 @@ if 'error' in data:
     print(json.dumps(data), file=sys.stderr)
     sys.exit(1)
 content = data['choices'][0]['message']['content']
-# Validate it's valid JSON
 parsed = json.loads(content)
 print(json.dumps(parsed, indent=2))
 "

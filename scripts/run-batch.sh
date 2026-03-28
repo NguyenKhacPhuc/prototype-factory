@@ -6,7 +6,7 @@ set -uo pipefail
 
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 SCRIPT="$REPO_DIR/scripts/generate-prototype.sh"
-TOTAL_CATEGORIES=28
+TOTAL_CATEGORIES=10
 SUCCESS=0
 FAILURES=0
 GENERATED=()

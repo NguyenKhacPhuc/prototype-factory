@@ -597,7 +597,7 @@ function App() {
   // ── Render ──────────────────────────────────────────────────────────────────
 
   return React.createElement('div', {
-    style: { background: '#D1EDD6', minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Outfit, sans-serif' }
+    style: { background: '#f0f0f0', minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Outfit, sans-serif' }
   },
     React.createElement('style', null, `
       @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');

@@ -657,7 +657,7 @@ function App() {
 
   return React.createElement('div', {
     style: {
-      minHeight: '100vh', background: isDark ? '#08080F' : '#E8F0E8',
+      minHeight: '100vh', background: '#f0f0f0',
       display: 'flex', alignItems: 'center', justifyContent: 'center',
       fontFamily: 'Space Grotesk, sans-serif',
       transition: 'background 0.3s ease',

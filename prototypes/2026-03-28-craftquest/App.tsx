@@ -723,7 +723,7 @@ function App() {
   };
 
   return (
-    <div style={{ background: '#080810', minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center', fontFamily: "'Sora', sans-serif", padding: '20px 0' }}>
+    <div style={{ background: '#f0f0f0', minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center', fontFamily: "'Sora', sans-serif", padding: '20px 0' }}>
       <div style={{
         width: 375, height: 812, borderRadius: 48, overflow: 'hidden', background: t.bg,
         position: 'relative',

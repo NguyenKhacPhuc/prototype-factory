@@ -102,7 +102,7 @@ function App() {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: '#1a1a1a',
+    background: '#f0f0f0',
     fontFamily: "'Sora', sans-serif",
   };
 

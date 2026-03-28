@@ -789,7 +789,7 @@ function App() {
 
   return (
     <div style={{
-      minHeight: '100vh', background: '#E8E8E8',
+      minHeight: '100vh', background: '#f0f0f0',
       display: 'flex', alignItems: 'center', justifyContent: 'center',
       fontFamily: 'Plus Jakarta Sans, sans-serif',
       backgroundImage: 'radial-gradient(circle at 30% 20%, #d4f0e4 0%, #e8e8e8 60%)',
