@@ -14,7 +14,7 @@ export interface Prototype {
   designSystem: DesignSystem;
   screens: string[];
   description: string;
-  features: string[];
+  features: (string | { title: string; detail: string })[];
   audience: string;
   category: string;
   useCases: string[];

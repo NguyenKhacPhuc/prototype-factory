@@ -55,7 +55,7 @@ export function searchPrototypes(
         p.tagline.toLowerCase().includes(q) ||
         p.description.toLowerCase().includes(q) ||
         p.category.toLowerCase().includes(q) ||
-        p.features.some((f) => f.toLowerCase().includes(q))
+        p.features.some((f) => (typeof f === 'string' ? f : f.title + ' ' + f.detail).toLowerCase().includes(q))
     );
   }
 

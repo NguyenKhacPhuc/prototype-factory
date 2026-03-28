@@ -131,7 +131,7 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
               <h2>Features</h2>
               <ul className="detail-features">
                 {p.features.map((f, i) => (
-                  <li key={i}>{f}</li>
+                  <li key={i}>{typeof f === 'string' ? f : <><strong>{f.title}</strong>: {f.detail}</>}</li>
                 ))}
               </ul>
             </div>
