@@ -1,0 +1,34 @@
+{
+  "appName": "Wealth Guild",
+  "fontFamily": "Playfair Display",
+  "colors": {
+    "primary": "#E8634A",
+    "secondary": "#C49A5A",
+    "background": "#1A1208",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "check",
+    "chevron-right",
+    "compass",
+    "flame",
+    "heart",
+    "help-circle",
+    "home",
+    "lock",
+    "message-circle",
+    "plus",
+    "search",
+    "shield",
+    "signal",
+    "user",
+    "user-plus",
+    "users",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 19,
+  "fontFileCount": 0
+}
