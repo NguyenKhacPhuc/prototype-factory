@@ -52,15 +52,26 @@ else
   ALT_THEME="light"
 fi
 
-# Ask OpenAI to recommend a color palette based on the app idea
+# Generate a unique visual direction for this prototype
 APP_CATEGORY=$(echo "$IDEA_JSON" | python3 -c "import sys,json; print(json.load(sys.stdin).get('category','general'))")
-COLOR_HINT=$(python3 -c "
+VISUAL_DIRECTION=$(python3 -c "
 import json, urllib.request, os
+
 body = json.dumps({
-    'model': 'gpt-4o-mini',
-    'max_tokens': 60,
+    'model': 'gpt-4.1-mini',
+    'temperature': 1.3,
+    'max_tokens': 200,
     'messages': [
-        {'role': 'system', 'content': 'You are a UI color expert. Given an app idea, suggest a single accent color family (e.g. \"warm coral/salmon\" or \"deep ocean blue\") that best fits the brand personality. Reply with ONLY the color family name, nothing else.'},
+        {'role': 'system', 'content': '''You are a mobile app art director. Given an app idea, output a JSON object with a bold, specific visual direction. Be opinionated and distinctive — no generic \"clean minimal\" or \"glassmorphic cards\" defaults.
+
+Return JSON only:
+{
+  \"palette\": \"specific color description, e.g. matte terracotta + dusty sage on warm cream\",
+  \"style\": \"one of: neo-brutalist, editorial magazine, retro-analog, playful illustrated, luxury minimal, bold geometric, organic hand-drawn, data-dense dashboard, skeuomorphic tactile, duotone graphic, collage punk, soft pastel dreamy, industrial tech, warm cozy, newspaper print\",
+  \"font\": \"one specific Google Font (NOT Inter, NOT Outfit, NOT DM Sans, NOT Space Grotesk — pick from: Playfair Display, Bitter, Crimson Pro, Libre Baskerville, Source Serif 4, Fraunces, Lora, Merriweather, Archivo Black, Bebas Neue, Oswald, Barlow Condensed, Chakra Petch, Orbitron, Press Start 2P, Silkscreen, Caveat, Permanent Marker, Patrick Hand, Satisfy, Righteous, Poppins, Quicksand, Nunito, Comfortaa, Fredoka, Baloo 2, Rubik, Lexend, Work Sans, Manrope, Red Hat Display, Instrument Sans, Figtree, Geist, Atkinson Hyperlegible)\",
+  \"mood\": \"3-5 word emotional descriptor, e.g. confident and rebellious, cozy sunday afternoon, clinical precision\",
+  \"layout_twist\": \"one unique layout element, e.g. overlapping cards at angles, full-bleed photo headers, sticky floating action island, asymmetric grid, tab content slides horizontally, stacked horizontal scroll sections, bottom sheet reveals\"
+}'''},
         {'role': 'user', 'content': 'App: $APP_NAME — $APP_TAGLINE. Category: $APP_CATEGORY'}
     ]
 }).encode()
@@ -69,8 +80,18 @@ req = urllib.request.Request('https://api.openai.com/v1/chat/completions', data=
     'Content-Type': 'application/json'
 })
 resp = json.loads(urllib.request.urlopen(req).read())
-print(resp['choices'][0]['message']['content'].strip())
-" 2>/dev/null) || COLOR_HINT="vibrant accent"
+content = resp['choices'][0]['message']['content'].strip()
+# Parse and extract
+d = json.loads(content)
+print(json.dumps(d))
+" 2>/dev/null) || VISUAL_DIRECTION='{"palette":"warm coral on off-white","style":"editorial magazine","font":"Playfair Display","mood":"confident and refined","layout_twist":"overlapping cards at angles"}'
+
+# Extract individual fields
+COLOR_HINT=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['palette'])")
+DESIGN_STYLE=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['style'])")
+DESIGN_FONT=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['font'])")
+DESIGN_MOOD=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['mood'])")
+LAYOUT_TWIST=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['layout_twist'])")
 
 SLUG=$(echo "$APP_NAME" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -cd 'a-z0-9-')
 FOLDER_NAME="${TODAY}-${SLUG}"
@@ -118,9 +139,23 @@ Create a single-file React prototype (App.tsx) that runs with Babel standalone.
 4. Use Lucide icons from CDN - access icons via window.lucide object (e.g. window.lucide.Heart, window.lucide.Home)
 5. Load Google Fonts via a style tag in the component
 
-**Design Requirements:**
+**Visual Direction (FOLLOW THIS CLOSELY — this is what makes each prototype unique):**
+- **Design style:** ${DESIGN_STYLE}
+- **Color palette:** ${COLOR_HINT}
+- **Mood/feeling:** ${DESIGN_MOOD}
+- **Typography:** Use Google Font "${DESIGN_FONT}" — load it via a style tag. Use it consistently with proper weight hierarchy (bold for headings, regular for body). This font IS the personality.
+- **Layout twist:** ${LAYOUT_TWIST} — incorporate this into at least 2 screens to make the layout feel distinctive.
+
+**ANTI-SAMENESS RULES (read carefully):**
+- Do NOT default to glassmorphism, card grids, or gradient glow effects unless the style above specifically calls for it.
+- Do NOT use purple (#8B5CF6, #A855F7, #9B6DFF) as primary color unless the palette above says purple.
+- Do NOT make everything dark-mode-first with neon accents — follow the palette direction above.
+- Each screen should feel like it belongs to THIS app, not a generic template. Use the design style to inform spacing, borders, shadows, and element shapes.
+- Vary card shapes, section layouts, and information density based on the style. A neo-brutalist app should feel chunky and raw. An editorial app should feel typographic and spacious. A retro app should feel textured and nostalgic.
+
+**Layout & Structure:**
 - Phone frame container (375x812px) with rounded corners, centered on page
-- **MANDATORY**: The outermost wrapper div (the one with minHeight: '100vh') MUST always use background: '#f0f0f0' regardless of light/dark theme. This is the page background BEHIND the phone, not the app itself. NEVER use a dark color here.
+- **MANDATORY**: The outermost wrapper div (the one with minHeight: '100vh') MUST always use background: '#f0f0f0'. NEVER use a dark color here.
 - Dynamic Island notch at top
 - Bottom navigation bar with 3-5 tabs (working navigation between screens)
 - At least 4 screens/tabs with real, detailed content
@@ -132,7 +167,6 @@ Create a single-file React prototype (App.tsx) that runs with Babel standalone.
     { id: 'search', label: 'Search', icon: window.lucide.Search },
     // ... more tabs
   ];
-  // In the nav bar JSX, render each tab as a clickable div with a span for the label:
   tabs.map(tab => React.createElement('div', {
     key: tab.id,
     onClick: () => setActiveTab(tab.id),
@@ -141,17 +175,13 @@ Create a single-file React prototype (App.tsx) that runs with Babel standalone.
     React.createElement(tab.icon, { size: 22 }),
     React.createElement('span', { style: labelStyle }, tab.label)
   ))
-  // Then switch screens: const screens = { home: HomeScreen, search: SearchScreen, ... };
-  // Render: React.createElement(screens[activeTab])
+  const screens = { home: HomeScreen, search: SearchScreen, ... };
+  React.createElement(screens[activeTab])
   \`\`\`
-  Each nav item MUST have an onClick that calls setActiveTab directly, and a span child with the tab label text. This is required for automated tooling.
+  Each nav item MUST have an onClick that calls setActiveTab directly, and a span child with the tab label text.
 - Realistic placeholder content (not lorem ipsum)
-- Smooth transitions between screens
 - Micro-interactions (button press effects, toggle animations)
-- IMPORTANT: Design BOTH a light and dark theme with distinct, beautiful color palettes. Store colors in a themes object (e.g. const themes = { light: { bg, surface, text, primary, ... }, dark: { ... } }). The DEFAULT theme MUST be **${DEFAULT_THEME}** mode. Make sure both themes look polished and professional.
-- Use a **${COLOR_HINT}** accent color family as the primary/brand color. Build the full palette around this — complementary surfaces, text colors, borders, and gradients that harmonize with this accent.
-- Add a theme toggle button (sun/moon icon) in the settings screen or status bar area so users can switch between ${DEFAULT_THEME} and ${ALT_THEME} mode. Use a useState to track the active theme.
-- Professional typography with proper hierarchy (pick a distinctive Google Font, not Inter or system fonts — try fonts like Outfit, Space Grotesk, DM Sans, Sora, Plus Jakarta Sans, Bricolage Grotesque, or similar modern choices)
+- IMPORTANT: Design BOTH a light and dark theme. The DEFAULT theme MUST be **${DEFAULT_THEME}** mode. Store colors in a themes object. Add a theme toggle in settings.
 - Status bar with time, wifi, battery icons
 
 **Output:**
