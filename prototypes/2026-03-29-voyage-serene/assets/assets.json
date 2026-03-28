@@ -1,0 +1,20 @@
+{
+  "appName": "Voyage Serene",
+  "fontFamily": "Playfair Display",
+  "colors": {
+    "primary": "#E8724A",
+    "secondary": "#F2C49A",
+    "background": "#1C1510",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "compass",
+    "home",
+    "map",
+    "user",
+    "users"
+  ],
+  "fonts": [],
+  "iconCount": 5,
+  "fontFileCount": 0
+}

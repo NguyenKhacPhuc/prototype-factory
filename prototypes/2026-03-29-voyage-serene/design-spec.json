@@ -1,0 +1,12 @@
+{
+  "appName": "Voyage Serene",
+  "tagline": "Calm journeys, unlocked together",
+  "designSystem": {
+    "primaryColor": "#E8724A",
+    "secondaryColor": "#F2C49A",
+    "backgroundColor": "#1C1510",
+    "fontFamily": "Playfair Display",
+    "style": "Editorial magazine — typographic and spacious with Playfair Display serif headings, warm coral on dark-brown surfaces (dark mode default), overlapping angled cards for ritual discovery, generous whitespace, and a confident refined mood"
+  },
+  "screens": ["home", "map", "quest", "circle", "profile"]
+}
