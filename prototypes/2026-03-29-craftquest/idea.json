@@ -1,0 +1,37 @@
+{
+  "name": "CraftQuest",
+  "tagline": "Challenge yourself. Craft. Share achievements.",
+  "description": "CraftQuest revolutionizes creative marketplaces by blending community-driven crafting challenges with social accountability to fuel progress and achievement. Instead of just buying or selling handmade items, users join themed, time-bound crafting quests\u2014like creating custom jewelry from recycled materials or digital art inspired by a word prompt\u2014and publicly commit to weekly milestones. Progress is tracked via photos, videos, or step share updates, generating a social proof loop that spurs consistent engagement. Unlike traditional marketplaces, CraftQuest\u2019s twist lies in embedding group challenges where accountability partners and trackers evolve into creators\u2019 informal mentors and cheerleaders. Users return multiple times each week to post updates, compare progress, swap tips, and level up through badges and unlockable toolkits tied to challenge completion. This creates emotional investment as participation reflects true skill growth and community prestige.",
+  "features": [
+    {
+      "title": "Live Challenge Rooms",
+      "detail": "Join real-time, themed crafting quests with built-in social timers and accountability check-ins to stay inspired and committed."
+    },
+    {
+      "title": "Progress Showcases",
+      "detail": "Share incremental craft updates with the community for feedback and motivation, turning process transparency into achievement."
+    },
+    {
+      "title": "Accountability Partners",
+      "detail": "Opt into buddy systems that match users by skill and project to exchange personalized encouragement and constructive accountability."
+    },
+    {
+      "title": "Unlockable Craft Toolkits",
+      "detail": "Earn curated digital or physical craft supplies and workshop discounts by accomplishing challenge milestones to deepen creative skills."
+    },
+    {
+      "title": "Community Hall of Fame",
+      "detail": "Ascend seasonal leaderboards highlighting the most dedicated creators, providing identity-driven recognition and aspirational goals."
+    }
+  ],
+  "audience": "Millennial and Gen Z makers, DIY hobbyists, and emerging artists looking for motivated community spaces to grow craft skills with structured peer support.",
+  "category": "creative tools",
+  "useCases": [
+    "A ceramic artist launches a 4-week pottery challenge to learn new glazing techniques and uses accountability partners to post progress photos and receive feedback.",
+    "A digital illustrator commits to a daily draw prompt quest where fellow participants cheer milestones and share resources to boost consistent creative output.",
+    "A craft-supply startup partners to have users unlock exclusive eco-material kits by completing a sustainability-themed challenge, encouraging repeat engagement and practice."
+  ],
+  "engagementLoop": "Users keep coming back weekly to join new challenges, update fellow creators on progress, cheer peers\u2019 achievements, and unlock next-level toolkits. The public nature of social accountability nurtures consistent creative habits and emotional investment in personal growth within a supportive community.",
+  "trendFit": "CraftQuest taps into the rising popularity of community challenges and micro-commitments on mobile\u2014akin to fitness or writing apps\u2014but centers tangibly on craft creation and peer mentorship. It aligns with creator economies valuing genuine skill progression over passive browsing.",
+  "monetization": "Revenue comes from curated sponsored craft kit sales unlocked through challenges, premium accountability partner matching, and branded seasonal events or workshops offering exclusive content."
+}
