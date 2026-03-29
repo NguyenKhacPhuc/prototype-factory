@@ -1,0 +1,37 @@
+{
+  "name": "CircleSet",
+  "tagline": "Live rituals to grow with your tribe",
+  "description": "CircleSet transforms the way identity-driven communities build accountability through shared, live ritual events. Members join or create micro-communities defined by authentic traits\u2014like new parents, freelance dancers, or sustainable living advocates\u2014and schedule recurring live sessions centered on collective rituals such as goal sharing, mini challenges, or reflection circles. Unlike typical social platforms, these live rituals enforce dual commitments: participants set intentions before the event and broadcast real-time progress during it, deepening vulnerability and motivation. The app\u2019s standout twist is a real-time \u2018Energy Gauge\u2019\u2014a visible, dynamic measure of collective momentum\u2014fuelling a palpable sense of togetherness and friendly peer pressure. Users return multiple times weekly to feed this shared momentum and reaffirm their belonging through communal, emotionally charged experiences rather than static updates or solo tracking.",
+  "features": [
+    {
+      "title": "Custom Ritual Rooms",
+      "detail": "Create tailored live events with specific ritual formats reinforcing group identity and mutual accountability."
+    },
+    {
+      "title": "Energy Gauge",
+      "detail": "A live visualization of group engagement and momentum that amplifies emotional connection and peer motivation during events."
+    },
+    {
+      "title": "Pre-Ritual Intention Setting",
+      "detail": "Users commit to personal goals before each session to enhance responsibility and emotional investment."
+    },
+    {
+      "title": "Verbal Reflection Circles",
+      "detail": "Structured time for each participant to share progress or struggles openly, deepening trust within the community."
+    },
+    {
+      "title": "Recurring Ritual Scheduling",
+      "detail": "Flexible recurring sessions automatically remind and reinforce habitual participation, embedding rituals in busy routines."
+    }
+  ],
+  "audience": "Adults aged 22-40 seeking strong, identity-centered community support in niche life areas or lifestyle transformations, valuing vulnerability and ritualized social involvement.",
+  "category": "social & community",
+  "useCases": [
+    "A newly vegan user joins the plant-based living ritual room every Monday night to share challenges and celebrate week wins alongside others sharing that identity.",
+    "A freelance creative attends twice-weekly live sessions to hold accountability for output by speaking aloud their project progress and receiving real-time feedback boosts.",
+    "A postpartum parent pulses new intentions during Saturday\u2019s reflection circle, leaning into a tribe where mutual vulnerability helps sustain motivation in tough emotional terrain."
+  ],
+  "engagementLoop": "Users come back weekly to recommit intentions and feed off the collective energy of a live community ritual, which creates emotional accountability that solo tracking can\u2019t deliver. The fluctuating Energy Gauge encourages return visits to 'keep the momentum alive' and be present for peers themselves reliant on the shared ritual.",
+  "trendFit": "The app aligns with the rising demand for genuine, identity-based communities replacing fragmented social feeds and aligns with the cultural return to ritual as a source of emotional grounding and structure. It also taps into the expanding live event consumption and communal vulnerability trends on mobile.",
+  "monetization": "CircleSet monetizes via premium subscription tiers that unlock enhanced ritual templates, larger group capacities, and special visualization effects on the Energy Gauge, alongside optional branded community sponsorships that keep core access free."
+}

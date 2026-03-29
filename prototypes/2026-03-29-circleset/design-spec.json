@@ -1,0 +1,12 @@
+{
+  "appName": "CircleSet",
+  "tagline": "Live rituals to grow with your tribe",
+  "designSystem": {
+    "primaryColor": "#3A28C8",
+    "secondaryColor": "#E85D20",
+    "backgroundColor": "#111118",
+    "fontFamily": "Bebas Neue",
+    "style": "Bold geometric with deep indigo and burnt orange accents on charcoal black — empowering tribal aesthetic using overlapping circular constellation cards and dashed connector lines"
+  },
+  "screens": ["home", "circles", "live", "profile"]
+}

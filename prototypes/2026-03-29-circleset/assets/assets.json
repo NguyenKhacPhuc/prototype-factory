@@ -1,0 +1,30 @@
+{
+  "appName": "CircleSet",
+  "fontFamily": "Bebas Neue",
+  "colors": {
+    "primary": "#3A28C8",
+    "secondary": "#E85D20",
+    "background": "#111118",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "chevron-right",
+    "flame",
+    "help-circle",
+    "home",
+    "mic",
+    "moon",
+    "radio",
+    "search",
+    "shield",
+    "sun",
+    "user",
+    "users",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 15,
+  "fontFileCount": 0
+}
