@@ -1,0 +1,37 @@
+{
+  "name": "DishPact",
+  "tagline": "Savor local flavors together, streak by streak",
+  "description": "DishPact connects food lovers around shared neighborhood culinary identity through weekly cooking streaks celebrating local ingredients and traditions. Users join \u2018Flavor Circles\u2019\u2014small hyperlocal communities based on neighborhood or cultural cuisine\u2014to complete daily challenges like cooking a dish from a featured local ingredient, sourcing from independent producers nearby, or sharing stories behind traditional recipes. The social need for belonging melds with discovery as members compare streak progress, swap evolved recipes, and organically create seasonal cooking rituals based on their locale. Unlike existing cooking communities, DishPact\u2019s twist lies in fostering small circles that unlock exclusive access to seasonal mystery baskets curated by local artisans where members collaboratively design the next challenge. This creates anticipation and collective pride that pulls users back multiple times a week to keep their streak live and deepen local roots. The app fits into routines as a weekly celebration of place and heritage expressed through kitchen creativity, blending discovery with a meaningful sense of identity.",
+  "features": [
+    {
+      "title": "Flavor Circles",
+      "detail": "Invite or join a tight-knit local or cultural community to cook together and share stories, emphasizing identity and belonging."
+    },
+    {
+      "title": "Streak Challenges",
+      "detail": "Complete daily or weekly cooking tasks based on local ingredients and traditions, motivating continual engagement through streak tracking."
+    },
+    {
+      "title": "Mystery Basket Design",
+      "detail": "Collaboratively vote and customize seasonal local ingredient baskets that unlock exclusive challenges, adding surprise and community ownership."
+    },
+    {
+      "title": "Story Sharing",
+      "detail": "Upload miniature video or photo narrations behind dishes to deepen cultural connection and emotional ties within your circle."
+    },
+    {
+      "title": "Local Maker Spotlight",
+      "detail": "Discover and support featured neighborhood producers and artisans tied to each challenge and basket, fueling local ecosystems."
+    }
+  ],
+  "audience": "Urban food enthusiasts aged 25-40 who value local sourcing and cultural culinary identity, craving interactive, community-based food experiences beyond just recipes.",
+  "category": "food & cooking",
+  "useCases": [
+    "On a Tuesday afternoon, Anya checks DishPact to see today\u2019s ingredient challenge featuring a rare local herb and shares her family\u2019s recipe remake with her neighborhood circle.",
+    "Carlos unlocks a new mystery basket for his circle, collaborates to pick next month\u2019s featured local artisan, and marks a perfect streak by cooking all the ingredients.",
+    "After weeks on the streak, Mia records a short story about her grandmother\u2019s heritage dish, inspiring her circle to try versions and building stronger cross-generational connections."
+  ],
+  "engagementLoop": "Daily and weekly streak-based challenges offer concrete, bite-sized rituals, gently pulling users in regularly to retain streak status while unlocking fresh local tastes and community recognition. Collaborative input on mystery baskets creates a shared progression journey that encourages returning week after week to co-create unique experiences.",
+  "trendFit": "DishPact taps into the vibrant culinary localism trend and immersive community-driven experiences favored by younger consumers, aligning with the surge in neighborhood-support and identity exploration through food. The streak mechanic layers in habit-forming microquests reminiscent of popular mobile game engagement loops but applied to tangible cultural rituals.",
+  "monetization": "Revenue comes from partnerships with local artisan producers featured in mystery baskets and sponsored Circle challenges, alongside a premium subscription that gives early basket access and expanded social tools within Flavor Circles."
+}

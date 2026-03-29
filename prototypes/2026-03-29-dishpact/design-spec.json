@@ -1,0 +1,13 @@
+{
+  "appName": "DishPact",
+  "tagline": "Savor local flavors together, streak by streak",
+  "designSystem": {
+    "primaryColor": "#C0392B",
+    "secondaryColor": "#3D2314",
+    "backgroundColor": "#F5E6C8",
+    "accentColor": "#E67E22",
+    "fontFamily": "Archivo Black",
+    "style": "Bold geometric with overlapping angular cards resembling stacked recipe index tabs. Spicy deep paprika red and smoky char-brown on buttery ochre background. Energetic and communal feast mood."
+  },
+  "screens": ["home", "circles", "challenges", "basket", "profile"]
+}
