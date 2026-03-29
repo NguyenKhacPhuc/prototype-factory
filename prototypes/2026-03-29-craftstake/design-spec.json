@@ -1,0 +1,19 @@
+{
+  "appName": "CraftStake",
+  "tagline": "Create, Commit, & Compete in Craft Challenges",
+  "designSystem": {
+    "primaryColor": "#E8323C",
+    "secondaryColor": "#0F1C4D",
+    "backgroundColor": "#F5EAD0",
+    "accentColor": "#FFD166",
+    "fontFamily": "Bebas Neue",
+    "style": "Bold geometric with angled cut corners, hard offset shadows, thick borders, and high-contrast watermelon red + midnight navy on pale sandy beige — dynamic competitive energy"
+  },
+  "screens": [
+    "home",
+    "challenges",
+    "stakes",
+    "leaderboard",
+    "profile"
+  ]
+}

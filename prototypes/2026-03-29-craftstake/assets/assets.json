@@ -1,0 +1,31 @@
+{
+  "appName": "CraftStake",
+  "fontFamily": "Bebas Neue",
+  "colors": {
+    "primary": "#E8323C",
+    "secondary": "#0F1C4D",
+    "background": "#F5EAD0",
+    "accent": "#FFD166"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "chevron-right",
+    "clock",
+    "flame",
+    "home",
+    "moon",
+    "search",
+    "shield",
+    "star",
+    "swords",
+    "trending-up",
+    "user",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}

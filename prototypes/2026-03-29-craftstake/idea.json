@@ -1,0 +1,37 @@
+{
+  "name": "CraftStake",
+  "tagline": "Create, Commit, & Compete in Craft Challenges",
+  "description": "CraftStake transforms creative marketplaces by inviting artists, makers, and DIY enthusiasts into time-bound community challenges where their creations are staked and publicly judged. Unlike typical creative marketplaces, users bet credits on their own or others\u2019 projects entering lively contests, gaining social accountability that fuels motivation and progress. The app fosters a dynamic mix of creation and social pressure: users upload distinct works\u2014be it illustrations, handmade crafts, or digital designs\u2014to challenge rounds with themed prompts (like \u2019Upcycled Wonders\u2019 or \u2019Color Theory Clash\u2019). Community judges award points, and creators' staked credits multiply or diminish based on peer evaluation, making stakes feel thrilling and achievement deeply rewarding. Weekly new challenges and an ongoing leaderboard beckon creators back frequently to prove growth, refine skills, and engage in friendly rivalry. With a twist of earning transactional credits used for entering challenges or commissioning peer reviews, CraftStake powerfully blends market dynamics, accountability, and social validation into a habit-forming creative ecosystem.",
+  "features": [
+    {
+      "title": "Challenge Stakes",
+      "detail": "Participants commit credits on their project entries, heightening motivation through risk and potential reward."
+    },
+    {
+      "title": "Community Peer Judging",
+      "detail": "Creators vote and comment on entries, generating transparent social accountability and collective feedback."
+    },
+    {
+      "title": "Rotating Themed Challenges",
+      "detail": "Fresh, curated community prompts launch weekly, providing continual creative inspiration and engagement reasons."
+    },
+    {
+      "title": "Progress Leaderboards",
+      "detail": "Public rankings showcase rising talents and personal growth trajectories, feeding a sense of achievement."
+    },
+    {
+      "title": "Skill-Buyer Marketplace",
+      "detail": "Users use credits earned to commission custom work or tutorials from top performers, cementing community ties."
+    }
+  ],
+  "audience": "Aspiring creatives aged 18-35 passionate about craft, design, and art, motivated by social feedback and goal challenges in online maker communities.",
+  "category": "creative tools",
+  "useCases": [
+    "An interior designer submits a hand-painted pattern in the weekly \u2019Color Play\u2019 challenge to gain both direct feedback and credits she can later use to commission 3D renderings.",
+    "A digital illustrator participates in \u2018Character Mashup\u2019 contests, staking creativity credits each time to rise on leaderboards showcasing her evolving style.",
+    "A crafty DIY-er uploads photos of upcycled furniture and votes on competitors\u2019 pieces, building reputation and unlocking custom tutorial commissions."
+  ],
+  "engagementLoop": "Users return to claim new challenge prompts, stake creative credits tactically, and track their ranking against peers, sustaining steady motivation and a social pressure to improve. Community judging feedback and the chance to earn or lose credits drives repeated participation.",
+  "trendFit": "CraftStake leverages the growing appetite for community-driven creative challenges combined with progress tracking seen in fitness and hobby apps. The marketplace twist around creative stakes appeals to younger users craving playful accountability and regular peer engagement rather than passive scrolling.",
+  "monetization": "Revenue streams include credit packs sales for challenge entry and commissioning custom work, plus premium subscription tiers granting advanced judging tools, exclusive contests, and priority marketplace placement."
+}
