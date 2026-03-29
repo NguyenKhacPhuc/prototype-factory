@@ -1,0 +1,37 @@
+{
+  "name": "GeoRituals",
+  "tagline": "Explore calm journeys through shared wellness quests",
+  "description": "GeoRituals is a collaborative travel game where users form small teams to unlock culturally inspired wellness rituals rooted in their current or planned destinations. By traveling or virtually exploring locations, players progressively unlock soothing rituals \u2014 like mindfulness walks in Kyoto, aromatic tea ceremonies in the Alps, or seaside breathing exercises in Bali \u2014 shared within their group to perform together daily or virtually. The app taps into the growing desire for calm and reassurance during travel, turning exploration into a meditative, cooperative experience that balances discovery with emotional wellbeing. Users return often to complete new unlocking challenges linked to their travel milestones or weekend plans, each ritual designed to serenely connect them with place and community. GeoRituals reinvents wellness travel by making authentic ritual discovery a progressive social journey, blending calm into the excitement of new surroundings.",
+  "features": [
+    {
+      "title": "Collaborative Ritual Unlocks",
+      "detail": "Form small groups to unlock and practice travel-inspired wellness activities together, building shared calm moments across distances."
+    },
+    {
+      "title": "Geo-Triggered Ritual Maps",
+      "detail": "Unlock rituals relevant to your current geography or planned destinations, enhancing immersion through location-based wellness discovery."
+    },
+    {
+      "title": "Progressive Wellness Journeys",
+      "detail": "Advance through multi-stage wellness quests tied to real or virtual travel timelines to deepen engagement and ritual mastery."
+    },
+    {
+      "title": "Community Calm Sharing",
+      "detail": "Share experiences, personalized tips, and guided remixes of rituals within your group to nurture reassurance and belonging."
+    },
+    {
+      "title": "Ritual Journal & Mood Tracker",
+      "detail": "Log how rituals affect mood and travel wellbeing, subtly gamifying emotional growth along your journeys."
+    }
+  ],
+  "audience": "Mindful travelers aged 25-45 who seek wellness beyond sightseeing, interested in meditation, cultural rituals, and meaningful social connection while exploring new places or traveling locally.",
+  "category": "travel",
+  "useCases": [
+    "A digital nomad in Lisbon gathers a remote team who unlock Portugal\u2019s coastal breathing ritual, then synchronously practice it first-thing in their respective time zones to reduce travel stress.",
+    "A group of friends planning a trip to Japan progressively unlock traditional mindfulness rituals weeks before departure, building excitement and deepening their cultural appreciation.",
+    "A solo weekend traveler in a new city unlocks and follows locally inspired self-care journeys each day, finding calm through shared experiences with anonymous app users nearby."
+  ],
+  "engagementLoop": "Users return multiple times per week to advance their group\u2019s ritual progress tied to current location or travel plans, sharing evolving wellness moments. Regular unlocking stages provide fresh opportunities for calm challenges and community interaction, reinforcing both travel curiosity and emotional balance as contexts change.",
+  "trendFit": "GeoRituals taps into trends embracing wellness as travel\u2019s emotional core and the popularity of ritualized, small-group social games on mobile. It meets growing consumer demand for calm and reassurance amidst an often chaotic or rushed travel experience, blending game mechanics with mindful cultural exploration.",
+  "monetization": "Offers premium subscription unlocking exclusive, expert-curated wellness rituals and enhanced group features, complemented by location-based ephemeral event sponsorships (like retreats or local wellness brands) for partner revenue."
+}

@@ -1,0 +1,12 @@
+{
+  "appName": "GeoRituals",
+  "tagline": "Explore calm journeys through shared wellness quests",
+  "designSystem": {
+    "primaryColor": "#2A7B7B",
+    "secondaryColor": "#E8A090",
+    "backgroundColor": "#F5EFE6",
+    "fontFamily": "Lora",
+    "style": "organic hand-drawn with muted deep teal and soft coral blush on warm sand beige; stacked horizontal scroll sections with gentle curve overlays; calming, nurturing, inviting mood"
+  },
+  "screens": ["home", "map", "journey", "community", "journal"]
+}

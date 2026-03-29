@@ -1,0 +1,34 @@
+{
+  "appName": "GeoRituals",
+  "fontFamily": "Lora",
+  "colors": {
+    "primary": "#2A7B7B",
+    "secondary": "#E8A090",
+    "background": "#F5EFE6",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "book-open",
+    "check",
+    "chevron-right",
+    "compass",
+    "heart",
+    "home",
+    "lock",
+    "map",
+    "map-pin",
+    "message-circle",
+    "moon",
+    "pen-line",
+    "play",
+    "search",
+    "signal",
+    "sun",
+    "users",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 19,
+  "fontFileCount": 0
+}
