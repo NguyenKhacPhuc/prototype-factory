@@ -1,0 +1,19 @@
+{
+  "appName": "EcoPulse Quest",
+  "tagline": "Collect health, unlock seeds, grow your wild world",
+  "designSystem": {
+    "primaryColor": "#2D5016",
+    "secondaryColor": "#E8722A",
+    "backgroundColor": "#F5EDD6",
+    "accentColor": "#7BAB35",
+    "fontFamily": "Lora",
+    "style": "Organic hand-drawn aesthetic with natural beige backgrounds, deep forest green typography, and vibrant seed-orange accents. Decorative SVG leaf and seed motifs frame screens with subtle botanical illustrations. Irregular border-radius and hand-crafted card shapes reinforce the natural, living feel. Light/dark theme toggle with a full dark forest palette."
+  },
+  "screens": [
+    "home",
+    "garden",
+    "quests",
+    "forest",
+    "profile"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "EcoPulse Quest",
+  "tagline": "Collect health, unlock seeds, grow your wild world",
+  "description": "EcoPulse Quest transforms daily fitness and wellness activities into a vibrant journey of sustainable growth and discovery. As users engage in healthy habits \u2013 such as walking, cycling, meditating, or mindful eating \u2013 they earn collectible digital seed cards representing native plants from around the world. These seeds can be nurtured and crossbred within a personal, ever-evolving virtual ecosystem that surprises players with rare hybrids and beautiful wildlife images. The twist: the app links fitness achievements directly to real-world reforestation projects, allowing users to 'plant' actual trees after collecting certain seed sets. This brings a playful yet meaningful emotional hook, connecting personal wellbeing with planetary health. By encouraging a ritual of daily engagement, surprise new seed unlocks, unexpected plant combinations, and limited-time conservation quests keep users returning multiple times weekly to care for and expand their digital sanctuary. The experience reframes fitness into a dynamic game of nurturing life, blending physical effort with a growing sense of environmental identity and community impact.",
+  "features": [
+    {
+      "title": "Dynamic Seed Collectibles",
+      "detail": "Earn unique, geo-themed plant seed cards linked to specific healthy habits, incentivizing diverse wellness activities."
+    },
+    {
+      "title": "Virtual Ecosystem Builder",
+      "detail": "Crossbreed collected seeds to create surprising new plant hybrids and unlock rare ecological wonders."
+    },
+    {
+      "title": "Real-World Tree Planting",
+      "detail": "Convert digital collectibles into donations supporting actual reforestation, bridging virtual progress with real impact."
+    },
+    {
+      "title": "Surprise Eco-Quests",
+      "detail": "Seasonal challenges and randomized eco-tasks inject freshness and intentional play into the wellness routine."
+    },
+    {
+      "title": "Emotion-led Growth Tracker",
+      "detail": "Visualize both personal health improvements and your growing forest, tapping into care-driven motivation and accomplishment."
+    }
+  ],
+  "audience": "Environmentally-conscious young adults, 18-35, who seek playful yet meaningful fitness apps and want to align personal health with planetary well-being.",
+  "category": "health & fitness",
+  "useCases": [
+    "After a morning jog, Mia opens EcoPulse Quest to collect a rare desert flower seed unlocked by her distance, excited to nurture it in her growing oasis.",
+    "During a work break, Jamal undefines his next meditation session with a surprise eco-quest challenge, discovering an unexpected urban tree species to add to his ecosystem.",
+    "On weekends, Sophia uses EcoPulse Quest to crossbreed her seeds, motivated by unlocking rare plants that correspond to new real-world environmental donations."
+  ],
+  "engagementLoop": "Users return several times a week to perform physical and mindful activities linked to seed collectibles, care for their evolving ecosystem, and complete surprise eco-quests. The prospect of uncovering rare hybrid plants and contributing to real-world reforestation creates a durable emotional loop balancing play, pride, and purpose.",
+  "trendFit": "EcoPulse Quest harnesses the growing movement around sustainability rewards by gamifying fitness in a way that personalizes environmental stewardship. It aligns with players\u2019 increasing desire for apps that merge physical activity, collectibles, and real-world impact\u2014advancing both health and climate-conscious lifestyles.",
+  "monetization": "Monetization relies on freemium access to basic seed and quest content, with premium packs offering exclusive seeds, faster ecosystem growth tools, and branded conservation partnerships; additional revenue comes from a percentage of tree-planting donations facilitated through the app."
+}

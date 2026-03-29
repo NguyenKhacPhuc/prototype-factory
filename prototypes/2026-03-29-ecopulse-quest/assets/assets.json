@@ -1,0 +1,23 @@
+{
+  "appName": "EcoPulse Quest",
+  "fontFamily": "Lora",
+  "colors": {
+    "primary": "#2D5016",
+    "secondary": "#E8722A",
+    "background": "#F5EDD6",
+    "accent": "#7BAB35"
+  },
+  "icons": [
+    "battery",
+    "globe",
+    "home",
+    "leaf",
+    "signal",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 8,
+  "fontFileCount": 0
+}
