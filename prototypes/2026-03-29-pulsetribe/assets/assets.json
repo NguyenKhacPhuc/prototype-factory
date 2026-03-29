@@ -1,0 +1,31 @@
+{
+  "appName": "PulseTribe",
+  "fontFamily": "Righteous",
+  "colors": {
+    "primary": "#7C3AFF",
+    "secondary": "#00E5FF",
+    "background": "#08080F",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "activity",
+    "battery",
+    "bell",
+    "check-circle",
+    "chevron-right",
+    "clock",
+    "globe",
+    "home",
+    "lock",
+    "moon",
+    "shield",
+    "signal",
+    "user",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}

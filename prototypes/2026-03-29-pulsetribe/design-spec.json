@@ -1,0 +1,12 @@
+{
+  "appName": "PulseTribe",
+  "tagline": "Live your identity, together in real time",
+  "designSystem": {
+    "primaryColor": "#7C3AFF",
+    "secondaryColor": "#00E5FF",
+    "backgroundColor": "#08080F",
+    "fontFamily": "Righteous",
+    "style": "bold geometric with asymmetric diagonal shards, hard angular borders, tribal energy, electric violet and neon cyan on deep charcoal black"
+  },
+  "screens": ["home", "rituals", "tribe", "pulse", "profile"]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "PulseTribe",
+  "tagline": "Live your identity, together in real time",
+  "description": "PulseTribe connects identity-based communities through timed live ritual events that encourage collective accomplishment and accountability, transforming shared values into energizing public experiences. Users join rhythms anchored to their unique identities\u2014such as cultural roots, personal values, or passion groups\u2014and participate in live synchronized challenges (like mindful gratitude moments, creative boosts, or ethical pledges) that replay weekly. Each ritual concludes with real-time community feedback and affirmations, producing a palpable sense of momentum and mutual motivation. Unlike generic social platforms, PulseTribe\u2019s twist is its dynamic \u2018Pulse Points\u2019 system that syncs user participation in live ritual waves, progressively unlocking deeper group tier rituals and exclusive, identity-rooted storytelling experiences. This fosters not only individual motivation to return regularly but also a thriving, evolving social identity ecosystem focused on ritualized communal energy. Users feel their commitment tangibly tracked and celebrated collectively while discovering new echelons of group belonging every week.",
+  "features": [
+    {
+      "title": "Live Ritual Waves",
+      "detail": "Timed group events where users engage simultaneously in guided actions building solidarity and shared momentum essential to the community\u2019s identity."
+    },
+    {
+      "title": "Pulse Points Progression",
+      "detail": "A unique participation scoring system that links personal consistency to unlocking advanced communal rituals and content, driving repeat engagement."
+    },
+    {
+      "title": "Identity Capsules",
+      "detail": "Communities create and evolve ritual sets focused on distinctive cultural or value-driven identities, making user participation deeply meaningful and personalized."
+    },
+    {
+      "title": "Real-Time Affirmation Feed",
+      "detail": "After each ritual, live community-driven praise and acknowledgement streams strengthen emotional bonds and heightened accountability to the group."
+    },
+    {
+      "title": "Evolving Story Rituals",
+      "detail": "Exclusive, narrative-driven ritual sequences unlocked through continuous participation, merging collective identity expression with gamified ritual growth."
+    }
+  ],
+  "audience": "Young adults aged 18-35 who actively seek belonging in niche identity and interest communities\u2014especially those craving motivation via shared real-time rituals and accountability.",
+  "category": "social & community",
+  "useCases": [
+    "A user commits to their heritage language community\u2019s weekly storytelling ritual to reinforce linguistic identity and feels inspired by fellow members as they co-create narrative threads live.",
+    "An eco-conscious community engages together in a live ritual of silent personal pledges for sustainable actions, sharing affirmations to boost collective commitment and follow-through midweek.",
+    "A creative collective joins a synchronized 10-minute burst drawing ritual twice weekly, noticing both improved personal practice and positive peer feedback that spurs return attendance."
+  ],
+  "engagementLoop": "Users return multiple times per week to join live rituals that align with their personal and group identities, with their ongoing Pulse Points unlocking deeper community rituals and tiered rewards that encourage sustained participatory growth. The evolving story rituals and real-time affirmations enrich social bonds, creating habitual reinvestment into both personal ritual and collective momentum.",
+  "trendFit": "PulseTribe taps into the growing desire for identity-centric online communities that emphasize meaningful social interaction over performative posting. It leverages trending behaviors of live event participation and micro-ritual engagement increasingly popular for mental wellbeing and social belonging in digitally native generations.",
+  "monetization": "PulseTribe uses a freemium model offering base ritual participation free, with paid membership tiers unlocking premium identity ritual types, narrative expansions, and enhanced Pulse Point rewards, plus limited event sponsorship collaborations aligned with community values."
+}
