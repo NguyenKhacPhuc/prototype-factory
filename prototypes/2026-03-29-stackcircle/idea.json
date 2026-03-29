@@ -1,0 +1,37 @@
+{
+  "name": "StackCircle",
+  "tagline": "Build wealth together, one challenge at a time",
+  "description": "StackCircle is a community-driven personal finance club where groups set asynchronous savings and investment challenges for one another with unlockable achievement tiers. Users join or create Circles\u2014small groups of friends, colleagues, or strangers bonded by shared financial goals\u2014and post creative challenges like \u201cSave $50 weekly for 6 weeks\u201d or \u201cNo spending on takeout this month.\u201d Members upload proof and reflections asynchronously through short video/audio clips or snapshots, creating a rich archive of real progress and pitfalls. Users earn badges and unlock personalized celebration rituals for their Circle, fueling ongoing motivation. Unlike typical apps, StackCircle thrives on peer-to-peer input and collaborative milestones, blending friendly accountability with the satisfaction of progressing through tangible, crowdsourced missions. This fosters deep engagement and a fresh form of social finance that embraces imperfection, creativity, and incremental wins\u2014making users want to check in multiple times per week to participate, review others, and level up together.",
+  "features": [
+    {
+      "title": "Custom Challenge Creation",
+      "detail": "Members design and propose unique savings or spending challenges tailored to their Circle\u2019s vibe, encouraging personal relevance and creativity."
+    },
+    {
+      "title": "Asynchronous Check-ins",
+      "detail": "Users post daily or weekly updates via short videos or photos reflecting their progress, enabling flexible, time-zone friendly collaboration."
+    },
+    {
+      "title": "Milestone Unlockables",
+      "detail": "Reaching group milestones reveals celebratory animations and \u2018Circle Perks\u2019 that deepen community bonding and reward ongoing engagement."
+    },
+    {
+      "title": "Peer Feedback Pods",
+      "detail": "Small subgroups provide supportive feedback and encouragement on updates, fostering accountability without pressure."
+    },
+    {
+      "title": "Personal Progress Scrapbook",
+      "detail": "Each user builds a private journal of their financial journey with highlights from challenges, creating visible evidence of achievement over time."
+    }
+  ],
+  "audience": "Young adults aged 22-35 who enjoy social self-improvement and belong to friendships or communities where financial growth is a shared value; often juggling multiple priorities and appreciating flexible, low-pressure accountability.",
+  "category": "personal finance",
+  "useCases": [
+    "A young professional sets up a four-week no-spending-on-lattes challenge with their friends who live across different cities, catching up asynchronously through video clips about their cravings and wins.",
+    "An early-career couple joins a Circle focused on emergency fund growth, posting weekly budget reallocations and encouraging words while unlocking group achievement badges together.",
+    "A remote work team engages in a savings challenge to prepare for a shared vacation, using the integrated feedback pods to motivate colleagues despite differing schedules."
+  ],
+  "engagementLoop": "Users return weekly to post updates, view progress from their groupmates\u2019 entries, and unlock new challenge tiers and community rewards. The growth in their personal scrapbook and evolving Circle perks create a visible, motivating ladder of achievement that makes consistent participation gratifying.",
+  "trendFit": "StackCircle taps into rising user interest in meaningful asynchronous social apps that respect time zones and schedules while enabling real connection. It integrates participatory, creative user-generated content and community gamification, aligning with trends toward peer-supported accountability and progressive, milestone-driven personal betterment.",
+  "monetization": "The app offers premium subscription tiers that unlock advanced challenge creation tools, exclusive Circle Perks, and expanded peer feedback features, while also providing branded sponsor challenges promoting financial wellbeing products tuned to user interests."
+}

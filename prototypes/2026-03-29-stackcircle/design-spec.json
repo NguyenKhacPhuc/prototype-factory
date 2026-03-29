@@ -1,0 +1,13 @@
+{
+  "appName": "StackCircle",
+  "tagline": "Build wealth together, one challenge at a time",
+  "designSystem": {
+    "primaryColor": "#1A2744",
+    "secondaryColor": "#E84B3A",
+    "accentColor": "#F5A623",
+    "backgroundColor": "#FAF8F5",
+    "fontFamily": "Righteous",
+    "style": "Bold geometric with sharp angular cards, diagonal corner accents, interlocking diamond timeline nodes, and strong 2px borders with hard offset shadows — dynamic and empowering"
+  },
+  "screens": ["Onboarding (3 slides)", "Home", "Challenges (Timeline)", "Check-In (Timeline)", "Scrapbook", "Profile"]
+}

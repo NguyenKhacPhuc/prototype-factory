@@ -1,0 +1,32 @@
+{
+  "appName": "StackCircle",
+  "fontFamily": "Righteous",
+  "colors": {
+    "primary": "#1A2744",
+    "secondary": "#E84B3A",
+    "background": "#FAF8F5",
+    "accent": "#F5A623"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "book-open",
+    "camera",
+    "chevron-right",
+    "heart",
+    "home",
+    "image",
+    "moon",
+    "play",
+    "plus",
+    "signal",
+    "sun",
+    "target",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 17,
+  "fontFileCount": 0
+}
