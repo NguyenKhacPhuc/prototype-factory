@@ -8,6 +8,11 @@ REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 SCRIPTS_DIR="$REPO_DIR/scripts"
 PROTOTYPES_DIR="$REPO_DIR/prototypes"
 LOGS_DIR="$REPO_DIR/logs"
+
+# Load environment variables
+set -a
+source "$REPO_DIR/.env"
+set +a
 LOG_FILE="$LOGS_DIR/runs.log"
 DRY_RUN="${1:-}"
 TODAY=$(date +%Y-%m-%d)
