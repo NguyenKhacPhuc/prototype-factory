@@ -1,0 +1,37 @@
+{
+  "name": "EduFX Remix",
+  "tagline": "Remix & Personalize Learning Blueprints",
+  "description": "EduFX Remix is a transformative education app that invites users to creatively remix expert-created learning modules across any subject, tailoring content dynamically to their interests, pace, and preferred learning styles. Instead of passively consuming courses, learners gain an intuitive toolkit to splice, layer, and adapt micro-lessons, challenges, and media assets contributed by educators and top creators. Imagine exploring chemistry by adapting a video explaining molecular structures into your own narrative, inserting personalized experiments, or even injecting humor clips from community creators. Sessions self-update as the system understands what formats and angles keep each individual engaged, making return visits feel like a personalized creator workshop tailored uniquely to each learner's evolving style and goals. The distinct innovation is a real-time remix canvas coupled with a crowd-curated asset library \u2014 users co-create educational art from facts. This dynamic creative engagement motivates users to return multiple times weekly to refine, share, and see how new trends or topics are being recombined by a passionate creative learning community.",
+  "features": [
+    {
+      "title": "Modular Remix Canvas",
+      "detail": "Users load and remix expert learning modules flexibly, blending media, quizzes, and challenges to craft personalized courses."
+    },
+    {
+      "title": "Adaptive Style Insights",
+      "detail": "Analyzes engagement signals to suggest new remix elements and adapt content rhythm matching users' unique creativity and comprehension speeds."
+    },
+    {
+      "title": "Community Remix Marketplace",
+      "detail": "Explore and contribute remixed educational assets\u2014videos, tutorials, mini-games\u2014curated by a vibrant creator economy focused on effective pedagogy."
+    },
+    {
+      "title": "Dynamic Goal Tracks",
+      "detail": "Users set creative learning projects (e.g., building a custom history narrative or science demo), which adapt as personal mastery and interest evolve."
+    },
+    {
+      "title": "Performance Snapshot & Share",
+      "detail": "Visual dashboards map users\u2019 creativity-education flow and let them showcase unique remixes and learning breakthroughs with peers or mentors."
+    }
+  ],
+  "audience": "Curious learners ages 16-30 who enjoy DIY creative expression and thrive through adaptive, hands-on experimentation in their education; ideal for motivated high school to early college students or lifelong learners driven by creative autonomy.",
+  "category": "education",
+  "useCases": [
+    "A high school student frequently remixes molecular biology lessons into video explainers infused with personal mnemonics and creative analogies before weekly science class discussions.",
+    "A college literature major custom-builds dynamic narratives combining classic texts with contemporary media, helping memorize themes while producing novel interpretative stories as portfolio projects.",
+    "An adult language learner adapts grammar drills into engaging interactive dialogues combined with user-generated cultural media clips to personalize and reinforce conversation skills daily."
+  ],
+  "engagementLoop": "Users return frequently to rework and refine their remixed learning flows, inspired both by their dynamic, adaptive progress indicators and fresh educational content constantly contributed by a growing remix community. The creative remix process transforms traditional study into a rewarding, ongoing maker\u2019s pursuit of educational craft.",
+  "trendFit": "EduFX Remix lands at the intersection of rising creator-economy participation and personalized, interactive microlearning preferences on mobile. It taps into the trend of learners demanding not just consumption but production roles in education, with remix culture value driving repeated social engagement.",
+  "monetization": "Offers a tiered subscription unlocking premium remix assets, deep customization options, and creator-focused workshops; complemented by revenue sharing programs incentivizing popular community content creators."
+}

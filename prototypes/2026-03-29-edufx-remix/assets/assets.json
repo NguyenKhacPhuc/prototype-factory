@@ -1,0 +1,34 @@
+{
+  "appName": "EduFX Remix",
+  "fontFamily": "Orbitron",
+  "colors": {
+    "primary": "#1845FF",
+    "secondary": "#FF6B00",
+    "background": "#F0F0F8",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "check",
+    "check-square",
+    "chevron-right",
+    "compass",
+    "file-text",
+    "home",
+    "layers",
+    "moon",
+    "play",
+    "plus",
+    "search",
+    "shopping-bag",
+    "signal",
+    "sun",
+    "trending-up",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 19,
+  "fontFileCount": 0
+}

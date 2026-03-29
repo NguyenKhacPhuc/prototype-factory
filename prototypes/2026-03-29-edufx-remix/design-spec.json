@@ -1,0 +1,12 @@
+{
+  "appName": "EduFX Remix",
+  "tagline": "Remix & Personalize Learning Blueprints",
+  "designSystem": {
+    "primaryColor": "#1845FF",
+    "secondaryColor": "#FF6B00",
+    "backgroundColor": "#F0F0F8",
+    "fontFamily": "Orbitron",
+    "style": "Bold geometric with sharp angular cards, thick solid borders, asymmetric grid layouts, and high-contrast electric cobalt blue + neon tangerine on deep charcoal — energetic futuristic empowerment aesthetic"
+  },
+  "screens": ["Home", "Canvas", "Market", "Profile"]
+}
