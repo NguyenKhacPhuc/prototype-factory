@@ -1,0 +1,26 @@
+{
+  "appName": "SeasonScape",
+  "fontFamily": "Fredoka",
+  "colors": {
+    "primary": "#e8682a",
+    "secondary": "#1e3c5a",
+    "background": "#0f1923",
+    "accent": "#c9a84c"
+  },
+  "icons": [
+    "battery",
+    "check-circle",
+    "chevron-right",
+    "compass",
+    "globe",
+    "heart",
+    "message-circle",
+    "settings",
+    "sparkles",
+    "user",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 11,
+  "fontFileCount": 0
+}

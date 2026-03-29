@@ -1,0 +1,14 @@
+{
+  "appName": "SeasonScape",
+  "tagline": "Master the mood of every season, play by play.",
+  "designSystem": {
+    "primaryColor": "#e8682a",
+    "secondaryColor": "#1e3c5a",
+    "backgroundColor": "#0f1923",
+    "accentColor": "#c9a84c",
+    "lavenderAccent": "#b8a5d4",
+    "fontFamily": "Fredoka",
+    "style": "Playful illustrated with deep burnt orange and dusk navy palette, muted mustard and frosted lavender accents, whimsical seasonal energy with animated horizontal tab transitions"
+  },
+  "screens": ["home", "spirits", "community", "avatar", "settings"]
+}
