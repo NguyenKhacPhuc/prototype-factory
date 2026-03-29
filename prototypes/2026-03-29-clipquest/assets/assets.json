@@ -1,0 +1,28 @@
+{
+  "appName": "ClipQuest",
+  "fontFamily": "Archivo Black",
+  "colors": {
+    "primary": "#1B3FFF",
+    "secondary": "#FF6B1A",
+    "background": "#F2F2F2",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "check-circle",
+    "heart",
+    "home",
+    "message-circle",
+    "mic",
+    "moon",
+    "play",
+    "plus",
+    "sun",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 13,
+  "fontFileCount": 0
+}

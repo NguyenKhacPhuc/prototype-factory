@@ -1,0 +1,37 @@
+{
+  "name": "ClipQuest",
+  "tagline": "Conquer challenges, co-create clips, boost focus.",
+  "description": "ClipQuest is a cooperative productivity challenge app that merges the addictive short-form video vibe with productivity goals through shared, time-boxed missions. Users join forces with small groups to complete diverse challenges\u2014like writing 200 words, meditating for 5 minutes, or brainstorming new ideas\u2014all captured as micro video clips or voice pods under 30 seconds. The thrill of discovery unfolds as teams unlock surprise challenge bundles curated by peers or content creators weekly, keeping motivation fresh and communal. The core habit loop synchronizes with short video scrolling behaviors but flips passive consumption into meaningful action, turning mundane productivity bursts into moments of shared energy and novelty. Whether it's starting a morning focus ritual or ending the workday with creative prompts, users eagerly return to their tribe\u2019s evolving clip timeline, feeling accountable and engaged by playful interactions around goal progress riffs. The innovation lies in transforming productivity into collectible, sharable micro-content specifically scaffolded for collaboration, fostering interplay between personal payoff and group momentum.",
+  "features": [
+    {
+      "title": "Co-op Challenge Pods",
+      "detail": "Join or form micro teams that complete short, diverse tasks together daily, promoting shared accountability and collective momentum."
+    },
+    {
+      "title": "Clip Capture Completion",
+      "detail": "Finish challenges by creating under-30-second video or voice clips, turning productivity actions into personalized, social micro-content."
+    },
+    {
+      "title": "Dynamic Quest Drops",
+      "detail": "Receive surprise challenge bundles weekly, curated from app communities and creators, ensuring novelty and fresh engagement."
+    },
+    {
+      "title": "Progress Remix Feed",
+      "detail": "Explore your team\u2019s ever-evolving clip timeline where challenges, progress reactions, and playful replies form a unique narrative."
+    },
+    {
+      "title": "Personal Focus Boosts",
+      "detail": "Activate silent individual timers paired with social nudges, blending solo moments of concentration with team encouragement clips."
+    }
+  ],
+  "audience": "Young professionals and creative freelancers aged 20-35 who crave engaging, community-driven focus tools that mesh with their habit of consuming short videos on mobile.",
+  "category": "productivity",
+  "useCases": [
+    "A graphic designer opens ClipQuest mid-morning to join her art team\u2019s 10AM focus pod, recording her concept sketch update within a short clip.",
+    "A remote sales team uses the app\u2019s surprise challenge drop to energize their afternoon calls, sharing voice reflections immediately after each tactic.",
+    "A graduate student closes out the day with rapid brainstorming challenges set by fellow users and posts quick voice notes to maintain creative momentum."
+  ],
+  "engagementLoop": "Users return multiple times weekly to form new challenge pods and unlock fresh surprise task bundles, stimulated by the social pull of shared achievements captured as engaging clips. The evolving communal feed rapidly reinforces user identity as proactive collaborators thriving on discovery and playful response dynamics.",
+  "trendFit": "ClipQuest taps into the short-form video craze by transforming passive consumption into active productivity bursts, fitting naturally alongside how people browse TikToks or Reels but with a purposeful twist. Its reliance on social micro-content gels perfectly with prevailing mobile short-session attention spans, encouraging frequent, bite-sized engagements embedded in community.",
+  "monetization": "The app offers a freemium model with premium challenge packs, exclusive creator bundles, and branded team-spirit sentence packs available via subscription, appealing to communities seeking deeper customization and challenge variety."
+}

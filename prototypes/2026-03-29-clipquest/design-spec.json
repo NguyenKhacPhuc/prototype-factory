@@ -1,0 +1,12 @@
+{
+  "appName": "ClipQuest",
+  "tagline": "Conquer challenges, co-create clips, boost focus.",
+  "designSystem": {
+    "primaryColor": "#1B3FFF",
+    "secondaryColor": "#FF6B1A",
+    "backgroundColor": "#F2F2F2",
+    "fontFamily": "Archivo Black",
+    "style": "Bold geometric with thick 2px borders, offset neo-brutalist drop shadows, strong color blocking, all-caps typography, and sharp rectangular elements. Vivid cobalt blue primary with bright tangerine accents on a light matte background."
+  },
+  "screens": ["home", "quests", "feed", "profile"]
+}
