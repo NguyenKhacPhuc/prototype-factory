@@ -1,0 +1,28 @@
+{
+  "appName": "EcoQuest Clash",
+  "fontFamily": "Bebas Neue",
+  "colors": {
+    "primary": "#4A7C3F",
+    "secondary": "#D4A017",
+    "background": "#F2E8D0",
+    "accent": "#1B6B7B"
+  },
+  "icons": [
+    "battery",
+    "book-open",
+    "chevron-down",
+    "chevron-right",
+    "clock",
+    "compass",
+    "flame",
+    "home",
+    "lock",
+    "trophy",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 13,
+  "fontFileCount": 0
+}

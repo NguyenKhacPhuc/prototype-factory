@@ -1,0 +1,13 @@
+{
+  "appName": "EcoQuest Clash",
+  "tagline": "Compete, Unlock Secrets, Save Earth",
+  "designSystem": {
+    "primaryColor": "#4A7C3F",
+    "secondaryColor": "#D4A017",
+    "backgroundColor": "#F2E8D0",
+    "accentColor": "#1B6B7B",
+    "fontFamily": "Bebas Neue",
+    "style": "Collage punk with torn paper textures, overlapping cut-out panels, diagonal slashes, raw borders and heavy outlines. Energetic and rebellious with vibrant moss green, sunlit ochre, and deep ocean teal on cracked parchment beige."
+  },
+  "screens": ["home", "quests", "league", "tales", "profile"]
+}

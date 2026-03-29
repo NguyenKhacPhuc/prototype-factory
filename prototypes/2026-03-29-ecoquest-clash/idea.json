@@ -1,0 +1,37 @@
+{
+  "name": "EcoQuest Clash",
+  "tagline": "Compete, Unlock Secrets, Save Earth",
+  "description": "EcoQuest Clash transforms sustainable living into an engaging treasure hunt where players challenge neighborhoods and friends to eco-themed real-world quests. By completing creative challenges such as planting native plants, conducting micro cleanups, or experimenting with water-saving hacks, users unlock hidden stories about their local environment and surprise digital rewards. The app layers friendly competition with episodic 'Eco-Mystery Hunts'\u2014limited-time events that reveal unique ecological secrets unlocked only by collective progress, encouraging repeated visits. Unlike basic tracking apps, it integrates community performance onto dynamic, gamified leaderboards that feature unexpected environmental fact drops and rewards, making sustainability a playful social identity. Through regular content updates that surprise and inspire diverse eco-actions, users return multiple times weekly, driven by shifting puzzles and neighbor rivalries. This approach nurtures pride and lasting engagement without feeling like an obligation.",
+  "features": [
+    {
+      "title": "Neighborhood League",
+      "detail": "Form or join local teams to compete on weekly eco-challenges, making sustainable acts a collective, competitive ritual."
+    },
+    {
+      "title": "Unlockable Eco-Tales",
+      "detail": "Solve mysteries tied to real local environmental history and biodiversity uncovered only when quests are completed."
+    },
+    {
+      "title": "Surprise Daily Mini-Quests",
+      "detail": "Random short tasks like 'spot a pollinator\u2019 or 'skip a faucet drip' that generate small rewards and curiosity daily."
+    },
+    {
+      "title": "Environmental Rival Boards",
+      "detail": "See real-time local and regional rankings that spark friendly competition and social bragging rights."
+    },
+    {
+      "title": "Quest Remix Generator",
+      "detail": "AI-crafted personalized challenges adapt dynamically based on your past wins, location, and social circles."
+    }
+  ],
+  "audience": "Young urban adults, ages 18-35, who enjoy casual gaming and are motivated by environmental impact combined with social interaction and positive competition.",
+  "category": "sustainability",
+  "useCases": [
+    "After work, Lina opens EcoQuest Clash to join her neighborhood team\u2019s weekly pollution cleanup quest, unlocking a quirky zombie-story inspired by local river life once completed.",
+    "Kai uses the app on weekends to engage in surprise micro-actions like tracking butterfly sightings through scavenger tasks, earning points that boost his community\u2019s leaderboard rank.",
+    "Community organizers use the app to rally diverse city blocks into a month-long tree planting contest, using the unlockable stories to raise environmental awareness among participants."
+  ],
+  "engagementLoop": "Players return to participate in changing weekly challenges and compete with friends and neighbors to top leaderboard ranks while uncovering new environmental puzzles and stories. The blend of unpredictable mini-quests and community rivalry drives behavior cycles characterized by anticipation and social pride.",
+  "trendFit": "The app taps into rising trends of gamified self-improvement while integrating localized social competition and discovery play. It meets growing consumer demand for apps that blend entertainment with purpose, rewarding action frequently with fresh surprises that sustain motivation longer than static goal-tracking.",
+  "monetization": "Revenue comes from optional premium league memberships offering exclusive quests, vintage collectible digital badges, and branded eco-product discounts earned through in-app challenges or quarterly subscriptions."
+}
