@@ -1,0 +1,37 @@
+{
+  "name": "EcoQuest Duels",
+  "tagline": "Compete sustainably. Unlock surprises daily.",
+  "description": "EcoQuest Duels transforms everyday sustainable actions into a vibrant competitive game where friends and neighbors challenge each other to unlock unexpected rewards. Users engage by completing real-world eco-missions\u2014like choosing sustainable transport, reducing waste, or planting greenery\u2014and simultaneously \u2018challenge\u2019 a living competitor to replicate or outdo the feat. Each duel actively tracks verified actions through photo proof, location data, or partnered eco-sensors, turning mundane habits into playful battles with surprise unlockables like digital trophies, secret local discounts, and collectible virtual eco-art. The app\u2019s unique mechanic lets users unlock new themed mission packs only by outperforming others, meaning competition itself fuels continued discovery and habit formation. Whether in casual food waste battles or city-wide energy saving races, players experience friendly rivalry, unexpected rewards, and social bragging rights that hook them back multiple times weekly to check current scores, initiate fresh challenges, and uncover limited-time surprises.",
+  "features": [
+    {
+      "title": "Real-Time Duel Mode",
+      "detail": "Challenge friends or random nearby players to out-sustain each other\u2019s eco-friendly actions, inciting vibrant competitions that reward consistent engagement."
+    },
+    {
+      "title": "Verified Eco-Actions",
+      "detail": "Use photo timestamps, GPS, and device sensor pairing to confirm authentic sustainable behaviors for fair gameplay and meaningful personal impact."
+    },
+    {
+      "title": "Unlockable Surprise Rewards",
+      "detail": "Win access to hidden digital collectibles, local eco-friendly business discounts, and mission packs only by winning duels, keeping motivation fresh."
+    },
+    {
+      "title": "Themed Mission Packs",
+      "detail": "Explore focused eco-challenges like water conservation week or zero-waste month, revealed only after competitive achievements unlock them."
+    },
+    {
+      "title": "Community Tournaments",
+      "detail": "Join city or neighborhood-wide sustainability contests to increase impact, socialize, and compete for exclusive physical and virtual prizes."
+    }
+  ],
+  "audience": "Eco-conscious millennials and Gen Z urban dwellers who enjoy gamified social competition and seek meaningful, playful ways to improve personal sustainability habits.",
+  "category": "sustainability",
+  "useCases": [
+    "Ella wakes up and challenges her roommate to a daily zero-single-use-plastic duel, snapping photos of reusable bottles each uses during the day to win surprise reward packs.",
+    "Carlos joins a weekend community water-saving tournament via the app, submitting verified actions each time he uses a rain barrel or waters plants with reused water.",
+    "Jasmine checks the app after biking to work to unlock a new retro-themed mission pack and send a friendly challenge to her coworker to beat her mileage stats."
+  ],
+  "engagementLoop": "Users return multiple times per week to accept or initiate fresh duels, check evolving leaderboard progress, and unlock surprise missions and rewards only available through consistent competitive wins. The interplay of revelation and rivalry continually refreshes their motivation to stay involved and improve.",
+  "trendFit": "EcoQuest Duels taps into the growing user desire for gamified self-improvement layered with direct peer competition and surprise collectible cultures. By integrating verified real-life behavior detection and socially driven unlockables, it leverages trends in active play, discovery, and location-aware interaction.",
+  "monetization": "Revenue comes from partnerships with local eco-friendly businesses sponsoring rewards and exclusive discounts, plus optional premium subscriptions granting early access to special mission packs and expanded challenge Duel modes."
+}

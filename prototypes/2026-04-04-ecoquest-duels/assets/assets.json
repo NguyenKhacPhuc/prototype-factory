@@ -1,0 +1,29 @@
+{
+  "appName": "EcoQuest Duels",
+  "fontFamily": "Patrick Hand",
+  "colors": {
+    "primary": "#4a9e4a",
+    "secondary": "#8b6914",
+    "background": "#1a2e1a",
+    "accent": "#8fd46b"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "check-circle",
+    "gift",
+    "leaf",
+    "lock",
+    "map-pin",
+    "shield",
+    "signal",
+    "sun",
+    "swords",
+    "trophy",
+    "user",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 14,
+  "fontFileCount": 0
+}

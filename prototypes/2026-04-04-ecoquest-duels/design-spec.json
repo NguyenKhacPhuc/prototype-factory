@@ -1,0 +1,19 @@
+{
+  "appName": "EcoQuest Duels",
+  "tagline": "Compete sustainably. Unlock surprises daily.",
+  "designSystem": {
+    "primaryColor": "#4a9e4a",
+    "secondaryColor": "#8b6914",
+    "backgroundColor": "#1a2e1a",
+    "accentColor": "#8fd46b",
+    "fontFamily": "Patrick Hand",
+    "style": "Organic hand-drawn aesthetic with dashed borders, leaf-shaped rounded corners (16px 4px 16px 4px), squiggly SVG dividers, and nature emoji characters. Deep forest green backgrounds with muted recycled brown accents and vibrant leaf green highlights. Playful earthy competitive mood throughout."
+  },
+  "screens": [
+    "home",
+    "missions",
+    "community",
+    "rewards",
+    "profile"
+  ]
+}
