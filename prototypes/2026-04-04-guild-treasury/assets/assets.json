@@ -1,0 +1,33 @@
+{
+  "appName": "Guild Treasury",
+  "fontFamily": "Orbitron",
+  "colors": {
+    "primary": "#059669",
+    "secondary": "#EA580C",
+    "background": "#111111",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "award",
+    "battery",
+    "book-open",
+    "chevron-right",
+    "coins",
+    "gift",
+    "heart",
+    "help-circle",
+    "home",
+    "landmark",
+    "message-circle",
+    "pen-line",
+    "pencil",
+    "shield",
+    "target",
+    "user",
+    "user-plus",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 18,
+  "fontFileCount": 0
+}

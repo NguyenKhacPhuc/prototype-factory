@@ -1,0 +1,18 @@
+{
+  "appName": "Guild Treasury",
+  "tagline": "Build wealth together, one challenge at a time",
+  "designSystem": {
+    "primaryColor": "#059669",
+    "secondaryColor": "#EA580C",
+    "backgroundColor": "#111111",
+    "fontFamily": "Orbitron",
+    "style": "Bold geometric with deep emerald green and burnt orange accents on charcoal black. Circular progress dials, stacked horizontal scroll sections, and high-contrast angular shapes create a dynamic, motivating, collaborative aesthetic."
+  },
+  "screens": [
+    "home",
+    "challenges",
+    "stories",
+    "treasury",
+    "profile"
+  ]
+}

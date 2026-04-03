@@ -1,0 +1,37 @@
+{
+  "name": "Guild Treasury",
+  "tagline": "Build wealth together, one challenge at a time",
+  "description": "Guild Treasury transforms personal finance into a collaborative and competitive club where members asynchronously contribute, share, and build money goals together. Instead of tracking solo budgets, users create or join finance clubs\u2014each shaped around shared ambitions like homebuying, debt paydown, or side hustle boosts. Members upload weekly reflections, savings wins, or challenge completions, sparking motivation through community progress stories and custom milestone badges. The innovative twist: Clubs enact collective \u2018pot challenges\u2019\u2014like monthly saving spikes or cash-free weeks\u2014where only the group\u2019s contributions unlock bigger shared rewards or charity donations. This mechanism creates compelling accountability loops and measurable progress without sacrificing individual agency. The app turns finance from a solitary task into a dynamic, identity-driven social journey, encouraging multiple return visits to check their club\u2019s momentum, gear up for new micro-challenges, and celebrate ongoing achievements.",
+  "features": [
+    {
+      "title": "Asynchronous Club Challenges",
+      "detail": "Teams participate in timed group saving or spending challenges that activate only when collective contributions meet thresholds, cultivating peer-driven commitment and dynamic goal adaptation."
+    },
+    {
+      "title": "User-Generated Progress Stories",
+      "detail": "Members post weekly written or video updates recounting their wins and setbacks, inspiring deeper emotional engagement and personalized accountability."
+    },
+    {
+      "title": "Custom Milestone & Achievement Badges",
+      "detail": "Unique, shareable milestones adapt to each club\u2019s ambitions, blending gamification with real-world financial progress recognition."
+    },
+    {
+      "title": "Rotating Leadership Roles",
+      "detail": "Members cyclically become challenge coordinators, giving each user agency to design custom group goals or incentives that keep clubs feeling fresh and participatory."
+    },
+    {
+      "title": "Impact Pot Unlocks",
+      "detail": "When clubs reach collective savings targets, they unlock bonus funds for group use, charitable giving, or matching from sponsors, heightening communal motivation."
+    }
+  ],
+  "audience": "Young professionals aged 25\u201340 who enjoy social accountability, community-driven motivation, and engaging with progressive finance habits alongside peers.",
+  "category": "personal finance",
+  "useCases": [
+    "A software engineer joins a \u2018First Home Fund\u2019 Guild where members commit weekly savings and share stories of mortgage knowledge gained, turning daunting goals into relatable personal progress check-ins.",
+    "A freelancer leads a club among friends to conquer debt, assigning rotating leadership that encourages fresh challenge ideas and personal finance reflections multiple times per week.",
+    "A couple uses Guild Treasury to run quarterly cash-free spending contests with other couples, excitedly comparing outcomes and unlocking charity gifts on each completed challenge."
+  ],
+  "engagementLoop": "Users repeatedly check in to update progress stories, rally teammates for upcoming challenges, and adjust personal stakes within clubs. Rotating leadership and evolving challenges maintain dynamic involvement weekly.",
+  "trendFit": "Guild Treasury taps the growing appeal of asynchronous collaboration and micro communities by blending them with interactive gamification. It leverages emotional storytelling, identity participation, and progress acknowledgment, echoing core usage habits from popular social and wellness apps.",
+  "monetization": "The app monetizes through premium club features such as advanced challenge templates, branded sponsor pot-matching programs, and selective partnerships for charitable donation facilitation."
+}
