@@ -1,0 +1,12 @@
+{
+  "appName": "SprintNest",
+  "tagline": "Unlock co-op sprints through surprise micro-challenges",
+  "designSystem": {
+    "primaryColor": "#FF6B35",
+    "secondaryColor": "#00C896",
+    "backgroundColor": "#0A1628",
+    "fontFamily": "Archivo Black",
+    "style": "Bold geometric with cinematic deep navy backgrounds, vibrant tangerine accent borders and highlights, cool slate gray surfaces, sharp corners with 2-3px structural borders, thick left-edge color bars on cards, uppercase Archivo Black headings with wide letter spacing, energetic and competitive mood"
+  },
+  "screens": ["Home", "Explore", "Teams", "Rewards", "Profile"]
+}

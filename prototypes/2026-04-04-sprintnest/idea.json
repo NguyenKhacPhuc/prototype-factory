@@ -1,0 +1,37 @@
+{
+  "name": "SprintNest",
+  "tagline": "Unlock co-op sprints through surprise micro-challenges",
+  "description": "SprintNest reimagines productivity as exciting short bursts tied to collective discovery. Users join small co-op teams for daily or weekly sprints\u20145 to 10-minute collaborative challenges centered on microproductivity tasks like clearing inboxes, idea-pitch sessions, or quick research quests. Each sprint reveals unexpected task twists or evolving prompts inspired by short-form content trends, keeping engagement fresh and playful. Users revel in uncovering novel approaches together, fostering camaraderie and accountability distinct from solo to-do lists. The app integrates a dynamic 'challenge remix' mechanic where results from one group\u2019s sprint subtly influence the next sprint\u2019s goals in other teams, adding an element of emergent novelty that makes returning addictive. By marrying social collaboration, playful discovery, and quick pace, SprintNest creates a repeat rhythm rolled with social delight away from bloated planners.",
+  "features": [
+    {
+      "title": "Co-op Sprints",
+      "detail": "Form or join small teams to tackle bite-sized productivity challenges together, boosting motivation and social accountability."
+    },
+    {
+      "title": "Evolving Challenge Twists",
+      "detail": "Each sprint includes unexpected task modifications influenced by real-time short-form content trends, ensuring fresh, dynamic experiences."
+    },
+    {
+      "title": "Challenge Remix Engine",
+      "detail": "Outputs from some teams subtly influence new goals and formats for others, fostering a networked ecosystem of evolving tasks."
+    },
+    {
+      "title": "Discovery Feed",
+      "detail": "Browse quick highlights of diverse, user-submitted sprint outcomes to spark new ideas and perspective shifts."
+    },
+    {
+      "title": "Sprint Streak Rewards",
+      "detail": "Earn playful badges and unlock creative customizations by consistently completing team sprints, encouraging repeat participation."
+    }
+  ],
+  "audience": "Young professionals and creatives aged 22-35 who thrive on social interaction, enjoy quick bursts of productivity, and seek non-traditional collaboration methods beyond conventional tools.",
+  "category": "productivity",
+  "useCases": [
+    "Sara, a content creator, jumps into a 10-minute group sprint every morning to declutter her video ideas, energized by evolving twists that keep her thinking outside the box.",
+    "Mark and his remote team use SprintNest midweek to co-create quick problem-solving tasks, strengthening their connection while beating Zoom fatigue.",
+    "Priya, balancing freelance projects, finds herself returning after dinner to join diverse new teams and see unexpected challenges remix her approach to daily goals."
+  ],
+  "engagementLoop": "Users repeatedly come back to experience novel task twists and the remixing challenge ecosystem that evolves through active participation by others. The compact social sprints also cultivate friendships and shared progress, making consistent returns a source of both utility and delight.",
+  "trendFit": "SprintNest leverages the rising popularity of short-form content\u2019s rapid discovery and remix culture by transforming it into cooperative productivity boosts. It matches growing desires for social, playful, low-friction app interactions that deliver fresh novelty multiple times per week.",
+  "monetization": "A freemium model unlocks exclusive sprint themes, extensive team sizes, and remix power-ups, while a premium subscription offers curated sprint series with expert-designed challenges and enhanced community curation features."
+}

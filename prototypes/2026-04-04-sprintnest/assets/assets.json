@@ -1,0 +1,31 @@
+{
+  "appName": "SprintNest",
+  "fontFamily": "Archivo Black",
+  "colors": {
+    "primary": "#FF6B35",
+    "secondary": "#00C896",
+    "background": "#0A1628",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "compass",
+    "git-branch",
+    "heart",
+    "home",
+    "log-out",
+    "moon",
+    "plus",
+    "shuffle",
+    "trophy",
+    "user",
+    "user-plus",
+    "users",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}
