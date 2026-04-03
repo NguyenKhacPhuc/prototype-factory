@@ -1,0 +1,37 @@
+{
+  "name": "GreenPeak",
+  "tagline": "Play, Collect, and Grow a Healthier Planet",
+  "description": "GreenPeak transforms every workout and healthy choice into a playful adventure where users collect unique 'EcoBadges' representing real-world renewable resources and sustainability milestones. As users complete fitness challenges\u2014like biking instead of driving or vegetable-based meal days\u2014they unlock surprise ecological artifacts that populate a digital living ecosystem. The app coaches users to make sustainable health decisions through weekly quests and environmental habit trails, creating an emotional bond through discovery and impact. Each collectible ties back to a partnered global sustainability project, allowing users to see the tangible effects of their lifestyle shifts. This combination of fitness coaching with collectibles that reflect real environmental progress motivates daily interaction and long-term commitment. GreenPeak\u2019s standout twist is the evolving ecology crafted from users\u2019 activities, which grows unpredictably with vibrant surprises and seasonal evolutions to keep engagement fresh. The app deeply connects personal health with planetary health, turning habitual exercise and diet into a source of playful exploration and meaningful impact.",
+  "features": [
+    {
+      "title": "EcoBadges Collectibles",
+      "detail": "Earn and unlock rare ecological badges by completing fitness and sustainability quests that visually evolve and interact within your personal habitat."
+    },
+    {
+      "title": "Dynamic GreenQuest Coaching",
+      "detail": "Personalized, goal-driven health and eco-friendly challenges that adapt weekly to user progress and season-linked environmental themes."
+    },
+    {
+      "title": "Living Ecosystem Habitat",
+      "detail": "Build and expand a digital ecosystem based on earned collectibles; each badge modifies and enriches your virtual planet in surprising ways."
+    },
+    {
+      "title": "Impact Connectivity",
+      "detail": "Track how your activity badges support partnered reforestation, ocean cleanup, and renewable projects, making your physical achievements feel globally valuable."
+    },
+    {
+      "title": "Surprise Seasonal Evolutions",
+      "detail": "Experience limited-time events where the ecosystem dramatically changes\u2014triggering fresh collectibles and coaching challenges tied to real-world environmental celebrations."
+    }
+  ],
+  "audience": "Eco-conscious young adults aged 18-35 who enjoy gaming and are motivated by sustainability, fitness, and tangible impact, looking for engaging ways to integrate health with planet-friendly living.",
+  "category": "health & fitness",
+  "useCases": [
+    "A weekend bike commuter uses GreenPeak to unlock badges that feed their digital forest, encouraging consistent eco-friendly transportation habits.",
+    "A lunch prepper completes a plant-based meal streak coaching quest, unveiling surprise farm-animal collectibles that animate their virtual habitat.",
+    "A weekday runner participates in a seasonal ocean cleanup challenge through modeled activities, tracking their fitness while adding coral reefs to their virtual ecosystem."
+  ],
+  "engagementLoop": "Players return multiple times weekly to pursue new quests that yield rare collectibles changing their ecosystem, fueled by surprise seasonal evolutions. Visible impact through badge-driven habitat growth creates curiosity and emotional investment, while the sense of global contribution reinforces continued participation.",
+  "trendFit": "GreenPeak taps into the trending crossover of eco-conscious lifestyles with gamified sustainability rewards and fitness coaching, reflecting growing consumer desire for apps that blend personal health with planetary impact. It leverages collectible mechanics popular in mobile games and evolving digital worlds that keep user attention with surprise dynamics.",
+  "monetization": "Revenue comes from premium season passes that unlock exclusive collections and high-impact missions, alongside brand partnerships with sustainable product companies fueling native sponsorship experiences tied to real-world environmental investment."
+}

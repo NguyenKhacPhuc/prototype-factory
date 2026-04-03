@@ -1,0 +1,23 @@
+{
+  "appName": "GreenPeak",
+  "fontFamily": "Lora",
+  "colors": {
+    "primary": "#2D6A4F",
+    "secondary": "#52796F",
+    "background": "#F5EFE6",
+    "accent": "#F4A261"
+  },
+  "icons": [
+    "award",
+    "battery",
+    "globe",
+    "home",
+    "map",
+    "signal",
+    "user",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 8,
+  "fontFileCount": 0
+}

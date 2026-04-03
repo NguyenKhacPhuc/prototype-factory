@@ -1,0 +1,13 @@
+{
+  "appName": "GreenPeak",
+  "tagline": "Play, Collect, and Grow a Healthier Planet",
+  "designSystem": {
+    "primaryColor": "#2D6A4F",
+    "secondaryColor": "#52796F",
+    "backgroundColor": "#F5EFE6",
+    "accentColor": "#F4A261",
+    "fontFamily": "Lora",
+    "style": "Organic hand-drawn with asymmetric leaf-layered cards, blob shapes, and natural textures. Energetic and nurturing vitality mood using vibrant fern green and mossy olive with sunlit amber accents on a soft mushroom beige base."
+  },
+  "screens": ["home", "quests", "collection", "impact", "settings"]
+}
