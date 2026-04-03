@@ -1,0 +1,26 @@
+{
+  "appName": "Ritual Routes",
+  "fontFamily": "Lora",
+  "colors": {
+    "primary": "#c4674a",
+    "secondary": "#5a7a54",
+    "background": "#1a1410",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "book-open",
+    "chevron-right",
+    "home",
+    "lock",
+    "map",
+    "pen-line",
+    "play",
+    "settings",
+    "users",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 11,
+  "fontFileCount": 0
+}

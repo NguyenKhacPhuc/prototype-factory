@@ -1,0 +1,12 @@
+{
+  "appName": "Ritual Routes",
+  "tagline": "Discover calm journeys via shared daily rituals",
+  "designSystem": {
+    "primaryColor": "#c4674a",
+    "secondaryColor": "#5a7a54",
+    "backgroundColor": "#1a1410",
+    "fontFamily": "Lora",
+    "style": "organic hand-drawn, earthy meditative, muted terracotta red + deep sage green on warmed parchment beige, warm and grounding"
+  },
+  "screens": ["home", "explore", "team", "journal", "settings"]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Ritual Routes",
+  "tagline": "Discover calm journeys via shared daily rituals",
+  "description": "Ritual Routes invites travelers to collaborate in a calming, game-like quest across different cities by unlocking and performing wellness rituals based on local traditions. Users form small teams who collectively complete daily mood-boosting challenges\u2014such as breathing exercises at a park, mindful journaling by a landmark, or sharing a gratitude pause at a quiet caf\u00e9\u2014building progressive unlocks like serene audio stories, guided meditations inspired by locale, or ritual-themed city maps. This shared progression creates a reassuring collective experience intertwined with mindful travel that users return to multiple times weekly for both social bonding and personal wellbeing. Ritual Routes uniquely blends outward exploration with inward calm, transforming travel into a restorative adventure that encourages slow presence rather than checklist tourism. By layering community collaboration within a ritual collection game, it fosters ongoing engagement as users eagerly unlock richer experiences from their journeys and revisit places to deepen rituals over time.",
+  "features": [
+    {
+      "title": "Collaborative Ritual Quests",
+      "detail": "Teams complete local wellness rituals together, turning travel spots into collective restorative experiences."
+    },
+    {
+      "title": "Progressive Calm Unlocks",
+      "detail": "Unlock region-specific meditative audio content and ritual-enhancing tools as a group unlocks stages."
+    },
+    {
+      "title": "Mood-Aware Daily Challenges",
+      "detail": "Personalize rituals based on group mood inputs ensuring meaningful, emotionally resonant engagements."
+    },
+    {
+      "title": "Place-Based Ritual Mapping",
+      "detail": "Visual guides link rituals to unique local landmarks, encouraging deeper site connection beyond sightseeing."
+    },
+    {
+      "title": "Ritual Reminders & Reflection Logs",
+      "detail": "Gentle nudges support rhythm and calm integration, with shared logs to reflect on emotional impact."
+    }
+  ],
+  "audience": "Mindful travelers ages 25\u201345 seeking contemplative, meaningful travel experiences that deepen connection with place and community while prioritizing mental wellbeing and shared calm.",
+  "category": "travel",
+  "useCases": [
+    "A group of friends visiting Kyoto unlock traditional tea ceremony breathing exercises as a way to relax and connect after days of busy sightseeing.",
+    "Solo traveler in Lisbon teams up with others via the app to complete calming beach yoga rituals at sunset, gradually unlocking meditations inspired by local ocean sounds.",
+    "Couple on a city trip in Amsterdam follow mapped mindfulness pauses along canals, logging reflections together and progressively unlocking serene local storytelling audio."
+  ],
+  "engagementLoop": "The app\u2019s team-based ritual quests encourage users to check in daily or multiple times a week to maintain collective progress and unlock calming content. Regular mood-sensitive challenges adapt dynamically, keeping ritual experiences fresh and personally meaningful. This cycle cultivates a habitual return for both social motivation and personal calm.",
+  "trendFit": "Ritual Routes taps into growing interest around travel-driven wellbeing by blending gamified progress with analog mindfulness practices. It leverages collaborative virtual community formation amidst physical journeys, appealing to consumers seeking escape from hectic travel toward tranquility and social connection.",
+  "monetization": "Revenue will derive from a premium subscription unlocking advanced ritual collections, exclusive meditative content per destination, and offline mode, plus curated wellness partner offers tied to specific locales."
+}
