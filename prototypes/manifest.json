@@ -1,5 +1,407 @@
 [
   {
+    "folder": "2026-04-04-tribepulse",
+    "appName": "TribePulse",
+    "tagline": "Live rituals bonding identity and accountability",
+    "designSystem": {
+      "primaryColor": "#FF6B35",
+      "secondaryColor": "#1A2A6C",
+      "backgroundColor": "#0D0F1A",
+      "fontFamily": "Orbitron",
+      "style": "bold geometric with asymmetric diagonal splits, deep midnight blue base, vibrant sunset orange accents on textured charcoal gray, energizing and united mood"
+    },
+    "screens": [
+      "home",
+      "rituals",
+      "tribe",
+      "pulse",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "TribePulse reinvents social commitment by centering daily and weekly live rituals around identity-based communities. Users join vibrant live video ceremonies tailored to shared passions or values\u2014like morning writing circles for aspiring novelists or nightly wellness breaths for yoga lovers\u2014to motivate, hold each other accountable, and build ritualistic belonging. Unlike typical social feeds, TribePulse spaces are synchronous gatherings with a timer-driven cyclical flow, delivering a collective \u2018heartbeat\u2019 experience that deepens group connection while nudging personal success. The app's distinctive twist: ritual leaders dynamically adapt session themes and accountability challenges using real-time community mood and progress signals, making each event unique and responsive. Regular live sessions cultivate repeat visits several times weekly, turning community engagement into an identity-anchored habit with an emotional undercurrent of encouragement and shared progress.",
+    "features": [
+      {
+        "title": "Live Ritual Events",
+        "detail": "Synchronous, timer-bound live sessions where community members perform shared rituals to motivate and hold one another accountable in real time."
+      },
+      {
+        "title": "Dynamic Ritual Leaderboard",
+        "detail": "A gamified twist showing collective achievements and individual streaks updated during each event to spark friendly motivation and visible progress."
+      },
+      {
+        "title": "Mood-Responsive Ritual Themes",
+        "detail": "Session topics and activities adapt live based on participant feedback and progress data, ensuring rituals feel relevant and energizing every time."
+      },
+      {
+        "title": "Identity Tribe Matching",
+        "detail": "An onboarding flow that matches users to communities deeply aligned with emotional, cultural, or creative identities to foster authentic belonging."
+      },
+      {
+        "title": "Heartbeat Check-ins",
+        "detail": "Short in-ritual personal sharing moments where users state intentions or struggles verbally, deepening emotional ties and mutual accountability."
+      }
+    ],
+    "audience": "Young adults ages 20-35 who seek meaningful connection with identity-centric peers and crave motivational structures that integrate social support with goal pursuit.",
+    "category": "social & community",
+    "useCases": [
+      "A debut novelist struggling with daily discipline joins a Monday evening writing pulse to perform a 30-minute collective freewriting ritual, energized by seeing others progress in real time.",
+      "A yoga community attendee uses the app at sunrise to join live breathwork rituals with friends from her cultural wellness group, feeling accountable to show up even when motivation wanes.",
+      "A newly vegan user attends a weekly tribe pulse where members share short live updates on challenges and wins, helping him stay motivated through real-time peer encouragement and shared rituals."
+    ]
+  },
+  {
+    "folder": "2026-04-04-ecoquest-duels",
+    "appName": "EcoQuest Duels",
+    "tagline": "Compete sustainably. Unlock surprises daily.",
+    "designSystem": {
+      "primaryColor": "#4a9e4a",
+      "secondaryColor": "#8b6914",
+      "backgroundColor": "#1a2e1a",
+      "accentColor": "#8fd46b",
+      "fontFamily": "Patrick Hand",
+      "style": "Organic hand-drawn aesthetic with dashed borders, leaf-shaped rounded corners (16px 4px 16px 4px), squiggly SVG dividers, and nature emoji characters. Deep forest green backgrounds with muted recycled brown accents and vibrant leaf green highlights. Playful earthy competitive mood throughout."
+    },
+    "screens": [
+      "home",
+      "missions",
+      "community",
+      "rewards",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "EcoQuest Duels transforms everyday sustainable actions into a vibrant competitive game where friends and neighbors challenge each other to unlock unexpected rewards. Users engage by completing real-world eco-missions\u2014like choosing sustainable transport, reducing waste, or planting greenery\u2014and simultaneously \u2018challenge\u2019 a living competitor to replicate or outdo the feat. Each duel actively tracks verified actions through photo proof, location data, or partnered eco-sensors, turning mundane habits into playful battles with surprise unlockables like digital trophies, secret local discounts, and collectible virtual eco-art. The app\u2019s unique mechanic lets users unlock new themed mission packs only by outperforming others, meaning competition itself fuels continued discovery and habit formation. Whether in casual food waste battles or city-wide energy saving races, players experience friendly rivalry, unexpected rewards, and social bragging rights that hook them back multiple times weekly to check current scores, initiate fresh challenges, and uncover limited-time surprises.",
+    "features": [
+      {
+        "title": "Real-Time Duel Mode",
+        "detail": "Challenge friends or random nearby players to out-sustain each other\u2019s eco-friendly actions, inciting vibrant competitions that reward consistent engagement."
+      },
+      {
+        "title": "Verified Eco-Actions",
+        "detail": "Use photo timestamps, GPS, and device sensor pairing to confirm authentic sustainable behaviors for fair gameplay and meaningful personal impact."
+      },
+      {
+        "title": "Unlockable Surprise Rewards",
+        "detail": "Win access to hidden digital collectibles, local eco-friendly business discounts, and mission packs only by winning duels, keeping motivation fresh."
+      },
+      {
+        "title": "Themed Mission Packs",
+        "detail": "Explore focused eco-challenges like water conservation week or zero-waste month, revealed only after competitive achievements unlock them."
+      },
+      {
+        "title": "Community Tournaments",
+        "detail": "Join city or neighborhood-wide sustainability contests to increase impact, socialize, and compete for exclusive physical and virtual prizes."
+      }
+    ],
+    "audience": "Eco-conscious millennials and Gen Z urban dwellers who enjoy gamified social competition and seek meaningful, playful ways to improve personal sustainability habits.",
+    "category": "sustainability",
+    "useCases": [
+      "Ella wakes up and challenges her roommate to a daily zero-single-use-plastic duel, snapping photos of reusable bottles each uses during the day to win surprise reward packs.",
+      "Carlos joins a weekend community water-saving tournament via the app, submitting verified actions each time he uses a rain barrel or waters plants with reused water.",
+      "Jasmine checks the app after biking to work to unlock a new retro-themed mission pack and send a friendly challenge to her coworker to beat her mileage stats."
+    ]
+  },
+  {
+    "folder": "2026-04-04-greenpeak",
+    "appName": "GreenPeak",
+    "tagline": "Play, Collect, and Grow a Healthier Planet",
+    "designSystem": {
+      "primaryColor": "#2D6A4F",
+      "secondaryColor": "#52796F",
+      "backgroundColor": "#F5EFE6",
+      "accentColor": "#F4A261",
+      "fontFamily": "Lora",
+      "style": "Organic hand-drawn with asymmetric leaf-layered cards, blob shapes, and natural textures. Energetic and nurturing vitality mood using vibrant fern green and mossy olive with sunlit amber accents on a soft mushroom beige base."
+    },
+    "screens": [
+      "home",
+      "quests",
+      "collection",
+      "impact",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "GreenPeak transforms every workout and healthy choice into a playful adventure where users collect unique 'EcoBadges' representing real-world renewable resources and sustainability milestones. As users complete fitness challenges\u2014like biking instead of driving or vegetable-based meal days\u2014they unlock surprise ecological artifacts that populate a digital living ecosystem. The app coaches users to make sustainable health decisions through weekly quests and environmental habit trails, creating an emotional bond through discovery and impact. Each collectible ties back to a partnered global sustainability project, allowing users to see the tangible effects of their lifestyle shifts. This combination of fitness coaching with collectibles that reflect real environmental progress motivates daily interaction and long-term commitment. GreenPeak\u2019s standout twist is the evolving ecology crafted from users\u2019 activities, which grows unpredictably with vibrant surprises and seasonal evolutions to keep engagement fresh. The app deeply connects personal health with planetary health, turning habitual exercise and diet into a source of playful exploration and meaningful impact.",
+    "features": [
+      {
+        "title": "EcoBadges Collectibles",
+        "detail": "Earn and unlock rare ecological badges by completing fitness and sustainability quests that visually evolve and interact within your personal habitat."
+      },
+      {
+        "title": "Dynamic GreenQuest Coaching",
+        "detail": "Personalized, goal-driven health and eco-friendly challenges that adapt weekly to user progress and season-linked environmental themes."
+      },
+      {
+        "title": "Living Ecosystem Habitat",
+        "detail": "Build and expand a digital ecosystem based on earned collectibles; each badge modifies and enriches your virtual planet in surprising ways."
+      },
+      {
+        "title": "Impact Connectivity",
+        "detail": "Track how your activity badges support partnered reforestation, ocean cleanup, and renewable projects, making your physical achievements feel globally valuable."
+      },
+      {
+        "title": "Surprise Seasonal Evolutions",
+        "detail": "Experience limited-time events where the ecosystem dramatically changes\u2014triggering fresh collectibles and coaching challenges tied to real-world environmental celebrations."
+      }
+    ],
+    "audience": "Eco-conscious young adults aged 18-35 who enjoy gaming and are motivated by sustainability, fitness, and tangible impact, looking for engaging ways to integrate health with planet-friendly living.",
+    "category": "health & fitness",
+    "useCases": [
+      "A weekend bike commuter uses GreenPeak to unlock badges that feed their digital forest, encouraging consistent eco-friendly transportation habits.",
+      "A lunch prepper completes a plant-based meal streak coaching quest, unveiling surprise farm-animal collectibles that animate their virtual habitat.",
+      "A weekday runner participates in a seasonal ocean cleanup challenge through modeled activities, tracking their fitness while adding coral reefs to their virtual ecosystem."
+    ]
+  },
+  {
+    "folder": "2026-04-04-ritual-routes",
+    "appName": "Ritual Routes",
+    "tagline": "Discover calm journeys via shared daily rituals",
+    "designSystem": {
+      "primaryColor": "#c4674a",
+      "secondaryColor": "#5a7a54",
+      "backgroundColor": "#1a1410",
+      "fontFamily": "Lora",
+      "style": "organic hand-drawn, earthy meditative, muted terracotta red + deep sage green on warmed parchment beige, warm and grounding"
+    },
+    "screens": [
+      "home",
+      "explore",
+      "team",
+      "journal",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "Ritual Routes invites travelers to collaborate in a calming, game-like quest across different cities by unlocking and performing wellness rituals based on local traditions. Users form small teams who collectively complete daily mood-boosting challenges\u2014such as breathing exercises at a park, mindful journaling by a landmark, or sharing a gratitude pause at a quiet caf\u00e9\u2014building progressive unlocks like serene audio stories, guided meditations inspired by locale, or ritual-themed city maps. This shared progression creates a reassuring collective experience intertwined with mindful travel that users return to multiple times weekly for both social bonding and personal wellbeing. Ritual Routes uniquely blends outward exploration with inward calm, transforming travel into a restorative adventure that encourages slow presence rather than checklist tourism. By layering community collaboration within a ritual collection game, it fosters ongoing engagement as users eagerly unlock richer experiences from their journeys and revisit places to deepen rituals over time.",
+    "features": [
+      {
+        "title": "Collaborative Ritual Quests",
+        "detail": "Teams complete local wellness rituals together, turning travel spots into collective restorative experiences."
+      },
+      {
+        "title": "Progressive Calm Unlocks",
+        "detail": "Unlock region-specific meditative audio content and ritual-enhancing tools as a group unlocks stages."
+      },
+      {
+        "title": "Mood-Aware Daily Challenges",
+        "detail": "Personalize rituals based on group mood inputs ensuring meaningful, emotionally resonant engagements."
+      },
+      {
+        "title": "Place-Based Ritual Mapping",
+        "detail": "Visual guides link rituals to unique local landmarks, encouraging deeper site connection beyond sightseeing."
+      },
+      {
+        "title": "Ritual Reminders & Reflection Logs",
+        "detail": "Gentle nudges support rhythm and calm integration, with shared logs to reflect on emotional impact."
+      }
+    ],
+    "audience": "Mindful travelers ages 25\u201345 seeking contemplative, meaningful travel experiences that deepen connection with place and community while prioritizing mental wellbeing and shared calm.",
+    "category": "travel",
+    "useCases": [
+      "A group of friends visiting Kyoto unlock traditional tea ceremony breathing exercises as a way to relax and connect after days of busy sightseeing.",
+      "Solo traveler in Lisbon teams up with others via the app to complete calming beach yoga rituals at sunset, gradually unlocking meditations inspired by local ocean sounds.",
+      "Couple on a city trip in Amsterdam follow mapped mindfulness pauses along canals, logging reflections together and progressively unlocking serene local storytelling audio."
+    ]
+  },
+  {
+    "folder": "2026-04-04-sprintnest",
+    "appName": "SprintNest",
+    "tagline": "Unlock co-op sprints through surprise micro-challenges",
+    "designSystem": {
+      "primaryColor": "#FF6B35",
+      "secondaryColor": "#00C896",
+      "backgroundColor": "#0A1628",
+      "fontFamily": "Archivo Black",
+      "style": "Bold geometric with cinematic deep navy backgrounds, vibrant tangerine accent borders and highlights, cool slate gray surfaces, sharp corners with 2-3px structural borders, thick left-edge color bars on cards, uppercase Archivo Black headings with wide letter spacing, energetic and competitive mood"
+    },
+    "screens": [
+      "Home",
+      "Explore",
+      "Teams",
+      "Rewards",
+      "Profile"
+    ],
+    "hasScreenshot": true,
+    "description": "SprintNest reimagines productivity as exciting short bursts tied to collective discovery. Users join small co-op teams for daily or weekly sprints\u20145 to 10-minute collaborative challenges centered on microproductivity tasks like clearing inboxes, idea-pitch sessions, or quick research quests. Each sprint reveals unexpected task twists or evolving prompts inspired by short-form content trends, keeping engagement fresh and playful. Users revel in uncovering novel approaches together, fostering camaraderie and accountability distinct from solo to-do lists. The app integrates a dynamic 'challenge remix' mechanic where results from one group\u2019s sprint subtly influence the next sprint\u2019s goals in other teams, adding an element of emergent novelty that makes returning addictive. By marrying social collaboration, playful discovery, and quick pace, SprintNest creates a repeat rhythm rolled with social delight away from bloated planners.",
+    "features": [
+      {
+        "title": "Co-op Sprints",
+        "detail": "Form or join small teams to tackle bite-sized productivity challenges together, boosting motivation and social accountability."
+      },
+      {
+        "title": "Evolving Challenge Twists",
+        "detail": "Each sprint includes unexpected task modifications influenced by real-time short-form content trends, ensuring fresh, dynamic experiences."
+      },
+      {
+        "title": "Challenge Remix Engine",
+        "detail": "Outputs from some teams subtly influence new goals and formats for others, fostering a networked ecosystem of evolving tasks."
+      },
+      {
+        "title": "Discovery Feed",
+        "detail": "Browse quick highlights of diverse, user-submitted sprint outcomes to spark new ideas and perspective shifts."
+      },
+      {
+        "title": "Sprint Streak Rewards",
+        "detail": "Earn playful badges and unlock creative customizations by consistently completing team sprints, encouraging repeat participation."
+      }
+    ],
+    "audience": "Young professionals and creatives aged 22-35 who thrive on social interaction, enjoy quick bursts of productivity, and seek non-traditional collaboration methods beyond conventional tools.",
+    "category": "productivity",
+    "useCases": [
+      "Sara, a content creator, jumps into a 10-minute group sprint every morning to declutter her video ideas, energized by evolving twists that keep her thinking outside the box.",
+      "Mark and his remote team use SprintNest midweek to co-create quick problem-solving tasks, strengthening their connection while beating Zoom fatigue.",
+      "Priya, balancing freelance projects, finds herself returning after dinner to join diverse new teams and see unexpected challenges remix her approach to daily goals."
+    ]
+  },
+  {
+    "folder": "2026-04-04-craftbets",
+    "appName": "CraftBets",
+    "tagline": "Create boldly, wager on your progress.",
+    "designSystem": {
+      "primaryColor": "#FF2D1A",
+      "secondaryColor": "#00FFD4",
+      "backgroundColor": "#1C1C1C",
+      "accentColor": "#FFE44D",
+      "fontFamily": "Archivo Black",
+      "style": "Neo-brutalist with heavy black borders, offset box-shadows, stark color blocking, chunky typography, and asymmetric alternating card offsets. Vivid molten red primary, neon teal accents, charcoal dark base. Bold, electric, raw."
+    },
+    "screens": [
+      "home",
+      "discover",
+      "bets",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "CraftBets is a creative marketplace where users propose artistic or craft projects and place small wagers on their timely completion tracked in a social accountability challenge format. Users browse community-created challenges like 'Make a short animation in ten days' or 'Build a handmade chess set in one month' and bet real money or community coins on their success, motivating deeper commitment. The app matchmakes participants into mini communities for mutual support, progress vlogging, and peer verification, unlocking gamified achievement badges and status tiers that grow as challenges are completed. Returning users discover fresh challenges tailored to their style and reward level, jump into fast-paced social accountability cycles, and put their craft and reputation on the line. The distinctive twist is combining peer-supported progress wagers with creative marketplace discovery \u2014 a form of creative 'stakes' that fuel social pressure and celebration unlike traditional marketplaces or simple community groups. It transforms the typical creative habit from merely self-driven to playful competition among friends and strangers, fostering sustained meaningful output.",
+    "features": [
+      {
+        "title": "Challenge Marketplace",
+        "detail": "Users browse and create unique, time-bound creative projects they can wager on, sourcing inspiration from the community\u2019s needs and limits."
+      },
+      {
+        "title": "Wager & Stake System",
+        "detail": "Place bets using in-app currency or small real money stakes to increase motivation and social accountability for completing projects."
+      },
+      {
+        "title": "Progress Vlogging & Peer Verification",
+        "detail": "Daily micro-update posts and video logs let users showcase progress and have peers verify honest effort to maintain trust."
+      },
+      {
+        "title": "Achievement & Reputation Tiers",
+        "detail": "Earnings unlock visual badges and social ranks that build reputation in niche creative skill communities over repeated challenges."
+      },
+      {
+        "title": "Community Mini-Groups",
+        "detail": "Automatically join small, focused cohorts that share challenge goals and help sustain motivation with accountability nudges and live chats."
+      }
+    ],
+    "audience": "Creatives aged 20-40 who struggle with completion or consistency, including DIY crafters, illustrators, content creators, and makers seeking fun accountability and community.",
+    "category": "creative tools",
+    "useCases": [
+      "A painter joins a 14-day portrait challenge placing a wager and posts daily progress photos, watching their reputation grow as they complete it.",
+      "A handmade jewelry maker seeks weekend challenges others have wagered on, pushing themselves to finish and share teasers multiple times per week.",
+      "A digital animator uses the app to find new collaborative challenges to improve both output speed and social engagement, staking coins on successful meets."
+    ]
+  },
+  {
+    "folder": "2026-04-04-guild-treasury",
+    "appName": "Guild Treasury",
+    "tagline": "Build wealth together, one challenge at a time",
+    "designSystem": {
+      "primaryColor": "#059669",
+      "secondaryColor": "#EA580C",
+      "backgroundColor": "#111111",
+      "fontFamily": "Orbitron",
+      "style": "Bold geometric with deep emerald green and burnt orange accents on charcoal black. Circular progress dials, stacked horizontal scroll sections, and high-contrast angular shapes create a dynamic, motivating, collaborative aesthetic."
+    },
+    "screens": [
+      "home",
+      "challenges",
+      "stories",
+      "treasury",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Guild Treasury transforms personal finance into a collaborative and competitive club where members asynchronously contribute, share, and build money goals together. Instead of tracking solo budgets, users create or join finance clubs\u2014each shaped around shared ambitions like homebuying, debt paydown, or side hustle boosts. Members upload weekly reflections, savings wins, or challenge completions, sparking motivation through community progress stories and custom milestone badges. The innovative twist: Clubs enact collective \u2018pot challenges\u2019\u2014like monthly saving spikes or cash-free weeks\u2014where only the group\u2019s contributions unlock bigger shared rewards or charity donations. This mechanism creates compelling accountability loops and measurable progress without sacrificing individual agency. The app turns finance from a solitary task into a dynamic, identity-driven social journey, encouraging multiple return visits to check their club\u2019s momentum, gear up for new micro-challenges, and celebrate ongoing achievements.",
+    "features": [
+      {
+        "title": "Asynchronous Club Challenges",
+        "detail": "Teams participate in timed group saving or spending challenges that activate only when collective contributions meet thresholds, cultivating peer-driven commitment and dynamic goal adaptation."
+      },
+      {
+        "title": "User-Generated Progress Stories",
+        "detail": "Members post weekly written or video updates recounting their wins and setbacks, inspiring deeper emotional engagement and personalized accountability."
+      },
+      {
+        "title": "Custom Milestone & Achievement Badges",
+        "detail": "Unique, shareable milestones adapt to each club\u2019s ambitions, blending gamification with real-world financial progress recognition."
+      },
+      {
+        "title": "Rotating Leadership Roles",
+        "detail": "Members cyclically become challenge coordinators, giving each user agency to design custom group goals or incentives that keep clubs feeling fresh and participatory."
+      },
+      {
+        "title": "Impact Pot Unlocks",
+        "detail": "When clubs reach collective savings targets, they unlock bonus funds for group use, charitable giving, or matching from sponsors, heightening communal motivation."
+      }
+    ],
+    "audience": "Young professionals aged 25\u201340 who enjoy social accountability, community-driven motivation, and engaging with progressive finance habits alongside peers.",
+    "category": "personal finance",
+    "useCases": [
+      "A software engineer joins a \u2018First Home Fund\u2019 Guild where members commit weekly savings and share stories of mortgage knowledge gained, turning daunting goals into relatable personal progress check-ins.",
+      "A freelancer leads a club among friends to conquer debt, assigning rotating leadership that encourages fresh challenge ideas and personal finance reflections multiple times per week.",
+      "A couple uses Guild Treasury to run quarterly cash-free spending contests with other couples, excitedly comparing outcomes and unlocking charity gifts on each completed challenge."
+    ]
+  },
+  {
+    "folder": "2026-04-04-bitetribe",
+    "appName": "BiteTribe",
+    "tagline": "Connect. Discover. Taste your neighborhood's soul.",
+    "designSystem": {
+      "primaryColor": "#E05C3A",
+      "secondaryColor": "#2D4A3E",
+      "backgroundColor": "#FAF7F2",
+      "fontFamily": "Playfair Display",
+      "style": "Editorial magazine \u2014 warm coral on off-white, typographic and spacious with angled overlapping cards, confident serif headings, and refined whitespace. Streak-driven identity reinforced through bold numerals and cultural heritage tagging."
+    },
+    "screens": [
+      "home",
+      "map",
+      "pods",
+      "discover",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "BiteTribe is a community-driven app that turns local food exploration into an identity-defining daily ritual. Users commit to a personalized streak of tasting unique home-made dishes, secret family recipes, or small-batch creations from neighbors, building a vibrant neighborhood \u2018tribe\u2019 of food adventurers. Every meal adds to your shared culinary identity and streak, creating social bonds around authentic local flavors rather than chains or influencers. The app\u2019s twist is a geo-gamified cultural map that reveals hidden pocket cuisines and authentic recipe \u2018heirlooms\u2019 passed between users only through tasting, inspiring users to unlock new food styles by repeatedly engaging. Repeated visits grow social belonging and culinary expertise, making food discovery deeply personal and communal rather than transactional or generic. Users return multiple times a week to keep their streaks alive while sharing flavor stories and cultural histories.",
+    "features": [
+      {
+        "title": "Community Dish Streaks",
+        "detail": "Track consecutive days you taste and rate dishes created by local home cooks or neighbors, reinforcing identity through a shared streak challenge."
+      },
+      {
+        "title": "Cultural Map Layers",
+        "detail": "Explore an evolving geo-map with layers highlighting rare local dishes, family recipes, and culinary legacies unique to your neighborhood."
+      },
+      {
+        "title": "Heirloom Recipe Exchange",
+        "detail": "Unlock and gift secret recipes only accessible after completing taste streaks, fostering trust and deeper community bonds."
+      },
+      {
+        "title": "Meal Pods",
+        "detail": "Join or form small squads (\u2018Pods\u2019) of Food Tribe members who coordinate weekly tastings and share communal flavor notes and stories."
+      },
+      {
+        "title": "Story Snippets",
+        "detail": "Attach audio or short video stories behind dishes, allowing users to share the heritage or anecdotes behind what they\u2019re tasting."
+      }
+    ],
+    "audience": "Young urban food explorers aged 22-35 who are passionate about authentic local cultures, crave community, and seek novel non-commercial culinary experiences.",
+    "category": "food & cooking",
+    "useCases": [
+      "A resident of a multicultural neighbourhood uses BiteTribe to discover a local family\u2019s legendary dumplings, maintaining her weekly streak of trying new dishes made nearby.",
+      "A group of friends form a Meal Pod to hunt down hidden neighborhood food gems, deepening their friendship through shared meals and oral food stories.",
+      "An immigrant cook connects with neighbors by sharing her grandmother\u2019s traditional recipes locked behind tasting streaks, fostering cultural pride and belonging."
+    ]
+  },
+  {
     "folder": "2026-03-29-pulsetribe",
     "appName": "PulseTribe",
     "tagline": "Live your identity, together in real time",
