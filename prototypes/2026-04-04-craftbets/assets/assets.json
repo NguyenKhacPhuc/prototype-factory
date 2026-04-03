@@ -1,0 +1,23 @@
+{
+  "appName": "CraftBets",
+  "fontFamily": "Archivo Black",
+  "colors": {
+    "primary": "#FF2D1A",
+    "secondary": "#00FFD4",
+    "background": "#1C1C1C",
+    "accent": "#FFE44D"
+  },
+  "icons": [
+    "battery",
+    "compass",
+    "home",
+    "search",
+    "signal",
+    "user",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 8,
+  "fontFileCount": 0
+}

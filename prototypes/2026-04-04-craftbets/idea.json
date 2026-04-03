@@ -1,0 +1,37 @@
+{
+  "name": "CraftBets",
+  "tagline": "Create boldly, wager on your progress.",
+  "description": "CraftBets is a creative marketplace where users propose artistic or craft projects and place small wagers on their timely completion tracked in a social accountability challenge format. Users browse community-created challenges like 'Make a short animation in ten days' or 'Build a handmade chess set in one month' and bet real money or community coins on their success, motivating deeper commitment. The app matchmakes participants into mini communities for mutual support, progress vlogging, and peer verification, unlocking gamified achievement badges and status tiers that grow as challenges are completed. Returning users discover fresh challenges tailored to their style and reward level, jump into fast-paced social accountability cycles, and put their craft and reputation on the line. The distinctive twist is combining peer-supported progress wagers with creative marketplace discovery \u2014 a form of creative 'stakes' that fuel social pressure and celebration unlike traditional marketplaces or simple community groups. It transforms the typical creative habit from merely self-driven to playful competition among friends and strangers, fostering sustained meaningful output.",
+  "features": [
+    {
+      "title": "Challenge Marketplace",
+      "detail": "Users browse and create unique, time-bound creative projects they can wager on, sourcing inspiration from the community\u2019s needs and limits."
+    },
+    {
+      "title": "Wager & Stake System",
+      "detail": "Place bets using in-app currency or small real money stakes to increase motivation and social accountability for completing projects."
+    },
+    {
+      "title": "Progress Vlogging & Peer Verification",
+      "detail": "Daily micro-update posts and video logs let users showcase progress and have peers verify honest effort to maintain trust."
+    },
+    {
+      "title": "Achievement & Reputation Tiers",
+      "detail": "Earnings unlock visual badges and social ranks that build reputation in niche creative skill communities over repeated challenges."
+    },
+    {
+      "title": "Community Mini-Groups",
+      "detail": "Automatically join small, focused cohorts that share challenge goals and help sustain motivation with accountability nudges and live chats."
+    }
+  ],
+  "audience": "Creatives aged 20-40 who struggle with completion or consistency, including DIY crafters, illustrators, content creators, and makers seeking fun accountability and community.",
+  "category": "creative tools",
+  "useCases": [
+    "A painter joins a 14-day portrait challenge placing a wager and posts daily progress photos, watching their reputation grow as they complete it.",
+    "A handmade jewelry maker seeks weekend challenges others have wagered on, pushing themselves to finish and share teasers multiple times per week.",
+    "A digital animator uses the app to find new collaborative challenges to improve both output speed and social engagement, staking coins on successful meets."
+  ],
+  "engagementLoop": "Weekly, users return to find hot new challenges aligned to their interest, wager on projects, update progress through stories, and check their evolving achievements and community rank. Social nudges from peer groups and tracking visible \u2018stakes\u2019 turn intermittent creative efforts into habit-forming contest cycles.",
+  "trendFit": "CraftBets taps into the rising culture of community challenges and progress sharing seen on social media combined with increasing interest in 'skin in the game' social commitments to boost motivation. It caters to creator fatigue by adding playful wagering stakes and mutual support, reflecting trends toward gamified habits and creator economy engagement.",
+  "monetization": "Revenue comes from transaction fees on wager placement and a premium subscription offering advanced analytics on challenge success rates, reputation boosts, and exclusive creator league competitions."
+}

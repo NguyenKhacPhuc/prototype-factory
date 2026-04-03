@@ -1,0 +1,18 @@
+{
+  "appName": "CraftBets",
+  "tagline": "Create boldly, wager on your progress.",
+  "designSystem": {
+    "primaryColor": "#FF2D1A",
+    "secondaryColor": "#00FFD4",
+    "backgroundColor": "#1C1C1C",
+    "accentColor": "#FFE44D",
+    "fontFamily": "Archivo Black",
+    "style": "Neo-brutalist with heavy black borders, offset box-shadows, stark color blocking, chunky typography, and asymmetric alternating card offsets. Vivid molten red primary, neon teal accents, charcoal dark base. Bold, electric, raw."
+  },
+  "screens": [
+    "home",
+    "discover",
+    "bets",
+    "profile"
+  ]
+}
