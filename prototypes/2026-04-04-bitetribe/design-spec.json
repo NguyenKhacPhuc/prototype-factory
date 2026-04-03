@@ -1,0 +1,12 @@
+{
+  "appName": "BiteTribe",
+  "tagline": "Connect. Discover. Taste your neighborhood's soul.",
+  "designSystem": {
+    "primaryColor": "#E05C3A",
+    "secondaryColor": "#2D4A3E",
+    "backgroundColor": "#FAF7F2",
+    "fontFamily": "Playfair Display",
+    "style": "Editorial magazine — warm coral on off-white, typographic and spacious with angled overlapping cards, confident serif headings, and refined whitespace. Streak-driven identity reinforced through bold numerals and cultural heritage tagging."
+  },
+  "screens": ["home", "map", "pods", "discover", "profile"]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "BiteTribe",
+  "tagline": "Connect. Discover. Taste your neighborhood\u2019s soul.",
+  "description": "BiteTribe is a community-driven app that turns local food exploration into an identity-defining daily ritual. Users commit to a personalized streak of tasting unique home-made dishes, secret family recipes, or small-batch creations from neighbors, building a vibrant neighborhood \u2018tribe\u2019 of food adventurers. Every meal adds to your shared culinary identity and streak, creating social bonds around authentic local flavors rather than chains or influencers. The app\u2019s twist is a geo-gamified cultural map that reveals hidden pocket cuisines and authentic recipe \u2018heirlooms\u2019 passed between users only through tasting, inspiring users to unlock new food styles by repeatedly engaging. Repeated visits grow social belonging and culinary expertise, making food discovery deeply personal and communal rather than transactional or generic. Users return multiple times a week to keep their streaks alive while sharing flavor stories and cultural histories.",
+  "features": [
+    {
+      "title": "Community Dish Streaks",
+      "detail": "Track consecutive days you taste and rate dishes created by local home cooks or neighbors, reinforcing identity through a shared streak challenge."
+    },
+    {
+      "title": "Cultural Map Layers",
+      "detail": "Explore an evolving geo-map with layers highlighting rare local dishes, family recipes, and culinary legacies unique to your neighborhood."
+    },
+    {
+      "title": "Heirloom Recipe Exchange",
+      "detail": "Unlock and gift secret recipes only accessible after completing taste streaks, fostering trust and deeper community bonds."
+    },
+    {
+      "title": "Meal Pods",
+      "detail": "Join or form small squads (\u2018Pods\u2019) of Food Tribe members who coordinate weekly tastings and share communal flavor notes and stories."
+    },
+    {
+      "title": "Story Snippets",
+      "detail": "Attach audio or short video stories behind dishes, allowing users to share the heritage or anecdotes behind what they\u2019re tasting."
+    }
+  ],
+  "audience": "Young urban food explorers aged 22-35 who are passionate about authentic local cultures, crave community, and seek novel non-commercial culinary experiences.",
+  "category": "food & cooking",
+  "useCases": [
+    "A resident of a multicultural neighbourhood uses BiteTribe to discover a local family\u2019s legendary dumplings, maintaining her weekly streak of trying new dishes made nearby.",
+    "A group of friends form a Meal Pod to hunt down hidden neighborhood food gems, deepening their friendship through shared meals and oral food stories.",
+    "An immigrant cook connects with neighbors by sharing her grandmother\u2019s traditional recipes locked behind tasting streaks, fostering cultural pride and belonging."
+  ],
+  "engagementLoop": "Users repeatedly come back to nurture and maintain their streaks while uncovering new dishes hidden in their own neighborhood. The unlocking of secret recipes and social sharing within Pods keep anticipation high and feeding identity more profound, encouraging frequent trips to the app several times a week.",
+  "trendFit": "BiteTribe taps into the rising demand for hyper-local authentic food experiences, community-driven cultural discovery, and apps rewarding streaks to create daily habits. It aligns with consumers craving belonging and a unique social twist on food exploration beyond influencer-driven or chain restaurant models.",
+  "monetization": "Revenue comes from premium tier memberships enabling advanced map layers, exclusive heirloom recipe unlocks, and enhanced Pod management tools, along with commissions from locally vetted shared meal events coordinated through the platform."
+}

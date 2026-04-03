@@ -1,0 +1,31 @@
+{
+  "appName": "BiteTribe",
+  "fontFamily": "Playfair Display",
+  "colors": {
+    "primary": "#E05C3A",
+    "secondary": "#2D4A3E",
+    "background": "#FAF7F2",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "calendar",
+    "compass",
+    "heart",
+    "home",
+    "log-out",
+    "map",
+    "map-pin",
+    "moon",
+    "play",
+    "search",
+    "signal",
+    "user",
+    "users",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}
