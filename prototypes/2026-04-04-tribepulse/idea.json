@@ -1,0 +1,37 @@
+{
+  "name": "TribePulse",
+  "tagline": "Live rituals bonding identity and accountability",
+  "description": "TribePulse reinvents social commitment by centering daily and weekly live rituals around identity-based communities. Users join vibrant live video ceremonies tailored to shared passions or values\u2014like morning writing circles for aspiring novelists or nightly wellness breaths for yoga lovers\u2014to motivate, hold each other accountable, and build ritualistic belonging. Unlike typical social feeds, TribePulse spaces are synchronous gatherings with a timer-driven cyclical flow, delivering a collective \u2018heartbeat\u2019 experience that deepens group connection while nudging personal success. The app's distinctive twist: ritual leaders dynamically adapt session themes and accountability challenges using real-time community mood and progress signals, making each event unique and responsive. Regular live sessions cultivate repeat visits several times weekly, turning community engagement into an identity-anchored habit with an emotional undercurrent of encouragement and shared progress.",
+  "features": [
+    {
+      "title": "Live Ritual Events",
+      "detail": "Synchronous, timer-bound live sessions where community members perform shared rituals to motivate and hold one another accountable in real time."
+    },
+    {
+      "title": "Dynamic Ritual Leaderboard",
+      "detail": "A gamified twist showing collective achievements and individual streaks updated during each event to spark friendly motivation and visible progress."
+    },
+    {
+      "title": "Mood-Responsive Ritual Themes",
+      "detail": "Session topics and activities adapt live based on participant feedback and progress data, ensuring rituals feel relevant and energizing every time."
+    },
+    {
+      "title": "Identity Tribe Matching",
+      "detail": "An onboarding flow that matches users to communities deeply aligned with emotional, cultural, or creative identities to foster authentic belonging."
+    },
+    {
+      "title": "Heartbeat Check-ins",
+      "detail": "Short in-ritual personal sharing moments where users state intentions or struggles verbally, deepening emotional ties and mutual accountability."
+    }
+  ],
+  "audience": "Young adults ages 20-35 who seek meaningful connection with identity-centric peers and crave motivational structures that integrate social support with goal pursuit.",
+  "category": "social & community",
+  "useCases": [
+    "A debut novelist struggling with daily discipline joins a Monday evening writing pulse to perform a 30-minute collective freewriting ritual, energized by seeing others progress in real time.",
+    "A yoga community attendee uses the app at sunrise to join live breathwork rituals with friends from her cultural wellness group, feeling accountable to show up even when motivation wanes.",
+    "A newly vegan user attends a weekly tribe pulse where members share short live updates on challenges and wins, helping him stay motivated through real-time peer encouragement and shared rituals."
+  ],
+  "engagementLoop": "Users return multiple times weekly for scheduled live rituals that combine social connection with visible accountability streaks. The evolving ritual themes and real-time mood sensing keep sessions fresh and emotionally resonant, forging a habitual rhythm tied to identity and community.",
+  "trendFit": "TribePulse taps into the rising pattern of synchronous live experiences combined with community identity\u2014echoing rituals revived through digital connectedness, and leveraging real-time accountability social dynamics popularized by workout and study groups. It meets young adults\u2019 seeking deeper, purposeful belonging beyond asynchronous social scrolling.",
+  "monetization": "Revenue comes from premium tribe subscriptions offering exclusive leader-hosted ritual formats, enhanced progress analytics, and custom ritual creation tools for communities and coaches."
+}

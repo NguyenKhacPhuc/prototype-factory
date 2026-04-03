@@ -1,0 +1,12 @@
+{
+  "appName": "TribePulse",
+  "tagline": "Live rituals bonding identity and accountability",
+  "designSystem": {
+    "primaryColor": "#FF6B35",
+    "secondaryColor": "#1A2A6C",
+    "backgroundColor": "#0D0F1A",
+    "fontFamily": "Orbitron",
+    "style": "bold geometric with asymmetric diagonal splits, deep midnight blue base, vibrant sunset orange accents on textured charcoal gray, energizing and united mood"
+  },
+  "screens": ["home", "rituals", "tribe", "pulse", "settings"]
+}

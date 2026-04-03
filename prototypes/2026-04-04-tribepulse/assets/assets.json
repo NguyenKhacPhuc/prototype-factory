@@ -1,0 +1,25 @@
+{
+  "appName": "TribePulse",
+  "fontFamily": "Orbitron",
+  "colors": {
+    "primary": "#FF6B35",
+    "secondary": "#1A2A6C",
+    "background": "#0D0F1A",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "activity",
+    "battery",
+    "chevron-right",
+    "flame",
+    "heart",
+    "home",
+    "settings",
+    "signal",
+    "users",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 10,
+  "fontFileCount": 0
+}
