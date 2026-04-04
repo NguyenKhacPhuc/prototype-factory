@@ -1,0 +1,12 @@
+{
+  "appName": "Stillpoint Atlas",
+  "tagline": "Map the World's Serene Moments.",
+  "designSystem": {
+    "primaryColor": "#FF6D00",
+    "secondaryColor": "#283593",
+    "backgroundColor": "#FFF3E0",
+    "fontFamily": "Crimson Pro",
+    "style": "soft pastel dreamy with warm nostalgic glow, timeline with branching paths layout"
+  },
+  "screens": ["home", "explore", "capture", "journeys", "profile"]
+}

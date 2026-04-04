@@ -1,0 +1,33 @@
+{
+  "appName": "Stillpoint Atlas",
+  "fontFamily": "Crimson Pro",
+  "colors": {
+    "primary": "#FF6D00",
+    "secondary": "#283593",
+    "background": "#FFF3E0",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "check",
+    "chevron-right",
+    "compass",
+    "droplets",
+    "lock",
+    "map-pin",
+    "mic",
+    "mic-off",
+    "moon",
+    "plus",
+    "search",
+    "sparkles",
+    "star",
+    "sun",
+    "tree-pine",
+    "user",
+    "waves",
+    "wind"
+  ],
+  "fonts": [],
+  "iconCount": 18,
+  "fontFileCount": 0
+}
