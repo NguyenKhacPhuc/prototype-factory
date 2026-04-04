@@ -1,0 +1,37 @@
+{
+  "name": "CogniBlend",
+  "tagline": "Remix knowledge. Create understanding.",
+  "description": "CogniBlend transforms passive learning into active creation, empowering users to become 'knowledge DJs.' It's a creative studio where you feed in diverse educational content \u2013 lecture notes, articles, podcasts, video snippets \u2013 and remix them into personalized, interactive learning assets. Imagine crafting an adaptive audio summary from three different history lectures, or building an explainer video for a complex scientific concept by stitching together visuals, text overlays, and spoken explanations from various sources. The app\u2019s core innovation lies in its 'Contextual AI Stitcher' which acts as a co-creator, suggesting relevant connections, alternative framing, and optimal structures as you blend information, adapting to your unique learning style and objectives. This process is highly engaging and satisfying, turning abstract information into tangible, custom-built learning tools that resonate deeply and foster lasting retention. Users return to continuously refine their learning 'mixes' and tackle new subjects with a powerful, adaptive creative partner.",
+  "features": [
+    {
+      "title": "Contextual AI Stitcher",
+      "detail": "Our distinctive twist: an AI co-creator that doesn't just summarize, but actively suggests creative ways to blend disparate educational content. It identifies thematic links, offers conceptual bridges, and recommends structural layouts for your remixes based on your stated learning goal, dramatically accelerating and deepening the synthesis process."
+    },
+    {
+      "title": "Multimodal Remix Canvas",
+      "detail": "A flexible workspace where users can drag, drop, cut, and splice text, audio clips, video snippets, and images from various sources. It's designed for intuitive, real-time composition, allowing for dynamic layering and synchronization to build rich, custom learning experiences."
+    },
+    {
+      "title": "Adaptive Learning Profiler",
+      "detail": "As you interact and remix, the app learns your preferred learning modalities (visual, auditory, kinesthetic), your existing knowledge gaps, and your successful remix patterns. This hyper-personalization refines the Stitcher's suggestions and tailors the interface for maximum engagement and efficiency."
+    },
+    {
+      "title": "Concept Graph Visualizer",
+      "detail": "Generate an interactive, spatial 3D map of the concepts within your remixed content, showing relationships and hierarchies. This helps users visualize complex networks of ideas and identify areas for further exploration or consolidation, leveraging emerging spatial UI trends for clearer understanding."
+    },
+    {
+      "title": "Remix Vault & Community Shares",
+      "detail": "Store, organize, and revisit all your personalized learning remixes. Users can also opt to share their most insightful creations with a curated community, inspiring others and receiving feedback on their unique approaches to understanding complex topics, fostering a mini creator economy around learning."
+    }
+  ],
+  "audience": "Self-directed learners, university students, and professionals (ages 18-50+) who seek a highly engaging, active, and personalized approach to mastering complex subjects and information synthesis.",
+  "category": "education",
+  "useCases": [
+    "A university student preparing for an interdisciplinary exam uses CogniBlend to remix chapters from different textbooks and lecture recordings into an interactive 'concept mixtape,' solidifying cross-subject understanding.",
+    "A professional transitioning into a new industry uploads a series of whitepapers and industry reports, then uses the AI Stitcher to create a personalized 'Executive Briefing' video outlining key trends and jargon in their own words, aided by visuals and external audio clips.",
+    "An amateur historian deep-diving into the nuances of a specific historical event gathers documents, podcasts, and video documentaries, then uses the remix canvas to build a multimedia 'historical narrative' to challenge prevailing viewpoints and deepen their own unique perspective."
+  ],
+  "engagementLoop": "Users keep coming back due to the inherent satisfaction of creative problem-solving and the tangible results of mastering new topics. The adaptive AI continuously improves its suggestions, making each subsequent remixing session more efficient and insightful, reinforcing a positive feedback loop of learning and creation.",
+  "trendFit": "CogniBlend aligns perfectly with the creator economy trend by transforming learners into content creators. Its adaptive personalization and conversational AI Stitcher embrace hyper-personalization, making learning uniquely relevant. The 'remix culture' emotional hook taps into how modern audiences engage with and re-interpret information, making education dynamic and personal.",
+  "monetization": "Freemium model with a 'Pro' subscription offering unlimited remix capacity, advanced AI Stitcher features (e.g., deeper contextual analysis, specialized templates), higher quality exports, and collaborative remixing options."
+}

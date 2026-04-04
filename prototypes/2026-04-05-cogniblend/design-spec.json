@@ -1,0 +1,12 @@
+{
+  "appName": "CogniBlend",
+  "tagline": "Remix knowledge. Create understanding.",
+  "designSystem": {
+    "primaryColor": "#2979FF",
+    "secondaryColor": "#FF5252",
+    "backgroundColor": "#0A0A0F",
+    "fontFamily": "Orbitron",
+    "style": "luxury minimal — electric blue and coral red on near-black; asymmetric split-screen layouts, monospaced uppercase labels, razor-thin borders, high contrast score indicators"
+  },
+  "screens": ["home", "remix", "stitcher", "graph", "vault"]
+}

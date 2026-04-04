@@ -1,0 +1,21 @@
+{
+  "appName": "CogniBlend",
+  "fontFamily": "Orbitron",
+  "colors": {
+    "primary": "#2979FF",
+    "secondary": "#FF5252",
+    "background": "#0A0A0F",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "archive",
+    "chevron-left",
+    "cpu",
+    "pause",
+    "play",
+    "plus"
+  ],
+  "fonts": [],
+  "iconCount": 6,
+  "fontFileCount": 0
+}
