@@ -1,0 +1,37 @@
+{
+  "name": "Artisan Forge",
+  "tagline": "Stake your craft, create with purpose.",
+  "description": "Artisan Forge is a unique commitment marketplace for creatives, designed to vanquish procrastination and fuel consistent output. Users discover or create \"Challenges\" \u2013 hyper-specific creative prompts like 'Design a retro-futuristic vending machine' or 'Compose a 1-minute soundscape for a hidden forest glade' \u2013 posted by the community or curated 'Guilds.' To join a challenge, they must 'stake' a small amount of in-app currency or credits. This stake is held in escrow until the user submits their completed creative piece by the deadline. If successful and the submission meets basic community-moderated criteria, they receive their stake back, often with a bonus derived from participants who failed to complete their commitment. This powerful social accountability and minor financial incentive transforms a passive desire to create into active, rewarding production, making it a habit-forming platform for artists, writers, designers, and hobbyists alike.",
+  "features": [
+    {
+      "title": "Stake-to-Create Challenges",
+      "detail": "Users commit a small amount of in-app currency to join a creative challenge, which they risk losing if they don't submit their work by the deadline, driving powerful engagement and accountability."
+    },
+    {
+      "title": "Curated Creative Guilds",
+      "detail": "Join specialized communities focused on specific creative disciplines (e.g., 'Pixel Art Foundry,' 'Poetry Anvil') offering tailored prompts, critiques, and collective challenges."
+    },
+    {
+      "title": "Prompt Discovery Forge",
+      "detail": "An AI-powered system suggests novel, personalized creative prompts based on your historical activity, interests, and trending themes, ensuring a fresh source of inspiration daily."
+    },
+    {
+      "title": "Immersive Project Showcases",
+      "detail": "Display completed challenge submissions in beautiful, full-screen galleries. This allows users to build a portfolio of their achievements and discover the work of others in an engaging, ad-free environment."
+    },
+    {
+      "title": "Creator's Ledger & Progression",
+      "detail": "Track your success rate, earn unique badges, and climb leaderboards within Guilds based on completed challenges, fostering a sense of achievement and encouraging continuous participation."
+    }
+  ],
+  "audience": "Aspiring and seasoned creatives (artists, writers, designers, musicians) aged 18-45 who struggle with motivation, consistency, or creative block and thrive in structured, community-driven environments.",
+  "category": "creative tools",
+  "useCases": [
+    "A freelance writer needs to practice daily micro-fiction but keeps procrastinating. They find a 'Daily 100-word Story' challenge, stake 20 credits, and successfully complete it to build a consistent writing habit.",
+    "An aspiring graphic designer wants to expand their portfolio with unique concepts. They join the 'UI/UX Innovations' Guild, participate in a 'Design a Smart Home Dashboard' challenge, and learn by seeing other members' diverse approaches.",
+    "A musician is experiencing writer's block for new melodies. They post their own challenge, 'Compose a 30-second theme for an enchanted forest,' offering a small bonus, sparking a fresh wave of inspiration from community submissions."
+  ],
+  "engagementLoop": "Users are drawn in by new and compelling creative challenges, motivated by the commitment of their stake. Upon successful completion, they earn rewards and public recognition, driving them to seek out the next challenge, or even create their own, perpetually fueling a cycle of creation and achievement.",
+  "trendFit": "This app aligns with the surging trend of community-driven challenges and social accountability platforms. It also taps into the desire for authentic creative expression and personal achievement, much like BeReal fosters authenticity, but for creative output, leveraging structured play for real creative progress.",
+  "monetization": "Revenue is generated through the sale of in-app currency (credits/tokens) used for staking in challenges, premium 'Guild Master' memberships offering advanced analytics and exclusive challenge creation tools, and optional small real-money buy-ins for high-stakes, higher-reward challenges."
+}

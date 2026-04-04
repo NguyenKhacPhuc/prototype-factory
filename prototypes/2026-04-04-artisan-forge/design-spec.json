@@ -1,0 +1,17 @@
+{
+  "appName": "Artisan Forge",
+  "tagline": "Stake your craft, create with purpose.",
+  "designSystem": {
+    "primaryColor": "#B84A2E",
+    "secondaryColor": "#0047FF",
+    "backgroundColor": "#F5F0E8",
+    "fontFamily": "Archivo Black",
+    "style": "Neo-brutalist with matte charcoal black borders, rusty iron red primary, unbleached canvas beige background, and electric cobalt accents. Chunky thick-bordered content blocks, asymmetric grid layouts with alternating card offsets, raw and purposeful typography hierarchy."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "forge",
+    "profile"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "appName": "Artisan Forge",
+  "fontFamily": "Archivo Black",
+  "colors": {
+    "primary": "#B84A2E",
+    "secondary": "#0047FF",
+    "background": "#F5F0E8",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "award",
+    "bell",
+    "check",
+    "chevron-right",
+    "clock",
+    "heart",
+    "image",
+    "moon",
+    "music",
+    "palette",
+    "search",
+    "shield",
+    "sparkles",
+    "star",
+    "sun",
+    "target",
+    "trending-up",
+    "type",
+    "users",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 20,
+  "fontFileCount": 0
+}
