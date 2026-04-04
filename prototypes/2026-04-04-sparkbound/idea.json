@@ -1,0 +1,46 @@
+{
+  "name": "SparkBound",
+  "tagline": "Commit to creation, together.",
+  "description": "SparkBound transforms the creative process into a collaborative, accountable journey. It's not a marketplace for finished art, but for 'SparkPacks' \u2013 curated bundles of creative prompts, constraints, and inspirational resources crafted by other artists, writers, and designers. Users struggling with creative block or lack of direction can browse and commit to a SparkPack, activating a social accountability mechanism where they share their progress, not just finished pieces, with a chosen 'Commitment Circle.' The app leverages an 'Interest-Led Social Curator' AI to match users with SparkPacks and peers, fostering a vibrant community. The emotional hook is the joy of progress and achievement, earning 'Sparks' (in-app currency/reputation) when creations inspired by a SparkPack are completed, providing tangible motivation and a unique earning model for prompt creators. It moves beyond passive consumption, making every user both a potential creator of inspiration and a participant in a structured creative journey, driving repeat engagement through novelty, community support, and personal growth.",
+  "features": [
+    {
+      "title": "SparkPack Marketplace",
+      "detail": "Discover and acquire 'SparkPacks' \u2013 unique bundles of creative prompts, visual mood boards, textual fragments, or auditory cues crafted by a global community of creators. Each SparkPack is designed to kickstart a specific type of project or overcome a creative block."
+    },
+    {
+      "title": "Commitment Circles",
+      "detail": "Form or join private 'Commitment Circles' with friends or like-minded creators to publicly declare your intent to tackle a SparkPack. Share daily progress, receive encouraging feedback, and maintain social accountability towards completing your creative challenges."
+    },
+    {
+      "title": "Creative Resonance Engine",
+      "detail": "An AI-powered recommendation system suggests SparkPacks and potential collaborators tailored to your current creative interests, skill level, and even your current mood, ensuring fresh and relevant challenges. This adapts ambiently based on your activity and input."
+    },
+    {
+      "title": "Completion Gallery & Feedback Loop",
+      "detail": "Showcase your completed projects derived from SparkPacks, receiving constructive criticism and encouragement from the community. SparkPack creators also earn 'Sparks' (reputation/currency) when users successfully complete projects inspired by their prompts, fostering a reciprocal creative ecosystem."
+    },
+    {
+      "title": "Spark Creator Studio",
+      "detail": "Empower yourself to become an inspiration source. Design, package, and publish your own unique SparkPacks using intuitive, conversational UI tools, offering them to the community and earning 'Sparks' or a share of revenue from successful completions."
+    }
+  ],
+  "audience": "Emerging artists, hobbyists, designers, writers, and musicians (18-35) who struggle with creative block, seek structured challenges, desire community support, and value tangible progress in their craft.",
+  "category": "creative tools",
+  "useCases": [
+    {
+      "title": "Overcoming Creative Block",
+      "detail": "A freelance illustrator feels burnt out and uninspired. They open SparkBound, browse a 'Concept Art Catalyst' SparkPack, commit to it in a circle with fellow illustrators, and get daily prompts that help them experiment with new styles and themes, re-igniting their passion."
+    },
+    {
+      "title": "Structured Skill Development",
+      "detail": "An aspiring musician wants to improve their songwriting. They purchase a 'Chord Progression Journey' SparkPack, which provides weekly challenges focused on different melodic structures, sharing their recorded attempts with a dedicated 'Harmony Huddle' circle for feedback."
+    },
+    {
+      "title": "Curating Community Inspiration",
+      "detail": "A seasoned photographer wants to inspire others and earn. They use the Spark Creator Studio to develop a 'Visual Storytelling Sprint' SparkPack, featuring unique daily photo prompts and thematic constraints. They then publish it, earning 'Sparks' as users complete their photographic narratives."
+    }
+  ],
+  "engagementLoop": "Users keep coming back weekly for fresh SparkPacks, to engage with their Commitment Circles, track their creative progress, and give/receive feedback. The reciprocal earning model for creators, alongside the constant stream of new, AI-curated challenges and the emotional reward of achievement, drives deep, continuous engagement.",
+  "trendFit": "This app directly aligns with 'community challenges' as a trend inspiration and leverages 'social accountability' as a primary mechanic. Its 'Creative Resonance Engine' taps into 'AI-Generated Personalized Content' and 'Interest-Led Social Curation,' while the Spark Creator Studio benefits from 'Conversational UI Replacing Forms' for intuitive prompt creation.",
+  "monetization": "Revenue will be generated through premium SparkPacks (one-time purchases or subscription access to exclusive content), with a percentage shared with top SparkPack creators, and optional 'Visibility Boosts' for user-submitted projects in the gallery."
+}

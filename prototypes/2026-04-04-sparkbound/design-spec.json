@@ -1,0 +1,19 @@
+{
+  "appName": "SparkBound",
+  "tagline": "Commit to creation, together.",
+  "designSystem": {
+    "primaryColor": "#FF5500",
+    "secondaryColor": "#5B9B94",
+    "backgroundColor": "#F5EFE6",
+    "accentColor": "#FFD93D",
+    "fontFamily": "Red Hat Display",
+    "style": "Bold geometric with overlapping angled cards, chunky 2px borders, hard drop shadows, and high-contrast orange-on-off-white palette. Navigation uses solid charcoal bottom bar with orange active states."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "circles",
+    "studio",
+    "profile"
+  ]
+}

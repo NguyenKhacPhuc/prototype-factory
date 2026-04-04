@@ -1,0 +1,14 @@
+{
+  "appName": "SparkBound",
+  "fontFamily": "Red Hat Display",
+  "colors": {
+    "primary": "#FF5500",
+    "secondary": "#5B9B94",
+    "background": "#F5EFE6",
+    "accent": "#FFD93D"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
