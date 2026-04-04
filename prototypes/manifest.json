@@ -1,5 +1,436 @@
 [
   {
+    "folder": "2026-04-04-wanderwell",
+    "appName": "WanderWell",
+    "tagline": "Your collaborative map to tranquil journeys.",
+    "designSystem": {
+      "primaryColor": "#8B9B4A",
+      "secondaryColor": "#C4622D",
+      "backgroundColor": "#1A1810",
+      "accentColor": "#D4A843",
+      "fontFamily": "Lora",
+      "style": "Retro-analog with vintage postcard-style detail cards, sun-faded mustard yellow tones, desaturated olive green and warm terracotta accents, textured grid overlays on maps, dashed postcard stripe decorations, and handwritten-feel italic typography throughout"
+    },
+    "screens": [
+      "home",
+      "motes",
+      "canopy",
+      "streams",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "WanderWell is a unique collaborative game that transforms travel into a global quest for tranquility and shared well-being. It encourages users to slow down and practice 'mindful travel rituals' wherever they are\u2014whether it's observing the unique light filtering through a historic arch, listening to the specific sound of rain in a new city, or simply taking a moment of gratitude by a natural landmark. These small, geotagged observations, called 'Mindful Motes,' aren't just personal journals; they anonymously contribute to a collective global 'River of Calm.' As enough Motes are gathered from specific regions or types of experiences, new 'Serenity Streams' progressively unlock. These streams are interactive, multi-sensory experiences\u2014think immersive soundscapes woven from user-submitted audio snippets, visual patterns reflecting unique light observations, or micro-guides to local, less-trodden peaceful spots\u2014all co-created by the community's collective contributions. This innovative approach fosters a deep sense of community, a purposeful way to engage with new environments, and a continuous loop of calm discovery that feels both deeply personal and globally connected.",
+    "features": [
+      {
+        "title": "Mindful Motes",
+        "detail": "Users contribute geotagged micro-observations or short sensory snippets (text, image, audio) of peaceful moments, forming the foundation of the collective 'River of Calm.' This provides a gentle daily engagement point and builds a rich, anonymized data set of tranquility."
+      },
+      {
+        "title": "Serenity Streams",
+        "detail": "As enough 'Mindful Motes' accumulate, new 'Serenity Streams' unlock for the entire community. These are interactive, curated experiences like generative soundscapes or visual meditations derived from the collective sensory input, offering unique paths to calm."
+      },
+      {
+        "title": "Pathfinding Rituals",
+        "detail": "Offers gentle, guided prompts for travel-friendly wellness rituals, such as 'Sensory Awareness Walks' or 'Gratitude Reflections' tailored to urban, nature, or cultural settings. These rituals encourage deeper engagement with surroundings and provide structured ways to contribute."
+      },
+      {
+        "title": "Collective Canopy",
+        "detail": "A global map visually represents the density and type of 'calm energy' contributed across different regions. This gamified overlay allows users to explore where serenity is flourishing and feel part of a larger, evolving tapestry of peace."
+      },
+      {
+        "title": "Journey Unlocks",
+        "detail": "Beyond Serenity Streams, the community's overall contribution unlocks new tiers of guided themes, collaborative challenges (e.g., 'Contribute 100 forest sounds in Asia'), and advanced wellness practices, maintaining long-term engagement and a sense of progression."
+      }
+    ],
+    "audience": "Mindful travelers and digital nomads (25-45) who seek deeper, more meaningful engagement with their destinations and prioritize mental wellness and calm amidst the excitement of exploration, valuing community and unique experiences.",
+    "category": "travel",
+    "useCases": [
+      "A solo traveler feels overwhelmed by a bustling city. They open WanderWell, engage with a 'City Solace' Pathfinding Ritual, and contribute a 'Mindful Mote' about the calm they found in a hidden alleyway, instantly feeling a sense of groundedness and contribution.",
+      "A couple on a road trip wants to make their journey more intentional. They use WanderWell to collectively contribute 'Nature Notes' from scenic overlooks, and later unlock a 'Forest Bathing Soundscape' for that region, which they listen to together for evening relaxation.",
+      "Someone planning their next trip consults the 'Collective Canopy' to see which regions have a high density of 'Serenity Streams' related to historical sites or culinary contemplation, helping them choose a destination aligned with their wellness goals, knowing they can contribute to existing streams there."
+    ]
+  },
+  {
+    "folder": "2026-04-04-ascent-club",
+    "appName": "Ascent Club",
+    "tagline": "Achieve financial peaks, together.",
+    "designSystem": {
+      "primaryColor": "#1E4D2B",
+      "secondaryColor": "#5C5C5C",
+      "accentColor": "#B87333",
+      "backgroundColor": "#F8F6F1",
+      "fontFamily": "Archivo Black",
+      "style": "Editorial magazine \u2014 typographic and spacious with full-bleed photo headers, deep forest green primary, burnished copper accents on crisp off-white. Sophisticated and aspirational with clear milestone-path layouts and badge-driven gamification."
+    },
+    "screens": [
+      "home",
+      "discover",
+      "community",
+      "dashboard",
+      "settings",
+      "detail"
+    ],
+    "hasScreenshot": true,
+    "description": "Ascent Club is a unique personal finance app that transforms daunting financial goals into collaborative 'Ascents' within a supportive community. Users define their personal financial missions, breaking them down into actionable 'Milestones' that track progress towards their summit. Unlike traditional trackers, Ascent Club thrives on user-generated content where members openly share their strategies, challenges, and micro-victories for each milestone. Other club members can 'spot' each other, offering asynchronous advice, resources, or encouragement directly on specific milestones. This creates a powerful cycle of accountability and shared learning, helping individuals navigate complex financial journeys like saving for a down payment or clearing debt. The habit-forming core lies in regularly updating personal progress, receiving genuine peer support, and discovering new, actionable strategies by engaging with others' Ascents, fostering a sense of collective achievement.",
+    "features": [
+      {
+        "title": "Ascent Builder",
+        "detail": "Define ambitious financial goals (Ascents) like 'Debt-Free Summit' or 'Dream Home Deposit,' then break them into clear, trackable 'Milestones' to create a structured path forward."
+      },
+      {
+        "title": "Climber Crews",
+        "detail": "Join specialized community groups, like 'First-Time Home Buyers' or 'Investment Peak Pioneers,' to connect with others pursuing similar Ascents and share context-specific insights."
+      },
+      {
+        "title": "Milestone Spotting",
+        "detail": "Offer or receive asynchronous feedback, encouragement, and specific tips directly on a fellow climber's milestone, turning every step into a collaborative effort."
+      },
+      {
+        "title": "Ascent Mirroring",
+        "detail": "Discover and 'mirror' another member's successful Ascent, adapting their detailed plan and milestone structure to your own financial situation, fostering template-driven collaboration."
+      },
+      {
+        "title": "Progress Peaks Dashboard",
+        "detail": "Visualize your individual Ascent progress with clear metrics and celebratory 'peak' badges for milestone completion, alongside an aggregate view of your Climber Crew's collective achievements."
+      }
+    ],
+    "audience": "Young to middle-aged adults (25-45) who feel isolated or overwhelmed by complex financial goals, seeking peer accountability, diverse strategies, and genuine community support beyond basic budgeting tools.",
+    "category": "personal finance",
+    "useCases": [
+      "A user wants to save for a down payment on a house. They create a 'Home Deposit Ascent,' breaking it into monthly saving and investing milestones, and join the 'First-Time Home Buyers Crew' for advice.",
+      "A user hits a roadblock on their 'Debt-Free Summit Ascent' trying to optimize credit card payments. They post their challenge on a specific milestone, and several 'Climber Crew' members 'spot' them with advice on balance transfer options and budgeting apps.",
+      "A user sees a highly successful 'Emergency Fund Ascent' shared by another member, outlining specific saving increments and investment strategies. They 'mirror' this Ascent, adapting it to their income and timeline, receiving guided inspiration for their own goal."
+    ]
+  },
+  {
+    "folder": "2026-04-04-ecobloom",
+    "appName": "EcoBloom",
+    "tagline": "Grow your world, one green step.",
+    "designSystem": {
+      "primaryColor": "#2D5016",
+      "secondaryColor": "#B87333",
+      "backgroundColor": "#F5F0E8",
+      "accentColor": "#F5A623",
+      "fontFamily": "Rubik",
+      "style": "Organic hand-drawn with irregular border-radius, earthy earth-tone palette, asymmetric grid layouts, and natural depth via subtle shadows. Avoids glassmorphism; embraces textured warmth."
+    },
+    "screens": [
+      "Haven",
+      "Ledger",
+      "Guilds",
+      "Codex",
+      "Profile"
+    ],
+    "hasScreenshot": true,
+    "description": "EcoBloom transforms everyday sustainable actions into a playful, rewarding journey of growth and discovery. Users log real-world eco-choices, such as taking public transport, opting for a reusable cup, or fixing a broken item. Each verified action plants a 'Seed of Change' in their personal virtual 'Eco-Haven' \u2013 a miniature, evolving ecosystem. The surprise twist? Users never know exactly what unique plant, whimsical creature, or landscape feature their seed will blossom into. This variable reward, combined with friendly competition in 'Eco-Guilds' to cultivate the most biodiverse and vibrant havens, creates a compelling loop. It fosters positive habits by visually linking small efforts to tangible, delightful virtual progress, encouraging users to discover new ways to impact the planet positively and share their evolving miniature worlds with friends.",
+    "features": [
+      {
+        "title": "Seed of Change Ledger",
+        "detail": "Users log verified sustainable actions (e.g., photo proof, short description). Each log 'plants' a mysterious 'Seed' in their Eco-Haven, representing their real-world impact."
+      },
+      {
+        "title": "Dynamic Eco-Haven",
+        "detail": "A personalized, visually stunning virtual ecosystem that grows and changes based on logged actions. Users can nurture and observe their unique plants and creatures, watching their green efforts come to life."
+      },
+      {
+        "title": "Eco-Guilds & Challenges",
+        "detail": "Join or create teams for friendly competition, participate in weekly challenges (e.g., 'Zero-Waste Week,' 'Public Transit Trek'), and earn collective rewards to enhance Guild Havens and foster community."
+      },
+      {
+        "title": "Discovery & Lore Codex",
+        "detail": "As new flora and fauna appear in their haven, users unlock entries in a 'Codex,' revealing fascinating facts about sustainability, biodiversity, and the real-world impact of their actions, deepening their understanding."
+      },
+      {
+        "title": "Eco-Marketplace (Virtual)",
+        "detail": "Exchange rare 'Eco-Gems' (earned through streaks/achievements) for unique cosmetic items to customize their haven or special 'Rare Seeds' for unique, accelerated growths, adding a layer of strategic personalization."
+      }
+    ],
+    "audience": "Eco-conscious individuals aged 18-35 who are motivated by gamification, visual progress, and social connection, seeking playful ways to integrate sustainability into their daily lives without feeling preachy.",
+    "category": "sustainability",
+    "useCases": [
+      "After biking to work instead of driving, Sarah opens EcoBloom, taps 'Log Transport,' and uploads a quick photo of her bike. She then watches a new 'seed' sprout in her virtual forest, revealing a rare glowing mushroom, giving her a small rush of delight.",
+      "During his weekly grocery run, David remembers to use his reusable bags. He snaps a picture of his bag at the checkout, logs the action, and checks his Eco-Guild's leaderboard to see how his team is performing in the 'Reduce Single-Use' challenge.",
+      "Friends gathering for coffee discuss their Eco-Havens. Emily shows off a new 'Whispering Willow' she unlocked by fixing her old blender instead of buying a new one, inspiring her friends to consider repairing more items and try EcoBloom."
+    ]
+  },
+  {
+    "folder": "2026-04-04-terrabites",
+    "appName": "TerraBites",
+    "tagline": "Uncover local flavors. Preserve culinary heritage.",
+    "designSystem": {
+      "primaryColor": "#C8440A",
+      "secondaryColor": "#D4A017",
+      "backgroundColor": "#1C1007",
+      "fontFamily": "Fraunces",
+      "style": "Retro-analog with deep earthy umber and sun-dried tomato red on aged parchment cream. Asymmetric grid layouts, stamp-like UI elements, textured borders, and nostalgic typographic hierarchy using Fraunces serif for an authentic, rooted feel."
+    },
+    "screens": [
+      "home",
+      "map",
+      "log",
+      "quests",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "TerraBites transforms users into 'Flavor Cartographers,' embarking on a mission to discover, document, and preserve the unique culinary identity of their local neighborhoods and regions. Far beyond a simple recipe app or restaurant guide, TerraBites leverages a community-driven model where users log hyper-local, often unsung, dishes, ingredients, and food traditions \u2013 from the secret grandma's recipe served at a corner eatery to an obscure seasonal wild edible found in local markets. The app emphasizes rigorous, crowdsourced 'Provenance Verification' where other community members vouch for the authenticity and context of each entry, building a trusted archive of culinary lore. This collective effort fosters a deep sense of belonging among users who share a passion for their local food landscape, celebrating identity through shared discovery and preservation. The habit-forming core is a 'Cartographer's Streak,' challenging users to continuously unearth and contribute unique, verified local culinary knowledge, creating a dynamic, living encyclopedia of taste that evolves with its community.",
+    "features": [
+      {
+        "title": "Local Lore Logbook",
+        "detail": "Users document specific local dishes, ingredients, or food traditions, detailing their history, origin, typical preparation, and where they can be experienced or purchased. This provides rich context beyond a mere photo."
+      },
+      {
+        "title": "Flavor Cartographer Streaks",
+        "detail": "Maintain daily or weekly streaks by contributing new, verified entries of unique local culinary items to your community's map. This mechanic drives consistent exploration and knowledge sharing."
+      },
+      {
+        "title": "Provenance Verification",
+        "detail": "Community members can upvote, comment on, and 'verify' submitted entries, adding legitimacy and depth to the collective knowledge base. This ensures accuracy and builds trust within the local food community."
+      },
+      {
+        "title": "Neighborhood Gastromap",
+        "detail": "Visually explore a dynamic, geotagged map populated with verified local food discoveries, making it easy to plan culinary adventures in your area or while traveling."
+      },
+      {
+        "title": "Heritage Huddles & Quests",
+        "detail": "Join hyper-local discussion groups focused on specific food traditions or participate in 'Quests' to find and document rare or endangered culinary practices within your region. This strengthens community bonds and purposeful engagement."
+      }
+    ],
+    "audience": "Culturally curious food enthusiasts, local residents passionate about their community's heritage, and mindful travelers aged 25-60 who seek authentic, off-the-beaten-path culinary experiences.",
+    "category": "food & cooking",
+    "useCases": [
+      "A user visits a new neighborhood and opens TerraBites to discover highly-rated, verified local 'TerraBites' (unique dishes/ingredients) recommended by residents, helping them choose an authentic eatery for lunch.",
+      "A home cook discovers an unusual local fruit at the farmers market and uses TerraBites to research its origin, common uses, and find out if it's a known 'TerraBite' within their community, then logs it to continue their Cartographer Streak.",
+      "A new resident wants to understand the 'food identity' of their town. They browse the Gastromap, read local lore, and join 'Heritage Huddles' to connect with others and identify the next unique culinary tradition to explore and contribute."
+    ]
+  },
+  {
+    "folder": "2026-04-04-sparksquad",
+    "appName": "SparkSquad",
+    "tagline": "Co-create micro-achievements.",
+    "designSystem": {
+      "primaryColor": "#2563EB",
+      "secondaryColor": "#FF5A45",
+      "accentColor": "#FFD233",
+      "backgroundColor": "#FFF9F0",
+      "darkBackgroundColor": "#1A1815",
+      "fontFamily": "Baloo 2",
+      "style": "Playful illustrated with overlapping angled cards, warm charcoal base, matte electric blue + vibrant coral + punchy electric yellow palette, bold rounded shapes, and a joyful cooperative mood"
+    },
+    "screens": [
+      "home",
+      "squads",
+      "studio",
+      "reels",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "SparkSquad redefines productivity as a collaborative journey of discovery, inspired by short-form content culture. Instead of traditional tasks, users engage with 'Sparks' \u2013 open-ended creative prompts (e.g., 'Capture your ideal 30-second focus break,' 'Illustrate a strategy for digital decluttering') that challenge thinking and foster new habits. Users form 'Squads' of 2-4 and select a Spark, then individually contribute short video, photo, or audio snippets (5-30 seconds) demonstrating their interpretation or completion. The app then stitches these contributions into a dynamic 'Spark Reel' for the squad, showcasing collective progress and diverse creative approaches to productivity. This unique blend of visual expression, peer accountability, and constant novelty makes self-improvement feel like an engaging, shared exploration rather than a chore, encouraging users to return daily to contribute and discover new ideas.",
+    "features": [
+      {
+        "title": "Daily Sparks Feed",
+        "detail": "A constantly updated stream of creative productivity prompts ensures there's always a new challenge or idea to explore, fueling curiosity and consistent engagement."
+      },
+      {
+        "title": "Squad Creation & Matching",
+        "detail": "Easily form teams with friends or get matched with like-minded users to tackle Sparks collaboratively, fostering accountability and shared motivation."
+      },
+      {
+        "title": "Micro-Contribution Studio",
+        "detail": "Intuitive in-app tools allow users to quickly capture and edit short video, photo, or audio snippets, making sharing progress visually engaging and effortless."
+      },
+      {
+        "title": "Co-Op Spark Reels",
+        "detail": "Squad contributions are automatically compiled into a dynamic, visually rich 'Spark Reel,' offering a compelling collective showcase of effort and diverse interpretations."
+      },
+      {
+        "title": "Discovery Paths",
+        "detail": "Curated series of Sparks organized around themes like 'Mindfulness at Work' or 'Creative Habit Building,' providing guided journeys for deeper personal development and skill acquisition."
+      }
+    ],
+    "audience": "Young professionals, students, and creative freelancers (ages 20-35) who seek playful, social, and visually engaging ways to improve productivity and cultivate new habits, often finding traditional methods too rigid or isolating.",
+    "category": "productivity",
+    "useCases": [
+      {
+        "title": "Boosting Morning Routine",
+        "detail": "A student struggling with consistent mornings joins a squad for a 'Sunrise Serenity Spark,' contributing a 15-second video of their meditation space, feeling a collective push to start the day right."
+      },
+      {
+        "title": "Overcoming Creative Block",
+        "detail": "An artist stuck on a project uses SparkSquad to find a 'Idea Generation Jolt Spark,' collaborates with a small team, and discovers fresh perspectives by seeing their diverse visual brainstorming methods."
+      },
+      {
+        "title": "Enhancing Focus in Remote Work",
+        "detail": "A remote worker joins a squad for a 'Digital Detox Dive Spark,' sharing short clips of their focused work sessions without distractions, finding encouragement and new strategies from peers."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-04-ascend-circle",
+    "appName": "Ascend Circle",
+    "tagline": "Rise together, ritual by ritual.",
+    "designSystem": {
+      "primaryColor": "#7fa882",
+      "secondaryColor": "#c4843a",
+      "backgroundColor": "#131713",
+      "fontFamily": "Crimson Pro",
+      "style": "editorial magazine \u2014 typographic and spacious with muted moss green and aged copper on deep forest dark, generous whitespace, thin borders, serif-forward hierarchy"
+    },
+    "screens": [
+      "home",
+      "circles",
+      "rituals",
+      "altar",
+      "journey"
+    ],
+    "hasScreenshot": true,
+    "description": "Ascend Circle is a vibrant social app designed for individuals seeking structured accountability and motivation within highly specific, identity-based communities. It transforms personal growth into a collective journey through its unique 'Live Rituals' \u2013 scheduled, real-time audio or video events where members publicly declare micro-commitments, reflect on progress, and celebrate small wins with their chosen circle. This ceremonial approach creates a powerful emotional hook, leveraging peer accountability and positive reinforcement to foster consistency. For example, a 'Morning Writers Circle' might host a daily 'Wordflow Ritual' to kickstart writing, or a 'Sustainable Habits Sanctuary' could have a weekly 'Eco-Commitment Ritual' for shared pledges. Unlike generic habit trackers, Ascend Circle emphasizes genuine human connection and the significant act of a public, shared 'ritual' over passive self-reporting, making growth a communal, engaging experience that users eagerly anticipate.",
+    "features": [
+      {
+        "title": "Identity Circles",
+        "detail": "Join niche, interest-based communities aligned with specific growth aspirations, such as 'Mindfulness Mavericks' or 'Digital Detox Decorum', fostering deeper connection around shared goals."
+      },
+      {
+        "title": "Live Rituals",
+        "detail": "Participate in scheduled, interactive audio or video events, serving as the central mechanism for collective accountability, intention setting, and shared reflection within your circle."
+      },
+      {
+        "title": "Intention Altar",
+        "detail": "A dedicated, personalized space within your circle to publicly declare and track your weekly or daily micro-goals, making your commitments visible and actionable to your peers."
+      },
+      {
+        "title": "Affirmation Stream",
+        "detail": "Post and receive uplifting messages, virtual 'high-fives', and constructive encouragement from fellow circle members, fostering a supportive environment outside of live events."
+      },
+      {
+        "title": "Journey Milestones",
+        "detail": "Visualize your personal growth journey through progress tracking, celebrate streak achievements, and earn unique community-specific badges based on participation and completed rituals."
+      }
+    ],
+    "audience": "Young adults to middle-aged professionals (25-45) who are proactive about personal development, value community support for habit formation, and thrive on structured, public accountability.",
+    "category": "social & community",
+    "useCases": [
+      {
+        "title": "Morning Routine Commitment",
+        "detail": "A busy professional wants to establish a consistent morning routine; they join the 'Rise & Shine Collective' and attend their M-W-F 'Dawn Ritual' to declare their daily intention and report on previous successes."
+      },
+      {
+        "title": "Creative Project Accountability",
+        "detail": "An aspiring artist struggles with consistent practice; they use Ascend Circle to join the 'Artisan's Atelier' and participate in the Tuesday 'Creation Ritual' to share their weekly project goal and receive peer motivation."
+      },
+      {
+        "title": "Healthy Lifestyle Habit Formation",
+        "detail": "Someone aims to reduce sugar intake; they become a member of the 'Mindful Munchers' circle and utilize the Sunday 'Nourish Ritual' to commit to their weekly dietary goals and gain support from others with similar challenges."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-04-auralens",
+    "appName": "AuraLens",
+    "tagline": "Curate your unique view.",
+    "designSystem": {
+      "primaryColor": "#B87333",
+      "secondaryColor": "#4A1050",
+      "backgroundColor": "#0A0618",
+      "fontFamily": "Archivo Black",
+      "style": "Neo-brutalist with deep indigo and aubergine palette, metallic copper accents, hard offset drop shadows (no blur), thick 2-3px borders, chunky typography, asymmetric overlapping content blocks with parallax scroll elements"
+    },
+    "screens": [
+      "Home",
+      "Capture",
+      "VistaLog",
+      "Profile"
+    ],
+    "hasScreenshot": true,
+    "description": "AuraLens is an ambient companion app designed to subtly sharpen your perception and celebrate your unique way of seeing the world. Each season introduces a new overarching theme, such as \"Urban Symphony\" or \"Biomorphic Beauty,\" challenging users with daily \"Perception Prompts\" to observe and capture specific aspects of their surroundings through photos, short audio clips, or text snippets. This isn't a mere journaling app; it's a guided journey into aesthetic intelligence and mindful observation. As users contribute, the app provides unique \"Aura Analysis\" feedback, powered by contextual AI, offering insights into their observational patterns, aesthetic preferences, and how their submissions connect to art history, natural phenomena, or cultural context, transforming mundane moments into opportunities for micro-learning and self-expression. It cultivates a sense of status through mastery, allowing users to build a distinct portfolio of their insights and unlock \"Curator Tiers,\" making discovery and appreciation a deeply personal and continuously rewarding experience.",
+    "features": [
+      {
+        "title": "Seasonal Flux",
+        "detail": "Engaging, themed challenges that refresh quarterly, inviting users to explore specific aesthetic, natural, or cultural phenomena. Users get new prompts and learning content to keep discovery fresh."
+      },
+      {
+        "title": "Perception Prompts",
+        "detail": "Daily micro-missions encouraging users to capture ephemeral moments, textures, sounds, or reflections, fostering a habit of mindful observation and engagement with their environment."
+      },
+      {
+        "title": "VistaLog",
+        "detail": "A private, aesthetically curated gallery and journal where users' contributions are stored, categorized by theme, and enhanced with metadata from their \"Aura Analysis\" for easy review and reflection."
+      },
+      {
+        "title": "Aura Analysis",
+        "detail": "An innovative twist where AI provides personalized, contextual feedback on user submissions, highlighting unique observational patterns, connecting them to broader artistic or scientific concepts, and suggesting new ways of seeing and understanding."
+      },
+      {
+        "title": "Curator Tiers & Collections",
+        "detail": "Progress through levels by completing challenges and receiving insightful feedback, unlocking advanced prompts, exclusive aesthetic filters, and the ability to curate personal or public themed collections, fostering status and self-expression."
+      }
+    ],
+    "audience": "Mindful urban explorers, creative individuals, and lifelong learners aged 25-45 who value aesthetic appreciation, personal growth, and self-expression through unique perspectives on the world.",
+    "category": "entertainment",
+    "useCases": [
+      "During a lunch break, a user opens AuraLens, sees a prompt to \"capture symmetry in the unexpected,\" and finds a striking reflection in a puddle outside their office building to photograph.",
+      "While waiting for a bus, a user reviews their \"Aura Analysis\" from a previous submission, learning about the art movement their shadow photography style aligns with, feeling a surge of intellectual curiosity.",
+      "Before bed, a user browses their \"VistaLog\" of \"Nightfall Hues\" submissions from the past week, appreciating the subtle changes in light they documented and feeling a sense of quiet accomplishment."
+    ]
+  },
+  {
+    "folder": "2026-04-04-ecoform",
+    "appName": "EcoForm",
+    "tagline": "Nurture your nature.",
+    "designSystem": {
+      "primaryColor": "#C4704A",
+      "secondaryColor": "#5C8A6E",
+      "accentColor": "#D4A843",
+      "backgroundColor": "#1C1208",
+      "surfaceColor": "#2E2010",
+      "fontFamily": "Nunito",
+      "style": "Warm cozy \u2014 deep terracotta, muted jade, creamy oat, goldenrod. Dark-first with rich warm browns. Organic SVG wave dividers between sections. Bold 900-weight Nunito headings with spacious, nurturing layouts."
+    },
+    "elementalSystem": {
+      "earth": "#9B7040",
+      "water": "#4A8FD4",
+      "air": "#7AB8C8",
+      "fire": "#E05A2A"
+    },
+    "screens": [
+      "home",
+      "haven",
+      "activities",
+      "discover",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "EcoForm transforms your health journey into a regenerative adventure, coaching you to diversify your fitness while virtually restoring the planet. Instead of generic points, users cultivate a unique \"Elemental Guardian,\" a vibrant, evolving digital companion whose form and ecosystem are directly shaped by their real-world sustainable activities \u2013 from walking and cycling to mindful movement and outdoor exploration. Each activity replenishes specific elemental energies (Earth for walks, Water for swims, Air for meditation, Fire for vigorous workouts), which in turn evolve your Guardian's appearance, abilities, and its lush personalized \"Bio-Haven.\" The app gamifies holistic wellness by prompting users to balance their elemental energies, preventing fitness plateaus and encouraging exploration of new, eco-friendly ways to move. Discover rare biodome flora or elemental forms through surprise events, fostering a deep, emotional connection to both personal well-being and environmental stewardship. It's a playful coach, a living journal, and a direct link to planetary health.",
+    "features": [
+      {
+        "title": "Elemental Guardian Evolution",
+        "detail": "Users' personal digital avatar that evolves visually based on balanced eco-conscious fitness activities, serving as a dynamic visual goal and unique collectible."
+      },
+      {
+        "title": "Bio-Haven Creation",
+        "detail": "A customizable virtual ecosystem surrounding the Guardian, expanded and adorned with unique flora/fauna unlocked by diverse activity and discovery, providing a visual reward."
+      },
+      {
+        "title": "Elemental Energy Coach",
+        "detail": "Intelligent prompts guide users to specific activity types (e.g., 'Boost your Water affinity!') to encourage holistic fitness and Guardian development, preventing routine boredom."
+      },
+      {
+        "title": "Eco-Discovery Events",
+        "detail": "Location-aware or activity-triggered surprise events reveal rare elemental resources, unique Guardian mutations, or special biodome items, adding delight and replayability."
+      },
+      {
+        "title": "Community Restoration Pledges",
+        "detail": "Users contribute their collective 'Elemental Essence' to virtual conservation projects, unlocking real-world tree planting or habitat restoration initiatives via charity partnerships, providing a sense of shared purpose."
+      }
+    ],
+    "audience": "Eco-conscious individuals aged 25-45, seeking playful, purposeful, and personalized health guidance, who value sustainability and find traditional fitness apps uninspiring.",
+    "category": "health & fitness",
+    "useCases": [
+      "I want to feel more connected to nature and my body, so I'll open EcoForm to see what elemental focus my Guardian needs, then choose an outdoor walk challenge to gather Earth essence.",
+      "My fitness routine feels stale, and I want a fun push. I'll check my EcoForm Guardian to see which element is lowest, then try a recommended low-impact yoga flow from the app to balance its Air energy.",
+      "I'm feeling down about environmental issues, but want to make a difference. I'll open EcoForm after my run to contribute my Fire essence to the community's 'Coastal Clean-up' pledge and see my Guardian flourish."
+    ]
+  },
+  {
     "folder": "2026-04-04-tribepulse",
     "appName": "TribePulse",
     "tagline": "Live rituals bonding identity and accountability",
