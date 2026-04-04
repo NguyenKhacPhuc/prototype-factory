@@ -1,0 +1,12 @@
+{
+  "appName": "Ascend Circle",
+  "tagline": "Rise together, ritual by ritual.",
+  "designSystem": {
+    "primaryColor": "#7fa882",
+    "secondaryColor": "#c4843a",
+    "backgroundColor": "#131713",
+    "fontFamily": "Crimson Pro",
+    "style": "editorial magazine — typographic and spacious with muted moss green and aged copper on deep forest dark, generous whitespace, thin borders, serif-forward hierarchy"
+  },
+  "screens": ["home", "circles", "rituals", "altar", "journey"]
+}

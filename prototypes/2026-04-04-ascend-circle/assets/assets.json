@@ -1,0 +1,40 @@
+{
+  "appName": "Ascend Circle",
+  "fontFamily": "Crimson Pro",
+  "colors": {
+    "primary": "#7fa882",
+    "secondary": "#c4843a",
+    "background": "#131713",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "award",
+    "battery",
+    "bell",
+    "check",
+    "clock",
+    "eye",
+    "flame",
+    "heart",
+    "home",
+    "leaf",
+    "mic",
+    "mic-off",
+    "moon",
+    "play",
+    "plus",
+    "search",
+    "signal",
+    "star",
+    "sun",
+    "trending-up",
+    "users",
+    "video",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 25,
+  "fontFileCount": 0
+}
