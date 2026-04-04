@@ -1,0 +1,12 @@
+{
+  "appName": "ChronoCraft",
+  "tagline": "Craft seasonal knowledge into personal expression.",
+  "designSystem": {
+    "primaryColor": "#C9A94B",
+    "secondaryColor": "#C47858",
+    "backgroundColor": "#1A1810",
+    "fontFamily": "Bitter",
+    "style": "Skeuomorphic tactile — raised/sunken buttons with inset shadows, parchment-like surface layering, antique gold accents with gradient metallic feel, muted moss green and soft terracotta on a slightly textured dark (default) or off-white (light) background. Asymmetric grid layouts on Explore and Chronicle screens."
+  },
+  "screens": ["home", "explore", "create", "chronicle"]
+}

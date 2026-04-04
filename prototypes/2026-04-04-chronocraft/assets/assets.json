@@ -1,0 +1,14 @@
+{
+  "appName": "ChronoCraft",
+  "fontFamily": "Bitter",
+  "colors": {
+    "primary": "#C9A94B",
+    "secondary": "#C47858",
+    "background": "#1A1810",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
