@@ -1,0 +1,37 @@
+{
+  "name": "The Praxis Guild",
+  "tagline": "Rituals for focused progress, together.",
+  "description": "The Praxis Guild transforms solo endeavors into shared, ritualized journeys of focus and accountability. In a world of constant distraction, this app provides dedicated digital sanctuaries where individuals, united by a common identity or goal, convene for live, silent work sessions. Each session begins and ends with a brief, guided ceremonial moment \u2013 a collective declaration of intent, followed by a shared period of deep, uninterrupted work, and concluding with a mindful reflection. It's not about watching others work, but about 'showing up' in the quiet presence of like-minded individuals, leveraging soft social accountability and the power of shared intention. The app fosters intrinsic motivation by turning solitary tasks into communal rituals, creating a powerful emotional hook that helps users overcome procrastination and cultivate consistent habits. Imagine a writer committing to their daily sprint alongside fellow authors, or a student dedicating hours to study, knowing others in their 'Study Sanctuary' are doing the same.",
+  "features": [
+    {
+      "title": "Guild Sanctuaries",
+      "detail": "Join identity-based communities (e.g., 'The Writer's Collective,' 'Deep Focus Engineers') that host specific ritual sessions. This allows users to find a supportive environment tailored to their personal or professional pursuits."
+    },
+    {
+      "title": "Ritual Sessions",
+      "detail": "Participate in live, scheduled blocks of focused work, typically 30-120 minutes, with a guided ceremonial start and end. This mechanic cultivates a sense of shared commitment and provides a clear temporal boundary for deep work."
+    },
+    {
+      "title": "Intention & Reflection Flow",
+      "detail": "Before each session, privately declare your goal; afterwards, reflect on your progress and share insights with your guild. This structured journaling reinforces accountability and helps users track their growth over time."
+    },
+    {
+      "title": "Focused Presence Mode",
+      "detail": "During live sessions, a minimalist interface shows blurred avatars or presence indicators of fellow guild members, fostering a sense of silent companionship without visual distraction. It's about being 'with' others, not directly interacting, during focused time."
+    },
+    {
+      "title": "Progress Altar",
+      "detail": "A personalized dashboard celebrating your accumulated focused hours, session streaks, and guild contributions. This visually reinforces consistency and provides a clear motivational anchor for returning."
+    }
+  ],
+  "audience": "Millennials and Gen Z professionals, students, and independent creators who struggle with focus and consistency in a distraction-rich digital world, seeking structured accountability and community for their personal and professional growth goals.",
+  "category": "social & community",
+  "useCases": [
+    "A freelance graphic designer opens the app each morning to join 'The Creative Sprint' Guild, declaring their design task for the next 90 minutes. They feel the collective energy of others starting their day, helping them bypass procrastination and dive into their work.",
+    "A university student, overwhelmed by exam prep, schedules three 45-minute sessions in 'The Academic Anchor' Guild throughout their week. The scheduled live sessions provide crucial structure, making sure they consistently dedicate time to difficult subjects.",
+    "An aspiring author uses The Praxis Guild every evening for an hour, connecting with 'The Novelist's Nook' to silently write alongside fellow writers. The ritual helps them maintain their writing habit and feel less isolated in their creative journey."
+  ],
+  "engagementLoop": "Users keep coming back multiple times per week because the structured, live ritual sessions provide an immediate, effective way to combat procrastination and maintain focus, leading to a strong sense of accomplishment. The soft social accountability from their identity-based guild reinforces commitment, turning individual goals into a consistent, shared practice.",
+  "trendFit": "This app aligns perfectly with the trend of identity-based communities, providing a 'third space' where individuals can find belonging and support around specific growth-oriented identities. It leverages the authenticity trend by requiring genuine commitment and action, while utilizing live events to create a powerful, ritualistic form of accountability, much like a digital 'BeReal' for focused work.",
+  "monetization": "A freemium model offering basic guild access, with a 'Praxis Premium' subscription for unlimited guild access, advanced session analytics, custom ambient soundscapes for focus, and exclusive 'master practitioner' guilds with curated content."
+}

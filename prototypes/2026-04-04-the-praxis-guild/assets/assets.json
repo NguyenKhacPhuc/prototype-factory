@@ -1,0 +1,14 @@
+{
+  "appName": "The Praxis Guild",
+  "fontFamily": "Bitter",
+  "colors": {
+    "primary": "#2A5638",
+    "secondary": "#C4622D",
+    "background": "#0D1810",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

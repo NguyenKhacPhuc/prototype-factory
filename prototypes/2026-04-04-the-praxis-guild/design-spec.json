@@ -1,0 +1,17 @@
+{
+  "appName": "The Praxis Guild",
+  "tagline": "Rituals for focused progress, together.",
+  "designSystem": {
+    "primaryColor": "#2A5638",
+    "secondaryColor": "#C4622D",
+    "backgroundColor": "#0D1810",
+    "fontFamily": "Bitter",
+    "style": "Editorial magazine — strong typographic hierarchy, asymmetric grid layouts with oversized ghost numerals, color-blocked section headers, and minimal decoration in favor of bold text treatments and clear spatial rhythm."
+  },
+  "screens": [
+    "home",
+    "sanctuaries",
+    "session",
+    "altar"
+  ]
+}
