@@ -1,5 +1,693 @@
 [
   {
+    "folder": "2026-04-05-dreamweave",
+    "appName": "DreamWeave",
+    "tagline": "Co-create infinite AI dreamscapes.",
+    "designSystem": {
+      "primaryColor": "#FFAB91",
+      "secondaryColor": "#37474F",
+      "backgroundColor": "#FAFAFA",
+      "fontFamily": "Chakra Petch",
+      "style": "Industrial tech with maximalist celebration energy \u2014 heavy 2px borders, geometric square nodes, monospace typography, grid overlays, and staggered waterfall card layouts. Peach and slate blue on snow create a warm-industrial contrast."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "create",
+      "trails"
+    ],
+    "hasScreenshot": true,
+    "description": "DreamWeave is a pioneering mobile app transforming the creation of generative art into a collaborative, evolving experience. Imagine a shared, boundless canvas where users contribute \"dream seeds\" \u2013 vivid textual prompts \u2013 that an AI translates into unique, immersive visual landscapes. These individual contributions aren't isolated; they can be organically woven together by the community, forming vast, interconnected \"dreamscapes\" that stretch infinitely. Users asynchronously add new segments, extending existing narratives or creating surprising visual tangents, with the AI ensuring thematic coherence and blending. The emotional core lies in the thrill of discovering new, unexpected pathways within these collective creations and witnessing how individual visions coalesce into a grand, ever-expanding tapestry of imagination. It's a club for digital alchemists, constantly exploring the frontiers of collaborative AI artistry and shared vision, fostering a sense of discovery and shared ownership over an evolving digital world.",
+    "features": [
+      {
+        "title": "Dream Seed Prompting",
+        "detail": "Users initiate new visual narratives by entering prompts via a conversational UI, allowing the AI to generate stunning, unique abstract landscapes or scenes as a starting point for collaborative weaving. This intuitive interface makes creation accessible to everyone."
+      },
+      {
+        "title": "Continuum Weaving",
+        "detail": "Browse existing community dreamscapes and seamlessly add new AI-generated segments that extend or branch off from current visuals. The AI intelligently blends your contribution, ensuring organic transitions and maintaining the evolving aesthetic."
+      },
+      {
+        "title": "Spatial Dream Exploration",
+        "detail": "Navigate and 'fly' through the vast, interconnected 3D dreamscapes created by the community. This immersive spatial UI provides a sense of endless discovery, allowing users to experience the collective imagination as a boundless, explorable world."
+      },
+      {
+        "title": "Anomaly Blends & Mutations",
+        "detail": "The distinctive twist: AI actively identifies fascinating visual overlaps and thematic resonances between non-adjacent dream segments, prompting users with 'anomaly blends' \u2013 surprising new hybrid visuals \u2013 or 'mutations' that combine disparate elements into fresh forms, encouraging truly novel creative directions."
+      },
+      {
+        "title": "Curated Dream Trails",
+        "detail": "Users can curate and share guided 'trails' through specific sequences of dream segments, highlighting interesting collaborations or personal artistic journeys. This allows for personalized storytelling and sharing unique pathways through the collective canvas."
+      }
+    ],
+    "audience": "Creative individuals aged 18-35 who are fascinated by AI's generative potential, enjoy collaborative digital experiences, and seek novel forms of self-expression beyond traditional social media, embracing the thrill of collective discovery.",
+    "category": "AI creative & generative",
+    "useCases": [
+      {
+        "story": "During a quick coffee break, Sarah opens DreamWeave, sees a newly expanded segment in a community dreamscape she follows, and adds a mystical 'floating island' visual, using a text prompt to seamlessly weave it into the existing sky before returning to work."
+      },
+      {
+        "story": "Liam is unwinding after a long day. He spends 45 minutes exploring a vast, community-generated dreamscape in spatial view, discovering a 'trail' curated by another user that leads him through a stunning sequence of evolving cosmic scenes, inspiring new ideas for his digital art projects."
+      },
+      {
+        "story": "A group of friends decides to collaboratively build a 'narrative dreamscape' over the weekend. Each person asynchronously contributes new sections that respond to or evolve from the previous additions, observing how the AI merges their individual visions into a cohesive, ever-expanding story-world."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-aether-weave",
+    "appName": "Aether Weave",
+    "tagline": "Your AI Muse for live creative rituals.",
+    "designSystem": {
+      "primaryColor": "#FF6B6B",
+      "secondaryColor": "#1A1A40",
+      "backgroundColor": "#FAFAFA",
+      "fontFamily": "Playfair Display",
+      "style": "Neo-brutalist with chunky borders, hard drop shadows (4-6px offset, no blur), raw typography, electric coral on midnight navy, overlapping angled cards, confident and rebellious energy"
+    },
+    "screens": [
+      "home",
+      "flux",
+      "guilds",
+      "gallery",
+      "muse"
+    ],
+    "hasScreenshot": true,
+    "description": "Aether Weave transforms creative practice into a vibrant, live community ritual, powered by your personal AI 'Aether Muse'. Users participate in scheduled 'Flux Sessions,' real-time creative sprints centered around diverse prompts (e.g., sonic textures, visual motifs, narrative fragments). Each participant's Aether Muse, an agent trained on their unique stylistic preferences and past creations, offers hyper-personalized 'seeds'\u2014initial creative elements perfectly aligned with their evolving artistic identity\u2014at key moments during the session. Users then live-remix, build upon, or integrate these AI-generated seeds into their own original contributions, sharing them instantly with a themed community ('Weave Guilds'). The ephemeral, collaborative nature of these sessions, combined with the AI Muse's ever-deepening understanding of user style, fosters a consistent creative habit and cultivates a rich tapestry of shared artistic expression, evolving in real-time. This provides a deeply engaging and unique platform for digital creatives.",
+    "features": [
+      {
+        "title": "Aether Muse (Personal AI Agent)",
+        "detail": "Your dedicated AI learns your unique creative signature, preferences, and techniques from your past work within the app. It proactively generates custom 'creative seeds' (visuals, sounds, text snippets) tailored to your style during live Flux Sessions, helping overcome creative blocks and personalizing the generative AI experience."
+      },
+      {
+        "title": "Live Flux Sessions",
+        "detail": "Join scheduled, themed, real-time creative sprints where you interact with AI-generated prompts and your Aether Muse's suggestions alongside others. This provides a structured, inspiring ritual for creativity, fostering engagement through a shared, ephemeral event."
+      },
+      {
+        "title": "Weave Guilds (Identity-based Communities)",
+        "detail": "Create or join specialized communities focused on distinct artistic styles or genres (e.g., synthwave remixers, surrealist poets, ambient soundscapers). This connects users with like-minded creators, reinforcing identity and providing a supportive ecosystem for specific creative pursuits."
+      },
+      {
+        "title": "Real-time Remix & Contribution",
+        "detail": "Instantly manipulate, combine, and build upon AI seeds or other users' shared contributions within a live session using intuitive, in-app tools. This encourages immediate interaction, fosters remix culture, and creates a dynamic, evolving collective artwork."
+      },
+      {
+        "title": "Echo Gallery & Muse Evolution",
+        "detail": "Showcase your curated creations and the history of your Aether Muse's evolving style and output in a personal, shareable gallery. This provides a portfolio of creative growth, strengthens user identity, and highlights the ongoing learning journey of their AI collaborator."
+      }
+    ],
+    "audience": "Creative individuals, amateur artists, musicians, writers, and digital creators aged 18-40, who seek novel ways to engage their creativity, appreciate collaborative processes, and enjoy expressing their identity through digital art and remix culture.",
+    "category": "AI automation & agents",
+    "useCases": [
+      {
+        "title": "Overcoming Creative Block",
+        "detail": "A user feels a creative block for their ambient music project. They open Aether Weave, join a 'Nocturne Soundscapes' Flux Session, and their Aether Muse instantly offers a personalized, melancholic synth pad chord progression as a starting point."
+      },
+      {
+        "title": "Experimental Art",
+        "detail": "An aspiring digital artist wants to experiment with surrealist visuals. They join a 'Dreamscape Canvas' Flux Session, and their Muse generates a series of warped, evocative image fragments that they can live-blend and manipulate with others' contributions."
+      },
+      {
+        "title": "Collaborative Storytelling",
+        "detail": "A poet looking for new inspiration attends a 'Metaphor Machine' session. Their Aether Muse, knowing their penchant for nature imagery, provides three unexpected word pairs, prompting them to instantly weave a short, collaborative haiku with other participants."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-spark-forge",
+    "appName": "Spark Forge",
+    "tagline": "Fund your creative commitment.",
+    "designSystem": {
+      "primaryColor": "#4FC3F7",
+      "secondaryColor": "#D84315",
+      "backgroundColor": "#1A1208",
+      "fontFamily": "Caveat",
+      "style": "Duotone graphic with bold street poster energy. Sky blue and terracotta on warm dark surfaces. Chunky 2px borders, strong type hierarchy via Caveat weight variation, stamp-like category tags, and progress bars as raw horizontal bands. Bottom sheet overlays for detail and transaction flows."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "create",
+      "muse",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Spark Forge transforms the daunting journey of creative projects into a community-driven adventure with real-world incentives. It's a \"project staking\" marketplace where creators publicly commit to completing a specific creative endeavor \u2013 be it a short story, a digital painting series, a music track, or a unique craft \u2013 within a set timeframe. Users outline their project, define measurable milestones, and state their \"Spark Stake\" (an in-app commitment of points or micro-funds). The twist: other community members can then \"stake\" their own points or micro-funds on the creator's *ability to complete* the project, acting as patrons of process rather than purchasers of products. This social and financial accountability, combined with milestone tracking and AI-powered progress prompts, fuels motivation. Upon verified completion, the creator earns their project's total accumulated stakes, and successful stakers receive bonus points, fostering a virtuous cycle of creation, support, and achievement. It turns creative work into an engaging, collective pursuit, making users come back weekly to launch new projects, support others, and track community-wide creative momentum.",
+    "features": [
+      {
+        "title": "Project Staking Marketplace",
+        "detail": "Creators propose detailed projects, set their own commitment stakes, and gain support from community members who 'stake' on their ability to deliver. This fosters a unique form of accountability and micro-patronage for the creative process."
+      },
+      {
+        "title": "Milestone & Progress Tracking",
+        "detail": "Break down large creative projects into manageable steps with clear deadlines. An integrated AI agent helps prompt users with relevant next steps and visually tracks their progress, keeping them on course."
+      },
+      {
+        "title": "Community Validation & Review",
+        "detail": "Submitted projects undergo a community-driven review process to verify completion, ensuring authenticity and rewarding genuine effort. This peer validation reinforces social accountability."
+      },
+      {
+        "title": "Spatial Inspiration Galleries",
+        "detail": "Explore immersive 3D environments showcasing completed projects, community mood boards, and trending styles. This provides rich visual inspiration and sparks new creative ideas by breaking free from flat design norms."
+      },
+      {
+        "title": "Conversational AI Muse",
+        "detail": "Engage with a chat-based AI assistant that guides creators through project setup, offers personalized creative prompts based on their goals, and helps reframe creative blocks in real-time."
+      }
+    ],
+    "audience": "Emerging and established creative professionals, hobbyists, and artists (e.g., writers, illustrators, musicians, crafters, designers) aged 18-45 who seek external motivation, accountability, and community support to overcome creative block and see projects through to completion.",
+    "category": "creative tools",
+    "useCases": [
+      {
+        "title": "Indie Game Dev",
+        "detail": "A struggling indie game developer launches a 'Complete First Level Prototype' project, outlining the scope and setting a Spark Stake. Other developers and fans stake points on his commitment, checking in weekly for progress updates."
+      },
+      {
+        "title": "Amateur Poet",
+        "detail": "An amateur poet commits to writing a poem a day for a week, putting up a small stake. Her close friends and a poetry community group stake on her consistency, providing encouragement as she posts daily snippets and ultimately completes her challenge."
+      },
+      {
+        "title": "Digital Artist Learning",
+        "detail": "A digital artist wants to learn a new style. She creates a 'Master Neo-Expressionism Portrait' project, committing to a detailed piece. She uses the Conversational AI Muse for technique prompts and gathers stakes from artists interested in her progress and learning journey."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-fablefi-club",
+    "appName": "FableFi Club",
+    "tagline": "Solve Money Mysteries. Collaborate. Achieve.",
+    "designSystem": {
+      "primaryColor": "#E91E63",
+      "secondaryColor": "#FF8A65",
+      "backgroundColor": "#1A1A1A",
+      "fontFamily": "Archivo Black",
+      "style": "Editorial magazine with full-bleed gradient headers, cozy charcoal surfaces, hot magenta accents, typographic hierarchy, and structured asymmetric layouts"
+    },
+    "screens": [
+      "home",
+      "explore",
+      "create",
+      "fabledex"
+    ],
+    "hasScreenshot": true,
+    "description": "FableFi Club is a peer-driven personal finance club where members collaborate asynchronously on \"Financial Fables\" \u2013 intricate, user-generated simulated money scenarios. Instead of sharing private financial data, users craft detailed fictional challenges (e.g., 'A freelance designer needs to save for a downpayment and student loan repayment') which other club members then dissect, offering specific, actionable financial strategies and budget plans for the fictional character. This novel approach allows for risk-free practice of complex financial decision-making, fostering deep learning and diverse perspectives. Users earn recognition and 'Solver Badges' for contributing to and successfully guiding these fables to their 'achievement' goals, making the journey towards financial literacy engaging and habit-forming. The club's unique twist lies in its focus on collaborative narrative-building around financial challenges, providing a safe, enriching space to hone real-world money skills without the pressure of direct personal financial exposure.",
+    "features": [
+      {
+        "title": "Financial Fable Creation",
+        "detail": "Users craft detailed financial scenarios (fables) for fictional characters, outlining specific challenges, goals, and resources. This is the core user-generated content, initiating collaborative problem-solving quests for the club."
+      },
+      {
+        "title": "Asynchronous Strategy Boards",
+        "detail": "For each fable, members contribute specific, actionable financial strategies, budget breakdowns, and investment advice in a structured, conversational UI. This allows for rich, collaborative solution-building without real-time pressure."
+      },
+      {
+        "title": "Fable Solver Badges & Tiers",
+        "detail": "Users earn recognition and level up within the club by successfully contributing high-quality solutions to fables and curating effective plans. This taps directly into the emotional hook of progress and achievement, fostering ongoing engagement."
+      },
+      {
+        "title": "\"My Fabledex\" for Application",
+        "detail": "A private journal where users can reflect on lessons learned from solved fables and log how they apply those simulated strategies to their own personal finances. This feature bridges the gap between practice and real-world impact."
+      },
+      {
+        "title": "Curated Fable Collections",
+        "detail": "Club moderators and top-tier members curate themed collections of insightful fables and their most effective solutions (e.g., 'First-Time Investor Fables,' 'Debt-Free Journeys'). This makes knowledge discovery organized and inspiring for all members."
+      }
+    ],
+    "audience": "Young to mid-career professionals (25-45) who are financially conscious, seek to improve their financial literacy and decision-making skills, value community learning, and are comfortable with digital collaboration.",
+    "category": "personal finance",
+    "useCases": [
+      {
+        "description": "A user struggling with budgeting for an upcoming cross-country move posts a 'Moving Money Fable,' creating a fictional character with similar constraints to get diverse input without oversharing personal details.",
+        "title": "Practice complex budgeting"
+      },
+      {
+        "description": "Someone contemplating a career change and associated pay cut joins a 'Career Pivot Fable' quest to see how other members strategically plan for income gaps and reskilling investments for the fictional character.",
+        "title": "Simulate major life transitions"
+      },
+      {
+        "description": "An active FableFi member regularly browses the 'Solved Fables' section, specifically looking for intricate investment scenarios that challenge them to refine their own portfolio strategies without real monetary risk.",
+        "title": "Refine investment strategies"
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-syntax-surge",
+    "appName": "Syntax Surge",
+    "tagline": "Code challenges, collaboratively remixed.",
+    "designSystem": {
+      "primaryColor": "#E91E63",
+      "secondaryColor": "#2C2C2C",
+      "backgroundColor": "#FFF0F0",
+      "fontFamily": "Archivo Black",
+      "style": "Editorial magazine \u2014 typographic hierarchy with full-bleed photo headers, raw code aesthetics, spacious editorial layouts, and high-contrast information density. Pale blush backgrounds with hot magenta accents create a cozy-but-sharp developer culture feel."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "create",
+      "profile",
+      "detail"
+    ],
+    "hasScreenshot": true,
+    "description": "Syntax Surge transforms the typical solo coding challenge into a dynamic, collaborative \"surge\" of collective ingenuity. Developers post concise, compelling code puzzles, architectural conundrums, or elegant refactoring opportunities as short-form content, complete with minimal code snippets and optional visual explanations. Other developers then engage by posting their own \"surges\"\u2014alternative solutions, optimized refactors, or detailed step-by-step explanations, also in short, digestible formats. The app prioritizes not just finding *a* solution, but fostering a communal exploration of *many* optimal approaches, celebrating diversity in problem-solving. Users earn reputation and badges for creating impactful challenges and contributing high-quality surges, cultivating a culture of peer learning and visible self-expression in a fast-paced, engaging format. It's a living archive of developer wisdom, constantly evolving through community input, making it feel less like a competitive quiz and more like a shared journey of mastery.",
+    "features": [
+      {
+        "title": "Micro-Challenge Surges",
+        "detail": "Developers create and post quick (e.g., 60-second video + code) challenges, like 'Refactor this SQL query for performance' or 'Solve this tricky CSS bug in N lines.' This fuels the collaborative pipeline with focused problems."
+      },
+      {
+        "title": "Collective Remix Chains",
+        "detail": "Users respond to challenges by submitting their own short-form solutions, alternative approaches, or detailed explanations, building a 'remix chain' that showcases multiple perspectives. This encourages diverse and comprehensive problem-solving."
+      },
+      {
+        "title": "Curated Wisdom Vault",
+        "detail": "The most insightful challenges and their highest-rated collective remixes are archived in a searchable, browsable vault, categorized by language, framework, or problem type. This creates a persistent and invaluable community-driven knowledge base."
+      },
+      {
+        "title": "Dev Artifacts & Status",
+        "detail": "Users earn unique 'Dev Artifacts' (badges) and reputation scores for impactful challenge creation, high-quality solution contributions, and helpful community feedback. This feeds the emotional hook of status and self-expression, rewarding expertise."
+      },
+      {
+        "title": "Immersive Solution Visuals",
+        "detail": "Leverage spatial UI for presenting complex solution diagrams, animated flowcharts, or interactive 3D representations of architectural patterns within the short-form content. This makes abstract concepts more tangible and easier to grasp quickly."
+      }
+    ],
+    "audience": "Mid-level to senior developers across various specializations (web, mobile, data, DevOps) who are passionate about continuous learning, improving code quality, and engaging with a community to sharpen their skills. Ages 25-45, globally.",
+    "category": "developer tools",
+    "useCases": [
+      {
+        "title": "Optimizing a Query",
+        "detail": "A backend developer encounters an obscure database indexing problem and posts a 30-second 'Surge Challenge' describing the issue, asking for optimized schema suggestions. They receive several diverse 'Remixes' from other developers within hours."
+      },
+      {
+        "title": "Learning New Patterns",
+        "detail": "A front-end engineer wants to learn more elegant ways to handle state management in a specific framework. They browse the 'Wisdom Vault' and find a challenge with multiple 'Remixes' demonstrating different patterns and their pros and cons."
+      },
+      {
+        "title": "Mentoring Through Challenges",
+        "detail": "An experienced architect creates a 'Surge Challenge' proposing a complex microservices communication pattern. They then engage by critiquing and upvoting 'Remixes' from junior developers, showcasing their expertise and mentoring new talent."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-cogniblend",
+    "appName": "CogniBlend",
+    "tagline": "Remix knowledge. Create understanding.",
+    "designSystem": {
+      "primaryColor": "#2979FF",
+      "secondaryColor": "#FF5252",
+      "backgroundColor": "#0A0A0F",
+      "fontFamily": "Orbitron",
+      "style": "luxury minimal \u2014 electric blue and coral red on near-black; asymmetric split-screen layouts, monospaced uppercase labels, razor-thin borders, high contrast score indicators"
+    },
+    "screens": [
+      "home",
+      "remix",
+      "stitcher",
+      "graph",
+      "vault"
+    ],
+    "hasScreenshot": true,
+    "description": "CogniBlend transforms passive learning into active creation, empowering users to become 'knowledge DJs.' It's a creative studio where you feed in diverse educational content \u2013 lecture notes, articles, podcasts, video snippets \u2013 and remix them into personalized, interactive learning assets. Imagine crafting an adaptive audio summary from three different history lectures, or building an explainer video for a complex scientific concept by stitching together visuals, text overlays, and spoken explanations from various sources. The app\u2019s core innovation lies in its 'Contextual AI Stitcher' which acts as a co-creator, suggesting relevant connections, alternative framing, and optimal structures as you blend information, adapting to your unique learning style and objectives. This process is highly engaging and satisfying, turning abstract information into tangible, custom-built learning tools that resonate deeply and foster lasting retention. Users return to continuously refine their learning 'mixes' and tackle new subjects with a powerful, adaptive creative partner.",
+    "features": [
+      {
+        "title": "Contextual AI Stitcher",
+        "detail": "Our distinctive twist: an AI co-creator that doesn't just summarize, but actively suggests creative ways to blend disparate educational content. It identifies thematic links, offers conceptual bridges, and recommends structural layouts for your remixes based on your stated learning goal, dramatically accelerating and deepening the synthesis process."
+      },
+      {
+        "title": "Multimodal Remix Canvas",
+        "detail": "A flexible workspace where users can drag, drop, cut, and splice text, audio clips, video snippets, and images from various sources. It's designed for intuitive, real-time composition, allowing for dynamic layering and synchronization to build rich, custom learning experiences."
+      },
+      {
+        "title": "Adaptive Learning Profiler",
+        "detail": "As you interact and remix, the app learns your preferred learning modalities (visual, auditory, kinesthetic), your existing knowledge gaps, and your successful remix patterns. This hyper-personalization refines the Stitcher's suggestions and tailors the interface for maximum engagement and efficiency."
+      },
+      {
+        "title": "Concept Graph Visualizer",
+        "detail": "Generate an interactive, spatial 3D map of the concepts within your remixed content, showing relationships and hierarchies. This helps users visualize complex networks of ideas and identify areas for further exploration or consolidation, leveraging emerging spatial UI trends for clearer understanding."
+      },
+      {
+        "title": "Remix Vault & Community Shares",
+        "detail": "Store, organize, and revisit all your personalized learning remixes. Users can also opt to share their most insightful creations with a curated community, inspiring others and receiving feedback on their unique approaches to understanding complex topics, fostering a mini creator economy around learning."
+      }
+    ],
+    "audience": "Self-directed learners, university students, and professionals (ages 18-50+) who seek a highly engaging, active, and personalized approach to mastering complex subjects and information synthesis.",
+    "category": "education",
+    "useCases": [
+      "A university student preparing for an interdisciplinary exam uses CogniBlend to remix chapters from different textbooks and lecture recordings into an interactive 'concept mixtape,' solidifying cross-subject understanding.",
+      "A professional transitioning into a new industry uploads a series of whitepapers and industry reports, then uses the AI Stitcher to create a personalized 'Executive Briefing' video outlining key trends and jargon in their own words, aided by visuals and external audio clips.",
+      "An amateur historian deep-diving into the nuances of a specific historical event gathers documents, podcasts, and video documentaries, then uses the remix canvas to build a multimedia 'historical narrative' to challenge prevailing viewpoints and deepen their own unique perspective."
+    ]
+  },
+  {
+    "folder": "2026-04-05-echo-weave",
+    "appName": "Echo Weave",
+    "tagline": "Cultivate sound, together.",
+    "designSystem": {
+      "primaryColor": "#00838F",
+      "secondaryColor": "#BF360C",
+      "backgroundColor": "#0D1F1F",
+      "fontFamily": "Bebas Neue",
+      "style": "Playful illustrated with horizontal scroll layout sections, bold Bebas Neue typography, teal/sienna color bursts on deep dark backgrounds, organic shape language (\u25c6\u25cf\u25b2\u2605), chaotic-joyful energy in animations and spacing"
+    },
+    "screens": [
+      "garden",
+      "seeds",
+      "weave",
+      "seasons"
+    ],
+    "hasScreenshot": true,
+    "description": "Echo Weave transforms passive listening into an active, communal creative journey. It's an ambient companion app where users engage in 'sonic gardening' through daily 'Sonic Seeds'\u2014micro-challenges that blend musical micro-learning (e.g., identifying specific rhythms, understanding basic chord progressions, distinguishing timbres) with guided auditory observation (e.g., noticing the cadence of rain, the subtle harmonics in a bird's call). Upon completing a challenge, users contribute a unique, algorithmically generated 'Sound Blossom' (a short, evocative ambient audio loop) to their personal 'Echo Garden'. This personal garden then subtly influences the collective 'Community Weave', a dynamically evolving, shared ambient soundscape that the entire community contributes to and experiences. Users return for new seasonal 'Seedling Seasons' and to hear how their contributions, along with others', grow and intertwine, fostering a unique sense of belonging to a shared auditory ecosystem and deepening their appreciation for the world's sonic tapestry.",
+    "features": [
+      {
+        "title": "Sonic Seeds",
+        "detail": "Engage with daily micro-learning challenges designed to deepen your auditory perception and basic music understanding. Each seed presents a bite-sized prompt or interactive listening exercise, making complex sound concepts accessible."
+      },
+      {
+        "title": "Echo Garden",
+        "detail": "Curate your personal collection of generated 'Sound Blossoms', unique ambient audio loops created from your completed challenges. This personal garden reflects your journey and can be layered for your private listening."
+      },
+      {
+        "title": "Community Weave",
+        "detail": "Immerse yourself in a dynamically evolving, collective ambient soundscape fueled by the Sound Blossoms of the entire Echo Weave community. Hear how thousands of individual contributions intertwine to create a living, breathing sound environment."
+      },
+      {
+        "title": "Seedling Seasons",
+        "detail": "Participate in themed seasonal challenges that unlock exclusive sound elements and collaborative community goals. These time-limited events encourage regular engagement and introduce new facets of sonic exploration."
+      },
+      {
+        "title": "Conversational Conductor",
+        "detail": "An AI-driven conversational UI guides you through each Sonic Seed challenge, adapting to your responses and offering personalized feedback. This makes micro-learning feel like an intuitive dialogue rather than a quiz, enhancing engagement and comprehension."
+      }
+    ],
+    "audience": "Curious listeners, amateur musicians, mindfulness practitioners, and anyone seeking a creative, low-pressure way to deepen their connection to sound and music, typically aged 20-45 who appreciate community-driven experiences.",
+    "category": "music & audio",
+    "useCases": [
+      {
+        "scenario": "A user on their morning train ride opens Echo Weave to complete their 'Sonic Seed' of the day, a challenge on identifying minor chord progressions, which generates a serene ambient layer. They then add it to their Echo Garden, feeling connected to the wider community's contributions.",
+        "title": "Commuting Serenity"
+      },
+      {
+        "scenario": "A writer experiencing a creative block opens the app in the evening, tuning into the Community Weave's current ambient soundscape. The evolving sounds inspire a new scene in their story, as they feel part of a collective creative flow.",
+        "title": "Creative Spark"
+      },
+      {
+        "scenario": "During a busy workday, a user takes a five-minute break to engage with a 'Sonic Seed' focused on deep listening to environmental sounds. This creates a unique sound element, and then they check in on their personal Echo Garden to see how it's evolving, finding a moment of calm and connection.",
+        "title": "Mindful Pause"
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-stillpoint-atlas",
+    "appName": "Stillpoint Atlas",
+    "tagline": "Map the World's Serene Moments.",
+    "designSystem": {
+      "primaryColor": "#FF6D00",
+      "secondaryColor": "#283593",
+      "backgroundColor": "#FFF3E0",
+      "fontFamily": "Crimson Pro",
+      "style": "soft pastel dreamy with warm nostalgic glow, timeline with branching paths layout"
+    },
+    "screens": [
+      "home",
+      "explore",
+      "capture",
+      "journeys",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Stillpoint Atlas transforms travel into a collaborative game of mindful discovery, inviting users to locate and document 'Stillpoints' \u2013 specific places or moments that inspire calm and introspection. Instead of a checklist of sights, the app encourages presence, guiding travelers and locals to uncover and share serene nooks, sensory experiences, or quiet rituals within bustling environments. Each contributed Stillpoint helps to collaboratively build a global 'Sanctuary Map' for various cities, visually unveiling peaceful paths and hidden havens. The habit-forming core lies in the rewarding loop of finding new personal Stillpoints, sharing them to deepen the collective map, and then discovering serene experiences curated by others or AI, fostering a sense of reassurance and connection. It's a fresh approach to mindful travel, turning exploration into a shared journey towards inner calm and community-driven discovery, making every journey feel more grounding.",
+    "features": [
+      {
+        "title": "Stillpoint Sanctuary Map",
+        "detail": "A visually evolving, spatial UI map for each city/region, initially showing indistinct, calming visuals. Users collaboratively unveil detailed paths and serene locations by adding their own 'Stillpoints' and engaging with the community's shared contributions."
+      },
+      {
+        "title": "Mindful Moment Capture",
+        "detail": "Leverages a conversational UI to guide users in documenting their Stillpoints with short audio snippets (ambient sounds), photos, brief journal reflections, and prompts for mindful presence. This structured capture helps users reflect deeply on their serene experience."
+      },
+      {
+        "title": "Wellness Ritual Journeys",
+        "detail": "Offers curated sequences of Stillpoints or guided sensory exercises, meditations, and reflective prompts linked to specific types of locations (e.g., 'Riverside Reflection,' 'Forest Bathing'). These journeys are progressively unlocked as users contribute and explore the atlas, deepening their engagement with mindfulness."
+      },
+      {
+        "title": "Collective Calm Unlocks",
+        "detail": "As the community adds Stillpoints to a location, new map overlays, exclusive thematic soundscapes, or unique visual 'aura' effects for the Sanctuary Map are unlocked for all users. This gamified progression encourages continuous community contribution and provides collective rewards."
+      },
+      {
+        "title": "Serene Spot AI Agent",
+        "detail": "An intelligent AI agent learns user preferences for calm (e.g., natural sounds, quiet corners, specific lighting) and suggests personalized 'Serenity Pathways' or nearby Stillpoints. It can even operate offline, providing hyper-personalized, context-aware recommendations for peace and reassurance."
+      }
+    ],
+    "audience": "Mindful travelers, urban dwellers, digital nomads, and locals aged 25-55 seeking to reduce travel stress, cultivate presence, and discover moments of calm and reassurance in their surroundings.",
+    "category": "travel",
+    "useCases": [
+      {
+        "title": "Finding a Moment of Peace in a New City",
+        "detail": "A solo traveler feels overwhelmed by the bustle of a new destination. They open Stillpoint Atlas, and the AI agent suggests a highly-rated, quiet cafe with a specific window view, shared as a 'Stillpoint' for journaling, providing instant calm."
+      },
+      {
+        "title": "Local Exploration and Mindful Breaks",
+        "detail": "A resident in a familiar city wants to escape their routine during a lunch break. They engage with a 'Wellness Ritual Journey' in the app, which guides them through a sequence of local Stillpoints like a hidden park bench and a sun-drenched architectural detail, fostering a mindful pause."
+      },
+      {
+        "title": "Planning for Intentional Calm on a Trip",
+        "detail": "A couple planning a trip wants to prioritize calm over frantic sightseeing. They browse the Stillpoint Sanctuary Map for their destination, pre-bookmarking shared peaceful spots and specific 'Wellness Rituals' to integrate into their itinerary, reducing pre-trip anxiety."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-terrathrive",
+    "appName": "TerraThrive",
+    "tagline": "Nurture your health, grow your world.",
+    "designSystem": {
+      "primaryColor": "#FF6B6B",
+      "secondaryColor": "#1A1A40",
+      "backgroundColor": "#FAFAFA",
+      "fontFamily": "Playfair Display",
+      "style": "Neo-brutalist with electric coral and midnight navy. Thick 2-3px borders, hard offset box-shadows (4px 4px 0 #1A1A40), flat color blocking, zero-radius rectangles, overlapping rotated cards at -2\u00b0 to +2.5\u00b0."
+    },
+    "screens": [
+      "home",
+      "nursery",
+      "quests",
+      "coach"
+    ],
+    "hasScreenshot": true,
+    "description": "TerraThrive transforms personal well-being into environmental guardianship by allowing users to cultivate a thriving, unique digital ecosystem. Users adopt and raise 'Veridian Sprites' \u2013 magical flora-fauna hybrids \u2013 that visually evolve and flourish based on the user's daily activity, mindful habits, and eco-conscious choices. Instead of tracking mere metrics, the app makes healthy living a playful journey of discovery, where every step taken or sustainable choice made directly impacts the vitality and evolution of their whimsical companions and expands their personalized 'TerraScape'. This creative approach fosters intrinsic motivation by shifting the focus from individual gain to nurturing a living, evolving virtual world, offering surprise and delight with every new discovery. It acts as a gentle, non-judgmental 'nature guide' encouraging consistency and engagement through the emotional bond with their digital charges.",
+    "features": [
+      {
+        "title": "Veridian Sprite Nursery",
+        "detail": "Collect and raise unique, procedurally generated 'Veridian Sprites' (plant-animal hybrids) that visually evolve and grow. Your daily activity like steps or active minutes serve as 'nutrients' for your Sprites, directly impacting their transformation."
+      },
+      {
+        "title": "Eco-Challenge Quests",
+        "detail": "Participate in daily and weekly quests that encourage real-world sustainable actions such as reducing food waste or using reusable items. Completing these challenges rewards users with rare 'Eco-Gems' or unlocks new, special Sprites for their collection."
+      },
+      {
+        "title": "Dynamic TerraScape",
+        "detail": "Cultivate a personalized, immersive 3D environment that visually expands and changes as your Sprites grow and you complete more challenges. This spatial UI acts as a beautiful, evolving home for your collection and reflections of your progress."
+      },
+      {
+        "title": "Sprite-Speak Coach",
+        "detail": "Engage with a conversational AI coach that communicates through the 'voices' of your Veridian Sprites. It offers encouraging messages and personalized 'Sprite Needs' based on your activity data, turning health goals into playful care instructions from your virtual pets."
+      },
+      {
+        "title": "Surprise Seed Drops",
+        "detail": "Periodically discover mysterious 'seed pods' that can contain new, rare Veridian Sprites, unique evolving accessories for your current Sprites, or hidden lore about the TerraScape. This mechanic injects constant surprise and novelty into the user experience."
+      }
+    ],
+    "audience": "Environmentally conscious individuals aged 20-40 who seek a playful, less intimidating approach to health and wellness, appreciate unique aesthetics, and are motivated by collecting and nurturing virtual worlds and making a positive impact.",
+    "category": "health & fitness",
+    "useCases": [
+      "After a sedentary morning, a user checks TerraThrive and finds their 'Sunpetal Bloom' looks sluggish. The Sprite-Speak coach gently reminds, 'Your Sunpetal craves light! A brisk 30-minute walk would bring vibrant color back,' motivating them to take a refreshing lunch break stroll.",
+      "A user is about to drive to a local shop, but a notification from TerraThrive highlights a 'Sustainable Commute Challenge' for their 'Water Nymph.' To earn bonus Eco-Gems and watch their Nymph glow, they opt to ride their bike instead.",
+      "Feeling overwhelmed, a user opens TerraThrive and is greeted by a 'Mindful Moment' prompt from their 'Spirit Moss.' Completing a short, guided breathing exercise not only brings calm but also triggers a new growth animation for their Moss, revealing a hidden environmental fact."
+    ]
+  },
+  {
+    "folder": "2026-04-05-aura-bloom",
+    "appName": "Aura Bloom",
+    "tagline": "See hidden eco-auras, revive your world.",
+    "designSystem": {
+      "primaryColor": "#D32F2F",
+      "secondaryColor": "#FFD54F",
+      "backgroundColor": "#FFF8F0",
+      "accentColor": "#212121",
+      "fontFamily": "Righteous",
+      "style": "Skeuomorphic tactile with dreamy watercolor calm \u2014 tactile depth via layered box-shadows and inset highlights, warm parchment tones, ruby red accents with gold highlights on charcoal navigation"
+    },
+    "screens": [
+      "home",
+      "scan",
+      "collection",
+      "league",
+      "challenges"
+    ],
+    "navigationPattern": "gesture-based swipe with bottom tab dock on charcoal (#212121), gold active state",
+    "horizontalSlides": [
+      "Home screen: Today's Auras \u2194 Recent Blooms",
+      "League screen: Weekly \u2194 Monthly leaderboard",
+      "Challenges screen: Daily \u2194 Weekly quests",
+      "Collection screen: scrollable category filter strip"
+    ],
+    "keyFeatures": [
+      "Aura Vision AR scan screen with animated aura glows and progress bar",
+      "Bloom Buddy 3-column collection grid with rarity tiers",
+      "Local Flourish League with podium and ranked list",
+      "Eco-Sphere daily/weekly challenge cards with progress bars",
+      "Flora AI companion nudge card on home screen",
+      "Light/dark theme toggle with warm dark palette"
+    ],
+    "hasScreenshot": true,
+    "description": "Aura Bloom transforms environmental awareness into a delightful, competitive game using augmented reality. Users scan their real-world surroundings with their phone's camera to reveal shimmering 'Auras' \u2013 visual representations of sustainability opportunities or small issues in need of attention, such as a reusable item for upcycling, an energy-saving possibility, or a spot of litter. By taking a tangible, verified action (like picking up litter, choosing a low-carbon transport option, or identifying a native plant), users 'bloom' the Aura, which then crystallizes into a unique, collectible digital 'Bloom Buddy' specific to that eco-action and location. The app's playful UI, guided by a conversational AI, offers personalized daily challenges and helps users discover new Auras, fostering a habit of positive environmental engagement through discovery, friendly competition on local leaderboards, and the joy of collecting a diverse ecosystem of Bloom Buddies.",
+    "features": [
+      {
+        "title": "Aura Vision (AR Scan)",
+        "detail": "Scan your physical environment with your camera to reveal shimmering 'Auras' highlighting sustainability opportunities, making abstract issues tangible and interactive via spatial UI."
+      },
+      {
+        "title": "Bloom Buddy Collection",
+        "detail": "Successfully taking a real-world eco-action (verified in-app) transforms a discovered Aura into a unique, collectible digital 'Bloom Buddy,' providing a playful reward and driving collection."
+      },
+      {
+        "title": "Eco-Sphere Challenges",
+        "detail": "Engage in daily or weekly personalized challenges, guided by a conversational AI, designed to expand your eco-impact across various sustainability categories, fostering consistent engagement and self-improvement."
+      },
+      {
+        "title": "Local Flourish League",
+        "detail": "Compete on a local or community leaderboard by 'blooming' Auras and completing challenges, earning 'Bloom Points' to foster friendly competition and motivate group impact."
+      },
+      {
+        "title": "Companion AI Nudge",
+        "detail": "A personalized, conversational AI assistant offers gentle hints for finding new Auras, suggests impactful actions, and celebrates milestones, enhancing user guidance and engagement without static forms."
+      }
+    ],
+    "audience": "Environmentally conscious Gen Z and young Millennials (18-35) who are digitally native, enjoy gamified experiences, and are looking for engaging, tangible ways to make a positive impact on their local environment.",
+    "category": "sustainability",
+    "useCases": [
+      {
+        "title": "Daily Commute Eco-Spotting",
+        "detail": "A user on their bus commute opens Aura Bloom, and an 'Idle Engine Aura' shimmers around a parked car outside. They tap to log the potential saving, earning a 'Tailpipe Sprite' Bloom Buddy and contributing to their city's clean air initiative."
+      },
+      {
+        "title": "Weekend Park Cleanup",
+        "detail": "While walking in a park, the user's phone alerts them to 'Discarded Charm Auras' around scattered litter. They pick it up, take a 'before and after' photo in the app, and bloom several unique 'Rubbish Remediators' Bloom Buddies, boosting their team's league score."
+      },
+      {
+        "title": "Home Energy Hunt",
+        "detail": "The Companion AI Nudge prompts a user to find 'Phantom Power Auras' at home. Using AR, they scan around their electronics, identify a device drawing power when off, and then unplug it, blooming an 'Ampere Guardian' Bloom Buddy and seeing their projected energy saving."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-04-aether-bloom",
+    "appName": "Aether Bloom",
+    "tagline": "Grow your personal sky.",
+    "designSystem": {
+      "primaryColor": "#76FF03",
+      "secondaryColor": "#263238",
+      "backgroundColor": "#FAFAFA",
+      "fontFamily": "Fredoka",
+      "style": "Bold geometric raw underground zine \u2014 chunky borders, hard drop shadows, high-contrast lime green on dark slate, geometric shape language throughout"
+    },
+    "screens": [
+      "home",
+      "seeds",
+      "almanac",
+      "gallery"
+    ],
+    "hasScreenshot": true,
+    "description": "Aether Bloom transforms everyday observation into a personal, evolving art piece. Users receive daily or weekly 'Aether Seeds' \u2013 small, poetic prompts encouraging them to notice specific details in their environment, from the intricate patterns of a leaf to the fleeting play of light on a building. Submitting a photo, a short text, or an audio note in response to a Seed contributes to their unique 'Sky Canopy' \u2013 a generative, ambient visual display that lives on their phone. This Canopy isn't just a collection; it's a dynamic, ever-changing landscape of abstract elements, colors, and textures that visually manifests their accumulated observations, adapting subtly to the time of day, local weather, and the 'mood' of their contributions. The app fosters a deeper appreciation for the world around them, turning mindful attention into a beautiful, personalized expression, encouraging users to continuously seek new wonders and visually chronicle their unique perspective.",
+    "features": [
+      {
+        "title": "Daily Aether Seeds",
+        "detail": "Receive a new, unique observational prompt daily. These 'seeds' encourage mindfulness and micro-learning by guiding users to discover specific elements in nature, urban landscapes, or even abstract concepts, making every day an opportunity for new insight."
+      },
+      {
+        "title": "Generative Sky Canopy",
+        "detail": "Your submissions to Aether Seeds directly contribute to an evolving, personalized ambient visual display. This 'Canopy' is a unique, AI-generated landscape of light, color, and form, reflecting your observations and adapting contextually to your local environment."
+      },
+      {
+        "title": "Observation Almanac",
+        "detail": "Browse a beautiful, curated record of all your past Aether Seed observations and their corresponding visual contributions to your Canopy. This serves as a personal journal and a subtle micro-learning archive, highlighting your growth and discoveries."
+      },
+      {
+        "title": "Seasonal Quests & Artifacts",
+        "detail": "Engage in deeper, multi-step challenges that unfold over weeks, themed by season or specific topics. Completing these quests unlocks rare visual 'artifacts' that can be incorporated into your Sky Canopy, enhancing its uniqueness and expressing your mastery."
+      },
+      {
+        "title": "Shared Canopy Galleries",
+        "detail": "Explore the diverse and inspiring Sky Canopies of other users in themed public galleries. This feature fosters a sense of community, allowing users to share their unique expressions and discover new ways of seeing the world, elevating their status among fellow observers."
+      }
+    ],
+    "audience": "Mindful millennials and Gen Z (ages 20-40) interested in aesthetic discovery, personal growth, and self-expression, who appreciate subtle digital art and find joy in everyday observations.",
+    "category": "entertainment",
+    "useCases": [
+      "While waiting for a coffee, Sarah opens Aether Bloom, receives a 'seed' to notice 'three distinct textures on building surfaces,' snaps photos, and sees her Sky Canopy subtly shift with new textural elements.",
+      "During a weekend hike, Mark gets a 'seasonal quest' to 'document the shifting light on forest foliage throughout the day,' spending a few mindful hours observing and adding rich green tones to his evolving Canopy.",
+      "Before bed, Alex reviews their Observation Almanac, reminiscing about past 'seeds' and seeing how their Sky Canopy has grown over months, feeling a quiet satisfaction in their cultivated visual journal and unique aesthetic."
+    ]
+  },
+  {
+    "folder": "2026-04-04-credence-collective",
+    "appName": "Credence Collective",
+    "tagline": "Shared wealth expeditions.",
+    "designSystem": {
+      "primaryColor": "#E91E63",
+      "secondaryColor": "#2C2C2C",
+      "backgroundColor": "#FFF0F0",
+      "fontFamily": "Archivo Black",
+      "style": "Editorial magazine with full-bleed photo headers, strong typographic hierarchy, hot magenta accent on pale blush, cozy and intentional spacing"
+    },
+    "screens": [
+      "home",
+      "explore",
+      "expedition",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Credence Collective redefines personal finance as a collaborative journey, transforming abstract goals into structured 'Financial Expeditions' co-created and navigated by its members. It's a club where users don't just track their finances, but actively contribute to evolving playbooks for achieving specific monetary milestones \u2013 be it buying a first home, paying down debt, or launching a side hustle. Users generate and share 'Milestone Artifacts' like mini-reports, insights, and tactical wins, which build into a collective wisdom database for each Expedition. This asynchronous collaboration fosters a unique blend of peer learning, shared accountability, and celebrating collective progress, moving beyond isolated financial tracking to a dynamic, community-driven approach. The app provides a visually rich, spatial interface to showcase the unfolding narrative of these Expeditions, making the often-solitary path to financial independence feel like a guided, celebrated quest.",
+    "features": [
+      {
+        "title": "Expedition Crafting & Discovery",
+        "detail": "Users can initiate their own 'Financial Expeditions' for specific goals (e.g., 'Zero-Debt Ascent,' 'Passive Income Playground') or join existing ones, allowing them to instantly tap into a community focused on similar objectives."
+      },
+      {
+        "title": "Milestone Artifact Contributions",
+        "detail": "Members asynchronously contribute 'Milestone Artifacts' \u2013 rich-media updates (text, screenshots, audio insights) detailing their progress, learnings, and successful tactics within an Expedition. This generates a living, evolving playbook."
+      },
+      {
+        "title": "Dynamic Expedition Canvas",
+        "detail": "A spatial, 'glassmorphic' UI visually represents each Expedition's collective journey, surfacing the latest contributions and milestones as layered 'cards' that users can explore, giving a tangible sense of shared progress and depth."
+      },
+      {
+        "title": "Guild Badges & Recognition",
+        "detail": "As users contribute valuable artifacts and Expeditions achieve shared milestones, members earn 'Guild Badges' (e.g., 'Budget Beacon,' 'Equity Alchemist') and recognition within the community, fostering a sense of achievement and encouraging continued engagement."
+      },
+      {
+        "title": "Asynchronous Strategy Streams",
+        "detail": "Within each Expedition, dedicated conversational threads allow for structured, asynchronous discussions around specific challenges or strategies, ensuring peer advice and insights are consolidated and easily accessible, without requiring real-time interaction."
+      }
+    ],
+    "audience": "Millennials and Gen Z, aged 22-40, who seek community and peer-driven solutions for personal finance, are comfortable with user-generated content, and want a more engaging, less isolating path to achieving their financial goals.",
+    "category": "personal finance",
+    "useCases": [
+      {
+        "title": "House Down Payment Expedition",
+        "detail": "A user struggling to save for a home searches for 'First Home Deposit' and joins a thriving Expedition, contributing their budget wins and roadblocks, while learning concrete savings hacks and seeing others' progress toward a similar goal."
+      },
+      {
+        "title": "Debt Annihilation Quest",
+        "detail": "Feeling overwhelmed by student loans, a user starts a 'Debt Freedom Frontier' Expedition. Other members asynchronously contribute their proven payoff strategies, emotional support, and actual payment screenshots, creating a powerful, evolving guide for others."
+      },
+      {
+        "title": "Side Hustle Launchpad",
+        "detail": "An aspiring entrepreneur joins a 'Passive Income Path' Expedition to learn how to monetize a skill. They contribute their initial market research and receive asynchronous feedback and validated strategies from peers already earning passive income."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-04-curio-bloom",
     "appName": "Curio Bloom",
     "tagline": "Cultivate your mind's living curiosity.",
