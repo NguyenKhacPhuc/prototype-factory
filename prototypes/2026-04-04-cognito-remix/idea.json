@@ -1,0 +1,46 @@
+{
+  "name": "Cognito Remix",
+  "tagline": "Weave concepts. Remix knowledge.",
+  "description": "Cognito Remix transforms passive learning into an active, creative journey of intellectual synthesis. Instead of merely consuming information, users engage with a vast, curated library of 'knowledge stems' \u2013 atomic units like historical events, scientific principles, literary quotes, logical connectors, or cultural metaphors. Users drag, drop, and connect these stems, adding their own insights and transitions, to construct unique narratives, explanations, arguments, or artistic interpretations of complex subjects. The app's adaptive intelligence analyzes the user's 'weave' in real-time, suggesting complementary stems, identifying potential logical gaps, or proposing alternative perspectives, tailoring the learning experience dynamically. This hands-on reconstruction process deeply solidifies understanding, encourages critical thinking, and fosters a profound personal connection to the material. Users share their creative knowledge constructs within a community, inviting others to 'fork' and expand upon their ideas, turning education into a collaborative, ever-evolving act of creative discovery. The core appeal lies in the satisfaction of expressing deep, personalized understanding through unique, shareable compositions.",
+  "features": [
+    {
+      "title": "Knowledge Stem Library",
+      "detail": "Access a meticulously curated and tagged library of atomic facts, concepts, quotes, and logical connectors across diverse disciplines, serving as the foundational building blocks for your remixes."
+    },
+    {
+      "title": "Adaptive Weave Assistant",
+      "detail": "A real-time AI companion that analyzes your current composition, suggests relevant stems, identifies potential inconsistencies, and offers alternative organizational patterns to enhance your understanding."
+    },
+    {
+      "title": "Remix Challenges & Prompts",
+      "detail": "Engage with daily or weekly creative prompts, such as 'Explain photosynthesis using only culinary metaphors,' or 'Argue for universal basic income with historical precedents,' to inspire diverse knowledge constructs."
+    },
+    {
+      "title": "Community 'Fork & Refine'",
+      "detail": "Share your crafted 'weaves' with a community of learners, allowing others to 'fork' (duplicate) and build upon your ideas, fostering collaborative refinement and diverse interpretations."
+    },
+    {
+      "title": "Personal Understanding Graph",
+      "detail": "Visualize your evolving knowledge landscape through a dynamic graph that maps your remixed concepts, showing connections, mastery levels, and highlighting areas of deep understanding or emergent interest."
+    }
+  ],
+  "audience": "Intellectually curious high school and university students, lifelong learners, and hobbyists (16-45) who thrive on creative expression, self-directed exploration, and hands-on engagement with complex ideas.",
+  "category": "education",
+  "useCases": [
+    {
+      "title": "Mastering Complex Topics",
+      "detail": "A university student struggling with economic theories uses Cognito Remix to weave together different concepts like supply-demand, inflation, and fiscal policy into their own explanatory narrative, solidifying their comprehension."
+    },
+    {
+      "title": "Creative Content Generation",
+      "detail": "An aspiring blogger or content creator uses the app to experiment with different angles and arguments for an article on climate change, remixing scientific data stems with ethical philosophy stems and historical context."
+    },
+    {
+      "title": "Exploring Interdisciplinary Connections",
+      "detail": "A curious individual delves into the Renaissance, remixing stems related to art, science, philosophy, and politics to construct a holistic 'weave' that illustrates the period's interconnected innovations."
+    }
+  ],
+  "engagementLoop": "Users return multiple times per week to tackle new 'Remix Challenges' that push their creative boundaries, discover fresh 'Knowledge Stems' on trending topics or specialized domains, and engage with the community by 'forking' or refining popular 'weaves.' The intrinsic satisfaction of creatively expressing a nuanced understanding drives continuous exploration and learning.",
+  "trendFit": "Cognito Remix perfectly aligns with the creator economy trend by transforming learners into active producers of synthesized knowledge, rather than just passive consumers. It taps into the growing desire for personalized, active learning experiences and the satisfaction of creative expression within a collaborative, remix culture, where unique interpretations are celebrated.",
+  "monetization": "Premium subscription tiers offer access to advanced, expert-curated 'stem packs' (e.g., specialized academic datasets, niche historical archives), enhanced customization options for weaves, and advanced publishing/export features."
+}

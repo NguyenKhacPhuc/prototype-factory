@@ -1,0 +1,37 @@
+{
+  "appName": "Cognito Remix",
+  "tagline": "Weave concepts. Remix knowledge.",
+  "designSystem": {
+    "primaryColor": "#0ED8D8",
+    "secondaryColor": "#FF6B35",
+    "accentColor": "#818CF8",
+    "backgroundColor": "#0F0F16",
+    "surfaceColor": "#1A1A24",
+    "textColor": "#EDE8E0",
+    "fontFamily": "Lexend",
+    "style": "Duotone graphic — bold color blocks, strong typographic hierarchy, minimal decoration. Deep teal and burnt orange as primary duotone pair with electric indigo as tertiary accent. Off-white and charcoal base. No glassmorphism; relies on borders, color-coded left-borders, and typographic weight for structure."
+  },
+  "screens": [
+    "home",
+    "library",
+    "weave",
+    "community",
+    "graph"
+  ],
+  "screenDescriptions": {
+    "home": "Dashboard with daily challenge horizontal scroll, stat row, and recent weaves list",
+    "library": "Stem library with category filter horizontal scroll + stacked per-discipline horizontal scroll rows",
+    "weave": "Composition canvas — stem chain with connectors, annotation area, and AI assistant suggestion panel",
+    "community": "Social feed with featured weaves horizontal scroll, trending topics horizontal scroll, and activity list",
+    "graph": "SVG knowledge graph with mastery rings, interactive node selection, stat cards, and mastery breakdown list"
+  },
+  "features": [
+    "Dark/light theme toggle (default: dark)",
+    "Stacked horizontal scroll sections (Library + Community)",
+    "Interactive SVG knowledge graph with mastery rings",
+    "AI Weave Assistant suggestion panel",
+    "Stem chain with connector labels",
+    "Fork & like interactions in community",
+    "Stem type badge system (fact, principle, metaphor, quote, event, pattern, concept)"
+  ]
+}

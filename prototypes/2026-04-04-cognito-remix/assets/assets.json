@@ -1,0 +1,14 @@
+{
+  "appName": "Cognito Remix",
+  "fontFamily": "Lexend",
+  "colors": {
+    "primary": "#0ED8D8",
+    "secondary": "#FF6B35",
+    "background": "#0F0F16",
+    "accent": "#818CF8"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
