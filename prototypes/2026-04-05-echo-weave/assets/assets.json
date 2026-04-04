@@ -1,0 +1,14 @@
+{
+  "appName": "Echo Weave",
+  "fontFamily": "Bebas Neue",
+  "colors": {
+    "primary": "#00838F",
+    "secondary": "#BF360C",
+    "background": "#0D1F1F",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

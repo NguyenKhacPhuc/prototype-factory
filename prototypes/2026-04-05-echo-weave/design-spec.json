@@ -1,0 +1,12 @@
+{
+  "appName": "Echo Weave",
+  "tagline": "Cultivate sound, together.",
+  "designSystem": {
+    "primaryColor": "#00838F",
+    "secondaryColor": "#BF360C",
+    "backgroundColor": "#0D1F1F",
+    "fontFamily": "Bebas Neue",
+    "style": "Playful illustrated with horizontal scroll layout sections, bold Bebas Neue typography, teal/sienna color bursts on deep dark backgrounds, organic shape language (◆●▲★), chaotic-joyful energy in animations and spacing"
+  },
+  "screens": ["garden", "seeds", "weave", "seasons"]
+}
