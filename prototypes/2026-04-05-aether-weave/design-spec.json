@@ -1,0 +1,12 @@
+{
+  "appName": "Aether Weave",
+  "tagline": "Your AI Muse for live creative rituals.",
+  "designSystem": {
+    "primaryColor": "#FF6B6B",
+    "secondaryColor": "#1A1A40",
+    "backgroundColor": "#FAFAFA",
+    "fontFamily": "Playfair Display",
+    "style": "Neo-brutalist with chunky borders, hard drop shadows (4-6px offset, no blur), raw typography, electric coral on midnight navy, overlapping angled cards, confident and rebellious energy"
+  },
+  "screens": ["home", "flux", "guilds", "gallery", "muse"]
+}

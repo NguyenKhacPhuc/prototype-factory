@@ -1,0 +1,35 @@
+{
+  "appName": "Aether Weave",
+  "fontFamily": "Playfair Display",
+  "colors": {
+    "primary": "#FF6B6B",
+    "secondary": "#1A1A40",
+    "background": "#FAFAFA",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-right",
+    "bell",
+    "brain",
+    "check",
+    "clock",
+    "flame",
+    "heart",
+    "image",
+    "moon",
+    "plus",
+    "refresh-cw",
+    "send",
+    "sliders",
+    "sparkles",
+    "star",
+    "sun",
+    "timer",
+    "trending-up",
+    "users",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 20,
+  "fontFileCount": 0
+}
