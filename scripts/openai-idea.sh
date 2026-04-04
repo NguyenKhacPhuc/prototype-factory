@@ -25,6 +25,12 @@ CATEGORIES=(
   "food & cooking"
   "sustainability"
   "creative tools"
+  "AI assistant"
+  "AI creative & generative"
+  "AI automation & agents"
+  "developer tools"
+  "photo & video"
+  "music & audio"
 )
 
 # Extra creative dimensions to increase variety without changing external behavior

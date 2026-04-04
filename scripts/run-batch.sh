@@ -6,7 +6,7 @@ set -uo pipefail
 
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 SCRIPT="$REPO_DIR/scripts/generate-prototype.sh"
-TOTAL_CATEGORIES=10
+TOTAL_CATEGORIES=16
 
 # Step 0: Scout trends for market context
 echo "=== Scouting trends ==="
