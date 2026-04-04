@@ -1,0 +1,28 @@
+{
+  "appName": "CogniCraft",
+  "fontFamily": "Instrument Sans",
+  "colors": {
+    "primary": "#d4622a",
+    "secondary": "#2d6b4a",
+    "background": "#1a1410",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "clock",
+    "eye",
+    "file-text",
+    "flame",
+    "heart",
+    "loader",
+    "moon",
+    "network",
+    "pencil",
+    "plus",
+    "search",
+    "sparkles",
+    "sun"
+  ],
+  "fonts": [],
+  "iconCount": 13,
+  "fontFileCount": 0
+}

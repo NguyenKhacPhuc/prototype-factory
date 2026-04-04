@@ -1,0 +1,46 @@
+{
+  "name": "CogniCraft",
+  "tagline": "Remix knowledge, craft understanding.",
+  "description": "CogniCraft is a dynamic learning app that transforms education into a creative, hands-on remix experience. It breaks free from passive consumption by empowering users to actively deconstruct, re-interpret, and re-create knowledge in their own unique styles. Think of it as your personal intellectual studio, where articles become interactive stories, complex theories morph into visual explainers, and historical events are re-narrated through a modern lens. The app intelligently suggests 'remix blueprints' tailored to your interests and learning patterns, offering a suite of AI-powered creative tools \u2013 from text-to-visual generation to concept simplification \u2013 to bring your educational creations to life. By engaging in this iterative process of transforming information, users don't just memorize; they deeply understand, fostering a profound sense of ownership over their learning journey. It's designed to make learning an engaging, playful, and deeply personal act of creation, ensuring users return not for rote lessons, but to satisfy their innate curiosity and creative drive.",
+  "features": [
+    {
+      "title": "Adaptive Remix Blueprints",
+      "detail": "Receives personalized 'remix challenges' and templates based on your learning style, topic interests, and past creations, pushing you to explore new ways to express understanding."
+    },
+    {
+      "title": "Multimodal Source Ingestion",
+      "detail": "Easily import any educational content \u2013 text articles, podcast transcripts, YouTube links, PDFs \u2013 which the app then analyzes for key concepts and relationships."
+    },
+    {
+      "title": "Creative Co-Pilot AI",
+      "detail": "Access AI-powered tools that assist in content transformation, including summarization, conceptual mapping, tone adjustment, and suggestions for visual metaphors to enhance your remix."
+    },
+    {
+      "title": "Personalized Knowledge Portfolio",
+      "detail": "Build and showcase your unique 'knowledge creations' \u2013 whether they're illustrated summaries, narrative explainers, or conceptual art pieces \u2013 demonstrating your understanding and growth."
+    },
+    {
+      "title": "Contextual Idea Weaver",
+      "detail": "Get AI-driven suggestions for connecting disparate topics or remixing a concept from one field into another, encouraging interdisciplinary thought and deeper insight."
+    }
+  ],
+  "audience": "Lifelong learners, students (high school to graduate level), educators, and knowledge workers aged 16-55 who seek a more creative, engaging, and personally resonant way to learn and internalize complex information beyond traditional methods.",
+  "category": "education",
+  "useCases": [
+    {
+      "title": "Student Exam Prep",
+      "detail": "A college student struggling with a dense philosophy text inputs a chapter, and CogniCraft suggests turning the core arguments into a satirical comic strip, helping them grasp complex concepts through humor and visual representation for their exam."
+    },
+    {
+      "title": "Professional Skill Development",
+      "detail": "A marketing professional wants to quickly understand a new industry trend report. They upload the report, and the app prompts them to 'remix' it into a concise, actionable investor pitch deck, forcing them to synthesize key data points."
+    },
+    {
+      "title": "Curiosity-Driven Learning",
+      "detail": "A curious individual hears about a breakthrough in astrophysics and uses CogniCraft to translate the scientific paper into an accessible, short-form podcast script, thereby solidifying their own understanding and creating shareable content."
+    }
+  ],
+  "engagementLoop": "Users are driven by the intrinsic reward of creative expression and the deeper understanding achieved through knowledge transformation. The app continually adapts by suggesting fresh 'remix blueprints' aligned with evolving interests, ensuring the learning journey remains novel and personally relevant, fostering a sense of progress and mastery through continuous creation.",
+  "trendFit": "This app taps into the 'creator economy' by empowering users to be producers, not just consumers, of knowledge, aligning with a demand for active engagement. It leverages 'AI-Generated Personalized Visuals and Content' and 'Adaptive UI' by tailoring remix challenges and tools, offering a highly personalized and engaging educational experience that feels relevant and dynamic.",
+  "monetization": "A freemium model with premium subscription tiers offering advanced AI tools (e.g., higher-resolution image generation, more complex content analysis), expanded storage for portfolios, and access to exclusive 'remix template' packs."
+}

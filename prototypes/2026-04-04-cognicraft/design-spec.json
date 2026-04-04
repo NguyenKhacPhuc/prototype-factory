@@ -1,0 +1,17 @@
+{
+  "appName": "CogniCraft",
+  "tagline": "Remix knowledge, craft understanding.",
+  "designSystem": {
+    "primaryColor": "#d4622a",
+    "secondaryColor": "#2d6b4a",
+    "backgroundColor": "#1a1410",
+    "fontFamily": "Instrument Sans",
+    "style": "Editorial magazine with asymmetric grid layouts, rich terracotta orange and deep forest green on a dark off-black canvas. Typographic hierarchy-driven design with bold section labels, spacious gutters, and purposeful whitespace. Warm, curated aesthetic inspired by print editorial design."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "studio",
+    "portfolio"
+  ]
+}
