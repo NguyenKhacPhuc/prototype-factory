@@ -1,0 +1,12 @@
+{
+  "appName": "TerraThrive",
+  "tagline": "Nurture your health, grow your world.",
+  "designSystem": {
+    "primaryColor": "#FF6B6B",
+    "secondaryColor": "#1A1A40",
+    "backgroundColor": "#FAFAFA",
+    "fontFamily": "Playfair Display",
+    "style": "Neo-brutalist with electric coral and midnight navy. Thick 2-3px borders, hard offset box-shadows (4px 4px 0 #1A1A40), flat color blocking, zero-radius rectangles, overlapping rotated cards at -2° to +2.5°."
+  },
+  "screens": ["home", "nursery", "quests", "coach"]
+}

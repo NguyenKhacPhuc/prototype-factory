@@ -1,0 +1,14 @@
+{
+  "appName": "TerraThrive",
+  "fontFamily": "Playfair Display",
+  "colors": {
+    "primary": "#FF6B6B",
+    "secondary": "#1A1A40",
+    "background": "#FAFAFA",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
