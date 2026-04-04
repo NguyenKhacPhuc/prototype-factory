@@ -1,0 +1,12 @@
+{
+  "appName": "Aether Bloom",
+  "tagline": "Grow your personal sky.",
+  "designSystem": {
+    "primaryColor": "#76FF03",
+    "secondaryColor": "#263238",
+    "backgroundColor": "#FAFAFA",
+    "fontFamily": "Fredoka",
+    "style": "Bold geometric raw underground zine — chunky borders, hard drop shadows, high-contrast lime green on dark slate, geometric shape language throughout"
+  },
+  "screens": ["home", "seeds", "almanac", "gallery"]
+}

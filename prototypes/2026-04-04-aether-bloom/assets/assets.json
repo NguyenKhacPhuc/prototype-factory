@@ -1,0 +1,14 @@
+{
+  "appName": "Aether Bloom",
+  "fontFamily": "Fredoka",
+  "colors": {
+    "primary": "#76FF03",
+    "secondary": "#263238",
+    "background": "#FAFAFA",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
