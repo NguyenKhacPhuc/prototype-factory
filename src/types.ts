@@ -17,6 +17,6 @@ export interface Prototype {
   features: (string | { title: string; detail: string })[];
   audience: string;
   category: string;
-  useCases: string[];
+  useCases: (string | { title: string; detail: string })[];
   hasScreenshot?: boolean;
 }

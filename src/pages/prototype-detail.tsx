@@ -155,7 +155,7 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
             <div className="detail-section">
               <h2>Use Cases</h2>
               {p.useCases.map((uc, i) => (
-                <p key={i} className="use-case">{uc}</p>
+                <p key={i} className="use-case">{typeof uc === 'string' ? uc : <><strong>{uc.title}</strong>: {uc.detail}</>}</p>
               ))}
             </div>
           )}
