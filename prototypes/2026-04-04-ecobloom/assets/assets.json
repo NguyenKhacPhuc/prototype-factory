@@ -1,0 +1,22 @@
+{
+  "appName": "EcoBloom",
+  "fontFamily": "Rubik",
+  "colors": {
+    "primary": "#2D5016",
+    "secondary": "#B87333",
+    "background": "#F5F0E8",
+    "accent": "#F5A623"
+  },
+  "icons": [
+    "battery",
+    "book-marked",
+    "book-open",
+    "leaf",
+    "user",
+    "users",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 7,
+  "fontFileCount": 0
+}

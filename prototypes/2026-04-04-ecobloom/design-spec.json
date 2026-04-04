@@ -1,0 +1,13 @@
+{
+  "appName": "EcoBloom",
+  "tagline": "Grow your world, one green step.",
+  "designSystem": {
+    "primaryColor": "#2D5016",
+    "secondaryColor": "#B87333",
+    "backgroundColor": "#F5F0E8",
+    "accentColor": "#F5A623",
+    "fontFamily": "Rubik",
+    "style": "Organic hand-drawn with irregular border-radius, earthy earth-tone palette, asymmetric grid layouts, and natural depth via subtle shadows. Avoids glassmorphism; embraces textured warmth."
+  },
+  "screens": ["Haven", "Ledger", "Guilds", "Codex", "Profile"]
+}

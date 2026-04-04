@@ -1,0 +1,37 @@
+{
+  "name": "EcoBloom",
+  "tagline": "Grow your world, one green step.",
+  "description": "EcoBloom transforms everyday sustainable actions into a playful, rewarding journey of growth and discovery. Users log real-world eco-choices, such as taking public transport, opting for a reusable cup, or fixing a broken item. Each verified action plants a 'Seed of Change' in their personal virtual 'Eco-Haven' \u2013 a miniature, evolving ecosystem. The surprise twist? Users never know exactly what unique plant, whimsical creature, or landscape feature their seed will blossom into. This variable reward, combined with friendly competition in 'Eco-Guilds' to cultivate the most biodiverse and vibrant havens, creates a compelling loop. It fosters positive habits by visually linking small efforts to tangible, delightful virtual progress, encouraging users to discover new ways to impact the planet positively and share their evolving miniature worlds with friends.",
+  "features": [
+    {
+      "title": "Seed of Change Ledger",
+      "detail": "Users log verified sustainable actions (e.g., photo proof, short description). Each log 'plants' a mysterious 'Seed' in their Eco-Haven, representing their real-world impact."
+    },
+    {
+      "title": "Dynamic Eco-Haven",
+      "detail": "A personalized, visually stunning virtual ecosystem that grows and changes based on logged actions. Users can nurture and observe their unique plants and creatures, watching their green efforts come to life."
+    },
+    {
+      "title": "Eco-Guilds & Challenges",
+      "detail": "Join or create teams for friendly competition, participate in weekly challenges (e.g., 'Zero-Waste Week,' 'Public Transit Trek'), and earn collective rewards to enhance Guild Havens and foster community."
+    },
+    {
+      "title": "Discovery & Lore Codex",
+      "detail": "As new flora and fauna appear in their haven, users unlock entries in a 'Codex,' revealing fascinating facts about sustainability, biodiversity, and the real-world impact of their actions, deepening their understanding."
+    },
+    {
+      "title": "Eco-Marketplace (Virtual)",
+      "detail": "Exchange rare 'Eco-Gems' (earned through streaks/achievements) for unique cosmetic items to customize their haven or special 'Rare Seeds' for unique, accelerated growths, adding a layer of strategic personalization."
+    }
+  ],
+  "audience": "Eco-conscious individuals aged 18-35 who are motivated by gamification, visual progress, and social connection, seeking playful ways to integrate sustainability into their daily lives without feeling preachy.",
+  "category": "sustainability",
+  "useCases": [
+    "After biking to work instead of driving, Sarah opens EcoBloom, taps 'Log Transport,' and uploads a quick photo of her bike. She then watches a new 'seed' sprout in her virtual forest, revealing a rare glowing mushroom, giving her a small rush of delight.",
+    "During his weekly grocery run, David remembers to use his reusable bags. He snaps a picture of his bag at the checkout, logs the action, and checks his Eco-Guild's leaderboard to see how his team is performing in the 'Reduce Single-Use' challenge.",
+    "Friends gathering for coffee discuss their Eco-Havens. Emily shows off a new 'Whispering Willow' she unlocked by fixing her old blender instead of buying a new one, inspiring her friends to consider repairing more items and try EcoBloom."
+  ],
+  "engagementLoop": "Users are driven by the variable reward of discovering what new, unique element will grow in their Eco-Haven from their real-world actions. This sense of play and surprise, combined with the desire to compete with friends and grow the most vibrant virtual world, encourages consistent engagement multiple times per week to cultivate their haven and contribute to Guild challenges.",
+  "trendFit": "The app perfectly aligns with the growing trend of gamified self-improvement, where users seek delightful, playful ways to achieve personal goals. It taps into the widespread desire for tangible progress in sustainability, leveraging mobile interaction for real-world impact and offering a fresh, positive take on environmental action.",
+  "monetization": "Premium subscriptions offer advanced customization options for Eco-Havens, exclusive 'seed' types with unique growth probabilities, and an ad-free experience. A virtual marketplace allows users to purchase cosmetic enhancements with real money."
+}
