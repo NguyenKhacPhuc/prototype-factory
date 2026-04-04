@@ -1,0 +1,14 @@
+{
+  "appName": "Still Bloom",
+  "fontFamily": "Lora",
+  "colors": {
+    "primary": "#5A8A5E",
+    "secondary": "#C8A882",
+    "background": "#0C160D",
+    "accent": "#7BA3B8"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

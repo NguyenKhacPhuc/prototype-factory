@@ -1,0 +1,18 @@
+{
+  "appName": "Still Bloom",
+  "tagline": "Cultivate calm, together.",
+  "designSystem": {
+    "primaryColor": "#5A8A5E",
+    "secondaryColor": "#C8A882",
+    "backgroundColor": "#0C160D",
+    "accentColor": "#7BA3B8",
+    "fontFamily": "Lora",
+    "style": "Editorial magazine — typographic, spacious, with content cards that overlap and rotate subtly like pressed flowers in a journal. Off-white linen base (light) or deep forest-green-black (dark). Sun-drenched sandstone, deep moss green, and muted sky blue palette grounded by charcoal on linen."
+  },
+  "screens": [
+    "home",
+    "ritual",
+    "garden",
+    "quest"
+  ]
+}
