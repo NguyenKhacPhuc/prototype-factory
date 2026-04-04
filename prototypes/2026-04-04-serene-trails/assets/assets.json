@@ -1,0 +1,14 @@
+{
+  "appName": "Serene Trails",
+  "fontFamily": "Lora",
+  "colors": {
+    "primary": "#6B9060",
+    "secondary": "#7A3A6E",
+    "background": "#0F1410",
+    "accent": "#C4A06A"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

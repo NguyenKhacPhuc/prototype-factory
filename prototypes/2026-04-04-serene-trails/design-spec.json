@@ -1,0 +1,19 @@
+{
+  "appName": "Serene Trails",
+  "tagline": "Travel mindfully, build collective calm.",
+  "designSystem": {
+    "primaryColor": "#6B9060",
+    "secondaryColor": "#7A3A6E",
+    "backgroundColor": "#0F1410",
+    "accentColor": "#C4A06A",
+    "fontFamily": "Lora",
+    "style": "Editorial magazine — spacious typographic layouts, full-bleed panoramic gradient sections simulating landscape photography, horizontal rule dividers, italic pull-quotes, muted forest-green and aubergine palette with warm parchment accents. Dark mode default with tranquil, grounding mood."
+  },
+  "screens": [
+    "home",
+    "meander",
+    "atlas",
+    "quests",
+    "journal"
+  ]
+}
