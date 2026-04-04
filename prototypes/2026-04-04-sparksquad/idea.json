@@ -1,0 +1,46 @@
+{
+  "name": "SparkSquad",
+  "tagline": "Co-create micro-achievements.",
+  "description": "SparkSquad redefines productivity as a collaborative journey of discovery, inspired by short-form content culture. Instead of traditional tasks, users engage with 'Sparks' \u2013 open-ended creative prompts (e.g., 'Capture your ideal 30-second focus break,' 'Illustrate a strategy for digital decluttering') that challenge thinking and foster new habits. Users form 'Squads' of 2-4 and select a Spark, then individually contribute short video, photo, or audio snippets (5-30 seconds) demonstrating their interpretation or completion. The app then stitches these contributions into a dynamic 'Spark Reel' for the squad, showcasing collective progress and diverse creative approaches to productivity. This unique blend of visual expression, peer accountability, and constant novelty makes self-improvement feel like an engaging, shared exploration rather than a chore, encouraging users to return daily to contribute and discover new ideas.",
+  "features": [
+    {
+      "title": "Daily Sparks Feed",
+      "detail": "A constantly updated stream of creative productivity prompts ensures there's always a new challenge or idea to explore, fueling curiosity and consistent engagement."
+    },
+    {
+      "title": "Squad Creation & Matching",
+      "detail": "Easily form teams with friends or get matched with like-minded users to tackle Sparks collaboratively, fostering accountability and shared motivation."
+    },
+    {
+      "title": "Micro-Contribution Studio",
+      "detail": "Intuitive in-app tools allow users to quickly capture and edit short video, photo, or audio snippets, making sharing progress visually engaging and effortless."
+    },
+    {
+      "title": "Co-Op Spark Reels",
+      "detail": "Squad contributions are automatically compiled into a dynamic, visually rich 'Spark Reel,' offering a compelling collective showcase of effort and diverse interpretations."
+    },
+    {
+      "title": "Discovery Paths",
+      "detail": "Curated series of Sparks organized around themes like 'Mindfulness at Work' or 'Creative Habit Building,' providing guided journeys for deeper personal development and skill acquisition."
+    }
+  ],
+  "audience": "Young professionals, students, and creative freelancers (ages 20-35) who seek playful, social, and visually engaging ways to improve productivity and cultivate new habits, often finding traditional methods too rigid or isolating.",
+  "category": "productivity",
+  "useCases": [
+    {
+      "title": "Boosting Morning Routine",
+      "detail": "A student struggling with consistent mornings joins a squad for a 'Sunrise Serenity Spark,' contributing a 15-second video of their meditation space, feeling a collective push to start the day right."
+    },
+    {
+      "title": "Overcoming Creative Block",
+      "detail": "An artist stuck on a project uses SparkSquad to find a 'Idea Generation Jolt Spark,' collaborates with a small team, and discovers fresh perspectives by seeing their diverse visual brainstorming methods."
+    },
+    {
+      "title": "Enhancing Focus in Remote Work",
+      "detail": "A remote worker joins a squad for a 'Digital Detox Dive Spark,' sharing short clips of their focused work sessions without distractions, finding encouragement and new strategies from peers."
+    }
+  ],
+  "engagementLoop": "Users return weekly to discover fresh 'Sparks' that promise novel challenges and creative outlets for productivity. The co-op nature incentivizes frequent contributions to avoid letting down their squad, and the joy of seeing their collective 'Spark Reel' evolve provides continuous social validation and a sense of shared accomplishment.",
+  "trendFit": "SparkSquad perfectly aligns with the pervasive short-form content consumption trend, leveraging quick, engaging visual and audio formats to transform productivity into a creative, shareable experience. It also taps into the desire for community-driven self-improvement and discovery, making abstract goals tangible and fun.",
+  "monetization": "A premium subscription offers access to exclusive 'Discovery Paths' (advanced Spark bundles), personalized progress analytics, and unique creative tools/effects for enhancing Spark contributions."
+}

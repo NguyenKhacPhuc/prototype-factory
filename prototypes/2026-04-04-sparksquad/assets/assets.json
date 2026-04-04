@@ -1,0 +1,38 @@
+{
+  "appName": "SparkSquad",
+  "fontFamily": "Baloo 2",
+  "colors": {
+    "primary": "#2563EB",
+    "secondary": "#FF5A45",
+    "background": "#FFF9F0",
+    "accent": "#FFD233"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "camera",
+    "check-circle",
+    "chevron-right",
+    "eye",
+    "heart",
+    "home",
+    "info",
+    "mic",
+    "moon",
+    "pause",
+    "play",
+    "plus",
+    "search",
+    "shield",
+    "sparkles",
+    "sun",
+    "user",
+    "users",
+    "video",
+    "wifi",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 23,
+  "fontFileCount": 0
+}

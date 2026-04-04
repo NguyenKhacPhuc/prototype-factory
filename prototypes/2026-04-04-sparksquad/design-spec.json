@@ -1,0 +1,20 @@
+{
+  "appName": "SparkSquad",
+  "tagline": "Co-create micro-achievements.",
+  "designSystem": {
+    "primaryColor": "#2563EB",
+    "secondaryColor": "#FF5A45",
+    "accentColor": "#FFD233",
+    "backgroundColor": "#FFF9F0",
+    "darkBackgroundColor": "#1A1815",
+    "fontFamily": "Baloo 2",
+    "style": "Playful illustrated with overlapping angled cards, warm charcoal base, matte electric blue + vibrant coral + punchy electric yellow palette, bold rounded shapes, and a joyful cooperative mood"
+  },
+  "screens": [
+    "home",
+    "squads",
+    "studio",
+    "reels",
+    "profile"
+  ]
+}
