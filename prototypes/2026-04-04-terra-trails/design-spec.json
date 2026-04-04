@@ -1,0 +1,13 @@
+{
+  "appName": "Terra Trails",
+  "tagline": "Map your impact, unearth rewards.",
+  "designSystem": {
+    "primaryColor": "#4A7C1F",
+    "secondaryColor": "#C4622D",
+    "backgroundColor": "#141A09",
+    "accentColor": "#B8860B",
+    "fontFamily": "Bitter",
+    "style": "Retro-analog with asymmetric staggered grid layouts, earthy textures, and purposeful adventure aesthetic. Deep forest green, warm terracotta, and brass gold on near-black background. Organic card shapes with offset border-radii mimic unearthed fragments."
+  },
+  "screens": ["home", "explore", "collection", "leaderboard", "quests"]
+}

@@ -1,0 +1,38 @@
+{
+  "appName": "Terra Trails",
+  "fontFamily": "Bitter",
+  "colors": {
+    "primary": "#4A7C1F",
+    "secondary": "#C4622D",
+    "background": "#141A09",
+    "accent": "#B8860B"
+  },
+  "icons": [
+    "check-circle",
+    "chevron-left",
+    "chevron-right",
+    "circle",
+    "clock",
+    "coffee",
+    "compass",
+    "filter",
+    "flame",
+    "leaf",
+    "lock",
+    "map-pin",
+    "moon",
+    "navigation",
+    "recycle",
+    "sparkles",
+    "star",
+    "sun",
+    "trending-up",
+    "trophy",
+    "user",
+    "users",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 23,
+  "fontFileCount": 0
+}

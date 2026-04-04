@@ -1,0 +1,43 @@
+{
+  "name": "Terra Trails",
+  "tagline": "Map your impact, unearth rewards.",
+  "description": "Terra Trails transforms daily sustainable actions into a playful treasure hunt within your local environment. Users discover \"Eco-Spots\" \u2013 specific real-world locations like public recycling bins, community gardens, verified eco-friendly cafes, or even energy-saving appliances in homes (via QR code) \u2013 and unlock interactive challenges or log their sustainable deeds. Each logged action contributes to their individual \"Terra Score\" and their local community's ranking on competitive leaderboards. The app provides surprise rewards and unique digital collectibles (e.g., AR creatures representing local biodiversity) as users explore more, fostering a sense of achievement and discovery. This makes sustainability an engaging, visible, and rewarding local endeavor, moving beyond passive tracking to active, play-driven participation. The emotional hook lies in the unexpected finds and the joy of contributing to a healthier planet through gamified exploration.",
+  "features": [
+    {
+      "title": "Eco-Spot Expeditions",
+      "detail": "Discover geo-tagged sustainable points of interest, from recycling centers to community gardens, triggering location-based challenges or knowledge quizzes. This encourages users to explore and interact with their local sustainable infrastructure."
+    },
+    {
+      "title": "Impact Leaderboards",
+      "detail": "Compete individually, or as part of local \"Eco-Squads,\" to climb leaderboards based on collective sustainable actions and impact points. This fosters friendly competition and community pride, motivating continuous engagement."
+    },
+    {
+      "title": "Mythical Flora & Fauna Collection",
+      "detail": "Unlock unique, region-specific digital collectibles (e.g., AR \"Spirit Animals\" or \"Flora Guardians\") by completing challenges at various Eco-Spots. This adds a surprising, delightful, and personalized gamified element tied to real-world action."
+    },
+    {
+      "title": "Daily Eco-Quests",
+      "detail": "Receive surprise daily prompts for sustainable micro-actions, such as \"Identify 3 items for composting\" or \"Find a water-saving tip,\" earning bonus points and small rewards. This provides fresh content and a reason to open the app every day."
+    },
+    {
+      "title": "Adaptive Eco-Narratives",
+      "detail": "The app's interface and challenge recommendations dynamically adjust based on user's progress, local environmental data, and seasonal sustainability themes. This ensures hyper-personalized engagement and relevant challenges without explicit configuration."
+    }
+  ],
+  "audience": "Environmentally conscious individuals aged 18-35 who are tech-savvy, enjoy gaming, and seek meaningful, playful ways to contribute to sustainability without feeling overwhelmed by complex data.",
+  "category": "sustainability",
+  "useCases": [
+    {
+      "description": "On her lunch break, Sarah opens Terra Trails. The app highlights a nearby cafe verified for composting and asks her to snap a photo of her compostable cup for bonus points, unlocking a 'Waste Warrior' badge."
+    },
+    {
+      "description": "Mark takes his recycling to the public depot. Upon arrival, Terra Trails prompts him with a quick AR mini-game to sort virtual waste, rewarding him with a new 'Recycle Ranger' collectible and boosting his team's score."
+    },
+    {
+      "description": "During a weekend walk in the park, Priya gets a notification from Terra Trails about a nearby community garden. She visits, learns about native plants through an in-app interactive story, and unlocks a rare 'Forest Sprite' collectible for her digital garden."
+    }
+  ],
+  "engagementLoop": "Users are motivated to keep exploring real-world Eco-Spots to unlock new challenges, discover rare digital collectibles (the surprise element), and contribute to their team's/community's standing on the leaderboards (friendly competition). The daily quests and adaptive narratives provide fresh content and consistent opportunities for small, impactful actions, reinforcing positive sustainable habits weekly.",
+  "trendFit": "This app aligns with the gamified self-improvement trend by turning sustainability into a playful and rewarding experience. Its real-world unlock mechanic resonates with the desire for authentic engagement and blends digital interaction with physical exploration, similar to the experiential authenticity seen in apps like BeReal. The adaptive narratives reflect the emerging design trend of AI-Powered Adaptive Interfaces for personalized challenges.",
+  "monetization": "A premium subscription offers advanced analytics on personal impact, exclusive rare digital collectibles, and access to special community events or challenges hosted by sustainable brands looking to engage eco-conscious consumers."
+}
