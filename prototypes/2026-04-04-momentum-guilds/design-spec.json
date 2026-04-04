@@ -1,0 +1,25 @@
+{
+  "appName": "Momentum Guilds",
+  "tagline": "Guild up. Grow together.",
+  "designSystem": {
+    "primaryColor": "#3D5A40",
+    "secondaryColor": "#2D2B55",
+    "backgroundColor": "#F5EFE0",
+    "accentColor": "#C9A44A",
+    "terracottaColor": "#B5633A",
+    "fontFamily": "Bitter",
+    "style": "Retro-analog with earthy matte forest green and deep indigo on warm textured cream. Aged gold accents, dashed stamp borders, ruled paper texture, thick offset box shadows, and serif typographic hierarchy evoking a guild registry or illuminated manuscript."
+  },
+  "screens": ["home", "guilds", "flow", "journal"],
+  "navigationPattern": "hub-and-spoke",
+  "theme": "light-default-with-dark-toggle",
+  "features": [
+    "Horizontal scroll guild cards on Home",
+    "Horizontal scroll category filters on Guilds",
+    "Horizontal scroll soundscape selector on Flow",
+    "Horizontal scroll guild filter on Journal",
+    "Live flow timer with ambient presence panes",
+    "Post-flow ritual journal with mood selector",
+    "Light/dark theme toggle"
+  ]
+}
