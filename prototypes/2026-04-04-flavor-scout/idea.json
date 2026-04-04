@@ -1,0 +1,37 @@
+{
+  "name": "Flavor Scout",
+  "tagline": "Uncover your city's secret tastes.",
+  "description": "Flavor Scout is a vibrant mobile community dedicated to unearthing and celebrating the unique culinary identity of every neighborhood. Beyond simple restaurant reviews, it\u2019s a living archive of hyper-local dishes, hidden food gems, forgotten traditions, and passionate artisans that truly define a place's gastronomic soul. Users embark on daily or weekly 'Flavor Quests' \u2013 bite-sized, AI-curated challenges to discover specific local ingredients, try a unique street food item, document a community potluck, or even interview a local producer. Completing these quests builds 'Taste Streaks,' rewarding persistent exploration and contribution to a collective culinary map. The app fosters a profound sense of belonging among 'Flavor Scouts,' connecting them through shared discoveries, allowing them to collaborate on quests, and collectively championing the authentic, often unseen, flavors that make their locale special, transforming everyday eating into an act of cultural preservation and communal joy. This unique focus on active, guided discovery and cultural documentation makes it distinctively fresh and highly habit-forming.",
+  "features": [
+    {
+      "title": "Daily Flavor Quests",
+      "detail": "Personalized, location-aware challenges to discover specific local food items, producers, or culinary traditions, keeping user exploration fresh and targeted. These quests are designed to actively map and celebrate a region's unique food identity."
+    },
+    {
+      "title": "Taste Streaks & Badges",
+      "detail": "A gamified progression system rewarding consistent participation in quests and discoveries, fostering habit formation and a sense of accomplishment among 'Flavor Scouts' as they contribute to the local food narrative."
+    },
+    {
+      "title": "Local Flavor Atlas",
+      "detail": "A dynamic, community-built map showcasing unique culinary finds, stories, and recommendations contributed by local scouts, serving as a living archive of a city's food culture."
+    },
+    {
+      "title": "Community Hangouts",
+      "detail": "Dedicated micro-forums for local scouts to discuss quests, share tips, organize group discoveries, and foster real-world connections over shared culinary passions."
+    },
+    {
+      "title": "Narrative Capture Tool",
+      "detail": "An intuitive, immersive 'story' format allowing scouts to document their discoveries with photos, short videos, and rich context about the 'why' and 'who' behind the food, not just reviews, thus preserving valuable cultural information."
+    }
+  ],
+  "audience": "Food enthusiasts, locavores, curious travelers, and community-minded individuals aged 20-55, who enjoy exploring their surroundings and have an appreciation for authentic cultural experiences beyond typical tourist traps or generic dining.",
+  "category": "food & cooking",
+  "useCases": [
+    "A young professional opens Flavor Scout on a Saturday morning, sees a 'Weekend Market Quest' to find a seasonal heirloom vegetable, and heads to their local farmers' market with a new purpose for discovery.",
+    "A family looking for an authentic dinner spot for a special occasion uses the 'Local Flavor Atlas' to browse community-verified, unique eateries with rich stories and cultural significance, avoiding generic chains.",
+    "An elderly resident proud of their grandmother's traditional local dessert uses the Narrative Capture Tool to share its history and where to find an authentic version, preserving cultural memory for the community."
+  ],
+  "engagementLoop": "Users are motivated by daily 'Flavor Quests' to discover unique local food experiences and contribute to their community's culinary heritage. Documenting these discoveries contributes to their personal 'Taste Streaks' and earns community recognition (badges, leaderboards, peer interactions). This continuous cycle of discovery, contribution, and recognition fosters a strong sense of belonging within the 'Flavor Scout' community, driving repeat engagement multiple times per week.",
+  "trendFit": "Flavor Scout aligns perfectly with the rising trend of 'local discovery' and the strong emotional hook of 'belonging and community' (identity community). The app's 'Taste Streaks' gamify local exploration, while its 'Narrative Capture Tool' embraces immersive 'Story' formats for non-social content, catering to a desire for authentic, curated local experiences and community-driven knowledge, much like an 'AI-Driven Local Experience Curator' but with a strong human element.",
+  "monetization": "A premium subscription model offering exclusive advanced quests, an ad-free experience, deeper analytics on personal 'flavor profiles,' and special discounts from featured local food businesses and producers. There's also potential for partnerships with local food events, tourism boards, and culinary workshops for sponsored quests."
+}

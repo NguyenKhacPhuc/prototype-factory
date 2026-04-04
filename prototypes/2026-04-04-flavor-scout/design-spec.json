@@ -1,0 +1,14 @@
+{
+  "appName": "Flavor Scout",
+  "tagline": "Uncover your city's secret tastes.",
+  "designSystem": {
+    "primaryColor": "#4A1942",
+    "secondaryColor": "#2D5A3D",
+    "accentColor": "#F4A825",
+    "backgroundColor": "#F5EDD6",
+    "fontFamily": "Playfair Display",
+    "bodyFont": "Source Sans 3",
+    "style": "Editorial magazine — typographic, spacious, asymmetric content blocks with rich aubergine and forest green palette punctuated by saffron highlights. Hub-and-spoke card navigation. Distinct left-accent bars and diagonal tint overlays for featured cards."
+  },
+  "screens": ["home", "quests", "atlas", "community", "profile"]
+}

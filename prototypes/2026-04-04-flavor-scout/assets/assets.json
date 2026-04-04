@@ -1,0 +1,30 @@
+{
+  "appName": "Flavor Scout",
+  "fontFamily": "Playfair Display",
+  "colors": {
+    "primary": "#4A1942",
+    "secondary": "#2D5A3D",
+    "background": "#F5EDD6",
+    "accent": "#F4A825"
+  },
+  "icons": [
+    "arrow-left",
+    "award",
+    "bookmark",
+    "check-circle",
+    "chevron-right",
+    "circle",
+    "clock",
+    "flame",
+    "heart",
+    "map-pin",
+    "message-circle",
+    "moon",
+    "plus",
+    "sun",
+    "users"
+  ],
+  "fonts": [],
+  "iconCount": 15,
+  "fontFileCount": 0
+}
