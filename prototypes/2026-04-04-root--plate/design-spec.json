@@ -1,0 +1,13 @@
+{
+  "appName": "Root & Plate",
+  "tagline": "Local flavors, shared culinary legacy.",
+  "designSystem": {
+    "primaryColor": "#5C6B2A",
+    "secondaryColor": "#C8941A",
+    "backgroundColor": "#F8F4E8",
+    "accentColor": "#B03A2E",
+    "fontFamily": "Lora",
+    "style": "Warm cozy — rich olive green and turmeric gold on creamy linen, full-bleed earthy photo headers, Lora serif typography for authentic artisan feel"
+  },
+  "screens": ["home", "quest", "map", "community", "profile"]
+}
