@@ -1,0 +1,27 @@
+{
+  "appName": "Curio Bloom",
+  "fontFamily": "Playfair Display",
+  "colors": {
+    "primary": "#5A8A5E",
+    "secondary": "#6A2860",
+    "background": "#0C1610",
+    "accent": "#C08028"
+  },
+  "icons": [
+    "arrow-right",
+    "chevron-left",
+    "chevron-right",
+    "circle",
+    "clock",
+    "flame",
+    "leaf",
+    "lock",
+    "map",
+    "moon",
+    "sparkles",
+    "sun"
+  ],
+  "fonts": [],
+  "iconCount": 12,
+  "fontFileCount": 0
+}

@@ -1,0 +1,33 @@
+{
+  "appName": "Curio Bloom",
+  "tagline": "Cultivate your mind's living curiosity.",
+  "designSystem": {
+    "primaryColor": "#5A8A5E",
+    "secondaryColor": "#6A2860",
+    "accentColor": "#C08028",
+    "popColor": "#E04870",
+    "backgroundColor": "#0C1610",
+    "surfaceColor": "#192A1D",
+    "fontFamily": "Playfair Display",
+    "style": "Editorial magazine — typographic hierarchy, asymmetric grid layouts, organic textures, spacious and contemplative. Rich moss green + deep aubergine + sun-baked ochre on dark forest ground, with fuchsia pops."
+  },
+  "screens": [
+    "home",
+    "expeditions",
+    "seedlings",
+    "archive",
+    "profile"
+  ],
+  "navigationPattern": "hub-and-spoke",
+  "defaultTheme": "dark",
+  "themes": ["dark", "light"],
+  "keyFeatures": [
+    "Living Bloom garden SVG with procedural flora (ferns, flowers, crystals, mushrooms, butterflies)",
+    "Hub-and-spoke navigation from main Bloom screen",
+    "Asymmetric editorial grid on Expeditions and Archive screens",
+    "Tap-to-reveal seedling cards with micro-interaction",
+    "Two-column masonry Curio Archive with rarity tiers",
+    "Arborist tier progression with visual indicators",
+    "Dark/light theme toggle with full palette swap"
+  ]
+}
