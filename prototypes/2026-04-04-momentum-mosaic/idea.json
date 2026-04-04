@@ -1,0 +1,46 @@
+{
+  "name": "Momentum Mosaic",
+  "tagline": "Build a shared masterpiece, one moment at a time.",
+  "description": "Momentum Mosaic redefines productivity as a daily, collaborative discovery journey rather than a chore. Users join 'Crews' to tackle a series of bite-sized, creative micro-challenges, each contributing a small 'pixel' or 'segment' to a larger, mysterious collective project. The twist is that the overall project's nature \u2013 be it a community mural, a collaborative story, an aggregate data visualization, or a complex problem solution \u2013 only slowly reveals itself as the Crew completes tasks. This gamified, co-op challenge structure is designed for immediate engagement, mirroring the rapid-fire consumption and creation behavior of short-form content. It fosters both individual action and team curiosity, turning small productive bursts into a compelling, unfolding narrative, ensuring users are constantly coming back to contribute, see progress, and uncover the next piece of the puzzle.",
+  "features": [
+    {
+      "title": "Daily Prompt Drops",
+      "detail": "Receive a new, intriguing micro-challenge prompt each day or multiple times a day. These are designed to be quick, often creative tasks that can be completed in minutes, like 'Capture something that inspires focus' or 'Summarize your main goal in 3 words and a GIF'."
+    },
+    {
+      "title": "Mystery Mosaic Projects",
+      "detail": "Every Crew is working towards a larger 'Mosaic Project' whose ultimate form or goal is initially hidden. Each completed daily prompt adds a piece, slowly revealing the grander purpose and visual output, driving collective curiosity and engagement."
+    },
+    {
+      "title": "Crew Interpretations Feed",
+      "detail": "Browse how your Crewmates interpreted and completed the same daily prompt. This feature fosters community, provides inspiration, and highlights diverse approaches, making the experience more social and less isolating."
+    },
+    {
+      "title": "Momentum Streaks & Milestones",
+      "detail": "Track your individual contribution streak and witness the Crew's progress towards uncovering project milestones. This gamified element provides satisfying feedback loops and encourages consistent daily engagement."
+    },
+    {
+      "title": "Role-based Prompts",
+      "detail": "Within a Crew, different members might occasionally receive specialized prompts relevant to their chosen 'role' (e.g., 'Analyst', 'Synthesizer', 'Illustrator'), ensuring diverse contributions to the mosaic and showcasing different types of productivity."
+    }
+  ],
+  "audience": "Young professionals, students, and creatives (ages 18-35) who struggle with traditional productivity tools, seek playful engagement, value collaboration, and are drawn to novelty and social interaction in their daily routines.",
+  "category": "productivity",
+  "useCases": [
+    {
+      "title": "Overcoming the Afternoon Slump",
+      "detail": "A freelance designer feels stuck mid-afternoon. They open Momentum Mosaic, see a prompt: 'Sketch three tiny icons related to today's progress,' complete it in 5 minutes, contribute to their Crew's project, and feel a renewed burst of creative energy."
+    },
+    {
+      "title": "Remote Team Connection & Clarity",
+      "detail": "A distributed startup team uses the app daily for a fun, low-pressure check-in. The prompt 'What's one obstacle you overcame today?' helps foster empathy and shared understanding while collectively progressing towards their 'Project Clarity' mosaic."
+    },
+    {
+      "title": "Personal Goal Re-framing",
+      "detail": "A student struggling with a large research paper uses the app to break down their mental block. A prompt like 'Find one fascinating fact related to your topic and share a link' helps them make tiny, positive steps and discover new angles for their work."
+    }
+  ],
+  "engagementLoop": "Users return daily for the novelty of new prompts, driven by curiosity to see how their small contributions, along with their Crew's, are slowly unveiling the larger 'Mystery Mosaic Project'. The social aspect of seeing peer interpretations and the satisfaction of hitting collective milestones provides strong, continuous motivation.",
+  "trendFit": "This app perfectly aligns with the short-form content trend by making productivity actionable and shareable in bite-sized bursts. It also taps into the desire for gamified experiences, collaborative work models, and a move away from rigid, anxiety-inducing productivity towards playful, discovery-driven engagement.",
+  "monetization": "A freemium model offering premium 'Crew' features like custom project themes, advanced analytics for team progress, and exclusive 'artifact' rewards unlocked through deep engagement."
+}

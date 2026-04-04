@@ -1,0 +1,14 @@
+{
+  "appName": "Momentum Mosaic",
+  "fontFamily": "Poppins",
+  "colors": {
+    "primary": "#1E3A5F",
+    "secondary": "#D4882E",
+    "background": "#FFFFFF",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

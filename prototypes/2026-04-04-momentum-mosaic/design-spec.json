@@ -1,0 +1,34 @@
+{
+  "appName": "Momentum Mosaic",
+  "tagline": "Build a shared masterpiece, one moment at a time.",
+  "designSystem": {
+    "primaryColor": "#1E3A5F",
+    "secondaryColor": "#D4882E",
+    "backgroundColor": "#FFFFFF",
+    "accentColors": {
+      "ochre": "#D4882E",
+      "dustyRose": "#C4748A",
+      "mutedTeal": "#4A8B8C"
+    },
+    "fontFamily": "Poppins",
+    "style": "Bold geometric with asymmetric grid layouts, thick 2px borders, geometric accent blocks, strong typographic hierarchy using Poppins 800 for headings, role-colored badges, and a mosaic tile visualization system"
+  },
+  "screens": [
+    "home",
+    "crew",
+    "mosaic",
+    "profile"
+  ],
+  "themes": ["light", "dark"],
+  "navigation": "bottom-tabs",
+  "keyFeatures": [
+    "Daily Prompt Drops with role-based prompts",
+    "Interactive Mosaic tile grid with progressive reveal simulation",
+    "Crew Interpretations Feed with like/comment interactions",
+    "Momentum Streaks displayed in header",
+    "Role selection system (Analyst, Synthesizer, Illustrator, Catalyst, Architect)",
+    "Act-based milestone progression",
+    "Activity heatmap on profile",
+    "Light/dark theme toggle"
+  ]
+}
