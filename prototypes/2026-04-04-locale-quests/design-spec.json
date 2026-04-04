@@ -1,0 +1,53 @@
+{
+  "appName": "Locale Quests",
+  "tagline": "Uncover local challenges, team up, make an impact.",
+  "designSystem": {
+    "primaryColor": "#d4621a",
+    "secondaryColor": "#2d6a4f",
+    "backgroundColor": "#0e1a12",
+    "accentColor": "#52b788",
+    "fontFamily": "Bitter",
+    "style": "Editorial magazine — asymmetric grid layouts, bold italic serif headings, thick accent rules, sparse whitespace with high-contrast typographic hierarchy. Deep forest green surfaces with burnt orange accents on warm off-white text. Concrete grey for muted UI elements."
+  },
+  "colorPalette": {
+    "dark": {
+      "background": "#0e1a12",
+      "surface": "#162b1e",
+      "surfaceAlt": "#1c3322",
+      "text": "#f0ebe1",
+      "textMuted": "#8a9e8e",
+      "accent": "#d4621a",
+      "green": "#2d6a4f",
+      "greenLight": "#52b788",
+      "border": "#1e3426"
+    },
+    "light": {
+      "background": "#f5f0e8",
+      "surface": "#ffffff",
+      "surfaceAlt": "#ede8dd",
+      "text": "#1a2e20",
+      "textMuted": "#6b7a6e",
+      "accent": "#c4551a",
+      "green": "#2d6a4f",
+      "greenLight": "#3d8b65",
+      "border": "#d0c9bc"
+    }
+  },
+  "screens": [
+    "home",
+    "explore",
+    "guild",
+    "impact",
+    "profile"
+  ],
+  "screenDescriptions": {
+    "home": "Today's quest feed — asymmetric editorial header with italic serif title, filter pills, featured guild mission card in forest green, and scrollable solo quest list with category tags and XP indicators",
+    "explore": "Proximity map view with tap-to-select quest pins, distance list, and selected quest detail card. Simulated grid-overlay street map for Riverside District.",
+    "guild": "Guild dashboard with member avatar strip, tabbed missions/leaderboard/chat. Mission progress bars, XP leaderboard, and guild chat with reply input.",
+    "impact": "Impact ledger with monthly progress bar, 2×2 asymmetric stats grid, recent impact timeline, and achievement badges with locked/unlocked states.",
+    "profile": "User profile with green hero section, multi-segment skill scroll bars, AI-adaptive next-step suggestions, and settings list."
+  },
+  "navigation": "bottom-tabs",
+  "defaultTheme": "dark",
+  "themeToggle": true
+}

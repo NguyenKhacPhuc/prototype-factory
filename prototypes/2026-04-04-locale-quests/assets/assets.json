@@ -1,0 +1,14 @@
+{
+  "appName": "Locale Quests",
+  "fontFamily": "Bitter",
+  "colors": {
+    "primary": "#d4621a",
+    "secondary": "#2d6a4f",
+    "background": "#0e1a12",
+    "accent": "#52b788"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
