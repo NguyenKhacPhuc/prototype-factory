@@ -29,7 +29,7 @@ fi
 
 echo "Scouting trending apps and design patterns..." >&2
 
-GEMINI_URL="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}"
+export GEMINI_URL="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}"
 
 RESULT=$(python3 << 'PYEOF'
 import json, urllib.request, os, sys
@@ -44,7 +44,7 @@ def gemini_search(prompt):
         'generationConfig': {'temperature': 0.7}
     }).encode()
     req = urllib.request.Request(GEMINI_URL, data=body, headers={'Content-Type': 'application/json'})
-    resp = json.loads(urllib.request.urlopen(req, timeout=30).read())
+    resp = json.loads(urllib.request.urlopen(req, timeout=90).read())
     if 'error' in resp:
         raise Exception(json.dumps(resp['error']))
     return resp['candidates'][0]['content']['parts'][0]['text']
