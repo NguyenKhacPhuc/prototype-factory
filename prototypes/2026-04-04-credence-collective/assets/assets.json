@@ -1,0 +1,14 @@
+{
+  "appName": "Credence Collective",
+  "fontFamily": "Archivo Black",
+  "colors": {
+    "primary": "#E91E63",
+    "secondary": "#2C2C2C",
+    "background": "#FFF0F0",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

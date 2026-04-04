@@ -1,0 +1,12 @@
+{
+  "appName": "Credence Collective",
+  "tagline": "Shared wealth expeditions.",
+  "designSystem": {
+    "primaryColor": "#E91E63",
+    "secondaryColor": "#2C2C2C",
+    "backgroundColor": "#FFF0F0",
+    "fontFamily": "Archivo Black",
+    "style": "Editorial magazine with full-bleed photo headers, strong typographic hierarchy, hot magenta accent on pale blush, cozy and intentional spacing"
+  },
+  "screens": ["home", "explore", "expedition", "profile"]
+}
