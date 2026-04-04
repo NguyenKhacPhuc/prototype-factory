@@ -1,0 +1,19 @@
+{
+  "appName": "WanderWell",
+  "tagline": "Your collaborative map to tranquil journeys.",
+  "designSystem": {
+    "primaryColor": "#8B9B4A",
+    "secondaryColor": "#C4622D",
+    "backgroundColor": "#1A1810",
+    "accentColor": "#D4A843",
+    "fontFamily": "Lora",
+    "style": "Retro-analog with vintage postcard-style detail cards, sun-faded mustard yellow tones, desaturated olive green and warm terracotta accents, textured grid overlays on maps, dashed postcard stripe decorations, and handwritten-feel italic typography throughout"
+  },
+  "screens": [
+    "home",
+    "motes",
+    "canopy",
+    "streams",
+    "settings"
+  ]
+}
