@@ -1,0 +1,29 @@
+{
+  "appName": "AscentFolio",
+  "tagline": "Your collective financial climb.",
+  "designSystem": {
+    "primaryColor": "#28604a",
+    "secondaryColor": "#1a2720",
+    "accentColor": "#c97a3e",
+    "backgroundColor": "#0f1614",
+    "lightBackground": "#f5f0e8",
+    "fontFamily": "Manrope",
+    "style": "Bold geometric with matte deep emerald green, charcoal surfaces, and striking copper accents. Dynamic asymmetric grid layouts with diagonal lines suggesting financial ascent. Heavy weight typography (900) for key metrics, sharp card shapes with thick borders, no gradients except CTA and progress bars."
+  },
+  "screens": [
+    "home",
+    "guilds",
+    "create",
+    "journey",
+    "profile"
+  ],
+  "keyPatterns": [
+    "Diagonal accent geometry on Home and Journey screens (rotated divs + SVG ascending polyline)",
+    "Asymmetric 60/40 metric split on Journey screen with large Ascent Score left, stacked micro-stats right",
+    "Featured Guild card with diagonal decorative block and bold white stats",
+    "Bottom tab navigation with elevated gradient Create button",
+    "Dark mode default with accessible theme toggle in header and profile settings",
+    "Copper accent (#c97a3e) used for active states, CTA gradients, streak counters",
+    "Emerald green (#28604a) for primary actions, progress fills, achievement highlights"
+  ]
+}

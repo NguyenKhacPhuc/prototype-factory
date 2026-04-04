@@ -1,0 +1,14 @@
+{
+  "appName": "AscentFolio",
+  "fontFamily": "Manrope",
+  "colors": {
+    "primary": "#28604a",
+    "secondary": "#1a2720",
+    "background": "#0f1614",
+    "accent": "#c97a3e"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
