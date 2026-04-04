@@ -1,0 +1,33 @@
+{
+  "appName": "AuraLens",
+  "fontFamily": "Archivo Black",
+  "colors": {
+    "primary": "#B87333",
+    "secondary": "#4A1050",
+    "background": "#0A0618",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-left",
+    "battery",
+    "bell",
+    "book-open",
+    "camera",
+    "check-circle",
+    "chevron-right",
+    "eye",
+    "home",
+    "mic",
+    "moon",
+    "settings",
+    "shield",
+    "sparkles",
+    "sun",
+    "type",
+    "user",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 18,
+  "fontFileCount": 0
+}

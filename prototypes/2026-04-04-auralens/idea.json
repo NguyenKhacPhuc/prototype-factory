@@ -1,0 +1,37 @@
+{
+  "name": "AuraLens",
+  "tagline": "Curate your unique view.",
+  "description": "AuraLens is an ambient companion app designed to subtly sharpen your perception and celebrate your unique way of seeing the world. Each season introduces a new overarching theme, such as \"Urban Symphony\" or \"Biomorphic Beauty,\" challenging users with daily \"Perception Prompts\" to observe and capture specific aspects of their surroundings through photos, short audio clips, or text snippets. This isn't a mere journaling app; it's a guided journey into aesthetic intelligence and mindful observation. As users contribute, the app provides unique \"Aura Analysis\" feedback, powered by contextual AI, offering insights into their observational patterns, aesthetic preferences, and how their submissions connect to art history, natural phenomena, or cultural context, transforming mundane moments into opportunities for micro-learning and self-expression. It cultivates a sense of status through mastery, allowing users to build a distinct portfolio of their insights and unlock \"Curator Tiers,\" making discovery and appreciation a deeply personal and continuously rewarding experience.",
+  "features": [
+    {
+      "title": "Seasonal Flux",
+      "detail": "Engaging, themed challenges that refresh quarterly, inviting users to explore specific aesthetic, natural, or cultural phenomena. Users get new prompts and learning content to keep discovery fresh."
+    },
+    {
+      "title": "Perception Prompts",
+      "detail": "Daily micro-missions encouraging users to capture ephemeral moments, textures, sounds, or reflections, fostering a habit of mindful observation and engagement with their environment."
+    },
+    {
+      "title": "VistaLog",
+      "detail": "A private, aesthetically curated gallery and journal where users' contributions are stored, categorized by theme, and enhanced with metadata from their \"Aura Analysis\" for easy review and reflection."
+    },
+    {
+      "title": "Aura Analysis",
+      "detail": "An innovative twist where AI provides personalized, contextual feedback on user submissions, highlighting unique observational patterns, connecting them to broader artistic or scientific concepts, and suggesting new ways of seeing and understanding."
+    },
+    {
+      "title": "Curator Tiers & Collections",
+      "detail": "Progress through levels by completing challenges and receiving insightful feedback, unlocking advanced prompts, exclusive aesthetic filters, and the ability to curate personal or public themed collections, fostering status and self-expression."
+    }
+  ],
+  "audience": "Mindful urban explorers, creative individuals, and lifelong learners aged 25-45 who value aesthetic appreciation, personal growth, and self-expression through unique perspectives on the world.",
+  "category": "entertainment",
+  "useCases": [
+    "During a lunch break, a user opens AuraLens, sees a prompt to \"capture symmetry in the unexpected,\" and finds a striking reflection in a puddle outside their office building to photograph.",
+    "While waiting for a bus, a user reviews their \"Aura Analysis\" from a previous submission, learning about the art movement their shadow photography style aligns with, feeling a surge of intellectual curiosity.",
+    "Before bed, a user browses their \"VistaLog\" of \"Nightfall Hues\" submissions from the past week, appreciating the subtle changes in light they documented and feeling a sense of quiet accomplishment."
+  ],
+  "engagementLoop": "Users are drawn back weekly by the continuous refresh of \"Perception Prompts\" within compelling seasonal themes, the anticipation of personalized \"Aura Analysis\" insights that validate and expand their perspective, and the desire to progress through \"Curator Tiers\" to deepen their mastery and expression.",
+  "trendFit": "AuraLens aligns perfectly with the surge in micro-learning for personal enrichment, the growing desire for digital tools that promote mindfulness and slow observation, and the trend of self-expression through curated, intelligent content rather than fleeting social feeds.",
+  "monetization": "A premium subscription model offering access to exclusive seasonal themes, advanced \"Aura Analysis\" features, richer learning modules, and aesthetic customization options for the VistaLog and personal collections."
+}

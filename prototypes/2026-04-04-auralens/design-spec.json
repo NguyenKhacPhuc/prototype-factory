@@ -1,0 +1,12 @@
+{
+  "appName": "AuraLens",
+  "tagline": "Curate your unique view.",
+  "designSystem": {
+    "primaryColor": "#B87333",
+    "secondaryColor": "#4A1050",
+    "backgroundColor": "#0A0618",
+    "fontFamily": "Archivo Black",
+    "style": "Neo-brutalist with deep indigo and aubergine palette, metallic copper accents, hard offset drop shadows (no blur), thick 2-3px borders, chunky typography, asymmetric overlapping content blocks with parallax scroll elements"
+  },
+  "screens": ["Home", "Capture", "VistaLog", "Profile"]
+}
