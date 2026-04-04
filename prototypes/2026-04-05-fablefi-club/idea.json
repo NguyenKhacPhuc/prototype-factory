@@ -1,0 +1,46 @@
+{
+  "name": "FableFi Club",
+  "tagline": "Solve Money Mysteries. Collaborate. Achieve.",
+  "description": "FableFi Club is a peer-driven personal finance club where members collaborate asynchronously on \"Financial Fables\" \u2013 intricate, user-generated simulated money scenarios. Instead of sharing private financial data, users craft detailed fictional challenges (e.g., 'A freelance designer needs to save for a downpayment and student loan repayment') which other club members then dissect, offering specific, actionable financial strategies and budget plans for the fictional character. This novel approach allows for risk-free practice of complex financial decision-making, fostering deep learning and diverse perspectives. Users earn recognition and 'Solver Badges' for contributing to and successfully guiding these fables to their 'achievement' goals, making the journey towards financial literacy engaging and habit-forming. The club's unique twist lies in its focus on collaborative narrative-building around financial challenges, providing a safe, enriching space to hone real-world money skills without the pressure of direct personal financial exposure.",
+  "features": [
+    {
+      "title": "Financial Fable Creation",
+      "detail": "Users craft detailed financial scenarios (fables) for fictional characters, outlining specific challenges, goals, and resources. This is the core user-generated content, initiating collaborative problem-solving quests for the club."
+    },
+    {
+      "title": "Asynchronous Strategy Boards",
+      "detail": "For each fable, members contribute specific, actionable financial strategies, budget breakdowns, and investment advice in a structured, conversational UI. This allows for rich, collaborative solution-building without real-time pressure."
+    },
+    {
+      "title": "Fable Solver Badges & Tiers",
+      "detail": "Users earn recognition and level up within the club by successfully contributing high-quality solutions to fables and curating effective plans. This taps directly into the emotional hook of progress and achievement, fostering ongoing engagement."
+    },
+    {
+      "title": "\"My Fabledex\" for Application",
+      "detail": "A private journal where users can reflect on lessons learned from solved fables and log how they apply those simulated strategies to their own personal finances. This feature bridges the gap between practice and real-world impact."
+    },
+    {
+      "title": "Curated Fable Collections",
+      "detail": "Club moderators and top-tier members curate themed collections of insightful fables and their most effective solutions (e.g., 'First-Time Investor Fables,' 'Debt-Free Journeys'). This makes knowledge discovery organized and inspiring for all members."
+    }
+  ],
+  "audience": "Young to mid-career professionals (25-45) who are financially conscious, seek to improve their financial literacy and decision-making skills, value community learning, and are comfortable with digital collaboration.",
+  "category": "personal finance",
+  "useCases": [
+    {
+      "description": "A user struggling with budgeting for an upcoming cross-country move posts a 'Moving Money Fable,' creating a fictional character with similar constraints to get diverse input without oversharing personal details.",
+      "title": "Practice complex budgeting"
+    },
+    {
+      "description": "Someone contemplating a career change and associated pay cut joins a 'Career Pivot Fable' quest to see how other members strategically plan for income gaps and reskilling investments for the fictional character.",
+      "title": "Simulate major life transitions"
+    },
+    {
+      "description": "An active FableFi member regularly browses the 'Solved Fables' section, specifically looking for intricate investment scenarios that challenge them to refine their own portfolio strategies without real monetary risk.",
+      "title": "Refine investment strategies"
+    }
+  ],
+  "engagementLoop": "Users are drawn in by the desire to practice complex financial problem-solving in a safe, engaging environment. They return multiple times weekly to create new challenging fables, contribute their expertise to ongoing quests, track the 'progress' of fables they've started or contributed to, and collect 'Solver Badges,' fostering a continuous cycle of learning, contribution, and achievement recognition.",
+  "trendFit": "FableFi Club aligns with the 'Niche Community Network' trend by creating a focused club for collaborative financial learning and problem-solving. It leverages 'Conversational UI' within the strategy boards for asynchronous collaboration and taps into the emotional satisfaction of 'progress and achievement' through a gamified, user-generated content-driven approach.",
+  "monetization": "A Freemium model offering a limited number of active fables or premium access to advanced analytical tools within the Fabledex (personal reflection journal) and exclusive expert-curated fable collections."
+}

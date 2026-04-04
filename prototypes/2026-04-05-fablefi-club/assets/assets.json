@@ -1,0 +1,14 @@
+{
+  "appName": "FableFi Club",
+  "fontFamily": "Archivo Black",
+  "colors": {
+    "primary": "#E91E63",
+    "secondary": "#FF8A65",
+    "background": "#1A1A1A",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

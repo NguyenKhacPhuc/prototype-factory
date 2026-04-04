@@ -1,0 +1,12 @@
+{
+  "appName": "FableFi Club",
+  "tagline": "Solve Money Mysteries. Collaborate. Achieve.",
+  "designSystem": {
+    "primaryColor": "#E91E63",
+    "secondaryColor": "#FF8A65",
+    "backgroundColor": "#1A1A1A",
+    "fontFamily": "Archivo Black",
+    "style": "Editorial magazine with full-bleed gradient headers, cozy charcoal surfaces, hot magenta accents, typographic hierarchy, and structured asymmetric layouts"
+  },
+  "screens": ["home", "explore", "create", "fabledex"]
+}
