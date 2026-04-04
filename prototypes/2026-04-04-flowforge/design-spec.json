@@ -1,0 +1,13 @@
+{
+  "appName": "FlowForge",
+  "tagline": "Weave your daily progress.",
+  "designSystem": {
+    "primaryColor": "#0D1B2A",
+    "secondaryColor": "#C9922A",
+    "backgroundColor": "#F5F0E8",
+    "accentColor": "#FF5A38",
+    "fontFamily": "Work Sans",
+    "style": "Bold geometric with dynamic asymmetric grid modules, deep midnight blue primary with burnished brass accents and vivid coral CTAs on a desaturated linen base"
+  },
+  "screens": ["home", "tapestries", "quests", "journal"]
+}

@@ -1,0 +1,41 @@
+{
+  "appName": "FlowForge",
+  "fontFamily": "Work Sans",
+  "colors": {
+    "primary": "#0D1B2A",
+    "secondary": "#C9922A",
+    "background": "#F5F0E8",
+    "accent": "#FF5A38"
+  },
+  "icons": [
+    "arrow-right",
+    "book-open",
+    "bookmark",
+    "camera",
+    "check",
+    "check-circle",
+    "chevron-down",
+    "chevron-left",
+    "chevron-right",
+    "chevron-up",
+    "clock",
+    "flame",
+    "heart",
+    "image",
+    "layers",
+    "lock",
+    "mic",
+    "moon",
+    "sparkles",
+    "sun",
+    "target",
+    "type",
+    "user",
+    "users",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 26,
+  "fontFileCount": 0
+}
