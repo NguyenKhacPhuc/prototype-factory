@@ -1,5 +1,5 @@
 #!/bin/bash
-# Generate a creative app idea using OpenAI API
+# Generate a creative app idea using Google Gemini API
 # Output: JSON with name, tagline, description, features, audience, category, useCases, engagementLoop, trendFit, monetization
 
 set -euo pipefail
@@ -7,10 +7,11 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 source "$SCRIPT_DIR/../.env"
 
-if [ -z "${OPENAI_API_KEY:-}" ] || [ "$OPENAI_API_KEY" = "your-openai-api-key-here" ]; then
-  echo "Error: Set OPENAI_API_KEY in .env" >&2
+if [ -z "${GEMINI_API_KEY:-}" ]; then
+  echo "Error: Set GEMINI_API_KEY in .env" >&2
   exit 1
 fi
+
 CATEGORIES=(
   "health & fitness"
   "personal finance"
@@ -114,9 +115,9 @@ engagement = '''${ENGAGEMENT}'''
 trend = '''${TREND}'''
 emotional_hook = '''${EMOTIONAL_HOOK}'''
 
-system_msg = 'You are a creative mobile app idea generator. Output valid JSON only. Prioritize originality, strong differentiation, believable consumer appeal, and engagement depth. Avoid repetitive startup clichés and generic utility app framing.'
+prompt = f'''You are a creative mobile app idea generator. Prioritize originality, strong differentiation, believable consumer appeal, and engagement depth. Avoid repetitive startup clichés and generic utility app framing.
 
-user_msg = f'''Generate a highly original mobile app idea in the category: {category}.
+Generate a highly original mobile app idea in the category: {category}.
 
 Creative direction:
 - Product archetype: {archetype}
@@ -151,33 +152,32 @@ Return JSON with these fields:
 Variation rules:
 - Make the concept specific enough that it could be pitched or prototyped next week.
 - Do not make it sound like a school-project app idea.
-- Make the idea meaningfully different from common productivity-tool patterns.'''
+- Make the idea meaningfully different from common productivity-tool patterns.
+
+Output valid JSON only, no markdown fences.'''
 
 payload = {
-    'model': 'gpt-4.1-mini',
-    'temperature': 1.2,
-    'response_format': {'type': 'json_object'},
-    'messages': [
-        {'role': 'system', 'content': system_msg},
-        {'role': 'user', 'content': user_msg}
-    ]
+    'contents': [{'parts': [{'text': prompt}]}],
+    'generationConfig': {
+        'temperature': 1.2,
+        'responseMimeType': 'application/json'
+    }
 }
 print(json.dumps(payload))
 ")
 
-RESPONSE=$(curl -s https://api.openai.com/v1/chat/completions \
+RESPONSE=$(curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}" \
   -H "Content-Type: application/json" \
-  -H "Authorization: Bearer $OPENAI_API_KEY" \
   -d "$PAYLOAD")
 
-# Extract the content from OpenAI response
+# Extract the content from Gemini response
 echo "$RESPONSE" | python3 -c "
 import sys, json
 data = json.load(sys.stdin)
 if 'error' in data:
     print(json.dumps(data), file=sys.stderr)
     sys.exit(1)
-content = data['choices'][0]['message']['content']
+content = data['candidates'][0]['content']['parts'][0]['text']
 parsed = json.loads(content)
 print(json.dumps(parsed, indent=2))
 "

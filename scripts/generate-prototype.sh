@@ -62,12 +62,7 @@ APP_CATEGORY=$(echo "$IDEA_JSON" | python3 -c "import sys,json; print(json.load(
 VISUAL_DIRECTION=$(python3 -c "
 import json, urllib.request, os
 
-body = json.dumps({
-    'model': 'gpt-4.1-mini',
-    'temperature': 1.3,
-    'max_tokens': 200,
-    'messages': [
-        {'role': 'system', 'content': '''You are a mobile app art director. Given an app idea, output a JSON object with a bold, specific visual direction. Be opinionated and distinctive — no generic \"clean minimal\" or \"glassmorphic cards\" defaults.
+prompt = '''You are a mobile app art director. Given an app idea, output a JSON object with a bold, specific visual direction. Be opinionated and distinctive — no generic \"clean minimal\" or \"glassmorphic cards\" defaults.
 
 Return JSON only:
 {
@@ -76,17 +71,24 @@ Return JSON only:
   \"font\": \"one specific Google Font (NOT Inter, NOT Outfit, NOT DM Sans, NOT Space Grotesk — pick from: Playfair Display, Bitter, Crimson Pro, Libre Baskerville, Source Serif 4, Fraunces, Lora, Merriweather, Archivo Black, Bebas Neue, Oswald, Barlow Condensed, Chakra Petch, Orbitron, Press Start 2P, Silkscreen, Caveat, Permanent Marker, Patrick Hand, Satisfy, Righteous, Poppins, Quicksand, Nunito, Comfortaa, Fredoka, Baloo 2, Rubik, Lexend, Work Sans, Manrope, Red Hat Display, Instrument Sans, Figtree, Geist, Atkinson Hyperlegible)\",
   \"mood\": \"3-5 word emotional descriptor, e.g. confident and rebellious, cozy sunday afternoon, clinical precision\",
   \"layout_twist\": \"one unique layout element, e.g. overlapping cards at angles, full-bleed photo headers, sticky floating action island, asymmetric grid, tab content slides horizontally, stacked horizontal scroll sections, bottom sheet reveals\"
-}'''},
-        {'role': 'user', 'content': 'App: $APP_NAME — $APP_TAGLINE. Category: $APP_CATEGORY'}
-    ]
+}
+
+App: $APP_NAME — $APP_TAGLINE. Category: $APP_CATEGORY'''
+
+body = json.dumps({
+    'contents': [{'parts': [{'text': prompt}]}],
+    'generationConfig': {
+        'temperature': 1.3,
+        'responseMimeType': 'application/json'
+    }
 }).encode()
-req = urllib.request.Request('https://api.openai.com/v1/chat/completions', data=body, headers={
-    'Authorization': 'Bearer ' + os.environ['OPENAI_API_KEY'],
-    'Content-Type': 'application/json'
-})
+req = urllib.request.Request(
+    'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + os.environ['GEMINI_API_KEY'],
+    data=body,
+    headers={'Content-Type': 'application/json'}
+)
 resp = json.loads(urllib.request.urlopen(req).read())
-content = resp['choices'][0]['message']['content'].strip()
-# Parse and extract
+content = resp['candidates'][0]['content']['parts'][0]['text']
 d = json.loads(content)
 print(json.dumps(d))
 " 2>/dev/null) || VISUAL_DIRECTION='{"palette":"warm coral on off-white","style":"editorial magazine","font":"Playfair Display","mood":"confident and refined","layout_twist":"overlapping cards at angles"}'
