@@ -1,0 +1,14 @@
+{
+  "appName": "Eco Thrive",
+  "fontFamily": "Lora",
+  "colors": {
+    "primary": "#4a7c3f",
+    "secondary": "#7a5230",
+    "background": "#1a1f14",
+    "accent": "#c0392b"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

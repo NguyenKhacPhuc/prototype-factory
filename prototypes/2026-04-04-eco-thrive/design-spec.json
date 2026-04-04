@@ -1,0 +1,13 @@
+{
+  "appName": "Eco Thrive",
+  "tagline": "Grow health, cultivate nature.",
+  "designSystem": {
+    "primaryColor": "#4a7c3f",
+    "secondaryColor": "#7a5230",
+    "backgroundColor": "#1a1f14",
+    "accentColor": "#c0392b",
+    "fontFamily": "Lora",
+    "style": "Organic hand-drawn with asymmetric angled content blocks, forest green and soil brown on linen white, nurturing and vibrant mood"
+  },
+  "screens": ["home", "biome", "quests", "ecodash"]
+}
