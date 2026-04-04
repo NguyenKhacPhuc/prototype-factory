@@ -1,0 +1,30 @@
+{
+  "appName": "TerraBites",
+  "fontFamily": "Fraunces",
+  "colors": {
+    "primary": "#C8440A",
+    "secondary": "#D4A017",
+    "background": "#1C1007",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "book-open",
+    "check-circle",
+    "compass",
+    "globe",
+    "help-circle",
+    "home",
+    "map",
+    "map-pin",
+    "plus",
+    "shield",
+    "sun",
+    "user",
+    "wifi"
+  ],
+  "fonts": [],
+  "iconCount": 15,
+  "fontFileCount": 0
+}

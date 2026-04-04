@@ -1,0 +1,37 @@
+{
+  "name": "TerraBites",
+  "tagline": "Uncover local flavors. Preserve culinary heritage.",
+  "description": "TerraBites transforms users into 'Flavor Cartographers,' embarking on a mission to discover, document, and preserve the unique culinary identity of their local neighborhoods and regions. Far beyond a simple recipe app or restaurant guide, TerraBites leverages a community-driven model where users log hyper-local, often unsung, dishes, ingredients, and food traditions \u2013 from the secret grandma's recipe served at a corner eatery to an obscure seasonal wild edible found in local markets. The app emphasizes rigorous, crowdsourced 'Provenance Verification' where other community members vouch for the authenticity and context of each entry, building a trusted archive of culinary lore. This collective effort fosters a deep sense of belonging among users who share a passion for their local food landscape, celebrating identity through shared discovery and preservation. The habit-forming core is a 'Cartographer's Streak,' challenging users to continuously unearth and contribute unique, verified local culinary knowledge, creating a dynamic, living encyclopedia of taste that evolves with its community.",
+  "features": [
+    {
+      "title": "Local Lore Logbook",
+      "detail": "Users document specific local dishes, ingredients, or food traditions, detailing their history, origin, typical preparation, and where they can be experienced or purchased. This provides rich context beyond a mere photo."
+    },
+    {
+      "title": "Flavor Cartographer Streaks",
+      "detail": "Maintain daily or weekly streaks by contributing new, verified entries of unique local culinary items to your community's map. This mechanic drives consistent exploration and knowledge sharing."
+    },
+    {
+      "title": "Provenance Verification",
+      "detail": "Community members can upvote, comment on, and 'verify' submitted entries, adding legitimacy and depth to the collective knowledge base. This ensures accuracy and builds trust within the local food community."
+    },
+    {
+      "title": "Neighborhood Gastromap",
+      "detail": "Visually explore a dynamic, geotagged map populated with verified local food discoveries, making it easy to plan culinary adventures in your area or while traveling."
+    },
+    {
+      "title": "Heritage Huddles & Quests",
+      "detail": "Join hyper-local discussion groups focused on specific food traditions or participate in 'Quests' to find and document rare or endangered culinary practices within your region. This strengthens community bonds and purposeful engagement."
+    }
+  ],
+  "audience": "Culturally curious food enthusiasts, local residents passionate about their community's heritage, and mindful travelers aged 25-60 who seek authentic, off-the-beaten-path culinary experiences.",
+  "category": "food & cooking",
+  "useCases": [
+    "A user visits a new neighborhood and opens TerraBites to discover highly-rated, verified local 'TerraBites' (unique dishes/ingredients) recommended by residents, helping them choose an authentic eatery for lunch.",
+    "A home cook discovers an unusual local fruit at the farmers market and uses TerraBites to research its origin, common uses, and find out if it's a known 'TerraBite' within their community, then logs it to continue their Cartographer Streak.",
+    "A new resident wants to understand the 'food identity' of their town. They browse the Gastromap, read local lore, and join 'Heritage Huddles' to connect with others and identify the next unique culinary tradition to explore and contribute."
+  ],
+  "engagementLoop": "The 'Cartographer's Streak' encourages daily or weekly engagement by rewarding users for continuous contribution of unique, verified local food knowledge. The social validation and 'Provenance Verification' from the community provides a strong emotional hook of belonging and recognition, driving users to discover more and expand their identity as a trusted local food expert, perpetuating the cycle of exploration and contribution.",
+  "trendFit": "TerraBites aligns perfectly with the growing trends of localism, authentic experience seeking, and community-driven content. It taps into the desire for genuine connections to place and people through the shared discovery and preservation of unique cultural heritage.",
+  "monetization": "A freemium model offering premium subscriptions for advanced analytics on local food trends, priority access to 'Heritage Quests,' and exclusive 'Flavor Tour' partnerships with local businesses featuring verified TerraBites."
+}

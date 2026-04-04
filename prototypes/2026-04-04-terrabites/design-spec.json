@@ -1,0 +1,12 @@
+{
+  "appName": "TerraBites",
+  "tagline": "Uncover local flavors. Preserve culinary heritage.",
+  "designSystem": {
+    "primaryColor": "#C8440A",
+    "secondaryColor": "#D4A017",
+    "backgroundColor": "#1C1007",
+    "fontFamily": "Fraunces",
+    "style": "Retro-analog with deep earthy umber and sun-dried tomato red on aged parchment cream. Asymmetric grid layouts, stamp-like UI elements, textured borders, and nostalgic typographic hierarchy using Fraunces serif for an authentic, rooted feel."
+  },
+  "screens": ["home", "map", "log", "quests", "settings"]
+}
