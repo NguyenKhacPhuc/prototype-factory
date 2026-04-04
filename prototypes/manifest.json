@@ -1,5 +1,532 @@
 [
   {
+    "folder": "2026-04-04-terra-trails",
+    "appName": "Terra Trails",
+    "tagline": "Map your impact, unearth rewards.",
+    "designSystem": {
+      "primaryColor": "#4A7C1F",
+      "secondaryColor": "#C4622D",
+      "backgroundColor": "#141A09",
+      "accentColor": "#B8860B",
+      "fontFamily": "Bitter",
+      "style": "Retro-analog with asymmetric staggered grid layouts, earthy textures, and purposeful adventure aesthetic. Deep forest green, warm terracotta, and brass gold on near-black background. Organic card shapes with offset border-radii mimic unearthed fragments."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "collection",
+      "leaderboard",
+      "quests"
+    ],
+    "hasScreenshot": true,
+    "description": "Terra Trails transforms daily sustainable actions into a playful treasure hunt within your local environment. Users discover \"Eco-Spots\" \u2013 specific real-world locations like public recycling bins, community gardens, verified eco-friendly cafes, or even energy-saving appliances in homes (via QR code) \u2013 and unlock interactive challenges or log their sustainable deeds. Each logged action contributes to their individual \"Terra Score\" and their local community's ranking on competitive leaderboards. The app provides surprise rewards and unique digital collectibles (e.g., AR creatures representing local biodiversity) as users explore more, fostering a sense of achievement and discovery. This makes sustainability an engaging, visible, and rewarding local endeavor, moving beyond passive tracking to active, play-driven participation. The emotional hook lies in the unexpected finds and the joy of contributing to a healthier planet through gamified exploration.",
+    "features": [
+      {
+        "title": "Eco-Spot Expeditions",
+        "detail": "Discover geo-tagged sustainable points of interest, from recycling centers to community gardens, triggering location-based challenges or knowledge quizzes. This encourages users to explore and interact with their local sustainable infrastructure."
+      },
+      {
+        "title": "Impact Leaderboards",
+        "detail": "Compete individually, or as part of local \"Eco-Squads,\" to climb leaderboards based on collective sustainable actions and impact points. This fosters friendly competition and community pride, motivating continuous engagement."
+      },
+      {
+        "title": "Mythical Flora & Fauna Collection",
+        "detail": "Unlock unique, region-specific digital collectibles (e.g., AR \"Spirit Animals\" or \"Flora Guardians\") by completing challenges at various Eco-Spots. This adds a surprising, delightful, and personalized gamified element tied to real-world action."
+      },
+      {
+        "title": "Daily Eco-Quests",
+        "detail": "Receive surprise daily prompts for sustainable micro-actions, such as \"Identify 3 items for composting\" or \"Find a water-saving tip,\" earning bonus points and small rewards. This provides fresh content and a reason to open the app every day."
+      },
+      {
+        "title": "Adaptive Eco-Narratives",
+        "detail": "The app's interface and challenge recommendations dynamically adjust based on user's progress, local environmental data, and seasonal sustainability themes. This ensures hyper-personalized engagement and relevant challenges without explicit configuration."
+      }
+    ],
+    "audience": "Environmentally conscious individuals aged 18-35 who are tech-savvy, enjoy gaming, and seek meaningful, playful ways to contribute to sustainability without feeling overwhelmed by complex data.",
+    "category": "sustainability",
+    "useCases": [
+      {
+        "description": "On her lunch break, Sarah opens Terra Trails. The app highlights a nearby cafe verified for composting and asks her to snap a photo of her compostable cup for bonus points, unlocking a 'Waste Warrior' badge."
+      },
+      {
+        "description": "Mark takes his recycling to the public depot. Upon arrival, Terra Trails prompts him with a quick AR mini-game to sort virtual waste, rewarding him with a new 'Recycle Ranger' collectible and boosting his team's score."
+      },
+      {
+        "description": "During a weekend walk in the park, Priya gets a notification from Terra Trails about a nearby community garden. She visits, learns about native plants through an in-app interactive story, and unlocks a rare 'Forest Sprite' collectible for her digital garden."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-04-mindful-atlas",
+    "appName": "Mindful Atlas",
+    "tagline": "Co-create your world's mindful story.",
+    "designSystem": {
+      "primaryColor": "#C8963E",
+      "secondaryColor": "#6B8C5A",
+      "backgroundColor": "#1A1610",
+      "accentColor": "#8B6B3D",
+      "fontFamily": "Fraunces",
+      "style": "Retro-analog with aged parchment textures, dashed borders, map coordinate typography, vintage stamp motifs, and ochre-moss-charcoal palette \u2014 nostalgic, serene, curated discovery"
+    },
+    "screens": [
+      "home",
+      "explore",
+      "collection",
+      "journey"
+    ],
+    "navigation": "gesture-based swipe with vintage instrument panel bottom nav and progress dot indicators",
+    "defaultTheme": "dark",
+    "keyFeatures": [
+      "Geo-Anchored Rituals with horizontal scroll discovery",
+      "Local Lore stacked horizontal scroll sections",
+      "Memory Shard collection with rarity system and detail modal",
+      "Wellness Journey with SVG progress ring and achievement badges",
+      "Light/Dark theme toggle on all screens"
+    ],
+    "hasScreenshot": true,
+    "description": "Mindful Atlas transforms travel into a collaborative, reflective game where users co-create a living digital tapestry of global experiences. Instead of merely documenting trips, users engage in short, guided 'Rituals' unique to their current location\u2014from observing the subtle shift of light on an ancient wall to deeply listening to the local street sounds. Completing these mindful micro-quests unlocks unique 'Memory Shards'\u2014multi-sensory fragments (visual, audio, haptic) that contribute to a communal 'Local Lore' for each geo-tagged area. This collaborative narrative evolves with every traveler's contribution, offering an authentic, evolving 'spirit of a place' guide, fostering a sense of calm presence and reassuring connection to both the environment and a global community of mindful explorers. It turns every journey into an opportunity for introspective discovery and shared cultural reverence.",
+    "features": [
+      {
+        "title": "Geo-Anchored Rituals",
+        "detail": "Discover and engage in unique, location-specific mindful activities, from sensory observations to short reflective prompts. These gentle tasks encourage deep engagement with your surroundings, fostering calm and presence."
+      },
+      {
+        "title": "Collaborative Local Lore",
+        "detail": "Contribute your unique 'Memory Shards' (visuals, sounds, haptics) from completed rituals to an evolving, communal narrative for each geo-location. This creates a rich, authentic digital 'spirit of a place' co-authored by travelers."
+      },
+      {
+        "title": "Memory Shard Collection",
+        "detail": "Each completed ritual rewards a unique, collectible 'Memory Shard' tied to that experience and location. Building your collection unlocks new levels of personal wellness journeys and deeper rituals."
+      },
+      {
+        "title": "Wellness Journey Progression",
+        "detail": "Progress through a personalized 'Wellness Journey' as you engage with more rituals and contribute to Local Lore, reinforcing habits of mindfulness and appreciation for your travels, providing ongoing motivation."
+      },
+      {
+        "title": "Immersive 'Story' Presentation",
+        "detail": "Experience rituals and view collected 'Memory Shards' through full-screen, visually rich interfaces with enhanced haptic feedback. This provides a deeply engaging and delightful sensory experience that makes interactions feel more meaningful."
+      }
+    ],
+    "audience": "Mindful travelers, cultural explorers, and digital nomads (ages 25-55) who seek deeper, more authentic, and introspective travel experiences beyond traditional tourism. Individuals interested in personal growth, wellness, and contributing to shared cultural knowledge.",
+    "category": "travel",
+    "useCases": [
+      "A solo traveler feels overwhelmed in a bustling city. They open Mindful Atlas, find a 'Ritual' for 'Observing Urban Flow,' and spend 10 minutes mindfully watching street life from a cafe, feeling grounded and present.",
+      "A couple is visiting a new national park. They use Mindful Atlas to find a 'Ritual' for 'Listening to the Forest,' sitting silently to identify different natural sounds, sharing a quiet, unique experience and contributing to the park's Lore.",
+      "Someone planning their next trip wants to understand the true 'vibe' of a destination. They explore the 'Local Lore' map on Mindful Atlas, browsing communal 'Memory Shards' to get an authentic, community-curated sensory preview of the place."
+    ]
+  },
+  {
+    "folder": "2026-04-04-artisan-forge",
+    "appName": "Artisan Forge",
+    "tagline": "Stake your craft, create with purpose.",
+    "designSystem": {
+      "primaryColor": "#B84A2E",
+      "secondaryColor": "#0047FF",
+      "backgroundColor": "#F5F0E8",
+      "fontFamily": "Archivo Black",
+      "style": "Neo-brutalist with matte charcoal black borders, rusty iron red primary, unbleached canvas beige background, and electric cobalt accents. Chunky thick-bordered content blocks, asymmetric grid layouts with alternating card offsets, raw and purposeful typography hierarchy."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "forge",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Artisan Forge is a unique commitment marketplace for creatives, designed to vanquish procrastination and fuel consistent output. Users discover or create \"Challenges\" \u2013 hyper-specific creative prompts like 'Design a retro-futuristic vending machine' or 'Compose a 1-minute soundscape for a hidden forest glade' \u2013 posted by the community or curated 'Guilds.' To join a challenge, they must 'stake' a small amount of in-app currency or credits. This stake is held in escrow until the user submits their completed creative piece by the deadline. If successful and the submission meets basic community-moderated criteria, they receive their stake back, often with a bonus derived from participants who failed to complete their commitment. This powerful social accountability and minor financial incentive transforms a passive desire to create into active, rewarding production, making it a habit-forming platform for artists, writers, designers, and hobbyists alike.",
+    "features": [
+      {
+        "title": "Stake-to-Create Challenges",
+        "detail": "Users commit a small amount of in-app currency to join a creative challenge, which they risk losing if they don't submit their work by the deadline, driving powerful engagement and accountability."
+      },
+      {
+        "title": "Curated Creative Guilds",
+        "detail": "Join specialized communities focused on specific creative disciplines (e.g., 'Pixel Art Foundry,' 'Poetry Anvil') offering tailored prompts, critiques, and collective challenges."
+      },
+      {
+        "title": "Prompt Discovery Forge",
+        "detail": "An AI-powered system suggests novel, personalized creative prompts based on your historical activity, interests, and trending themes, ensuring a fresh source of inspiration daily."
+      },
+      {
+        "title": "Immersive Project Showcases",
+        "detail": "Display completed challenge submissions in beautiful, full-screen galleries. This allows users to build a portfolio of their achievements and discover the work of others in an engaging, ad-free environment."
+      },
+      {
+        "title": "Creator's Ledger & Progression",
+        "detail": "Track your success rate, earn unique badges, and climb leaderboards within Guilds based on completed challenges, fostering a sense of achievement and encouraging continuous participation."
+      }
+    ],
+    "audience": "Aspiring and seasoned creatives (artists, writers, designers, musicians) aged 18-45 who struggle with motivation, consistency, or creative block and thrive in structured, community-driven environments.",
+    "category": "creative tools",
+    "useCases": [
+      "A freelance writer needs to practice daily micro-fiction but keeps procrastinating. They find a 'Daily 100-word Story' challenge, stake 20 credits, and successfully complete it to build a consistent writing habit.",
+      "An aspiring graphic designer wants to expand their portfolio with unique concepts. They join the 'UI/UX Innovations' Guild, participate in a 'Design a Smart Home Dashboard' challenge, and learn by seeing other members' diverse approaches.",
+      "A musician is experiencing writer's block for new melodies. They post their own challenge, 'Compose a 30-second theme for an enchanted forest,' offering a small bonus, sparking a fresh wave of inspiration from community submissions."
+    ]
+  },
+  {
+    "folder": "2026-04-04-locale-quests",
+    "appName": "Locale Quests",
+    "tagline": "Uncover local challenges, team up, make an impact.",
+    "designSystem": {
+      "primaryColor": "#d4621a",
+      "secondaryColor": "#2d6a4f",
+      "backgroundColor": "#0e1a12",
+      "accentColor": "#52b788",
+      "fontFamily": "Bitter",
+      "style": "Editorial magazine \u2014 asymmetric grid layouts, bold italic serif headings, thick accent rules, sparse whitespace with high-contrast typographic hierarchy. Deep forest green surfaces with burnt orange accents on warm off-white text. Concrete grey for muted UI elements."
+    },
+    "colorPalette": {
+      "dark": {
+        "background": "#0e1a12",
+        "surface": "#162b1e",
+        "surfaceAlt": "#1c3322",
+        "text": "#f0ebe1",
+        "textMuted": "#8a9e8e",
+        "accent": "#d4621a",
+        "green": "#2d6a4f",
+        "greenLight": "#52b788",
+        "border": "#1e3426"
+      },
+      "light": {
+        "background": "#f5f0e8",
+        "surface": "#ffffff",
+        "surfaceAlt": "#ede8dd",
+        "text": "#1a2e20",
+        "textMuted": "#6b7a6e",
+        "accent": "#c4551a",
+        "green": "#2d6a4f",
+        "greenLight": "#3d8b65",
+        "border": "#d0c9bc"
+      }
+    },
+    "screens": [
+      "home",
+      "explore",
+      "guild",
+      "impact",
+      "profile"
+    ],
+    "screenDescriptions": {
+      "home": "Today's quest feed \u2014 asymmetric editorial header with italic serif title, filter pills, featured guild mission card in forest green, and scrollable solo quest list with category tags and XP indicators",
+      "explore": "Proximity map view with tap-to-select quest pins, distance list, and selected quest detail card. Simulated grid-overlay street map for Riverside District.",
+      "guild": "Guild dashboard with member avatar strip, tabbed missions/leaderboard/chat. Mission progress bars, XP leaderboard, and guild chat with reply input.",
+      "impact": "Impact ledger with monthly progress bar, 2\u00d72 asymmetric stats grid, recent impact timeline, and achievement badges with locked/unlocked states.",
+      "profile": "User profile with green hero section, multi-segment skill scroll bars, AI-adaptive next-step suggestions, and settings list."
+    },
+    "navigation": "bottom-tabs",
+    "defaultTheme": "dark",
+    "themeToggle": true,
+    "hasScreenshot": true,
+    "description": "Locale Quests is a challenge app that transforms everyday surroundings into a playground for meaningful productivity through collaborative micro-missions. Users form 'Guilds' with friends or local enthusiasts, then receive dynamically generated, location-aware quests designed to foster civic engagement, personal growth, and local discovery. These aren't abstract tasks; they are bite-sized, real-world challenges like 'Find and photograph 3 hidden historical markers in your district,' or 'Spend 15 minutes volunteering for a local community garden,' or 'Discover a new public space and rate its accessibility.' The app's core twist is its AI engine that continually curates novel challenges based on user interests, time of day, local events, and community needs, ensuring a fresh experience daily. Guilds collaborate to complete 'Missions' comprising multiple quests, verifying completion with short-form photo/video snippets. This gamified approach, combined with visible collective impact and constant novelty, makes engagement feel less like a chore and more like an exciting co-operative adventure, fostering both personal productivity and community connection.",
+    "features": [
+      {
+        "title": "Dynamic Quest Engine",
+        "detail": "Our proprietary AI curates and generates hyper-local, context-aware micro-challenges daily. This ensures a constant stream of novel activities, preventing monotony and encouraging exploration aligned with user interests and real-world needs."
+      },
+      {
+        "title": "Co-op Guilds & Missions",
+        "detail": "Form or join 'Guilds' with others to tackle larger 'Missions' composed of multiple quests. Shared progress boards and in-app chat foster teamwork, accountability, and a sense of collective achievement."
+      },
+      {
+        "title": "Micro-Verification Snippets",
+        "detail": "Complete quests by submitting short photo or video 'proof' directly within the app, similar to short-form content but for utility. This authenticates participation, creates a visual log of your achievements, and helps the AI learn."
+      },
+      {
+        "title": "Impact Ledger",
+        "detail": "Visually track your Guild's collective contributions and the tangible impact of completed Missions on a local map or community dashboard. Seeing real-world results motivates continued engagement and highlights your positive footprint."
+      },
+      {
+        "title": "Adaptive Skill Scrolls",
+        "detail": "As you complete quests, the AI identifies emerging skills or interests and suggests follow-up challenges to deepen your expertise or introduce new areas. This fosters continuous learning and personal development in a guided, unobtrusive way."
+      }
+    ],
+    "audience": "Young professionals, students, and remote workers (ages 20-35) who feel isolated or overwhelmed by traditional productivity methods and are looking for engaging, purpose-driven ways to break routine, connect with their local environment, and contribute meaningfully.",
+    "category": "productivity",
+    "useCases": [
+      "A remote employee feels stuck after work and opens Locale Quests to find a 'Mindful Walk & Observe' quest in a nearby park, refreshing their perspective and logging a productive break.",
+      "A group of friends decides to form a Guild for a weekend 'Local Exploration' Mission, jointly completing quests like 'Visit a new independent bookstore' or 'Identify 5 types of native plants in a green space,' making their social time more engaging and purpose-driven.",
+      "A new resident wants to proactively learn about their neighborhood. They join a 'Community Steward' Guild and receive quests to locate local recycling centers, identify community notice boards, or interview a small business owner, quickly embedding themselves in their new environment."
+    ]
+  },
+  {
+    "folder": "2026-04-04-the-praxis-guild",
+    "appName": "The Praxis Guild",
+    "tagline": "Rituals for focused progress, together.",
+    "designSystem": {
+      "primaryColor": "#2A5638",
+      "secondaryColor": "#C4622D",
+      "backgroundColor": "#0D1810",
+      "fontFamily": "Bitter",
+      "style": "Editorial magazine \u2014 strong typographic hierarchy, asymmetric grid layouts with oversized ghost numerals, color-blocked section headers, and minimal decoration in favor of bold text treatments and clear spatial rhythm."
+    },
+    "screens": [
+      "home",
+      "sanctuaries",
+      "session",
+      "altar"
+    ],
+    "hasScreenshot": true,
+    "description": "The Praxis Guild transforms solo endeavors into shared, ritualized journeys of focus and accountability. In a world of constant distraction, this app provides dedicated digital sanctuaries where individuals, united by a common identity or goal, convene for live, silent work sessions. Each session begins and ends with a brief, guided ceremonial moment \u2013 a collective declaration of intent, followed by a shared period of deep, uninterrupted work, and concluding with a mindful reflection. It's not about watching others work, but about 'showing up' in the quiet presence of like-minded individuals, leveraging soft social accountability and the power of shared intention. The app fosters intrinsic motivation by turning solitary tasks into communal rituals, creating a powerful emotional hook that helps users overcome procrastination and cultivate consistent habits. Imagine a writer committing to their daily sprint alongside fellow authors, or a student dedicating hours to study, knowing others in their 'Study Sanctuary' are doing the same.",
+    "features": [
+      {
+        "title": "Guild Sanctuaries",
+        "detail": "Join identity-based communities (e.g., 'The Writer's Collective,' 'Deep Focus Engineers') that host specific ritual sessions. This allows users to find a supportive environment tailored to their personal or professional pursuits."
+      },
+      {
+        "title": "Ritual Sessions",
+        "detail": "Participate in live, scheduled blocks of focused work, typically 30-120 minutes, with a guided ceremonial start and end. This mechanic cultivates a sense of shared commitment and provides a clear temporal boundary for deep work."
+      },
+      {
+        "title": "Intention & Reflection Flow",
+        "detail": "Before each session, privately declare your goal; afterwards, reflect on your progress and share insights with your guild. This structured journaling reinforces accountability and helps users track their growth over time."
+      },
+      {
+        "title": "Focused Presence Mode",
+        "detail": "During live sessions, a minimalist interface shows blurred avatars or presence indicators of fellow guild members, fostering a sense of silent companionship without visual distraction. It's about being 'with' others, not directly interacting, during focused time."
+      },
+      {
+        "title": "Progress Altar",
+        "detail": "A personalized dashboard celebrating your accumulated focused hours, session streaks, and guild contributions. This visually reinforces consistency and provides a clear motivational anchor for returning."
+      }
+    ],
+    "audience": "Millennials and Gen Z professionals, students, and independent creators who struggle with focus and consistency in a distraction-rich digital world, seeking structured accountability and community for their personal and professional growth goals.",
+    "category": "social & community",
+    "useCases": [
+      "A freelance graphic designer opens the app each morning to join 'The Creative Sprint' Guild, declaring their design task for the next 90 minutes. They feel the collective energy of others starting their day, helping them bypass procrastination and dive into their work.",
+      "A university student, overwhelmed by exam prep, schedules three 45-minute sessions in 'The Academic Anchor' Guild throughout their week. The scheduled live sessions provide crucial structure, making sure they consistently dedicate time to difficult subjects.",
+      "An aspiring author uses The Praxis Guild every evening for an hour, connecting with 'The Novelist's Nook' to silently write alongside fellow writers. The ritual helps them maintain their writing habit and feel less isolated in their creative journey."
+    ]
+  },
+  {
+    "folder": "2026-04-04-fortune-folio",
+    "appName": "Fortune Folio",
+    "tagline": "Unlock collective financial wisdom.",
+    "designSystem": {
+      "primaryColor": "#1B5C6B",
+      "secondaryColor": "#B8962E",
+      "backgroundColor": "#F5F0E8",
+      "fontFamily": "Fraunces",
+      "style": "Editorial magazine with asymmetric content cards, deep teal and muted gold on creamy parchment. Rich charcoal typography with serif personality. Hub-and-spoke navigation on a dark teal bar."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "clubDetail",
+      "vault",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Fortune Folio reimagines personal finance as a collaborative learning journey, structured around specialized \"Clubs\" and user-generated \"Scrolls.\" Instead of generic budgeting, users join Clubs focused on specific financial quests, like \"Debt Demolishers\" or \"First-Time Homebuyers.\" Within these clubs, members asynchronously share their insights, research, strategies, and progress through rich, narrative \"Scrolls\" \u2013 concise, multimedia posts detailing their approach to a specific financial challenge. This builds a unique, peer-powered knowledge base where individuals learn by doing, sharing, and observing others' authentic experiences. The app fosters a sense of shared purpose and achievement, moving users beyond isolated financial tracking to an engaged community actively building collective financial intelligence and celebrating individual milestones together. It transforms passive learning into active contribution and collective growth.",
+    "features": [
+      {
+        "title": "Discovery Clubs",
+        "detail": "Users explore and join specialized financial clubs (e.g., \"Early Retirement Planners,\" \"Crypto Curious,\" \"Side Hustle Strategists\") tailored to their interests and goals, ensuring relevant peer connections and curated content."
+      },
+      {
+        "title": "Financial Scrolls",
+        "detail": "Members create rich, multimedia \"Scrolls\" to document their financial strategies, research findings, personal lessons, or progress on specific club \"Quests,\" fostering authentic user-generated content and shared insights."
+      },
+      {
+        "title": "Asynchronous Quests",
+        "detail": "Clubs collaboratively tackle structured financial \"Quests\" (e.g., \"Analyze three mortgage options,\" \"Develop a personalized savings plan for a big purchase\") allowing members to contribute at their own pace and learn from diverse approaches."
+      },
+      {
+        "title": "Wisdom Vault",
+        "detail": "A curated, searchable archive of high-rated Scrolls and completed Quests within each club, creating a living knowledge base accessible to all members for future reference and continuous learning."
+      },
+      {
+        "title": "Milestone Markers",
+        "detail": "Visual progress trackers within clubs highlight individual and collective achievements for completing Quests, receiving valuable feedback, and contributing insightful Scrolls, motivating continued engagement and a sense of accomplishment."
+      }
+    ],
+    "audience": "Ambitious, community-minded individuals aged 25-45 who are proactive about their financial future but feel overwhelmed by traditional advice, seeking practical, peer-driven insights and a supportive environment for learning and growth.",
+    "category": "personal finance",
+    "useCases": [
+      {
+        "title": "Home Buying Research",
+        "detail": "A new homeowner joins the \"Mortgage Mastery\" club, researches refinancing options, and creates a \"Scroll\" outlining the pros and cons of two lenders, asking for club feedback before making a decision."
+      },
+      {
+        "title": "Debt Payoff Journey",
+        "detail": "Someone struggling with credit card debt joins the \"Debt Demolishers\" club, participates in a \"Debt Snowball Quest,\" and regularly posts \"Scrolls\" updating their payoff progress and emotional challenges, receiving encouragement from peers."
+      },
+      {
+        "title": "Investment Strategy Review",
+        "detail": "An aspiring investor joins the \"Dividend Diversifiers\" club to learn about passive income, contributes a \"Scroll\" analyzing a potential stock, and learns from fellow members' detailed reviews and alternative suggestions."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-04-flavor-scout",
+    "appName": "Flavor Scout",
+    "tagline": "Uncover your city's secret tastes.",
+    "designSystem": {
+      "primaryColor": "#4A1942",
+      "secondaryColor": "#2D5A3D",
+      "accentColor": "#F4A825",
+      "backgroundColor": "#F5EDD6",
+      "fontFamily": "Playfair Display",
+      "bodyFont": "Source Sans 3",
+      "style": "Editorial magazine \u2014 typographic, spacious, asymmetric content blocks with rich aubergine and forest green palette punctuated by saffron highlights. Hub-and-spoke card navigation. Distinct left-accent bars and diagonal tint overlays for featured cards."
+    },
+    "screens": [
+      "home",
+      "quests",
+      "atlas",
+      "community",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Flavor Scout is a vibrant mobile community dedicated to unearthing and celebrating the unique culinary identity of every neighborhood. Beyond simple restaurant reviews, it\u2019s a living archive of hyper-local dishes, hidden food gems, forgotten traditions, and passionate artisans that truly define a place's gastronomic soul. Users embark on daily or weekly 'Flavor Quests' \u2013 bite-sized, AI-curated challenges to discover specific local ingredients, try a unique street food item, document a community potluck, or even interview a local producer. Completing these quests builds 'Taste Streaks,' rewarding persistent exploration and contribution to a collective culinary map. The app fosters a profound sense of belonging among 'Flavor Scouts,' connecting them through shared discoveries, allowing them to collaborate on quests, and collectively championing the authentic, often unseen, flavors that make their locale special, transforming everyday eating into an act of cultural preservation and communal joy. This unique focus on active, guided discovery and cultural documentation makes it distinctively fresh and highly habit-forming.",
+    "features": [
+      {
+        "title": "Daily Flavor Quests",
+        "detail": "Personalized, location-aware challenges to discover specific local food items, producers, or culinary traditions, keeping user exploration fresh and targeted. These quests are designed to actively map and celebrate a region's unique food identity."
+      },
+      {
+        "title": "Taste Streaks & Badges",
+        "detail": "A gamified progression system rewarding consistent participation in quests and discoveries, fostering habit formation and a sense of accomplishment among 'Flavor Scouts' as they contribute to the local food narrative."
+      },
+      {
+        "title": "Local Flavor Atlas",
+        "detail": "A dynamic, community-built map showcasing unique culinary finds, stories, and recommendations contributed by local scouts, serving as a living archive of a city's food culture."
+      },
+      {
+        "title": "Community Hangouts",
+        "detail": "Dedicated micro-forums for local scouts to discuss quests, share tips, organize group discoveries, and foster real-world connections over shared culinary passions."
+      },
+      {
+        "title": "Narrative Capture Tool",
+        "detail": "An intuitive, immersive 'story' format allowing scouts to document their discoveries with photos, short videos, and rich context about the 'why' and 'who' behind the food, not just reviews, thus preserving valuable cultural information."
+      }
+    ],
+    "audience": "Food enthusiasts, locavores, curious travelers, and community-minded individuals aged 20-55, who enjoy exploring their surroundings and have an appreciation for authentic cultural experiences beyond typical tourist traps or generic dining.",
+    "category": "food & cooking",
+    "useCases": [
+      "A young professional opens Flavor Scout on a Saturday morning, sees a 'Weekend Market Quest' to find a seasonal heirloom vegetable, and heads to their local farmers' market with a new purpose for discovery.",
+      "A family looking for an authentic dinner spot for a special occasion uses the 'Local Flavor Atlas' to browse community-verified, unique eateries with rich stories and cultural significance, avoiding generic chains.",
+      "An elderly resident proud of their grandmother's traditional local dessert uses the Narrative Capture Tool to share its history and where to find an authentic version, preserving cultural memory for the community."
+    ]
+  },
+  {
+    "folder": "2026-04-04-eco-thrive",
+    "appName": "Eco Thrive",
+    "tagline": "Grow health, cultivate nature.",
+    "designSystem": {
+      "primaryColor": "#4a7c3f",
+      "secondaryColor": "#7a5230",
+      "backgroundColor": "#1a1f14",
+      "accentColor": "#c0392b",
+      "fontFamily": "Lora",
+      "style": "Organic hand-drawn with asymmetric angled content blocks, forest green and soil brown on linen white, nurturing and vibrant mood"
+    },
+    "screens": [
+      "home",
+      "biome",
+      "quests",
+      "ecodash"
+    ],
+    "hasScreenshot": true,
+    "description": "Eco Thrive redefines personal wellness by intertwining individual health journeys with the thriving of a vibrant, personal digital ecosystem. Users track their fitness activities \u2013 steps, mindful movement, healthy eating, and restful sleep \u2013 to cultivate a unique collection of \"Bio-Seeds.\" Each Bio-Seed blossoms into a distinct, animated 'Eco-Creature' whose visual appearance and \"ecological impact\" stats directly reflect the user's consistent healthy habits. The app gamifies well-being through enchanting visuals and surprising transformations, making every workout or healthy meal a contribution to a flourishing virtual world. The deeper the engagement, the more complex and resilient the user's personal biome becomes, with rare creatures unlocking as milestones are met, offering a delightful sense of ownership and purpose beyond just personal metrics. It's a playful coach that celebrates personal health as a vital act of 'digital rewilding.'",
+    "features": [
+      {
+        "title": "Biome Cultivation Hub",
+        "detail": "Users nurture their unique collection of Bio-Creatures within a dynamic, personal digital ecosystem that visually flourishes or wanes with their real-world health consistency."
+      },
+      {
+        "title": "Adaptive Eco-Creature Evolution",
+        "detail": "Each health activity feeds energy into chosen Bio-Creatures, leading to visible growth, unique animations, and statistical improvements in their 'Eco-Impact' (e.g., resilience, carbon offset, water purity)."
+      },
+      {
+        "title": "Seedling Discovery & Rare Biomes",
+        "detail": "Achieve fitness streaks or specific challenges to discover new 'Bio-Seeds,' unlocking rarer Eco-Creature species and expanding unique sub-biomes (e.g., 'Deep Ocean Grove,' 'Solar Peak Meadow') for them to inhabit."
+      },
+      {
+        "title": "Playful Wellness Quests",
+        "detail": "Receive personalized 'Biome Blessings' (short, fun challenges like 'Harvest 7k Steps Today') that reward seasonal Bio-Creatures or special 'Fertilizer' power-ups for faster growth and delightful micro-interactions."
+      },
+      {
+        "title": "Eco-Contribution Dash",
+        "detail": "A visual representation of collective user impact, showcasing how total global user activity is 'reforesting' or 'purifying' a shared digital world, unlocking community-wide aesthetic upgrades and rare shared collectibles."
+      }
+    ],
+    "audience": "Eco-conscious millennials and Gen Z (ages 18-35) who are health-curious, appreciate gamified experiences, and are looking for purpose-driven engagement beyond typical fitness tracking.",
+    "category": "health & fitness",
+    "useCases": [
+      {
+        "title": "Morning Routine Activation",
+        "detail": "A user opens the app after their morning run to log steps, sees their 'Terra-Sprout' collectible gain a new leaf and a small 'O2 Contribution' boost, feeling a sense of accomplishment and visual reward."
+      },
+      {
+        "title": "Evening Wind-Down",
+        "detail": "Before bed, a user logs their 'mindful 30-min meditation,' sees their 'Lumen-Bloom' creature emit a softer glow, reinforcing the importance of mental wellness for the ecosystem's balance and their sleep quality."
+      },
+      {
+        "title": "Weekly Goal Review",
+        "detail": "A user checks their weekly progress, discovers a new 'Hydro-Pod' due to consistent water intake and movement, excitedly anticipating what unique water-themed creature will emerge from it next."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-04-chronocraft",
+    "appName": "ChronoCraft",
+    "tagline": "Craft seasonal knowledge into personal expression.",
+    "designSystem": {
+      "primaryColor": "#C9A94B",
+      "secondaryColor": "#C47858",
+      "backgroundColor": "#1A1810",
+      "fontFamily": "Bitter",
+      "style": "Skeuomorphic tactile \u2014 raised/sunken buttons with inset shadows, parchment-like surface layering, antique gold accents with gradient metallic feel, muted moss green and soft terracotta on a slightly textured dark (default) or off-white (light) background. Asymmetric grid layouts on Explore and Chronicle screens."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "create",
+      "chronicle"
+    ],
+    "hasScreenshot": true,
+    "description": "ChronoCraft is an ambient companion app that invites users to engage with the world's rich tapestry of seasonal folklore, historical events, and cultural nuances through creative micro-challenges. Each day or week, the app presents a curated \"Chrono-Prompt\"\u2014a bite-sized piece of knowledge tied to the current calendar date, season, or astronomical event. This isn't passive learning; users are encouraged to interpret this knowledge creatively, perhaps through a short poem, a photo reflecting the theme in their local environment, a piece of art, or a personal reflection. The core twist lies in transforming knowledge consumption into an act of unique self-expression and discovery, making history and culture feel immediate and personal. Completing these challenges unlocks unique \"Era Emblems\" and contributes to a personal \"Chronicle Tapestry,\" allowing users to visually track and showcase their journey through seasonal wisdom and creative output. This deepens engagement beyond simple information recall, fostering a sense of ownership over one's learned experiences and a desire to articulate their unique perspective.",
+    "features": [
+      {
+        "title": "Chrono-Prompts",
+        "detail": "Each prompt delivers a concise nugget of knowledge (e.g., origin of a seasonal tradition, a historical event's contemporary relevance) presented in an engaging story format. This fuels users' curiosity and provides the basis for creative challenges."
+      },
+      {
+        "title": "Creative Weaving Challenges",
+        "detail": "Users can respond with a short text piece, photo, sketch, or audio snippet, applying the micro-lesson to their personal context. This active engagement transforms passive learning into meaningful self-expression."
+      },
+      {
+        "title": "Era Emblems & Chronicle Tapestry",
+        "detail": "Successfully completing challenges unlocks unique, beautifully designed digital \"Era Emblems\" and adds the user's creative response to their personalized \"Chronicle Tapestry.\" This provides a strong sense of status, progress, and a gallery for self-expression."
+      },
+      {
+        "title": "AI Interpretive Guide",
+        "detail": "A gentle AI companion provides optional nudges, creative prompts, or background context to help users overcome creative blocks, without automating their output. This enhances engagement depth and supports self-expression without overwhelming users."
+      },
+      {
+        "title": "Seasonal Sagas",
+        "detail": "Beyond daily snippets, \"Seasonal Sagas\" provide overarching themes (e.g., \"The History of Harvest Festivals,\" \"Lunar Lore\") that connect individual challenges, adding narrative depth and encouraging consistent participation throughout a season."
+      }
+    ],
+    "audience": "Culturally curious individuals, often young adults (18-35) interested in history, folklore, and creative expression, who appreciate subtle digital enrichment over overt social pressure. They value uniqueness and personal growth and seek a meaningful, reflective entertainment experience.",
+    "category": "entertainment",
+    "useCases": [
+      {
+        "title": "Morning Ritual",
+        "detail": "While enjoying their coffee, a user opens ChronoCraft to discover today's \"Chrono-Prompt\" about ancient autumn equinox traditions, feeling a quiet connection to history before starting their day."
+      },
+      {
+        "title": "Creative Spark on Commute",
+        "detail": "On a commute, a user sees the weekly challenge\u2014to photograph something in their environment that reflects a theme of renewal after learning about a spring festival\u2014and begins to brainstorm their visual response."
+      },
+      {
+        "title": "Evening Reflection & Showcase",
+        "detail": "An artist opens their \"Chronicle Tapestry\" to review their collected Era Emblems and creative responses, feeling a sense of accomplishment and quietly curating their personal journey of learning and expression."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-04-wanderwell",
     "appName": "WanderWell",
     "tagline": "Your collaborative map to tranquil journeys.",
