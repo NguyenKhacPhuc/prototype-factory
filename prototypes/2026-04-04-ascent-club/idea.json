@@ -1,0 +1,37 @@
+{
+  "name": "Ascent Club",
+  "tagline": "Achieve financial peaks, together.",
+  "description": "Ascent Club is a unique personal finance app that transforms daunting financial goals into collaborative 'Ascents' within a supportive community. Users define their personal financial missions, breaking them down into actionable 'Milestones' that track progress towards their summit. Unlike traditional trackers, Ascent Club thrives on user-generated content where members openly share their strategies, challenges, and micro-victories for each milestone. Other club members can 'spot' each other, offering asynchronous advice, resources, or encouragement directly on specific milestones. This creates a powerful cycle of accountability and shared learning, helping individuals navigate complex financial journeys like saving for a down payment or clearing debt. The habit-forming core lies in regularly updating personal progress, receiving genuine peer support, and discovering new, actionable strategies by engaging with others' Ascents, fostering a sense of collective achievement.",
+  "features": [
+    {
+      "title": "Ascent Builder",
+      "detail": "Define ambitious financial goals (Ascents) like 'Debt-Free Summit' or 'Dream Home Deposit,' then break them into clear, trackable 'Milestones' to create a structured path forward."
+    },
+    {
+      "title": "Climber Crews",
+      "detail": "Join specialized community groups, like 'First-Time Home Buyers' or 'Investment Peak Pioneers,' to connect with others pursuing similar Ascents and share context-specific insights."
+    },
+    {
+      "title": "Milestone Spotting",
+      "detail": "Offer or receive asynchronous feedback, encouragement, and specific tips directly on a fellow climber's milestone, turning every step into a collaborative effort."
+    },
+    {
+      "title": "Ascent Mirroring",
+      "detail": "Discover and 'mirror' another member's successful Ascent, adapting their detailed plan and milestone structure to your own financial situation, fostering template-driven collaboration."
+    },
+    {
+      "title": "Progress Peaks Dashboard",
+      "detail": "Visualize your individual Ascent progress with clear metrics and celebratory 'peak' badges for milestone completion, alongside an aggregate view of your Climber Crew's collective achievements."
+    }
+  ],
+  "audience": "Young to middle-aged adults (25-45) who feel isolated or overwhelmed by complex financial goals, seeking peer accountability, diverse strategies, and genuine community support beyond basic budgeting tools.",
+  "category": "personal finance",
+  "useCases": [
+    "A user wants to save for a down payment on a house. They create a 'Home Deposit Ascent,' breaking it into monthly saving and investing milestones, and join the 'First-Time Home Buyers Crew' for advice.",
+    "A user hits a roadblock on their 'Debt-Free Summit Ascent' trying to optimize credit card payments. They post their challenge on a specific milestone, and several 'Climber Crew' members 'spot' them with advice on balance transfer options and budgeting apps.",
+    "A user sees a highly successful 'Emergency Fund Ascent' shared by another member, outlining specific saving increments and investment strategies. They 'mirror' this Ascent, adapting it to their income and timeline, receiving guided inspiration for their own goal."
+  ],
+  "engagementLoop": "Users continuously return to update their personal Ascent progress, receive motivational 'spots' from their Climber Crews, and seek new insights. They are also incentivized to 'spot' others, 'mirror' inspiring Ascents, and contribute valuable UGC, creating a reciprocal loop of shared progress and achievement.",
+  "trendFit": "This app aligns with the rising trend of asynchronous collaboration and community-driven self-improvement. It leverages the appeal of niche, identity-driven 'clubs' and the desire for practical, peer-to-peer learning to tackle complex personal goals, echoing the growth of creator-economy models where structured content (Ascents) is valuable.",
+  "monetization": "Premium 'Climber Crew' memberships offering advanced analytics on Ascent performance, exclusive workshops with financial experts, and access to a curated library of 'pro' Ascent templates."
+}

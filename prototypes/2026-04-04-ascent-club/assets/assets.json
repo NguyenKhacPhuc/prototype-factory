@@ -1,0 +1,36 @@
+{
+  "appName": "Ascent Club",
+  "fontFamily": "Archivo Black",
+  "colors": {
+    "primary": "#1E4D2B",
+    "secondary": "#5C5C5C",
+    "background": "#F8F6F1",
+    "accent": "#B87333"
+  },
+  "icons": [
+    "battery",
+    "bell",
+    "check",
+    "chevron-left",
+    "chevron-right",
+    "compass",
+    "copy",
+    "heart",
+    "help-circle",
+    "home",
+    "lock",
+    "message-circle",
+    "moon",
+    "plus",
+    "search",
+    "target",
+    "user",
+    "users",
+    "wifi",
+    "x",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 21,
+  "fontFileCount": 0
+}

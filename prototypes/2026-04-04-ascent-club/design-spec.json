@@ -1,0 +1,20 @@
+{
+  "appName": "Ascent Club",
+  "tagline": "Achieve financial peaks, together.",
+  "designSystem": {
+    "primaryColor": "#1E4D2B",
+    "secondaryColor": "#5C5C5C",
+    "accentColor": "#B87333",
+    "backgroundColor": "#F8F6F1",
+    "fontFamily": "Archivo Black",
+    "style": "Editorial magazine — typographic and spacious with full-bleed photo headers, deep forest green primary, burnished copper accents on crisp off-white. Sophisticated and aspirational with clear milestone-path layouts and badge-driven gamification."
+  },
+  "screens": [
+    "home",
+    "discover",
+    "community",
+    "dashboard",
+    "settings",
+    "detail"
+  ]
+}
