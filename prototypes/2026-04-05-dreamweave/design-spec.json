@@ -1,0 +1,12 @@
+{
+  "appName": "DreamWeave",
+  "tagline": "Co-create infinite AI dreamscapes.",
+  "designSystem": {
+    "primaryColor": "#FFAB91",
+    "secondaryColor": "#37474F",
+    "backgroundColor": "#FAFAFA",
+    "fontFamily": "Chakra Petch",
+    "style": "Industrial tech with maximalist celebration energy — heavy 2px borders, geometric square nodes, monospace typography, grid overlays, and staggered waterfall card layouts. Peach and slate blue on snow create a warm-industrial contrast."
+  },
+  "screens": ["home", "explore", "create", "trails"]
+}

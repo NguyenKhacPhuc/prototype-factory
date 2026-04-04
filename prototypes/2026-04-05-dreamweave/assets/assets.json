@@ -1,0 +1,23 @@
+{
+  "appName": "DreamWeave",
+  "fontFamily": "Chakra Petch",
+  "colors": {
+    "primary": "#FFAB91",
+    "secondary": "#37474F",
+    "background": "#FAFAFA",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-right",
+    "bell",
+    "chevron-right",
+    "layers",
+    "moon",
+    "play",
+    "sun",
+    "users"
+  ],
+  "fonts": [],
+  "iconCount": 8,
+  "fontFileCount": 0
+}
