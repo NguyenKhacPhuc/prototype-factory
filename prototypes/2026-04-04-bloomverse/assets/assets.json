@@ -1,0 +1,14 @@
+{
+  "appName": "BloomVerse",
+  "fontFamily": "Quicksand",
+  "colors": {
+    "primary": "#3D6B35",
+    "secondary": "#8B4FB8",
+    "background": "#F4EDD6",
+    "accent": "#C4621D"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

@@ -1,0 +1,19 @@
+{
+  "appName": "BloomVerse",
+  "tagline": "Fitness blossoms. Earth thrives. Collect life.",
+  "designSystem": {
+    "primaryColor": "#3D6B35",
+    "secondaryColor": "#8B4FB8",
+    "accentColor": "#C4621D",
+    "backgroundColor": "#F4EDD6",
+    "fontFamily": "Quicksand",
+    "style": "Organic hand-drawn with natural unbleached paper textures, asymmetric blob border-radii, wavy SVG dividers, floating gem animations at three parallax depth layers, and earthy ink-like outlines. Hub-and-spoke navigation with 4 asymmetric cards varying in size and corner shape. Light/dark theme toggle."
+  },
+  "screens": [
+    "home",
+    "sanctuary",
+    "quests",
+    "impact",
+    "collection"
+  ]
+}
