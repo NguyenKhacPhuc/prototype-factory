@@ -70,7 +70,8 @@ Return JSON only:
   \"style\": \"one of: neo-brutalist, editorial magazine, retro-analog, playful illustrated, luxury minimal, bold geometric, organic hand-drawn, data-dense dashboard, skeuomorphic tactile, duotone graphic, collage punk, soft pastel dreamy, industrial tech, warm cozy, newspaper print\",
   \"font\": \"one specific Google Font (NOT Inter, NOT Outfit, NOT DM Sans, NOT Space Grotesk — pick from: Playfair Display, Bitter, Crimson Pro, Libre Baskerville, Source Serif 4, Fraunces, Lora, Merriweather, Archivo Black, Bebas Neue, Oswald, Barlow Condensed, Chakra Petch, Orbitron, Press Start 2P, Silkscreen, Caveat, Permanent Marker, Patrick Hand, Satisfy, Righteous, Poppins, Quicksand, Nunito, Comfortaa, Fredoka, Baloo 2, Rubik, Lexend, Work Sans, Manrope, Red Hat Display, Instrument Sans, Figtree, Geist, Atkinson Hyperlegible)\",
   \"mood\": \"3-5 word emotional descriptor, e.g. confident and rebellious, cozy sunday afternoon, clinical precision\",
-  \"layout_twist\": \"one unique layout element, e.g. overlapping cards at angles, full-bleed photo headers, sticky floating action island, asymmetric grid, tab content slides horizontally, stacked horizontal scroll sections, bottom sheet reveals\"
+  \"layout_twist\": \"one unique layout element, e.g. overlapping cards at angles, full-bleed photo headers, sticky floating action island, asymmetric grid, tab content slides horizontally, stacked horizontal scroll sections, bottom sheet reveals\",
+  \"nav_pattern\": \"one of: bottom tabs, top tabs, side drawer, floating action menu, hub-and-spoke cards, scrolling sections, gesture-based — pick what fits the app personality\"
 }
 
 App: $APP_NAME — $APP_TAGLINE. Category: $APP_CATEGORY'''
@@ -99,6 +100,7 @@ DESIGN_STYLE=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(jso
 DESIGN_FONT=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['font'])")
 DESIGN_MOOD=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['mood'])")
 LAYOUT_TWIST=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['layout_twist'])")
+NAV_PATTERN=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin).get('nav_pattern','bottom tabs'))")
 
 SLUG=$(echo "$APP_NAME" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -cd 'a-z0-9-')
 FOLDER_NAME="${TODAY}-${SLUG}"
@@ -163,33 +165,19 @@ Create a single-file React prototype (App.tsx) that runs with Babel standalone.
 **Layout & Structure:**
 - Phone frame container (375x812px) with rounded corners, centered on page
 - **MANDATORY**: The outermost wrapper div (the one with minHeight: '100vh') MUST always use background: '#f0f0f0'. NEVER use a dark color here.
-- Dynamic Island notch at top
-- Bottom navigation bar with 3-5 tabs (working navigation between screens)
-- At least 4 screens/tabs with real, detailed content
-- **CRITICAL NAV STRUCTURE** — The bottom nav MUST follow this exact pattern for design-tree extraction:
+- **Navigation pattern:** ${NAV_PATTERN} — design the navigation to match this pattern. Do NOT default to bottom tabs unless that's what's specified above.
+- At least 4 distinct screens with real, detailed content
+- **SCREEN SWITCHING (required for tooling):**
   \`\`\`
-  const [activeTab, setActiveTab] = useState('home');
-  const tabs = [
-    { id: 'home', label: 'Home', icon: window.lucide.Home },
-    { id: 'search', label: 'Search', icon: window.lucide.Search },
-    // ... more tabs
-  ];
-  tabs.map(tab => React.createElement('div', {
-    key: tab.id,
-    onClick: () => setActiveTab(tab.id),
-    style: navItemStyle
-  },
-    React.createElement(tab.icon, { size: 22 }),
-    React.createElement('span', { style: labelStyle }, tab.label)
-  ))
-  const screens = { home: HomeScreen, search: SearchScreen, ... };
-  React.createElement(screens[activeTab])
+  const [activeScreen, setActiveScreen] = useState('home');
+  const screens = { home: HomeScreen, explore: ExploreScreen, ... };
+  React.createElement(screens[activeScreen])
   \`\`\`
-  Each nav item MUST have an onClick that calls setActiveTab directly, and a span child with the tab label text.
+  Each navigation trigger (tab, menu item, card, button) MUST call setActiveScreen('screenId') and contain a span with the screen label text and an SVG icon nearby.
 - Realistic placeholder content (not lorem ipsum)
-- Micro-interactions (button press effects, toggle animations)
-- IMPORTANT: Design BOTH a light and dark theme. The DEFAULT theme MUST be **${DEFAULT_THEME}** mode. Store colors in a themes object. Add a theme toggle in settings.
-- Status bar with time, wifi, battery icons
+- Micro-interactions (button press effects, toggle animations, hover states)
+- IMPORTANT: Design BOTH a light and dark theme. The DEFAULT theme MUST be **${DEFAULT_THEME}** mode. Store colors in a themes object. Add a theme toggle somewhere accessible.
+- Do NOT include a fake status bar or Dynamic Island — keep the focus on the app content itself.
 
 **Output:**
 Write ONLY the App.tsx file content to: ${TARGET_DIR}/App.tsx

@@ -5,7 +5,9 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+set -a
 source "$SCRIPT_DIR/../.env"
+set +a
 
 if [ -z "${GEMINI_API_KEY:-}" ]; then
   echo "Error: Set GEMINI_API_KEY in .env" >&2
@@ -107,6 +109,21 @@ if [ "$CATEGORY" = "game" ]; then
   CATEGORY="game: ${GAME_GENRES[$GENRE_INDEX]}"
 fi
 
+# Load trend context if available
+TRENDS_FILE="$SCRIPT_DIR/../logs/trends/trends-$(date +%Y-%m-%d).json"
+TREND_CONTEXT=""
+if [ -f "$TRENDS_FILE" ]; then
+  TREND_CONTEXT=$(python3 -c "
+import json
+with open('$TRENDS_FILE') as f:
+    data = json.load(f)
+apps = ', '.join(a['name'] + ' (' + a.get('what_makes_it_hot','')[:60] + ')' for a in data.get('trending_apps', [])[:5])
+trends = ', '.join(data.get('design_trends', [])[:4])
+seeds = ' | '.join(s['concept'][:80] for s in data.get('idea_seeds', [])[:3])
+print(f'Currently trending: {apps}. Design trends: {trends}. Emerging needs: {seeds}.')
+" 2>/dev/null) || TREND_CONTEXT=""
+fi
+
 PAYLOAD=$(python3 -c "
 import json
 category = '''${CATEGORY}'''
@@ -114,6 +131,7 @@ archetype = '''${ARCHETYPE}'''
 engagement = '''${ENGAGEMENT}'''
 trend = '''${TREND}'''
 emotional_hook = '''${EMOTIONAL_HOOK}'''
+trend_context = '''${TREND_CONTEXT}'''
 
 prompt = f'''You are a creative mobile app idea generator. Prioritize originality, strong differentiation, believable consumer appeal, and engagement depth. Avoid repetitive startup clichés and generic utility app framing.
 
@@ -124,6 +142,8 @@ Creative direction:
 - Primary engagement mechanic: {engagement}
 - Trend inspiration: {trend}
 - Emotional hook: {emotional_hook}
+
+{'Market context (use as inspiration, do NOT copy these apps): ' + trend_context if trend_context else ''}
 
 Requirements:
 - The idea must feel fresh, trend-aware, and capable of strong repeat engagement.
