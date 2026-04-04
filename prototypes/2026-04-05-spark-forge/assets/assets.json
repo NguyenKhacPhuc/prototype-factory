@@ -1,0 +1,20 @@
+{
+  "appName": "Spark Forge",
+  "fontFamily": "Caveat",
+  "colors": {
+    "primary": "#4FC3F7",
+    "secondary": "#D84315",
+    "background": "#1A1208",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "moon",
+    "search",
+    "send",
+    "sparkles",
+    "sun"
+  ],
+  "fonts": [],
+  "iconCount": 5,
+  "fontFileCount": 0
+}

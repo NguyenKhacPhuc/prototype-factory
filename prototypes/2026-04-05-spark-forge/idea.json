@@ -1,0 +1,46 @@
+{
+  "name": "Spark Forge",
+  "tagline": "Fund your creative commitment.",
+  "description": "Spark Forge transforms the daunting journey of creative projects into a community-driven adventure with real-world incentives. It's a \"project staking\" marketplace where creators publicly commit to completing a specific creative endeavor \u2013 be it a short story, a digital painting series, a music track, or a unique craft \u2013 within a set timeframe. Users outline their project, define measurable milestones, and state their \"Spark Stake\" (an in-app commitment of points or micro-funds). The twist: other community members can then \"stake\" their own points or micro-funds on the creator's *ability to complete* the project, acting as patrons of process rather than purchasers of products. This social and financial accountability, combined with milestone tracking and AI-powered progress prompts, fuels motivation. Upon verified completion, the creator earns their project's total accumulated stakes, and successful stakers receive bonus points, fostering a virtuous cycle of creation, support, and achievement. It turns creative work into an engaging, collective pursuit, making users come back weekly to launch new projects, support others, and track community-wide creative momentum.",
+  "features": [
+    {
+      "title": "Project Staking Marketplace",
+      "detail": "Creators propose detailed projects, set their own commitment stakes, and gain support from community members who 'stake' on their ability to deliver. This fosters a unique form of accountability and micro-patronage for the creative process."
+    },
+    {
+      "title": "Milestone & Progress Tracking",
+      "detail": "Break down large creative projects into manageable steps with clear deadlines. An integrated AI agent helps prompt users with relevant next steps and visually tracks their progress, keeping them on course."
+    },
+    {
+      "title": "Community Validation & Review",
+      "detail": "Submitted projects undergo a community-driven review process to verify completion, ensuring authenticity and rewarding genuine effort. This peer validation reinforces social accountability."
+    },
+    {
+      "title": "Spatial Inspiration Galleries",
+      "detail": "Explore immersive 3D environments showcasing completed projects, community mood boards, and trending styles. This provides rich visual inspiration and sparks new creative ideas by breaking free from flat design norms."
+    },
+    {
+      "title": "Conversational AI Muse",
+      "detail": "Engage with a chat-based AI assistant that guides creators through project setup, offers personalized creative prompts based on their goals, and helps reframe creative blocks in real-time."
+    }
+  ],
+  "audience": "Emerging and established creative professionals, hobbyists, and artists (e.g., writers, illustrators, musicians, crafters, designers) aged 18-45 who seek external motivation, accountability, and community support to overcome creative block and see projects through to completion.",
+  "category": "creative tools",
+  "useCases": [
+    {
+      "title": "Indie Game Dev",
+      "detail": "A struggling indie game developer launches a 'Complete First Level Prototype' project, outlining the scope and setting a Spark Stake. Other developers and fans stake points on his commitment, checking in weekly for progress updates."
+    },
+    {
+      "title": "Amateur Poet",
+      "detail": "An amateur poet commits to writing a poem a day for a week, putting up a small stake. Her close friends and a poetry community group stake on her consistency, providing encouragement as she posts daily snippets and ultimately completes her challenge."
+    },
+    {
+      "title": "Digital Artist Learning",
+      "detail": "A digital artist wants to learn a new style. She creates a 'Master Neo-Expressionism Portrait' project, committing to a detailed piece. She uses the Conversational AI Muse for technique prompts and gathers stakes from artists interested in her progress and learning journey."
+    }
+  ],
+  "engagementLoop": "Users are drawn back weekly by the desire to launch new creative projects, fulfill existing commitments under public and staked accountability, and actively support or track the progress of projects they've staked on. The emotional satisfaction of seeing projects completed, earning rewards, and being part of a vibrant creative ecosystem creates a strong incentive for continuous engagement.",
+  "trendFit": "It aligns with the 'Niche Community Network' trend by fostering a dedicated community around creative project completion and the 'community challenges' inspiration. The integration of 'Conversational UI' for project setup and AI-driven personalization for prompts embraces modern design trends, while the 'Agentic AI Assistant' helps guide creators through their journey, tapping into emerging needs for intelligent background support and 'Spatial UI' for immersive discovery.",
+  "monetization": "Premium 'Spark Stake' packages for users who want to put up higher stakes or fund more projects, access to exclusive expert-led challenges, and brand partnerships for sponsored challenges with larger prizes."
+}
