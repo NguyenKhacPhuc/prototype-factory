@@ -1,0 +1,46 @@
+{
+  "name": "Fortune Folio",
+  "tagline": "Unlock collective financial wisdom.",
+  "description": "Fortune Folio reimagines personal finance as a collaborative learning journey, structured around specialized \"Clubs\" and user-generated \"Scrolls.\" Instead of generic budgeting, users join Clubs focused on specific financial quests, like \"Debt Demolishers\" or \"First-Time Homebuyers.\" Within these clubs, members asynchronously share their insights, research, strategies, and progress through rich, narrative \"Scrolls\" \u2013 concise, multimedia posts detailing their approach to a specific financial challenge. This builds a unique, peer-powered knowledge base where individuals learn by doing, sharing, and observing others' authentic experiences. The app fosters a sense of shared purpose and achievement, moving users beyond isolated financial tracking to an engaged community actively building collective financial intelligence and celebrating individual milestones together. It transforms passive learning into active contribution and collective growth.",
+  "features": [
+    {
+      "title": "Discovery Clubs",
+      "detail": "Users explore and join specialized financial clubs (e.g., \"Early Retirement Planners,\" \"Crypto Curious,\" \"Side Hustle Strategists\") tailored to their interests and goals, ensuring relevant peer connections and curated content."
+    },
+    {
+      "title": "Financial Scrolls",
+      "detail": "Members create rich, multimedia \"Scrolls\" to document their financial strategies, research findings, personal lessons, or progress on specific club \"Quests,\" fostering authentic user-generated content and shared insights."
+    },
+    {
+      "title": "Asynchronous Quests",
+      "detail": "Clubs collaboratively tackle structured financial \"Quests\" (e.g., \"Analyze three mortgage options,\" \"Develop a personalized savings plan for a big purchase\") allowing members to contribute at their own pace and learn from diverse approaches."
+    },
+    {
+      "title": "Wisdom Vault",
+      "detail": "A curated, searchable archive of high-rated Scrolls and completed Quests within each club, creating a living knowledge base accessible to all members for future reference and continuous learning."
+    },
+    {
+      "title": "Milestone Markers",
+      "detail": "Visual progress trackers within clubs highlight individual and collective achievements for completing Quests, receiving valuable feedback, and contributing insightful Scrolls, motivating continued engagement and a sense of accomplishment."
+    }
+  ],
+  "audience": "Ambitious, community-minded individuals aged 25-45 who are proactive about their financial future but feel overwhelmed by traditional advice, seeking practical, peer-driven insights and a supportive environment for learning and growth.",
+  "category": "personal finance",
+  "useCases": [
+    {
+      "title": "Home Buying Research",
+      "detail": "A new homeowner joins the \"Mortgage Mastery\" club, researches refinancing options, and creates a \"Scroll\" outlining the pros and cons of two lenders, asking for club feedback before making a decision."
+    },
+    {
+      "title": "Debt Payoff Journey",
+      "detail": "Someone struggling with credit card debt joins the \"Debt Demolishers\" club, participates in a \"Debt Snowball Quest,\" and regularly posts \"Scrolls\" updating their payoff progress and emotional challenges, receiving encouragement from peers."
+    },
+    {
+      "title": "Investment Strategy Review",
+      "detail": "An aspiring investor joins the \"Dividend Diversifiers\" club to learn about passive income, contributes a \"Scroll\" analyzing a potential stock, and learns from fellow members' detailed reviews and alternative suggestions."
+    }
+  ],
+  "engagementLoop": "Users return weekly to engage with responses to their Scrolls, learn from new Scrolls posted in their clubs, contribute to ongoing Quests, and track their progress and \"Wisdom Points.\" The shared journey, visible achievements, and continuous influx of peer insights create a strong loop for repeat engagement and learning.",
+  "trendFit": "It leverages asynchronous collaboration for problem-solving and knowledge sharing, akin to how modern remote teams work. The \"Scrolls\" adopt an immersive story-like format for user-generated content, mirroring current consumption habits. Furthermore, the club archetype caters to the growing desire for niche, community-driven experiences and a sense of collective progress and identity.",
+  "monetization": "A freemium model offering premium club access for exclusive content, advanced analytics for personal financial growth, or participation in expert-led workshops and deeper dive 'Master Quests'."
+}

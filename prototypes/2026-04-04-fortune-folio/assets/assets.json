@@ -1,0 +1,14 @@
+{
+  "appName": "Fortune Folio",
+  "fontFamily": "Fraunces",
+  "colors": {
+    "primary": "#1B5C6B",
+    "secondary": "#B8962E",
+    "background": "#F5F0E8",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

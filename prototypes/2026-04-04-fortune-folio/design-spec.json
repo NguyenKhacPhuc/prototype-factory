@@ -1,0 +1,12 @@
+{
+  "appName": "Fortune Folio",
+  "tagline": "Unlock collective financial wisdom.",
+  "designSystem": {
+    "primaryColor": "#1B5C6B",
+    "secondaryColor": "#B8962E",
+    "backgroundColor": "#F5F0E8",
+    "fontFamily": "Fraunces",
+    "style": "Editorial magazine with asymmetric content cards, deep teal and muted gold on creamy parchment. Rich charcoal typography with serif personality. Hub-and-spoke navigation on a dark teal bar."
+  },
+  "screens": ["home", "explore", "clubDetail", "vault", "profile"]
+}
