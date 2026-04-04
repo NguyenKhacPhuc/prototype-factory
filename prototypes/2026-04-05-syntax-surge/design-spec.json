@@ -1,0 +1,12 @@
+{
+  "appName": "Syntax Surge",
+  "tagline": "Code challenges, collaboratively remixed.",
+  "designSystem": {
+    "primaryColor": "#E91E63",
+    "secondaryColor": "#2C2C2C",
+    "backgroundColor": "#FFF0F0",
+    "fontFamily": "Archivo Black",
+    "style": "Editorial magazine — typographic hierarchy with full-bleed photo headers, raw code aesthetics, spacious editorial layouts, and high-contrast information density. Pale blush backgrounds with hot magenta accents create a cozy-but-sharp developer culture feel."
+  },
+  "screens": ["home", "explore", "create", "profile", "detail"]
+}

@@ -1,0 +1,25 @@
+{
+  "appName": "Syntax Surge",
+  "fontFamily": "Archivo Black",
+  "colors": {
+    "primary": "#E91E63",
+    "secondary": "#2C2C2C",
+    "background": "#FFF0F0",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-left",
+    "book-open",
+    "home",
+    "moon",
+    "plus-circle",
+    "search",
+    "sun",
+    "trending-up",
+    "user",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 10,
+  "fontFileCount": 0
+}
