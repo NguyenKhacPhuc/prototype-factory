@@ -1,0 +1,37 @@
+{
+  "name": "EcoForm",
+  "tagline": "Nurture your nature.",
+  "description": "EcoForm transforms your health journey into a regenerative adventure, coaching you to diversify your fitness while virtually restoring the planet. Instead of generic points, users cultivate a unique \"Elemental Guardian,\" a vibrant, evolving digital companion whose form and ecosystem are directly shaped by their real-world sustainable activities \u2013 from walking and cycling to mindful movement and outdoor exploration. Each activity replenishes specific elemental energies (Earth for walks, Water for swims, Air for meditation, Fire for vigorous workouts), which in turn evolve your Guardian's appearance, abilities, and its lush personalized \"Bio-Haven.\" The app gamifies holistic wellness by prompting users to balance their elemental energies, preventing fitness plateaus and encouraging exploration of new, eco-friendly ways to move. Discover rare biodome flora or elemental forms through surprise events, fostering a deep, emotional connection to both personal well-being and environmental stewardship. It's a playful coach, a living journal, and a direct link to planetary health.",
+  "features": [
+    {
+      "title": "Elemental Guardian Evolution",
+      "detail": "Users' personal digital avatar that evolves visually based on balanced eco-conscious fitness activities, serving as a dynamic visual goal and unique collectible."
+    },
+    {
+      "title": "Bio-Haven Creation",
+      "detail": "A customizable virtual ecosystem surrounding the Guardian, expanded and adorned with unique flora/fauna unlocked by diverse activity and discovery, providing a visual reward."
+    },
+    {
+      "title": "Elemental Energy Coach",
+      "detail": "Intelligent prompts guide users to specific activity types (e.g., 'Boost your Water affinity!') to encourage holistic fitness and Guardian development, preventing routine boredom."
+    },
+    {
+      "title": "Eco-Discovery Events",
+      "detail": "Location-aware or activity-triggered surprise events reveal rare elemental resources, unique Guardian mutations, or special biodome items, adding delight and replayability."
+    },
+    {
+      "title": "Community Restoration Pledges",
+      "detail": "Users contribute their collective 'Elemental Essence' to virtual conservation projects, unlocking real-world tree planting or habitat restoration initiatives via charity partnerships, providing a sense of shared purpose."
+    }
+  ],
+  "audience": "Eco-conscious individuals aged 25-45, seeking playful, purposeful, and personalized health guidance, who value sustainability and find traditional fitness apps uninspiring.",
+  "category": "health & fitness",
+  "useCases": [
+    "I want to feel more connected to nature and my body, so I'll open EcoForm to see what elemental focus my Guardian needs, then choose an outdoor walk challenge to gather Earth essence.",
+    "My fitness routine feels stale, and I want a fun push. I'll check my EcoForm Guardian to see which element is lowest, then try a recommended low-impact yoga flow from the app to balance its Air energy.",
+    "I'm feeling down about environmental issues, but want to make a difference. I'll open EcoForm after my run to contribute my Fire essence to the community's 'Coastal Clean-up' pledge and see my Guardian flourish."
+  ],
+  "engagementLoop": "Users consistently return to EcoForm to nurture their evolving Elemental Guardian and expand its Bio-Haven, driven by the desire to see their progress visually represented. The app's playful coaching prompts for diversified, eco-conscious activities and the surprise of new discoveries in their personal ecosystem or community challenges keep the experience fresh and rewarding week after week.",
+  "trendFit": "EcoForm aligns perfectly with the growing trends of conscious consumerism, personalized wellness journeys, and environmental sustainability, by transforming individual fitness into a meaningful contribution to a virtual and potentially real-world ecosystem, appealing to a generation that values purpose-driven engagement and gamified self-improvement.",
+  "monetization": "A premium subscription tier unlocks exclusive Guardian forms, advanced biodome customization options, and rare Eco-Discovery event passes, alongside micro-transactions for unique cosmetic bundles."
+}

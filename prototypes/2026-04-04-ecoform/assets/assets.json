@@ -1,0 +1,29 @@
+{
+  "appName": "EcoForm",
+  "fontFamily": "Nunito",
+  "colors": {
+    "primary": "#C4704A",
+    "secondary": "#5C8A6E",
+    "background": "#1C1208",
+    "accent": "#D4A843"
+  },
+  "icons": [
+    "bell",
+    "chevron-right",
+    "compass",
+    "heart",
+    "home",
+    "map-pin",
+    "moon",
+    "plus",
+    "settings",
+    "shield",
+    "sun",
+    "tree-pine",
+    "user",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 14,
+  "fontFileCount": 0
+}

@@ -1,0 +1,26 @@
+{
+  "appName": "EcoForm",
+  "tagline": "Nurture your nature.",
+  "designSystem": {
+    "primaryColor": "#C4704A",
+    "secondaryColor": "#5C8A6E",
+    "accentColor": "#D4A843",
+    "backgroundColor": "#1C1208",
+    "surfaceColor": "#2E2010",
+    "fontFamily": "Nunito",
+    "style": "Warm cozy — deep terracotta, muted jade, creamy oat, goldenrod. Dark-first with rich warm browns. Organic SVG wave dividers between sections. Bold 900-weight Nunito headings with spacious, nurturing layouts."
+  },
+  "elementalSystem": {
+    "earth": "#9B7040",
+    "water": "#4A8FD4",
+    "air": "#7AB8C8",
+    "fire": "#E05A2A"
+  },
+  "screens": [
+    "home",
+    "haven",
+    "activities",
+    "discover",
+    "profile"
+  ]
+}
