@@ -1,0 +1,18 @@
+{
+  "appName": "Aura Bloom",
+  "fontFamily": "Righteous",
+  "colors": {
+    "primary": "#D32F2F",
+    "secondary": "#FFD54F",
+    "background": "#FFF8F0",
+    "accent": "#212121"
+  },
+  "icons": [
+    "arrow-left",
+    "moon",
+    "sun"
+  ],
+  "fonts": [],
+  "iconCount": 3,
+  "fontFileCount": 0
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Aura Bloom",
+  "tagline": "See hidden eco-auras, revive your world.",
+  "description": "Aura Bloom transforms environmental awareness into a delightful, competitive game using augmented reality. Users scan their real-world surroundings with their phone's camera to reveal shimmering 'Auras' \u2013 visual representations of sustainability opportunities or small issues in need of attention, such as a reusable item for upcycling, an energy-saving possibility, or a spot of litter. By taking a tangible, verified action (like picking up litter, choosing a low-carbon transport option, or identifying a native plant), users 'bloom' the Aura, which then crystallizes into a unique, collectible digital 'Bloom Buddy' specific to that eco-action and location. The app's playful UI, guided by a conversational AI, offers personalized daily challenges and helps users discover new Auras, fostering a habit of positive environmental engagement through discovery, friendly competition on local leaderboards, and the joy of collecting a diverse ecosystem of Bloom Buddies.",
+  "features": [
+    {
+      "title": "Aura Vision (AR Scan)",
+      "detail": "Scan your physical environment with your camera to reveal shimmering 'Auras' highlighting sustainability opportunities, making abstract issues tangible and interactive via spatial UI."
+    },
+    {
+      "title": "Bloom Buddy Collection",
+      "detail": "Successfully taking a real-world eco-action (verified in-app) transforms a discovered Aura into a unique, collectible digital 'Bloom Buddy,' providing a playful reward and driving collection."
+    },
+    {
+      "title": "Eco-Sphere Challenges",
+      "detail": "Engage in daily or weekly personalized challenges, guided by a conversational AI, designed to expand your eco-impact across various sustainability categories, fostering consistent engagement and self-improvement."
+    },
+    {
+      "title": "Local Flourish League",
+      "detail": "Compete on a local or community leaderboard by 'blooming' Auras and completing challenges, earning 'Bloom Points' to foster friendly competition and motivate group impact."
+    },
+    {
+      "title": "Companion AI Nudge",
+      "detail": "A personalized, conversational AI assistant offers gentle hints for finding new Auras, suggests impactful actions, and celebrates milestones, enhancing user guidance and engagement without static forms."
+    }
+  ],
+  "audience": "Environmentally conscious Gen Z and young Millennials (18-35) who are digitally native, enjoy gamified experiences, and are looking for engaging, tangible ways to make a positive impact on their local environment.",
+  "category": "sustainability",
+  "useCases": [
+    {
+      "title": "Daily Commute Eco-Spotting",
+      "detail": "A user on their bus commute opens Aura Bloom, and an 'Idle Engine Aura' shimmers around a parked car outside. They tap to log the potential saving, earning a 'Tailpipe Sprite' Bloom Buddy and contributing to their city's clean air initiative."
+    },
+    {
+      "title": "Weekend Park Cleanup",
+      "detail": "While walking in a park, the user's phone alerts them to 'Discarded Charm Auras' around scattered litter. They pick it up, take a 'before and after' photo in the app, and bloom several unique 'Rubbish Remediators' Bloom Buddies, boosting their team's league score."
+    },
+    {
+      "title": "Home Energy Hunt",
+      "detail": "The Companion AI Nudge prompts a user to find 'Phantom Power Auras' at home. Using AR, they scan around their electronics, identify a device drawing power when off, and then unplug it, blooming an 'Ampere Guardian' Bloom Buddy and seeing their projected energy saving."
+    }
+  ],
+  "engagementLoop": "Users are drawn back multiple times a week by the surprise and delight of discovering new 'Auras' daily and weekly, the intrinsic motivation of 'blooming' these into collectible 'Bloom Buddies' to complete their digital ecosystem, and the friendly competition of climbing local leaderboards to showcase their eco-impact.",
+  "trendFit": "Aura Bloom perfectly aligns with gamified self-improvement by turning eco-actions into a playful collecting and competitive game. It leverages Spatial UI and AR for its 'real-world unlock' mechanism, while AI-driven hyper-personalization tailors challenges and conversational UI provides engaging, friction-less guidance.",
+  "monetization": "A 'Premium Bloom Pass' offers exclusive seasonal challenges, limited-edition Bloom Buddy variants, and cosmetic upgrades for their collected Buddies. Future monetization could include partnerships with eco-friendly brands for sponsored 'Aura' challenges."
+}

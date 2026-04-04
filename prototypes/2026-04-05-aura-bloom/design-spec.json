@@ -1,0 +1,34 @@
+{
+  "appName": "Aura Bloom",
+  "tagline": "See hidden eco-auras, revive your world.",
+  "designSystem": {
+    "primaryColor": "#D32F2F",
+    "secondaryColor": "#FFD54F",
+    "backgroundColor": "#FFF8F0",
+    "accentColor": "#212121",
+    "fontFamily": "Righteous",
+    "style": "Skeuomorphic tactile with dreamy watercolor calm — tactile depth via layered box-shadows and inset highlights, warm parchment tones, ruby red accents with gold highlights on charcoal navigation"
+  },
+  "screens": [
+    "home",
+    "scan",
+    "collection",
+    "league",
+    "challenges"
+  ],
+  "navigationPattern": "gesture-based swipe with bottom tab dock on charcoal (#212121), gold active state",
+  "horizontalSlides": [
+    "Home screen: Today's Auras ↔ Recent Blooms",
+    "League screen: Weekly ↔ Monthly leaderboard",
+    "Challenges screen: Daily ↔ Weekly quests",
+    "Collection screen: scrollable category filter strip"
+  ],
+  "keyFeatures": [
+    "Aura Vision AR scan screen with animated aura glows and progress bar",
+    "Bloom Buddy 3-column collection grid with rarity tiers",
+    "Local Flourish League with podium and ranked list",
+    "Eco-Sphere daily/weekly challenge cards with progress bars",
+    "Flora AI companion nudge card on home screen",
+    "Light/dark theme toggle with warm dark palette"
+  ]
+}
