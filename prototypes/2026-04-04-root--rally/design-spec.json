@@ -1,0 +1,19 @@
+{
+  "appName": "Root & Rally",
+  "tagline": "Harvest joy, outsmart waste.",
+  "designSystem": {
+    "primaryColor": "#3D6B1F",
+    "secondaryColor": "#C4622D",
+    "accentColor": "#F0A500",
+    "backgroundColor": "#FAF7F0",
+    "fontFamily": "Rubik",
+    "style": "Warm cozy — earthy terracotta and deep moss green on creamy off-white, with marigold accents. Rounded cards, organic shapes, and emoji-rich UI that feels like a nature journal meets a mobile game."
+  },
+  "screens": [
+    "home",
+    "quests",
+    "bounty",
+    "community",
+    "roulette"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "appName": "Root & Rally",
+  "fontFamily": "Rubik",
+  "colors": {
+    "primary": "#3D6B1F",
+    "secondary": "#C4622D",
+    "background": "#FAF7F0",
+    "accent": "#F0A500"
+  },
+  "icons": [
+    "arrow-left",
+    "moon",
+    "sun"
+  ],
+  "fonts": [],
+  "iconCount": 3,
+  "fontFileCount": 0
+}
