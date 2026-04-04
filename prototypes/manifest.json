@@ -1,5 +1,748 @@
 [
   {
+    "folder": "2026-04-04-curio-bloom",
+    "appName": "Curio Bloom",
+    "tagline": "Cultivate your mind's living curiosity.",
+    "designSystem": {
+      "primaryColor": "#5A8A5E",
+      "secondaryColor": "#6A2860",
+      "accentColor": "#C08028",
+      "popColor": "#E04870",
+      "backgroundColor": "#0C1610",
+      "surfaceColor": "#192A1D",
+      "fontFamily": "Playfair Display",
+      "style": "Editorial magazine \u2014 typographic hierarchy, asymmetric grid layouts, organic textures, spacious and contemplative. Rich moss green + deep aubergine + sun-baked ochre on dark forest ground, with fuchsia pops."
+    },
+    "screens": [
+      "home",
+      "expeditions",
+      "seedlings",
+      "archive",
+      "profile"
+    ],
+    "navigationPattern": "hub-and-spoke",
+    "defaultTheme": "dark",
+    "themes": [
+      "dark",
+      "light"
+    ],
+    "keyFeatures": [
+      "Living Bloom garden SVG with procedural flora (ferns, flowers, crystals, mushrooms, butterflies)",
+      "Hub-and-spoke navigation from main Bloom screen",
+      "Asymmetric editorial grid on Expeditions and Archive screens",
+      "Tap-to-reveal seedling cards with micro-interaction",
+      "Two-column masonry Curio Archive with rarity tiers",
+      "Arborist tier progression with visual indicators",
+      "Dark/light theme toggle with full palette swap"
+    ],
+    "hasScreenshot": true,
+    "description": "Curio Bloom transforms intellectual curiosity into a beautiful, ambient companion on your device. It's a digital 'living garden' of knowledge, where each insight you discover and challenge you complete adds unique, evolving flora and fauna \u2013 'Curios' \u2013 to your personalized visual ecosystem. Unlike traditional learning apps, Curio Bloom doesn't demand intense study; instead, it offers micro-learning 'Seedlings' and thematic 'Seasonal Expeditions' presented through a conversational UI. Users engage with short, fascinating facts, historical anecdotes, scientific marvels, or cultural tidbits, which visually manifest as bespoke, AI-generated elements in their Bloom. Your Bloom is a dynamic, ever-changing aesthetic reflection of your unique interests and intellectual journey, fostering self-expression and giving a sense of status as it becomes increasingly rare and intricate. It\u2019s a meditative way to expand your horizons, providing a quiet, evolving backdrop that grows with your understanding of the world, making discovery an art form and a personal statement.",
+    "features": [
+      {
+        "title": "The Living Bloom",
+        "detail": "A personalized, ambient visual ecosystem on your app's main screen that dynamically grows and evolves with every piece of knowledge you acquire. This acts as a unique digital canvas reflecting your intellectual journey and tastes."
+      },
+      {
+        "title": "Seasonal Expeditions",
+        "detail": "Engage in themed, time-limited challenges (e.g., 'Forgotten Atlases,' 'Bioluminescent Wonders') presented through an interactive, conversational UI. Completing these unlocks rare and exclusive 'Legendary Curios' for your Bloom, encouraging focused, deep dives."
+      },
+      {
+        "title": "Daily Seedlings",
+        "detail": "Receive bite-sized, engaging micro-lessons and prompts daily, designed to spark curiosity and add 'Common Curios' to your growing collection. This encourages regular, low-effort engagement and keeps the Bloom fresh."
+      },
+      {
+        "title": "Curio Archives & Weaving",
+        "detail": "Explore your collected 'Curios' in a categorized archive and 'weave' them into custom-curated displays or 'Terrariums' within your Bloom. This allows for deep self-expression and showcasing your unique intellectual collections to friends."
+      },
+      {
+        "title": "Arborist Tiers",
+        "detail": "Gain status and unlock advanced customization options or new Expedition categories as your Bloom flourishes and your collection of Curios grows. This provides a clear progression path and tangible rewards for continued engagement."
+      }
+    ],
+    "audience": "Intellectually curious individuals aged 20-45 who appreciate aesthetics, micro-learning, and personal growth, seeking a sophisticated, low-pressure way to engage with knowledge and express their unique interests.",
+    "category": "entertainment",
+    "useCases": [
+      {
+        "title": "Morning Coffee Ritual",
+        "detail": "While enjoying their morning coffee, a user opens Curio Bloom to discover a 'Daily Seedling' on ancient symbology, adding a new, intricate visual element to their evolving digital garden."
+      },
+      {
+        "title": "Afternoon Mental Break",
+        "detail": "During a quick break from work, a user checks their 'Living Bloom' to admire its growth, then delves into the latest 'Seasonal Expedition' about forgotten languages, completing a short interactive prompt that unlocks a rare 'Vellum Scroll' Curio."
+      },
+      {
+        "title": "Evening Reflection & Customization",
+        "detail": "In the evening, winding down, a user opens the app to explore their 'Curio Archive,' rearranging specific 'Curios' into a themed 'Terrarium' to perfectly express their current mood or intellectual fascination, creating a personalized aesthetic."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-04-ascentfolio",
+    "appName": "AscentFolio",
+    "tagline": "Your collective financial climb.",
+    "designSystem": {
+      "primaryColor": "#28604a",
+      "secondaryColor": "#1a2720",
+      "accentColor": "#c97a3e",
+      "backgroundColor": "#0f1614",
+      "lightBackground": "#f5f0e8",
+      "fontFamily": "Manrope",
+      "style": "Bold geometric with matte deep emerald green, charcoal surfaces, and striking copper accents. Dynamic asymmetric grid layouts with diagonal lines suggesting financial ascent. Heavy weight typography (900) for key metrics, sharp card shapes with thick borders, no gradients except CTA and progress bars."
+    },
+    "screens": [
+      "home",
+      "guilds",
+      "create",
+      "journey",
+      "profile"
+    ],
+    "keyPatterns": [
+      "Diagonal accent geometry on Home and Journey screens (rotated divs + SVG ascending polyline)",
+      "Asymmetric 60/40 metric split on Journey screen with large Ascent Score left, stacked micro-stats right",
+      "Featured Guild card with diagonal decorative block and bold white stats",
+      "Bottom tab navigation with elevated gradient Create button",
+      "Dark mode default with accessible theme toggle in header and profile settings",
+      "Copper accent (#c97a3e) used for active states, CTA gradients, streak counters",
+      "Emerald green (#28604a) for primary actions, progress fills, achievement highlights"
+    ],
+    "hasScreenshot": true,
+    "description": "AscentFolio redefines personal finance as a shared, engaging journey within vibrant 'Ascent Guilds'. Instead of isolated tracking, users create and share 'Milestone Footprints' \u2013 short, multi-modal content pieces (e.g., annotated budget screenshots, voice notes reflecting on spending decisions, quick video clips showcasing a new investment setup) that tell the story behind their financial actions, challenges, and wins. These Footprints serve as asynchronous learning moments, where other guild members offer 'Collective Insights' \u2013 actionable advice, encouragement, or shared resources. The app gamifies progress through 'Achievement Tracks', celebrating individual and collective milestones. This approach fosters a supportive community where learning is contextual, progress is celebrated, and personal finance becomes an inspiring, collaborative pursuit rather than a solitary chore, promoting consistent engagement by turning financial goals into a shared narrative of triumph and growth.",
+    "features": [
+      {
+        "title": "Ascent Guilds",
+        "detail": "Join or create topic-specific communities focused on distinct financial goals, like 'First Home Forge' or 'Debt Buster Bloc'. This provides a built-in support system and shared purpose for users' financial journeys."
+      },
+      {
+        "title": "Milestone Footprints",
+        "detail": "Share multi-modal content (photos, videos, voice notes, screenshots with annotations) documenting your financial wins, challenges, or insights. These creative 'stories' transform dry financial updates into engaging, digestible learning moments for the community."
+      },
+      {
+        "title": "Collective Insights",
+        "detail": "Engage with other members' Footprints by offering specific advice, sharing relevant resources, or providing encouragement. This asynchronous collaboration creates a dynamic knowledge base, offering tailored support beyond generic tips."
+      },
+      {
+        "title": "Achievement Tracks",
+        "detail": "Progress through gamified 'tracks' within your Guilds, unlocking badges and visual recognition for completing financial milestones or contributing consistent Footprints. This provides a clear emotional hook of progress and achievement, fostering continued engagement."
+      },
+      {
+        "title": "Journey Forking",
+        "detail": "Discover a 'Milestone Footprint' that resonates with your goal? 'Fork' it to adapt and apply its strategy to your own financial journey, creating your personalized version while giving credit to the original inspiration. This unique twist promotes practical knowledge transfer and shared growth."
+      }
+    ],
+    "audience": "Digitally native individuals aged 25-45, typically young to mid-career professionals, who are actively striving for financial independence, homeownership, or debt freedom. They are interested in personal growth, value community support, and seek more engaging ways to manage their finances than traditional apps offer.",
+    "category": "personal finance",
+    "useCases": [
+      {
+        "title": "Saving for a Down Payment",
+        "detail": "Sarah joins the 'First Home Forge' guild. She watches a 'Milestone Footprint' of a member who dramatically cut grocery costs, then uploads her own video detailing her new meal prep strategy and later a screenshot of her savings, asking for more tips from the guild."
+      },
+      {
+        "title": "Tackling Student Debt",
+        "detail": "Mark creates a 'Milestone Footprint' outlining a new accelerated student loan repayment plan. Other guild members respond with 'Collective Insights', sharing specific budgeting apps they used or suggesting alternative strategies, which Mark integrates into his next Footprint update."
+      },
+      {
+        "title": "Overcoming Financial Setbacks",
+        "detail": "After an unexpected expense, Alex feels discouraged. They post an anonymous voice note 'Footprint' in their 'Resilience Collective' guild, expressing frustration. Members offer empathetic 'Collective Insights' and share their own recovery stories, giving Alex the motivation to realign their budget."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-04-momentum-guilds",
+    "appName": "Momentum Guilds",
+    "tagline": "Guild up. Grow together.",
+    "designSystem": {
+      "primaryColor": "#3D5A40",
+      "secondaryColor": "#2D2B55",
+      "backgroundColor": "#F5EFE0",
+      "accentColor": "#C9A44A",
+      "terracottaColor": "#B5633A",
+      "fontFamily": "Bitter",
+      "style": "Retro-analog with earthy matte forest green and deep indigo on warm textured cream. Aged gold accents, dashed stamp borders, ruled paper texture, thick offset box shadows, and serif typographic hierarchy evoking a guild registry or illuminated manuscript."
+    },
+    "screens": [
+      "home",
+      "guilds",
+      "flow",
+      "journal"
+    ],
+    "navigationPattern": "hub-and-spoke",
+    "theme": "light-default-with-dark-toggle",
+    "features": [
+      "Horizontal scroll guild cards on Home",
+      "Horizontal scroll category filters on Guilds",
+      "Horizontal scroll soundscape selector on Flow",
+      "Horizontal scroll guild filter on Journal",
+      "Live flow timer with ambient presence panes",
+      "Post-flow ritual journal with mood selector",
+      "Light/dark theme toggle"
+    ],
+    "hasScreenshot": true,
+    "description": "Momentum Guilds is an innovative app designed to transform solitary personal growth and creative endeavors into powerful, shared rituals. Users join curated 'Guilds' based on specific identity-driven pursuits\u2014like 'The Dawn Writers' for aspiring authors or 'Mindful Mavericks' for meditation practitioners\u2014each committed to particular disciplines. The app hosts scheduled, live 'Ritual Flows,' which are facilitated, often silent or gently guided sessions where Guild members engage in their chosen practice concurrently. Unlike typical video calls, these flows emphasize ambient, shared presence: users perceive the subtle, AI-generated presence of their Guildmates without direct chat or full video, fostering deep collective accountability and motivation. This unique blend of community and personal focus turns individual goals into empowering group experiences, making it easier to build and maintain habits that stick. The emphasis is on collective commitment to individual progress.",
+    "audience": "Adults (25-45) who are self-improvers, creatives, or professionals seeking deeper focus, accountability for personal goals, and genuine community connections beyond superficial social feeds, particularly those who struggle with procrastination or maintaining solitary routines.",
+    "category": "social & community",
+    "useCases": [
+      "A freelance writer struggles to start their novel. They open Momentum Guilds, join the 'Novel Nurturers Guild,' and commit to a 7 AM 'Deep Dive Writing Flow.' Seeing the ambient presence of 10 other Guildmates, they feel a surge of motivation and focus, completing an hour of uninterrupted writing.",
+      "Someone wants to establish a consistent morning meditation practice but keeps skipping days. They join 'The Inner Stillness Guild,' set a notification for their daily 'Mindful Awakening Flow,' and find accountability in the shared ritual, even if they only perceive their Guildmates as subtle energy forms.",
+      "A student needs focused study time before an exam. They find a 'Pomodoro Power Hour Guild' for their subject, join a live session, and benefit from the collective silent focus, breaking their study time into manageable, shared accountability chunks."
+    ]
+  },
+  {
+    "folder": "2026-04-04-sparkbound",
+    "appName": "SparkBound",
+    "tagline": "Commit to creation, together.",
+    "designSystem": {
+      "primaryColor": "#FF5500",
+      "secondaryColor": "#5B9B94",
+      "backgroundColor": "#F5EFE6",
+      "accentColor": "#FFD93D",
+      "fontFamily": "Red Hat Display",
+      "style": "Bold geometric with overlapping angled cards, chunky 2px borders, hard drop shadows, and high-contrast orange-on-off-white palette. Navigation uses solid charcoal bottom bar with orange active states."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "circles",
+      "studio",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "SparkBound transforms the creative process into a collaborative, accountable journey. It's not a marketplace for finished art, but for 'SparkPacks' \u2013 curated bundles of creative prompts, constraints, and inspirational resources crafted by other artists, writers, and designers. Users struggling with creative block or lack of direction can browse and commit to a SparkPack, activating a social accountability mechanism where they share their progress, not just finished pieces, with a chosen 'Commitment Circle.' The app leverages an 'Interest-Led Social Curator' AI to match users with SparkPacks and peers, fostering a vibrant community. The emotional hook is the joy of progress and achievement, earning 'Sparks' (in-app currency/reputation) when creations inspired by a SparkPack are completed, providing tangible motivation and a unique earning model for prompt creators. It moves beyond passive consumption, making every user both a potential creator of inspiration and a participant in a structured creative journey, driving repeat engagement through novelty, community support, and personal growth.",
+    "features": [
+      {
+        "title": "SparkPack Marketplace",
+        "detail": "Discover and acquire 'SparkPacks' \u2013 unique bundles of creative prompts, visual mood boards, textual fragments, or auditory cues crafted by a global community of creators. Each SparkPack is designed to kickstart a specific type of project or overcome a creative block."
+      },
+      {
+        "title": "Commitment Circles",
+        "detail": "Form or join private 'Commitment Circles' with friends or like-minded creators to publicly declare your intent to tackle a SparkPack. Share daily progress, receive encouraging feedback, and maintain social accountability towards completing your creative challenges."
+      },
+      {
+        "title": "Creative Resonance Engine",
+        "detail": "An AI-powered recommendation system suggests SparkPacks and potential collaborators tailored to your current creative interests, skill level, and even your current mood, ensuring fresh and relevant challenges. This adapts ambiently based on your activity and input."
+      },
+      {
+        "title": "Completion Gallery & Feedback Loop",
+        "detail": "Showcase your completed projects derived from SparkPacks, receiving constructive criticism and encouragement from the community. SparkPack creators also earn 'Sparks' (reputation/currency) when users successfully complete projects inspired by their prompts, fostering a reciprocal creative ecosystem."
+      },
+      {
+        "title": "Spark Creator Studio",
+        "detail": "Empower yourself to become an inspiration source. Design, package, and publish your own unique SparkPacks using intuitive, conversational UI tools, offering them to the community and earning 'Sparks' or a share of revenue from successful completions."
+      }
+    ],
+    "audience": "Emerging artists, hobbyists, designers, writers, and musicians (18-35) who struggle with creative block, seek structured challenges, desire community support, and value tangible progress in their craft.",
+    "category": "creative tools",
+    "useCases": [
+      {
+        "title": "Overcoming Creative Block",
+        "detail": "A freelance illustrator feels burnt out and uninspired. They open SparkBound, browse a 'Concept Art Catalyst' SparkPack, commit to it in a circle with fellow illustrators, and get daily prompts that help them experiment with new styles and themes, re-igniting their passion."
+      },
+      {
+        "title": "Structured Skill Development",
+        "detail": "An aspiring musician wants to improve their songwriting. They purchase a 'Chord Progression Journey' SparkPack, which provides weekly challenges focused on different melodic structures, sharing their recorded attempts with a dedicated 'Harmony Huddle' circle for feedback."
+      },
+      {
+        "title": "Curating Community Inspiration",
+        "detail": "A seasoned photographer wants to inspire others and earn. They use the Spark Creator Studio to develop a 'Visual Storytelling Sprint' SparkPack, featuring unique daily photo prompts and thematic constraints. They then publish it, earning 'Sparks' as users complete their photographic narratives."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-04-serene-trails",
+    "appName": "Serene Trails",
+    "tagline": "Travel mindfully, build collective calm.",
+    "designSystem": {
+      "primaryColor": "#6B9060",
+      "secondaryColor": "#7A3A6E",
+      "backgroundColor": "#0F1410",
+      "accentColor": "#C4A06A",
+      "fontFamily": "Lora",
+      "style": "Editorial magazine \u2014 spacious typographic layouts, full-bleed panoramic gradient sections simulating landscape photography, horizontal rule dividers, italic pull-quotes, muted forest-green and aubergine palette with warm parchment accents. Dark mode default with tranquil, grounding mood."
+    },
+    "screens": [
+      "home",
+      "meander",
+      "atlas",
+      "quests",
+      "journal"
+    ],
+    "hasScreenshot": true,
+    "description": "Serene Trails is a collaborative mobile game designed to transform travel anxieties into moments of profound calm and connection. Users embark on personal \"Mindful Meanders\"\u2014small, guided wellness rituals adapted to their travel context, like finding a quiet spot for a 5-minute reflection in a bustling city square, mindfully observing local flora on a hike, or capturing an ambient soundscape of a serene harbor. Each completed \"Meander\" contributes to a shared, global \"Haven Atlas,\" a dynamic, community-generated tapestry of tranquility built from collective calm. As individuals contribute, the entire community collectively unlocks new \"Path Quests\"\u2014collaborative challenges that encourage deeper engagement with local culture through wellness lenses, revealing unique local rituals or uncovering hidden serene spots. The app leverages ambient and contextual adaptive UI to suggest rituals relevant to the user's immediate environment and time of day, fostering a sense of reassurance and gentle guidance throughout their journey. This creates a uniquely calming and intrinsically motivating travel companion, turning every trip into an opportunity to both find personal peace and contribute to a global digital sanctuary.",
+    "features": [
+      {
+        "title": "Mindful Meanders",
+        "detail": "Personalized, location-aware mini-rituals (e.g., \"Find 3 unique architectural details and pause to appreciate one\") that guide users to engage mindfully with their surroundings, promoting calm."
+      },
+      {
+        "title": "Haven Atlas",
+        "detail": "A collectively built, visually evolving digital map where user contributions (photos, sounds, reflections from Mindful Meanders) appear as tranquil nodes. Seeing the growing atlas provides a sense of shared purpose and global calm."
+      },
+      {
+        "title": "Path Quests (Collaborative)",
+        "detail": "Larger, community-driven challenges unlocked as the Haven Atlas expands (e.g., \"Collect 10 sunset reflections from different timezones this week\"). These encourage collaboration and deeper exploration of wellness themes within travel."
+      },
+      {
+        "title": "Serenity Forecast",
+        "detail": "An adaptive UI that offers proactive suggestions for calming activities or gentle reminders based on current location, time, and known travel patterns (e.g., \"Your flight boards in 2 hours, perhaps a guided breathwork session?\")."
+      },
+      {
+        "title": "Echoes Journal",
+        "detail": "A private, conversational UI-driven journal where users can record their reflections. AI-generated visual summaries or abstract illustrations based on journal entries are created, providing a personalized and artistic keepsake."
+      }
+    ],
+    "audience": "Mindful travelers aged 25-55 who seek deeper, more meaningful travel experiences beyond typical sightseeing, value personal well-being, and appreciate subtle community engagement.",
+    "category": "travel",
+    "useCases": [
+      "A solo traveler feeling overwhelmed by a new bustling city opens the app, receives a \"Mindful Meander\" suggestion to find a hidden courtyard, and documents their calm moment, feeling less isolated and more connected.",
+      "A family on a road trip uses \"Serenity Forecast\" during a long stretch, prompting them to find a scenic overlook for a 10-minute \"Ambient Listening\" ritual, transforming potential boredom into a shared peaceful memory.",
+      "A couple planning their next trip consults the \"Haven Atlas\" to discover user-contributed serene spots in their destination, inspiring them to explore off-the-beaten-path locations for their own wellness rituals."
+    ]
+  },
+  {
+    "folder": "2026-04-04-root--rally",
+    "appName": "Root & Rally",
+    "tagline": "Harvest joy, outsmart waste.",
+    "designSystem": {
+      "primaryColor": "#3D6B1F",
+      "secondaryColor": "#C4622D",
+      "accentColor": "#F0A500",
+      "backgroundColor": "#FAF7F0",
+      "fontFamily": "Rubik",
+      "style": "Warm cozy \u2014 earthy terracotta and deep moss green on creamy off-white, with marigold accents. Rounded cards, organic shapes, and emoji-rich UI that feels like a nature journal meets a mobile game."
+    },
+    "screens": [
+      "home",
+      "quests",
+      "bounty",
+      "community",
+      "roulette"
+    ],
+    "hasScreenshot": true,
+    "description": "Root & Rally transforms sustainable food practices into a playful adventure, centered around your personal 'Pantry Pal' \u2013 an evolving, AI-driven avatar. This app isn't just a tracker; it's a dynamic companion that learns your habits, challenges you to reduce food waste, support local producers, and embrace conscious consumption through gamified 'flavor quests' and friendly competition. Users log ingredients, document meals, and explore local food resources, all contributing to their Pal's mood and unlocking unique rewards. The emotional hook lies in the surprise interactions with your quirky Pal and the satisfaction of visibly improving its 'well-being' by making sustainable choices, turning everyday kitchen decisions into delightful, impactful moments. It makes doing good feel genuinely fun and social, rather than a chore.",
+    "features": [
+      {
+        "title": "Pantry Pal Avatar",
+        "detail": "A customizable, AI-powered companion whose personality and appearance evolve based on your sustainable food habits. Your Pal offers playful commentary and encouragement, making conscious consumption feel personal and engaging."
+      },
+      {
+        "title": "Ingredient Discovery Quests",
+        "detail": "Receive daily or weekly challenges to use specific ingredients, try new local produce, or reduce a particular type of food waste. Completing quests earns 'EcoPoints' and unlocks new customizations for your Pal, linking real-world actions to in-app rewards."
+      },
+      {
+        "title": "Local Bounty Hunts",
+        "detail": "Utilize geolocation-based tasks to discover nearby farmer's markets, community gardens, gleaning opportunities, or food rescue initiatives. Checking into these locations and interacting with local food systems contributes to your score and broadens your sustainable network."
+      },
+      {
+        "title": "'What's for Dinner?' Roulette",
+        "detail": "Based on your logged pantry inventory and expiry dates, your Pal offers surprising, often whimsical recipe suggestions (especially using ingredients nearing expiry or local seasonal items). This adds an element of delightful spontaneity to meal planning and reduces food waste."
+      },
+      {
+        "title": "Community Harvest Leaderboards",
+        "detail": "Compete with friends or local community groups on waste reduction, local sourcing, or ingredient mastery challenges. Collaborative and competitive goals foster accountability and a sense of shared purpose, propelling engagement."
+      }
+    ],
+    "audience": "Environmentally conscious Millennials and Gen Z (ages 20-40) who enjoy gamified experiences, care about sustainability, love cooking or exploring food, and are looking for engaging, social ways to make a positive impact.",
+    "category": "sustainability",
+    "useCases": [
+      "Before grocery shopping, Sarah opens Root & Rally to check her Pantry Pal's current mood and active 'use-it-up' challenges, ensuring she plans meals around expiring items and doesn't overbuy.",
+      "Mark is staring at a lonely bell pepper and an onion, unsure what to cook. He taps 'What's for Dinner?' Roulette, and his Pal's animated face pops up, suggesting a quirky stir-fry recipe and challenging him to incorporate a locally sourced mushroom for bonus points.",
+      "The 'Compost Captains' group in Alex's neighborhood is neck-and-neck on the weekly leaderboard for waste diversion. Alex snaps a pic of her compost bin's latest additions, earning points for her team and unlocking a new, shiny badge for her Pal's avatar."
+    ]
+  },
+  {
+    "folder": "2026-04-04-cognicraft",
+    "appName": "CogniCraft",
+    "tagline": "Remix knowledge, craft understanding.",
+    "designSystem": {
+      "primaryColor": "#d4622a",
+      "secondaryColor": "#2d6b4a",
+      "backgroundColor": "#1a1410",
+      "fontFamily": "Instrument Sans",
+      "style": "Editorial magazine with asymmetric grid layouts, rich terracotta orange and deep forest green on a dark off-black canvas. Typographic hierarchy-driven design with bold section labels, spacious gutters, and purposeful whitespace. Warm, curated aesthetic inspired by print editorial design."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "studio",
+      "portfolio"
+    ],
+    "hasScreenshot": true,
+    "description": "CogniCraft is a dynamic learning app that transforms education into a creative, hands-on remix experience. It breaks free from passive consumption by empowering users to actively deconstruct, re-interpret, and re-create knowledge in their own unique styles. Think of it as your personal intellectual studio, where articles become interactive stories, complex theories morph into visual explainers, and historical events are re-narrated through a modern lens. The app intelligently suggests 'remix blueprints' tailored to your interests and learning patterns, offering a suite of AI-powered creative tools \u2013 from text-to-visual generation to concept simplification \u2013 to bring your educational creations to life. By engaging in this iterative process of transforming information, users don't just memorize; they deeply understand, fostering a profound sense of ownership over their learning journey. It's designed to make learning an engaging, playful, and deeply personal act of creation, ensuring users return not for rote lessons, but to satisfy their innate curiosity and creative drive.",
+    "features": [
+      {
+        "title": "Adaptive Remix Blueprints",
+        "detail": "Receives personalized 'remix challenges' and templates based on your learning style, topic interests, and past creations, pushing you to explore new ways to express understanding."
+      },
+      {
+        "title": "Multimodal Source Ingestion",
+        "detail": "Easily import any educational content \u2013 text articles, podcast transcripts, YouTube links, PDFs \u2013 which the app then analyzes for key concepts and relationships."
+      },
+      {
+        "title": "Creative Co-Pilot AI",
+        "detail": "Access AI-powered tools that assist in content transformation, including summarization, conceptual mapping, tone adjustment, and suggestions for visual metaphors to enhance your remix."
+      },
+      {
+        "title": "Personalized Knowledge Portfolio",
+        "detail": "Build and showcase your unique 'knowledge creations' \u2013 whether they're illustrated summaries, narrative explainers, or conceptual art pieces \u2013 demonstrating your understanding and growth."
+      },
+      {
+        "title": "Contextual Idea Weaver",
+        "detail": "Get AI-driven suggestions for connecting disparate topics or remixing a concept from one field into another, encouraging interdisciplinary thought and deeper insight."
+      }
+    ],
+    "audience": "Lifelong learners, students (high school to graduate level), educators, and knowledge workers aged 16-55 who seek a more creative, engaging, and personally resonant way to learn and internalize complex information beyond traditional methods.",
+    "category": "education",
+    "useCases": [
+      {
+        "title": "Student Exam Prep",
+        "detail": "A college student struggling with a dense philosophy text inputs a chapter, and CogniCraft suggests turning the core arguments into a satirical comic strip, helping them grasp complex concepts through humor and visual representation for their exam."
+      },
+      {
+        "title": "Professional Skill Development",
+        "detail": "A marketing professional wants to quickly understand a new industry trend report. They upload the report, and the app prompts them to 'remix' it into a concise, actionable investor pitch deck, forcing them to synthesize key data points."
+      },
+      {
+        "title": "Curiosity-Driven Learning",
+        "detail": "A curious individual hears about a breakthrough in astrophysics and uses CogniCraft to translate the scientific paper into an accessible, short-form podcast script, thereby solidifying their own understanding and creating shareable content."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-04-flowforge",
+    "appName": "FlowForge",
+    "tagline": "Weave your daily progress.",
+    "designSystem": {
+      "primaryColor": "#0D1B2A",
+      "secondaryColor": "#C9922A",
+      "backgroundColor": "#F5F0E8",
+      "accentColor": "#FF5A38",
+      "fontFamily": "Work Sans",
+      "style": "Bold geometric with dynamic asymmetric grid modules, deep midnight blue primary with burnished brass accents and vivid coral CTAs on a desaturated linen base"
+    },
+    "screens": [
+      "home",
+      "tapestries",
+      "quests",
+      "journal"
+    ],
+    "hasScreenshot": true,
+    "description": "FlowForge reimagines productivity as an artistic, collective endeavor. Instead of rigid to-do lists, users discover an endless stream of \"Flow Fragments\"\u2014bite-sized, creative micro-challenges designed to inject focus and intentionality into their day. These aren't tasks; they're prompts like \"Capture a moment of quiet focus\" or \"Share one digital file you decluttered.\" Each completed Fragment, often a quick photo, screenshot, or brief note, contributes a \"thread\" to dynamic, AI-generated \"Momentum Tapestries.\" These Tapestries are living, collective artworks that visually represent community progress across themes like \"Digital Declutter,\" \"Mindful Moments,\" or \"Learning Sprints.\" The emotional hook is the joy of discovery \u2013 both of new, engaging Fragments and the evolving Tapestries, fostering a sense of shared purpose and encouraging users to contribute their unique 'thread' daily. It reframes small, often overlooked productive actions into meaningful contributions, making productivity feel less like a chore and more like a creative journey.",
+    "features": [
+      {
+        "title": "Flow Fragment Feed",
+        "detail": "A personalized, swipeable feed of highly specific, time-boxed micro-challenges (e.g., \"Spot a 'texture' that inspires focus,\" \"Draft a 2-sentence summary of your last meeting\"). Users complete these with a quick photo, screenshot, or 20-second audio clip, ensuring rapid engagement."
+      },
+      {
+        "title": "Momentum Tapestries",
+        "detail": "Dynamic, AI-generated visual collages and data visualizations that represent the collective contributions of users across various themes (e.g., \"The Atlas of Focus,\" \"Digital Garden Weave\"). Users can explore how their individual \"threads\" contribute to larger, evolving patterns, providing a sense of shared achievement and discovery."
+      },
+      {
+        "title": "Co-Forge Quests",
+        "detail": "Themed, time-limited collaborative objectives (e.g., \"The Week of Workspace Refresh\" or \"Month of Mental Model Mapping\") where users collectively contribute Flow Fragments towards a shared, visually presented group goal. This fosters co-op engagement and a sense of collective momentum."
+      },
+      {
+        "title": "Contextual Prompt Engine",
+        "detail": "A system that learns user habits and preferences (time of day, app usage, stated interests) to intelligently surface relevant Flow Fragments, ensuring novelty and making the challenges feel uniquely tailored and actionable without explicit search."
+      },
+      {
+        "title": "Reflect & Discover Journal",
+        "detail": "A private space where users can review their completed Flow Fragments and the Tapestries they contributed to, fostering self-reflection on their personal productivity journey and allowing them to bookmark inspiring community contributions."
+      }
+    ],
+    "audience": "Remote professionals, creatives, and lifelong learners aged 25-45 who feel overwhelmed by traditional task management and seek novel, visually stimulating, and collaborative ways to integrate small productive habits and reflective moments into their day.",
+    "category": "productivity",
+    "useCases": [
+      "A remote worker feels scattered during a midday slump, opens FlowForge, and sees a \"Flow Fragment\" that says, \"Declutter your desktop's downloads folder for 5 minutes.\" They quickly complete it, snap a before/after screenshot, and feel a small burst of accomplishment, seeing it add a \"thread\" to the \"Digital Order Tapestry.\"",
+      "A student struggling with procrastination on a research paper receives a \"Co-Forge Quest\" notification: \"The Knowledge Node Builders,\" prompting them to \"Summarize one key paragraph from your reading with a quick voice note.\" They contribute their insight, feeling connected to a larger community making progress on learning goals.",
+      "An artist trying to break creative blocks scrolls through the \"Momentum Tapestries\" and discovers \"The Inspiration Hunt\" Tapestry, a mosaic of community-submitted photos of 'found textures' and 'color palettes.' Inspired by others' contributions, they tap a \"Flow Fragment\" prompt, \"Capture a new texture near you,\" reigniting their creative flow."
+    ]
+  },
+  {
+    "folder": "2026-04-04-bloomverse",
+    "appName": "BloomVerse",
+    "tagline": "Fitness blossoms. Earth thrives. Collect life.",
+    "designSystem": {
+      "primaryColor": "#3D6B35",
+      "secondaryColor": "#8B4FB8",
+      "accentColor": "#C4621D",
+      "backgroundColor": "#F4EDD6",
+      "fontFamily": "Quicksand",
+      "style": "Organic hand-drawn with natural unbleached paper textures, asymmetric blob border-radii, wavy SVG dividers, floating gem animations at three parallax depth layers, and earthy ink-like outlines. Hub-and-spoke navigation with 4 asymmetric cards varying in size and corner shape. Light/dark theme toggle."
+    },
+    "screens": [
+      "home",
+      "sanctuary",
+      "quests",
+      "impact",
+      "collection"
+    ],
+    "hasScreenshot": true,
+    "description": "BloomVerse transforms personal health and fitness into a captivating mission to cultivate a vibrant, virtual 'Bio-Sanctuary'. Users engage with an adaptive, conversational coach that helps them set and achieve daily 'Restoration Quests' \u2013 from step goals and mindful meditation to hydration and active minutes. Each successfully completed quest doesn't just check a box; it 'blooms' a unique, procedurally generated 'Bio-Gem' \u2013 a dazzling plant, creature, or mystical formation \u2013 which then populates and enriches their personal 3D sanctuary. The app's core twist is that every Bio-Gem unlocked represents a micro-donation to real-world vetted environmental causes, directly linking personal effort to planetary impact, fostering a strong emotional connection. The thrill of discovery and the surprise of what new Bio-Gem will emerge next, coupled with the visual splendor of a growing, self-customized ecosystem, provides an unparalleled and deeply engaging health journey, encouraging consistent, joyful interaction well beyond typical fitness tracking.",
+    "features": [
+      {
+        "title": "Adaptive Eco-Coach",
+        "detail": "A conversational UI guides users through setting personalized health goals, framed as 'Restoration Quests', adapting suggestions based on past performance and stated preferences to feel like a supportive, understanding guide."
+      },
+      {
+        "title": "Bio-Sanctuary Garden",
+        "detail": "An immersive, spatially deep 3D environment rendered with 'Liquid Glass' aesthetics where users visually cultivate and watch their collected Bio-Gems grow, evolving dynamically as they achieve more health goals."
+      },
+      {
+        "title": "Procedural Bio-Gems",
+        "detail": "Users earn unique, AI-generated collectible 'Bio-Gems' (flora and fauna) upon completing quests, introducing an element of surprise and delight with each new discovery and populating their virtual ecosystem."
+      },
+      {
+        "title": "Impact Nexus Dashboard",
+        "detail": "Visually track personal and collective real-world environmental contributions, such as trees planted or plastic removed from oceans, directly linked to the Bio-Gems 'bloomed', providing tangible impact feedback."
+      },
+      {
+        "title": "Discovery Journal & Collection Log",
+        "detail": "A comprehensive catalog of all collected Bio-Gems, including their rarity and lore, encouraging users to explore diverse health activities to uncover specific rare specimens and complete sets."
+      }
+    ],
+    "audience": "Environmentally conscious and health-seeking individuals, aged 25-45, who are looking for a more playful, surprising, and impactful way to engage with their fitness journey beyond basic tracking, and who appreciate gamified experiences and aesthetic digital design.",
+    "category": "health & fitness",
+    "useCases": [
+      "A user wakes up, opens BloomVerse to check their daily 'Restoration Quest' for steps, motivated by the promise of unlocking a new Bio-Gem for their growing Bio-Sanctuary, and starts their morning walk.",
+      "During an evening wind-down, a user completes their mindfulness quest, receives a notification that a new 'Nebula Bloom' Bio-Gem has appeared in their sanctuary, and spends a few minutes admiring their expanding collection.",
+      "Feeling a slump mid-week, a user opens the app to explore their 'Impact Nexus', sees their collective contribution to ocean clean-up efforts growing, and feels re-energized to tackle their next fitness challenge."
+    ]
+  },
+  {
+    "folder": "2026-04-04-root--plate",
+    "appName": "Root & Plate",
+    "tagline": "Local flavors, shared culinary legacy.",
+    "designSystem": {
+      "primaryColor": "#5C6B2A",
+      "secondaryColor": "#C8941A",
+      "backgroundColor": "#F8F4E8",
+      "accentColor": "#B03A2E",
+      "fontFamily": "Lora",
+      "style": "Warm cozy \u2014 rich olive green and turmeric gold on creamy linen, full-bleed earthy photo headers, Lora serif typography for authentic artisan feel"
+    },
+    "screens": [
+      "home",
+      "quest",
+      "map",
+      "community",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Root & Plate transforms the everyday act of cooking into a personalized journey of local discovery and community contribution. Users don't just cook recipes; they embark on 'Culinary Quests' centered around specific local ingredients or traditional dishes unique to their region. For example, a user might choose to master 'The Art of Sourdough in [Local City]' or become a 'Seasonal Blackberry Forager.' As they cook, adapt, and share their experiences, they build a 'Lineage Log,' a visual chronicle of their culinary mastery and local sourcing notes. The app fosters a hyper-local identity community where users connect over shared quests, swapping tips, recommending local producers, and even organizing ingredient shares. This focus on deep engagement with local food systems, combined with a 'streaks' mechanic for quest contributions, creates a deeply satisfying sense of belonging and progress, making users return multiple times a week to contribute to their culinary legacy and discover what their neighbors are crafting.",
+    "features": [
+      {
+        "title": "Culinary Quests",
+        "detail": "Choose from a curated selection of hyper-local ingredient- or dish-centric quests, like 'Mastering the Farmers' Market Heirloom Tomato' or 'The Regional Tamale Tradition.' These quests provide a structured yet flexible path for deep culinary exploration."
+      },
+      {
+        "title": "Lineage Log & Streaks",
+        "detail": "Document your quest journey with photos, adaptations, sourcing stories, and tasting notes in your personalized 'Lineage Log.' Consistent contributions build streaks, unlocking new quest stages and community recognition for your dedication."
+      },
+      {
+        "title": "Local Pantry Map",
+        "detail": "An interactive map that highlights nearby farmers' markets, specialty purveyors, community gardens, and even other users' shared surplus for specific quest ingredients, enabling true local discovery and sustainable sourcing."
+      },
+      {
+        "title": "Flavor Weavers' Circle",
+        "detail": "Join a hyper-local community forum with other 'Root & Plate' members on similar quests. Share triumphs, seek advice, organize ingredient swaps, and discuss local food events, fostering a strong sense of belonging."
+      },
+      {
+        "title": "Dynamic Adaptation Engine",
+        "detail": "Receive personalized 'nudges' and creative prompts from an adaptive AI that suggests unique ingredient pairings, historical cooking methods, or cultural variations relevant to your active quest and local seasonal availability, encouraging experimentation beyond recipes."
+      }
+    ],
+    "audience": "Home cooks, food enthusiasts, locavores, and community-minded individuals (25-65) who are passionate about exploring regional flavors, supporting local producers, and deepening their connection to their geographic area through food.",
+    "category": "food & cooking",
+    "useCases": [
+      "A user wants to cook more seasonally and support local businesses after moving to a new city. They choose the 'Seasonal Asparagus Explorer' quest, and the app's Local Pantry Map guides them to a nearby farm stand and connects them with local cooks sharing asparagus recipes.",
+      "A passionate home baker discovers a local heritage grain producer and starts a 'Ancient Grain Revival' quest. They log their weekly baking experiments, share their sourdough starter journey, and receive AI-generated prompts for using different local flours.",
+      "A community member notices an abundance of garden zucchini in their neighborhood. They initiate a 'Zucchini Zen Master' quest, sharing creative recipes and fostering a local Flavor Weavers' Circle thread to swap zucchini varieties and cooking tips with neighbors, fulfilling their streaks for contributing to the local food movement."
+    ]
+  },
+  {
+    "folder": "2026-04-04-cognito-remix",
+    "appName": "Cognito Remix",
+    "tagline": "Weave concepts. Remix knowledge.",
+    "designSystem": {
+      "primaryColor": "#0ED8D8",
+      "secondaryColor": "#FF6B35",
+      "accentColor": "#818CF8",
+      "backgroundColor": "#0F0F16",
+      "surfaceColor": "#1A1A24",
+      "textColor": "#EDE8E0",
+      "fontFamily": "Lexend",
+      "style": "Duotone graphic \u2014 bold color blocks, strong typographic hierarchy, minimal decoration. Deep teal and burnt orange as primary duotone pair with electric indigo as tertiary accent. Off-white and charcoal base. No glassmorphism; relies on borders, color-coded left-borders, and typographic weight for structure."
+    },
+    "screens": [
+      "home",
+      "library",
+      "weave",
+      "community",
+      "graph"
+    ],
+    "screenDescriptions": {
+      "home": "Dashboard with daily challenge horizontal scroll, stat row, and recent weaves list",
+      "library": "Stem library with category filter horizontal scroll + stacked per-discipline horizontal scroll rows",
+      "weave": "Composition canvas \u2014 stem chain with connectors, annotation area, and AI assistant suggestion panel",
+      "community": "Social feed with featured weaves horizontal scroll, trending topics horizontal scroll, and activity list",
+      "graph": "SVG knowledge graph with mastery rings, interactive node selection, stat cards, and mastery breakdown list"
+    },
+    "features": [
+      "Dark/light theme toggle (default: dark)",
+      "Stacked horizontal scroll sections (Library + Community)",
+      "Interactive SVG knowledge graph with mastery rings",
+      "AI Weave Assistant suggestion panel",
+      "Stem chain with connector labels",
+      "Fork & like interactions in community",
+      "Stem type badge system (fact, principle, metaphor, quote, event, pattern, concept)"
+    ],
+    "hasScreenshot": true,
+    "description": "Cognito Remix transforms passive learning into an active, creative journey of intellectual synthesis. Instead of merely consuming information, users engage with a vast, curated library of 'knowledge stems' \u2013 atomic units like historical events, scientific principles, literary quotes, logical connectors, or cultural metaphors. Users drag, drop, and connect these stems, adding their own insights and transitions, to construct unique narratives, explanations, arguments, or artistic interpretations of complex subjects. The app's adaptive intelligence analyzes the user's 'weave' in real-time, suggesting complementary stems, identifying potential logical gaps, or proposing alternative perspectives, tailoring the learning experience dynamically. This hands-on reconstruction process deeply solidifies understanding, encourages critical thinking, and fosters a profound personal connection to the material. Users share their creative knowledge constructs within a community, inviting others to 'fork' and expand upon their ideas, turning education into a collaborative, ever-evolving act of creative discovery. The core appeal lies in the satisfaction of expressing deep, personalized understanding through unique, shareable compositions.",
+    "audience": "Intellectually curious high school and university students, lifelong learners, and hobbyists (16-45) who thrive on creative expression, self-directed exploration, and hands-on engagement with complex ideas.",
+    "category": "education",
+    "useCases": [
+      {
+        "title": "Mastering Complex Topics",
+        "detail": "A university student struggling with economic theories uses Cognito Remix to weave together different concepts like supply-demand, inflation, and fiscal policy into their own explanatory narrative, solidifying their comprehension."
+      },
+      {
+        "title": "Creative Content Generation",
+        "detail": "An aspiring blogger or content creator uses the app to experiment with different angles and arguments for an article on climate change, remixing scientific data stems with ethical philosophy stems and historical context."
+      },
+      {
+        "title": "Exploring Interdisciplinary Connections",
+        "detail": "A curious individual delves into the Renaissance, remixing stems related to art, science, philosophy, and politics to construct a holistic 'weave' that illustrates the period's interconnected innovations."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-04-momentum-mosaic",
+    "appName": "Momentum Mosaic",
+    "tagline": "Build a shared masterpiece, one moment at a time.",
+    "designSystem": {
+      "primaryColor": "#1E3A5F",
+      "secondaryColor": "#D4882E",
+      "backgroundColor": "#FFFFFF",
+      "accentColors": {
+        "ochre": "#D4882E",
+        "dustyRose": "#C4748A",
+        "mutedTeal": "#4A8B8C"
+      },
+      "fontFamily": "Poppins",
+      "style": "Bold geometric with asymmetric grid layouts, thick 2px borders, geometric accent blocks, strong typographic hierarchy using Poppins 800 for headings, role-colored badges, and a mosaic tile visualization system"
+    },
+    "screens": [
+      "home",
+      "crew",
+      "mosaic",
+      "profile"
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "navigation": "bottom-tabs",
+    "keyFeatures": [
+      "Daily Prompt Drops with role-based prompts",
+      "Interactive Mosaic tile grid with progressive reveal simulation",
+      "Crew Interpretations Feed with like/comment interactions",
+      "Momentum Streaks displayed in header",
+      "Role selection system (Analyst, Synthesizer, Illustrator, Catalyst, Architect)",
+      "Act-based milestone progression",
+      "Activity heatmap on profile",
+      "Light/dark theme toggle"
+    ],
+    "hasScreenshot": true,
+    "description": "Momentum Mosaic redefines productivity as a daily, collaborative discovery journey rather than a chore. Users join 'Crews' to tackle a series of bite-sized, creative micro-challenges, each contributing a small 'pixel' or 'segment' to a larger, mysterious collective project. The twist is that the overall project's nature \u2013 be it a community mural, a collaborative story, an aggregate data visualization, or a complex problem solution \u2013 only slowly reveals itself as the Crew completes tasks. This gamified, co-op challenge structure is designed for immediate engagement, mirroring the rapid-fire consumption and creation behavior of short-form content. It fosters both individual action and team curiosity, turning small productive bursts into a compelling, unfolding narrative, ensuring users are constantly coming back to contribute, see progress, and uncover the next piece of the puzzle.",
+    "features": [
+      {
+        "title": "Daily Prompt Drops",
+        "detail": "Receive a new, intriguing micro-challenge prompt each day or multiple times a day. These are designed to be quick, often creative tasks that can be completed in minutes, like 'Capture something that inspires focus' or 'Summarize your main goal in 3 words and a GIF'."
+      },
+      {
+        "title": "Mystery Mosaic Projects",
+        "detail": "Every Crew is working towards a larger 'Mosaic Project' whose ultimate form or goal is initially hidden. Each completed daily prompt adds a piece, slowly revealing the grander purpose and visual output, driving collective curiosity and engagement."
+      },
+      {
+        "title": "Crew Interpretations Feed",
+        "detail": "Browse how your Crewmates interpreted and completed the same daily prompt. This feature fosters community, provides inspiration, and highlights diverse approaches, making the experience more social and less isolating."
+      },
+      {
+        "title": "Momentum Streaks & Milestones",
+        "detail": "Track your individual contribution streak and witness the Crew's progress towards uncovering project milestones. This gamified element provides satisfying feedback loops and encourages consistent daily engagement."
+      },
+      {
+        "title": "Role-based Prompts",
+        "detail": "Within a Crew, different members might occasionally receive specialized prompts relevant to their chosen 'role' (e.g., 'Analyst', 'Synthesizer', 'Illustrator'), ensuring diverse contributions to the mosaic and showcasing different types of productivity."
+      }
+    ],
+    "audience": "Young professionals, students, and creatives (ages 18-35) who struggle with traditional productivity tools, seek playful engagement, value collaboration, and are drawn to novelty and social interaction in their daily routines.",
+    "category": "productivity",
+    "useCases": [
+      {
+        "title": "Overcoming the Afternoon Slump",
+        "detail": "A freelance designer feels stuck mid-afternoon. They open Momentum Mosaic, see a prompt: 'Sketch three tiny icons related to today's progress,' complete it in 5 minutes, contribute to their Crew's project, and feel a renewed burst of creative energy."
+      },
+      {
+        "title": "Remote Team Connection & Clarity",
+        "detail": "A distributed startup team uses the app daily for a fun, low-pressure check-in. The prompt 'What's one obstacle you overcame today?' helps foster empathy and shared understanding while collectively progressing towards their 'Project Clarity' mosaic."
+      },
+      {
+        "title": "Personal Goal Re-framing",
+        "detail": "A student struggling with a large research paper uses the app to break down their mental block. A prompt like 'Find one fascinating fact related to your topic and share a link' helps them make tiny, positive steps and discover new angles for their work."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-04-still-bloom",
+    "appName": "Still Bloom",
+    "tagline": "Cultivate calm, together.",
+    "designSystem": {
+      "primaryColor": "#5A8A5E",
+      "secondaryColor": "#C8A882",
+      "backgroundColor": "#0C160D",
+      "accentColor": "#7BA3B8",
+      "fontFamily": "Lora",
+      "style": "Editorial magazine \u2014 typographic, spacious, with content cards that overlap and rotate subtly like pressed flowers in a journal. Off-white linen base (light) or deep forest-green-black (dark). Sun-drenched sandstone, deep moss green, and muted sky blue palette grounded by charcoal on linen."
+    },
+    "screens": [
+      "home",
+      "ritual",
+      "garden",
+      "quest"
+    ],
+    "hasScreenshot": true,
+    "description": "Still Bloom is a collaborative digital garden, a 'World Bloom,' where global travelers and mindful individuals collectively nurture a shared, serene ecosystem through daily micro-rituals inspired by their unique experiences. It offers a mindful escape, transforming transient moments of calm found during travel or daily life into a lasting, evolving digital art piece. Users complete short, guided wellness rituals, like observing natural textures or practicing mindful listening, which generate unique 'Essence Fragments' reflective of their serene experiences. These fragments are then contributed to the World Bloom, visibly growing and altering its lush, procedurally generated landscape. The app fosters a sense of global connection and collective purpose, turning individual moments of reflection into a beautiful, shared sanctuary that provides reassurance and a gentle sense of accomplishment. It's a game of collective serene creation, distinct from mere personal tracking or social sharing.",
+    "features": [
+      {
+        "title": "Daily Essence Rituals",
+        "detail": "Engage in short, 1-3 minute guided mindfulness prompts, like 'Observe a natural texture' or 'Practice deep listening,' wherever you are. Completing these generates unique 'Essence Fragments' (e.g., 'Golden Hour Glow', 'Whispering Pine Echo') that are your contribution to the World Bloom."
+      },
+      {
+        "title": "The World Bloom Canvas",
+        "detail": "Witness a perpetually evolving, procedurally generated 3D ecosystem that dynamically changes and grows based on the collective 'Essence Fragments' contributed by all players globally. Different Essences cultivate distinct flora, fauna, and ambient elements, creating a living tapestry of global calm."
+      },
+      {
+        "title": "Collaborative Grove Quests",
+        "detail": "Participate in weekly collective goals, such as 'Cultivate the 'Riverbend Weave' section by contributing 500 'Flow' Essences this week,' to unlock new biomes or rare Bloom species for everyone. This shared mission deepens engagement and fosters a sense of community achievement."
+      },
+      {
+        "title": "Personal Serenity Stream",
+        "detail": "Maintain a private journal within the app to log reflections from each ritual, allowing you to track your personal journey of mindfulness and see how your contributions integrate into the larger World Bloom. It includes personal streak tracking to encourage consistent engagement."
+      },
+      {
+        "title": "Biome Architect Challenges",
+        "detail": "Unlock special challenges at higher personal contribution levels, allowing you to vote on or influence the aesthetic direction for small, upcoming sections of the World Bloom. This feature provides a sense of creative agency and deeper involvement in the collective design."
+      }
+    ],
+    "audience": "Mindful travelers, digital nomads, remote workers, or anyone seeking moments of calm and connection (ages 25-55) who appreciate aesthetics, collaborative experiences, and gentle daily rituals.",
+    "category": "travel",
+    "useCases": [
+      "A solo traveler waiting for a delayed flight opens 'Still Bloom,' completes a 'Soundscape Pause' ritual while observing airport sounds, and contributes 'Terminal Hum' essence to the collective World Bloom.",
+      "Someone reflecting on a past nature hike while at home completes a 'Memory Meadow' ritual, recalling a specific scenic view, and contributes 'Alpine Calm' essence to the ever-growing ecosystem.",
+      "A couple unwinding after a long day of sightseeing collaboratively tackles a 'Grove Quest,' each completing a personal 'Evening Gratitude' ritual to help unlock a new shared biome in the World Bloom."
+    ]
+  },
+  {
     "folder": "2026-04-04-terra-trails",
     "appName": "Terra Trails",
     "tagline": "Map your impact, unearth rewards.",

@@ -1,0 +1,12 @@
+{
+  "appName": "Anchor Rituals",
+  "tagline": "Your silent circle for deliberate practice.",
+  "designSystem": {
+    "primaryColor": "#C8A05C",
+    "secondaryColor": "#527A47",
+    "backgroundColor": "#181A16",
+    "fontFamily": "Lora",
+    "style": "Editorial magazine — muted slate, soft amber, dark forest green on creamy stone. Asymmetric grids with deliberate negative space, large serif typographic hierarchy, earthy earthy tones with thin borders and no heavy shadows."
+  },
+  "screens": ["home", "explore", "live", "guilds", "profile"]
+}

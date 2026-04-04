@@ -1,0 +1,11 @@
+Both files written to `prototypes/2026-04-04-anchor-rituals/`:
+
+**App.tsx** — 5 screens with editorial magazine design:
+
+- **Home** — Asymmetric layout with left-edge forest green accent bar, large editorial stat numbers, featured circle card with organic blob accent, ritual checklist
+- **Explore** — Oversized ghost number in the header (asymmetric depth), filter chips, time-sorted circle list with live dot indicator
+- **Live** — 66px timer as typographic centerpiece, 3×2 participant grid, progress bar, post-ritual reflection flow with streak milestone reveal
+- **Guilds** — Asymmetric two-column grid (1.45:1 ratio) with full-width featured guild, colored top-edge accent bars, editorial pull quote
+- **Profile** — Large thirds-grid stat numbers, milestone tracker with locked states, italic reflection journal entries
+
+Key design choices: Lora serif throughout, `#C8A05C` amber + `#527A47` forest green on `#181A16` dark base, no gradients or glassmorphism, deliberate whitespace in headers, thin `1px` borders only. Dark mode default with light mode toggle in the Home header.
