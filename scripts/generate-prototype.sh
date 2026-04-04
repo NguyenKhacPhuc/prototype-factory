@@ -57,42 +57,75 @@ else
   ALT_THEME="light"
 fi
 
-# Generate a unique visual direction for this prototype
+# Generate a unique visual direction — use deterministic rotation to guarantee variety
 APP_CATEGORY=$(echo "$IDEA_JSON" | python3 -c "import sys,json; print(json.load(sys.stdin).get('category','general'))")
+
+# Pre-defined palettes, styles, fonts — rotated per batch index to guarantee NO repeats
 VISUAL_DIRECTION=$(python3 -c "
-import json, urllib.request, os
+import json, os, random
 
-prompt = '''You are a mobile app art director. Given an app idea, output a JSON object with a bold, specific visual direction. Be opinionated and distinctive — no generic \"clean minimal\" or \"glassmorphic cards\" defaults.
+idx = int(os.environ.get('BATCH_CATEGORY_INDEX', random.randint(0, 99)))
 
-Return JSON only:
-{
-  \"palette\": \"specific color description, e.g. matte terracotta + dusty sage on warm cream\",
-  \"style\": \"one of: neo-brutalist, editorial magazine, retro-analog, playful illustrated, luxury minimal, bold geometric, organic hand-drawn, data-dense dashboard, skeuomorphic tactile, duotone graphic, collage punk, soft pastel dreamy, industrial tech, warm cozy, newspaper print\",
-  \"font\": \"one specific Google Font (NOT Inter, NOT Outfit, NOT DM Sans, NOT Space Grotesk — pick from: Playfair Display, Bitter, Crimson Pro, Libre Baskerville, Source Serif 4, Fraunces, Lora, Merriweather, Archivo Black, Bebas Neue, Oswald, Barlow Condensed, Chakra Petch, Orbitron, Press Start 2P, Silkscreen, Caveat, Permanent Marker, Patrick Hand, Satisfy, Righteous, Poppins, Quicksand, Nunito, Comfortaa, Fredoka, Baloo 2, Rubik, Lexend, Work Sans, Manrope, Red Hat Display, Instrument Sans, Figtree, Geist, Atkinson Hyperlegible)\",
-  \"mood\": \"3-5 word emotional descriptor, e.g. confident and rebellious, cozy sunday afternoon, clinical precision\",
-  \"layout_twist\": \"one unique layout element, e.g. overlapping cards at angles, full-bleed photo headers, sticky floating action island, asymmetric grid, tab content slides horizontally, stacked horizontal scroll sections, bottom sheet reveals\",
-  \"nav_pattern\": \"one of: bottom tabs, top tabs, side drawer, floating action menu, hub-and-spoke cards, scrolling sections, gesture-based — pick what fits the app personality\"
+palettes = [
+    'electric coral #FF6B6B + midnight navy #1A1A40 on crisp white #FAFAFA',
+    'hot magenta #E91E63 + charcoal #2C2C2C on pale blush #FFF0F0',
+    'sunflower yellow #FFD600 + deep purple #4A148C on warm ivory #FFFDE7',
+    'ocean teal #00838F + burnt sienna #BF360C on sand #FFF8E1',
+    'electric blue #2979FF + coral red #FF5252 on cool gray #F5F5F5',
+    'lime green #76FF03 + dark slate #263238 on off-white #FAFAFA',
+    'tangerine #FF6D00 + indigo #283593 on cream #FFF3E0',
+    'lavender #B388FF + forest #1B5E20 on pearl #F3E5F5',
+    'ruby red #D32F2F + gold #FFD54F on charcoal #212121',
+    'sky blue #4FC3F7 + terracotta #D84315 on warm white #FFFDE7',
+    'mint #00E676 + deep rose #AD1457 on light gray #ECEFF1',
+    'peach #FFAB91 + slate blue #37474F on snow #FAFAFA',
+]
+
+styles = [
+    'neo-brutalist', 'editorial magazine', 'retro-analog', 'playful illustrated',
+    'luxury minimal', 'bold geometric', 'soft pastel dreamy', 'data-dense dashboard',
+    'skeuomorphic tactile', 'duotone graphic', 'collage punk', 'industrial tech',
+]
+
+fonts = [
+    'Playfair Display', 'Archivo Black', 'Fraunces', 'Bebas Neue',
+    'Orbitron', 'Fredoka', 'Crimson Pro', 'Barlow Condensed',
+    'Righteous', 'Caveat', 'Red Hat Display', 'Chakra Petch',
+]
+
+moods = [
+    'confident and rebellious', 'cozy sunday afternoon', 'clinical precision',
+    'playful chaos energy', 'serene and elevated', 'raw underground zine',
+    'warm nostalgic glow', 'futuristic and sharp', 'dreamy watercolor calm',
+    'bold street poster', 'quiet luxury whisper', 'maximalist celebration',
+]
+
+layout_twists = [
+    'overlapping cards at angles', 'full-bleed photo headers with text overlay',
+    'bento grid dashboard', 'horizontal scroll sections stacked vertically',
+    'asymmetric split-screen layout', 'floating action island at bottom',
+    'timeline with branching paths', 'masonry grid with varied card sizes',
+    'tab content slides horizontally', 'bottom sheet reveals for detail views',
+    'sticky header that transforms on scroll', 'staggered fade-in card waterfall',
+]
+
+nav_patterns = [
+    'bottom tabs', 'top tabs', 'side drawer', 'floating action menu',
+    'hub-and-spoke cards', 'scrolling sections', 'bottom tabs',
+    'top tabs with icons', 'gesture-based swipe', 'sidebar with icons',
+    'floating pill navigation', 'segmented control at top',
+]
+
+d = {
+    'palette': palettes[idx % len(palettes)],
+    'style': styles[idx % len(styles)],
+    'font': fonts[idx % len(fonts)],
+    'mood': moods[idx % len(moods)],
+    'layout_twist': layout_twists[idx % len(layout_twists)],
+    'nav_pattern': nav_patterns[idx % len(nav_patterns)],
 }
-
-App: $APP_NAME — $APP_TAGLINE. Category: $APP_CATEGORY'''
-
-body = json.dumps({
-    'contents': [{'parts': [{'text': prompt}]}],
-    'generationConfig': {
-        'temperature': 1.3,
-        'responseMimeType': 'application/json'
-    }
-}).encode()
-req = urllib.request.Request(
-    'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + os.environ['GEMINI_API_KEY'],
-    data=body,
-    headers={'Content-Type': 'application/json'}
-)
-resp = json.loads(urllib.request.urlopen(req).read())
-content = resp['candidates'][0]['content']['parts'][0]['text']
-d = json.loads(content)
 print(json.dumps(d))
-" 2>/dev/null) || VISUAL_DIRECTION='{"palette":"warm coral on off-white","style":"editorial magazine","font":"Playfair Display","mood":"confident and refined","layout_twist":"overlapping cards at angles"}'
+")
 
 # Extract individual fields
 COLOR_HINT=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['palette'])")
