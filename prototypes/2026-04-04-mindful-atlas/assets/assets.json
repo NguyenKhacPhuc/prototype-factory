@@ -1,0 +1,30 @@
+{
+  "appName": "Mindful Atlas",
+  "fontFamily": "Fraunces",
+  "colors": {
+    "primary": "#C8963E",
+    "secondary": "#6B8C5A",
+    "background": "#1A1610",
+    "accent": "#8B6B3D"
+  },
+  "icons": [
+    "award",
+    "book-open",
+    "check-circle",
+    "chevron-right",
+    "clock",
+    "eye",
+    "globe",
+    "layers",
+    "map-pin",
+    "moon",
+    "star",
+    "sun",
+    "trending-up",
+    "wind",
+    "x"
+  ],
+  "fonts": [],
+  "iconCount": 15,
+  "fontFileCount": 0
+}

@@ -1,0 +1,22 @@
+{
+  "appName": "Mindful Atlas",
+  "tagline": "Co-create your world's mindful story.",
+  "designSystem": {
+    "primaryColor": "#C8963E",
+    "secondaryColor": "#6B8C5A",
+    "backgroundColor": "#1A1610",
+    "accentColor": "#8B6B3D",
+    "fontFamily": "Fraunces",
+    "style": "Retro-analog with aged parchment textures, dashed borders, map coordinate typography, vintage stamp motifs, and ochre-moss-charcoal palette — nostalgic, serene, curated discovery"
+  },
+  "screens": ["home", "explore", "collection", "journey"],
+  "navigation": "gesture-based swipe with vintage instrument panel bottom nav and progress dot indicators",
+  "defaultTheme": "dark",
+  "keyFeatures": [
+    "Geo-Anchored Rituals with horizontal scroll discovery",
+    "Local Lore stacked horizontal scroll sections",
+    "Memory Shard collection with rarity system and detail modal",
+    "Wellness Journey with SVG progress ring and achievement badges",
+    "Light/Dark theme toggle on all screens"
+  ]
+}
