@@ -1,0 +1,19 @@
+{
+  "appName": "Idea Weaver",
+  "tagline": "Weave shared ideas into evolving art.",
+  "designSystem": {
+    "primaryColor": "#18181B",
+    "secondaryColor": "#3F3F46",
+    "ctaColor": "#EC4899",
+    "backgroundColor": "#FAFAFA",
+    "fontFamily": "Fredoka, Nunito",
+    "style": "AI Personalization Landing — Bold minimalism, oversized typography, high contrast, negative space, loud minimal, statement design"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "create",
+    "tapestry",
+    "profile"
+  ]
+}

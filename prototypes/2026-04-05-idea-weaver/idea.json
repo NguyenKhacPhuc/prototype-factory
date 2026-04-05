@@ -1,0 +1,37 @@
+{
+  "name": "Idea Weaver",
+  "tagline": "Weave shared ideas into evolving art.",
+  "description": "Idea Weaver is a vibrant digital club where neurodivergent adults, especially those with ADHD, can engage in low-pressure, asynchronous creative collaboration. Users contribute 'seeds' \u2013 short, abstract phrases, evocative single words, or quick doodle fragments \u2013 serving as prompts for the AI. The AI then generates unique, constrained creative 'threads' based on these seeds, offering bite-sized starting points like 'write a haiku about a forgotten color' or 'sketch a machine that hums regret.' This alleviates the overwhelm of a blank canvas and decision fatigue. Once users create their 'weaves' (a short text, a sketch, a sound snippet) in response to a thread, the AI intelligently connects these disparate contributions into ever-evolving, non-linear 'tapestries' based on thematic or stylistic resonance. The novelty of discovering how one's fragment contributed to a larger, dynamic, and community-driven artwork, coupled with the low-barrier entry for creation, fosters strong repeat engagement and a sense of shared discovery without performance pressure.",
+  "features": [
+    {
+      "title": "Seed Submission",
+      "detail": "Users contribute a single word, short phrase, or abstract doodle as a 'creative seed.' This low-friction entry point helps overcome initiation paralysis common in ADHD, making creative contribution accessible."
+    },
+    {
+      "title": "AI Thread Generator",
+      "detail": "Our AI analyzes user seeds and generates 3-5 unique, constrained creative prompts ('threads'). These structured challenges prevent overwhelm and provide concrete directions for neurodivergent minds, turning vague ideas into actionable steps."
+    },
+    {
+      "title": "Collaborative Weaves",
+      "detail": "Users respond to chosen threads with their 'weaves' \u2013 a micro-story, a quick sketch, or a sound byte. This user-generated content forms the building blocks of the collective creation, fostering small, achievable creative wins."
+    },
+    {
+      "title": "Dynamic Tapestries",
+      "detail": "The distinctive twist: The AI continuously interlaces individual 'weaves' from different users, based on semantic and aesthetic connections, into evolving, abstract 'tapestries.' This creates a sense of shared discovery and surprise as users see their contributions form part of an ever-changing digital art piece."
+    },
+    {
+      "title": "Daily Loom Challenge",
+      "detail": "A curated daily prompt or 'loom' based on trending seeds encourages consistent engagement and provides fresh novelty. This variable reward schedule keeps users returning to see what new creative paths the community is exploring."
+    }
+  ],
+  "audience": "Neurodivergent adults (specifically those with ADHD) who struggle with creative initiation or completion due to overwhelm, but crave a low-pressure outlet for creative expression and community connection.",
+  "category": "AI creative & generative",
+  "useCases": [
+    "A user feels overwhelmed by a blank canvas, opens Idea Weaver, submits 'whispers,' and receives prompts like 'sketch a ghost of a sound' or 'write a three-line poem about echoes' to kickstart their creativity.",
+    "During a focus break, a user with ADHD submits a random word 'flicker' and quickly responds to an AI thread 'describe a fleeting thought as light' with a short phrase, getting a quick creative win.",
+    "A user revisits the app, curious to see how their 'weave' from last week has been integrated into new 'tapestries,' discovering unexpected connections with other users' contributions and inspiring new creative 'seeds.'"
+  ],
+  "engagementLoop": "Users submit a 'seed,' receive novel AI-generated 'threads,' respond with their own 'weaves,' and then are drawn back to discover how their contributions integrate into dynamic, evolving 'tapestries' alongside others. This continuous cycle of low-effort creation and high-reward discovery fosters weekly re-engagement.",
+  "trendFit": "This app capitalizes on the growing trend of asynchronous collaboration and the demand for AI-driven creativity, allowing users to contribute bite-sized creative input that collectively forms a larger, evolving art piece. It also taps into the need for engaging, non-traditional creative outlets for niche audiences.",
+  "monetization": "A freemium model offering subscriptions for expanded 'thread' generation options, access to exclusive themed 'looms,' and higher quality output for their 'weaves' or tapestries (e.g., higher resolution downloads)."
+}
