@@ -1,0 +1,19 @@
+{
+  "appName": "Eco Bloom",
+  "tagline": "Your Green Acts, Our Digital Bloom.",
+  "designSystem": {
+    "primaryColor": "#0891B2",
+    "secondaryColor": "#22D3EE",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#ECFEFF",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "Nature-inspired marketplace/directory with organic shapes, flowing gradients, rounded cards, and earthy wellness aesthetic. Light and dark themes with smooth micro-interactions."
+  },
+  "screens": [
+    "home",
+    "ecosphere",
+    "challenges",
+    "codex",
+    "profile"
+  ]
+}
