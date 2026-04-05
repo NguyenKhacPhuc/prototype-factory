@@ -1,0 +1,197 @@
+import Anthropic from '@anthropic-ai/sdk';
+import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs';
+import { execSync } from 'child_process';
+import { dirname } from 'path';
+import { config } from './config';
+import { SkillRouter } from './skill-router';
+import { PipelineLogger } from './pipeline-logger';
+
+interface Message {
+  role: 'user' | 'assistant';
+  content: any;
+}
+
+interface ToolResult {
+  type: 'tool_result';
+  tool_use_id: string;
+  content: string;
+}
+
+export class SessionManager {
+  private client: Anthropic;
+  private messages: Message[] = [];
+  private router: SkillRouter;
+  private logger: PipelineLogger;
+  private workDir: string;
+  private maxMessages = 40; // prevent context overflow
+
+  constructor(router: SkillRouter, logger: PipelineLogger, workDir: string) {
+    this.client = new Anthropic({ apiKey: config.anthropicApiKey });
+    this.router = router;
+    this.logger = logger;
+    this.workDir = workDir;
+    mkdirSync(workDir, { recursive: true });
+  }
+
+  /** Run a single step with appropriate skills and model */
+  async runStep(stage: number, step: string, prompt: string, taskReqs?: string[]): Promise<string> {
+    const system = this.router.buildSystemMessage(stage, step, taskReqs);
+    const model = SkillRouter.getModel(stage, step);
+    const start = Date.now();
+
+    // Add user message
+    this.messages.push({ role: 'user', content: prompt });
+
+    // Trim old messages if too long
+    if (this.messages.length > this.maxMessages) {
+      this.messages = this.messages.slice(-this.maxMessages);
+    }
+
+    let response = await this.client.messages.create({
+      model,
+      max_tokens: 16000,
+      system,
+      messages: this.messages,
+      tools: this.getTools(),
+    });
+
+    // Handle tool use loops
+    let iterations = 0;
+    while (response.stop_reason === 'tool_use' && iterations < 20) {
+      iterations++;
+      const toolBlocks = response.content.filter((b: any) => b.type === 'tool_use');
+      const toolResults: ToolResult[] = [];
+
+      for (const block of toolBlocks) {
+        const result = await this.executeTool(block as any);
+        toolResults.push({
+          type: 'tool_result',
+          tool_use_id: (block as any).id,
+          content: result,
+        });
+        this.logger.log({
+          stage, step, event: 'tool_use',
+          detail: `${(block as any).name}: ${JSON.stringify((block as any).input).slice(0, 100)}`,
+        });
+      }
+
+      // Add assistant response + tool results
+      this.messages.push({ role: 'assistant', content: response.content });
+      this.messages.push({ role: 'user', content: toolResults });
+
+      response = await this.client.messages.create({
+        model,
+        max_tokens: 16000,
+        system,
+        messages: this.messages,
+        tools: this.getTools(),
+      });
+    }
+
+    // Log API call
+    const usage = response.usage;
+    const duration = Date.now() - start;
+    this.logger.log({
+      stage, step, event: 'api_call',
+      model,
+      input_tokens: usage.input_tokens,
+      output_tokens: usage.output_tokens,
+      cached_tokens: (usage as any).cache_read_input_tokens ?? 0,
+      duration_ms: duration,
+    });
+
+    await this.logger.trackTokens(
+      usage.input_tokens,
+      usage.output_tokens,
+      (usage as any).cache_read_input_tokens ?? 0,
+    );
+
+    // Add final assistant response
+    this.messages.push({ role: 'assistant', content: response.content });
+
+    // Extract text content
+    return response.content
+      .filter((b: any) => b.type === 'text')
+      .map((b: any) => b.text)
+      .join('');
+  }
+
+  /** Clear message history (call between stages to prevent overflow) */
+  clearHistory() {
+    this.messages = [];
+  }
+
+  private getTools() {
+    return [
+      {
+        name: 'write_file',
+        description: 'Write content to a file. Creates parent directories if needed.',
+        input_schema: {
+          type: 'object' as const,
+          properties: {
+            path: { type: 'string', description: 'File path relative to project root' },
+            content: { type: 'string', description: 'File content' },
+          },
+          required: ['path', 'content'],
+        },
+      },
+      {
+        name: 'read_file',
+        description: 'Read content of a file.',
+        input_schema: {
+          type: 'object' as const,
+          properties: {
+            path: { type: 'string', description: 'File path relative to project root' },
+          },
+          required: ['path'],
+        },
+      },
+      {
+        name: 'run_command',
+        description: 'Run a shell command in the project directory.',
+        input_schema: {
+          type: 'object' as const,
+          properties: {
+            command: { type: 'string', description: 'Shell command to execute' },
+          },
+          required: ['command'],
+        },
+      },
+    ];
+  }
+
+  private async executeTool(block: { name: string; input: any }): Promise<string> {
+    try {
+      switch (block.name) {
+        case 'write_file': {
+          const fullPath = block.input.path.startsWith('/')
+            ? block.input.path
+            : `${this.workDir}/${block.input.path}`;
+          mkdirSync(dirname(fullPath), { recursive: true });
+          writeFileSync(fullPath, block.input.content);
+          this.logger.log({ stage: 0, step: 'tool', event: 'file_write', detail: fullPath });
+          return `File written: ${fullPath}`;
+        }
+        case 'read_file': {
+          const fullPath = block.input.path.startsWith('/')
+            ? block.input.path
+            : `${this.workDir}/${block.input.path}`;
+          if (!existsSync(fullPath)) return `Error: File not found: ${fullPath}`;
+          return readFileSync(fullPath, 'utf-8');
+        }
+        case 'run_command': {
+          const result = execSync(block.input.command, {
+            cwd: this.workDir,
+            timeout: 60000,
+            maxBuffer: 1024 * 1024,
+          });
+          return result.toString().slice(0, 4000);
+        }
+        default:
+          return `Unknown tool: ${block.name}`;
+      }
+    } catch (err: any) {
+      return `Error: ${err.message?.slice(0, 500)}`;
+    }
+  }
+}

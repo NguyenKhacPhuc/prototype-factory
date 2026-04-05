@@ -1,26 +1,26 @@
 import { createClient } from '@supabase/supabase-js';
 import { config } from './config';
 import { runPrototypeJob } from './prototype-worker';
+import { runMobileAppJob } from './mobile-app-worker';
 
 const supabase = createClient(config.supabaseUrl, config.supabaseServiceKey);
 
 let activeJobs = 0;
-const MAX_CONCURRENT = 3;
+const MAX_CONCURRENT_PROTOTYPE = 3;
+const MAX_CONCURRENT_MOBILE = 1;
 
 export async function startPolling() {
   console.log(`Worker started (mock=${config.mockMode}, polling every ${config.pollIntervalMs}ms)`);
 
-  // Poll loop
   setInterval(async () => {
-    if (activeJobs >= MAX_CONCURRENT) return;
+    if (activeJobs >= MAX_CONCURRENT_PROTOTYPE + MAX_CONCURRENT_MOBILE) return;
 
     try {
-      // Atomically claim a pending job
+      // Claim a pending job (prototype or mobile-app)
       const { data: jobs, error } = await supabase
         .from('generation_jobs')
         .update({ status: 'running', started_at: new Date().toISOString() })
         .eq('status', 'pending')
-        .eq('type', 'prototype')
         .order('created_at', { ascending: true })
         .limit(1)
         .select();
@@ -28,10 +28,14 @@ export async function startPolling() {
       if (error || !jobs?.length) return;
 
       const job = jobs[0];
-      console.log(`Picked up job ${job.id}: ${job.input?.prompt?.slice(0, 50)}...`);
+      console.log(`Picked up ${job.type} job ${job.id}: ${job.input?.prompt?.slice(0, 50)}...`);
 
       activeJobs++;
-      runPrototypeJob(job.id, job.input)
+      const runner = job.type === 'mobile-app'
+        ? runMobileAppJob(job.id, job.input)
+        : runPrototypeJob(job.id, job.input);
+
+      runner
         .catch(err => console.error(`Job ${job.id} failed:`, err.message))
         .finally(() => { activeJobs--; });
 
