@@ -1,0 +1,38 @@
+{
+  "appName": "Serene Stitch",
+  "tagline": "Your daily calm, crafted.",
+  "designSystem": {
+    "primaryColor": "#0F0F23",
+    "secondaryColor": "#1E1B4B",
+    "ctaColor": "#E11D48",
+    "backgroundColor": "#000000",
+    "accentColor": "#7C3AED",
+    "tealColor": "#0D9488",
+    "fontFamily": "Inter",
+    "style": "Video-First Hero — bold, energetic, high-contrast dark UI with gradient cards, geometric shapes, and smooth micro-interactions. Duotone gradients throughout, pulsing live indicators, waveform animations, and floating stitch previews."
+  },
+  "screens": [
+    "home",
+    "create",
+    "archive",
+    "profile"
+  ],
+  "navigation": "bottom-tabs",
+  "defaultTheme": "dark",
+  "features": [
+    "Daily prompt rotation with animated transitions",
+    "7-day calm streak tracker with visual progress",
+    "3-slot media upload flow with animated state",
+    "Aesthetic selector (Serene, Warm, Moody, Crisp)",
+    "Soundscape picker (Rain, Forest, Waves, Binaural)",
+    "Stitch duration slider",
+    "Animated processing screen with real progress bar",
+    "Done state with export/share actions",
+    "Calm archive with grid/list toggle",
+    "Mood filter chips",
+    "Weekly mood map bar chart",
+    "User stats (stitches, streak, calm hours)",
+    "Preferences and app settings with live toggles",
+    "Dark/light theme toggle accessible on home and profile"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "appName": "Serene Stitch",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#0F0F23",
+    "secondary": "#1E1B4B",
+    "background": "#000000",
+    "accent": "#7C3AED"
+  },
+  "icons": [
+    "check",
+    "download",
+    "grid",
+    "lightbulb",
+    "list",
+    "moon",
+    "more-vertical",
+    "play",
+    "plus",
+    "scissors",
+    "sparkles",
+    "sun",
+    "user"
+  ],
+  "fonts": [],
+  "iconCount": 13,
+  "fontFileCount": 0
+}
