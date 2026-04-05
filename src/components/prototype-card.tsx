@@ -2,6 +2,7 @@ import React from "react";
 import type { Prototype } from "../types";
 import { useAuth } from "../hooks/use-auth";
 import { useFavorites } from "../hooks/use-favorites";
+import { safeText } from "../lib/safe-text";
 
 interface Props {
   prototype: Prototype;
@@ -69,8 +70,8 @@ export function PrototypeCard({ prototype: p, navigate }: Props) {
             <span className="shot-name">{p.appName}</span>
             {p.category && <span className="shot-category">{p.category}</span>}
           </div>
-          <span className="shot-tagline">{p.tagline}</span>
-          {p.description && <span className="shot-desc">{p.description}</span>}
+          <span className="shot-tagline">{safeText(p.tagline)}</span>
+          {p.description && <span className="shot-desc">{safeText(p.description)}</span>}
         </div>
         <div className="shot-stats">
           <button

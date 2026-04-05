@@ -3,6 +3,7 @@ import type { Prototype } from "../types";
 import { useAuth } from "../hooks/use-auth";
 import { useFavorites } from "../hooks/use-favorites";
 import { designTreeToSvg } from "../lib/design-tree-to-svg";
+import { safeText } from "../lib/safe-text";
 
 interface Props {
   prototype: Prototype | undefined;
@@ -113,17 +114,17 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
         <div className="detail-info">
           <div className="detail-header">
             <h1>{p.appName}</h1>
-            <p className="detail-tagline">{p.tagline}</p>
+            <p className="detail-tagline">{safeText(p.tagline)}</p>
             <div className="detail-meta">
-              {p.category && <span className="tag tag-category">{p.category}</span>}
+              {p.category && <span className="tag tag-category">{safeText(p.category)}</span>}
               {date && <span className="tag">{date}</span>}
-              {p.audience && <span className="tag">{typeof p.audience === "string" ? p.audience : (p.audience as any).demographics || ""}</span>}
+              {p.audience && <span className="tag">{safeText(p.audience)}</span>}
             </div>
           </div>
 
           <div className="detail-section">
             <h2>Description</h2>
-            <p>{p.description}</p>
+            <p>{safeText(p.description)}</p>
           </div>
 
           {p.features?.length > 0 && (
@@ -131,7 +132,7 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
               <h2>Features</h2>
               <ul className="detail-features">
                 {p.features.map((f, i) => (
-                  <li key={i}>{typeof f === 'string' ? f : <><strong>{f.title}</strong>: {f.detail}</>}</li>
+                  <li key={i}>{safeText(f)}</li>
                 ))}
               </ul>
             </div>
@@ -144,7 +145,7 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
                 {p.screens.map((s, i) => (
                   <div key={i} className="screen-item">
                     <span className="screen-num">{i + 1}</span>
-                    <span>{s}</span>
+                    <span>{safeText(s)}</span>
                   </div>
                 ))}
               </div>
@@ -155,7 +156,7 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
             <div className="detail-section">
               <h2>Use Cases</h2>
               {p.useCases.map((uc, i) => (
-                <p key={i} className="use-case">{typeof uc === 'string' ? uc : <><strong>{uc.title}</strong>: {uc.detail}</>}</p>
+                <p key={i} className="use-case">{safeText(uc)}</p>
               ))}
             </div>
           )}
