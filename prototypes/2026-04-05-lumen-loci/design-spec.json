@@ -1,0 +1,18 @@
+{
+  "appName": "Lumen Loci",
+  "tagline": "Co-create calm, one mindful journey.",
+  "designSystem": {
+    "primaryColor": "#0EA5E9",
+    "secondaryColor": "#38BDF8",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F0F9FF",
+    "fontFamily": "Inter",
+    "style": "AI Personalization Landing — animation-heavy with microinteractions, smooth transitions, parallax, entrance animations, and page transitions. Ethereal, calm aesthetic with glowing tapestry visuals and ambient weave animations."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "contribute",
+    "almanac"
+  ]
+}

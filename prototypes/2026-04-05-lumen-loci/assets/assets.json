@@ -1,0 +1,23 @@
+{
+  "appName": "Lumen Loci",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#0EA5E9",
+    "secondary": "#38BDF8",
+    "background": "#F0F9FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-left",
+    "feather",
+    "map-pin",
+    "moon",
+    "plus",
+    "sparkles",
+    "sun",
+    "unlock"
+  ],
+  "fonts": [],
+  "iconCount": 8,
+  "fontFileCount": 0
+}
