@@ -1,0 +1,40 @@
+{
+  "appName": "LoreBite",
+  "fontFamily": "Playfair Display SC + Karla",
+  "colors": {
+    "primary": "#DC2626",
+    "secondary": "#F87171",
+    "background": "#FEF2F2",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "award",
+    "book-open",
+    "bot",
+    "calendar",
+    "chef-hat",
+    "chevron-right",
+    "compass",
+    "flame",
+    "heart",
+    "home",
+    "leaf",
+    "map",
+    "map-pin",
+    "message-circle",
+    "moon",
+    "navigation",
+    "plus",
+    "send",
+    "sparkles",
+    "star",
+    "sun",
+    "trending-up",
+    "trophy",
+    "users",
+    "x"
+  ],
+  "fonts": [],
+  "iconCount": 25,
+  "fontFileCount": 0
+}

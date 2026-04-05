@@ -1,0 +1,19 @@
+{
+  "appName": "LoreBite",
+  "tagline": "Unearth local flavors, cook hidden stories.",
+  "designSystem": {
+    "primaryColor": "#DC2626",
+    "secondaryColor": "#F87171",
+    "ctaColor": "#CA8A04",
+    "backgroundColor": "#FEF2F2",
+    "fontFamily": "Playfair Display SC + Karla",
+    "style": "AI Personalization Landing — bold, energetic, block layout with high color contrast, geometric shapes, duotone gradients, and playful spatial energy. Heritage-themed with warm reds and gold accents."
+  },
+  "screens": [
+    "home",
+    "map",
+    "community",
+    "ai",
+    "profile"
+  ]
+}

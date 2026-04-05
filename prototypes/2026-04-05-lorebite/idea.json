@@ -1,0 +1,37 @@
+{
+  "name": "LoreBite",
+  "tagline": "Unearth local flavors, cook hidden stories.",
+  "description": "LoreBite transforms cooking into a quest for cultural connection, focusing on hyper-local culinary heritage. Users discover \"Lore Bites\" \u2013 unique, often forgotten food stories, traditional recipes, or ingredient folklore tied to their immediate geographical area. The app challenges them to 'revive' these Lore Bites through personal cooking interpretations, sharing their creations with a highly engaged local community, and earning \"Heritage Streaks\" for consistent participation. This fosters a deep connection to place and a sense of shared identity around local gastronomy, making users feel like active participants in their community's culinary narrative. The platform uses conversational AI to guide interpretations and an immersive spatial UI for discovery, making the process of exploring culinary history feel dynamic and personal. It's a space where every meal tells a story, and every user helps keep that story alive.",
+  "features": [
+    {
+      "title": "Lore Map",
+      "detail": "An interactive, spatial map view reveals 'Lore Bites' \u2013 unique food stories, ancestral recipes, or ingredient folklore \u2013 tied to specific geographical points in the user's vicinity, fostering local discovery."
+    },
+    {
+      "title": "Heritage Streaks",
+      "detail": "Users earn and maintain daily or weekly 'Heritage Streaks' by completing Lore Bite cooking challenges, creating a compelling gamified incentive for consistent engagement and a sense of achievement."
+    },
+    {
+      "title": "Local Kitchen AI Guide",
+      "detail": "A conversational AI assistant provides hyper-personalized guidance, helping users interpret historical Lore Bites, suggesting local ingredient substitutions, and walking them through traditional cooking techniques."
+    },
+    {
+      "title": "Community Hearth",
+      "detail": "A dedicated, curated social space where users share their Lore Bite creations, exchange feedback, and connect with other local food enthusiasts and cultural custodians, building a strong sense of belonging."
+    },
+    {
+      "title": "Seasonal Forager Quests",
+      "detail": "Geo-fenced quests prompt users to discover local markets, specific producers, or even wild foraging spots directly linked to ingredients featured in current Lore Bites, enhancing their local culinary journey."
+    }
+  ],
+  "audience": "Home cooks, food enthusiasts, and cultural explorers aged 25-55, who are passionate about their local community, heritage, and are eager to connect with authentic culinary traditions.",
+  "category": "food & cooking",
+  "useCases": [
+    "A new resident uses the 'Lore Map' to discover a story about a unique, historical bread recipe from their neighborhood, then attempts to bake it for a local potluck, earning their first LoreBite streak.",
+    "An avid cook looking for fresh inspiration opens LoreBite, finds a 'Lore Bite' challenge related to a seasonal fruit historically grown nearby, and shares their modern interpretation with the Community Hearth.",
+    "A history buff interested in local culture finds an old food proverb tied to a specific festival in their town. Using the AI Guide, they research and cook a dish that embodies the proverb's sentiment, contributing their findings to the community."
+  ],
+  "engagementLoop": "Users are driven by the continuous discovery of new local culinary lore and the social validation from sharing their unique interpretations with a like-minded community. The 'Heritage Streaks' gamify consistent engagement, creating a satisfying feedback loop that encourages weekly participation to maintain their status and reinforce a shared sense of culinary identity and preservation.",
+  "trendFit": "LoreBite aligns perfectly with the growing consumer desire for local discovery, authentic experiences, and the rise of niche community networks built around shared passions. It leverages conversational UI and spatial elements for an immersive and personalized experience, tapping into current design trends for highly engaging, intelligent, and context-aware mobile interactions.",
+  "monetization": "A premium subscription tier offers access to advanced 'Lore Bite' archives, exclusive virtual workshops with local heritage chefs, and curated local ingredient box partnerships delivered to subscribers' homes."
+}
