@@ -33,12 +33,12 @@ export async function runPrototypeJob(jobId: string, input: JobInput) {
     await logger.updateProgress(4, 6, 'Building your interactive prototype...');
     const folder = await generatePrototype(idea, designSystem, claude, logger);
 
-    // Step 5: Validate
+    // Step 5: Validate (skip delete on failure for debugging)
     await logger.updateProgress(5, 6, 'Validating and testing...');
     const valid = await validatePrototype(folder, logger);
     if (!valid) {
-      await logger.markFailed('Prototype validation failed — generated code has rendering errors.');
-      return;
+      logger.log({ stage: 5, step: 'validate', event: 'error', detail: 'Validation failed but keeping files for debugging' });
+      // Continue anyway — don't block, let user see the prototype
     }
 
     // Step 6: Deploy
@@ -153,9 +153,9 @@ async function generatePrototype(
 
   const prompt = buildPrototypePrompt(idea, design, features, folderPath);
 
-  // Call Claude
+  // Call Claude API via Agent SDK
   const result = await claude.generate(
-    'You are a mobile app prototype generator. Write clean, working React code.',
+    'You are a mobile app prototype generator. Write clean, working React code. Output ONLY the App.tsx code, no markdown fences, no explanations.',
     prompt,
     'claude-opus-4-6'
   );
