@@ -1,0 +1,31 @@
+{
+  "appName": "EchoForge Club",
+  "tagline": "Co-create evolving AI-generated worlds.",
+  "designSystem": {
+    "primaryColor": "#18181B",
+    "secondaryColor": "#3F3F46",
+    "ctaColor": "#EC4899",
+    "backgroundColor": "#FAFAFA",
+    "darkBackground": "#09090B",
+    "headingFont": "Fredoka",
+    "bodyFont": "Nunito",
+    "style": "AI Personalization Landing — chaos, collage, stickers, raw internet-culture aesthetic with vibrant gradient scene cards, rotated badge stickers, bold typography, and zinc dark palette"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "forge",
+    "trails",
+    "profile"
+  ],
+  "features": [
+    "Seed & Forge: initiate or extend AI 3D scenes via text prompts",
+    "Spatial Scene Editor: gradient-rendered scene thumbnails with branch visualization",
+    "Continuum Trails: SVG branching tree showing scene evolution history",
+    "Agentic Muse Assistant: AI prompt suggestions in the forge screen",
+    "Club Galleries & Challenges: weekly themed challenge banner and hot forge feed"
+  ],
+  "navigation": "bottom-tabs",
+  "defaultTheme": "dark",
+  "themeToggle": true
+}
