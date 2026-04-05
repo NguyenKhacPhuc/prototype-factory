@@ -1,0 +1,14 @@
+{
+  "appName": "Prompt Forge",
+  "fontFamily": "Fredoka (headings), Nunito (body)",
+  "colors": {
+    "primary": "#EC4899",
+    "secondary": "#F472B6",
+    "background": "#FDF2F8",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

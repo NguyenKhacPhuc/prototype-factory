@@ -1,0 +1,19 @@
+{
+  "appName": "Prompt Forge",
+  "tagline": "Crafting creative challenges, together.",
+  "designSystem": {
+    "primaryColor": "#EC4899",
+    "secondaryColor": "#F472B6",
+    "ctaColor": "#06B6D4",
+    "backgroundColor": "#FDF2F8",
+    "darkBackground": "#1a0a14",
+    "fontFamily": "Fredoka (headings), Nunito (body)",
+    "style": "AI Personalization Landing — animation-heavy, microinteractions, smooth transitions, parallax entrance animations, page transitions. Dark mode default with full light mode toggle."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "vault",
+    "profile"
+  ]
+}

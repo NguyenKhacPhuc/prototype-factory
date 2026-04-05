@@ -1,0 +1,37 @@
+{
+  "name": "Prompt Forge",
+  "tagline": "Crafting creative challenges, together.",
+  "description": "Prompt Forge is a novel creative tools app where users don't just find inspiration, they become its architects. It's a 'marketplace with a twist' for creative constraints: aspiring and seasoned creators can design, publish, and even monetize unique challenges or 'prompts' that other users 'buy in' to participate in. Imagine a painter offering a 'limited palette, urban decay' challenge, or a writer proposing a 'six-word story from a dog's perspective' prompt. Participants pay a small 'entry fee' to join, which funds a prize pool or goes to the challenge creator. The app provides structured deadlines, progress tracking, and intimate accountability circles, transforming creative blocks into engaging, community-driven sprints towards achievement. This innovative approach fosters both a rich source of structured inspiration for participants and a new monetization channel for creative thinkers, ensuring a fresh stream of ideas and consistent engagement.",
+  "features": [
+    {
+      "title": "The Curator's Forge",
+      "detail": "Design and publish custom creative challenges with specific rules, deadlines, and suggested tools. This allows users to monetize their unique creative thinking by curating stimulating prompts for the community."
+    },
+    {
+      "title": "Challenge Nexus",
+      "detail": "Discover a dynamic marketplace of community-created challenges across various disciplines (art, writing, music, etc.). Filter by skill level, price, or creator, providing an endless stream of fresh inspiration."
+    },
+    {
+      "title": "Progress Vault & Milestones",
+      "detail": "Dedicated space for users to upload daily/weekly progress on active challenges. This visualizes their journey, provides a clear path, and reinforces the emotional hook of progress and achievement."
+    },
+    {
+      "title": "Accountability Circles",
+      "detail": "Form small, private groups with fellow challenge participants for mutual feedback, encouragement, and social accountability. This intimate setting ensures supportive peer pressure and deeper engagement."
+    },
+    {
+      "title": "Spark Prestige System",
+      "detail": "Earn 'Sparks' and unlock prestige levels by successfully completing challenges and having your own challenges inspire others. This gamified reputation system rewards consistent participation and curatorial excellence."
+    }
+  ],
+  "audience": "Emerging and established creators (writers, artists, designers, musicians, crafters) aged 18-45 who are seeking structured inspiration, accountability, and new avenues for creative expression and mild monetization. They appreciate clear goals and community interaction.",
+  "category": "creative tools",
+  "useCases": [
+    "A hobbyist painter feeling creatively blocked opens Prompt Forge, finds a '3-Color Surreal Landscape' challenge from a respected curator, pays the small buy-in, and starts sketching, sharing daily progress with their accountability circle.",
+    "A seasoned graphic designer, wanting to share their expertise, uses the Curator's Forge to create a 'Branding Concept for an Imaginary Retro Arcade' challenge, setting specific stylistic constraints and offering feedback to participants.",
+    "A writer struggles with a deadline and logs into the app to post a progress update for their 'Weekly Microfiction Marathon' challenge, receiving encouraging comments and suggestions from their circle, which keeps them motivated to finish."
+  ],
+  "engagementLoop": "Users return multiple times per week to browse new challenges (discovery), update progress on ongoing projects (achievement), engage with their accountability circles (social feedback), and potentially launch their own challenges as curators (monetization/recognition). The constant influx of novel prompts and the desire to complete streaks and earn 'Sparks' drives habitual use.",
+  "trendFit": "Prompt Forge aligns perfectly with the trend of community challenges and social accountability, offering a structured yet flexible way for creators to engage. It taps into the desire for curated, focused creative stimulation, similar to the appeal of 'Recipe of the Day' concepts, while adding a unique peer-to-peer marketplace dynamic for inspiration itself.",
+  "monetization": "Prompt Forge will take a small percentage cut (e.g., 10-20%) from the 'buy-in' fees for each challenge. Additionally, premium features for curators, such as advanced analytics or richer challenge customization options, could be offered as a subscription."
+}
