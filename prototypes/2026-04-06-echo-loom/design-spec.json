@@ -1,0 +1,20 @@
+{
+  "appName": "Echo Loom",
+  "tagline": "Weave fleeting ideas into shared artistry.",
+  "designSystem": {
+    "primaryColor": "#EC4899",
+    "secondaryColor": "#F472B6",
+    "backgroundColor": "#FDF2F8",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "Animation-heavy webinar registration style with microinteractions, smooth transitions, pulse and shimmer effects. Dark mode default with light mode toggle. Gradient-rich cards with glassmorphism navigation."
+  },
+  "screens": [
+    "home",
+    "sessions",
+    "session",
+    "explore",
+    "archive",
+    "profile",
+    "guildDetail"
+  ]
+}
