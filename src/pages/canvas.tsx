@@ -5,7 +5,7 @@ import { CanvasFrame } from "../components/canvas-frame";
 import { CanvasInspector } from "../components/canvas-inspector";
 import { CanvasLayersPanel } from "../components/canvas-layers-panel";
 import { getNodeByPath, type DesignNode } from "../components/canvas-design-node";
-import { ComingSoonModal } from "./create-coming-soon-modal";
+// ComingSoonModal removed — Create page now has real generation
 
 interface Props {
   navigate: (to: string) => void;
@@ -158,7 +158,7 @@ export function Canvas({ navigate }: Props) {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100vh", width: "100vw", position: "fixed", inset: 0, background: "#0a0a0a", overflow: "hidden", zIndex: 50 }}>
-      {showModal && <ComingSoonModal onClose={() => setShowModal(false)} />}
+      {/* Modal removed — generation is live */}
 
       {/* Top Bar */}
       <div style={{
