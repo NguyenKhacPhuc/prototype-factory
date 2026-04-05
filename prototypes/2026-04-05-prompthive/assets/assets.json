@@ -1,0 +1,38 @@
+{
+  "appName": "PromptHive",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#0D9488",
+    "secondary": "#14B8A6",
+    "background": "#F0FDFA",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-up",
+    "camera",
+    "check-circle",
+    "chevron-right",
+    "clock",
+    "flame",
+    "gift",
+    "heart",
+    "info",
+    "lightbulb",
+    "map",
+    "mic",
+    "moon",
+    "pen-line",
+    "plus",
+    "send",
+    "star",
+    "sun",
+    "trending-up",
+    "trophy",
+    "type",
+    "users",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 23,
+  "fontFileCount": 0
+}

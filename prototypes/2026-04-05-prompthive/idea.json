@@ -1,0 +1,46 @@
+{
+  "name": "PromptHive",
+  "tagline": "Micro-quests, mega insights.",
+  "description": "PromptHive is a collaborative productivity app that transforms procrastination into micro-advances through daily, AI-curated \"Quests.\" Each Quest presents a playful, thought-provoking challenge\u2014like \"Describe an object around you using only three adjectives and a simile\" or \"Sketch a solution to a minor daily inconvenience\"\u2014designed to be completed in under 5 minutes. Users submit their short-form text, image, or audio responses, which the app's AI then dynamically aggregates and visualizes into evolving \"Discovery Maps\" and \"Idea Streams\" that reflect the collective creativity and insights of the community. This fosters an environment of constant novelty and discovery, as users contribute their unique perspectives while simultaneously learning from and being inspired by the emergent patterns and collective intelligence of others. It\u2019s a low-pressure way to spark creativity, generate ideas, learn new things, and make tangible micro-progress daily, turning individual \"stuck moments\" into shared \"breakthrough moments.\"",
+  "features": [
+    {
+      "title": "Daily Quests",
+      "detail": "Receive a new, AI-generated micro-challenge daily, tailored to your interests and past contributions. This ensures a fresh, personalized experience that keeps you engaged without feeling repetitive."
+    },
+    {
+      "title": "Collective Discovery Maps",
+      "detail": "Explore dynamic, spatial visualizations of aggregated community contributions for each Quest. Uncover emergent themes, surprising connections, and diverse perspectives, transforming individual input into collective insight."
+    },
+    {
+      "title": "Co-op Progress Ladders",
+      "detail": "Join or create 'Guild Goals' \u2013 week-long or month-long thematic objectives where every daily Quest contribution collectively fills a progress bar. This fosters teamwork and unlocks shared insights or exclusive community resources upon completion."
+    },
+    {
+      "title": "Prompt Forge",
+      "detail": "Submit your own creative prompt ideas to a community pool, with popular suggestions occasionally chosen by the AI to become future daily Quests. This empowers users and ensures a continuously evolving challenge landscape."
+    },
+    {
+      "title": "Contextual Curiosity Hooks",
+      "detail": "After completing a Quest, the AI suggests related 'micro-digs' \u2013 short articles, videos, or archived challenges \u2013 based on your response and community trends. This extends the learning journey and deepens engagement with discovered topics."
+    }
+  ],
+  "audience": "Creative professionals, students, lifelong learners, and anyone seeking daily bursts of inspiration and productive mini-tasks, typically 18-45, who feel overwhelmed by large projects or suffer from creative blocks.",
+  "category": "productivity",
+  "useCases": [
+    {
+      "scenario": "A freelance writer, feeling stuck on a new concept for an article, opens PromptHive during a coffee break, completes a \"metaphor generation\" Quest, and gets an unexpected angle for their article from the community's Discovery Map.",
+      "goal": "Overcome writer's block and find new creative inspiration."
+    },
+    {
+      "scenario": "A design student, procrastinating on a portfolio piece, is presented with a \"reimagine a common object\" Quest, submits a quick sketch, and later explores how others approached the same prompt, sparking fresh ideas for their project.",
+      "goal": "Kickstart creativity for a major project and gain new perspectives."
+    },
+    {
+      "scenario": "A team manager uses PromptHive as a light daily warm-up with their team, where everyone contributes a \"solution to a hypothetical challenge\" Quest, fostering creative thinking and problem-solving without formal meetings.",
+      "goal": "Encourage daily creative thinking and team cohesion in a playful, low-pressure way."
+    }
+  ],
+  "engagementLoop": "Users return daily for the novelty of the new AI-generated Quest and the immediate satisfaction of contributing to a shared goal. The discovery of evolving Discovery Maps, filled with collective insights and diverse perspectives, creates a powerful curiosity-driven retention loop, alongside the desire to progress collective Guild Goals.",
+  "trendFit": "This app directly leverages 'short-form content behavior' by making contributions quick and digestible. It also embraces 'AI-Driven Hyper-Personalization' for tailored Quests and dynamically visualizes collective insights, aligning with the emotional hook of 'discovery and novelty' within a collaborative framework.",
+  "monetization": "A freemium model offering premium features such as advanced analytics on personal contributions, access to exclusive 'deep dive' Quest archives, and custom Guild creation options for teams or private groups."
+}

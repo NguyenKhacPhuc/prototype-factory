@@ -1,0 +1,19 @@
+{
+  "appName": "PromptHive",
+  "tagline": "Micro-quests, mega insights.",
+  "designSystem": {
+    "primaryColor": "#0D9488",
+    "secondaryColor": "#14B8A6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F0FDFA",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "AI Personalization Landing — teal/emerald tones with warm orange CTA, tactile micro-interactions, bottom-tab navigation, light/dark theming"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "guild",
+    "forge",
+    "profile"
+  ]
+}
