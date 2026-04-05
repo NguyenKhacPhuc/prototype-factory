@@ -1,0 +1,37 @@
+{
+  "appName": "Code Canvas",
+  "tagline": "Build micro-solutions, collaboratively.",
+  "designSystem": {
+    "primaryColor": "#1E293B",
+    "secondaryColor": "#334155",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#0F172A",
+    "lightModeBackground": "#F8FAFC",
+    "headingFont": "JetBrains Mono",
+    "bodyFont": "IBM Plex Sans",
+    "style": "AI Personalization Landing — Bold, energetic, block layout with geometric accents, high color contrast, dark hero panels, duotone code aesthetics, monospace-driven typographic hierarchy"
+  },
+  "screens": [
+    "home",
+    "canvas",
+    "remix",
+    "profile"
+  ],
+  "screenDetails": {
+    "home": "Daily Brushstroke Challenges — Featured daily challenge card, XP progress bar, streak counter, browsable challenge list with difficulty tags and language indicators",
+    "canvas": "Shared Masterpiece — Live animated pixel-grid canvas showing community contributions, contributor stats, my-patch banner, real-time activity feed",
+    "remix": "Remix & Refine — Community solution browser with code previews, elegance score rings, fork/like actions, language filter chips",
+    "profile": "Dev-Art Gallery — Dark hero with avatar and level stats, achievement badges, weekly activity bar chart, 2-column top brushstrokes gallery"
+  },
+  "navigation": "bottom-tabs",
+  "defaultTheme": "light",
+  "themes": ["light", "dark"],
+  "animations": ["fadeIn", "slideUp", "pulse", "shimmer", "paintIn", "streakPop"],
+  "keyFeatures": [
+    "Daily Brushstroke Challenges",
+    "Shared Masterpiece canvas grid",
+    "Solution Remix & Fork",
+    "Community elegance scoring",
+    "Dev-Art Profile Gallery"
+  ]
+}

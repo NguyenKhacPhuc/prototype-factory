@@ -1,0 +1,34 @@
+{
+  "appName": "Code Canvas",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#1E293B",
+    "secondary": "#334155",
+    "background": "#0F172A",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "award",
+    "chevron-right",
+    "clock",
+    "eye",
+    "flame",
+    "git-fork",
+    "git-merge",
+    "heart",
+    "layers",
+    "moon",
+    "play",
+    "search",
+    "settings",
+    "star",
+    "sun",
+    "trending-up",
+    "trophy",
+    "users",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 19,
+  "fontFileCount": 0
+}
