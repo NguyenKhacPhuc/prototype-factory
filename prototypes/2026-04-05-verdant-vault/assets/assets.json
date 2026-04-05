@@ -1,0 +1,14 @@
+{
+  "appName": "Verdant Vault",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#059669",
+    "secondary": "#10B981",
+    "background": "#ECFDF5",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

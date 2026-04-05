@@ -1,0 +1,31 @@
+{
+  "appName": "Verdant Vault",
+  "tagline": "Sustainable play, local unlocks.",
+  "designSystem": {
+    "primaryColor": "#059669",
+    "secondaryColor": "#10B981",
+    "ctaColor": "#0891B2",
+    "backgroundColor": "#ECFDF5",
+    "fontFamily": "Inter",
+    "style": "AI Personalization Landing — organic, nature-forward, rounded, flowing with earthy greens, sustainable wellness aesthetic and gamified reward UX"
+  },
+  "screens": ["home", "quests", "community", "map", "profile"],
+  "features": [
+    "Dynamic Eco-Quests with completion tracking and Bloom Bucks rewards",
+    "Community Canopy Fund with animated progress meter",
+    "Bloom Box Lottery with entry count and countdown",
+    "Eco-Squads and Local/Global Leaderboards",
+    "Impact Explorer Map with SVG neighborhood visualization and project markers",
+    "User Profile with level progression, stats, and achievement badges",
+    "Light/Dark theme toggle with full theme system"
+  ],
+  "interactions": [
+    "Tap quest cards to complete and earn Bloom Bucks",
+    "Bloom animation on quest completion",
+    "Tab navigation between all 5 screens",
+    "Category filter tabs on Quests screen",
+    "Local/Global leaderboard toggle",
+    "Tap map markers to see project detail",
+    "Theme toggle in Home header and Profile screen"
+  ]
+}
