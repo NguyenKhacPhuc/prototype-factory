@@ -1,0 +1,14 @@
+{
+  "appName": "VerdantScan AI",
+  "tagline": "Your personal AI botanist: Scan, diagnose, revive, and thrive.",
+  "designSystem": {
+    "primaryColor": "#2979FF",
+    "secondaryColor": "#FF5252",
+    "backgroundColor": "#FAFAFA",
+    "fontFamily": "system / system",
+    "style": "bold geometric"
+  },
+  "screens": [
+    "home"
+  ]
+}

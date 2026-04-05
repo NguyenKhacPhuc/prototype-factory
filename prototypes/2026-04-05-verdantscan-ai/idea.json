@@ -1,0 +1,62 @@
+{
+  "name": "VerdantScan AI",
+  "tagline": "Your personal AI botanist: Scan, diagnose, revive, and thrive.",
+  "description": "VerdantScan AI transforms plant care by offering instant, AI-powered diagnoses of sick plants directly from photos. It provides personalized treatment plans, proactive care reminders, and connects you with a community of plant lovers and experts to ensure your green companions not only survive, but flourish.",
+  "features": [
+    {
+      "title": "AI Plant Diagnostics",
+      "detail": "Upload a photo of your ailing plant and receive an immediate, AI-driven diagnosis of diseases, pests, or nutrient deficiencies, eliminating guesswork."
+    },
+    {
+      "title": "Personalized Treatment Plans",
+      "detail": "Get step-by-step, actionable treatment protocols tailored to your plant's specific issue and species, including organic and conventional remedies."
+    },
+    {
+      "title": "Predictive Health Alerts & Thrive Score",
+      "detail": "AI monitors your plant's history and local conditions to provide early warnings of potential issues before they become severe. A 'Thrive Score' gamifies plant health, encouraging users to maintain optimal care and avoid the loss of their plant's vitality."
+    },
+    {
+      "title": "Proactive Care Scheduling",
+      "detail": "Receive intelligent reminders for watering, fertilizing, pruning, and repotting based on your plant's needs, species, and environmental factors."
+    },
+    {
+      "title": "Expert Consultation (Premium)",
+      "detail": "For urgent or complex cases, gain limited, premium access to certified plant experts for one-on-one video consultations, offering a scarce resource to save your most cherished plants."
+    },
+    {
+      "title": "Plant Library & Community",
+      "detail": "Access an extensive database of plant care guides and connect with a vibrant community to share tips, ask questions, and celebrate your plant's journey."
+    }
+  ],
+  "audience": "Beginner and experienced plant owners, urban gardeners, horticulturists, and anyone struggling to keep their indoor or outdoor plants healthy and vibrant.",
+  "category": "Home & Garden, Utilities, Lifestyle",
+  "useCases": [
+    {
+      "title": "Diagnose a yellowing leaf",
+      "detail": "A user notices yellowing leaves on their beloved fiddle-leaf fig; they snap a photo, upload it to VerdantScan AI, and immediately learn it's likely overwatering, receiving precise advice on how to adjust their routine."
+    },
+    {
+      "title": "Revive a dying houseplant",
+      "detail": "Panicked by a wilting orchid, a user utilizes the 'Plant SOS' feature to get an urgent diagnosis and step-by-step rescue plan, potentially even a rapid expert consultation (premium)."
+    },
+    {
+      "title": "Proactive plant care",
+      "detail": "An avid gardener relies on VerdantScan AI's predictive alerts to adjust watering schedules during a heatwave, preventing stress before visible symptoms appear, thus avoiding the loss of their garden's health score."
+    },
+    {
+      "title": "New plant care setup",
+      "detail": "After buying a new exotic plant, a user scans its tag to instantly get tailored care instructions, light requirements, and humidity preferences to ensure it thrives from day one."
+    }
+  ],
+  "engagementLoop": "Users are drawn in by the immediate gratification of problem-solving (diagnosing sick plants). Continued engagement is driven by proactive care reminders, the gamified 'Thrive Score' (loss aversion to maintain a high score), and predictive alerts that prevent the loss of healthy plants. Premium 'Expert Consultations' leverage scarcity for urgent needs. Successful treatments reinforce trust, encouraging ongoing use to maintain plant health and prevent future losses.",
+  "trendFit": "VerdantScan AI strongly aligns with the 'AI Niche Finder' and 'AI Ad Creative Generator' trends by leveraging advanced AI for specialized problem-solving (plant diagnosis) and personalized recommendations. It capitalizes on the growing demand for smart, efficient, and accessible solutions in niche markets, delivering highly personalized care plans driven by intelligent algorithms.",
+  "monetization": {
+    "model": "Freemium with premium subscription tiers",
+    "details": [
+      "**Free Tier:** Basic AI diagnostics (limited scans), essential care reminders, community access.",
+      "**Verdant Pro Subscription:** Unlimited AI scans, advanced predictive health analytics, priority 'Thrive Score' boost strategies, ad-free experience, and a monthly quota of 'Plant SOS' urgent diagnoses.",
+      "**Expert Consultation Packs (In-App Purchase):** Purchase credits for live video consultations with certified plant experts, leveraging the scarcity of direct, personalized professional advice for critical plant health emergencies.",
+      "**Affiliate Partnerships:** Recommendations for specific plant care products (tools, fertilizers, pest control) and high-quality rare plants through integrated e-commerce links, earning commission on sales."
+    ]
+  }
+}
