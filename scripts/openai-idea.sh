@@ -120,13 +120,41 @@ TRENDS_FILE="$SCRIPT_DIR/../logs/trends/trends-$(date +%Y-%m-%d).json"
 TREND_CONTEXT=""
 if [ -f "$TRENDS_FILE" ]; then
   TREND_CONTEXT=$(python3 -c "
-import json
+import json, random
 with open('$TRENDS_FILE') as f:
     data = json.load(f)
-apps = ', '.join(a['name'] + ' (' + a.get('what_makes_it_hot','')[:60] + ')' for a in data.get('trending_apps', [])[:5])
-trends = ', '.join(data.get('design_trends', [])[:4])
-seeds = ' | '.join(s['concept'][:80] for s in data.get('idea_seeds', [])[:3])
-print(f'Currently trending: {apps}. Design trends: {trends}. Emerging needs: {seeds}.')
+
+parts = []
+
+# Trending apps
+apps = data.get('trending_apps', [])[:5]
+if apps:
+    parts.append('Trending niche apps: ' + ', '.join(a['name'] + ' (' + a.get('what_makes_it_hot','')[:50] + ')' for a in apps))
+
+# Behavioral hooks — pick 2-3 random ones
+hooks = data.get('behavioral_hooks', [])
+if hooks:
+    picks = random.sample(hooks, min(3, len(hooks)))
+    parts.append('Proven behavioral hooks to consider: ' + '; '.join(h['name'] + ': ' + h.get('mechanic','')[:60] for h in picks))
+
+# Niche audience — pick 1 random one as inspiration
+audiences = data.get('niche_audiences', [])
+if audiences:
+    pick = random.choice(audiences)
+    parts.append('Underserved audience to consider: ' + pick['who'] + ' — ' + pick.get('frustration','')[:80])
+
+# Crossover idea — pick 1
+crossovers = data.get('crossover_ideas', [])
+if crossovers:
+    pick = random.choice(crossovers)
+    parts.append('Cross-pollination inspiration: ' + pick.get('formula','') + ' — ' + pick.get('why_it_works','')[:60])
+
+# Idea seeds
+seeds = data.get('idea_seeds', [])[:3]
+if seeds:
+    parts.append('Emerging needs: ' + ' | '.join(s['concept'][:60] for s in seeds))
+
+print(' '.join(parts))
 " 2>/dev/null) || TREND_CONTEXT=""
 fi
 
