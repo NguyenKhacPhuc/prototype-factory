@@ -1,0 +1,20 @@
+{
+  "appName": "EcoBloom AI",
+  "tagline": "Nurture your impact, grow your world.",
+  "designSystem": {
+    "primaryColor": "#0891B2",
+    "secondaryColor": "#22D3EE",
+    "ctaColor": "#059669",
+    "backgroundColor": "#ECFEFF",
+    "darkBackground": "#0a1628",
+    "fontFamily": "Poppins (headings) + Open Sans (body)",
+    "style": "App Store Style Landing — bold, energetic, geometric block layout with high color contrast, duotone gradients, and playful card-based UI. Dark mode default with full light mode toggle."
+  },
+  "screens": [
+    "home",
+    "canopy",
+    "challenges",
+    "hub",
+    "profile"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "EcoBloom AI",
+  "tagline": "Nurture your impact, grow your world.",
+  "description": "EcoBloom AI is your personalized generative AI coach designed to transform the often-overwhelming concept of sustainability into a rewarding, habit-forming journey for professionals, especially SMB owners and their teams. Instead of generic directives, the AI learns your daily routines, roles, and business context, then proposes micro-adjustments and \"Eco-Spark\" challenges tailored to your capacity. As you complete these achievable tasks\u2014from optimizing meeting agendas for energy efficiency to suggesting sustainable local suppliers or even personal well-being practices to prevent burnout\u2014you earn unique digital collectibles. These collectibles, like rare flora and fauna, visually populate and enrich your personal \"Conscious Canopy,\" growing a vibrant ecosystem that mirrors your real-world positive impact. It's not just about tracking; it's about being gently guided towards a more sustainable and balanced professional life, with a tangible, visual reward system that fosters accountability and motivates consistent engagement.",
+  "features": [
+    {
+      "title": "Personalized Eco-Spark Challenges",
+      "detail": "Receive AI-generated, bite-sized daily challenges tailored to your role, business type, and current habits, focusing on professional sustainability (e.g., energy use, waste reduction) and personal well-being. This ensures relevance and reduces overwhelm, making sustainability actionable and achievable."
+    },
+    {
+      "title": "Conscious Canopy Collectibles",
+      "detail": "Unlock unique digital flora, fauna, and elements that populate your personalized virtual \"Conscious Canopy\" as you complete challenges. Each collectible has a story detailing its \"impact score\" or the sustainable practice it represents, providing a visually rewarding progression and a sense of ownership."
+    },
+    {
+      "title": "Adaptive AI Coaching & Nudges",
+      "detail": "The AI acts as a supportive coach, offering empathetic nudges, reminders, and context-aware suggestions based on your progress and declared goals. It learns and adapts, ensuring accountability without being intrusive, and helping users stay on track with their sustainable habits."
+    },
+    {
+      "title": "Impact Resonance Score",
+      "detail": "A dynamic, visualized score that aggregates your collective sustainable actions, offering a clear metric of your overall positive environmental and personal well-being impact. This gamified score reinforces progress and encourages continuous improvement, making abstract goals tangible and motivating."
+    },
+    {
+      "title": "Small Business Sustainability Hub",
+      "detail": "Beyond personal actions, the AI offers curated, localized recommendations for SMB-specific sustainable resources, suppliers, and best practices relevant to their industry. This integrates practical, business-level sustainability support directly with individual action, addressing common app fatigue by centralizing relevant solutions."
+    }
+  ],
+  "audience": "Small and Medium Business (SMB) owners, managers, and their employees (ages 25-55) who are conscious of sustainability and personal well-being but often feel overwhelmed by the complexity or time commitment of implementing eco-friendly practices in a business context.",
+  "category": "AI assistant",
+  "useCases": [
+    {
+      "detail": "A busy marketing manager opens EcoBloom AI in the morning to see their \"Eco-Spark\" for the day: \"Research 3 local, eco-friendly printing services for your next campaign.\" After completing it, they unlock a rare \"Ink Sprout\" collectible for their Canopy, feeling productive and purposeful."
+    },
+    {
+      "detail": "An SMB owner is feeling overwhelmed with rising energy costs and consults EcoBloom AI. The app suggests a two-week \"Power-Down Protocol\" micro-challenge for office closure routines, offering tracking and unlocking \"Wattage Weaver\" collectibles as they consistently implement the new habit."
+    },
+    {
+      "detail": "A team member feels burnt out from back-to-back meetings. EcoBloom AI detects patterns of high activity and suggests a \"Mindful Micro-Break\" challenge, prompting them to take a 5-minute break outdoors, earning a \"Serene Leaf\" collectible while prioritizing personal well-being."
+    }
+  ],
+  "engagementLoop": "Users are motivated to open the app daily or weekly to discover new, personalized \"Eco-Spark\" challenges tailored to their context. The intrinsic desire to earn unique \"Conscious Canopy\" collectibles and visually grow their personal ecosystem, coupled with the clear feedback of their \"Impact Resonance\" score, creates a powerful and rewarding feedback loop. The AI's adaptive coaching ensures tasks remain relevant and achievable, fostering a sense of continuous progress and accountability that drives sustained interaction.",
+  "trendFit": "This app aligns with the growing global emphasis on sustainability, personal well-being, and corporate social responsibility, combined with the rise of personalized AI coaching for productivity. It taps into the desire for purpose-driven action and the gamification of personal growth, offering a tangible and motivating way for individuals and businesses to contribute positively while combating the 'app fatigue' prevalent among SMBs.",
+  "monetization": "Freemium model with a subscription tier offering advanced features like team-based challenges for SMBs, premium or animated collectible sets, and deeper AI analytics on impact, potentially with white-label solutions for larger organizations."
+}
