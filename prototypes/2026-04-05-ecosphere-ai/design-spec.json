@@ -1,0 +1,19 @@
+{
+  "appName": "EcoSphere AI",
+  "tagline": "Grow your green legacy.",
+  "designSystem": {
+    "primaryColor": "#2563EB",
+    "secondaryColor": "#3B82F6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F8FAFC",
+    "fontFamily": "Inter",
+    "style": "AI Personalization Landing — bold, energetic, geometric block layout with high color contrast, duotone gradients, and playful micro-interactions. Each screen uses a distinct gradient header reinforcing its theme (nature, cosmos, challenge). Light mode default with full dark mode support."
+  },
+  "screens": [
+    "home",
+    "garden",
+    "challenges",
+    "tokens",
+    "impact"
+  ]
+}

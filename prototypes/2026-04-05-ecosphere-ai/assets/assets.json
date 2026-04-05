@@ -1,0 +1,24 @@
+{
+  "appName": "EcoSphere AI",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#2563EB",
+    "secondary": "#3B82F6",
+    "background": "#F8FAFC",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "bot",
+    "clock",
+    "leaf",
+    "moon",
+    "plus",
+    "send",
+    "star",
+    "sun",
+    "target"
+  ],
+  "fonts": [],
+  "iconCount": 9,
+  "fontFileCount": 0
+}
