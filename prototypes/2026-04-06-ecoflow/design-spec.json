@@ -1,0 +1,18 @@
+{
+  "appName": "EcoFlow",
+  "tagline": "Nurture your health, grow your world.",
+  "designSystem": {
+    "primaryColor": "#F97316",
+    "secondaryColor": "#FB923C",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#1F2937",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "Bold, energetic, playful with geometric shapes, high color contrast, duotone elements, and nature-inspired gradients. Waitlist/Coming Soon aesthetic with block layout and dynamic animations."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "quests",
+    "profile"
+  ]
+}
