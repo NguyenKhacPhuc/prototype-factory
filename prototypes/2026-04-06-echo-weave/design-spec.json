@@ -1,0 +1,18 @@
+{
+  "appName": "Echo Weave",
+  "tagline": "Co-create your world's soundscape.",
+  "designSystem": {
+    "primaryColor": "#1E1B4B",
+    "secondaryColor": "#4338CA",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#0F0F23",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "Immersive/Interactive Experience with bold geometric shapes, duotone gradients, high contrast, and energetic animations. Dark-first design with deep indigo palette and vibrant green accents."
+  },
+  "screens": [
+    "home",
+    "tapestry",
+    "discover",
+    "community"
+  ]
+}
