@@ -57,83 +57,87 @@ else
   ALT_THEME="light"
 fi
 
-# Generate a unique visual direction — use deterministic rotation to guarantee variety
+# Generate design system using UI/UX Pro Max skill
 APP_CATEGORY=$(echo "$IDEA_JSON" | python3 -c "import sys,json; print(json.load(sys.stdin).get('category','general'))")
+UIUX_SCRIPT="$HOME/.claude/commands/skills/ui-ux-pro-max/scripts/search.py"
 
-# Pre-defined palettes, styles, fonts — rotated per batch index to guarantee NO repeats
-VISUAL_DIRECTION=$(python3 -c "
-import json, os, random
+echo "  Generating design system with UI/UX Pro Max..."
+APP_KEYWORDS=$(echo "$IDEA_JSON" | python3 -c "
+import sys,json
+d=json.load(sys.stdin)
+# Combine category + name + engagement loop keywords for richer matching
+parts = [d.get('category',''), d.get('name',''), d.get('engagementLoop','')[:60]]
+print(' '.join(parts))
+" 2>/dev/null) || APP_KEYWORDS="$APP_CATEGORY $APP_NAME"
+DESIGN_SYSTEM_RAW=$(python3 "$UIUX_SCRIPT" "$APP_KEYWORDS" --design-system -p "$APP_NAME" -f markdown 2>/dev/null) || DESIGN_SYSTEM_RAW=""
 
-idx = int(os.environ.get('BATCH_CATEGORY_INDEX', random.randint(0, 99)))
+# Save raw output to temp file for reliable parsing (avoids shell quoting issues)
+DESIGN_SYSTEM_TMP=$(mktemp)
+echo "$DESIGN_SYSTEM_RAW" > "$DESIGN_SYSTEM_TMP"
 
-palettes = [
-    'electric coral #FF6B6B + midnight navy #1A1A40 on crisp white #FAFAFA',
-    'hot magenta #E91E63 + charcoal #2C2C2C on pale blush #FFF0F0',
-    'sunflower yellow #FFD600 + deep purple #4A148C on warm ivory #FFFDE7',
-    'ocean teal #00838F + burnt sienna #BF360C on sand #FFF8E1',
-    'electric blue #2979FF + coral red #FF5252 on cool gray #F5F5F5',
-    'lime green #76FF03 + dark slate #263238 on off-white #FAFAFA',
-    'tangerine #FF6D00 + indigo #283593 on cream #FFF3E0',
-    'lavender #B388FF + forest #1B5E20 on pearl #F3E5F5',
-    'ruby red #D32F2F + gold #FFD54F on charcoal #212121',
-    'sky blue #4FC3F7 + terracotta #D84315 on warm white #FFFDE7',
-    'mint #00E676 + deep rose #AD1457 on light gray #ECEFF1',
-    'peach #FFAB91 + slate blue #37474F on snow #FAFAFA',
-]
+DESIGN_SYSTEM_PARSED=$(python3 -c "
+import re, json, sys
 
-styles = [
-    'neo-brutalist', 'editorial magazine', 'retro-analog', 'playful illustrated',
-    'luxury minimal', 'bold geometric', 'soft pastel dreamy', 'data-dense dashboard',
-    'skeuomorphic tactile', 'duotone graphic', 'collage punk', 'industrial tech',
-]
+with open('$DESIGN_SYSTEM_TMP') as f:
+    raw = f.read()
 
-fonts = [
-    'Playfair Display', 'Archivo Black', 'Fraunces', 'Bebas Neue',
-    'Orbitron', 'Fredoka', 'Crimson Pro', 'Barlow Condensed',
-    'Righteous', 'Caveat', 'Red Hat Display', 'Chakra Petch',
-]
+# Markdown format: ### Style, ### Colors table, ### Typography
+style_match = re.search(r'\*\*Name:\*\*\s*(.+)', raw)
+style = style_match.group(1).strip() if style_match else 'bold geometric'
 
-moods = [
-    'confident and rebellious', 'cozy sunday afternoon', 'clinical precision',
-    'playful chaos energy', 'serene and elevated', 'raw underground zine',
-    'warm nostalgic glow', 'futuristic and sharp', 'dreamy watercolor calm',
-    'bold street poster', 'quiet luxury whisper', 'maximalist celebration',
-]
+# Colors from markdown table
+primary = re.search(r'Primary\s*\|\s*(#[0-9A-Fa-f]{6})', raw)
+secondary = re.search(r'Secondary\s*\|\s*(#[0-9A-Fa-f]{6})', raw)
+cta = re.search(r'CTA\s*\|\s*(#[0-9A-Fa-f]{6})', raw)
+bg = re.search(r'Background\s*\|\s*(#[0-9A-Fa-f]{6})', raw)
+text_color = re.search(r'Text\s*\|\s*(#[0-9A-Fa-f]{6})', raw)
 
-layout_twists = [
-    'overlapping cards at angles', 'full-bleed photo headers with text overlay',
-    'bento grid dashboard', 'horizontal scroll sections stacked vertically',
-    'asymmetric split-screen layout', 'floating action island at bottom',
-    'timeline with branching paths', 'masonry grid with varied card sizes',
-    'tab content slides horizontally', 'bottom sheet reveals for detail views',
-    'sticky header that transforms on scroll', 'staggered fade-in card waterfall',
-]
+# Typography
+heading = re.search(r'\*\*Heading:\*\*\s*(.+)', raw)
+body = re.search(r'\*\*Body:\*\*\s*(.+)', raw)
+mood = re.search(r'\*\*Mood:\*\*\s*(.+)', raw)
 
-nav_patterns = [
-    'bottom tabs', 'top tabs', 'side drawer', 'floating action menu',
-    'hub-and-spoke cards', 'scrolling sections', 'bottom tabs',
-    'top tabs with icons', 'gesture-based swipe', 'sidebar with icons',
-    'floating pill navigation', 'segmented control at top',
-]
+# Effects from Keywords line
+keywords = re.search(r'\*\*Keywords:\*\*\s*(.+)', raw)
+effects = keywords.group(1).strip() if keywords else ''
 
-d = {
-    'palette': palettes[idx % len(palettes)],
-    'style': styles[idx % len(styles)],
-    'font': fonts[idx % len(fonts)],
-    'mood': moods[idx % len(moods)],
-    'layout_twist': layout_twists[idx % len(layout_twists)],
-    'nav_pattern': nav_patterns[idx % len(nav_patterns)],
-}
-print(json.dumps(d))
-")
+# Anti-patterns
+avoid_match = re.search(r'Anti-patterns.*?\n-\s*(.+)', raw)
+avoid = avoid_match.group(1).strip() if avoid_match else ''
+
+# CSS import
+css_import = re.search(r\"@import url\('([^']+)'\)\", raw)
+
+heading_font = heading.group(1).strip() if heading else 'Fredoka'
+body_font = body.group(1).strip() if body else 'Nunito'
+
+print(json.dumps({
+    'style': style,
+    'primary': primary.group(1) if primary else '#2979FF',
+    'secondary': secondary.group(1) if secondary else '#FF5252',
+    'cta': cta.group(1) if cta else '#EC4899',
+    'bg': bg.group(1) if bg else '#FAFAFA',
+    'text': text_color.group(1) if text_color else '#09090B',
+    'heading_font': heading_font,
+    'body_font': body_font,
+    'mood': mood.group(1).strip() if mood else 'modern and clean',
+    'effects': effects,
+    'avoid': avoid,
+    'css_import': css_import.group(1) if css_import else '',
+}))
+" 2>/dev/null) || DESIGN_SYSTEM_PARSED='{"style":"bold geometric","primary":"#2979FF","secondary":"#FF5252","cta":"#EC4899","bg":"#FAFAFA","text":"#09090B","heading_font":"Fredoka","body_font":"Nunito","mood":"modern and clean","effects":"","avoid":"","css_import":""}'
+
+rm -f "$DESIGN_SYSTEM_TMP"
 
 # Extract individual fields
-COLOR_HINT=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['palette'])")
-DESIGN_STYLE=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['style'])")
-DESIGN_FONT=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['font'])")
-DESIGN_MOOD=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['mood'])")
-LAYOUT_TWIST=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin)['layout_twist'])")
-NAV_PATTERN=$(echo "$VISUAL_DIRECTION" | python3 -c "import sys,json; print(json.load(sys.stdin).get('nav_pattern','bottom tabs'))")
+COLOR_HINT=$(echo "$DESIGN_SYSTEM_PARSED" | python3 -c "import sys,json; d=json.load(sys.stdin); print(f\"Primary {d['primary']} + Secondary {d['secondary']} + CTA {d['cta']} on Background {d['bg']}\")")
+DESIGN_STYLE=$(echo "$DESIGN_SYSTEM_PARSED" | python3 -c "import sys,json; print(json.load(sys.stdin)['style'])")
+DESIGN_FONT=$(echo "$DESIGN_SYSTEM_PARSED" | python3 -c "import sys,json; print(json.load(sys.stdin)['heading_font'])")
+DESIGN_FONT_BODY=$(echo "$DESIGN_SYSTEM_PARSED" | python3 -c "import sys,json; print(json.load(sys.stdin)['body_font'])")
+DESIGN_EFFECTS=$(echo "$DESIGN_SYSTEM_PARSED" | python3 -c "import sys,json; print(json.load(sys.stdin)['effects'])")
+DESIGN_AVOID=$(echo "$DESIGN_SYSTEM_PARSED" | python3 -c "import sys,json; print(json.load(sys.stdin)['avoid'])")
+DESIGN_MOOD=$(echo "$DESIGN_SYSTEM_PARSED" | python3 -c "import sys,json; print(json.load(sys.stdin)['mood'])")
+NAV_PATTERN="bottom tabs"
 
 SLUG=$(echo "$APP_NAME" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -cd 'a-z0-9-')
 FOLDER_NAME="${TODAY}-${SLUG}"
@@ -181,19 +185,23 @@ Create a single-file React prototype (App.tsx) that runs with Babel standalone.
 4. Use Lucide icons from CDN - access icons via window.lucide object (e.g. window.lucide.Heart, window.lucide.Home)
 5. Load Google Fonts via a style tag in the component
 
-**Visual Direction (FOLLOW THIS CLOSELY — this is what makes each prototype unique):**
-- **Design style:** ${DESIGN_STYLE}
-- **Color palette:** ${COLOR_HINT}
-- **Mood/feeling:** ${DESIGN_MOOD}
-- **Typography:** Use Google Font "${DESIGN_FONT}" — load it via a style tag. Use it consistently with proper weight hierarchy (bold for headings, regular for body). This font IS the personality.
-- **Layout twist:** ${LAYOUT_TWIST} — incorporate this into at least 2 screens to make the layout feel distinctive.
+**Design System (from UI/UX Pro Max — follow precisely):**
+- **Style:** ${DESIGN_STYLE}
+- **Colors:** ${COLOR_HINT}
+- **Heading font:** "${DESIGN_FONT}" (Google Font — load via style tag, use for all headings, bold weights)
+- **Body font:** "${DESIGN_FONT_BODY}" (Google Font — load via style tag, use for body text, regular weights)
+- **Key effects:** ${DESIGN_EFFECTS}
+- **AVOID:** ${DESIGN_AVOID}
 
-**ANTI-SAMENESS RULES (read carefully):**
-- Do NOT default to glassmorphism, card grids, or gradient glow effects unless the style above specifically calls for it.
-- Do NOT use purple (#8B5CF6, #A855F7, #9B6DFF) as primary color unless the palette above says purple.
-- Do NOT make everything dark-mode-first with neon accents — follow the palette direction above.
-- Each screen should feel like it belongs to THIS app, not a generic template. Use the design style to inform spacing, borders, shadows, and element shapes.
-- Vary card shapes, section layouts, and information density based on the style. A neo-brutalist app should feel chunky and raw. An editorial app should feel typographic and spacious. A retro app should feel textured and nostalgic.
+**DESIGN QUALITY RULES:**
+- Use the EXACT hex colors above — do not substitute with similar colors.
+- Each screen must feel crafted and unique to THIS app, not a generic template.
+- Add a CSS style tag with @keyframes animations (at least 2: e.g. fadeIn, slideUp, pulse, shimmer).
+- Use box-shadow, border-radius variety, and spacing rhythm to create visual hierarchy.
+- Cards and sections should have hover/active states with smooth transitions (150-300ms).
+- No emojis as icons — use Lucide icons via window.lucide exclusively.
+- Minimum 44x44px touch targets for all interactive elements.
+- Text contrast must be 4.5:1 minimum against backgrounds.
 
 **Layout & Structure:**
 - Phone frame container (375x812px) with rounded corners, centered on page
