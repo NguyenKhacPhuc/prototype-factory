@@ -4,6 +4,8 @@ import { useAuth } from "../hooks/use-auth";
 import { useFavorites } from "../hooks/use-favorites";
 import { designTreeToSvg } from "../lib/design-tree-to-svg";
 import { safeText } from "../lib/safe-text";
+import { BuildAppModal } from "./build-app-modal";
+import { GenerationProgress } from "./generation-progress";
 
 interface Props {
   prototype: Prototype | undefined;
@@ -75,6 +77,8 @@ function CopyButton({
 export function PrototypeDetail({ prototype: p, navigate }: Props) {
   const { user } = useAuth();
   const { isFavorite, toggleFavorite } = useFavorites(user?.id ?? null);
+  const [showBuildModal, setShowBuildModal] = useState(false);
+  const [buildJobId, setBuildJobId] = useState<string | null>(null);
 
   if (!p) {
     return (
@@ -186,6 +190,57 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
               View Assets
             </a>
           </div>
+
+          {/* Build Real App */}
+          <div style={{
+            marginTop: 24, padding: 24, borderRadius: 14,
+            background: 'linear-gradient(135deg, rgba(232,160,74,0.08), rgba(232,160,74,0.02))',
+            border: '1px solid rgba(232,160,74,0.2)',
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+              <div style={{
+                width: 44, height: 44, borderRadius: 12, background: 'var(--accent)',
+                display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0,
+              }}>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                  <line x1="12" y1="18" x2="12.01" y2="18" />
+                </svg>
+              </div>
+              <div style={{ flex: 1 }}>
+                <h3 style={{ fontSize: 16, fontWeight: 700, marginBottom: 2 }}>Build Real App</h3>
+                <p style={{ fontSize: 13, color: 'var(--text-muted)', margin: 0 }}>
+                  AI builds a full iOS + Android app from this prototype
+                </p>
+              </div>
+              <button
+                onClick={() => user ? setShowBuildModal(true) : navigate('/profile')}
+                style={{
+                  padding: '12px 24px', borderRadius: 12, border: 'none',
+                  background: 'var(--accent)', color: '#fff', fontSize: 14,
+                  fontWeight: 700, cursor: 'pointer', whiteSpace: 'nowrap',
+                }}
+              >
+                Build Now
+              </button>
+            </div>
+          </div>
+
+          {showBuildModal && (
+            <BuildAppModal
+              prototype={{ folder: p.folder, appName: p.appName, tagline: p.tagline, description: p.description, category: p.category }}
+              onClose={() => setShowBuildModal(false)}
+              onStarted={(jobId) => { setShowBuildModal(false); setBuildJobId(jobId); }}
+            />
+          )}
+
+          {buildJobId && (
+            <GenerationProgress
+              jobId={buildJobId}
+              onComplete={() => setBuildJobId(null)}
+              onClose={() => setBuildJobId(null)}
+            />
+          )}
 
           {/* Figma Export */}
           <div style={{ marginTop: 32, paddingTop: 28, borderTop: '1px solid var(--border)' }}>
