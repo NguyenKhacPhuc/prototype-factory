@@ -1,0 +1,38 @@
+{
+  "appName": "Whisper Atlas",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#0EA5E9",
+    "secondary": "#38BDF8",
+    "background": "#F0F9FF",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "book-open",
+    "calendar",
+    "check",
+    "check-circle",
+    "compass",
+    "heart",
+    "layers",
+    "leaf",
+    "lock",
+    "map",
+    "map-pin",
+    "mic",
+    "moon",
+    "plus",
+    "sparkles",
+    "star",
+    "sun",
+    "trophy",
+    "users",
+    "waves",
+    "wind",
+    "zoom-in",
+    "zoom-out"
+  ],
+  "fonts": [],
+  "iconCount": 23,
+  "fontFileCount": 0
+}

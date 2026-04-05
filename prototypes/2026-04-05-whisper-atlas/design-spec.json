@@ -1,0 +1,33 @@
+{
+  "appName": "Whisper Atlas",
+  "tagline": "Map calm, together.",
+  "designSystem": {
+    "primaryColor": "#0EA5E9",
+    "secondaryColor": "#38BDF8",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F0F9FF",
+    "fontFamily": "Inter",
+    "style": "AI Personalization Landing — animation-heavy with microinteractions, smooth transitions, entrance animations, parallax-inspired floating elements, and scroll-driven reveals. Clean spatial layout with layered card system, gradient accent blocks, and data-driven visual components."
+  },
+  "screens": [
+    "home",
+    "atlas",
+    "log",
+    "rituals",
+    "journal"
+  ],
+  "screenDetails": {
+    "home": "Main feed with calm resonance score, active challenge strip, and whisper activity feed with like interactions",
+    "atlas": "Wisdom Weaves spatial map with animated geo-dots, weave connection lines, filter pills, and spotlight cards",
+    "log": "4-step whisper creation flow: mood selection → place naming → notes/voice → tag selection → submission confirmation",
+    "rituals": "Tabbed view of Ritual Kits (progress cards with lock states) and Sojourn Challenges (collaborative goals with participant counts)",
+    "journal": "Personal journey stats grid, contribution heatmap calendar, expandable reflection entries with ritual kit context"
+  },
+  "features": {
+    "themeToggle": true,
+    "defaultTheme": "light",
+    "darkTheme": true,
+    "animations": ["fadeIn", "slideUp", "pulse", "shimmer", "float", "ripple", "breathe", "mapDot", "gradientShift"],
+    "microinteractions": ["like toggle with color change", "card hover lift", "step progress bar", "breathing calm score card", "nav active indicator dot"]
+  }
+}
