@@ -1,5 +1,1042 @@
 [
   {
+    "folder": "2026-04-05-ecosphere-ai",
+    "appName": "EcoSphere AI",
+    "tagline": "Grow your green legacy.",
+    "designSystem": {
+      "primaryColor": "#2563EB",
+      "secondaryColor": "#3B82F6",
+      "ctaColor": "#F97316",
+      "backgroundColor": "#F8FAFC",
+      "fontFamily": "Inter",
+      "style": "AI Personalization Landing \u2014 bold, energetic, geometric block layout with high color contrast, duotone gradients, and playful micro-interactions. Each screen uses a distinct gradient header reinforcing its theme (nature, cosmos, challenge). Light mode default with full dark mode support."
+    },
+    "screens": [
+      "home",
+      "garden",
+      "challenges",
+      "tokens",
+      "impact"
+    ],
+    "hasScreenshot": true,
+    "description": "EcoSphere AI is your personal, AI-powered coach dedicated to guiding you toward a more sustainable lifestyle, transforming mundane eco-actions into a delightful daily pursuit. Instead of abstract metrics, users engage with bite-sized, achievable sustainable challenges tailored by their AI companion. The distinctive twist: every completed eco-action rewards users with unique 'Eco-Tokens' \u2013 dynamically rendered digital collectibles like rare plants, creatures, or tiny architectural wonders that thrive and evolve within their personal 'EcoSphere,' a captivating spatial 3D garden. This immersive environment visually represents their accumulated positive impact, fostering motivation and accountability. The app leverages conversational UI to make guidance feel natural and personal, turning sustainability into an engaging, collectible-driven journey where users literally watch their efforts bloom into a vibrant digital world.",
+    "features": [
+      {
+        "title": "AI Eco-Coach",
+        "detail": "A personalized conversational AI assistant that understands your habits and offers daily, achievable sustainability challenges and actionable tips, making eco-conscious living accessible and engaging."
+      },
+      {
+        "title": "EcoSphere Garden",
+        "detail": "A spatial 3D environment where your collected Eco-Tokens live and grow. This visual ecosystem expands and flourishes directly reflecting your real-world sustainable actions, creating a tangible sense of accomplishment."
+      },
+      {
+        "title": "Eco-Token Collectibles",
+        "detail": "Earn unique, beautifully designed digital collectibles for every sustainable action you complete. These range from rare virtual flora and fauna to tiny renewable energy structures, each with lore linking to specific ecological benefits."
+      },
+      {
+        "title": "Impact Atlas",
+        "detail": "Visualize your individual and aggregated community environmental impact through engaging infographics. See how your choices contribute to reduced carbon, waste, or water consumption on a broader scale, connecting your micro-actions to macro-results."
+      },
+      {
+        "title": "Green Gauntlet Challenges",
+        "detail": "Participate in limited-time, themed challenges or quests proposed by the AI to earn ultra-rare or seasonal Eco-Tokens. These gamified sprints encourage deeper engagement in specific sustainability areas, like 'Zero-Waste Week' or 'Water Conservation Month'."
+      }
+    ],
+    "audience": "Environmentally conscious individuals aged 20-45 who are motivated by achievement, customization, and visual feedback, but often struggle with consistency or knowing where to start with sustainable living.",
+    "category": "AI assistant",
+    "useCases": [
+      {
+        "title": "Morning Routine Activation",
+        "detail": "A user opens EcoSphere AI while having coffee. The AI coach suggests, 'Today, try a meatless lunch!' Upon confirming they've prepared a vegetarian meal, they earn a 'Protein-Bloom' Eco-Token for their EcoSphere."
+      },
+      {
+        "title": "Mindful Consumption Guidance",
+        "detail": "Before grocery shopping, a user checks EcoSphere AI. The AI recommends buying unpackaged produce and avoiding single-use plastics. After their shopping trip, logging successful choices earns them 'Bulk-Bin Bliss' and 'Reusable-Reach' Eco-Tokens."
+      },
+      {
+        "title": "Energy Saving Habit Formation",
+        "detail": "A user wants to reduce home energy. The AI coaches them with tips like unplugging idle electronics. Consistent daily logging of these small actions over a week culminates in earning a unique 'Power-Down' Eco-Token, visually expanding the energy-saving sector of their EcoSphere."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-ideaflow",
+    "appName": "IdeaFlow",
+    "tagline": "Remix knowledge, shape your understanding.",
+    "designSystem": {
+      "primaryColor": "#2563EB",
+      "secondaryColor": "#3B82F6",
+      "ctaColor": "#F97316",
+      "backgroundColor": "#F8FAFC",
+      "headingFont": "Baloo 2",
+      "bodyFont": "Comic Neue",
+      "style": "AI Personalization Landing \u2014 spatial canvas with tactile nodes, gradient hero headers, animated floating elements, and adaptive light/dark theming"
+    },
+    "screens": [
+      "home",
+      "canvas",
+      "discover",
+      "chat"
+    ],
+    "navigation": "bottom-tabs",
+    "features": [
+      "Flow Canvas with animated, floating snippet nodes and bezier curve connections",
+      "Adaptive AI Snippet Stream with personalized content cards",
+      "Community Flow Gallery with like, bookmark, and remix actions",
+      "Conversational AI Co-Pilot with typing indicator and quick suggestion chips",
+      "Light/dark theme toggle accessible from every screen",
+      "Node type palette (Video, Text, Audio, Image) with per-type color coding",
+      "Progress tracking per flow with animated progress bars",
+      "FAB for adding new nodes with slide-up type picker"
+    ],
+    "hasScreenshot": true,
+    "description": "IdeaFlow is a revolutionary educational app that transforms passive learning into an active, creative endeavor. It presents users with a dynamic, spatial canvas where they can creatively deconstruct and reconstruct educational concepts using curated multimedia snippets. Imagine a knowledge DJ deck, allowing individuals to 'remix' explanations, theories, and historical events by dragging, dropping, and connecting video clips, text excerpts, audio bites, and interactive diagrams. Leveraging adaptive AI, the app constantly suggests diverse content tailored to the user's learning style, current project, and evolving interests. This active process of creative curation, fueled by an emotional hook of self-expression, not only deepens understanding but makes learning intrinsically engaging. Users can then share their unique 'flows' with a community, gaining insights and feedback, or discover new perspectives from others' remixed content. Its habit-forming nature stems from the joy of continuous discovery and creation, akin to building a personal, evolving knowledge wiki that adapts to your curiosity and grows with every new idea.",
+    "audience": "Lifelong learners, self-directed students, educators, and anyone with a creative inclination interested in understanding complex topics by actively deconstructing and reconstructing information, typically ages 16 and up.",
+    "category": "education",
+    "useCases": [
+      "A college student is struggling to grasp a complex historical event. They use IdeaFlow to gather disparate news articles, documentary clips, and expert interviews, then arrange them on a 'Flow Canvas' to trace cause-and-effect relationships visually and solidify their understanding.",
+      "An enthusiast wants to deeply understand the mechanics of quantum physics. They regularly open IdeaFlow to discover new 'flows' created by experts and peers, remixing elements of these with fresh AI-suggested content to build and refine their own evolving explanatory model.",
+      "A corporate trainer needs to explain a new internal process to their team. They quickly create an interactive 'flow' using company documents, short video explainers, and an embedded quiz, then share it with their team, gathering feedback and iterating on the explanation based on team engagement."
+    ]
+  },
+  {
+    "folder": "2026-04-05-echoforge-club",
+    "appName": "EchoForge Club",
+    "tagline": "Co-create evolving AI-generated worlds.",
+    "designSystem": {
+      "primaryColor": "#18181B",
+      "secondaryColor": "#3F3F46",
+      "ctaColor": "#EC4899",
+      "backgroundColor": "#FAFAFA",
+      "darkBackground": "#09090B",
+      "headingFont": "Fredoka",
+      "bodyFont": "Nunito",
+      "style": "AI Personalization Landing \u2014 chaos, collage, stickers, raw internet-culture aesthetic with vibrant gradient scene cards, rotated badge stickers, bold typography, and zinc dark palette"
+    },
+    "screens": [
+      "home",
+      "explore",
+      "forge",
+      "trails",
+      "profile"
+    ],
+    "features": [
+      "Seed & Forge: initiate or extend AI 3D scenes via text prompts",
+      "Spatial Scene Editor: gradient-rendered scene thumbnails with branch visualization",
+      "Continuum Trails: SVG branching tree showing scene evolution history",
+      "Agentic Muse Assistant: AI prompt suggestions in the forge screen",
+      "Club Galleries & Challenges: weekly themed challenge banner and hot forge feed"
+    ],
+    "navigation": "bottom-tabs",
+    "defaultTheme": "dark",
+    "themeToggle": true,
+    "hasScreenshot": true,
+    "description": "EchoForge Club is an immersive digital club where creative minds collaboratively build and evolve AI-generated 3D scenes, like living, branching artworks. Users initiate a 'seed' with a text prompt or an image, prompting an AI to generate an initial spatial scene. Other club members can then 'forge' on that scene, adding new AI-generated elements, extending the environment, or altering its parameters, creating a continuous, asynchronous creative dialogue. The app visualizes these creative evolutions as 'Continuum Trails,' allowing users to explore different branches of a scene's history and discover novel interpretations. This process transforms solo ideation into a shared, ever-expanding journey, fostering a deep sense of discovery and anticipation for how creations will unfold, making users eager to check back and contribute their unique vision to the collective art. It redefines user-generated content by making it truly collaborative and spatially dynamic.",
+    "audience": "Creative individuals, digital artists, storytellers, game designers, and AI art enthusiasts (age 20-45) who enjoy experimentation and collaborative creation in digital spaces.",
+    "category": "AI creative & generative",
+    "useCases": [
+      {
+        "title": "Overcoming Creative Block",
+        "detail": "A digital artist wants to visualize a complex sci-fi city but feels stuck. They start a 'seed' with a basic prompt, then return later to find several members have added towering structures, flying vehicles, and atmospheric effects, providing new inspiration."
+      },
+      {
+        "title": "Collaborative World-Building",
+        "detail": "A group of aspiring writers decides to collectively build a fantastical world for a shared story. One creates a 'seed' for an enchanted forest, another adds ancient ruins, and a third introduces magical creatures, synchronously evolving their narrative canvas."
+      },
+      {
+        "title": "Discovery and Artistic Exploration",
+        "detail": "During a coffee break, a user browses the 'Club Galleries' and discovers an awe-inspiring, evolving underwater biome. Intrigued, they decide to 'forge' a unique bioluminescent plant into one of its branches, seeing their contribution become part of something larger."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-whisper-atlas",
+    "appName": "Whisper Atlas",
+    "tagline": "Map calm, together.",
+    "designSystem": {
+      "primaryColor": "#0EA5E9",
+      "secondaryColor": "#38BDF8",
+      "ctaColor": "#F97316",
+      "backgroundColor": "#F0F9FF",
+      "fontFamily": "Inter",
+      "style": "AI Personalization Landing \u2014 animation-heavy with microinteractions, smooth transitions, entrance animations, parallax-inspired floating elements, and scroll-driven reveals. Clean spatial layout with layered card system, gradient accent blocks, and data-driven visual components."
+    },
+    "screens": [
+      "home",
+      "atlas",
+      "log",
+      "rituals",
+      "journal"
+    ],
+    "screenDetails": {
+      "home": "Main feed with calm resonance score, active challenge strip, and whisper activity feed with like interactions",
+      "atlas": "Wisdom Weaves spatial map with animated geo-dots, weave connection lines, filter pills, and spotlight cards",
+      "log": "4-step whisper creation flow: mood selection \u2192 place naming \u2192 notes/voice \u2192 tag selection \u2192 submission confirmation",
+      "rituals": "Tabbed view of Ritual Kits (progress cards with lock states) and Sojourn Challenges (collaborative goals with participant counts)",
+      "journal": "Personal journey stats grid, contribution heatmap calendar, expandable reflection entries with ritual kit context"
+    },
+    "features": {
+      "themeToggle": true,
+      "defaultTheme": "light",
+      "darkTheme": true,
+      "animations": [
+        "fadeIn",
+        "slideUp",
+        "pulse",
+        "shimmer",
+        "float",
+        "ripple",
+        "breathe",
+        "mapDot",
+        "gradientShift"
+      ],
+      "microinteractions": [
+        "like toggle with color change",
+        "card hover lift",
+        "step progress bar",
+        "breathing calm score card",
+        "nav active indicator dot"
+      ]
+    },
+    "hasScreenshot": true,
+    "description": "Whisper Atlas transforms travel into a collaborative game of mindful discovery, focusing on finding moments of calm and reassurance in new or familiar environments. Users contribute small, geo-tagged \"Whispers\" \u2013 personalized wellness rituals, sensory observations, or calming discoveries \u2013 from their journeys, like a hidden quiet garden in a bustling city or a specific stretch of beach perfect for sunset meditation. These individual contributions collectively form \"Wisdom Weaves,\" an immersive, spatial map generated from shared experiences, visually connecting serene spots and mindful practices worldwide. As users contribute and interact with Whispers, they progressively unlock new \"Ritual Kits\" (themed sets of mindfulness prompts) and collaborative \"Sojourn Challenges,\" encouraging deeper, more intentional exploration and fostering a sense of shared calm. The app's gentle, conversational UI guides users to record their findings, while the AI-driven personalization helps them discover relevant serene spots and wellness practices shared by others, cultivating a global network of calm havens and inspiring repeat engagement through collaborative play and the satisfying growth of the collective atlas.",
+    "audience": "Mindful travelers, slow tourism advocates, digital nomads, and urban explorers aged 25-55 who seek deeper connection, mental well-being, and a sense of calm amidst their journeys.",
+    "category": "travel",
+    "useCases": [
+      {
+        "title": "Pre-Trip Calm Planning",
+        "detail": "A user planning a stressful business trip opens Whisper Atlas to browse \"Wisdom Weaves\" around their destination city, finding shared quiet corners or specific cafes known for calm to build into their itinerary."
+      },
+      {
+        "title": "Mid-Journey Mindfulness",
+        "detail": "While feeling overwhelmed in a bustling new market, a user opens the app, prompted by the Calm Companion AI, to record a \"Whisper\" about a soothing scent or a moment of unexpected beauty, contributing to the collective and finding their own moment of peace."
+      },
+      {
+        "title": "Collaborative Exploration",
+        "detail": "A group of friends traveling together undertakes a \"Sensory Scavenger\" Sojourn Challenge, each contributing unique Whispers about sounds, sights, and textures they find calming in a new city, collaboratively unlocking a new Ritual Kit for their next destination."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-prompthive",
+    "appName": "PromptHive",
+    "tagline": "Micro-quests, mega insights.",
+    "designSystem": {
+      "primaryColor": "#0D9488",
+      "secondaryColor": "#14B8A6",
+      "ctaColor": "#F97316",
+      "backgroundColor": "#F0FDFA",
+      "fontFamily": "Plus Jakarta Sans",
+      "style": "AI Personalization Landing \u2014 teal/emerald tones with warm orange CTA, tactile micro-interactions, bottom-tab navigation, light/dark theming"
+    },
+    "screens": [
+      "home",
+      "explore",
+      "guild",
+      "forge",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "PromptHive is a collaborative productivity app that transforms procrastination into micro-advances through daily, AI-curated \"Quests.\" Each Quest presents a playful, thought-provoking challenge\u2014like \"Describe an object around you using only three adjectives and a simile\" or \"Sketch a solution to a minor daily inconvenience\"\u2014designed to be completed in under 5 minutes. Users submit their short-form text, image, or audio responses, which the app's AI then dynamically aggregates and visualizes into evolving \"Discovery Maps\" and \"Idea Streams\" that reflect the collective creativity and insights of the community. This fosters an environment of constant novelty and discovery, as users contribute their unique perspectives while simultaneously learning from and being inspired by the emergent patterns and collective intelligence of others. It\u2019s a low-pressure way to spark creativity, generate ideas, learn new things, and make tangible micro-progress daily, turning individual \"stuck moments\" into shared \"breakthrough moments.\"",
+    "features": [
+      {
+        "title": "Daily Quests",
+        "detail": "Receive a new, AI-generated micro-challenge daily, tailored to your interests and past contributions. This ensures a fresh, personalized experience that keeps you engaged without feeling repetitive."
+      },
+      {
+        "title": "Collective Discovery Maps",
+        "detail": "Explore dynamic, spatial visualizations of aggregated community contributions for each Quest. Uncover emergent themes, surprising connections, and diverse perspectives, transforming individual input into collective insight."
+      },
+      {
+        "title": "Co-op Progress Ladders",
+        "detail": "Join or create 'Guild Goals' \u2013 week-long or month-long thematic objectives where every daily Quest contribution collectively fills a progress bar. This fosters teamwork and unlocks shared insights or exclusive community resources upon completion."
+      },
+      {
+        "title": "Prompt Forge",
+        "detail": "Submit your own creative prompt ideas to a community pool, with popular suggestions occasionally chosen by the AI to become future daily Quests. This empowers users and ensures a continuously evolving challenge landscape."
+      },
+      {
+        "title": "Contextual Curiosity Hooks",
+        "detail": "After completing a Quest, the AI suggests related 'micro-digs' \u2013 short articles, videos, or archived challenges \u2013 based on your response and community trends. This extends the learning journey and deepens engagement with discovered topics."
+      }
+    ],
+    "audience": "Creative professionals, students, lifelong learners, and anyone seeking daily bursts of inspiration and productive mini-tasks, typically 18-45, who feel overwhelmed by large projects or suffer from creative blocks.",
+    "category": "productivity",
+    "useCases": [
+      {
+        "scenario": "A freelance writer, feeling stuck on a new concept for an article, opens PromptHive during a coffee break, completes a \"metaphor generation\" Quest, and gets an unexpected angle for their article from the community's Discovery Map.",
+        "goal": "Overcome writer's block and find new creative inspiration."
+      },
+      {
+        "scenario": "A design student, procrastinating on a portfolio piece, is presented with a \"reimagine a common object\" Quest, submits a quick sketch, and later explores how others approached the same prompt, sparking fresh ideas for their project.",
+        "goal": "Kickstart creativity for a major project and gain new perspectives."
+      },
+      {
+        "scenario": "A team manager uses PromptHive as a light daily warm-up with their team, where everyone contributes a \"solution to a hypothetical challenge\" Quest, fostering creative thinking and problem-solving without formal meetings.",
+        "goal": "Encourage daily creative thinking and team cohesion in a playful, low-pressure way."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-greenquest",
+    "appName": "GreenQuest",
+    "tagline": "Scan, Score, Sustain.",
+    "designSystem": {
+      "primaryColor": "#059669",
+      "secondaryColor": "#10B981",
+      "ctaColor": "#0891B2",
+      "backgroundColor": "#ECFDF5",
+      "fontFamily": "Inter",
+      "style": "Funnel (3-Step Conversion) \u2014 nature-forward, organic shapes, earthy greens, rounded cards, flowing gradients, gamified sustainability"
+    },
+    "screens": [
+      "home",
+      "scan",
+      "quests",
+      "leaderboard",
+      "community"
+    ],
+    "theme": {
+      "modes": [
+        "light",
+        "dark"
+      ],
+      "default": "light"
+    },
+    "navigation": "bottom-tabs",
+    "keyFeatures": [
+      "Eco-Scan & Reveal with camera or text input",
+      "Dynamic Eco-Score with circular SVG progress indicator",
+      "Daily & Weekly GreenQuests with progress tracking",
+      "Friends & Global Leaderboards with podium visualization",
+      "Community Eco-Wiki with like/contribute interactions"
+    ],
+    "animations": [
+      "fadeIn",
+      "slideUp",
+      "pulse",
+      "shimmer",
+      "scanLine",
+      "ripple",
+      "floatBubble",
+      "scoreReveal"
+    ],
+    "hasScreenshot": true,
+    "description": "GreenQuest transforms everyday choices into an exciting game of environmental discovery. Users leverage their phone's camera and conversational input to 'scan' physical objects, services, or actions \u2013 from a coffee cup to a public transport route \u2013 and instantly reveal a dynamic 'Eco-Score' and detailed sustainability insights. This gamified approach makes abstract environmental impact tangible, allowing users to understand the lifecycle, sourcing, or carbon footprint of items in real-time. The app cultivates curiosity, rewards informed decisions, and uses friendly competition to encourage greener habits. Its novel database, powered by AI and community contributions, offers a continually expanding world of eco-knowledge, turning every shopping trip or daily routine into an opportunity for discovery and improvement, driving continuous engagement.",
+    "features": [
+      {
+        "title": "Eco-Scan & Reveal",
+        "detail": "Use your camera or text description to identify an item or action, then 'unlock' its comprehensive Eco-Score, breaking down its environmental impact from production to disposal. This makes complex data instantly accessible and fun."
+      },
+      {
+        "title": "Impact Leaderboards",
+        "detail": "Compete with friends and the global community based on your accumulated Eco-Score, weekly 'GreenQuests' completed, and the number of eco-discoveries made. This fuels friendly competition and encourages consistent participation."
+      },
+      {
+        "title": "Daily GreenQuests",
+        "detail": "Receive personalized daily or weekly challenges, such as 'Find 3 items with an A+ Eco-Score at the grocery store' or 'Discover a low-carbon travel option to your workplace.' These quests guide users to explore sustainable choices and keep them coming back."
+      },
+      {
+        "title": "Community Eco-Wiki",
+        "detail": "Contribute to and refine a living database of eco-scores and data for products, services, and local initiatives. Users can add new items or enrich existing entries, fostering collective knowledge and accuracy."
+      },
+      {
+        "title": "Spatial Eco-Insights",
+        "detail": "Activate an optional AR overlay that, in specific contexts like a supermarket aisle, visually highlights the Eco-Scores of nearby products without individual scanning. This offers a predictive, immersive way to compare options efficiently."
+      }
+    ],
+    "audience": "Environmentally-conscious Millennials and Gen Z who are digitally savvy, enjoy gamification, and seek engaging, accessible ways to integrate sustainability into their daily lives without overwhelming data.",
+    "category": "sustainability",
+    "useCases": [
+      {
+        "description": "A user is choosing between two brands of shampoo. They quickly scan the barcodes of both with GreenQuest, revealing Brand A has a much higher Eco-Score due to its refillable packaging and ethical sourcing, confirming their more sustainable purchase."
+      },
+      {
+        "description": "During their lunch break, a user opens GreenQuest to see the 'GreenQuest' of the day: 'Identify a sustainable eatery in your neighborhood.' They use the app's map integration and community-contributed data to find a highly-rated, eco-friendly restaurant and earn points."
+      },
+      {
+        "description": "Before throwing out an old jacket, a user scans it with GreenQuest. The app reveals its Eco-Score and suggests nearby textile recycling points or upcycling workshops, turning a disposal decision into a sustainable action, contributing to their weekly score."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-sparkforge",
+    "appName": "SparkForge",
+    "tagline": "Fuel your creativity. Forge together.",
+    "designSystem": {
+      "primaryColor": "#EC4899",
+      "secondaryColor": "#F472B6",
+      "ctaColor": "#06B6D4",
+      "backgroundColor": "#FDF2F8",
+      "headingFont": "Fredoka",
+      "bodyFont": "Nunito",
+      "style": "AI Personalization Landing \u2014 vibrant pink-to-cyan gradients, animation-heavy with microinteractions, smooth transitions, entrance animations. Warm pink base with bold gradient CTAs. Card-based layout with hover states. Bottom tab navigation."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "create",
+      "challenge",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "SparkForge is a vibrant platform where creatives transform their personal project aspirations into actionable, community-driven 'Spark Challenges.' Users define their creative goals \u2013 be it a novel's chapter, a concept art piece, or a new song \u2013 and outline specific roadblocks or creative input needs. The innovative twist lies in its 'Ignition Marketplace,' where fellow community members 'ignite' these challenges by offering precise, skilled contributions or tailored feedback, rather than direct monetary payments. Successful completion of Spark Challenges earns users 'Forge Points,' building their reputation and unlocking access to advanced creative tools, personalized AI assistance, and exclusive community resources. The app thrives on a loop of commitment, mutual support, and visible progress, making it a compelling hub for overcoming creative inertia and fostering collaborative growth.",
+    "features": [
+      {
+        "title": "Spark Challenge Creation",
+        "detail": "Users define a time-bound creative project, specifying its scope and identifying particular areas where they need support, making their goals clear and actionable for the community."
+      },
+      {
+        "title": "Ignition Marketplace",
+        "detail": "A dynamic feed where users can browse active Spark Challenges and offer specific creative contributions \u2013 like concept art, plot ideas, or sound samples \u2013 to 'ignite' a project and help a peer."
+      },
+      {
+        "title": "Forge Progress Tracker",
+        "detail": "A visual dashboard that maps the journey of each Spark Challenge, showing contributions from Igniters and milestones reached, fostering a strong sense of progress and shared achievement."
+      },
+      {
+        "title": "Community Critique Chambers",
+        "detail": "Dedicated conversational UI spaces attached to each challenge, allowing participants and Igniters to exchange structured, context-specific feedback and resources in real-time, improving collaboration efficiency."
+      },
+      {
+        "title": "AI Muse Integration",
+        "detail": "An optional, personalized AI assistant that learns from a user's creative history and challenge interactions, offering relevant prompts, resource suggestions, or summarizing community feedback to inspire and guide their work."
+      }
+    ],
+    "audience": "Emerging artists, hobbyist creators, writers, musicians, and designers (typically 18-35) who seek structured accountability and skilled collaborative support to kickstart and complete their personal creative projects.",
+    "category": "creative tools",
+    "useCases": [
+      {
+        "title": "Writer's Block Breakthrough",
+        "detail": "A novelist posts a 'Spark Challenge' to outline their next three chapters, detailing their struggle with plot twists. A fellow writer 'ignites' the challenge by offering three unique plot concepts, helping the novelist overcome their block and stay on schedule."
+      },
+      {
+        "title": "Visual Artist's Inspiration",
+        "detail": "A painter aims to create a series of works in a new, abstract style but lacks initial inspiration. They launch a challenge requesting mood board ideas focused on 'futuristic bioluminescence.' Designers and photographers in the community 'ignite' by curating and sharing relevant visual collections."
+      },
+      {
+        "title": "Musician's Sound Design",
+        "detail": "A bedroom music producer needs unique sound effects for their debut track but struggles with audio engineering. They create a Spark Challenge for custom ambient synth sounds. A sound designer 'ignites' by producing and uploading three bespoke audio clips, enabling the producer to finish their track."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-loom-echo",
+    "appName": "Loom Echo",
+    "tagline": "Weave your collective story.",
+    "designSystem": {
+      "primaryColor": "#2563EB",
+      "secondaryColor": "#3B82F6",
+      "ctaColor": "#F97316",
+      "backgroundColor": "#F8FAFC",
+      "darkBackground": "#020617",
+      "fontFamily": "Inter",
+      "style": "AI Personalization Landing \u2014 dark theme, midnight blue, OLED-friendly, high contrast, with animated conic gradients for generative tapestry art"
+    },
+    "screens": [
+      "home",
+      "ritual",
+      "gallery",
+      "guilds"
+    ],
+    "keyFeatures": [
+      "Live ritual banner with animated tapestry gradient on home screen",
+      "Real-time conversational weaving UI with AI Loom Weaver responses",
+      "Animated conic-gradient tapestry canvas that cycles through 4 generative states",
+      "Influence action pills (More Vibrant, Minor Key, Glitch, etc.) for real-time art direction",
+      "Echo Tapestry gallery with like toggle, featured badges, and 3D spatial explore mode",
+      "Guild discovery with search, join/request flow, aesthetic tags, and live ritual indicators",
+      "Light/dark theme toggle with full color system transition"
+    ],
+    "navigation": "bottom-tabs",
+    "defaultTheme": "light",
+    "hasScreenshot": true,
+    "description": "Loom Echo is a novel app transforming collective expression into a ritualistic art form. It's a digital atelier where identity-based communities (\"Guilds\") convene for scheduled \"Weaving Rituals\" \u2013 live events where AI agents (\"Loom Weavers\") co-create dynamic, generative art pieces called \"Echo Tapestries.\" Users don't just input prompts; they engage in a conversational UI, submitting keywords, emotions, or even short melodic ideas that the AI agents interpret and integrate in real-time. Each \"Tapestry\" is an emergent, never-before-seen piece reflecting the collective consciousness of the Guild during that specific live session. The magic lies in watching the AI agents synthesize disparate inputs into a cohesive, evolving artwork, fostering a deep sense of shared creation and ownership. This platform offers a powerful emotional hook, allowing individuals to contribute to a larger, unique artistic output, while reinforcing their belonging to a creative identity. It\u2019s a space where creativity is a communal ritual, not a solitary pursuit.",
+    "features": [
+      {
+        "title": "Loom Guilds",
+        "detail": "Create or join identity-based communities focused on specific artistic themes, moods, or genres (e.g., \"Synthwave Dreamers,\" \"Gothic Cyberpunks,\" \"Abstract Expressionists\"). This defines the aesthetic and community context for the AI agents."
+      },
+      {
+        "title": "Live Weaving Rituals",
+        "detail": "Scheduled, real-time collaborative art sessions. Users contribute short textual, visual, or audio prompts via a conversational AI interface, watching as \"Loom Weavers\" (AI agents) synthesize inputs into an evolving generative art piece."
+      },
+      {
+        "title": "Echo Tapestry Gallery",
+        "detail": "A personalized and public gallery to browse, save, and share the unique generative artworks created during Guild rituals. Each tapestry is timestamped with the contributing Guild and participants."
+      },
+      {
+        "title": "Agentic Remix & Influence",
+        "detail": "Users can subtly influence the AI agents' creative direction during a live ritual by reacting to evolving patterns or submitting \"remix prompts\" (e.g., \"more vibrant,\" \"shift to minor key,\" \"introduce a glitch effect\"), adding a layer of interactive creative control."
+      },
+      {
+        "title": "Spatial Scene Archive",
+        "detail": "Each completed \"Echo Tapestry\" can be explored in a spatial UI, allowing users to \"walk through\" the artwork in a 3D environment, experiencing the generated textures, sounds, and visual depth more immersively."
+      }
+    ],
+    "audience": "Creative individuals, digital artists, musicians, writers, and curious tech enthusiasts aged 18-35 who seek new forms of collective expression and community-driven art, valuing shared experiences over individual acclaim.",
+    "category": "AI automation & agents",
+    "useCases": [
+      "A college student passionate about surrealism opens Loom Echo on a Tuesday evening to join their \"Dreamscape Weavers\" Guild's scheduled ritual, inputting evocative words like \"ephemeral, nebula, whisper\" and watching the AI agents interpret and blend them into a flowing visual symphony with other members' inputs.",
+      "A remote worker uses Loom Echo during their lunch break to participate in a \"Cyberpunk Cityscapes\" Guild session, submitting a quick audio snippet of a synth bassline and observing how the AI integrates it into the evolving digital metropolis soundscape, sharing their excitement with other Guild members in the live chat.",
+      "An indie game developer explores the public Echo Tapestry Gallery for inspiration, discovering a uniquely generated \"Glitch Garden\" tapestry from a past \"Digital Decay\" Guild ritual, which sparks an idea for a new game environment, and then saves it to their personal collection."
+    ]
+  },
+  {
+    "folder": "2026-04-05-syncritual",
+    "appName": "SyncRitual",
+    "tagline": "Live focus. Shared flow.",
+    "designSystem": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#A78BFA",
+      "ctaColor": "#22C55E",
+      "backgroundColor": "#FAF5FF",
+      "darkBackgroundColor": "#0F0A1E",
+      "fontFamily": "Inter",
+      "style": "Community/Forum Landing \u2014 bold, energetic, geometric blocks, high contrast, duotone purple palette, dark mode default with live-session spatial atmosphere"
+    },
+    "screens": [
+      "home",
+      "explore",
+      "chamber",
+      "profile"
+    ],
+    "features": [
+      "Identity Paths with XP progress and level system",
+      "Live Ritual Chamber with participant presence field",
+      "Intention setting flow before sessions",
+      "Post-session reflection journaling",
+      "Live session timer with animated chamber orb",
+      "Upcoming chamber RSVP list",
+      "Ritual Mastery Badges grid",
+      "Multi-path identity tracking",
+      "Dark / Light theme toggle",
+      "Animated capacity bars and presence dots",
+      "Bottom tab navigation with Chamber CTA highlight"
+    ],
+    "hasScreenshot": true,
+    "description": "SyncRitual is a groundbreaking social app that transforms personal aspirations into collective, identity-driven rituals, fostering deep engagement and accountability. Instead of merely tracking habits, users commit to 'Ritual Paths' aligned with their chosen identity (e.g., 'The Writer,' 'The Meditator') and participate in live, synchronized 'Ritual Chambers.' These chambers are unique, focused digital spaces where participants engage in their individual chosen activity (e.g., a writing sprint, a meditation session, a deep work block) simultaneously with others, creating a powerful field of shared presence and motivation without direct interaction like video calls. This unique blend of live events and identity-based community provides unparalleled accountability, transforming solitary endeavors into shared journeys. The app uses subtle spatial UI elements to enhance the feeling of a collective, focused environment, making habit formation a deeply communal and engaging experience.",
+    "audience": "Millennials and Gen Z professionals, creatives, and students (ages 22-40) who value personal growth, struggle with self-discipline, and seek accountability and community to consistently engage in identity-aligned practices like writing, meditation, deep work, or learning.",
+    "category": "social & community",
+    "useCases": [
+      "A freelance writer opens SyncRitual every morning to join a 'Creative Flow Sprint' with fellow 'Writers,' finding renewed focus and commitment by writing simultaneously in a shared, silent virtual space.",
+      "A student procrastinating on an assignment schedules a 'Deep Study Chamber' session, entering a quiet, structured environment with other focused students to boost concentration and productivity.",
+      "Someone trying to build a meditation habit consistently signs up for an evening 'Mindful Moments' live ritual, benefiting from the collective commitment and shared peaceful presence to maintain their practice."
+    ]
+  },
+  {
+    "folder": "2026-04-05-biobloom-trails",
+    "appName": "BioBloom Trails",
+    "tagline": "Cultivate well-being, grow your world.",
+    "designSystem": {
+      "primaryColor": "#F97316",
+      "secondaryColor": "#FB923C",
+      "ctaColor": "#22C55E",
+      "backgroundColor": "#1F2937",
+      "fontFamily": "Barlow Condensed / Barlow",
+      "style": "AI Personalization Landing \u2014 bold, energetic, block layout with geometric shapes, high color contrast, dark-first with layered nature-inspired visuals"
+    },
+    "screens": [
+      "home",
+      "island",
+      "chat",
+      "journey"
+    ],
+    "hasScreenshot": true,
+    "description": "BioBloom Trails transforms personal health and fitness into a captivating journey of ecological world-building. Users are guided by a playful AI \"Eco-Spirit\" to cultivate their own unique, evolving biome \u2014 a personal 'BioBloom' island. Every mindful health action, from consistent hydration and stretching breaks to getting quality sleep, contributes 'eco-energy' that physically manifests as new flora, fauna, and unique environmental features on their island. The app shifts focus from mere habit tracking to an intrinsic reward system where sustained well-being creates stunning visual collectibles and unlocks new biomes. It's a delightful fusion of personal growth and digital gardening, offering daily surprises and a deeply personalized, dynamic visual representation of one's journey to sustainable self-care. The core appeal lies in the joy of watching your world flourish, mirroring your own health progress, making mundane self-care tasks feel like acts of profound creation.",
+    "features": [
+      {
+        "title": "Dynamic BioBloom Ecosystem",
+        "detail": "Your personal island visually evolves with your sustained health efforts, displaying unique plants, creatures, and biomes. Users see immediate, personalized environmental changes on their digital island, providing compelling visual feedback and fostering a deep sense of ownership over their health progress."
+      },
+      {
+        "title": "Eco-Spirit Conversational Coach",
+        "detail": "An AI companion provides playful, adaptive guidance and prompts through a chat-like interface. This intelligent coach uses conversational UI to adapt to user moods and progress, offering supportive nudges and celebrating milestones, making interaction feel natural and engaging."
+      },
+      {
+        "title": "Biome Collectibles & Milestones",
+        "detail": "Unlock and discover rare, procedurally generated flora, fauna, and environmental elements as rewards. Every sustained healthy action contributes to unlocking unique collectibles for their island, providing a constant sense of discovery and a powerful intrinsic motivator for long-term engagement."
+      },
+      {
+        "title": "Daily Bloom Challenges",
+        "detail": "Bite-sized, personalized health actions suggested by the Eco-Spirit to earn 'eco-energy'. These varied micro-challenges, from mindful breathing to movement prompts, keep routines fresh and provide achievable goals that consistently feed into the BioBloom's growth."
+      },
+      {
+        "title": "Journey Replay & Insight",
+        "detail": "Visually review your BioBloom's growth over time and get insights into which habits led to specific ecological flourishing. Users can observe time-lapse growth of their island and see correlations between their healthy habits and their BioBloom's vibrancy, reinforcing positive behaviors and understanding their personal sustainability."
+      }
+    ],
+    "audience": "Health-conscious individuals aged 25-45 who are looking for a more engaging and less restrictive way to manage their well-being, appreciate gamification, and are drawn to sustainability themes.",
+    "category": "health & fitness",
+    "useCases": [
+      "A busy professional notices their BioBloom looking a bit sparse after a stressful week, prompting them to open the app for a \"Daily Bloom\" stretch break and hydrate challenge.",
+      "Someone who struggles with consistent sleep checks their BioBloom each morning, seeing how a good night's rest manifested a new, shimmering waterfall feature, encouraging continued good sleep hygiene.",
+      "A user feels a burst of pride sharing a screenshot of their vibrant, flourishing BioBloom island on social media, showcasing a rare creature they just unlocked after a month of consistent mindful eating."
+    ]
+  },
+  {
+    "folder": "2026-04-05-code-canvas",
+    "appName": "Code Canvas",
+    "tagline": "Build micro-solutions, collaboratively.",
+    "designSystem": {
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#334155",
+      "ctaColor": "#22C55E",
+      "backgroundColor": "#0F172A",
+      "lightModeBackground": "#F8FAFC",
+      "headingFont": "JetBrains Mono",
+      "bodyFont": "IBM Plex Sans",
+      "style": "AI Personalization Landing \u2014 Bold, energetic, block layout with geometric accents, high color contrast, dark hero panels, duotone code aesthetics, monospace-driven typographic hierarchy"
+    },
+    "screens": [
+      "home",
+      "canvas",
+      "remix",
+      "profile"
+    ],
+    "screenDetails": {
+      "home": "Daily Brushstroke Challenges \u2014 Featured daily challenge card, XP progress bar, streak counter, browsable challenge list with difficulty tags and language indicators",
+      "canvas": "Shared Masterpiece \u2014 Live animated pixel-grid canvas showing community contributions, contributor stats, my-patch banner, real-time activity feed",
+      "remix": "Remix & Refine \u2014 Community solution browser with code previews, elegance score rings, fork/like actions, language filter chips",
+      "profile": "Dev-Art Gallery \u2014 Dark hero with avatar and level stats, achievement badges, weekly activity bar chart, 2-column top brushstrokes gallery"
+    },
+    "navigation": "bottom-tabs",
+    "defaultTheme": "light",
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "animations": [
+      "fadeIn",
+      "slideUp",
+      "pulse",
+      "shimmer",
+      "paintIn",
+      "streakPop"
+    ],
+    "keyFeatures": [
+      "Daily Brushstroke Challenges",
+      "Shared Masterpiece canvas grid",
+      "Solution Remix & Fork",
+      "Community elegance scoring",
+      "Dev-Art Profile Gallery"
+    ],
+    "hasScreenshot": true,
+    "description": "Code Canvas reimagines developer skill-building as a dynamic, co-operative challenge experience. Developers engage with bite-sized 'micro-challenges' \u2013 practical coding problems that require concise, elegant solutions \u2013 presented as 'Brushstrokes'. Each successfully validated Brushstroke literally 'paints' or 'patches' a part of a larger, persistent 'Shared Masterpiece' project within the app, which visually evolves in real-time. This provides immediate, tangible feedback of a user's contribution, fostering a deep sense of ownership and collective achievement. Users can also 'remix' existing solutions, proposing more optimized or innovative alternatives, sparking iterative improvement and learning across the community. The app taps into the desire for status and self-expression by allowing users to curate their best Brushstrokes on their profile, track their 'Contribution Streak', and earn 'Elegance Scores' for their code, making skill demonstration a core part of the experience. It's designed to be habit-forming through daily challenges, visual progress, and social validation, moving beyond traditional coding platforms.",
+    "features": [
+      {
+        "title": "Daily Brushstroke Challenges",
+        "detail": "Engage with fresh, bite-sized coding problems that can be solved in minutes, from optimizing algorithms to implementing micro-features. This ensures a constant flow of new content and opportunities for skill application."
+      },
+      {
+        "title": "Shared Masterpiece Project",
+        "detail": "Contribute your solutions to a visually evolving, communal software project within the app. See your code instantly update components, adding a tangible, spatial dimension to your contributions and fostering collective pride."
+      },
+      {
+        "title": "Solution Remix & Refine",
+        "detail": "Fork and optimize existing community-submitted solutions, proposing alternative, more performant, or elegant 'Brushstrokes'. This mechanic encourages continuous learning and iterative improvement within the developer community."
+      },
+      {
+        "title": "Community Code Review & Validation",
+        "detail": "Participate in a peer-driven review process, providing constructive feedback and voting on the most innovative or efficient solutions. This ensures quality and offers invaluable learning from diverse perspectives."
+      },
+      {
+        "title": "Dev-Art Gallery & Profile",
+        "detail": "Showcase your best 'Brushstrokes' on a personal profile, tracking your 'Contribution Streak', 'Elegance Score', and 'Performance Metrics'. This allows developers to express their unique coding style and build their status within the community."
+      }
+    ],
+    "audience": "Mid-level to senior software developers and passionate hobbyists who seek a creative and challenging outlet to hone their skills, learn from peers, and visually contribute to a shared digital project. They are often looking for quick, engaging ways to stay sharp and express their coding prowess.",
+    "category": "developer tools",
+    "useCases": [
+      {
+        "story": "During a quick coffee break, a developer opens Code Canvas, sees a new 'Brushstroke Challenge' to refactor a common data parsing function, and submits an optimized version, seeing their 'Contribution Streak' grow immediately."
+      },
+      {
+        "story": "A front-end developer wants to experiment with a new CSS animation technique. They find a related component within the 'Shared Masterpiece' project that needs styling, contribute a solution, and see their animation render live within the project."
+      },
+      {
+        "story": "Feeling a bit of coder's block, a user browses the 'Solution Remix & Refine' feed, discovers an incredibly elegant solution to a previous challenge, and learns a new pattern they can apply to their work projects."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-lorebite",
+    "appName": "LoreBite",
+    "tagline": "Unearth local flavors, cook hidden stories.",
+    "designSystem": {
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#F87171",
+      "ctaColor": "#CA8A04",
+      "backgroundColor": "#FEF2F2",
+      "fontFamily": "Playfair Display SC + Karla",
+      "style": "AI Personalization Landing \u2014 bold, energetic, block layout with high color contrast, geometric shapes, duotone gradients, and playful spatial energy. Heritage-themed with warm reds and gold accents."
+    },
+    "screens": [
+      "home",
+      "map",
+      "community",
+      "ai",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "LoreBite transforms cooking into a quest for cultural connection, focusing on hyper-local culinary heritage. Users discover \"Lore Bites\" \u2013 unique, often forgotten food stories, traditional recipes, or ingredient folklore tied to their immediate geographical area. The app challenges them to 'revive' these Lore Bites through personal cooking interpretations, sharing their creations with a highly engaged local community, and earning \"Heritage Streaks\" for consistent participation. This fosters a deep connection to place and a sense of shared identity around local gastronomy, making users feel like active participants in their community's culinary narrative. The platform uses conversational AI to guide interpretations and an immersive spatial UI for discovery, making the process of exploring culinary history feel dynamic and personal. It's a space where every meal tells a story, and every user helps keep that story alive.",
+    "features": [
+      {
+        "title": "Lore Map",
+        "detail": "An interactive, spatial map view reveals 'Lore Bites' \u2013 unique food stories, ancestral recipes, or ingredient folklore \u2013 tied to specific geographical points in the user's vicinity, fostering local discovery."
+      },
+      {
+        "title": "Heritage Streaks",
+        "detail": "Users earn and maintain daily or weekly 'Heritage Streaks' by completing Lore Bite cooking challenges, creating a compelling gamified incentive for consistent engagement and a sense of achievement."
+      },
+      {
+        "title": "Local Kitchen AI Guide",
+        "detail": "A conversational AI assistant provides hyper-personalized guidance, helping users interpret historical Lore Bites, suggesting local ingredient substitutions, and walking them through traditional cooking techniques."
+      },
+      {
+        "title": "Community Hearth",
+        "detail": "A dedicated, curated social space where users share their Lore Bite creations, exchange feedback, and connect with other local food enthusiasts and cultural custodians, building a strong sense of belonging."
+      },
+      {
+        "title": "Seasonal Forager Quests",
+        "detail": "Geo-fenced quests prompt users to discover local markets, specific producers, or even wild foraging spots directly linked to ingredients featured in current Lore Bites, enhancing their local culinary journey."
+      }
+    ],
+    "audience": "Home cooks, food enthusiasts, and cultural explorers aged 25-55, who are passionate about their local community, heritage, and are eager to connect with authentic culinary traditions.",
+    "category": "food & cooking",
+    "useCases": [
+      "A new resident uses the 'Lore Map' to discover a story about a unique, historical bread recipe from their neighborhood, then attempts to bake it for a local potluck, earning their first LoreBite streak.",
+      "An avid cook looking for fresh inspiration opens LoreBite, finds a 'Lore Bite' challenge related to a seasonal fruit historically grown nearby, and shares their modern interpretation with the Community Hearth.",
+      "A history buff interested in local culture finds an old food proverb tied to a specific festival in their town. Using the AI Guide, they research and cook a dish that embodies the proverb's sentiment, contributing their findings to the community."
+    ]
+  },
+  {
+    "folder": "2026-04-05-echobloom",
+    "appName": "EchoBloom",
+    "tagline": "Cultivate vibrant soundscapes, season by season.",
+    "designSystem": {
+      "primaryColor": "#1E1B4B",
+      "secondaryColor": "#4338CA",
+      "ctaColor": "#22C55E",
+      "backgroundColor": "#0F0F23",
+      "backgroundLight": "#F0F4FF",
+      "fontFamily": "Righteous (headings) + Poppins (body)",
+      "style": "AI Personalization Landing \u2014 bold, energetic, geometric block layout with high color contrast, glassmorphic card surfaces, animated waveforms, and glowing seed orbs. Light mode default with seamless dark mode toggle."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "alchemy",
+      "grove"
+    ],
+    "screenDetails": {
+      "home": "Dashboard with seasonal biome hero card, XP progress bar, scrollable sound seeds collection, daily quests with progress bars, and Sprig AI conversational widget",
+      "explore": "Boreal Forest biome deep-dive with animated waveform header, interactive quest accordion, and a multi-step conversational discovery chat with Sprig AI guide",
+      "alchemy": "Spatial sound mixing canvas with orbiting seed orbs, play/pause center button, glow animations, per-seed volume sliders, global reverb control, and Grove share CTA",
+      "grove": "Global community tapestry with stats header, filter tabs, animated waveform bloom cards with like/share/listen actions, and trending community soundscapes"
+    },
+    "navigation": "bottom-tabs",
+    "theme": {
+      "default": "light",
+      "toggle": true
+    },
+    "keyAnimations": [
+      "fadeIn",
+      "slideUp",
+      "pulse",
+      "shimmer",
+      "wave",
+      "float",
+      "glow",
+      "spin",
+      "orbitPulse"
+    ],
+    "hasScreenshot": true,
+    "description": "EchoBloom is an ambient companion app that transforms your everyday into a living symphony, connecting you to global ecosystems and a community of sound enthusiasts. Each season, the app introduces a new 'Biome Bloom' challenge, inviting users on a journey to explore and understand a specific natural habitat through its unique soundscape. Users complete engaging micro-lessons \u2013 framed as conversational discoveries \u2013 to 'cultivate' and collect rare 'sound seeds' (unique audio snippets like specific bird calls, rare instrument samples, or environmental ambiences). These seeds are then woven into personalized, evolving ambient soundscapes, which can be shared and experienced within the app's 'Global Grove.' This blend of auditory exploration, bite-sized learning, and collective creativity fosters a deep sense of belonging and connection, encouraging weekly engagement as users anticipate new seeds and biomes.",
+    "features": [
+      {
+        "title": "Seasonal Biome Blooms",
+        "detail": "Discover a new global biome each season (e.g., Boreal Forest, Coral Reef), with curated ambient sounds and micro-lessons focused on its unique auditory elements. This provides a fresh, time-bound challenge and keeps content constantly renewing."
+      },
+      {
+        "title": "Sound Seed Cultivation",
+        "detail": "Engage in micro-learning 'quests' (e.g., identifying bird calls, learning about indigenous instruments) to unlock and collect rare 'sound seeds' specific to the current biome. This gamifies learning and directly contributes to personalized soundscape creation."
+      },
+      {
+        "title": "Conversational Botanical Guide",
+        "detail": "Interact with 'Sprig,' an AI-powered guide that uses conversational UI to personalize your micro-learning path and guide you through sound identification and ecological facts. This makes learning feel intuitive and deeply engaging, adapting to your pace and interests."
+      },
+      {
+        "title": "Global Grove Tapestry",
+        "detail": "Share your cultivated ambient 'blooms' with a global community and explore others' creations, creating a collective, ever-evolving sonic tapestry of the current season's biome. This fosters belonging, inspiration, and a shared appreciation for natural sounds."
+      },
+      {
+        "title": "Adaptive Sound Alchemy",
+        "detail": "Blend collected sound seeds and adjust their presence, layers, and effects within an intuitive spatial UI to craft truly unique and personal ambient soundscapes. This allows for deep personalization and creative expression, making each bloom truly yours."
+      }
+    ],
+    "audience": "Eco-conscious individuals, nature enthusiasts, mindfulness seekers, and curious learners aged 25-55, who enjoy gentle discovery, calm engagement, and connecting with a like-minded community.",
+    "category": "music & audio",
+    "useCases": [
+      {
+        "title": "Morning Commute Refresh",
+        "detail": "On a busy train, a user opens EchoBloom to play their personally cultivated 'Coastal Serenity' bloom, mentally transporting themselves to a peaceful beach while learning about the unique calls of sea birds from their AI guide 'Sprig'."
+      },
+      {
+        "title": "Mindful Study Break",
+        "detail": "During an afternoon study session, a student pauses to engage with a micro-lesson on the Amazonian rainforest biome, identifying new insect sounds to unlock rare 'Rainforest Ripple' seeds, which they'll later add to their ambient focus soundscape."
+      },
+      {
+        "title": "Evening Wind-Down",
+        "detail": "Before bed, a user explores the 'Global Grove,' discovering a 'Moonlit Desert' bloom created by another member, feeling connected to a shared sense of global tranquility before settling into their own custom 'Nightfall Bloom' for sleep."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-echo-grove",
+    "appName": "Echo Grove",
+    "tagline": "Curate the world's subtle beauty.",
+    "designSystem": {
+      "primaryColor": "#2563EB",
+      "secondaryColor": "#3B82F6",
+      "ctaColor": "#F97316",
+      "backgroundColor": "#F8FAFC",
+      "fontFamily": "Righteous (headings) + Poppins (body)",
+      "style": "AI Personalization Landing \u2014 bold, energetic, geometric block layout with high color contrast, duotone gradients, and animated generative canvas elements"
+    },
+    "screens": [
+      "grove",
+      "prompts",
+      "codex",
+      "stream"
+    ],
+    "hasScreenshot": true,
+    "description": "Echo Grove is an entertainment app that transforms mundane daily observations into a collective, evolving digital ecosystem. As your ambient companion, the app subtly prompts you to engage with the world's ephemeral beauty through micro-challenges, such as identifying unique color palettes in natural light, describing the texture of a passing cloud, or capturing the fleeting melody of urban sounds. Your unique interpretations and observations become 'echoes' that literally contribute to the growth and vibrancy of a shared, virtual 'Grove'\u2014a constantly shifting, generative art piece. This process isn't about correctness but about fostering mindful perception, encouraging a deeper connection with your surroundings. Each seasonal challenge introduces new themes and elemental shifts, unlocking rare aesthetic contributions and unique self-expression tools, elevating your status as a 'Grove Weaver' and cultivating a refined appreciation for the world's intricate details. It's a delightful, non-competitive space for curious minds to express and share their unique way of seeing.",
+    "features": [
+      {
+        "title": "Seasonal Ephemera Prompts",
+        "detail": "Receive daily, subtle micro-challenges like 'Log the quality of light at dusk' or 'Describe a sound that defines this moment.' These unique prompts drive engagement by offering novel ways to observe the world and provide continuous input for the Grove."
+      },
+      {
+        "title": "Generative Grove Canvas",
+        "detail": "Your unique observations (color inputs, textural descriptions, sound attributes) are fed into a generative AI, which dynamically evolves a stunning 3D spatial UI 'Grove' in real-time. This serves as the core ambient companion, providing immediate visual feedback and a sense of collective creation."
+      },
+      {
+        "title": "Echo Codex & Weaver Tiers",
+        "detail": "Accumulate unique 'Echoes' from your submitted observations and progress through 'Weaver' tiers. This unlocks rare aesthetic customization options for your personal Grove pocket and exclusive UI themes, fueling status and self-expression."
+      },
+      {
+        "title": "Community Resonance Stream",
+        "detail": "Discover a curated, ephemeral feed of particularly unique 'echoes' and their corresponding visual/auditory contributions to the collective Grove, shared discreetly. This encourages subtle social interaction and discovery without direct chat, maintaining the app's ambient feel."
+      },
+      {
+        "title": "Seasonal Lore & Elemental Shifts",
+        "detail": "Each season brings new thematic lore, distinct challenge types (e.g., 'Lunar Cycle Observations,' 'Urban Bloom Watch'), and significant elemental changes to the Grove's visual and auditory design. This ensures continuous freshness, replayability, and aligns with the seasonal challenges mechanic."
+      }
+    ],
+    "audience": "Mindful creators, aesthetes, and curious individuals aged 18-45 who appreciate subtle engagement, personalized experiences, and a deeper connection to their surroundings without demanding social pressures.",
+    "category": "entertainment",
+    "useCases": [
+      {
+        "text": "During their morning commute, a user opens Echo Grove when prompted to 'note the color of the morning sky's most fleeting hue.' They quickly input a color selection and a descriptive tag, feeling a momentary, calming connection to the world before starting their workday."
+      },
+      {
+        "text": "While sipping tea in the evening, a user receives a prompt: 'Listen for the most calming ambient sound around you right now and describe its texture.' They reflect for a moment, input their observation, and then leisurely browse how the collective Grove has evolved, feeling a sense of peace."
+      },
+      {
+        "text": "An artist facing a creative block opens Echo Grove. The current seasonal challenge is 'Interpret the visual rhythm of falling leaves.' Engaging with the prompt sparks an idea for a new painting, and their unique 'echo' contributes a novel pattern to the shared Grove."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-codebounty",
+    "appName": "CodeBounty",
+    "tagline": "Team up. Solve code bounties. Level up.",
+    "designSystem": {
+      "primaryColor": "#1E293B",
+      "secondaryColor": "#334155",
+      "backgroundColor": "#F8FAFC",
+      "backgroundColorDark": "#0F172A",
+      "ctaColor": "#22C55E",
+      "accentColor": "#6366F1",
+      "fontFamily": "JetBrains Mono",
+      "bodyFont": "IBM Plex Sans",
+      "style": "AI Personalization Landing \u2014 Bold, energetic, playful block layout with geometric shapes, high color contrast, duotone effects, and modern dark/light duality. Code-centric aesthetics with monospace typography for headings."
+    },
+    "screens": [
+      "home",
+      "squads",
+      "workbench",
+      "profile"
+    ],
+    "screenDetails": {
+      "home": "Daily Code Bounties feed with featured bounty card, bounty list with difficulty/lang badges, and horizontal DevDrops carousel",
+      "squads": "Active squad status with progress bar, open squads browser with recruit/join actions, create squad flow",
+      "workbench": "Spatial 3D-style canvas with draggable DevDrop and code snippet cards, SVG connector lines, card detail panel",
+      "profile": "User stats header, tabbed view of Tech Artifacts grid / global leaderboard / streak heatmap"
+    },
+    "navigation": "bottom-tabs",
+    "theme": {
+      "default": "light",
+      "toggle": "accessible theme toggle in bottom nav bar"
+    },
+    "animations": [
+      "fadeIn",
+      "slideUp",
+      "pulse",
+      "shimmer"
+    ],
+    "icons": "Lucide (window.lucide CDN)",
+    "hasScreenshot": true,
+    "description": "CodeBounty is a highly engaging challenge app for developers, blending bite-sized coding puzzles with collaborative problem-solving and short-form video explanations. Users form ephemeral 'squads' to tackle daily 'Code Bounties' across diverse tech stacks, ranging from complex algorithm challenges to clever CSS tricks. The core mechanic involves submitting 'DevDrops'\u2014short, narrated screen recordings (up to 90 seconds) explaining a piece of code, a solution strategy, or a debugging technique. These DevDrops are then collaboratively refined within a unique 'Spatial Workbench,' a 3D canvas where squad members visually arrange, link, and comment on solutions, fostering a dynamic and immersive learning experience. The app taps into the emotional hooks of status and self-expression by allowing developers to showcase their expertise, earn reputation, collect unique 'Tech Artifacts' (digital badges), and climb global leaderboards, ensuring strong repeat engagement as users strive to master new skills and contribute to a vibrant, co-operative community.",
+    "features": [
+      {
+        "title": "Daily Code Bounties",
+        "detail": "Engage with a fresh set of curated, bite-sized coding challenges across various programming languages and frameworks that refresh daily. This ensures constant novelty and opportunities for skill development."
+      },
+      {
+        "title": "DevDrop Submissions",
+        "detail": "Record and share short, narrated video snippets (up to 90 seconds) demonstrating your code solutions and explaining your thought process. This serves as the primary mode of communication, learning, and self-expression, akin to short-form content."
+      },
+      {
+        "title": "Spatial Workbench",
+        "detail": "Collaborate in an immersive 3D canvas where squad members visually arrange, link, and interact with each other's DevDrops and code snippets to build a comprehensive joint solution. This redefines collaborative coding by providing a visual, spatial understanding of project decomposition."
+      },
+      {
+        "title": "Squad Formation & Co-op Goals",
+        "detail": "Quickly form temporary squads (2-4 developers) to collectively solve Code Bounties. Shared rewards upon successful completion foster teamwork and mutual learning, reinforcing the co-op dynamic."
+      },
+      {
+        "title": "Reputation & Tech Artifacts",
+        "detail": "Earn reputation points and unlock unique 'Tech Artifacts' by successfully completing bounties and creating highly-rated DevDrops. These act as visible markers of skill and contribution, fueling the desire for status and self-expression."
+      }
+    ],
+    "audience": "Junior to mid-level software developers, students, and hobbyists who are eager to continuously learn, solve problems, and connect with peers in a hands-on, gamified, and highly visual environment. They appreciate instant feedback and opportunities to demonstrate expertise.",
+    "category": "developer tools",
+    "useCases": [
+      {
+        "title": "Quick Skill Sharpening",
+        "detail": "A developer with 30 minutes to spare during a commute sees a 'Python List Comprehension' bounty, joins a squad, quickly contributes an optimized DevDrop, and earns reputation while learning from peers."
+      },
+      {
+        "title": "Interview Prep & Learning",
+        "detail": "A computer science student preparing for technical interviews finds an 'Algorithms: Dynamic Programming' bounty, watches existing DevDrops from a top-ranked squad, and then submits their own improved solution, getting instant peer feedback."
+      },
+      {
+        "title": "Exploring New Technologies",
+        "detail": "An experienced engineer wants to dabble in Rust. They browse bounties tagged 'Rust,' join a high-reputation squad focused on a specific Rust challenge, and contribute their beginner's perspective while learning from seasoned Rustaceans."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-loreweave",
+    "appName": "LoreWeave",
+    "tagline": "Your community's living story.",
+    "designSystem": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#A78BFA",
+      "ctaColor": "#22C55E",
+      "backgroundColor": "#FAF5FF",
+      "fontFamily": "Inter",
+      "style": "Community/Forum Landing \u2014 bold, energetic, playful block layout with geometric shapes, high color contrast, duotone elements, and modern immersive dark/light theming"
+    },
+    "screens": [
+      "home",
+      "rituals",
+      "forge",
+      "archive",
+      "guild"
+    ],
+    "hasScreenshot": true,
+    "description": "LoreWeave is an innovative mobile app where identity-based communities, called 'Guilds', collectively craft and evolve their unique lore through AI-orchestrated live creative rituals. Instead of generic AI assistants, each Guild co-develops an Agentic LoreMuse\u2014a specialized AI agent that learns the community's distinctive style, in-jokes, and narrative preferences, acting as a dynamic, evolving collaborator. Members contribute creative fragments (text, audio snippets, visual elements) which the LoreMuse then remixes, intertwines, and prompts members to expand upon during scheduled 'LoreWeave Rituals'. These live, conversational events feel like digital campfire stories or collaborative art performances, where the Guild's shared identity is explored, solidified, and expressed through continuously evolving collective narratives. Users return weekly, driven by the desire to witness the LoreMuse's latest prompt, contribute to their Guild's saga, and experience the unfolding story that defines their collective identity.",
+    "features": [
+      {
+        "title": "Guild LoreMuses",
+        "detail": "Each community fosters a unique AI LoreMuse that develops a distinct personality and creative style based on the Guild's contributions, acting as a personalized, evolving creative partner for collaborative storytelling."
+      },
+      {
+        "title": "Live Weave Rituals",
+        "detail": "Participate in scheduled, interactive live events where the LoreMuse guides the community through a conversational UI to co-create and remix new lore fragments, building anticipation and shared experience."
+      },
+      {
+        "title": "Echo Archive (Spatial Lore)",
+        "detail": "Explore your Guild's entire accumulated lore visualized as an immersive, navigable 3D spatial archive, where interconnected narratives and historical creative elements are brought to life, offering a unique discovery experience."
+      },
+      {
+        "title": "Fragment Forge",
+        "detail": "Easily contribute text snippets, image prompts, audio recordings, or video clips directly into the communal creative pool, which the LoreMuse then processes for remixing and integration into the Guild's saga."
+      },
+      {
+        "title": "Identity Shard Challenges",
+        "detail": "The LoreMuse periodically issues prompts designed to challenge the Guild to explore specific facets of their collective identity or delve into a 'what-if' scenario, ensuring continuous narrative exploration and engagement."
+      }
+    ],
+    "audience": "Niche online communities, creative collectives, tabletop RPG groups, fan fiction circles, and anyone seeking a deeply engaged, identity-driven collaborative creative experience.",
+    "category": "AI automation & agents",
+    "useCases": [
+      {
+        "title": "The 'Cosmic Cartographers' Guild",
+        "detail": "A group of sci-fi enthusiasts meets weekly to collaborate with their LoreMuse, 'The Starweaver', to build a shared universe lore, adding new species, planets, and historical events to their ongoing saga."
+      },
+      {
+        "title": "The 'Whisperwind Poets' Collective",
+        "detail": "Poets and lyricists convene to engage with their 'Rhyme Weaver' LoreMuse, offering themed prompts for collaborative verse-writing, remixing stanzas, and evolving their collective poetic narrative in real-time."
+      },
+      {
+        "title": "The 'Memescape Architects' Faction",
+        "detail": "A group focused on niche internet culture uses 'MemeMorph' LoreMuse to generate and remix new inside jokes, visual memes, and short narrative sketches, documenting and evolving their shared digital identity."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-05-echoforge-enclave",
+    "appName": "EchoForge Enclave",
+    "tagline": "Craft evolving sagas, collaboratively.",
+    "designSystem": {
+      "primaryColor": "#2979FF",
+      "secondaryColor": "#FF5252",
+      "ctaColor": "#EC4899",
+      "backgroundColor": "#0D0F1A",
+      "backgroundColorLight": "#FAFAFA",
+      "fontFamily": "Fredoka + Nunito",
+      "headingFont": "Fredoka",
+      "bodyFont": "Nunito",
+      "style": "Bold geometric dark-first design with glowing node maps, gradient accents, and constellation-inspired spatial UI"
+    },
+    "screens": [
+      "home",
+      "explore",
+      "forge",
+      "map",
+      "profile"
+    ],
+    "screenDetails": {
+      "home": "Novelty feed with trending sagas, AI Muse banner, story cards showing forks/contributors/chapters",
+      "explore": "Enclave hubs browser with join/leave, weekly challenge banner, genre tags",
+      "forge": "Create new saga or contribute to existing \u2014 title input, AI Muse suggestions, enclave selector, fork settings",
+      "map": "Spatial narrative map SVG visualization of branching story paths with color-coded node types (main/fork/branch/leaf)",
+      "profile": "User stats grid, AI Muse style profile bars, recent activity feed"
+    },
+    "features": [
+      "Dark/light theme toggle",
+      "Bottom tab navigation with forge CTA button",
+      "CSS keyframe animations (fadeIn, slideUp, floatUp, glow)",
+      "Interactive SVG saga branch map",
+      "AI Muse suggestion panel",
+      "Enclave join/leave toggle",
+      "Story fork visualization"
+    ],
+    "hasScreenshot": true,
+    "description": "EchoForge Enclave is a vibrant digital club for generative storytelling, inviting members to collaboratively co-create dynamic, branching narratives using advanced AI. Each story begins with a user-initiated prompt, then asynchronously evolves as other club members contribute AI-generated paragraphs or scenes, all while an intelligent AI acts as a versatile co-author and continuity guide. This unique process facilitates deeply engaging, iterative storytelling where users actively shape unique, AI-assisted literary worlds, fostering endless discovery and novelty with every narrative turn. The platform organizes itself into themed 'Enclaves,' allowing participants to dive into specific genres or creative challenges alongside like-minded collaborators, moving beyond simple text generation to forge complex, interwoven plotlines that constantly surprise and delight. It's an escape into collective imagination, designed for continuous creative input and exploration.",
+    "audience": "Creative writers, speculative fiction enthusiasts, role-players, and anyone curious about AI's potential in collaborative storytelling, typically aged 18-45, seeking a unique blend of community and generative creativity.",
+    "category": "AI creative & generative",
+    "useCases": [
+      "During my lunch break, I'll open EchoForge to see the latest development in the 'Lost Civilization' saga I contributed to yesterday, and then add a new character's perspective to one of its emerging branches using the AI Muse.",
+      "My friend and I are looking for a fun creative project, so we'll start a new 'Detective Thriller' saga in the Noir Enclave, alternating adding plot twists and character developments with the AI Muse's assistance.",
+      "I'm feeling uninspired for my personal writing; I'll browse the Novelty Feeds for a new fantasy-themed story to jump into, getting ideas by collaboratively expanding a magic system with other club members."
+    ]
+  },
+  {
     "folder": "2026-04-05-dreamweave",
     "appName": "DreamWeave",
     "tagline": "Co-create infinite AI dreamscapes.",
