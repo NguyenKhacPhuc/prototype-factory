@@ -1,0 +1,13 @@
+{
+  "appName": "BioBloom Trails",
+  "tagline": "Cultivate well-being, grow your world.",
+  "designSystem": {
+    "primaryColor": "#F97316",
+    "secondaryColor": "#FB923C",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#1F2937",
+    "fontFamily": "Barlow Condensed / Barlow",
+    "style": "AI Personalization Landing — bold, energetic, block layout with geometric shapes, high color contrast, dark-first with layered nature-inspired visuals"
+  },
+  "screens": ["home", "island", "chat", "journey"]
+}

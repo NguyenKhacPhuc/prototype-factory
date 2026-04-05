@@ -1,0 +1,14 @@
+{
+  "appName": "BioBloom Trails",
+  "fontFamily": "Barlow Condensed / Barlow",
+  "colors": {
+    "primary": "#F97316",
+    "secondary": "#FB923C",
+    "background": "#1F2937",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
