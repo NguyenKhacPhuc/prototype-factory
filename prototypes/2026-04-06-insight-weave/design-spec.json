@@ -1,0 +1,19 @@
+{
+  "appName": "Insight Weave",
+  "tagline": "Discover & Create Together.",
+  "designSystem": {
+    "primaryColor": "#0D9488",
+    "secondaryColor": "#14B8A6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F0FDFA",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing with teal-orange palette, iOS-native typography, gesture-based micro-interactions, glassmorphic nav, and light/dark theme support"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "feed",
+    "weaveDetail",
+    "profile"
+  ]
+}
