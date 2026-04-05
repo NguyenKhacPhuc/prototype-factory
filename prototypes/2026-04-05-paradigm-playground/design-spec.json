@@ -1,0 +1,20 @@
+{
+  "appName": "Paradigm Playground",
+  "tagline": "Remix ideas, master understanding.",
+  "designSystem": {
+    "primaryColor": "#2563EB",
+    "secondaryColor": "#3B82F6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#0A0E1A",
+    "fontHeading": "Baloo 2",
+    "fontBody": "Comic Neue",
+    "style": "AI Personalization Landing — dark theme, midnight blue, OLED-optimized, deep blacks with electric blue accents and warm orange CTAs"
+  },
+  "screens": [
+    "home",
+    "source",
+    "canvas",
+    "gallery",
+    "analytics"
+  ]
+}

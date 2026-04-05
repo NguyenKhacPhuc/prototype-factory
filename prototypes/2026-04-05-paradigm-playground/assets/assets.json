@@ -1,0 +1,14 @@
+{
+  "appName": "Paradigm Playground",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#2563EB",
+    "secondary": "#3B82F6",
+    "background": "#0A0E1A",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
