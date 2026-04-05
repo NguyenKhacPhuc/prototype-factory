@@ -1,0 +1,46 @@
+{
+  "name": "CodeBounty",
+  "tagline": "Team up. Solve code bounties. Level up.",
+  "description": "CodeBounty is a highly engaging challenge app for developers, blending bite-sized coding puzzles with collaborative problem-solving and short-form video explanations. Users form ephemeral 'squads' to tackle daily 'Code Bounties' across diverse tech stacks, ranging from complex algorithm challenges to clever CSS tricks. The core mechanic involves submitting 'DevDrops'\u2014short, narrated screen recordings (up to 90 seconds) explaining a piece of code, a solution strategy, or a debugging technique. These DevDrops are then collaboratively refined within a unique 'Spatial Workbench,' a 3D canvas where squad members visually arrange, link, and comment on solutions, fostering a dynamic and immersive learning experience. The app taps into the emotional hooks of status and self-expression by allowing developers to showcase their expertise, earn reputation, collect unique 'Tech Artifacts' (digital badges), and climb global leaderboards, ensuring strong repeat engagement as users strive to master new skills and contribute to a vibrant, co-operative community.",
+  "features": [
+    {
+      "title": "Daily Code Bounties",
+      "detail": "Engage with a fresh set of curated, bite-sized coding challenges across various programming languages and frameworks that refresh daily. This ensures constant novelty and opportunities for skill development."
+    },
+    {
+      "title": "DevDrop Submissions",
+      "detail": "Record and share short, narrated video snippets (up to 90 seconds) demonstrating your code solutions and explaining your thought process. This serves as the primary mode of communication, learning, and self-expression, akin to short-form content."
+    },
+    {
+      "title": "Spatial Workbench",
+      "detail": "Collaborate in an immersive 3D canvas where squad members visually arrange, link, and interact with each other's DevDrops and code snippets to build a comprehensive joint solution. This redefines collaborative coding by providing a visual, spatial understanding of project decomposition."
+    },
+    {
+      "title": "Squad Formation & Co-op Goals",
+      "detail": "Quickly form temporary squads (2-4 developers) to collectively solve Code Bounties. Shared rewards upon successful completion foster teamwork and mutual learning, reinforcing the co-op dynamic."
+    },
+    {
+      "title": "Reputation & Tech Artifacts",
+      "detail": "Earn reputation points and unlock unique 'Tech Artifacts' by successfully completing bounties and creating highly-rated DevDrops. These act as visible markers of skill and contribution, fueling the desire for status and self-expression."
+    }
+  ],
+  "audience": "Junior to mid-level software developers, students, and hobbyists who are eager to continuously learn, solve problems, and connect with peers in a hands-on, gamified, and highly visual environment. They appreciate instant feedback and opportunities to demonstrate expertise.",
+  "category": "developer tools",
+  "useCases": [
+    {
+      "title": "Quick Skill Sharpening",
+      "detail": "A developer with 30 minutes to spare during a commute sees a 'Python List Comprehension' bounty, joins a squad, quickly contributes an optimized DevDrop, and earns reputation while learning from peers."
+    },
+    {
+      "title": "Interview Prep & Learning",
+      "detail": "A computer science student preparing for technical interviews finds an 'Algorithms: Dynamic Programming' bounty, watches existing DevDrops from a top-ranked squad, and then submits their own improved solution, getting instant peer feedback."
+    },
+    {
+      "title": "Exploring New Technologies",
+      "detail": "An experienced engineer wants to dabble in Rust. They browse bounties tagged 'Rust,' join a high-reputation squad focused on a specific Rust challenge, and contribute their beginner's perspective while learning from seasoned Rustaceans."
+    }
+  ],
+  "engagementLoop": "Users keep returning weekly, driven by the desire to tackle fresh daily Code Bounties, climb leaderboards, and collect rare Tech Artifacts. The collaborative nature of squad-based problem-solving, coupled with the immediate feedback and social validation from submitting engaging DevDrops, creates a powerful loop of learning, competition, and community contribution.",
+  "trendFit": "CodeBounty aligns perfectly with short-form content behavior through its bite-sized 'DevDrops,' leverages co-op goals as its primary engagement mechanic, and capitalizes on the emotional hooks of status and self-expression. Its 'Spatial Workbench' embraces the emerging trend of Spatial UI and immersive experiences, making collaborative coding more intuitive and visually engaging.",
+  "monetization": "A freemium model where premium subscriptions unlock advanced analytics on personal performance, exclusive 'Legendary' bounty categories, custom 'Tech Artifact' designs for enhanced self-expression, and expanded 'Spatial Workbench' customization options."
+}

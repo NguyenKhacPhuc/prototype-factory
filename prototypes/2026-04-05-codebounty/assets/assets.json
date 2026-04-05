@@ -1,0 +1,14 @@
+{
+  "appName": "CodeBounty",
+  "fontFamily": "JetBrains Mono",
+  "colors": {
+    "primary": "#1E293B",
+    "secondary": "#334155",
+    "background": "#F8FAFC",
+    "accent": "#6366F1"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

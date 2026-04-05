@@ -1,0 +1,34 @@
+{
+  "appName": "CodeBounty",
+  "tagline": "Team up. Solve code bounties. Level up.",
+  "designSystem": {
+    "primaryColor": "#1E293B",
+    "secondaryColor": "#334155",
+    "backgroundColor": "#F8FAFC",
+    "backgroundColorDark": "#0F172A",
+    "ctaColor": "#22C55E",
+    "accentColor": "#6366F1",
+    "fontFamily": "JetBrains Mono",
+    "bodyFont": "IBM Plex Sans",
+    "style": "AI Personalization Landing — Bold, energetic, playful block layout with geometric shapes, high color contrast, duotone effects, and modern dark/light duality. Code-centric aesthetics with monospace typography for headings."
+  },
+  "screens": [
+    "home",
+    "squads",
+    "workbench",
+    "profile"
+  ],
+  "screenDetails": {
+    "home": "Daily Code Bounties feed with featured bounty card, bounty list with difficulty/lang badges, and horizontal DevDrops carousel",
+    "squads": "Active squad status with progress bar, open squads browser with recruit/join actions, create squad flow",
+    "workbench": "Spatial 3D-style canvas with draggable DevDrop and code snippet cards, SVG connector lines, card detail panel",
+    "profile": "User stats header, tabbed view of Tech Artifacts grid / global leaderboard / streak heatmap"
+  },
+  "navigation": "bottom-tabs",
+  "theme": {
+    "default": "light",
+    "toggle": "accessible theme toggle in bottom nav bar"
+  },
+  "animations": ["fadeIn", "slideUp", "pulse", "shimmer"],
+  "icons": "Lucide (window.lucide CDN)"
+}
