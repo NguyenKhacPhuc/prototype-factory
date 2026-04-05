@@ -1,0 +1,20 @@
+{
+  "appName": "SparkForge",
+  "tagline": "Fuel your creativity. Forge together.",
+  "designSystem": {
+    "primaryColor": "#EC4899",
+    "secondaryColor": "#F472B6",
+    "ctaColor": "#06B6D4",
+    "backgroundColor": "#FDF2F8",
+    "headingFont": "Fredoka",
+    "bodyFont": "Nunito",
+    "style": "AI Personalization Landing — vibrant pink-to-cyan gradients, animation-heavy with microinteractions, smooth transitions, entrance animations. Warm pink base with bold gradient CTAs. Card-based layout with hover states. Bottom tab navigation."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "create",
+    "challenge",
+    "profile"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "appName": "SparkForge",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#EC4899",
+    "secondary": "#F472B6",
+    "background": "#FDF2F8",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-left",
+    "arrow-right",
+    "award",
+    "bell",
+    "chevron-right",
+    "clock",
+    "flame",
+    "message-circle",
+    "moon",
+    "search",
+    "send",
+    "settings",
+    "sliders-horizontal",
+    "sparkles",
+    "star",
+    "sun",
+    "trending-up",
+    "users",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 19,
+  "fontFileCount": 0
+}
