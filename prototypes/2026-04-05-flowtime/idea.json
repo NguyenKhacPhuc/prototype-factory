@@ -1,0 +1,56 @@
+{
+  "name": "FlowTime",
+  "tagline": "Conquer your day. Cultivate unstoppable momentum.",
+  "description": "FlowTime isn't just a simple todo app with a sleek dark mode; it's a mindful productivity companion designed to help you overcome task paralysis and build consistent focus. By leveraging subtle psychological nudges and a unique 'Flow Block' system, FlowTime transforms daunting tasks into achievable 'flow moments,' fostering a powerful sense of accomplishment and gently guiding you away from procrastination.",
+  "features": [
+    {
+      "title": "Dynamic Dark Mode",
+      "detail": "A beautifully designed, customizable dark mode for optimal focus and reduced eye strain in any lighting condition."
+    },
+    {
+      "title": "Intuitive Task Management",
+      "detail": "Effortlessly add, organize, prioritize, and complete tasks with a clean, swipe-based interface. Supports subtasks, due dates, and smart reminders."
+    },
+    {
+      "title": "Flow Block Scheduling (Scarcity Hook)",
+      "detail": "Allocate a limited number of 'Flow Blocks' each day to your most critical tasks. These scarce, dedicated focus periods encourage intentional prioritization. Unused blocks 'decay' by day's end, subtly promoting daily engagement."
+    },
+    {
+      "title": "Momentum Streaks (Loss Aversion Hook)",
+      "detail": "Build and maintain daily or weekly streaks by completing all tasks within your scheduled Flow Blocks. Receive gentle notifications when your streak is at risk, leveraging loss aversion to motivate consistent progress."
+    },
+    {
+      "title": "Priority Decay Visualizer",
+      "detail": "Tasks left unaddressed for too long visually 'fade' in priority, gently nudging users to take action before they become overwhelming and 'lose' their urgency. This promotes timely task completion."
+    },
+    {
+      "title": "Quick Voice Capture",
+      "detail": "Swiftly add tasks by speaking them aloud, ideal for capturing ideas on the go without breaking your flow."
+    }
+  ],
+  "audience": "Young professionals, students, freelancers, and anyone seeking a structured yet simple approach to productivity, who struggles with procrastination, and appreciates smart design with subtle psychological prompts.",
+  "category": "Productivity & Time Management",
+  "useCases": [
+    {
+      "title": "Structured Daily Planning",
+      "detail": "Users can start their day by assigning key tasks to 'Flow Blocks,' ensuring their most important work receives dedicated, focused attention, preventing feeling overwhelmed."
+    },
+    {
+      "title": "Overcoming Procrastination",
+      "detail": "For large, daunting tasks, users can break them into smaller steps and schedule each into mini 'Flow Blocks,' using the Momentum Streak feature to maintain motivation and consistent progress."
+    },
+    {
+      "title": "Mindful Deep Work",
+      "detail": "The Dynamic Dark Mode and timed Flow Blocks provide an ideal environment for deep work sessions, minimizing distractions and helping users cultivate a consistent rhythm of focused productivity."
+    }
+  ],
+  "engagementLoop": "Users are consistently engaged by the desire to build and maintain their 'Momentum Streaks.' The daily scarcity of 'Flow Blocks' encourages proactive prioritization and interaction with the app. The 'Priority Decay' system provides subtle, ongoing nudges to address pending tasks, reinforcing consistent use to avoid 'losing' task importance. Achieving 'Flow Moments' provides positive reinforcement, making the app a rewarding and habitual part of their daily routine.",
+  "trendFit": "FlowTime taps into the growing demand for minimalist, distraction-free productivity tools that also leverage smart design and psychological principles (like those hinted at by AI's behavioral insights) to guide user behavior. Its voice capture feature aligns with the trend towards natural and efficient user interfaces, while its core focus on building momentum resonates with the desire for sustainable work habits in a fast-paced world.",
+  "monetization": {
+    "model": "Freemium Subscription",
+    "details": [
+      "**Free Tier**: Basic task management, dynamic dark mode, limited daily 'Flow Blocks' (e.g., 3-5 per day), fundamental Momentum Streaks.",
+      "**FlowTime Pro (Premium Subscription)**: Unlimited 'Flow Blocks,' advanced streak analytics, custom priority decay settings, deeper calendar integrations, exclusive themes, priority support, and advanced reminder options."
+    ]
+  }
+}

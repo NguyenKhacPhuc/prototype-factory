@@ -1,0 +1,14 @@
+{
+  "appName": "FlowTime",
+  "tagline": "Conquer your day. Cultivate unstoppable momentum.",
+  "designSystem": {
+    "primaryColor": "#2979FF",
+    "secondaryColor": "#FF5252",
+    "backgroundColor": "#FAFAFA",
+    "fontFamily": "system / system",
+    "style": "bold geometric"
+  },
+  "screens": [
+    "home"
+  ]
+}
