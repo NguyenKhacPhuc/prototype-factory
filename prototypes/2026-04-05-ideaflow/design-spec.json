@@ -1,0 +1,25 @@
+{
+  "appName": "IdeaFlow",
+  "tagline": "Remix knowledge, shape your understanding.",
+  "designSystem": {
+    "primaryColor": "#2563EB",
+    "secondaryColor": "#3B82F6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F8FAFC",
+    "headingFont": "Baloo 2",
+    "bodyFont": "Comic Neue",
+    "style": "AI Personalization Landing — spatial canvas with tactile nodes, gradient hero headers, animated floating elements, and adaptive light/dark theming"
+  },
+  "screens": ["home", "canvas", "discover", "chat"],
+  "navigation": "bottom-tabs",
+  "features": [
+    "Flow Canvas with animated, floating snippet nodes and bezier curve connections",
+    "Adaptive AI Snippet Stream with personalized content cards",
+    "Community Flow Gallery with like, bookmark, and remix actions",
+    "Conversational AI Co-Pilot with typing indicator and quick suggestion chips",
+    "Light/dark theme toggle accessible from every screen",
+    "Node type palette (Video, Text, Audio, Image) with per-type color coding",
+    "Progress tracking per flow with animated progress bars",
+    "FAB for adding new nodes with slide-up type picker"
+  ]
+}
