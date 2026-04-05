@@ -1,0 +1,18 @@
+{
+  "appName": "Syntax Sprint",
+  "tagline": "Code elegance. Co-op challenges. Dev status.",
+  "designSystem": {
+    "primaryColor": "#1E293B",
+    "secondaryColor": "#334155",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#0F172A",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — bold, energetic, playful, geometric, high contrast duotone with depth"
+  },
+  "screens": [
+    "home",
+    "feed",
+    "leaderboard",
+    "profile"
+  ]
+}
