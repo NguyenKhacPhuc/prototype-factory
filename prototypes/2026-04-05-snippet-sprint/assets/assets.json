@@ -1,0 +1,28 @@
+{
+  "appName": "Snippet Sprint",
+  "fontFamily": "JetBrains Mono (headings) + IBM Plex Sans (body)",
+  "colors": {
+    "primary": "#1E293B",
+    "secondary": "#334155",
+    "background": "#0F172A",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "bell",
+    "check",
+    "check-circle",
+    "clock",
+    "gem",
+    "loader",
+    "party-popper",
+    "plus",
+    "rotate-ccw",
+    "send",
+    "star",
+    "trophy",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 13,
+  "fontFileCount": 0
+}

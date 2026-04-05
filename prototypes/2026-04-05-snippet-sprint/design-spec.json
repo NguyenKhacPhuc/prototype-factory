@@ -1,0 +1,19 @@
+{
+  "appName": "Snippet Sprint",
+  "tagline": "Micro-challenges, macro-skills, co-op code glory.",
+  "designSystem": {
+    "primaryColor": "#1E293B",
+    "secondaryColor": "#334155",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#0F172A",
+    "lightBackground": "#F8FAFC",
+    "fontFamily": "JetBrains Mono (headings) + IBM Plex Sans (body)",
+    "style": "AI Personalization Landing — bold energetic geometric block layout with high color contrast, duotone gradients, and gamified UI elements"
+  },
+  "screens": [
+    "home",
+    "sprint",
+    "squad",
+    "profile"
+  ]
+}

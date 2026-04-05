@@ -1,0 +1,46 @@
+{
+  "name": "Snippet Sprint",
+  "tagline": "Micro-challenges, macro-skills, co-op code glory.",
+  "description": "Snippet Sprint transforms developer upskilling and contribution into an addictive, game-like experience. Instead of daunting projects or long tutorials, users tackle highly focused, bite-sized coding or problem-solving \"snippets\" designed for quick completion, often under 15 minutes. These micro-challenges collectively contribute to larger, community-driven \"Project Goals,\" with users forming temporary \"Dev Squads\" to push collaborative efforts forward. The app leverages gamified progression, awarding \"XP\" and unique \"Skill Shards\" for successful completions, creating visible profiles of expertise and fostering status through achievement. It offers immediate gratification and continuous feedback, much like short-form content platforms, making learning and contributing highly engaging. By breaking down complex tasks into manageable units and adding a social, competitive-cooperative layer, Snippet Sprint makes the often solitary and overwhelming aspects of developer growth feel like a fast-paced, rewarding game.",
+  "features": [
+    {
+      "title": "Snippet Sprints",
+      "detail": "Users receive daily or hourly micro-coding challenges (e.g., 'Implement a custom React hook to debounce input') designed for quick completion, promoting consistent engagement and skill practice in specific areas."
+    },
+    {
+      "title": "Dev Squad Co-Op",
+      "detail": "Join temporary, goal-oriented squads (2-4 developers) to tackle larger 'Project Goals' by collectively solving interconnected snippets, fostering collaboration and shared accountability."
+    },
+    {
+      "title": "Skill Shard & Streak System",
+      "detail": "Earn 'Skill Shards' (e.g., 'React Hooks Mastery', 'Python Decorator Expert') and maintain daily/weekly completion streaks, gamifying learning and leveraging loss aversion to drive consistent returns."
+    },
+    {
+      "title": "Community Snippet Forge",
+      "detail": "Users can propose and even 'fork' existing snippets, creating variations or entirely new challenges for others to solve, encouraging self-expression and community-driven content akin to short-form content remixes."
+    },
+    {
+      "title": "Focus Timer & Break Integration",
+      "detail": "Built-in Pomodoro-like timers are tailored for quick sprint sessions with optional short, guided break suggestions, helping users, particularly those with ADHD, maintain focus and prevent burnout."
+    }
+  ],
+  "audience": "Developers of all experience levels, from aspiring coders to seasoned professionals, particularly those who thrive on structured, gamified learning, crave opportunities for quick skill improvement and community engagement, including neurodivergent individuals who benefit from focused, short-burst tasks.",
+  "category": "developer tools",
+  "useCases": [
+    {
+      "title": "Lunch Break Upskilling",
+      "detail": "A junior developer opens the app during a lunch break to complete a 10-minute 'CSS Flexbox layout' snippet, earning a 'Flex Master' shard and contributing to their squad's UI component library goal."
+    },
+    {
+      "title": "Team Collaboration",
+      "detail": "An experienced backend engineer joins a 'Performance Optimization' squad in the evening, tackling a 'Cache Invalidation Strategy' snippet to help the team meet their larger database query efficiency target."
+    },
+    {
+      "title": "Focused Learning Session",
+      "detail": "A developer with ADHD uses the built-in focus timer to hyper-focus on a 'Recursive Algorithm' snippet for 15 minutes, achieving a quick win and adding to their 'Algorithm Architect' skill shard collection before taking a planned break."
+    }
+  ],
+  "engagementLoop": "Users are drawn back daily by the promise of new, bite-sized 'Snippet Sprints' to maintain their 'Skill Shard' streaks and advance their personal developer profile. The co-op nature provides social accountability and the desire to contribute to their squad's shared 'Project Goal,' offering variable rewards through successful completions and shared recognition.",
+  "trendFit": "The app leverages the 'short-form content' consumption model by breaking down complex coding tasks into digestible, quickly solvable 'snippets,' providing immediate gratification. It taps into the desire for 'status and self-expression' through visible skill progression and collaborative contributions, aligning with modern social media behavior and the gamification of learning.",
+  "monetization": "Premium subscription tiers offer advanced analytics on skill progression, exclusive snippet categories, custom dev squad creation options, and cosmetic profile enhancements."
+}
