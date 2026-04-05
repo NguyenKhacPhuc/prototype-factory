@@ -1,0 +1,38 @@
+{
+  "appName": "EchoForge Enclave",
+  "tagline": "Craft evolving sagas, collaboratively.",
+  "designSystem": {
+    "primaryColor": "#2979FF",
+    "secondaryColor": "#FF5252",
+    "ctaColor": "#EC4899",
+    "backgroundColor": "#0D0F1A",
+    "backgroundColorLight": "#FAFAFA",
+    "fontFamily": "Fredoka + Nunito",
+    "headingFont": "Fredoka",
+    "bodyFont": "Nunito",
+    "style": "Bold geometric dark-first design with glowing node maps, gradient accents, and constellation-inspired spatial UI"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "forge",
+    "map",
+    "profile"
+  ],
+  "screenDetails": {
+    "home": "Novelty feed with trending sagas, AI Muse banner, story cards showing forks/contributors/chapters",
+    "explore": "Enclave hubs browser with join/leave, weekly challenge banner, genre tags",
+    "forge": "Create new saga or contribute to existing — title input, AI Muse suggestions, enclave selector, fork settings",
+    "map": "Spatial narrative map SVG visualization of branching story paths with color-coded node types (main/fork/branch/leaf)",
+    "profile": "User stats grid, AI Muse style profile bars, recent activity feed"
+  },
+  "features": [
+    "Dark/light theme toggle",
+    "Bottom tab navigation with forge CTA button",
+    "CSS keyframe animations (fadeIn, slideUp, floatUp, glow)",
+    "Interactive SVG saga branch map",
+    "AI Muse suggestion panel",
+    "Enclave join/leave toggle",
+    "Story fork visualization"
+  ]
+}

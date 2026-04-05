@@ -1,0 +1,29 @@
+{
+  "appName": "EchoForge Enclave",
+  "fontFamily": "Fredoka + Nunito",
+  "colors": {
+    "primary": "#2979FF",
+    "secondary": "#FF5252",
+    "background": "#0D0F1A",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "bell",
+    "book-open",
+    "chevron-right",
+    "git-branch",
+    "git-fork",
+    "moon",
+    "search",
+    "sparkles",
+    "star",
+    "sun",
+    "trending-up",
+    "trophy",
+    "user",
+    "users"
+  ],
+  "fonts": [],
+  "iconCount": 14,
+  "fontFileCount": 0
+}
