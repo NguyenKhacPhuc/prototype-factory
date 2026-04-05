@@ -1,0 +1,36 @@
+{
+  "appName": "Aether Archive",
+  "tagline": "Your evolving tapestry of thought.",
+  "designSystem": {
+    "primaryColor": "#2563EB",
+    "secondaryColor": "#3B82F6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#0D1117",
+    "fontFamily": "Righteous (headings) + Poppins (body)",
+    "style": "Marketplace / Directory — bold, energetic, geometric block layout with high color contrast, duotone gradients, and modern dark-first aesthetic"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "aetherweave",
+    "journal",
+    "expeditions"
+  ],
+  "theme": {
+    "default": "dark",
+    "darkBackground": "#0D1117",
+    "lightBackground": "#F8FAFC"
+  },
+  "features": [
+    "Daily Aether Fragment hero card with gradient",
+    "Streak, Echoes, and Rank stats row",
+    "Active expedition progress tracker",
+    "Curiosity Compass horizontal scroll suggestions",
+    "Category grid exploration with search",
+    "Masonry Aetherweave gallery with locked tiles",
+    "Ephemeral Reflections journal with expandable entries",
+    "Seasonal Expeditions with progress and artifact rewards",
+    "Dark/Light theme toggle",
+    "Bottom tab navigation with 5 screens"
+  ]
+}
