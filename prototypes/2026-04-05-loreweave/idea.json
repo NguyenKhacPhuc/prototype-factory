@@ -1,0 +1,46 @@
+{
+  "name": "LoreWeave",
+  "tagline": "Your community's living story.",
+  "description": "LoreWeave is an innovative mobile app where identity-based communities, called 'Guilds', collectively craft and evolve their unique lore through AI-orchestrated live creative rituals. Instead of generic AI assistants, each Guild co-develops an Agentic LoreMuse\u2014a specialized AI agent that learns the community's distinctive style, in-jokes, and narrative preferences, acting as a dynamic, evolving collaborator. Members contribute creative fragments (text, audio snippets, visual elements) which the LoreMuse then remixes, intertwines, and prompts members to expand upon during scheduled 'LoreWeave Rituals'. These live, conversational events feel like digital campfire stories or collaborative art performances, where the Guild's shared identity is explored, solidified, and expressed through continuously evolving collective narratives. Users return weekly, driven by the desire to witness the LoreMuse's latest prompt, contribute to their Guild's saga, and experience the unfolding story that defines their collective identity.",
+  "features": [
+    {
+      "title": "Guild LoreMuses",
+      "detail": "Each community fosters a unique AI LoreMuse that develops a distinct personality and creative style based on the Guild's contributions, acting as a personalized, evolving creative partner for collaborative storytelling."
+    },
+    {
+      "title": "Live Weave Rituals",
+      "detail": "Participate in scheduled, interactive live events where the LoreMuse guides the community through a conversational UI to co-create and remix new lore fragments, building anticipation and shared experience."
+    },
+    {
+      "title": "Echo Archive (Spatial Lore)",
+      "detail": "Explore your Guild's entire accumulated lore visualized as an immersive, navigable 3D spatial archive, where interconnected narratives and historical creative elements are brought to life, offering a unique discovery experience."
+    },
+    {
+      "title": "Fragment Forge",
+      "detail": "Easily contribute text snippets, image prompts, audio recordings, or video clips directly into the communal creative pool, which the LoreMuse then processes for remixing and integration into the Guild's saga."
+    },
+    {
+      "title": "Identity Shard Challenges",
+      "detail": "The LoreMuse periodically issues prompts designed to challenge the Guild to explore specific facets of their collective identity or delve into a 'what-if' scenario, ensuring continuous narrative exploration and engagement."
+    }
+  ],
+  "audience": "Niche online communities, creative collectives, tabletop RPG groups, fan fiction circles, and anyone seeking a deeply engaged, identity-driven collaborative creative experience.",
+  "category": "AI automation & agents",
+  "useCases": [
+    {
+      "title": "The 'Cosmic Cartographers' Guild",
+      "detail": "A group of sci-fi enthusiasts meets weekly to collaborate with their LoreMuse, 'The Starweaver', to build a shared universe lore, adding new species, planets, and historical events to their ongoing saga."
+    },
+    {
+      "title": "The 'Whisperwind Poets' Collective",
+      "detail": "Poets and lyricists convene to engage with their 'Rhyme Weaver' LoreMuse, offering themed prompts for collaborative verse-writing, remixing stanzas, and evolving their collective poetic narrative in real-time."
+    },
+    {
+      "title": "The 'Memescape Architects' Faction",
+      "detail": "A group focused on niche internet culture uses 'MemeMorph' LoreMuse to generate and remix new inside jokes, visual memes, and short narrative sketches, documenting and evolving their shared digital identity."
+    }
+  ],
+  "engagementLoop": "Users keep coming back weekly for scheduled 'LoreWeave Rituals' to actively contribute to their Guild's evolving narrative and witness how their LoreMuse uniquely remixes and expands their collective story. The ongoing development of the community's identity through creative output fosters deep loyalty and a desire to be part of the next chapter.",
+  "trendFit": "LoreWeave directly aligns with the trend of identity-based communities by giving them a dedicated platform for collective expression, while leveraging AI agents for hyper-personalization and co-creation. The conversational UI replacing forms makes participation intuitive, and the concept taps into emerging needs for niche community networks and agentic AI assistants by making the AI a dynamic, evolving member of the group.",
+  "monetization": "A freemium model where basic Guild functionality is free, with premium subscriptions offering advanced LoreMuse customization, expanded storage for 'Echo Archive' lore, and exclusive 'LoreMaster' ritual event tools."
+}

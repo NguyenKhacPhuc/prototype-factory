@@ -1,0 +1,19 @@
+{
+  "appName": "LoreWeave",
+  "tagline": "Your community's living story.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#A78BFA",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#FAF5FF",
+    "fontFamily": "Inter",
+    "style": "Community/Forum Landing — bold, energetic, playful block layout with geometric shapes, high color contrast, duotone elements, and modern immersive dark/light theming"
+  },
+  "screens": [
+    "home",
+    "rituals",
+    "forge",
+    "archive",
+    "guild"
+  ]
+}
