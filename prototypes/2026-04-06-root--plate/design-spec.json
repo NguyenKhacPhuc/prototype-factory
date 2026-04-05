@@ -1,0 +1,20 @@
+{
+  "appName": "Root & Plate",
+  "tagline": "Discover. Create. Share. Your Local Flavor Streak.",
+  "designSystem": {
+    "primaryColor": "#DC2626",
+    "secondaryColor": "#F87171",
+    "backgroundColor": "#FEF2F2",
+    "ctaColor": "#CA8A04",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing - Bold, energetic, playful block layout with geometric shapes, high color contrast, duotone, and modern feel. Dark mode default with light mode toggle."
+  },
+  "screens": [
+    "home",
+    "community",
+    "explore",
+    "challenge",
+    "create",
+    "profile"
+  ]
+}
