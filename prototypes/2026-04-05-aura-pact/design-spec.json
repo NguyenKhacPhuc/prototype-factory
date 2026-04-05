@@ -1,0 +1,19 @@
+{
+  "appName": "Aura Pact",
+  "tagline": "Your silent circle for daily rituals.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#A78BFA",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#FAF5FF",
+    "fontFamily": "Inter",
+    "style": "Community/Forum Landing — bold, energetic, geometric, high color contrast, modern with subtle spiritual/ritual aesthetic"
+  },
+  "screens": [
+    "home",
+    "chamber",
+    "explore",
+    "pacts",
+    "altar"
+  ]
+}

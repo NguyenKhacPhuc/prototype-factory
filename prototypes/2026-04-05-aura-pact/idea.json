@@ -1,0 +1,46 @@
+{
+  "name": "Aura Pact",
+  "tagline": "Your silent circle for daily rituals.",
+  "description": "Aura Pact is a unique social app designed to foster personal growth through shared, silent 'Ritual Chambers.' Users commit to specific personal rituals, like deep work, meditation, or journaling, and join scheduled live sessions where others are simultaneously engaged in the same practice. The app provides a powerful sense of collective accountability and motivation without the pressure of direct interaction or discussion. It's built for those seeking a supportive presence to overcome procrastination and build consistent habits, leveraging the quiet power of shared intentionality. By participating in these 'Pacts,' individuals contribute to and draw strength from an identity-based community focused on self-improvement, turning individual endeavors into communal rituals. This creates a deeply engaging experience that is both personally focused and subtly communal.",
+  "features": [
+    {
+      "title": "Ritual Chambers",
+      "detail": "Users join live, scheduled 'chambers' for specific rituals (e.g., 25-min 'Deep Work,' 15-min 'Mindful Pause'). These are silent, camera-optional sessions focused on individual practice within a shared temporal space, providing presence without direct social pressure."
+    },
+    {
+      "title": "Pact Cycles",
+      "detail": "Commit to multi-day 'Pact Cycles' for specific rituals (e.g., a '7-Day Writing Pact'). Consistent participation earns 'Aura Points' and contributes to visual streaks, fostering long-term habit formation and group identity."
+    },
+    {
+      "title": "Aura Affirmations",
+      "detail": "Instead of chat, participants can send ephemeral, pre-defined 'Aura Affirmations' (e.g., 'Focused,' 'Peaceful,' 'Motivated') that briefly appear on others' screens, providing non-disruptive, positive encouragement during live sessions."
+    },
+    {
+      "title": "Personal Altar Customization",
+      "detail": "Customize a small, symbolic 'personal altar' or avatar that represents their presence and identity within a chamber, visible to other Pact members, allowing for subtle self-expression and community recognition."
+    },
+    {
+      "title": "Wisdom Well Prompts",
+      "detail": "Access curated, optional reflective prompts before or after chamber sessions, specific to their chosen ritual. These prompts encourage deeper self-reflection and personal insight, which users can privately log in their 'Wisdom Well.'"
+    }
+  ],
+  "audience": "Adults aged 25-45, including freelancers, creatives, and individuals seeking to establish better personal habits, overcome procrastination, and find non-intrusive motivation within a community of like-minded individuals.",
+  "category": "social & community",
+  "useCases": [
+    {
+      "title": "Deep Work Session",
+      "detail": "A freelance designer, struggling with distractions, joins a 60-minute 'Focus Chamber' at 10 AM, finding quiet motivation from the subtle presence of others also committed to their deep work tasks."
+    },
+    {
+      "title": "Mindfulness Practice",
+      "detail": "Someone aiming to cultivate daily mindfulness schedules a 15-minute 'Meditation Pact,' feeling a gentle push to show up each evening and receiving supportive 'Peaceful' Aura Affirmations from fellow meditators."
+    },
+    {
+      "title": "Journaling Ritual",
+      "detail": "An aspiring writer commits to a 'Journaling Pact' and consistently attends morning 'Reflection Chambers,' knowing that a supportive community is silently sharing the intentional space for personal introspection."
+    }
+  ],
+  "engagementLoop": "The structured schedule of live 'Ritual Chambers' anchors users' daily habits, creating a reliable touchpoint. The unique emotional pull of shared, silent presence, combined with gradual progression through 'Pact Cycles' and the receipt of 'Aura Affirmations,' fosters a sense of belonging and accountability that encourages consistent daily or weekly return, transforming individual effort into a collective ritual.",
+  "trendFit": "Aura Pact aligns with the rising trend of identity-based communities where individuals connect over shared aspirations (e.g., 'I am a writer,' 'I am a mindful person'). It also taps into the demand for 'digital wellness' and 'deep work' solutions, offering a refreshing counterpoint to noisy social media by providing a focused, intentional, and subtly communal online space for personal growth.",
+  "monetization": "A freemium model where basic ritual chambers and single Pacts are free, with a premium subscription unlocking unlimited Pact Cycles, exclusive Personal Altar customization items, and expanded Wisdom Well prompt libraries."
+}
