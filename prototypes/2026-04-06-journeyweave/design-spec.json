@@ -1,0 +1,25 @@
+{
+  "appName": "Journeyweave",
+  "tagline": "Weave calm into your travels.",
+  "designSystem": {
+    "primaryColor": "#0EA5E9",
+    "secondaryColor": "#38BDF8",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F0F9FF",
+    "darkBackgroundColor": "#0B1120",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — animation-heavy with microinteractions, smooth transitions, breathing/floating effects, and a calm, immersive aesthetic"
+  },
+  "screens": [
+    "home",
+    "weave",
+    "spirits",
+    "sounds",
+    "journal"
+  ],
+  "features": {
+    "themeToggle": "Dark (default) and light mode with full theme object",
+    "animations": "fadeInUp, fadeIn, slideUp, pulse, shimmer, float, breathe, ripple, gentleBob",
+    "interactions": "Card press effects, tab transitions, prompt carousel, spirit unlock modal, meditation player, journal entry creation"
+  }
+}

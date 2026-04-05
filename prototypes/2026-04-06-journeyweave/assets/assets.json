@@ -1,0 +1,14 @@
+{
+  "appName": "Journeyweave",
+  "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+  "colors": {
+    "primary": "#0EA5E9",
+    "secondary": "#38BDF8",
+    "background": "#F0F9FF",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

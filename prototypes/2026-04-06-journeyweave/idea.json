@@ -1,0 +1,46 @@
+{
+  "name": "Journeyweave",
+  "tagline": "Weave calm into your travels.",
+  "description": "Journeyweave transforms travel into a collaborative sensory adventure, encouraging users to slow down, observe, and connect deeply with their surroundings. Instead of a typical itinerary, the app offers daily, location-aware \"sensory prompts\" that guide users to notice overlooked details \u2013 the whisper of wind in a foreign park, the specific aroma of a street food stall, the pattern of light on an ancient wall. Users contribute their observations (text, photo, audio) to a shared \"weaveboard\" with trusted companions or a private circle, creating a collective, poetic narrative of their journey. Consistent engagement progressively unlocks unique \"Echo Spirits\" \u2013 gentle AR companions inspired by local folklore \u2013 and exclusive serene soundscapes or guided meditations, deepening their immersion and fostering a sense of calm reassurance. It\u2019s a habit-forming ritual of mindful discovery, turning fleeting moments into cherished shared memories.",
+  "features": [
+    {
+      "title": "Daily Sensory Prompts",
+      "detail": "Location-aware prompts encourage mindful observation (e.g., \"Find a sound that makes you feel peaceful today\"). This helps users slow down and connect with their environment on a deeper level."
+    },
+    {
+      "title": "Shared Weaveboard",
+      "detail": "A collaborative feed where users and their chosen travel circle contribute their sensory observations, building a shared, poetic travelogue. Fosters connection and allows for the creation of rich, multi-perspective memories."
+    },
+    {
+      "title": "Echo Spirits AR Guides",
+      "detail": "Earnable AR companions, inspired by local folklore, that appear in your camera view as gentle presences, offering additional prompts or insights unique to your location. Provides a delightful and personal progressive unlock experience, guiding observation without distraction."
+    },
+    {
+      "title": "Serene Soundscapes & Meditations",
+      "detail": "Unlocked curated audio content, from ambient sounds of local environments to guided mindfulness specific to travel contexts. Enhances calm, provides a sonic retreat, and offers deeper cultural and personal immersion."
+    },
+    {
+      "title": "Personal Reflection Journal",
+      "detail": "A private space to track individual sensory discoveries, reflections, and emotional responses to prompts. Supports personal growth, allows users to revisit their journey, and reinforces the habit of mindful travel."
+    }
+  ],
+  "audience": "Mindful travelers, couples, families, or small groups of friends (ages 25-55) who seek deeper, more authentic experiences beyond traditional tourism, prioritizing emotional well-being and connection over typical sightseeing checklists.",
+  "category": "travel",
+  "useCases": [
+    {
+      "scenario": "A couple on their honeymoon uses Journeyweave daily to reflect on the unique sights, sounds, and tastes of their destination, collaboratively building a beautiful digital keepsake of their shared experience.",
+      "action": "They respond to prompts like 'What touch in this place brought you joy?' by sharing photos of intricate local textiles and their written reflections, then view each other's contributions on their private weaveboard."
+    },
+    {
+      "scenario": "A solo traveler feeling overwhelmed in a bustling city uses a 'calm' prompt to find a quiet spot and observe the intricate details of a hidden alleyway, grounding themselves and discovering unexpected beauty.",
+      "action": "They open the app, receive a prompt 'Observe a texture that tells a story,' and spend ten minutes mindfully examining an ancient stone wall, finding peace amidst the urban chaos, then journal their thoughts privately."
+    },
+    {
+      "scenario": "A family with young children uses the app to engage everyone in a 'scavenger hunt' for specific sensory details in a new environment, turning observations into a fun, shared learning game.",
+      "action": "Parents and children collaboratively search for 'the loudest natural sound' or 'the brightest color you can find,' contributing their findings to a family weaveboard, making travel both educational and deeply bonding."
+    }
+  ],
+  "engagementLoop": "Users return daily for new sensory prompts, motivated by the desire to unlock more unique Echo Spirits and curated soundscapes. The collaborative nature encourages interaction with their travel circle, fostering a continuous feedback loop of shared observations and reflections, creating a growing personal and collective 'weave' of cherished memories and experiences.",
+  "trendFit": "This app aligns with the growing trend of 'slow travel' and mindful tourism, where travelers prioritize depth over breadth and seek genuine connection with places. It taps into the wellness ritual movement by turning daily observation into a calming, self-care practice and leverages unique AR experiences for emotional engagement, offering a distinctive digital experience that complements, rather than detracts from, real-world immersion.",
+  "monetization": "A freemium model with a premium subscription tier. This tier offers access to exclusive Echo Spirits, advanced meditative soundscapes, deeper analytics and reflection tools in the personal journal, and the ability to invite larger 'weave' groups."
+}
