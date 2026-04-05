@@ -1,0 +1,41 @@
+{
+  "appName": "EchoBloom",
+  "tagline": "Cultivate vibrant soundscapes, season by season.",
+  "designSystem": {
+    "primaryColor": "#1E1B4B",
+    "secondaryColor": "#4338CA",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#0F0F23",
+    "backgroundLight": "#F0F4FF",
+    "fontFamily": "Righteous (headings) + Poppins (body)",
+    "style": "AI Personalization Landing — bold, energetic, geometric block layout with high color contrast, glassmorphic card surfaces, animated waveforms, and glowing seed orbs. Light mode default with seamless dark mode toggle."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "alchemy",
+    "grove"
+  ],
+  "screenDetails": {
+    "home": "Dashboard with seasonal biome hero card, XP progress bar, scrollable sound seeds collection, daily quests with progress bars, and Sprig AI conversational widget",
+    "explore": "Boreal Forest biome deep-dive with animated waveform header, interactive quest accordion, and a multi-step conversational discovery chat with Sprig AI guide",
+    "alchemy": "Spatial sound mixing canvas with orbiting seed orbs, play/pause center button, glow animations, per-seed volume sliders, global reverb control, and Grove share CTA",
+    "grove": "Global community tapestry with stats header, filter tabs, animated waveform bloom cards with like/share/listen actions, and trending community soundscapes"
+  },
+  "navigation": "bottom-tabs",
+  "theme": {
+    "default": "light",
+    "toggle": true
+  },
+  "keyAnimations": [
+    "fadeIn",
+    "slideUp",
+    "pulse",
+    "shimmer",
+    "wave",
+    "float",
+    "glow",
+    "spin",
+    "orbitPulse"
+  ]
+}

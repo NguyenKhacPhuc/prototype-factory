@@ -1,0 +1,14 @@
+{
+  "appName": "EchoBloom",
+  "fontFamily": "Righteous (headings) + Poppins (body)",
+  "colors": {
+    "primary": "#1E1B4B",
+    "secondary": "#4338CA",
+    "background": "#0F0F23",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
