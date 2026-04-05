@@ -1,0 +1,37 @@
+{
+  "name": "SparkLoop",
+  "tagline": "Your next creative challenge awaits.",
+  "description": "Creative blocks and analysis paralysis are the bane of any artist. SparkLoop offers a groundbreaking solution: a dynamic marketplace for \"Constraint Kits,\" curated packages that provide unique creative challenges with specific rules, asset requirements, and even AI prompt guidance. Instead of vague inspiration, users purchase highly specific briefs like \"Design a mythological creature using only pre-1950s botanical illustrations and a limited color palette.\" Upon starting a Kit, users publicly \"pledge\" to complete it within a timeframe, fostering powerful social accountability. This structured approach, combined with peer support and clear achievement milestones, transforms creative struggle into focused progress and deep engagement. Users return weekly for fresh Kit drops, community competitions, and the addictive satisfaction of expanding their public portfolio of completed creative feats.",
+  "features": [
+    {
+      "title": "Constraint Kit Marketplace",
+      "detail": "Discover and purchase highly specialized creative challenges, each a curated \"kit\" with specific instructions, digital assets, and AI prompts to ignite original ideas. This provides a fresh, guided path for overcoming creative blocks."
+    },
+    {
+      "title": "Public Challenge Pledges",
+      "detail": "Commit publicly to completing a chosen Kit's challenge within a set timeframe, fostering potent social accountability and motivating users to push through their creative process. This transforms personal goals into shared experiences."
+    },
+    {
+      "title": "Creative Canvas & Progress Tracking",
+      "detail": "Utilize a dedicated in-app space to build and document your Kit creation, with integrated tools to track progress and visualize your journey from concept to completion. This makes the creative process transparent and rewarding."
+    },
+    {
+      "title": "Community Showcases & Feedback",
+      "detail": "Share your completed Kit creations with a supportive community for constructive feedback, admiration, and inspiration from fellow \"Kit-Completers.\" This provides essential external validation and learning opportunities."
+    },
+    {
+      "title": "Master Creator Studio",
+      "detail": "Design and monetize your own Constraint Kits, empowering experienced creators to package their unique challenges and creative wisdom for others to purchase and enjoy. This builds a robust, user-generated content ecosystem."
+    }
+  ],
+  "audience": "Emerging and established creators (digital artists, writers, designers, musicians) aged 18-45 who frequently experience creative blocks and seek structured inspiration, skill development, and community-driven accountability to challenge their artistic boundaries.",
+  "category": "creative tools",
+  "useCases": [
+    "A graphic designer feeling burnt out opens SparkLoop, finds a \"Retro Futurism Logo Kit\" with a 48-hour deadline, and pledges to complete it to inject new energy into their portfolio.",
+    "An aspiring novelist uses a \"Character Archetype Kit\" that provides a detailed persona outline and a unique backstory generator, helping them develop a complex protagonist for their next chapter.",
+    "A hobbyist photographer buys a \"Urban Abstract Kit\" which challenges them to find specific visual patterns in their city using only a smartphone and a provided filter pack, pushing them to see familiar spaces anew."
+  ],
+  "engagementLoop": "Users are drawn back weekly by the continuous stream of fresh, limited-edition Constraint Kits and new community challenges, feeding their desire for novelty and skill expansion. The \"streak anxiety\" of maintaining their completion record and the desire for social recognition and unique achievement badges provide strong recurring motivation.",
+  "trendFit": "SparkLoop taps into the growing popularity of community-led creative challenges, the demand for structured skill development and micro-learning, and the rising creator economy by enabling users to both consume and produce valuable creative \"constraints.\"",
+  "monetization": "Revenue primarily comes from a commission on each Constraint Kit sold through the marketplace, complemented by a premium subscription tier offering exclusive access to advanced kit-building tools and early access to high-demand kits."
+}
