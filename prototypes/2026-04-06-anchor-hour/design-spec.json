@@ -1,0 +1,19 @@
+{
+  "appName": "Anchor Hour",
+  "tagline": "Your daily anchor, together.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#A78BFA",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#FAF5FF",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "Community/Forum Landing — bold, energetic, playful with geometric shapes, high color contrast, duotone purple palette, modern block layout"
+  },
+  "screens": [
+    "home",
+    "pods",
+    "session",
+    "wisdom",
+    "profile"
+  ]
+}
