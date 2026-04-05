@@ -1,0 +1,18 @@
+{
+  "appName": "Echo Grove",
+  "tagline": "Curate the world's subtle beauty.",
+  "designSystem": {
+    "primaryColor": "#2563EB",
+    "secondaryColor": "#3B82F6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F8FAFC",
+    "fontFamily": "Righteous (headings) + Poppins (body)",
+    "style": "AI Personalization Landing — bold, energetic, geometric block layout with high color contrast, duotone gradients, and animated generative canvas elements"
+  },
+  "screens": [
+    "grove",
+    "prompts",
+    "codex",
+    "stream"
+  ]
+}

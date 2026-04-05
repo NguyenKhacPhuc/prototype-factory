@@ -1,0 +1,38 @@
+{
+  "appName": "Echo Grove",
+  "fontFamily": "Righteous (headings) + Poppins (body)",
+  "colors": {
+    "primary": "#2563EB",
+    "secondary": "#3B82F6",
+    "background": "#F8FAFC",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-right",
+    "book-marked",
+    "book-open",
+    "bookmark",
+    "check-circle",
+    "crown",
+    "feather",
+    "fingerprint",
+    "flame",
+    "layers",
+    "leaf",
+    "lock",
+    "mic",
+    "moon",
+    "palette",
+    "sparkles",
+    "sprout",
+    "star",
+    "sun",
+    "tree-pine",
+    "type",
+    "waves",
+    "wind"
+  ],
+  "fonts": [],
+  "iconCount": 23,
+  "fontFileCount": 0
+}
