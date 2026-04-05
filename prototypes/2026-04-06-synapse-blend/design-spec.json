@@ -1,0 +1,20 @@
+{
+  "appName": "Synapse Blend",
+  "tagline": "Remix knowledge, personalize learning.",
+  "designSystem": {
+    "primaryColor": "#2563EB",
+    "secondaryColor": "#3B82F6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F8FAFC",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — Soft 3D, chunky, playful, bubbly with thick borders (3-4px), double shadows, rounded corners (16-24px). Dark mode default with light mode toggle."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "create",
+    "library",
+    "blend",
+    "spark"
+  ]
+}
