@@ -1,0 +1,37 @@
+{
+  "name": "EcoGrove",
+  "tagline": "Grow your wellness ecosystem.",
+  "description": "EcoGrove transforms personal wellness into a delightful journey of ecological cultivation. Users embark on 'Eco-Moves,' which are guided micro-workouts, mindful meditations, or movement challenges designed to be short, achievable, and sustainable. Each completed Eco-Move metaphorically 'nourishes' their personal digital 'Biome,' earning 'Terra Shards.' These shards are spent to plant unique, procedurally generated 'Seeds' \u2013 fantastical flora and fauna that populate their evolving digital world. The app's core loop encourages daily engagement through surprising new seed discoveries and weekly 'Eco-Challenges' that offer rare biome elements or environmental 'boons.' It's less about strict metrics and more about the intrinsic joy of nurturing a vibrant, self-sustaining world that reflects their personal health journey, offering a playful escape from screen fatigue and a gentle nudge towards a healthier, more sustainable lifestyle. The connection between physical action and digital growth makes health tangible and rewarding, fostering a deeper, more mindful engagement with personal well-being. This unique approach turns health routines into an act of creation and discovery.",
+  "features": [
+    {
+      "title": "Dynamic Eco-Moves",
+      "detail": "Receive personalized daily prompts for movement and mindfulness, ranging from brisk walks to guided breathing, adapting to your preferences and goals. These diverse prompts act as your daily coach, ensuring varied and engaging wellness activities."
+    },
+    {
+      "title": "Procedural Biome Seeds",
+      "detail": "Collect unique, algorithmically generated flora and fauna 'Seeds' by completing Eco-Moves, with the type of activity influencing the biome where new elements appear. This creates an endless variety of collectibles and surprises."
+    },
+    {
+      "title": "Biome Bloom",
+      "detail": "Watch your personalized digital ecosystem thrive and evolve in real-time as you complete Eco-Moves and plant new Seeds. Your Biome becomes a living visual representation of your consistent wellness efforts."
+    },
+    {
+      "title": "Weekly Eco-Challenges",
+      "detail": "Participate in surprise weekly events and limited-time goals that offer chances to earn rare, legendary Seeds and significant Terra Shard bonuses. These challenges introduce variable rewards and keep engagement fresh."
+    },
+    {
+      "title": "Eco-Insights",
+      "detail": "Access gentle visual summaries of your health impact, showing how your dedication translates into the vibrant growth and biodiversity of your digital Biome. This provides a non-intrusive, rewarding feedback loop."
+    }
+  ],
+  "audience": "Health-conscious individuals aged 25-45, particularly those experiencing 'subscription fatigue' and seeking a playful, intrinsically motivating alternative to traditional fitness trackers, appreciating sustainability-themed gamification and digital collecting.",
+  "category": "health & fitness",
+  "useCases": [
+    "After a busy morning, a user opens EcoGrove to choose a 'Mindful Stream' Eco-Move, a 10-minute guided breathing exercise, earning Terra Shards to plant a shimmering 'Crystal Willow' in their growing forest biome.",
+    "During a lunch break, a user completes a 'Sunbeam Stretch' Eco-Move, a quick yoga sequence, and is surprised to discover a rare 'Cloud Serpent Egg' that hatches into a majestic creature in their newly formed sky biome.",
+    "Before bed, a user checks their Biome's progress, seeing how their accumulated Eco-Moves have transformed their digital world, and reviews the upcoming 'Tidal Pulse' weekly challenge to earn a unique aquatic plant seed."
+  ],
+  "engagementLoop": "Users are primarily driven by the desire to continually evolve, explore, and complete their unique digital Biome. The variable rewards of new, procedurally generated 'Seeds' and the element of surprise from 'Eco-Challenges' keep them eagerly anticipating their next discovery, ensuring consistent daily and weekly returns to nurture their living world.",
+  "trendFit": "EcoGrove aligns with the growing demand for gamified wellness, sustainability-focused incentives, and unique digital collectibles that offer intrinsic motivation over external pressures. It also appeals to the 'subscription fatigue' audience by providing a rich, engaging experience that can be accessed without a recurring subscription for its core features.",
+  "monetization": "Premium 'Seed Packs' or Biome expansion themes via one-time in-app purchases, allowing users to further customize and grow their digital world. Additionally, an optional 'Biome Boost' one-time purchase could offer an ad-free experience and exclusive cosmetic effects."
+}

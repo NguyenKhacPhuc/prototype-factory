@@ -1,0 +1,18 @@
+{
+  "appName": "EcoGrove",
+  "tagline": "Grow your wellness ecosystem.",
+  "designSystem": {
+    "primaryColor": "#F97316",
+    "secondaryColor": "#FB923C",
+    "backgroundColor": "#1F2937",
+    "ctaColor": "#22C55E",
+    "fontFamily": "Barlow Condensed, Barlow",
+    "style": "AI Personalization Landing — bold, energetic, playful with block layout, geometric shapes, high color contrast, duotone effects, and modern kinetic feel"
+  },
+  "screens": [
+    "home",
+    "biome",
+    "challenges",
+    "insights"
+  ]
+}
