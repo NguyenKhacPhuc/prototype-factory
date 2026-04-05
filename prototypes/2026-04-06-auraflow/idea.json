@@ -1,0 +1,37 @@
+{
+  "name": "AuraFlow",
+  "tagline": "Memories into mindful visual flow.",
+  "description": "AuraFlow transforms your overwhelming camera roll into personalized, calming ambient visual experiences. Instead of static albums or frantic video edits, it leverages adaptive personalization to continuously blend your photos and videos into 'MemoryScapes' \u2013 evolving, serene visual journeys tailored to your current mood or preferred aesthetic. This isn't about creating shareable content, but about generating a private digital sanctuary, a living painting sourced from your own life. The app intelligently identifies themes, colors, and textures within your media, then gently animates, crossfades, and layers them with subtle effects and calming sonic backdrops. Users return to discover new, AI-curated 'Flows' of forgotten moments, to customize their 'Calm Zones' with specific themes, or simply to find a moment of reassurance and peace in the gentle, ever-changing tapestry of their personal history. It's a daily ritual of rediscovery and tranquility, designed to soothe digital overload.",
+  "features": [
+    {
+      "title": "Adaptive MemoryScapes",
+      "detail": "Dynamically blends personal photos and video clips into continuous, calming visual sequences. This creates an ever-evolving, personalized ambient display that prevents visual fatigue."
+    },
+    {
+      "title": "Mood Palette AI",
+      "detail": "Analyzes your media and past interactions to learn your preferred colors, light, and themes for relaxation, then customizes future 'Flows' accordingly. It ensures the generated content resonates deeply with your personal sense of calm."
+    },
+    {
+      "title": "Temporal Serenity Engine",
+      "detail": "Automatically slows down video segments, adds cinematic pans, subtle zooms, and gentle crossfades between moments, transforming raw footage into tranquil vignettes. This recontextualizes high-energy memories into soothing visual poetry."
+    },
+    {
+      "title": "Sonic Aura Pairings",
+      "detail": "Offers a curated library of ambient soundscapes (e.g., 'forest whispers,' 'distant chimes,' 'soft rain') that intelligently sync with the visual flow, or allows integration of personal calm-inducing audio playlists. This deepens the immersive, calming experience."
+    },
+    {
+      "title": "Daily 'Pause Prompt'",
+      "detail": "Suggests a unique, AI-generated 'MemoryScape' each day, highlighting forgotten gems or unexpected thematic connections within your camera roll. This incentivizes daily engagement by offering a fresh moment of personal rediscovery and calm."
+    }
+  ],
+  "audience": "Stress-prone individuals (millennials, Gen Z) overwhelmed by digital noise, seeking a personalized digital sanctuary, appreciating aesthetic customization and mindful tech experiences.",
+  "category": "photo & video",
+  "useCases": [
+    "A user winds down after a long day, opening AuraFlow to drift into a calming visual narrative of their favorite past vacations or peaceful moments at home, set to ambient sound.",
+    "Someone needing a background for focused work sets AuraFlow to a 'nature' theme, displaying gentle, evolving scenes from their hikes or garden, providing a peaceful, non-distracting visual anchor.",
+    "A parent feeling nostalgic browses AuraFlow on their tablet, rediscovering sweet, forgotten candid moments of their children beautifully blended into a continuous, heartwarming stream."
+  ],
+  "engagementLoop": "Users keep coming back weekly to experience their evolving, adaptively personalized MemoryScapes, discover new auto-generated 'Flows' suggested by the daily 'Pause Prompt', and customize their unique 'Calm Zones', fulfilling a recurring need for digital mindfulness and personal reassurance.",
+  "trendFit": "AuraFlow aligns with the growing demand for personalized wellness technology and digital detox experiences, even on-screen. It taps into the 'creator economy' mindset by empowering users to be the curators of their own deeply personal aesthetic and emotional digital experiences, distinct from public sharing.",
+  "monetization": "A premium subscription model offering access to expanded sonic aura libraries, exclusive 'Flow Presets' designed by renowned aesthetic artists, and advanced customization controls for MemoryScapes."
+}

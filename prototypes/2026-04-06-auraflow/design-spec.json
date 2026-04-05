@@ -1,0 +1,19 @@
+{
+  "appName": "AuraFlow",
+  "tagline": "Memories into mindful visual flow.",
+  "designSystem": {
+    "primaryColor": "#0F0F23",
+    "secondaryColor": "#1E1B4B",
+    "ctaColor": "#E11D48",
+    "backgroundColor": "#000000",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "Immersive/Interactive Experience — bold, energetic, playful with geometric shapes, duotone gradients, and ambient visual effects. Dark-first with light theme toggle."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "sounds",
+    "player",
+    "profile"
+  ]
+}
