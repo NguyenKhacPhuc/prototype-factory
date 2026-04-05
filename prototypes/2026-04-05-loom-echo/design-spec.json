@@ -1,0 +1,30 @@
+{
+  "appName": "Loom Echo",
+  "tagline": "Weave your collective story.",
+  "designSystem": {
+    "primaryColor": "#2563EB",
+    "secondaryColor": "#3B82F6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F8FAFC",
+    "darkBackground": "#020617",
+    "fontFamily": "Inter",
+    "style": "AI Personalization Landing — dark theme, midnight blue, OLED-friendly, high contrast, with animated conic gradients for generative tapestry art"
+  },
+  "screens": [
+    "home",
+    "ritual",
+    "gallery",
+    "guilds"
+  ],
+  "keyFeatures": [
+    "Live ritual banner with animated tapestry gradient on home screen",
+    "Real-time conversational weaving UI with AI Loom Weaver responses",
+    "Animated conic-gradient tapestry canvas that cycles through 4 generative states",
+    "Influence action pills (More Vibrant, Minor Key, Glitch, etc.) for real-time art direction",
+    "Echo Tapestry gallery with like toggle, featured badges, and 3D spatial explore mode",
+    "Guild discovery with search, join/request flow, aesthetic tags, and live ritual indicators",
+    "Light/dark theme toggle with full color system transition"
+  ],
+  "navigation": "bottom-tabs",
+  "defaultTheme": "light"
+}
