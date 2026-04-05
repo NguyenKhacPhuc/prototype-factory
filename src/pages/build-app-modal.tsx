@@ -40,33 +40,24 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
 
   async function estimateComplexity() {
     try {
-      // Call Gemini for complexity estimation (via worker or directly)
       const desc = `${safeText(prototype.appName)}: ${safeText(prototype.description)}`;
-      const resp = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${(window as any).__GEMINI_KEY || ''}`,
-        {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            contents: [{ parts: [{ text: buildEstimatorPrompt(desc) }] }],
-            generationConfig: { temperature: 0.3, responseMimeType: 'application/json' },
-          }),
-        }
-      );
+      const resp = await fetch('/api/estimate-complexity', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ prompt: desc }),
+      });
 
       if (!resp.ok) {
-        // Fallback: estimate based on description length and category
         setEstimate(fallbackEstimate(prototype));
         setStep('review');
         return;
       }
 
       const data = await resp.json();
-      const content = data.candidates?.[0]?.content?.parts?.[0]?.text;
-      if (content) {
-        setEstimate(JSON.parse(content));
-      } else {
+      if (data.error) {
         setEstimate(fallbackEstimate(prototype));
+      } else {
+        setEstimate(data);
       }
       setStep('review');
     } catch {
@@ -262,16 +253,6 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
       </div>
     </div>
   );
-}
-
-function buildEstimatorPrompt(desc: string): string {
-  return `You are an app complexity estimator. Analyze this app idea and score each dimension 1-5.
-
-App: "${desc}"
-
-Score: screens (1-5), auth (1-5), data_model (1-5), integrations (1-5), realtime (1-5), media (1-5), business_logic (1-5).
-
-Return JSON: {"scores":{...},"weighted_score":N,"tier":"simple|standard|complex|advanced|enterprise","task_count":N,"estimated_screens":N,"key_integrations":["..."],"reasoning":"..."}`;
 }
 
 function fallbackEstimate(proto: { category: string }): Estimate {

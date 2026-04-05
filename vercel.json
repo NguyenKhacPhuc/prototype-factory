@@ -3,6 +3,7 @@
   "installCommand": "bun install",
   "outputDirectory": "dist",
   "rewrites": [
+    { "source": "/api/estimate-complexity", "destination": "/api/estimate-complexity" },
     { "source": "/prototypes/(.*)", "destination": "/prototypes/$1" },
     { "source": "/auth/callback", "destination": "/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }

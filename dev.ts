@@ -94,6 +94,39 @@ Bun.serve({
       }
     }
 
+    // API: estimate app complexity via Gemini (server-side, keeps API key safe)
+    if (pathname === "/api/estimate-complexity" && req.method === "POST") {
+      try {
+        const { prompt } = (await req.json()) as { prompt: string };
+        if (!prompt) return jsonResponse({ error: "prompt required" }, 400);
+
+        const geminiKey = process.env.GEMINI_API_KEY;
+        if (!geminiKey) return jsonResponse({ error: "GEMINI_API_KEY not configured" }, 500);
+
+        const geminiResp = await fetch(
+          `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${geminiKey}`,
+          {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              contents: [{ parts: [{ text: `You are an app complexity estimator. Analyze this app idea and score each dimension 1-5.\n\nApp: "${prompt}"\n\nScore: screens (1-5), auth (1-5), data_model (1-5), integrations (1-5), realtime (1-5), media (1-5), business_logic (1-5).\n\nReturn JSON: {"scores":{"screens":N,"auth":N,"data_model":N,"integrations":N,"realtime":N,"media":N,"business_logic":N},"weighted_score":N,"tier":"simple|standard|complex|advanced|enterprise","task_count":N,"estimated_screens":N,"key_integrations":["..."],"reasoning":"..."}` }] }],
+              generationConfig: { temperature: 0.3, responseMimeType: "application/json" },
+            }),
+          }
+        );
+
+        const data = await geminiResp.json();
+        if (data.error) return jsonResponse({ error: data.error.message }, 500);
+
+        const content = data.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (!content) return jsonResponse({ error: "Empty response from Gemini" }, 500);
+
+        return jsonResponse(JSON.parse(content));
+      } catch (err: any) {
+        return jsonResponse({ error: err.message || "Estimation failed" }, 500);
+      }
+    }
+
     // Serve static files from prototypes/ and other static dirs
     const filePath = `.${pathname}`;
     const file = Bun.file(filePath);
