@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.52.0",
-    "@supabase/supabase-js": "^2.99.3"
+    "@supabase/supabase-js": "^2.99.3",
+    "postgres": "^3.4.9"
   }
 }

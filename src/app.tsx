@@ -11,6 +11,7 @@ import { Create } from "./pages/create";
 import { Canvas } from "./pages/canvas";
 import { Styles } from "./pages/styles";
 import { Profile } from "./pages/profile";
+import { Admin } from "./pages/admin";
 import { AuthCallback } from "./pages/auth-callback";
 
 export function App() {
@@ -65,6 +66,8 @@ export function App() {
         return <Styles navigate={navigate} />;
       case "/profile":
         return <Profile navigate={navigate} />;
+      case "/admin":
+        return <Admin navigate={navigate} />;
       case "/auth/callback":
         return <AuthCallback navigate={navigate} />;
       default:

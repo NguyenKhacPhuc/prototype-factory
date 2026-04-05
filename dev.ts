@@ -29,6 +29,7 @@ Bun.serve({
     "/styles": index,
     "/prototype/*": index,
     "/profile": index,
+    "/admin": index,
     "/auth/callback": index,
   },
   static: {
