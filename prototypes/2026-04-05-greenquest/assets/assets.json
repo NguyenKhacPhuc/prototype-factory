@@ -1,0 +1,30 @@
+{
+  "appName": "GreenQuest",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#059669",
+    "secondary": "#10B981",
+    "background": "#ECFDF5",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "badge-check",
+    "camera",
+    "chevron-right",
+    "crown",
+    "heart",
+    "layers",
+    "leaf",
+    "lightbulb",
+    "plus",
+    "scan",
+    "search",
+    "target",
+    "trending-up",
+    "trophy",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 15,
+  "fontFileCount": 0
+}

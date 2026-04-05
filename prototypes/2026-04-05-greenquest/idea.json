@@ -1,0 +1,43 @@
+{
+  "name": "GreenQuest",
+  "tagline": "Scan, Score, Sustain.",
+  "description": "GreenQuest transforms everyday choices into an exciting game of environmental discovery. Users leverage their phone's camera and conversational input to 'scan' physical objects, services, or actions \u2013 from a coffee cup to a public transport route \u2013 and instantly reveal a dynamic 'Eco-Score' and detailed sustainability insights. This gamified approach makes abstract environmental impact tangible, allowing users to understand the lifecycle, sourcing, or carbon footprint of items in real-time. The app cultivates curiosity, rewards informed decisions, and uses friendly competition to encourage greener habits. Its novel database, powered by AI and community contributions, offers a continually expanding world of eco-knowledge, turning every shopping trip or daily routine into an opportunity for discovery and improvement, driving continuous engagement.",
+  "features": [
+    {
+      "title": "Eco-Scan & Reveal",
+      "detail": "Use your camera or text description to identify an item or action, then 'unlock' its comprehensive Eco-Score, breaking down its environmental impact from production to disposal. This makes complex data instantly accessible and fun."
+    },
+    {
+      "title": "Impact Leaderboards",
+      "detail": "Compete with friends and the global community based on your accumulated Eco-Score, weekly 'GreenQuests' completed, and the number of eco-discoveries made. This fuels friendly competition and encourages consistent participation."
+    },
+    {
+      "title": "Daily GreenQuests",
+      "detail": "Receive personalized daily or weekly challenges, such as 'Find 3 items with an A+ Eco-Score at the grocery store' or 'Discover a low-carbon travel option to your workplace.' These quests guide users to explore sustainable choices and keep them coming back."
+    },
+    {
+      "title": "Community Eco-Wiki",
+      "detail": "Contribute to and refine a living database of eco-scores and data for products, services, and local initiatives. Users can add new items or enrich existing entries, fostering collective knowledge and accuracy."
+    },
+    {
+      "title": "Spatial Eco-Insights",
+      "detail": "Activate an optional AR overlay that, in specific contexts like a supermarket aisle, visually highlights the Eco-Scores of nearby products without individual scanning. This offers a predictive, immersive way to compare options efficiently."
+    }
+  ],
+  "audience": "Environmentally-conscious Millennials and Gen Z who are digitally savvy, enjoy gamification, and seek engaging, accessible ways to integrate sustainability into their daily lives without overwhelming data.",
+  "category": "sustainability",
+  "useCases": [
+    {
+      "description": "A user is choosing between two brands of shampoo. They quickly scan the barcodes of both with GreenQuest, revealing Brand A has a much higher Eco-Score due to its refillable packaging and ethical sourcing, confirming their more sustainable purchase."
+    },
+    {
+      "description": "During their lunch break, a user opens GreenQuest to see the 'GreenQuest' of the day: 'Identify a sustainable eatery in your neighborhood.' They use the app's map integration and community-contributed data to find a highly-rated, eco-friendly restaurant and earn points."
+    },
+    {
+      "description": "Before throwing out an old jacket, a user scans it with GreenQuest. The app reveals its Eco-Score and suggests nearby textile recycling points or upcycling workshops, turning a disposal decision into a sustainable action, contributing to their weekly score."
+    }
+  ],
+  "engagementLoop": "Users are drawn back multiple times per week by the addictive thrill of unlocking new eco-knowledge about their environment and the surprise of discovering better options. The ongoing 'GreenQuests' and the desire to climb competitive leaderboards against friends and other players provide continuous motivation to engage and improve their personal Eco-Score.",
+  "trendFit": "GreenQuest aligns with gamified self-improvement by transforming sustainable living into an interactive game. It leverages real-world unlock mechanics for tangible engagement, uses conversational UI for data input, and hints at spatial UI/AR for immersive 'Eco-Insight' discovery, fitting into the play and surprise emotional hook for eco-conscious consumers.",
+  "monetization": "A freemium model could offer premium features such as advanced personal carbon footprint analysis, exclusive in-app badges for achieving specific green milestones, or access to localized, expert-curated sustainability guides and verified discount partnerships with eco-friendly brands."
+}

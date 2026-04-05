@@ -1,0 +1,26 @@
+{
+  "appName": "GreenQuest",
+  "tagline": "Scan, Score, Sustain.",
+  "designSystem": {
+    "primaryColor": "#059669",
+    "secondaryColor": "#10B981",
+    "ctaColor": "#0891B2",
+    "backgroundColor": "#ECFDF5",
+    "fontFamily": "Inter",
+    "style": "Funnel (3-Step Conversion) — nature-forward, organic shapes, earthy greens, rounded cards, flowing gradients, gamified sustainability"
+  },
+  "screens": ["home", "scan", "quests", "leaderboard", "community"],
+  "theme": {
+    "modes": ["light", "dark"],
+    "default": "light"
+  },
+  "navigation": "bottom-tabs",
+  "keyFeatures": [
+    "Eco-Scan & Reveal with camera or text input",
+    "Dynamic Eco-Score with circular SVG progress indicator",
+    "Daily & Weekly GreenQuests with progress tracking",
+    "Friends & Global Leaderboards with podium visualization",
+    "Community Eco-Wiki with like/contribute interactions"
+  ],
+  "animations": ["fadeIn", "slideUp", "pulse", "shimmer", "scanLine", "ripple", "floatBubble", "scoreReveal"]
+}
