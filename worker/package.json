@@ -1,0 +1,17 @@
+{
+  "name": "prototype-factory-worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot index.ts",
+    "start": "bun run index.ts",
+    "test": "bun test",
+    "test:mock": "MOCK_MODE=true bun run test-job.ts",
+    "test:real": "bun run test-job.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "@supabase/supabase-js": "^2.99.3"
+  }
+}

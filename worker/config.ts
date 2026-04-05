@@ -1,0 +1,13 @@
+export const config = {
+  supabaseUrl: process.env.SUPABASE_URL!,
+  supabaseServiceKey: process.env.SUPABASE_SERVICE_KEY!,
+  anthropicApiKey: process.env.ANTHROPIC_API_KEY!,
+  geminiApiKey: process.env.GEMINI_API_KEY!,
+  mockMode: process.env.MOCK_MODE === 'true',
+  pollIntervalMs: 3000,
+  maxCostCentsPerJob: 10000,       // $100 max per job
+  maxActiveJobsPerUser: 3,
+  maxRetriesPerTask: 3,
+  repoDir: process.env.REPO_DIR || '/Users/steve/Documents/prototype-factory',
+  uiuxScript: process.env.UIUX_SCRIPT || `${process.env.HOME}/.claude/commands/skills/ui-ux-pro-max/scripts/search.py`,
+};
