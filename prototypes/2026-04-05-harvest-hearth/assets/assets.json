@@ -1,0 +1,35 @@
+{
+  "appName": "Harvest Hearth",
+  "fontFamily": "Playfair Display SC + Karla",
+  "colors": {
+    "primary": "#DC2626",
+    "secondary": "#F87171",
+    "background": "#FEF2F2",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "award",
+    "bell",
+    "chef-hat",
+    "chevron-right",
+    "clock",
+    "flame",
+    "heart",
+    "leaf",
+    "lock",
+    "map",
+    "map-pin",
+    "message-circle",
+    "moon",
+    "more-horizontal",
+    "plus",
+    "search",
+    "sliders-horizontal",
+    "sprout",
+    "sun",
+    "users"
+  ],
+  "fonts": [],
+  "iconCount": 20,
+  "fontFileCount": 0
+}

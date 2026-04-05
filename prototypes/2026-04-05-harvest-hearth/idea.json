@@ -1,0 +1,46 @@
+{
+  "name": "Harvest Hearth",
+  "tagline": "Cook Local, Live Connected.",
+  "description": "Harvest Hearth is a unique culinary app that transforms home cooking into an adventure of local discovery and community connection. It empowers users to explore their region's unique ingredients, traditional dishes, and local food producers, weaving these authentic elements into their daily meals. Instead of just following recipes, users document their \"culinary adaptations\" \u2013 how they creatively incorporate local finds, share the stories behind these ingredients, and connect with a community passionate about celebrating regional food heritage. The app fosters belonging by recognizing active participation through a \"Heritage Streak,\" challenging users to consistently engage with their local food ecosystem and collectively build a vibrant, shared almanac of regional culinary knowledge. It's about personal culinary identity rooted in place, driven by curiosity and shared with neighbors.",
+  "features": [
+    {
+      "title": "Heritage Streak",
+      "detail": "A visual streak tracker that motivates users to consistently cook with or discover local ingredients and share their \"culinary adaptations\" or \"local lore\" entries. Missing a day resets the streak, encouraging daily engagement and reinforcing a commitment to local food."
+    },
+    {
+      "title": "Local Lore Quests",
+      "detail": "Curated, location-specific challenges (e.g., \"Find a specific heirloom vegetable at your farmers market,\" \"Recreate a historic regional stew,\" \"Discover a local artisan cheese maker\"). Completing quests unlocks unique badges and boosts their Heritage Streak, deepening engagement with local culinary history."
+    },
+    {
+      "title": "Community Almanac",
+      "detail": "A shared, user-generated compendium of local ingredients, seasonal produce, traditional recipes, and recommended local purveyors. Users contribute photos, tasting notes, and historical tidbits, making it a dynamic, hyper-local food encyclopedia for the community."
+    },
+    {
+      "title": "Culinary Adaptations Feed",
+      "detail": "A personalized feed showcasing how other local users are incorporating unique regional ingredients into their cooking, offering inspiration and practical tips. Users can \"Heart\" or \"Try It\" on adaptations, fostering community sharing and discovery."
+    },
+    {
+      "title": "Seasonal Spotlights & Produce Alerts",
+      "detail": "Based on location and user preferences, the app highlights what's in season locally, suggests places to find them (farmers markets, specialty shops), and provides ideas for using them. This keeps users informed and inspired about local seasonal abundance."
+    }
+  ],
+  "audience": "Food enthusiasts, home cooks, locavores, conscious consumers, and travelers eager to deeply connect with the culinary identity of their region, particularly those aged 25-55 who value authenticity, community, and sustainability in their food choices.",
+  "category": "food & cooking",
+  "useCases": [
+    {
+      "title": "Weekly Market Trip",
+      "detail": "A user opens Harvest Hearth before heading to the farmers market, checks the \"Seasonal Spotlights\" for inspiration, and discovers a \"Local Lore Quest\" to find and cook with a specific heritage potato variety, guiding their shopping with purpose."
+    },
+    {
+      "title": "Dinner Inspiration",
+      "detail": "Struggling with what to cook, a user browses the \"Culinary Adaptations Feed,\" sees a neighbor's creative use of a local herb they have, and gets inspired to adapt their own recipe, finding fresh ideas rooted in their local context."
+    },
+    {
+      "title": "Connecting with New Town",
+      "detail": "After moving, a user uses the \"Community Almanac\" to identify local specialties and find nearby farmers, quickly immersing themselves in the culinary identity of their new home and starting their \"Heritage Streak\" to feel a part of the local food scene."
+    }
+  ],
+  "engagementLoop": "Users discover local ingredients or lore, inspiring them to cook. They document their \"culinary adaptations\" or findings, contributing to their \"Heritage Streak\" and the \"Community Almanac.\" Seeing others' discoveries and receiving recognition within the community (\"Harvest Hearth Points,\" badges for quests) motivates them to continue exploring, cooking, and sharing, reinforcing their identity as a local food steward.",
+  "trendFit": "Harvest Hearth aligns with the growing desire for authentic local discovery and experiences, providing a counter-narrative to mass-market food culture. It taps into the emotional hook of belonging and community through shared culinary identity, resonating with individuals seeking purpose-driven engagement beyond generic social feeds.",
+  "monetization": "Premium features could include advanced search filters for the Community Almanac, exclusive 'Master Harvester' badges, or partnerships with local producers for featured quests and limited-edition ingredient bundles (affiliate model)."
+}

@@ -1,0 +1,19 @@
+{
+  "appName": "Harvest Hearth",
+  "tagline": "Cook Local, Live Connected.",
+  "designSystem": {
+    "primaryColor": "#DC2626",
+    "secondaryColor": "#F87171",
+    "ctaColor": "#CA8A04",
+    "backgroundColor": "#FEF2F2",
+    "fontFamily": "Playfair Display SC + Karla",
+    "style": "AI Personalization Landing — Bold, energetic, playful block layout with geometric shapes, high color contrast, and duotone effects. Red-dominant palette with gold accents. Strong typographic hierarchy using serif headings and clean sans-serif body."
+  },
+  "screens": [
+    "home",
+    "quests",
+    "almanac",
+    "feed",
+    "profile"
+  ]
+}
