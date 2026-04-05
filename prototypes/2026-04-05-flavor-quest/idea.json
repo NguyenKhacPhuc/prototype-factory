@@ -1,0 +1,37 @@
+{
+  "name": "Flavor Quest",
+  "tagline": "Co-create culinary discoveries.",
+  "description": "Flavor Quest transforms the kitchen into a collaborative playground for discovery and mastery, redefining productivity not as checking off tasks, but as enriching your life with novel culinary experiences. Users are presented with daily or weekly 'Flavor Bites' \u2013 micro-challenges delivered as captivating, short-form video tutorials, much like TikTok-style food hacks or innovative ingredient pairings. These challenges range from mastering a specific knife cut in under 60 seconds to creating a unique, two-ingredient snack. The core twist: every challenge is designed for co-op completion. Users form temporary 'culinary crews' (2-4 people) to tackle a Flavor Bite, sharing progress photos or brief video snippets of their attempts and final creations within the app. This fosters a sense of shared accomplishment and playful competition, encouraging users to experiment, learn, and then immediately share their discoveries. The app becomes habit-forming through variable rewards: successful completion unlocks exclusive ingredient combinations, advanced 'Technique Trails,' or boosts the crew's 'Discovery Score,' pushing them to return multiple times a week to uncover new culinary secrets and bond with fellow food enthusiasts. It's about tangible, delightful learning, shared joy, and constant novelty.",
+  "features": [
+    {
+      "title": "Daily Flavor Bites",
+      "detail": "Short-form, video-based micro-challenges (e.g., 'Perfect Poached Egg in 90s', 'Chocolate Avocado Mousse') deliver novel culinary skills in digestible, engaging formats."
+    },
+    {
+      "title": "Culinary Crews",
+      "detail": "Invite friends or match with others to form a temporary team for a challenge, fostering collaboration and shared culinary adventures."
+    },
+    {
+      "title": "Discovery Feeds",
+      "detail": "Share and view quick video/photo progress and final creations from your crew and a wider community, sparking inspiration and friendly competition."
+    },
+    {
+      "title": "Technique Trails & Ingredient Unlock",
+      "detail": "Earn variable rewards like new challenges, unique ingredient pairings, or advanced techniques upon challenge completion, providing a sense of progression and new horizons."
+    },
+    {
+      "title": "Sensory Scorecard",
+      "detail": "A playful system allowing users to rate each other's (and their own) attempts on categories like 'Aroma Artistry' or 'Taste Trek,' adding gamification and fun feedback."
+    }
+  ],
+  "audience": "Enthusiastic home cooks and curious foodies, typically aged 25-45, who are eager to expand their culinary repertoire, enjoy creative challenges, and appreciate social interaction around food, but are tired of traditional, cluttered recipe sites.",
+  "category": "productivity",
+  "useCases": [
+    "After work, Sarah opens Flavor Quest, sees a 'Flavor Bite' for making a surprisingly complex dessert with only 3 ingredients. She texts her two roommates to form a 'dessert crew' and they tackle it together that evening, sharing messy but fun photos of their process.",
+    "On a slow Saturday morning, David is bored with his usual breakfast. He scrolls Flavor Quest, finds a 'Quick Brunch Hack' video challenge to create an innovative avocado toast, and invites his sister in another city to try it with him simultaneously, comparing results.",
+    "Maria wants to learn better knife skills but finds long tutorials tedious. A 'Knife Skill Ninja' Flavor Bite appears, teaching one specific cut in a 30-second video. She recruits a friend, they practice and share videos of their attempts, pushing each other to master it."
+  ],
+  "engagementLoop": "Users discover a novel 'Flavor Bite' micro-challenge, appealing to their desire for discovery and novelty. They invite or join a 'Culinary Crew' to collaboratively attempt it, fulfilling co-op goals and social connection. Successful completion earns variable rewards (new challenges, ingredient unlocks, 'Discovery Score' boost), prompting them to seek out the next collaborative culinary adventure, fostering continuous engagement multiple times a week.",
+  "trendFit": "The app leverages the short-form video content trend popularized by platforms like TikTok, transforming passive consumption into active, collaborative creation. It taps into the desire for continuous personal growth and skill acquisition, while addressing the appeal of social connection and shared experiences in a unique, discovery-driven format.",
+  "monetization": "A freemium model offering a rotating selection of free 'Flavor Bites' with premium subscriptions unlocking a larger archive, exclusive 'Technique Trails,' advanced ingredient pairings, or unique seasonal challenge packs."
+}

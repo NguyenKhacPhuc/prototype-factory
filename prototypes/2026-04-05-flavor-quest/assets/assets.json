@@ -1,0 +1,31 @@
+{
+  "appName": "Flavor Quest",
+  "fontFamily": "Plus Jakarta Sans",
+  "colors": {
+    "primary": "#0D9488",
+    "secondary": "#14B8A6",
+    "background": "#F0FDFA",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "bell",
+    "camera",
+    "check",
+    "chef-hat",
+    "chevron-right",
+    "clock",
+    "flame",
+    "heart",
+    "lock",
+    "message-circle",
+    "moon",
+    "play-circle",
+    "plus",
+    "sun",
+    "users",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}

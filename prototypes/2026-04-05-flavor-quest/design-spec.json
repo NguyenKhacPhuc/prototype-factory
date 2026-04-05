@@ -1,0 +1,31 @@
+{
+  "appName": "Flavor Quest",
+  "tagline": "Co-create culinary discoveries.",
+  "designSystem": {
+    "primaryColor": "#0D9488",
+    "secondaryColor": "#14B8A6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F0FDFA",
+    "darkBackground": "#0A1628",
+    "fontFamily": "Plus Jakarta Sans",
+    "style": "AI Personalization Landing — dark-first mobile UI with teal/orange accent system, glassmorphism cards, gradient hero elements, and tactile micro-interactions"
+  },
+  "screens": [
+    "home",
+    "crews",
+    "feed",
+    "profile"
+  ],
+  "navigation": "bottom-tabs",
+  "defaultTheme": "dark",
+  "features": [
+    "Daily Flavor Bite hero card with crew join CTA",
+    "Technique Trail progress tracker",
+    "Culinary Crews management with discover/match flow",
+    "Discovery Feed with Sensory Scorecard overlays",
+    "Profile with Trails, Achievements grid, and Pantry unlock system",
+    "Dark/light theme toggle",
+    "Like, comment, share interactions",
+    "Animated stats and progress bars"
+  ]
+}
