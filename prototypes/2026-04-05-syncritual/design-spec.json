@@ -1,0 +1,32 @@
+{
+  "appName": "SyncRitual",
+  "tagline": "Live focus. Shared flow.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#A78BFA",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#FAF5FF",
+    "darkBackgroundColor": "#0F0A1E",
+    "fontFamily": "Inter",
+    "style": "Community/Forum Landing — bold, energetic, geometric blocks, high contrast, duotone purple palette, dark mode default with live-session spatial atmosphere"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "chamber",
+    "profile"
+  ],
+  "features": [
+    "Identity Paths with XP progress and level system",
+    "Live Ritual Chamber with participant presence field",
+    "Intention setting flow before sessions",
+    "Post-session reflection journaling",
+    "Live session timer with animated chamber orb",
+    "Upcoming chamber RSVP list",
+    "Ritual Mastery Badges grid",
+    "Multi-path identity tracking",
+    "Dark / Light theme toggle",
+    "Animated capacity bars and presence dots",
+    "Bottom tab navigation with Chamber CTA highlight"
+  ]
+}
