@@ -236,7 +236,7 @@ CLAUDE_PROMPT=$(cat "$PROMPT_FILE")
 unset CLAUDECODE
 claude -p "$CLAUDE_PROMPT" \
   --dangerously-skip-permissions \
-  --model sonnet \
+  --model opus \
   --output-format text \
   --add-dir "$TARGET_DIR" \
   > "$TARGET_DIR/claude-output.log" 2>&1 || {
