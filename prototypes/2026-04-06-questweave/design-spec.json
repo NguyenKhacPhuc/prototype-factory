@@ -1,0 +1,19 @@
+{
+  "appName": "QuestWeave",
+  "tagline": "Craft your financial future, together.",
+  "designSystem": {
+    "primaryColor": "#18181B",
+    "secondaryColor": "#3F3F46",
+    "ctaColor": "#2563EB",
+    "backgroundColor": "#FAFAFA",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing - Bold minimalism with oversized typography, high contrast, negative space, and statement design. iOS HIG-aligned sizing with dark/light themes."
+  },
+  "screens": [
+    "home",
+    "clubs",
+    "feed",
+    "map",
+    "profile"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "QuestWeave",
+  "tagline": "Craft your financial future, together.",
+  "description": "QuestWeave transforms the often solitary and intimidating world of personal finance into a vibrant, collaborative 'club' experience. Users don't just track numbers; they define their financial aspirations as imaginative 'Quests' (e.g., 'The Dream Home Haven,' 'Legacy Builder Journey') using a rich, visual editor, making it deeply personal and inspiring. These multimedia 'Quests' become user-generated content, complete with images, short video snippets, and narrative 'lore.' Members then join small, curated 'Quest Clubs' (3-5 peers) based on shared financial themes, offering asynchronous support, accountability, and creative input. Progress isn't a dry spreadsheet; it's visual, with members posting 'Logbook' updates and designing unique 'Achievement Artefacts' when they hit milestones. This creative, community-driven approach makes financial planning engaging, emotionally rewarding, and surprisingly social, fostering a sense of shared accomplishment and making users return for consistent updates and mutual encouragement.",
+  "features": [
+    {
+      "title": "Quest Canvas Builder",
+      "detail": "An intuitive drag-and-drop editor where users design their financial goals as immersive visual 'Quests' using images, short video clips, linked articles, and narrative text. This transforms abstract numbers into inspiring personal projects and fosters strong ownership."
+    },
+    {
+      "title": "Curated Quest Clubs",
+      "detail": "Users can create or apply to join small, purpose-driven 'Quest Clubs' (3-5 members) based on shared financial aspirations (e.g., 'First-Time Homebuyers Club,' 'Early Retirement Sprints'). This fosters deep, peer-to-peer accountability and support, moving beyond generic forums."
+    },
+    {
+      "title": "Asynchronous Logbook Updates",
+      "detail": "Members post short, media-rich 'Logbook' entries detailing their progress, challenges, or learnings for their Quest. Club members can react, offer advice, or pose questions at their own pace, mimicking a shared journal for collective problem-solving and support."
+    },
+    {
+      "title": "Achievement Artefact Design",
+      "detail": "Users can design and 'mint' unique digital 'Achievement Artefacts' (visual badges/trophies) when they hit major financial milestones within their Quest. These are shareable within their Club and serve as powerful visual motivators and celebration points."
+    },
+    {
+      "title": "Dynamic Quest Map",
+      "detail": "A dynamic, visually engaging progress map for each Quest that updates based on reported milestones and contributions. It provides a clear, satisfying representation of movement towards their goal, gamifying the journey without explicit game mechanics."
+    }
+  ],
+  "audience": "Millennials and Gen Z (25-40) who are overwhelmed by traditional finance apps, value creative self-expression, and seek community support in achieving personal milestones.",
+  "category": "personal finance",
+  "useCases": [
+    {
+      "title": "Starting a New Financial Goal",
+      "detail": "Sarah feels overwhelmed by saving for a house down payment. She opens QuestWeave, designs 'The Cozy Home Haven Quest' with a mood board of her ideal living room and a short video explaining her savings goal, then applies to a 'First-Time Buyer's Ascent' club."
+    },
+    {
+      "title": "Seeking Asynchronous Support for Progress",
+      "detail": "David is three months into his 'Freedom Fund Initiative' Quest, aimed at paying off credit card debt. He posts a 'Logbook' entry sharing how he negotiated a lower interest rate, asking his club for tips on staying motivated through the next hurdle, receiving supportive comments within hours."
+    },
+    {
+      "title": "Celebrating a Major Milestone",
+      "detail": "Maria successfully funds her emergency savings buffer, a major milestone in her 'Security Shield Quest.' She designs a golden 'Resilience Rune' Achievement Artefact and shares it, getting immediate cheers and encouraging messages from her club members, reinforcing her commitment to her next step."
+    }
+  ],
+  "engagementLoop": "Users frequently return to update their personal Quest Log with progress (user-generated content), interact asynchronously with their Club members for support and feedback, and design 'Achievement Artefacts' upon reaching milestones. The reciprocal nature of giving and receiving encouragement within the curated Club fosters a strong sense of belonging and accountability, ensuring consistent weekly engagement.",
+  "trendFit": "QuestWeave aligns with the increasing desire for authentic, community-driven experiences and leverages the power of asynchronous collaboration for flexible, meaningful interaction. It taps into the visual storytelling trend, allowing users to express and track their financial journey creatively, mirroring modern social media behaviors for self-expression and motivation.",
+  "monetization": "A freemium model offering premium features such as advanced Quest Canvas tools, exclusive Achievement Artefact templates, or the ability to create larger, private 'Legendary Clubs' for a monthly subscription."
+}

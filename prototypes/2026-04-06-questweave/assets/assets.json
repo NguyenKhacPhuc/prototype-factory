@@ -1,0 +1,14 @@
+{
+  "appName": "QuestWeave",
+  "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+  "colors": {
+    "primary": "#18181B",
+    "secondary": "#3F3F46",
+    "background": "#FAFAFA",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
