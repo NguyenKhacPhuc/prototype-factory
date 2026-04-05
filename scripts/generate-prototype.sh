@@ -183,13 +183,13 @@ Create a single-file React prototype (App.tsx) that runs with Babel standalone.
 2. Function must be: function App() (no export default)
 3. All styles must be inline JavaScript objects
 4. Use Lucide icons from CDN - access icons via window.lucide object (e.g. window.lucide.Heart, window.lucide.Home)
-5. Load Google Fonts via a style tag in the component
+5. Use the system font stack for a native iOS feel: fontFamily: "-apple-system, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif"
+6. Do NOT load Google Fonts unless the design system below specifically requires a display/decorative font
 
 **Design System (from UI/UX Pro Max — follow precisely):**
 - **Style:** ${DESIGN_STYLE}
 - **Colors:** ${COLOR_HINT}
-- **Heading font:** "${DESIGN_FONT}" (Google Font — load via style tag, use for all headings, bold weights)
-- **Body font:** "${DESIGN_FONT_BODY}" (Google Font — load via style tag, use for body text, regular weights)
+- **Typography:** Use the iOS system font stack ("-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif") for ALL text. Use font-weight to create hierarchy: 700-800 for headings, 600 for subheadings, 400 for body. Use letter-spacing: -0.5px for large headings (iOS style). Use font sizes: 34px title, 22px heading, 17px body, 15px secondary, 13px caption (iOS HIG sizes).
 - **Key effects:** ${DESIGN_EFFECTS}
 - **AVOID:** ${DESIGN_AVOID}
 
