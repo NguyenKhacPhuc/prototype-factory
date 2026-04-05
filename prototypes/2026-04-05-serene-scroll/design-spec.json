@@ -1,0 +1,18 @@
+{
+  "appName": "Serene Scroll",
+  "tagline": "Your calm visual stories.",
+  "designSystem": {
+    "primaryColor": "#0F0F23",
+    "secondaryColor": "#1E1B4B",
+    "ctaColor": "#E11D48",
+    "backgroundColor": "#000000",
+    "fontFamily": "Inter",
+    "style": "Scroll-Triggered Storytelling — animation-heavy with microinteractions, smooth transitions, parallax entrance animations, and page transitions. Dual light/dark theme with light as default."
+  },
+  "screens": [
+    "home",
+    "create",
+    "explore",
+    "profile"
+  ]
+}

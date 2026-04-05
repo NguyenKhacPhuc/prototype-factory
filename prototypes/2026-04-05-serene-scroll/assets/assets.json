@@ -1,0 +1,30 @@
+{
+  "appName": "Serene Scroll",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#0F0F23",
+    "secondary": "#1E1B4B",
+    "background": "#000000",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "check",
+    "download",
+    "heart",
+    "image",
+    "moon",
+    "music",
+    "pause",
+    "play",
+    "plus",
+    "settings",
+    "skip-back",
+    "skip-forward",
+    "sparkles",
+    "sun",
+    "user"
+  ],
+  "fonts": [],
+  "iconCount": 15,
+  "fontFileCount": 0
+}
