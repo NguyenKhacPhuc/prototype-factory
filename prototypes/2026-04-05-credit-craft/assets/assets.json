@@ -1,0 +1,31 @@
+{
+  "appName": "Credit Craft",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#18181B",
+    "secondary": "#3F3F46",
+    "background": "#FAFAFA",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "arrow-right",
+    "bookmark",
+    "chevron-right",
+    "clock",
+    "info",
+    "list",
+    "moon",
+    "pen-tool",
+    "play",
+    "search",
+    "star",
+    "sun",
+    "thumbs-down",
+    "thumbs-up",
+    "users",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}

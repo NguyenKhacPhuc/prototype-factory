@@ -1,0 +1,19 @@
+{
+  "appName": "Credit Craft",
+  "tagline": "Master your money, together.",
+  "designSystem": {
+    "primaryColor": "#18181B",
+    "secondaryColor": "#3F3F46",
+    "ctaColor": "#2563EB",
+    "backgroundColor": "#FAFAFA",
+    "headingFont": "Amatic SC",
+    "bodyFont": "Cabin",
+    "style": "Funnel (3-Step Conversion) — dark gradient headers, pill badges, smooth card animations, gamified progress bars"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "forge",
+    "profile"
+  ]
+}

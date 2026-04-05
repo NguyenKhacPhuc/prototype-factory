@@ -1,0 +1,37 @@
+{
+  "name": "Credit Craft",
+  "tagline": "Master your money, together.",
+  "description": "Credit Craft is a dynamic, community-driven mobile app where members share, refine, and execute practical \"Financial Playbooks\" for specific money challenges. Unlike traditional finance apps that focus solely on tracking, Credit Craft empowers users to actively build their financial acumen through actionable, peer-vetted strategies. Imagine a library of micro-courses designed by real people, tackling issues from \"Conquering Subscription Overload\" to \"Saving for that Weekend Getaway in 30 Days.\" Users choose a playbook, commit to its steps, and log their progress, earning \"Credibility Points\" and \"Craft Badges\" along the way. This fosters a sense of achievement and provides concrete, manageable steps towards financial goals, transforming overwhelming tasks into collaborative, achievable projects. It\u2019s a club for financial artisans, where shared wisdom propels individual success, making learning and improving money habits genuinely engaging and rewarding.",
+  "features": [
+    {
+      "title": "Playbook Vault",
+      "detail": "Users can explore hundreds of practical, step-by-step financial challenges created by the community. This provides immediate, actionable guidance tailored to diverse goals."
+    },
+    {
+      "title": "My Crafting Bench",
+      "detail": "This serves as the personal dashboard for active financial projects, offering a clear path and sense of progression as users complete steps and see their achievements accumulate."
+    },
+    {
+      "title": "Playbook Forge & Peer Review",
+      "detail": "This is the core UGC mechanic, allowing members to contribute their unique financial wisdom and collaboratively refine strategies, ensuring quality and diversity."
+    },
+    {
+      "title": "Credibility & Badges",
+      "detail": "Gamification elements provide clear emotional hooks of progress and achievement, fostering ongoing engagement through a visible representation of financial skill and contribution."
+    },
+    {
+      "title": "Challenge Prompts & Community Quests",
+      "detail": "Inspired by random timing/unpredictability, these spontaneous challenges encourage active participation, introduce new engagement vectors, and reinforce community bonds."
+    }
+  ],
+  "audience": "Young adults and new families (25-45) who feel overwhelmed by complex financial advice, desire practical, actionable steps, and are motivated by visible progress and peer support, especially those tired of subscription-heavy finance tools.",
+  "category": "personal finance",
+  "useCases": [
+    "A user feeling overwhelmed by their small credit card debt opens Credit Craft, searches \"Debt Avalanche Mini-Mission,\" commits to a playbook, and systematically pays down balances, checking off steps each week.",
+    "After seeing a friend share their \"Subscription Overload Slayer\" badge, a user curious about cutting unnecessary expenses browses the app, finds the playbook, and uses its steps to identify and cancel services, saving them money and earning their first badge.",
+    "A community prompt for \"The $5 Coffee Detox\" appears. A user accepts the challenge, logs their progress daily for a week by noting savings, contributes their learnings, and sees their small win contribute to a larger community goal."
+  ],
+  "engagementLoop": "Users come back multiple times per week to check their progress on active playbooks, discover new community-created playbooks for their next financial goal, contribute their own wisdom via playbook creation or peer review, and engage with the spontaneous \"Challenge Prompts,\" fueling a continuous cycle of learning, doing, and sharing. The visibility of their \"Credibility Points\" and \"Craft Badges\" incentivizes continued contribution and achievement.",
+  "trendFit": "Credit Craft aligns with the rising trend of asynchronous collaboration and user-generated content, applying it to the often-isolating domain of personal finance. It taps into the desire for practical, bite-sized solutions, mirroring the \"micro-learning\" trend, while addressing \"subscription fatigue\" by relying on a community-driven, non-subscription content model. The gamification elements directly leverage the emotional hook of progress and achievement, making financial management feel less like a chore and more like a skill to master collectively.",
+  "monetization": "A \"Pro Guild Membership\" offers features like advanced playbook analytics, private playbook sharing for specific groups, and exclusive early access to community challenges. A one-time purchase option for certain premium playbook templates or a minimal ad-supported free tier for core features would also be viable."
+}
