@@ -1,0 +1,31 @@
+{
+  "appName": "Muse Weave",
+  "fontFamily": "Inter",
+  "colors": {
+    "primary": "#2563EB",
+    "secondary": "#3B82F6",
+    "background": "#F8FAFC",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "activity",
+    "arrow-right",
+    "check-circle",
+    "chevron-right",
+    "clock",
+    "feather",
+    "heart",
+    "moon",
+    "music",
+    "palette",
+    "plus",
+    "send",
+    "sparkles",
+    "sun",
+    "users",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}

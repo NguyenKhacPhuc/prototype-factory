@@ -1,0 +1,19 @@
+{
+  "appName": "Muse Weave",
+  "tagline": "Live creative rituals, AI-conducted.",
+  "designSystem": {
+    "primaryColor": "#2563EB",
+    "secondaryColor": "#3B82F6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F8FAFC",
+    "fontFamily": "Inter",
+    "style": "Dark theme, low light, high contrast, deep black, midnight blue — OLED-optimized with glowing ambient orbs and live session aesthetics"
+  },
+  "screens": [
+    "home",
+    "session",
+    "gallery",
+    "guilds",
+    "profile"
+  ]
+}
