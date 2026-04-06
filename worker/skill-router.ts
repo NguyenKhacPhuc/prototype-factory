@@ -46,7 +46,7 @@ const TASK_SKILL_MAP: Record<string, string[]> = {
 
 export class SkillRouter {
   private registry: Map<string, SkillEntry> = new Map();
-  private framework: 'flutter' | 'react-native' | 'kmp' = 'flutter';
+  private framework: 'flutter' | 'react-native' | 'kmp' = 'react-native';
 
   constructor(skillsDir: string) {
     this.loadSkills(skillsDir);

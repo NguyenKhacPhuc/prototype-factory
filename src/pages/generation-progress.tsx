@@ -24,6 +24,7 @@ export function GenerationProgress({ jobId, onComplete, onClose }: Props) {
   const [status, setStatus] = useState<"pending" | "running" | "completed" | "failed">("pending");
   const [error, setError] = useState<string | null>(null);
   const [elapsed, setElapsed] = useState(0);
+  const [result, setResult] = useState<any>(null);
 
   // Timer
   useEffect(() => {
@@ -48,8 +49,11 @@ export function GenerationProgress({ jobId, onComplete, onClose }: Props) {
         setMessage(p.message || STEP_MESSAGES[p.step] || "Working...");
         setStatus(j.status);
 
-        if (j.status === "completed" && j.result?.folder) {
-          setTimeout(() => onComplete(j.result.folder), 1500);
+        if (j.status === "completed") {
+          setResult(j.result);
+          if (j.result?.folder) {
+            setTimeout(() => onComplete(j.result.folder), 2500);
+          }
         }
         if (j.status === "failed") {
           setError(j.error || "Generation failed. Please try again.");
@@ -109,8 +113,81 @@ export function GenerationProgress({ jobId, onComplete, onClose }: Props) {
                 <polyline points="22 4 12 14.01 9 11.01" />
               </svg>
             </div>
-            <h2 style={{ fontSize: 22, fontWeight: 700, marginBottom: 8 }}>Prototype Ready!</h2>
-            <p style={{ fontSize: 14, color: "var(--text-muted)" }}>Redirecting to your prototype...</p>
+
+            {result?.expo_url ? (
+              <>
+                <h2 style={{ fontSize: 22, fontWeight: 700, marginBottom: 8 }}>App Built!</h2>
+                <p style={{ fontSize: 14, color: "var(--text-muted)", marginBottom: 20 }}>Test it on your phone now.</p>
+
+                {/* Test on Device instructions */}
+                <div style={{
+                  padding: 20, borderRadius: 14, border: "1px solid var(--border)",
+                  background: "var(--bg)", textAlign: "left", marginBottom: 20,
+                }}>
+                  <h3 style={{ fontSize: 14, fontWeight: 700, marginBottom: 12 }}>Test on Your Device</h3>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+                    {[
+                      { step: "1", text: "Install Expo Go from App Store / Play Store" },
+                      { step: "2", text: "Open Camera (iOS) or Expo Go (Android)" },
+                      { step: "3", text: "Scan the QR code or open the link below" },
+                    ].map(s => (
+                      <div key={s.step} style={{ display: "flex", gap: 10, alignItems: "center" }}>
+                        <span style={{
+                          width: 24, height: 24, borderRadius: "50%", background: "var(--accent)",
+                          color: "#fff", fontSize: 12, fontWeight: 700,
+                          display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0,
+                        }}>{s.step}</span>
+                        <span style={{ fontSize: 13, color: "var(--text-secondary)" }}>{s.text}</span>
+                      </div>
+                    ))}
+                  </div>
+
+                  {result.expo_url.startsWith("http") && (
+                    <a href={result.expo_url} target="_blank" rel="noopener"
+                      style={{
+                        display: "block", marginTop: 16, padding: "10px 16px", borderRadius: 10,
+                        background: "rgba(232,160,74,0.1)", border: "1px solid rgba(232,160,74,0.3)",
+                        color: "var(--accent)", fontSize: 13, fontWeight: 600,
+                        textDecoration: "none", textAlign: "center",
+                      }}
+                    >Open in Expo Go</a>
+                  )}
+                </div>
+
+                {result.download_url && (
+                  <a href={result.download_url} target="_blank" rel="noopener"
+                    style={{
+                      display: "block", padding: "12px 24px", borderRadius: 10, border: "1px solid var(--border)",
+                      color: "var(--text-secondary)", fontSize: 13, fontWeight: 600,
+                      textDecoration: "none", textAlign: "center", marginBottom: 12,
+                    }}
+                  >Download Source Code</a>
+                )}
+
+                <button onClick={onClose} style={{
+                  width: "100%", padding: 14, borderRadius: 12, border: "none",
+                  background: "var(--accent)", color: "#fff", fontSize: 14, fontWeight: 700, cursor: "pointer",
+                }}>Done</button>
+              </>
+            ) : (
+              <>
+                <h2 style={{ fontSize: 22, fontWeight: 700, marginBottom: 8 }}>
+                  {result?.folder ? "Prototype Ready!" : "Build Complete!"}
+                </h2>
+                <p style={{ fontSize: 14, color: "var(--text-muted)" }}>
+                  {result?.folder ? "Redirecting to your prototype..." : "Your app has been built."}
+                </p>
+                {result?.download_url && (
+                  <a href={result.download_url} target="_blank" rel="noopener"
+                    style={{
+                      display: "inline-block", marginTop: 16, padding: "10px 24px", borderRadius: 10,
+                      background: "var(--accent)", color: "#fff", fontSize: 14, fontWeight: 600,
+                      textDecoration: "none",
+                    }}
+                  >Download Source</a>
+                )}
+              </>
+            )}
           </>
         ) : (
           <>

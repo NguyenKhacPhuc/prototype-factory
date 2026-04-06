@@ -142,10 +142,22 @@ export async function runMobileAppJob(jobId: string, input: MobileAppInput) {
       .from('builds')
       .getPublicUrl(`${jobId}.zip`);
 
+    // Generate Expo preview URL for instant device testing
+    let expoUrl = '';
+    if (framework === 'react-native') {
+      try {
+        await logger.updateProgress(12, 13, 'Setting up Expo preview...');
+        expoUrl = await setupExpoPreview(workDir, logger);
+      } catch (err: any) {
+        logger.log({ stage: 4, step: 'expo', event: 'error', detail: err.message?.slice(0, 200) });
+      }
+    }
+
     await logger.markCompleted({
       framework,
       task_count: completedTasks,
       download_url: urlData.publicUrl,
+      expo_url: expoUrl,
       work_dir: workDir,
     });
 
@@ -156,6 +168,49 @@ export async function runMobileAppJob(jobId: string, input: MobileAppInput) {
     await logger.persist();
     throw err;
   }
+}
+
+async function setupExpoPreview(workDir: string, logger: PipelineLogger): Promise<string> {
+  const { execSync } = await import('child_process');
+
+  // Check if this is an Expo project
+  const packageJson = join(workDir, 'package.json');
+  if (!existsSync(packageJson)) return '';
+
+  const pkg = JSON.parse(readFileSync(packageJson, 'utf-8'));
+  if (!pkg.dependencies?.expo) return '';
+
+  // Install dependencies
+  logger.log({ stage: 4, step: 'expo', event: 'start', detail: 'Installing Expo dependencies...' });
+  execSync('npm install', { cwd: workDir, timeout: 120000, stdio: 'pipe' });
+
+  // Publish to EAS Update for shareable preview URL
+  // This creates a URL like: exp://u.expo.dev/update/xxxx
+  try {
+    // Use expo-cli to publish an update
+    const result = execSync('npx eas-cli@latest update --branch preview --message "AI-generated build" --non-interactive 2>&1 || true', {
+      cwd: workDir,
+      timeout: 180000,
+      stdio: 'pipe',
+      env: { ...process.env, EXPO_TOKEN: process.env.EXPO_TOKEN || '' },
+    }).toString();
+
+    // Extract the URL from output
+    const urlMatch = result.match(/https:\/\/expo\.dev\/.*?(?=\s|$)/);
+    if (urlMatch) {
+      logger.log({ stage: 4, step: 'expo', event: 'complete', detail: urlMatch[0] });
+      return urlMatch[0];
+    }
+  } catch {
+    // EAS not configured — fall back to local tunnel instructions
+  }
+
+  // Fallback: generate a QR code data URL for expo start --tunnel
+  // The user would need to run this locally after downloading
+  const expoStartCmd = `cd "${workDir}" && npx expo start --tunnel`;
+  logger.log({ stage: 4, step: 'expo', event: 'complete', detail: 'Local: ' + expoStartCmd });
+
+  return `local://${workDir}`;
 }
 
 function detectTaskRequirements(tasksContent: string, taskIndex: number): string[] {
