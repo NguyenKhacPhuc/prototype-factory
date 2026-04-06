@@ -172,16 +172,16 @@ export class SkillRouter {
 
   /** Check if a task is creative (Opus) or routine (Sonnet) */
   static isCreativeTask(stage: number, step: string): boolean {
-    if (stage <= 1) return true;  // ideation + design always Opus
-    if (stage === 3 && step === 'implement') return true;
-    return false; // scaffold, test, review, ship → Sonnet
+    // Use Opus only when we have higher rate limits
+    // For now, Sonnet for everything (higher rate limits, still good quality)
+    return false;
   }
 
   /** Get recommended model for this stage/step */
   static getModel(stage: number, step: string): string {
-    return SkillRouter.isCreativeTask(stage, step)
-      ? 'claude-opus-4-6'
-      : 'claude-sonnet-4-6';
+    // Sonnet for all stages until Opus rate limits are upgraded
+    // TODO: switch creative tasks to Opus when tier increases
+    return 'claude-sonnet-4-6';
   }
 
   /** Summary stats */
