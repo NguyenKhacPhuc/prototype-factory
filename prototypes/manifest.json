@@ -1,5 +1,68 @@
 [
   {
+    "folder": "2026-04-06-dropflow-ai",
+    "appName": "DropFlow AI",
+    "tagline": "T\u1ed1i \u01b0u Dropshipping. T\u1ef1 \u0111\u1ed9ng h\u00f3a L\u1ee3i Nhu\u1eadn c\u1ee7a b\u1ea1n.",
+    "designSystem": {
+      "primaryColor": "#2979FF",
+      "secondaryColor": "#FF5252",
+      "backgroundColor": "#FAFAFA",
+      "fontFamily": "system / system",
+      "style": "bold geometric"
+    },
+    "screens": [
+      "home"
+    ],
+    "hasScreenshot": false,
+    "description": "DropFlow AI l\u00e0 n\u1ec1n t\u1ea3ng qu\u1ea3n l\u00fd dropshipping di \u0111\u1ed9ng th\u00f4ng minh, gi\u00fap c\u00e1c ch\u1ee7 doanh nghi\u1ec7p th\u01b0\u01a1ng m\u1ea1i \u0111i\u1ec7n t\u1eed nh\u1ecf v\u00e0 v\u1eeba tinh gi\u1ea3n m\u1ecdi kh\u00eda c\u1ea1nh c\u1ee7a ho\u1ea1t \u0111\u1ed9ng kinh doanh. T\u1eeb vi\u1ec7c kh\u00e1m ph\u00e1 s\u1ea3n ph\u1ea9m b\u00e1n ch\u1ea1y ti\u1ec1m n\u0103ng, t\u1ef1 \u0111\u1ed9ng h\u00f3a quy tr\u00ecnh \u0111\u1eb7t h\u00e0ng, \u0111\u1ebfn qu\u1ea3n l\u00fd nh\u00e0 cung c\u1ea5p v\u00e0 v\u1eadn chuy\u1ec3n hi\u1ec7u qu\u1ea3, DropFlow AI bi\u1ebfn chi\u1ebfc \u0111i\u1ec7n tho\u1ea1i c\u1ee7a b\u1ea1n th\u00e0nh m\u1ed9t trung t\u00e2m \u0111i\u1ec1u khi\u1ec3n l\u1ee3i nhu\u1eadn. Gi\u1ea3m thi\u1ec3u c\u00f4ng vi\u1ec7c th\u1ee7 c\u00f4ng, t\u1ed1i \u0111a h\u00f3a hi\u1ec7u qu\u1ea3 v\u00e0 ph\u00e1t tri\u1ec3n doanh nghi\u1ec7p c\u1ee7a b\u1ea1n v\u1edbi s\u1ee9c m\u1ea1nh c\u1ee7a tr\u00ed tu\u1ec7 nh\u00e2n t\u1ea1o.",
+    "features": [
+      {
+        "title": "Qu\u1ea3n l\u00fd \u0110\u01a1n h\u00e0ng Th\u00f4ng minh",
+        "detail": "Theo d\u00f5i v\u00e0 x\u1eed l\u00fd \u0111\u01a1n h\u00e0ng t\u1ef1 \u0111\u1ed9ng t\u1eeb nhi\u1ec1u k\u00eanh b\u00e1n h\u00e0ng. T\u1ef1 \u0111\u1ed9ng c\u1eadp nh\u1eadt tr\u1ea1ng th\u00e1i \u0111\u01a1n h\u00e0ng cho kh\u00e1ch h\u00e0ng v\u00e0 nh\u00e0 cung c\u1ea5p, h\u1ed7 tr\u1ee3 x\u1eed l\u00fd h\u00e0ng lo\u1ea1t v\u00e0 gi\u1ea3m thi\u1ec3u sai s\u00f3t."
+      },
+      {
+        "title": "Qu\u1ea3n l\u00fd S\u1ea3n ph\u1ea9m & Danh m\u1ee5c AI",
+        "detail": "D\u1ec5 d\u00e0ng nh\u1eadp, t\u1ed5 ch\u1ee9c v\u00e0 qu\u1ea3n l\u00fd danh m\u1ee5c s\u1ea3n ph\u1ea9m t\u1eeb nhi\u1ec1u nh\u00e0 cung c\u1ea5p. AI h\u1ed7 tr\u1ee3 vi\u1ebft m\u00f4 t\u1ea3 s\u1ea3n ph\u1ea9m h\u1ea5p d\u1eabn, t\u1ed1i \u01b0u h\u00f3a h\u00ecnh \u1ea3nh v\u00e0 \u0111\u1ec1 xu\u1ea5t gi\u00e1 b\u00e1n c\u1ea1nh tranh \u0111\u1ec3 t\u1ed1i \u0111a h\u00f3a doanh thu."
+      },
+      {
+        "title": "Hub Nh\u00e0 cung c\u1ea5p & \u0110\u00e1nh gi\u00e1",
+        "detail": "Qu\u1ea3n l\u00fd h\u1ed3 s\u01a1 nh\u00e0 cung c\u1ea5p, ki\u1ec3m so\u00e1t catalog s\u1ea3n ph\u1ea9m, m\u1ee9c t\u1ed3n kho v\u00e0 hi\u1ec7u su\u1ea5t giao h\u00e0ng c\u1ee7a h\u1ecd. H\u1ec7 th\u1ed1ng AI \u0111\u00e1nh gi\u00e1 \u0111\u1ed9 tin c\u1eady c\u1ee7a nh\u00e0 cung c\u1ea5p d\u1ef1a tr\u00ean l\u1ecbch s\u1eed \u0111\u1eb7t h\u00e0ng v\u00e0 ph\u1ea3n h\u1ed3i \u0111\u1ec3 b\u1ea1n \u0111\u01b0a ra l\u1ef1a ch\u1ecdn t\u1ed1t nh\u1ea5t."
+      },
+      {
+        "title": "T\u1ed1i \u01b0u h\u00f3a V\u1eadn chuy\u1ec3n",
+        "detail": "T\u00edch h\u1ee3p v\u1edbi nhi\u1ec1u nh\u00e0 v\u1eadn chuy\u1ec3n kh\u00e1c nhau. AI t\u1ef1 \u0111\u1ed9ng so s\u00e1nh chi ph\u00ed, th\u1eddi gian giao h\u00e0ng v\u00e0 \u0111\u1ec1 xu\u1ea5t l\u1ef1a ch\u1ecdn v\u1eadn chuy\u1ec3n t\u1ed1i \u01b0u cho t\u1eebng \u0111\u01a1n h\u00e0ng. T\u1ef1 \u0111\u1ed9ng t\u1ea1o nh\u00e3n v\u1eadn chuy\u1ec3n v\u00e0 theo d\u00f5i l\u1ed9 tr\u00ecnh."
+      },
+      {
+        "title": "\u0110\u1ed9ng c\u01a1 \u0110\u1ecbnh gi\u00e1 \u0110\u1ed9ng AI",
+        "detail": "Thi\u1ebft l\u1eadp quy t\u1eafc \u0111\u1ecbnh gi\u00e1 t\u1ef1 \u0111\u1ed9ng d\u1ef1a tr\u00ean chi ph\u00ed, gi\u00e1 c\u1ee7a \u0111\u1ed1i th\u1ee7 c\u1ea1nh tranh, nhu c\u1ea7u th\u1ecb tr\u01b0\u1eddng v\u00e0 bi\u00ean l\u1ee3i nhu\u1eadn mong mu\u1ed1n. AI \u0111i\u1ec1u ch\u1ec9nh gi\u00e1 s\u1ea3n ph\u1ea9m c\u1ee7a b\u1ea1n theo th\u1eddi gian th\u1ef1c \u0111\u1ec3 duy tr\u00ec s\u1ef1 c\u1ea1nh tranh v\u00e0 t\u1ed1i \u0111a h\u00f3a l\u1ee3i nhu\u1eadn."
+      },
+      {
+        "title": "Kh\u00e1m ph\u00e1 S\u1ea3n ph\u1ea9m Hot & Ph\u00e2n t\u00edch",
+        "detail": "AI li\u00ean t\u1ee5c qu\u00e9t th\u1ecb tr\u01b0\u1eddng \u0111\u1ec3 ph\u00e1t hi\u1ec7n c\u00e1c s\u1ea3n ph\u1ea9m \u0111ang c\u00f3 xu h\u01b0\u1edbng v\u00e0 c\u00e1c ph\u00e2n kh\u00fac ng\u00e1ch ti\u1ec1m n\u0103ng. Nh\u1eadn b\u00e1o c\u00e1o ph\u00e2n t\u00edch hi\u1ec7u su\u1ea5t s\u1ea3n ph\u1ea9m v\u00e0 \u0111\u1ec1 xu\u1ea5t c\u00e1 nh\u00e2n h\u00f3a \u0111\u1ec3 \u0111a d\u1ea1ng h\u00f3a ho\u1eb7c t\u1ed1i \u01b0u h\u00f3a danh m\u1ee5c c\u1ee7a b\u1ea1n."
+      }
+    ],
+    "audience": "C\u00e1c doanh nh\u00e2n dropshipping \u0111\u1ed9c l\u1eadp, ch\u1ee7 c\u1eeda h\u00e0ng th\u01b0\u01a1ng m\u1ea1i \u0111i\u1ec7n t\u1eed nh\u1ecf v\u00e0 v\u1eeba, ho\u1eb7c b\u1ea5t k\u1ef3 ai mu\u1ed1n m\u1edf r\u1ed9ng quy m\u00f4 kinh doanh tr\u1ef1c tuy\u1ebfn v\u1edbi s\u1ef1 t\u1ef1 \u0111\u1ed9ng h\u00f3a v\u00e0 hi\u1ec7u qu\u1ea3 t\u1ed1i \u0111a.",
+    "category": "Kinh doanh & N\u0103ng su\u1ea5t",
+    "useCases": [
+      {
+        "title": "Kh\u1edfi \u0111\u1ed9ng c\u1eeda h\u00e0ng Dropshipping m\u1edbi",
+        "detail": "Nhanh ch\u00f3ng t\u00ecm ki\u1ebfm v\u00e0 nh\u1eadp c\u00e1c s\u1ea3n ph\u1ea9m b\u00e1n ch\u1ea1y, t\u1ea1o m\u00f4 t\u1ea3 s\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c t\u1ed1i \u01b0u h\u00f3a b\u1eb1ng AI v\u00e0 b\u1eaft \u0111\u1ea7u nh\u1eadn \u0111\u01a1n h\u00e0ng ch\u1ec9 trong v\u00e0i ph\u00fat."
+      },
+      {
+        "title": "Qu\u1ea3n l\u00fd v\u00e0 m\u1edf r\u1ed9ng ho\u1ea1t \u0111\u1ed9ng hi\u1ec7n c\u00f3",
+        "detail": "D\u1ec5 d\u00e0ng \u0111\u1ed3ng b\u1ed9 h\u00f3a c\u00e1c c\u1eeda h\u00e0ng hi\u1ec7n c\u00f3, qu\u1ea3n l\u00fd h\u00e0ng tr\u0103m \u0111\u01a1n h\u00e0ng v\u00e0 s\u1ea3n ph\u1ea9m t\u1eeb nhi\u1ec1u nh\u00e0 cung c\u1ea5p v\u00e0 nh\u00e0 v\u1eadn chuy\u1ec3n th\u00f4ng qua m\u1ed9t giao di\u1ec7n t\u1eadp trung."
+      },
+      {
+        "title": "T\u1ed1i \u01b0u h\u00f3a l\u1ee3i nhu\u1eadn v\u00e0 gi\u1ea3m chi ph\u00ed",
+        "detail": "S\u1eed d\u1ee5ng \u0111\u1ed9ng c\u01a1 \u0111\u1ecbnh gi\u00e1 AI v\u00e0 c\u00f4ng c\u1ee5 so s\u00e1nh v\u1eadn chuy\u1ec3n \u0111\u1ec3 \u0111\u1ea3m b\u1ea3o b\u1ea1n lu\u00f4n c\u00f3 m\u1ee9c gi\u00e1 t\u1ed1t nh\u1ea5t v\u00e0 chi ph\u00ed v\u1eadn chuy\u1ec3n th\u1ea5p nh\u1ea5t, t\u1eeb \u0111\u00f3 t\u0103ng bi\u00ean l\u1ee3i nhu\u1eadn."
+      },
+      {
+        "title": "Ph\u1ea3n \u1ee9ng nhanh v\u1edbi xu h\u01b0\u1edbng th\u1ecb tr\u01b0\u1eddng",
+        "detail": "Nh\u1eadn c\u1ea3nh b\u00e1o v\u1ec1 c\u00e1c s\u1ea3n ph\u1ea9m \u0111ang c\u00f3 xu h\u01b0\u1edbng ho\u1eb7c c\u00e1c c\u01a1 h\u1ed9i m\u1edbi, cho ph\u00e9p b\u1ea1n nhanh ch\u00f3ng th\u00eam c\u00e1c m\u1eb7t h\u00e0ng ph\u1ed5 bi\u1ebfn v\u00e0o c\u1eeda h\u00e0ng c\u1ee7a m\u00ecnh v\u00e0 t\u1eadn d\u1ee5ng nhu c\u1ea7u c\u1ee7a th\u1ecb tr\u01b0\u1eddng."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-06-syntax-sprint",
     "appName": "Syntax Sprint",
     "tagline": "Code elegance. Co-op challenges. Dev status.",

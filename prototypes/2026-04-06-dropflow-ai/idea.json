@@ -1,0 +1,54 @@
+{
+  "name": "DropFlow AI",
+  "tagline": "Tối ưu Dropshipping. Tự động hóa Lợi Nhuận của bạn.",
+  "description": "DropFlow AI là nền tảng quản lý dropshipping di động thông minh, giúp các chủ doanh nghiệp thương mại điện tử nhỏ và vừa tinh giản mọi khía cạnh của hoạt động kinh doanh. Từ việc khám phá sản phẩm bán chạy tiềm năng, tự động hóa quy trình đặt hàng, đến quản lý nhà cung cấp và vận chuyển hiệu quả, DropFlow AI biến chiếc điện thoại của bạn thành một trung tâm điều khiển lợi nhuận. Giảm thiểu công việc thủ công, tối đa hóa hiệu quả và phát triển doanh nghiệp của bạn với sức mạnh của trí tuệ nhân tạo.",
+  "features": [
+    {
+      "title": "Quản lý Đơn hàng Thông minh",
+      "detail": "Theo dõi và xử lý đơn hàng tự động từ nhiều kênh bán hàng. Tự động cập nhật trạng thái đơn hàng cho khách hàng và nhà cung cấp, hỗ trợ xử lý hàng loạt và giảm thiểu sai sót."
+    },
+    {
+      "title": "Quản lý Sản phẩm & Danh mục AI",
+      "detail": "Dễ dàng nhập, tổ chức và quản lý danh mục sản phẩm từ nhiều nhà cung cấp. AI hỗ trợ viết mô tả sản phẩm hấp dẫn, tối ưu hóa hình ảnh và đề xuất giá bán cạnh tranh để tối đa hóa doanh thu."
+    },
+    {
+      "title": "Hub Nhà cung cấp & Đánh giá",
+      "detail": "Quản lý hồ sơ nhà cung cấp, kiểm soát catalog sản phẩm, mức tồn kho và hiệu suất giao hàng của họ. Hệ thống AI đánh giá độ tin cậy của nhà cung cấp dựa trên lịch sử đặt hàng và phản hồi để bạn đưa ra lựa chọn tốt nhất."
+    },
+    {
+      "title": "Tối ưu hóa Vận chuyển",
+      "detail": "Tích hợp với nhiều nhà vận chuyển khác nhau. AI tự động so sánh chi phí, thời gian giao hàng và đề xuất lựa chọn vận chuyển tối ưu cho từng đơn hàng. Tự động tạo nhãn vận chuyển và theo dõi lộ trình."
+    },
+    {
+      "title": "Động cơ Định giá Động AI",
+      "detail": "Thiết lập quy tắc định giá tự động dựa trên chi phí, giá của đối thủ cạnh tranh, nhu cầu thị trường và biên lợi nhuận mong muốn. AI điều chỉnh giá sản phẩm của bạn theo thời gian thực để duy trì sự cạnh tranh và tối đa hóa lợi nhuận."
+    },
+    {
+      "title": "Khám phá Sản phẩm Hot & Phân tích",
+      "detail": "AI liên tục quét thị trường để phát hiện các sản phẩm đang có xu hướng và các phân khúc ngách tiềm năng. Nhận báo cáo phân tích hiệu suất sản phẩm và đề xuất cá nhân hóa để đa dạng hóa hoặc tối ưu hóa danh mục của bạn."
+    }
+  ],
+  "audience": "Các doanh nhân dropshipping độc lập, chủ cửa hàng thương mại điện tử nhỏ và vừa, hoặc bất kỳ ai muốn mở rộng quy mô kinh doanh trực tuyến với sự tự động hóa và hiệu quả tối đa.",
+  "category": "Kinh doanh & Năng suất",
+  "useCases": [
+    {
+      "title": "Khởi động cửa hàng Dropshipping mới",
+      "detail": "Nhanh chóng tìm kiếm và nhập các sản phẩm bán chạy, tạo mô tả sản phẩm được tối ưu hóa bằng AI và bắt đầu nhận đơn hàng chỉ trong vài phút."
+    },
+    {
+      "title": "Quản lý và mở rộng hoạt động hiện có",
+      "detail": "Dễ dàng đồng bộ hóa các cửa hàng hiện có, quản lý hàng trăm đơn hàng và sản phẩm từ nhiều nhà cung cấp và nhà vận chuyển thông qua một giao diện tập trung."
+    },
+    {
+      "title": "Tối ưu hóa lợi nhuận và giảm chi phí",
+      "detail": "Sử dụng động cơ định giá AI và công cụ so sánh vận chuyển để đảm bảo bạn luôn có mức giá tốt nhất và chi phí vận chuyển thấp nhất, từ đó tăng biên lợi nhuận."
+    },
+    {
+      "title": "Phản ứng nhanh với xu hướng thị trường",
+      "detail": "Nhận cảnh báo về các sản phẩm đang có xu hướng hoặc các cơ hội mới, cho phép bạn nhanh chóng thêm các mặt hàng phổ biến vào cửa hàng của mình và tận dụng nhu cầu của thị trường."
+    }
+  ],
+  "engagementLoop": "DropFlow AI tạo ra một vòng lặp gắn kết mạnh mẽ thông qua 'Hội chứng bỏ lỡ' (Loss Aversion) và 'Nguyên tắc khan hiếm' (Scarcity Principle) bằng cách: \n1.  **Cảnh báo Cơ hội & Hiệu suất**: Gửi thông báo tức thì về 'sản phẩm hot' tiềm năng, 'ưu đãi đặc biệt từ nhà cung cấp' (khan hiếm) hoặc 'lỗ hổng lợi nhuận' (mất mát tiềm năng) nếu người dùng không hành động. \n2.  **Theo dõi 'Chuỗi Lợi nhuận'**: Bảng điều khiển trực quan hiển thị 'chuỗi lợi nhuận' hoặc 'hiệu suất tối ưu' hàng ngày/tuần, khuyến khích người dùng duy trì hoặc phá vỡ kỷ lục của mình để tránh 'đứt chuỗi' (lo sợ mất mát). \n3.  **Đề xuất hành động tức thì**: AI không chỉ cung cấp dữ liệu mà còn đề xuất các hành động cụ thể để tối ưu hóa giá, thêm sản phẩm mới hoặc cải thiện hiệu suất, tạo cảm giác cần phải hành động để không bỏ lỡ lợi nhuận tiềm năng.",
+  "trendFit": "DropFlow AI phù hợp hoàn hảo với xu hướng hiện tại về tự động hóa AI (lấy cảm hứng từ các ứng dụng như Noiz AI, Pingo AI) và nhu cầu ngày càng tăng về các công cụ năng suất dựa trên di động. Nó tận dụng AI để cung cấp thông tin chi tiết và tự động hóa các tác vụ tặp đi lặp lại, cho phép người dùng vận hành một doanh nghiệp dropshipping hiệu quả và có lợi nhuận từ bất cứ đâu. Sự tập trung vào việc giảm bớt gánh nặng quản lý thủ công cộng hưởng với mong muốn hiện đại về sự đơn giản hóa và hiệu quả trong kinh doanh trực tuyến.",
+  "monetization": "Mô hình Freepium với các gói đăng ký hàng tháng hoặc hàng năm:\n-   **Gói Miễn phí**: Tính năng cơ bản cho một số lượng sản phẩm/đơn hàng hạn chế, phù hợp cho người mới bắt đầu.\n-   **Gói Nâng cao (Premium)**: Mở khóa các tính năng AI nâng cao (động cơ định giá động, khám phá sản phẩm hot), không giới hạn sản phẩm/đơn hàng, hỗ trợ ưu tiên, và tích hợp không giới hạn với nhà cung cấp/nhà vận chuyển."
+}
