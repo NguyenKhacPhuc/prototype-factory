@@ -50,13 +50,7 @@ export class SessionManager {
       this.messages = this.messages.slice(-this.maxMessages);
     }
 
-    let response = await this.client.messages.create({
-      model,
-      max_tokens: 16000,
-      system,
-      messages: this.messages,
-      tools: this.getTools(),
-    });
+    let response = await this.callWithRetry(model, system, this.messages, this.getTools());
 
     // Handle tool use loops
     let iterations = 0;
@@ -82,13 +76,7 @@ export class SessionManager {
       this.messages.push({ role: 'assistant', content: response.content });
       this.messages.push({ role: 'user', content: toolResults });
 
-      response = await this.client.messages.create({
-        model,
-        max_tokens: 16000,
-        system,
-        messages: this.messages,
-        tools: this.getTools(),
-      });
+      response = await this.callWithRetry(model, system, this.messages, this.getTools());
     }
 
     // Log API call
@@ -117,6 +105,32 @@ export class SessionManager {
       .filter((b: any) => b.type === 'text')
       .map((b: any) => b.text)
       .join('');
+  }
+
+  /** Call Claude API with automatic retry on rate limits */
+  private async callWithRetry(model: string, system: any, messages: any[], tools: any[], maxRetries = 3): Promise<any> {
+    for (let attempt = 0; attempt <= maxRetries; attempt++) {
+      try {
+        return await this.client.messages.create({
+          model,
+          max_tokens: 16000,
+          system,
+          messages,
+          tools,
+        });
+      } catch (err: any) {
+        const isRateLimit = err.status === 429 || err.message?.includes('rate_limit');
+        if (isRateLimit && attempt < maxRetries) {
+          // Exponential backoff: 30s, 60s, 120s
+          const waitSec = 30 * Math.pow(2, attempt);
+          console.log(`  Rate limited. Waiting ${waitSec}s before retry ${attempt + 1}/${maxRetries}...`);
+          this.logger.log({ stage: 0, step: 'retry', event: 'error', detail: `Rate limited, waiting ${waitSec}s` });
+          await new Promise(r => setTimeout(r, waitSec * 1000));
+          continue;
+        }
+        throw err;
+      }
+    }
   }
 
   /** Clear message history (call between stages to prevent overflow) */
