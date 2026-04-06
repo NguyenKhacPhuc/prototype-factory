@@ -7,8 +7,8 @@ import { PipelineLogger } from './pipeline-logger';
 import { estimateComplexity, getPrice } from './complexity-estimator';
 import { createClient } from '@supabase/supabase-js';
 
-const SKILLS_DIR = process.env.SKILLS_DIR
-  || join(process.env.HOME || '/root', '.claude/skills');
+import { config as appConfig } from './config';
+const SKILLS_DIR = appConfig.skillsDir;
 
 interface MobileAppInput {
   prompt: string;
