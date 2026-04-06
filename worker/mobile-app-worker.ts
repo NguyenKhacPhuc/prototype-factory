@@ -110,9 +110,8 @@ export async function runMobileAppJob(jobId: string, input: MobileAppInput) {
         taskReqs
       );
 
-      // Every 5 tasks, clear history to prevent context overflow
-      if (completedTasks % 5 === 0) {
-        session.clearHistory();
+      // Clear history after every task to prevent tool_use/tool_result desync
+      session.clearHistory();
       }
     }
 
