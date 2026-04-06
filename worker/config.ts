@@ -1,7 +1,7 @@
 export const config = {
   supabaseUrl: process.env.SUPABASE_URL!,
   supabaseServiceKey: process.env.SUPABASE_SERVICE_KEY || process.env.SUPABASE_ANON_KEY!,
-  anthropicApiKey: process.env.ANTHROPIC_API_KEY!,
+  anthropicApiKey: process.env.WORKER_ANTHROPIC_KEY || process.env.ANTHROPIC_API_KEY || '',
   geminiApiKey: process.env.GEMINI_API_KEY!,
   mockMode: process.env.MOCK_MODE === 'true',
   pollIntervalMs: 3000,

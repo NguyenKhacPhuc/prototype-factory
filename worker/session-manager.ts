@@ -107,10 +107,20 @@ export class SessionManager {
       .join('');
   }
 
-  /** Call Claude API with automatic retry on rate limits */
-  private async callWithRetry(model: string, system: any, messages: any[], tools: any[], maxRetries = 3): Promise<any> {
+  /** Pause between API calls to stay under rate limits */
+  private async rateLimitPause() {
+    const delaySec = Number(process.env.API_DELAY_SEC) || 15;
+    console.log(`  Waiting ${delaySec}s (rate limit pacing)...`);
+    await new Promise(r => setTimeout(r, delaySec * 1000));
+  }
+
+  /** Call Claude API with pacing delay + retry on rate limits */
+  private async callWithRetry(model: string, system: any, messages: any[], tools: any[], maxRetries = 5): Promise<any> {
     for (let attempt = 0; attempt <= maxRetries; attempt++) {
       try {
+        // Pace calls to avoid hitting rate limits
+        if (attempt === 0) await this.rateLimitPause();
+
         return await this.client.messages.create({
           model,
           max_tokens: 16000,
@@ -121,8 +131,7 @@ export class SessionManager {
       } catch (err: any) {
         const isRateLimit = err.status === 429 || err.message?.includes('rate_limit');
         if (isRateLimit && attempt < maxRetries) {
-          // Exponential backoff: 30s, 60s, 120s
-          const waitSec = 30 * Math.pow(2, attempt);
+          const waitSec = 45 * Math.pow(2, attempt); // 45s, 90s, 180s, 360s
           console.log(`  Rate limited. Waiting ${waitSec}s before retry ${attempt + 1}/${maxRetries}...`);
           this.logger.log({ stage: 0, step: 'retry', event: 'error', detail: `Rate limited, waiting ${waitSec}s` });
           await new Promise(r => setTimeout(r, waitSec * 1000));
