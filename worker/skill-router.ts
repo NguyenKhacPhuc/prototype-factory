@@ -1,4 +1,4 @@
-import { readFileSync, existsSync } from 'fs';
+import { readFileSync, existsSync, readdirSync } from 'fs';
 import { join } from 'path';
 
 interface SkillEntry {
@@ -6,6 +6,8 @@ interface SkillEntry {
   content: string;
   tokens: number;  // approximate (chars / 4)
   tags: string[];
+  references: { name: string; content: string }[];
+  skillDir: string;  // absolute path to skill directory
 }
 
 const SKILL_TAGS: Record<string, string[]> = {
@@ -58,17 +60,34 @@ export class SkillRouter {
 
   private loadSkills(dir: string) {
     for (const [name, tags] of Object.entries(SKILL_TAGS)) {
-      const skillFile = join(dir, name, 'SKILL.md');
+      const skillDir = join(dir, name);
+      const skillFile = join(skillDir, 'SKILL.md');
       if (!existsSync(skillFile)) {
         console.warn(`Skill not found: ${skillFile}`);
         continue;
       }
       const content = readFileSync(skillFile, 'utf-8');
+
+      // Load reference files if they exist
+      const references: { name: string; content: string }[] = [];
+      const refsDir = join(skillDir, 'references');
+      if (existsSync(refsDir)) {
+        const files = readdirSync(refsDir).filter(f => f.endsWith('.md'));
+        for (const f of files) {
+          references.push({
+            name: f,
+            content: readFileSync(join(refsDir, f), 'utf-8'),
+          });
+        }
+      }
+
       this.registry.set(name, {
         name,
         content,
         tokens: Math.ceil(content.length / 4),
         tags,
+        references,
+        skillDir,
       });
     }
     console.log(`Loaded ${this.registry.size} skills`);
@@ -124,7 +143,16 @@ export class SkillRouter {
     const totalTokens = skills.reduce((sum, s) => sum + s.tokens, 0);
 
     const skillText = skills
-      .map(s => `## SKILL: ${s.name}\n\n${s.content}`)
+      .map(s => {
+        let text = `## SKILL: ${s.name}\n\n${s.content}`;
+        if (s.references.length > 0) {
+          text += '\n\n### References\n';
+          for (const ref of s.references) {
+            text += `\n#### ${ref.name}\n${ref.content}\n`;
+          }
+        }
+        return text;
+      })
       .join('\n\n---\n\n');
 
     console.log(`  Skills loaded: [${skills.map(s => s.name).join(', ')}] (~${totalTokens} tokens)`);

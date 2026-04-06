@@ -1,10 +1,13 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs';
+import { writeFileSync, readFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
 import { execSync } from 'child_process';
 import { dirname } from 'path';
 import { config } from './config';
 import { SkillRouter } from './skill-router';
 import { PipelineLogger } from './pipeline-logger';
+
+// Skill reference paths that Claude might try to read
+const SKILLS_DIR = config.skillsDir;
 
 interface Message {
   role: 'user' | 'assistant';
@@ -173,10 +176,25 @@ export class SessionManager {
           return `File written: ${fullPath}`;
         }
         case 'read_file': {
-          const fullPath = block.input.path.startsWith('/')
+          let fullPath = block.input.path.startsWith('/')
             ? block.input.path
             : `${this.workDir}/${block.input.path}`;
-          if (!existsSync(fullPath)) return `Error: File not found: ${fullPath}`;
+
+          // If file not found, try resolving from skills directory
+          // (Claude may try to read references/ files from skill context)
+          if (!existsSync(fullPath)) {
+            const refPath = `${SKILLS_DIR}/${block.input.path}`;
+            if (existsSync(refPath)) fullPath = refPath;
+            // Also try: skill-name/references/filename
+            for (const skillDir of readdirSync(SKILLS_DIR)) {
+              const tryPath = join(SKILLS_DIR, skillDir, block.input.path);
+              if (existsSync(tryPath)) { fullPath = tryPath; break; }
+              const tryRef = join(SKILLS_DIR, skillDir, 'references', block.input.path);
+              if (existsSync(tryRef)) { fullPath = tryRef; break; }
+            }
+          }
+
+          if (!existsSync(fullPath)) return `Error: File not found: ${block.input.path}`;
           return readFileSync(fullPath, 'utf-8');
         }
         case 'run_command': {

@@ -9,6 +9,6 @@ export const config = {
   maxActiveJobsPerUser: 3,
   maxRetriesPerTask: 3,
   repoDir: process.env.REPO_DIR || '/Users/steve/Documents/prototype-factory',
-  skillsDir: process.env.SKILLS_DIR || `${process.env.HOME}/.claude/skills`,
+  skillsDir: process.env.SKILLS_DIR || '/Users/steve/Documents/mobile-app-agent-system/skills',
   uiuxScript: process.env.UIUX_SCRIPT || `${process.env.HOME}/.claude/commands/skills/ui-ux-pro-max/scripts/search.py`,
 };
