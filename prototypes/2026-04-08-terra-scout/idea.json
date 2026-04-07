@@ -1,0 +1,46 @@
+{
+  "name": "Terra Scout",
+  "tagline": "Map your city, green your world.",
+  "description": "Terra Scout transforms local sustainable living into an urban exploration game. Users become 'Scouts' who discover, verify, and highlight eco-friendly points of interest (POIs) in their communities \u2013 from zero-waste shops and public composting bins to community gardens and water refill stations. The app encourages friendly competition through local and global leaderboards, where Scouts earn 'BioPoints' for verified discoveries, active participation (e.g., supporting a mapped local business), and completing themed 'Eco-Hunts.' This isn't just a directory; it's a dynamic, user-generated ecological map that rewards real-world exploration and sustainable actions, fostering a playful sense of collective progress and shared discovery in making cities greener. The surprise comes from uncovering hidden local gems or achieving a high rank in a competitive challenge, pushing users to engage with their surroundings in a meaningful way multiple times a week. It cultivates a sense of stewardship by empowering individuals to literally put their city's green efforts on the map.",
+  "features": [
+    {
+      "title": "POI Discovery & Verification",
+      "detail": "Users submit new sustainable POIs with photos and details, which other Scouts can then 'verify' by visiting and confirming. This ensures data authenticity while encouraging real-world engagement and exploration."
+    },
+    {
+      "title": "Eco-Hunts & Challenges",
+      "detail": "Themed, time-limited scavenger hunts (e.g., 'Find 5 public water fountains in your district') award bonus BioPoints and exclusive badges upon completion. These structured quests provide novel ways to interact with the environment and drive repeat engagement."
+    },
+    {
+      "title": "Local Leaderboards",
+      "detail": "Compete with friends, neighborhood groups, or city-wide against other Scouts based on BioPoints earned, verified POIs, or challenge completions. This fuels friendly competition and cultivates community pride in green initiatives."
+    },
+    {
+      "title": "BioPoints & Badges",
+      "detail": "Earn points for every contribution, verification, or challenge success, unlocking unique badges like 'Compost Champion' or 'Zero-Waste Wizard.' This gamifies self-improvement and provides visual progression for sustainable actions."
+    },
+    {
+      "title": "Community Impact Feed",
+      "detail": "A personalized feed showcases local sustainable news, upcoming community eco-events, and the collective impact achieved by Scouts in their area. This reinforces the collective good and provides social proof for individual efforts."
+    }
+  ],
+  "audience": "Eco-conscious urban dwellers aged 18-45 who are digitally native, enjoy gamified experiences, and are motivated by both personal achievement and community impact through local action.",
+  "category": "sustainability",
+  "useCases": [
+    {
+      "title": "New City Explorer",
+      "detail": "Sarah moves to a new city and uses Terra Scout to immediately discover nearby ethical coffee shops, farmer's markets, and repair cafes, feeling connected to the local sustainable scene from day one."
+    },
+    {
+      "title": "Weekend Eco-Challenge",
+      "detail": "Mark sees an 'Urban Forager Hunt' challenge appear for the weekend. He spends a Saturday afternoon exploring local parks and green spaces with his family, trying to identify and log edible wild plants while earning bonus BioPoints."
+    },
+    {
+      "title": "Night Shift Resource Finder",
+      "detail": "Alex, a nurse working night shifts, needs to find a 24-hour public transport hub or a late-night cafe that composts their waste. She uses Terra Scout to check user-verified operating hours and eco-practices for establishments that cater to irregular schedules."
+    }
+  ],
+  "engagementLoop": "Users are primarily driven by the friendly competition of local leaderboards and the satisfaction of discovering new eco-points or completing Eco-Hunts, leading them to open the app weekly. The constant stream of new challenges and the 'surprise' of uncovering hidden local gems or achieving a high rank provides continuous motivation to contribute and explore.",
+  "trendFit": "The app perfectly aligns with the gamified self-improvement trend, transforming passive environmental concern into active, playful engagement. It also taps into the desire for authentic, hyper-local discovery and community contribution, fulfilling a need for both individual progression and collective impact in a fresh way.",
+  "monetization": "Premium subscriptions could unlock advanced analytics for personal impact, exclusive eco-challenges with physical rewards, or ad-free experiences. Additionally, local sustainable businesses could pay for 'featured' POI visibility."
+}

@@ -1,0 +1,31 @@
+{
+  "appName": "Terra Scout",
+  "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+  "colors": {
+    "primary": "#059669",
+    "secondary": "#10B981",
+    "background": "#ECFDF5",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-circle",
+    "award",
+    "badge-check",
+    "clock",
+    "globe",
+    "heart",
+    "leaf",
+    "map-pin",
+    "message-circle",
+    "moon",
+    "plus",
+    "search",
+    "settings",
+    "sliders-horizontal",
+    "sun",
+    "user"
+  ],
+  "fonts": [],
+  "iconCount": 16,
+  "fontFileCount": 0
+}

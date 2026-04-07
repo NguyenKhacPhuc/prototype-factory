@@ -1,0 +1,19 @@
+{
+  "appName": "Terra Scout",
+  "tagline": "Map your city, green your world.",
+  "designSystem": {
+    "primaryColor": "#059669",
+    "secondaryColor": "#10B981",
+    "backgroundColor": "#ECFDF5",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing with organic, nature-inspired shapes, earthy tones, flowing wellness aesthetic, and sustainable green gradients"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "hunts",
+    "leaderboard",
+    "feed",
+    "profile"
+  ]
+}
