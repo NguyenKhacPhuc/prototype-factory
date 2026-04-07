@@ -58,6 +58,7 @@ export class SessionManager {
     let response = await this.callWithRetry(model, system, this.messages, this.getTools());
 
     // Handle tool use loops (capped)
+    // IMPORTANT: do NOT compact mid-loop — it breaks tool_use/tool_result pairing
     let iterations = 0;
     while (response.stop_reason === 'tool_use' && iterations < MAX_TOOL_LOOPS) {
       iterations++;
@@ -79,9 +80,6 @@ export class SessionManager {
 
       this.messages.push({ role: 'assistant', content: response.content });
       this.messages.push({ role: 'user', content: toolResults });
-
-      // Compact mid-loop if context is growing
-      this.maybeCompact();
 
       response = await this.callWithRetry(model, system, this.messages, this.getTools());
     }
