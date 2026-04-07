@@ -8,7 +8,7 @@
  * 4. Compile + Fix: tsc --noEmit, feed errors back (1-2 calls if needed)
  */
 
-import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'fs';
+import { mkdirSync, writeFileSync, readFileSync, existsSync, readdirSync } from 'fs';
 import { join } from 'path';
 import { execSync } from 'child_process';
 import { config } from './config';
@@ -114,6 +114,21 @@ export async function buildAppV2(jobId: string, input: { prompt: string; prototy
     const code = await implementAllScreens(input.prompt, design, logger);
     writeCodeFiles(workDir, code);
     logger.log({ stage: 2, step: 'implement', event: 'complete', detail: `${Object.keys(code).length} files written` });
+
+    // ── Step 3.5: Wiring check — verify all imports reference existing files ──
+    const missing = wiringCheck(workDir);
+    if (missing.length > 0) {
+      logger.log({ stage: 2, step: 'wiring', event: 'error', detail: `${missing.length} missing: ${missing.join(', ')}` });
+      // Create stubs for missing files so app at least compiles
+      for (const m of missing) {
+        const stubPath = join(workDir, m);
+        mkdirSync(join(stubPath, '..'), { recursive: true });
+        writeFileSync(stubPath, `// TODO: implement\nexport default function() { return null; }\n`);
+      }
+      logger.log({ stage: 2, step: 'wiring', event: 'complete', detail: `Created ${missing.length} stubs` });
+    } else {
+      logger.log({ stage: 2, step: 'wiring', event: 'complete', detail: 'All imports resolved' });
+    }
 
     // ── Step 4: Install + Compile check + Fix ──
     await logger.updateProgress(4, 5, 'Checking and fixing...');
@@ -319,6 +334,49 @@ Create 4-6 screen files + shared components + hooks. Make it functional with rea
   await logger.trackTokens(usage.prompt_tokens || 0, usage.completion_tokens || 0, 0);
 
   return files;
+}
+
+// ─── WIRING CHECK ────────────────────────────────────────────────────
+
+function wiringCheck(workDir: string): string[] {
+  const missing: string[] = [];
+
+  // Find all relative imports in .ts/.tsx files
+  const findImports = (dir: string) => {
+    if (!existsSync(dir)) return;
+    const entries = readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries) {
+      const fullPath = join(dir, entry.name);
+      if (entry.isDirectory() && entry.name !== 'node_modules' && entry.name !== '.git') {
+        findImports(fullPath);
+      } else if (entry.isFile() && /\.(ts|tsx)$/.test(entry.name)) {
+        const content = readFileSync(fullPath, 'utf-8');
+        const importMatches = content.matchAll(/from\s+['"](\.[^'"]+)['"]/g);
+        for (const match of importMatches) {
+          const importPath = match[1];
+          const resolved = resolveImport(join(dir), importPath);
+          if (!resolved) {
+            // Convert to relative path from workDir
+            const rel = join(dir, importPath).replace(workDir + '/', '');
+            if (!missing.includes(rel + '.tsx')) missing.push(rel + '.tsx');
+          }
+        }
+      }
+    }
+  };
+
+  findImports(join(workDir, 'app'));
+  findImports(join(workDir, 'src'));
+  return missing;
+}
+
+function resolveImport(fromDir: string, importPath: string): boolean {
+  const base = join(fromDir, importPath);
+  for (const ext of ['.ts', '.tsx', '.js', '.jsx', '']) {
+    if (existsSync(base + ext)) return true;
+  }
+  if (existsSync(join(base, 'index.ts')) || existsSync(join(base, 'index.tsx'))) return true;
+  return false;
 }
 
 // ─── WRITE CODE FILES ────────────────────────────────────────────────
