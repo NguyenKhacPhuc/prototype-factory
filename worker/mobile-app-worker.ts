@@ -139,7 +139,7 @@ export async function runMobileAppJob(jobId: string, input: MobileAppInput) {
     // Zip the output
     const { execSync } = await import('child_process');
     const zipPath = `/tmp/builds/${jobId}.zip`;
-    execSync(`cd "${workDir}" && zip -r "${zipPath}" . -x "node_modules/*" ".git/*"`, { timeout: 30000 });
+    execSync(`cd "${workDir}" && zip -r "${zipPath}" . -x "node_modules/*" ".git/*"`, { timeout: 30000, maxBuffer: 10 * 1024 * 1024, stdio: 'pipe' });
 
     // Upload to Supabase Storage
     const zipBuffer = readFileSync(zipPath);
