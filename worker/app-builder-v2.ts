@@ -87,7 +87,37 @@ export default function RootLayout() {
   );
 }`;
 
-// ─── MAIN BUILDER ────────────────────────────────────────────────────
+// ─── DESIGN PHASE ONLY (for pending_design_review) ───────────────────
+
+export async function runDesignPhase(jobId: string, input: { prompt: string; prototype_folder?: string }) {
+  const logger = new PipelineLogger(jobId);
+  const supabase = createClient(config.supabaseUrl, config.supabaseServiceKey);
+  const workDir = `/tmp/builds/${jobId}`;
+
+  try {
+    await logger.markStarted();
+    mkdirSync(join(workDir, 'specs'), { recursive: true });
+
+    // Run design via Gemini (free, fast)
+    await logger.updateProgress(1, 2, 'Designing your app...');
+    const design = await designWithGemini(input.prompt, input.prototype_folder, logger);
+    writeFileSync(join(workDir, 'specs/design.json'), JSON.stringify(design, null, 2));
+
+    // Save design data and pause — wait for user approval
+    await supabase.from('generation_jobs').update({
+      status: 'pending_design_review',
+      design_data: design,
+      progress: { step: 2, total: 2, message: 'Design ready — waiting for approval' },
+    }).eq('id', jobId);
+
+    logger.log({ stage: 1, step: 'design', event: 'complete', detail: 'Paused for review' });
+
+  } catch (err: any) {
+    await logger.markFailed(err.message || 'Design phase failed');
+  }
+}
+
+// ─── MAIN BUILDER (runs after design approval) ──────────────────────
 
 export async function buildAppV2(jobId: string, input: { prompt: string; prototype_folder?: string }) {
   const logger = new PipelineLogger(jobId);
@@ -111,14 +141,21 @@ export async function buildAppV2(jobId: string, input: { prompt: string; prototy
     scaffoldTemplate(workDir, appSlug);
     await pushLog('Project scaffold created.', ['package.json', 'app.json', 'tsconfig.json', 'babel.config.js', 'app/_layout.tsx'], 'action');
 
-    // ── Step 2: Design ──
+    // ── Step 2: Design (reuse from design review if available) ──
     await logger.updateProgress(2, 5, 'Designing your app...');
-    await pushLog('Designing the app — choosing colors, screens, and features...', undefined, 'info');
-    const design = await designWithGemini(input.prompt, input.prototype_folder, logger);
+    const { data: existingJob } = await supabase.from('generation_jobs').select('design_data').eq('id', jobId).single();
+    let design: any;
+    if (existingJob?.design_data) {
+      design = existingJob.design_data;
+      await pushLog('Using approved design.', ['specs/design.json'], 'success');
+    } else {
+      await pushLog('Designing the app — choosing colors, screens, and features...', undefined, 'info');
+      design = await designWithGemini(input.prompt, input.prototype_folder, logger);
+      await supabase.from('generation_jobs').update({ design_data: design }).eq('id', jobId);
+    }
     writeFileSync(join(workDir, 'specs/design.json'), JSON.stringify(design, null, 2));
     const screenNames = (design.screens || []).map((s: any) => typeof s === 'string' ? s : s.name);
-    await pushLog(`Design complete: ${screenNames.length} screens planned.`, ['specs/design.json'], 'success');
-    await supabase.from('generation_jobs').update({ design_data: design }).eq('id', jobId);
+    await pushLog(`Design: ${screenNames.length} screens.`, ['specs/design.json'], 'success');
 
     // ── Step 3: Implement ──
     await logger.updateProgress(3, 5, 'Building all screens...');

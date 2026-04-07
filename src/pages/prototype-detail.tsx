@@ -230,7 +230,7 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
             <BuildAppModal
               prototype={{ folder: p.folder, appName: p.appName, tagline: p.tagline, description: p.description, category: p.category }}
               onClose={() => setShowBuildModal(false)}
-              onStarted={(jobId) => { setShowBuildModal(false); setBuildJobId(jobId); }}
+              onStarted={(jobId) => { setShowBuildModal(false); navigate(`/design/${jobId}`); }}
             />
           )}
 

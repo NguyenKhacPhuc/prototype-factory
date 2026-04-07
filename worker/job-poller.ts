@@ -2,7 +2,7 @@ import { createClient } from '@supabase/supabase-js';
 import { config } from './config';
 import { runPrototypeJob } from './prototype-worker';
 import { runMobileAppJob } from './mobile-app-worker';
-import { buildAppV2 } from './app-builder-v2';
+import { buildAppV2, runDesignPhase } from './app-builder-v2';
 
 const supabase = createClient(config.supabaseUrl, config.supabaseServiceKey);
 
@@ -17,7 +17,27 @@ export async function startPolling() {
     if (activeJobs >= MAX_CONCURRENT_PROTOTYPE + MAX_CONCURRENT_MOBILE) return;
 
     try {
-      // Claim a pending job (prototype or mobile-app)
+      // Check for pending_design_review jobs first (run design only)
+      const { data: reviewJobs } = await supabase
+        .from('generation_jobs')
+        .update({ status: 'running', started_at: new Date().toISOString() })
+        .eq('status', 'pending_design_review')
+        .eq('type', 'mobile-app')
+        .order('created_at', { ascending: true })
+        .limit(1)
+        .select();
+
+      if (reviewJobs?.length) {
+        const job = reviewJobs[0];
+        console.log(`Design review job ${job.id}: ${job.input?.prompt?.slice(0, 50)}...`);
+        activeJobs++;
+        runDesignPhase(job.id, job.input)
+          .catch(err => console.error(`Design job ${job.id} failed:`, err.message))
+          .finally(() => { activeJobs--; });
+        return;
+      }
+
+      // Then check for approved pending jobs (full build)
       const { data: jobs, error } = await supabase
         .from('generation_jobs')
         .update({ status: 'running', started_at: new Date().toISOString() })
@@ -32,8 +52,6 @@ export async function startPolling() {
       console.log(`Picked up ${job.type} job ${job.id}: ${job.input?.prompt?.slice(0, 50)}...`);
 
       activeJobs++;
-      // mobile-app-v2 uses the new template + single-shot approach
-      // mobile-app uses the old multi-stage skill router approach
       const runner = job.type === 'mobile-app'
         ? buildAppV2(job.id, job.input)
         : runPrototypeJob(job.id, job.input);
