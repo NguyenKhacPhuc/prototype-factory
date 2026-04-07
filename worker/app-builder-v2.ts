@@ -109,10 +109,18 @@ export async function buildAppV2(jobId: string, input: { prompt: string; prototy
     writeFileSync(join(workDir, 'specs/design.json'), JSON.stringify(design, null, 2));
     logger.log({ stage: 1, step: 'design', event: 'complete', detail: `${design.screens?.length || 0} screens` });
 
+    // ── Step 2.5: Save design data for review page ──
+    await supabase.from('generation_jobs').update({ design_data: design }).eq('id', jobId);
+
     // ── Step 3: Implement ALL screens in one call ──
     await logger.updateProgress(3, 5, 'Building all screens...');
     const code = await implementAllScreens(input.prompt, design, logger);
     writeCodeFiles(workDir, code);
+
+    // Update files_created for live terminal
+    const filesList = Object.keys(code).map(path => ({ path, status: 'done', size: code[path].length }));
+    await supabase.from('generation_jobs').update({ files_created: filesList }).eq('id', jobId);
+
     logger.log({ stage: 2, step: 'implement', event: 'complete', detail: `${Object.keys(code).length} files written` });
 
     // ── Step 3.5: Wiring check — verify all imports reference existing files ──
