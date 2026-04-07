@@ -1,0 +1,46 @@
+{
+  "name": "Earth Plate",
+  "tagline": "Your local taste expedition.",
+  "description": "Earth Plate transforms daily cooking and dining into a localized culinary adventure and a shared identity. It\u2019s for those who believe food tells a story, connecting them not just to ingredients but to their land and community. Users embark on \"Terroir Streaks,\" challenging themselves to discover, cook with, and document hyper-local, seasonal ingredients, earning \"Regional Palate\" points for their efforts. The app helps users explore local farmers' markets, hidden artisanal producers, and traditional regional dishes, fostering a deep sense of belonging among \"Local Food Stewards.\" By actively contributing their discoveries and unique taste profiles, members collectively map their region's evolving culinary identity, fostering authentic community connection and celebrating the unsung heroes of local foodways. This isn't just about what you eat; it's about where it comes from, who made it, and the shared knowledge that builds a vibrant local food culture.",
+  "features": [
+    {
+      "title": "Terroir Streaks",
+      "detail": "Maintain daily or weekly streaks by cooking with specific local, seasonal ingredients. This gamified mechanic encourages consistent local food exploration and deepens culinary knowledge."
+    },
+    {
+      "title": "Local Ingredient Atlas",
+      "detail": "An interactive, community-curated map highlighting local farms, producers, and markets selling ingredients with unique \"terroir\" profiles. Users can add new discoveries, reviews, and tips, creating a living guide to regional food sources."
+    },
+    {
+      "title": "Flavor Profile Journal",
+      "detail": "Document the specific taste, texture, and origin stories of ingredients you use, complete with photos and personal notes. This builds a personal and community-shared compendium of local flavors and their unique characteristics."
+    },
+    {
+      "title": "Culinary Guilds & Quests",
+      "detail": "Join local \"guilds\" (e.g., \"Forager's Fellowship,\" \"Preservation Pioneers\") to collaborate on community-wide \"quests\" focused on specific culinary traditions or ingredient hunts. Guilds foster camaraderie and provide a platform for shared learning and achievement."
+    },
+    {
+      "title": "Stewards' Leaderboard",
+      "detail": "A gamified progression system displaying local users' \"Regional Palate\" points, streak duration, and contributions to the Local Ingredient Atlas. This fosters healthy competition and publicly recognizes the most dedicated \"Local Food Stewards.\""
+    }
+  ],
+  "audience": "Passionate home cooks, adventurous eaters, and local food enthusiasts aged 25-55, particularly those interested in sustainable living, farm-to-table movements, and connecting with their local community through shared culinary experiences.",
+  "category": "food & cooking",
+  "useCases": [
+    {
+      "title": "Farmer's Market Discovery",
+      "detail": "A user visits their local farmer's market, opens Earth Plate, finds a featured \"Terroir Challenge\" ingredient (e.g., specific heritage tomato variety), and gets recipe suggestions and local producer info, fulfilling their streak."
+    },
+    {
+      "title": "New Resident's Guide",
+      "detail": "A new resident wants to understand the unique culinary identity of their town; they open Earth Plate to explore the community-curated \"Local Ingredient Atlas\" and discover traditional dishes and where to find their key ingredients."
+    },
+    {
+      "title": "Culinary Skill Building",
+      "detail": "A home cook is trying to maintain their \"Regional Palate Streak\" and deepen their skills, so they browse 'Culinary Guild' quests to find a new local ingredient to experiment with for dinner, earning points and contributing to local food knowledge."
+    }
+  ],
+  "engagementLoop": "Users are intrinsically motivated by the desire to maintain their \"Terroir Streaks\" and earn \"Regional Palate\" points, which unlocks new \"Culinary Guild\" challenges and enhances their standing on the Stewards' Leaderboard. The daily discovery of unique local ingredients and the shared mission of documenting regional food culture within a supportive community keep them coming back multiple times per week.",
+  "trendFit": "Earth Plate aligns perfectly with the growing consumer trend towards localism, sustainable food sourcing, and experiential consumption, particularly among digitally native generations seeking authentic community connections. It leverages the 'discovery' trend by gamifying exploration of regional culinary identities and capitalizes on the human desire for belonging through shared passion.",
+  "monetization": "A \"Chef's Pass\" premium subscription offers advanced analytics on personal flavor profiles, exclusive workshops with local chefs, and early access to unique ingredient discovery quests. This also includes ad-free browsing and special in-app recognition."
+}

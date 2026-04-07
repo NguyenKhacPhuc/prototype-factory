@@ -1,0 +1,19 @@
+{
+  "appName": "Earth Plate",
+  "tagline": "Your local taste expedition.",
+  "designSystem": {
+    "primaryColor": "#DC2626",
+    "secondaryColor": "#F87171",
+    "backgroundColor": "#FEF2F2",
+    "ctaColor": "#CA8A04",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — bold, energetic, playful block layout with geometric shapes, high color contrast, duotone accents, and modern gamified UI patterns"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "journal",
+    "guilds",
+    "leaderboard"
+  ]
+}
