@@ -67,6 +67,7 @@ export function DesignReview({ jobId, navigate }: Props) {
   const design = job.design_data || {};
   const colors = design.colors || {};
   const screens = design.screens || [];
+  const protoFolder = job.input?.prototype_folder || "";
   const isBuilding = job.status === "running";
   const isDone = job.status === "completed";
   const isFailed = job.status === "failed";
@@ -98,24 +99,36 @@ export function DesignReview({ jobId, navigate }: Props) {
       </div>
 
       {/* Split Panel */}
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, alignItems: "start" }}>
+      <div style={{ display: "grid", gridTemplateColumns: "420px 1fr", gap: 24, alignItems: "start" }}>
 
-        {/* LEFT: Design Review */}
+        {/* LEFT: Interactive Preview */}
         <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
 
-          {/* Colors */}
-          {Object.keys(colors).length > 0 && (
+          {/* Prototype iframe (interactive) */}
+          {protoFolder ? (
+            <div style={{ position: "sticky", top: 80, background: "#111", borderRadius: 24, overflow: "hidden", border: "1px solid var(--border)", boxShadow: "0 20px 60px rgba(0,0,0,0.4)" }}>
+              <iframe
+                src={`/prototypes/${protoFolder}/preview.html`}
+                sandbox="allow-scripts allow-same-origin"
+                title={design.appName || "Preview"}
+                style={{ width: "100%", height: 860, border: "none" }}
+              />
+            </div>
+          ) : (
+            /* No prototype — show color swatches as fallback */
             <div style={{ padding: 20, borderRadius: 14, background: "var(--bg-elevated)", border: "1px solid var(--border)" }}>
-              <h3 style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1, color: "var(--text-muted)", marginBottom: 12 }}>Colors</h3>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
+              <h3 style={{ fontSize: 13, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1, color: "var(--text-muted)", marginBottom: 12 }}>Preview</h3>
+              <p style={{ fontSize: 13, color: "var(--text-dim)" }}>No prototype available. Build will generate the app from scratch.</p>
+            </div>
+          )}
+
+          {/* Colors (compact, below preview) */}
+          {Object.keys(colors).length > 0 && (
+            <div style={{ padding: 16, borderRadius: 14, background: "var(--bg-elevated)", border: "1px solid var(--border)" }}>
+              <h3 style={{ fontSize: 11, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, color: "var(--text-muted)", marginBottom: 10 }}>Color Palette</h3>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
                 {Object.entries(colors).map(([name, hex]) => (
-                  <div key={name} style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                    <div style={{ width: 32, height: 32, borderRadius: 8, background: String(hex), border: "1px solid var(--border)" }} />
-                    <div>
-                      <div style={{ fontSize: 12, fontWeight: 600, color: "var(--text)" }}>{name}</div>
-                      <div style={{ fontSize: 11, fontFamily: "monospace", color: "var(--text-dim)" }}>{String(hex)}</div>
-                    </div>
-                  </div>
+                  <div key={name} title={`${name}: ${hex}`} style={{ width: 28, height: 28, borderRadius: 6, background: String(hex), border: "1px solid var(--border)", cursor: "default" }} />
                 ))}
               </div>
             </div>
