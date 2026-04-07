@@ -1,5 +1,64 @@
 [
   {
+    "folder": "2026-04-07-shift-solace",
+    "appName": "Shift Solace",
+    "tagline": "Recharge and reset: Your nightly sanctuary for shift workers.",
+    "designSystem": {
+      "primaryColor": "#2979FF",
+      "secondaryColor": "#FF5252",
+      "backgroundColor": "#FAFAFA",
+      "fontFamily": "system / system",
+      "style": "bold geometric"
+    },
+    "screens": [
+      "home"
+    ],
+    "hasScreenshot": false,
+    "description": "Shift Solace is a meditation and mindful breathing app uniquely designed for nurses and night shift workers. It offers bespoke short meditations, guided breathwork, and ambient soundscapes, all paired with serene, low-light visuals tailored to promote deep relaxation and mental reset during breaks or after a long shift, without overstimulating the senses or disrupting sensitive circadian rhythms.",
+    "features": [
+      {
+        "title": "Shift-Optimized Meditations",
+        "detail": "Short, targeted meditation and breathwork sessions (5-15 mins) specifically for pre-shift centering, mid-shift stress relief, and post-shift wind-down, understanding the unique time constraints and mental states of night workers."
+      },
+      {
+        "title": "Adaptive Visualscapes",
+        "detail": "Calming, dark-mode friendly visuals (e.g., slow-moving nebulae, bioluminescent deep-sea scenes, gentle abstract light patterns) that avoid harsh blue light and promote relaxation without overstimulation, ideal for low-light environments."
+      },
+      {
+        "title": "'SOS Moment' Quick Reset",
+        "detail": "One-minute guided breathwork exercises accessible with a single tap, designed for immediate stress relief and mental clarity during particularly hectic or challenging moments on the shift."
+      },
+      {
+        "title": "Quiet Commute Mode",
+        "detail": "Audio-only options for guided decompression and reflective listening, allowing safe engagement on the drive or walk home to process the shift and detach from work without visual distractions."
+      },
+      {
+        "title": "Sleep Transition Soundscapes",
+        "detail": "A library of non-disruptive audio tracks, including white noise, nature sounds, and gentle instrumental music, specifically curated to aid in the transition to sleep after a night shift."
+      }
+    ],
+    "audience": "Nurses and healthcare professionals primarily working night shifts, as well as other night shift workers facing similar challenges.",
+    "category": "Mental Wellness, Meditation, Sleep Aid",
+    "useCases": [
+      {
+        "title": "Pre-Shift Centering",
+        "detail": "A nurse can use a 5-minute guided meditation before their shift to mentally prepare, set intentions, and center themselves for the demanding hours ahead, fostering a calm mindset from the start."
+      },
+      {
+        "title": "Mid-Shift Stress Relief",
+        "detail": "During a short break or a moment of overwhelm, a night shift worker can quickly access the 'SOS Moment' feature for a breathwork exercise to alleviate acute stress and regain focus and composure."
+      },
+      {
+        "title": "Post-Shift Wind-Down",
+        "detail": "After their shift ends, users can engage with a longer meditation, adaptive visualscape, or sleep soundscape to decompress, process the day, and ease into a restful sleep, mitigating the 'wired but tired' feeling."
+      },
+      {
+        "title": "Commute Decompression",
+        "detail": "While commuting home, a user can listen to an audio-only guided session to gently detach from work-related stress and transition into a more relaxed personal space before reaching home."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-06-dropflow-ai",
     "appName": "DropFlow AI",
     "tagline": "T\u1ed1i \u01b0u Dropshipping. T\u1ef1 \u0111\u1ed9ng h\u00f3a L\u1ee3i Nhu\u1eadn c\u1ee7a b\u1ea1n.",

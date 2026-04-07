@@ -1,0 +1,14 @@
+{
+  "appName": "Shift Solace",
+  "tagline": "Recharge and reset: Your nightly sanctuary for shift workers.",
+  "designSystem": {
+    "primaryColor": "#2979FF",
+    "secondaryColor": "#FF5252",
+    "backgroundColor": "#FAFAFA",
+    "fontFamily": "system / system",
+    "style": "bold geometric"
+  },
+  "screens": [
+    "home"
+  ]
+}
