@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { supabase } from "../lib/supabase";
 import { useAuth } from "../hooks/use-auth";
-import { GenerationProgress } from "./generation-progress";
 
 interface Props {
   navigate: (to: string) => void;
@@ -19,7 +18,6 @@ const EXAMPLES = [
 export function Create({ navigate }: Props) {
   const { user } = useAuth();
   const [prompt, setPrompt] = useState("");
-  const [jobId, setJobId] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -83,14 +81,6 @@ export function Create({ navigate }: Props) {
 
   return (
     <div style={{ maxWidth: 720, margin: "0 auto", padding: "60px 32px 100px" }}>
-      {jobId && (
-        <GenerationProgress
-          jobId={jobId}
-          onComplete={(folder) => navigate(`/prototype/${folder}`)}
-          onClose={() => setJobId(null)}
-        />
-      )}
-
       <div style={{ textAlign: "center" as const, marginBottom: 40 }}>
         <span style={{
           display: "inline-block", fontSize: 11, fontWeight: 700,
