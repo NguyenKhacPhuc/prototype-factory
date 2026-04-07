@@ -85,7 +85,7 @@ export async function runMobileAppJob(jobId: string, input: MobileAppInput) {
     await logger.updateProgress(6, 12, 'Stage 3: Breaking down tasks...');
 
     const tasksResult = await session.runStep(3, 'plan',
-      `Read specs/spec.md and create a task breakdown. List each task with dependencies. Write to specs/tasks.md.`
+      `Read specs/spec.md and create a task breakdown. IMPORTANT: Keep it to 8-12 tasks maximum. Group related work into single tasks (e.g. "Implement all screens" not one task per screen). Write to specs/tasks.md.`
     );
 
     // Parse tasks and implement each one
@@ -93,12 +93,18 @@ export async function runMobileAppJob(jobId: string, input: MobileAppInput) {
       ? readFileSync(join(workDir, 'specs/tasks.md'), 'utf-8')
       : '';
 
-    const taskCount = (tasksContent.match(/- \[/g) || []).length || 10;
+    // Cap tasks to 15 max — Claude tends to over-decompose
+    const rawTaskCount = (tasksContent.match(/- \[/g) || []).length || 10;
+    const taskCount = Math.min(rawTaskCount, 15);
     let completedTasks = 0;
 
-    // Batch tasks (3 at a time) to reduce API calls and cost
-    const BATCH_SIZE = 3;
-    const totalBatches = Math.ceil(Math.min(taskCount, 30) / BATCH_SIZE);
+    if (rawTaskCount > 15) {
+      logger.log({ stage: 3, step: 'plan', event: 'complete', detail: `Capped tasks from ${rawTaskCount} to ${taskCount}` });
+    }
+
+    // Batch tasks (5 at a time) to reduce API calls and cost
+    const BATCH_SIZE = 5;
+    const totalBatches = Math.ceil(taskCount / BATCH_SIZE);
 
     for (let batch = 0; batch < totalBatches; batch++) {
       const batchStart = batch * BATCH_SIZE + 1;
@@ -117,7 +123,6 @@ export async function runMobileAppJob(jobId: string, input: MobileAppInput) {
 
       // Clear history after every batch to prevent tool_use/tool_result desync
       session.clearHistory();
-      }
     }
 
     session.clearHistory();

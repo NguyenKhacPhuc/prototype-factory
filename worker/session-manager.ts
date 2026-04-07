@@ -54,9 +54,9 @@ export class SessionManager {
 
     let response = await this.callWithRetry(model, system, this.messages, this.getTools());
 
-    // Handle tool use loops
+    // Handle tool use loops (cap at 8 to prevent runaway cost)
     let iterations = 0;
-    while (response.stop_reason === 'tool_use' && iterations < 20) {
+    while (response.stop_reason === 'tool_use' && iterations < 8) {
       iterations++;
       const toolBlocks = response.content.filter((b: any) => b.type === 'tool_use');
       const toolResults: ToolResult[] = [];
