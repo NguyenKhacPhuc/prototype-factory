@@ -2,6 +2,7 @@ import { createClient } from '@supabase/supabase-js';
 import { config } from './config';
 import { runPrototypeJob } from './prototype-worker';
 import { runMobileAppJob } from './mobile-app-worker';
+import { buildAppV2 } from './app-builder-v2';
 
 const supabase = createClient(config.supabaseUrl, config.supabaseServiceKey);
 
@@ -31,8 +32,10 @@ export async function startPolling() {
       console.log(`Picked up ${job.type} job ${job.id}: ${job.input?.prompt?.slice(0, 50)}...`);
 
       activeJobs++;
+      // mobile-app-v2 uses the new template + single-shot approach
+      // mobile-app uses the old multi-stage skill router approach
       const runner = job.type === 'mobile-app'
-        ? runMobileAppJob(job.id, job.input)
+        ? buildAppV2(job.id, job.input)
         : runPrototypeJob(job.id, job.input);
 
       runner
