@@ -38,7 +38,9 @@ export class SessionManager {
 
   /** Run a single step with appropriate skills and model */
   async runStep(stage: number, step: string, prompt: string, taskReqs?: string[]): Promise<string> {
-    const system = this.router.buildSystemMessage(stage, step, taskReqs);
+    // Only include references for design stage (stage 1) where theme-engine etc matter
+    const includeRefs = stage === 1;
+    const system = this.router.buildSystemMessage(stage, step, taskReqs, includeRefs);
     const model = SkillRouter.getModel(stage, step);
     const start = Date.now();
 

@@ -138,14 +138,14 @@ export class SkillRouter {
   }
 
   /** Build system message with prompt caching enabled */
-  buildSystemMessage(stage: number, step: string, taskReqs?: string[]) {
+  buildSystemMessage(stage: number, step: string, taskReqs?: string[], includeRefs = false) {
     const skills = this.resolve(stage, step, taskReqs);
-    const totalTokens = skills.reduce((sum, s) => sum + s.tokens, 0);
 
     const skillText = skills
       .map(s => {
         let text = `## SKILL: ${s.name}\n\n${s.content}`;
-        if (s.references.length > 0) {
+        // Only include references for design stage (where they matter most)
+        if (includeRefs && s.references.length > 0) {
           text += '\n\n### References\n';
           for (const ref of s.references) {
             text += `\n#### ${ref.name}\n${ref.content}\n`;
@@ -155,7 +155,8 @@ export class SkillRouter {
       })
       .join('\n\n---\n\n');
 
-    console.log(`  Skills loaded: [${skills.map(s => s.name).join(', ')}] (~${totalTokens} tokens)`);
+    const totalTokens = Math.ceil(skillText.length / 4);
+    console.log(`  Skills: [${skills.map(s => s.name).join(', ')}] ~${totalTokens} tokens (refs=${includeRefs})`);
 
     return [
       {

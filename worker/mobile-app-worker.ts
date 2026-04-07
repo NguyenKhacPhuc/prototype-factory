@@ -96,21 +96,26 @@ export async function runMobileAppJob(jobId: string, input: MobileAppInput) {
     const taskCount = (tasksContent.match(/- \[/g) || []).length || 10;
     let completedTasks = 0;
 
-    // Implement tasks (simplified — real implementation would parse tasks.md)
-    for (let i = 0; i < Math.min(taskCount, 30); i++) {
-      completedTasks++;
-      const taskProgress = 6 + Math.floor((completedTasks / taskCount) * 4);
-      await logger.updateProgress(taskProgress, 12, `Stage 3: Implementing task ${completedTasks}/${taskCount}...`);
+    // Batch tasks (3 at a time) to reduce API calls and cost
+    const BATCH_SIZE = 3;
+    const totalBatches = Math.ceil(Math.min(taskCount, 30) / BATCH_SIZE);
 
-      // Determine task requirements for skill routing
-      const taskReqs = detectTaskRequirements(tasksContent, i);
+    for (let batch = 0; batch < totalBatches; batch++) {
+      const batchStart = batch * BATCH_SIZE + 1;
+      const batchEnd = Math.min(batchStart + BATCH_SIZE - 1, taskCount);
+      completedTasks = batchEnd;
+
+      const taskProgress = 6 + Math.floor((completedTasks / taskCount) * 4);
+      await logger.updateProgress(taskProgress, 12, `Stage 3: Implementing tasks ${batchStart}-${batchEnd}/${taskCount}...`);
+
+      const taskReqs = detectTaskRequirements(tasksContent, batch);
 
       const implResult = await session.runStep(3, 'implement',
-        `Implement task ${completedTasks} from specs/tasks.md. Write the code, ensure it compiles, and mark the task as done.`,
+        `Implement tasks ${batchStart} through ${batchEnd} from specs/tasks.md. For each task: read the requirement, write the code files, ensure they integrate with existing code. Mark each task done when complete.`,
         taskReqs
       );
 
-      // Clear history after every task to prevent tool_use/tool_result desync
+      // Clear history after every batch to prevent tool_use/tool_result desync
       session.clearHistory();
       }
     }
