@@ -1,0 +1,18 @@
+{
+  "appName": "CoLab Sparks",
+  "tagline": "Ignite shared focus. Build together.",
+  "designSystem": {
+    "primaryColor": "#0D9488",
+    "secondaryColor": "#14B8A6",
+    "backgroundColor": "#F0FDFA",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — 2D minimalist, bold colors, no shadows, clean lines, typography-focused, icon-heavy"
+  },
+  "screens": [
+    "home",
+    "campaigns",
+    "campaign",
+    "focus",
+    "profile"
+  ]
+}
