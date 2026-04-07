@@ -1,5 +1,694 @@
 [
   {
+    "folder": "2026-04-08-serene-glimmers",
+    "appName": "Serene Glimmers",
+    "tagline": "Your camera roll, rewoven into calm.",
+    "designSystem": {
+      "primaryColor": "#0F0F23",
+      "secondaryColor": "#1E1B4B",
+      "backgroundColor": "#000000",
+      "ctaColor": "#E11D48",
+      "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+      "style": "Funnel conversion with bold geometric layouts, high contrast duotone, dark-first design with calming gradients and ambient motion effects"
+    },
+    "screens": [
+      "home",
+      "explore",
+      "player",
+      "sanctuary",
+      "settings"
+    ],
+    "hasScreenshot": true,
+    "description": "Serene Glimmers transforms your bustling camera roll into personalized moments of tranquility. Instead of highlight reels or quick edits, the app intelligently selects and artfully remasters snippets from your photos and videos, weaving them into brief, adaptive \"Glimmer Loops\" designed to evoke calm and reassurance. It learns your unique definition of serenity, whether it\u2019s the quiet beauty of a forgotten sunrise, the gentle sway of leaves, or the comforting smile of a loved one, and tailors visual styles, ambient soundscapes, and subtle motion effects to your evolving preferences. This adaptive remix tool provides a mindful escape, turning your own memories into therapeutic visual haikus you can revisit or share, making high-quality, emotionally resonant content creation accessible and effortless. It\u2019s a creative outlet that doubles as a mental reset, encouraging daily engagement with your own positive memory archive, and is distinct from other apps by generating multi-sensory, emotionally-tuned micro-experiences.",
+    "features": [
+      {
+        "title": "Adaptive Glimmer Generation",
+        "detail": "Users select a time range or theme, and the app's intelligent algorithms curate visually coherent and emotionally resonant photo/video snippets, applying unique calming filters and effects. This ensures each Glimmer is uniquely tailored to a mood and your media."
+      },
+      {
+        "title": "Mood Palette Customization",
+        "detail": "Users can fine-tune generated Glimmers by selecting from a library of \"mood palettes\" (e.g., 'Soft Focus', 'Vivid Calm', 'Dreamy Haze'), each influencing color, light, and motion. The app observes these choices to refine future generations, deepening personalization."
+      },
+      {
+        "title": "Ambient Soundscapes & Haptics",
+        "detail": "Each Glimmer Loop is paired with procedurally generated ambient sound (rain, forest, gentle music) and subtle haptic feedback, enhancing the immersive, calming effect. Users can favorite soundscapes for adaptive use, adding a unique sensory layer to their memories."
+      },
+      {
+        "title": "Daily Serenity Prompt",
+        "detail": "The app occasionally prompts users with a gentle question (e.g., \"What brought you peace today?\") and uses their answer to search their camera roll and generate a relevant Glimmer. This encourages daily reflection and provides fresh, relevant content."
+      },
+      {
+        "title": "Private Sanctuary Stream",
+        "detail": "Users can save their favorite Glimmer Loops to a private, infinite-scrolling feed, creating a personal gallery of peace that continuously adapts and adds new variations based on saved preferences. This offers a deeply personal and evolving source of calm."
+      }
+    ],
+    "audience": "Individuals experiencing daily stress or seeking moments of calm, especially those with busy lifestyles like night shift workers, new parents, or high-stress professionals, who value visual beauty and personal reflection but have limited time for manual content creation.",
+    "category": "photo & video",
+    "useCases": [
+      {
+        "scenario": "A night shift nurse finishes a long shift and opens Serene Glimmers to find a newly generated \"Morning Calm\" Glimmer based on photos from their last day off. This helps them decompress and find peace before attempting to sleep against their natural circadian rhythm."
+      },
+      {
+        "scenario": "A new parent, overwhelmed by the day's demands, quickly creates a \"Little Joys\" Glimmer from recent baby photos. This isn't for sharing, but for a private moment of reassuring love and beauty, reconnecting with positive emotions."
+      },
+      {
+        "scenario": "Someone waiting in a long line uses the \"Daily Serenity Prompt\" to reflect on a peaceful moment from their week, watching the app transform a mundane photo into a soothing, personalized mini-experience. It offers a mindful way to pass time instead of endless social scrolling."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-08-goalguild",
+    "appName": "GoalGuild",
+    "tagline": "Your Finance Club. Your Path.",
+    "designSystem": {
+      "primaryColor": "#18181B",
+      "secondaryColor": "#3F3F46",
+      "ctaColor": "#2563EB",
+      "backgroundColor": "#FAFAFA",
+      "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+      "style": "AI Personalization Landing \u2014 animation-heavy with microinteractions, smooth transitions, scroll effects, parallax, entrance animations, and page transitions. Clean iOS-native feel with system font stack."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "guilds",
+      "guildDetail",
+      "storyboard",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "GoalGuild transforms personal finance into a collaborative journey of discovery and achievement. Far from a mere tracker, it\u2019s an exclusive asynchronous club where users, especially those with non-traditional schedules like night shift workers, define and share their 'financial experiments.' Members document their challenges, strategies, and breakthroughs using voice notes, text, and simple visual summaries. This user-generated content forms a rich library of real-world financial tactics. Others within the guild asynchronously review, provide feedback, and celebrate milestones, fostering a powerful sense of collective progress and accountability without revealing sensitive financial data. It's about learning by doing, sharing the 'how' and 'why', and growing together through validated financial practices and mutual encouragement.",
+    "features": [
+      {
+        "title": "Experiment Forge",
+        "detail": "Users define specific financial goals as 'experiments' (e.g., '30-day no-spend challenge,' 'Automate 15% savings'). They document their process, obstacles, and subjective outcomes via text or voice notes, focusing on learning over just results."
+      },
+      {
+        "title": "Guild Halls",
+        "detail": "Members join thematic 'Guilds' (e.g., 'Night Owl Navigators' for night shift workers, 'Early Retirement Architects'). These curated groups provide a strong sense of belonging and ensure relevant, context-specific advice and support."
+      },
+      {
+        "title": "Insight & Fork Cards",
+        "detail": "When reviewing peers' experiments, users can submit 'Insight Cards' (structured feedback or encouragement) or 'Fork Cards' (suggesting alternative approaches or related experiments). This fosters actionable learning and deep, asynchronous collaboration."
+      },
+      {
+        "title": "Milestone Badges & Mastery Paths",
+        "detail": "As users complete experiments and contribute valuable insights, they earn distinctive badges. Progress is visualized through 'Mastery Paths' within their chosen guilds, providing a gamified sense of achievement and continuous motivation."
+      },
+      {
+        "title": "Asynchronous Storyboards",
+        "detail": "Each experiment generates a visual 'storyboard' timeline, composed of voice notes, text updates, and small image uploads, showing the journey from hypothesis to outcome. This encourages narrative sharing over raw data and perfectly suits irregular schedules."
+      }
+    ],
+    "audience": "Night shift workers (e.g., healthcare, emergency services, logistics) and other individuals with irregular schedules seeking to master personal finance within a supportive, flexible community.",
+    "category": "personal finance",
+    "useCases": [
+      {
+        "title": "Post-Shift Reflection",
+        "detail": "A night shift nurse, after a 12-hour shift, opens GoalGuild to quickly record a voice note update on her 'Saving for Better Blackout Curtains' experiment, detailing how she avoided impulse online shopping during her 'post-shift wind-down'."
+      },
+      {
+        "title": "Lunch Break Learning",
+        "detail": "A logistics coordinator on their lunch break at 3 AM sees a 'Fork Card' suggestion on their 'Reducing Drive-Thru Spending' experiment from another 'Night Owl Navigators' guild member, proposing a new strategy for meal prepping during their limited daylight hours."
+      },
+      {
+        "title": "Goal-Oriented Discovery",
+        "detail": "A police officer, aspiring to buy a house, browses the 'First-Time Homebuyer Architects' guild while waiting for a call. They discover a detailed 'Experiment Forge' entry about navigating mortgage pre-approval specifically for variable shift workers, providing actionable steps."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-08-the-dawn-pact",
+    "appName": "The Dawn Pact",
+    "tagline": "Commit. Practice. Rise. Together.",
+    "designSystem": {
+      "primaryColor": "#7C3AED",
+      "secondaryColor": "#A78BFA",
+      "backgroundColor": "#FAF5FF",
+      "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+      "style": "Community/Forum Landing \u2014 bold, energetic, playful, block layout, geometric shapes, high color contrast, duotone, modern"
+    },
+    "screens": [
+      "home",
+      "circles",
+      "live",
+      "insights",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "The Dawn Pact is a unique social platform built around shared, live ritualistic practice sessions for personal growth and goal achievement. Users publicly commit to a \"Quest\" \u2013 a specific, time-bound personal goal like \"Learn 50 Spanish words,\" \"Practice guitar for 1 hour,\" or \"Write 500 words of a novel.\" Each Quest is paired with a self-selected \"Pact Circle\" of peers and a \"Ritual Time Slot\" (e.g., a \"Sunrise Scroll\" session at 6 AM GMT, or a \"Twilight Bloom\" at 11 PM PST, accommodating global and diverse schedules like night shift workers). During these live, synchronized sessions, members log in together, muted but visible in a mosaic view, committing to their individual practice. A unique \"Oath Scroll\" interface visually tracks the group's collective, anonymized progress during the session, fostering motivation through communal effort. It's not just about doing; it's about doing *together* in a structured, almost sacred time block, creating powerful accountability and a sense of shared purpose that transcends typical social apps.",
+    "features": [
+      {
+        "title": "Quest Crucible",
+        "detail": "Users define personal, specific, and measurable \"Quests\" (e.g., \"Master 3 new yoga poses in 7 days\"). This guides focused goal-setting and makes personal commitments concrete."
+      },
+      {
+        "title": "Pact Circles & Ritual Slots",
+        "detail": "Join or create a private \"Pact Circle\" with like-minded individuals and choose from predefined, cross-time-zone \"Ritual Slots\" for synchronized practice sessions. This ensures global accessibility, catering to diverse daily schedules."
+      },
+      {
+        "title": "Live Oath Scrolls",
+        "detail": "During live sessions, a communal \"Oath Scroll\" visually tracks the group's real-time, anonymous commitment progress (e.g., collective 'time-on-task' or 'tasks completed'). This creates a powerful sense of shared momentum and soft accountability."
+      },
+      {
+        "title": "Ritual Replays & Insights",
+        "detail": "After each session, users receive a personalized \"Ritual Insight\" summarizing their own progress and highlighting the collective achievement of their Pact Circle. Replays (text-based, not video) reinforce commitment and provide a log of dedication."
+      },
+      {
+        "title": "Moment of Resolve",
+        "detail": "At the culmination of a Quest cycle, Pact Circles hold a special live \"Moment of Resolve\" where members, if they choose, can briefly share their outcome or a key learning from their journey. This voluntary 'showing of work' closes the ritual loop and provides ultimate, supportive accountability."
+      }
+    ],
+    "audience": "Ambitious individuals aged 25-45, including professionals, creatives, and particularly night shift workers, who struggle with consistency in personal development and seek structured, communal accountability beyond traditional daytime schedules.",
+    "category": "social & community",
+    "useCases": [
+      {
+        "title": "Night Shift Creative Flow",
+        "detail": "A freelance designer working night shifts uses \"The Dawn Pact\" to join a \"Creative Flow\" Pact Circle, committing to 90 minutes of focused digital painting during a 1 AM GMT \"Twilight Bloom\" session, leveraging the shared silent presence of her group for motivation and consistency."
+      },
+      {
+        "title": "Exam Prep Study Surge",
+        "detail": "A student preparing for a certification exam creates a \"Study Surge\" Quest, inviting classmates to a daily \"Midday Mantra\" session. They all log in simultaneously, silently working on their respective study materials, feeling a collective push to stay focused during their allocated time."
+      },
+      {
+        "title": "Language Learning Accountability",
+        "detail": "A group of friends with a New Year's resolution to learn a new language sets up a \"Polyglot Pact.\" They meet for a \"Sunrise Scroll\" 3 times a week, logging their 30-minute practice sessions, with the collective Oath Scroll showing their growing group streak and dedication."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-08-pact-canvas",
+    "appName": "Pact Canvas",
+    "tagline": "Commit. Create. Earn.",
+    "designSystem": {
+      "primaryColor": "#18181B",
+      "secondaryColor": "#3F3F46",
+      "backgroundColor": "#FAFAFA",
+      "ctaColor": "#EC4899",
+      "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+      "style": "Waitlist/Coming Soon - Animation-heavy dark-first design with gradient accents, microinteractions, smooth transitions, glass-morphic elements, and layered depth through shadows and border-radius variety"
+    },
+    "screens": [
+      "home",
+      "explore",
+      "create",
+      "showcase",
+      "profile",
+      "pactDetail"
+    ],
+    "hasScreenshot": true,
+    "description": "Pact Canvas is a revolutionary platform where creatives transform their intentions into tangible output through public commitments. Instead of solely selling finished work, creators post 'Pacts' \u2013 specific project commitments with deadlines and target payouts, inviting 'Backers' (community members, patrons, or potential clients) to financially support or pre-order the outcome. As the creator makes progress, they update visible milestones, fostering social accountability and providing real-time insight to backers. This dynamic marketplace empowers creatives to overcome procrastination, receive structured feedback, and build a reputation for reliability, all while securing income before their project is even complete. It shifts the traditional freelance model by monetizing the creative process itself, making it habit-forming through commitment, community challenges, and the thrill of achieving goals and earning for focused effort.",
+    "features": [
+      {
+        "title": "Pact Creation & Backing",
+        "detail": "Creators propose detailed creative projects (Pacts) with deadlines and target 'Payout Goals'. Backers can pledge support, pre-purchase the completed work, or even commission a Pact, turning creative potential into immediate opportunity."
+      },
+      {
+        "title": "Transparent Milestone Tracking",
+        "detail": "Creators document their progress with timestamped updates (sketches, drafts, videos, text snippets) visible to backers and chosen community members. This ensures accountability, keeps backers engaged, and proves completion."
+      },
+      {
+        "title": "Community Critiques & Boosts",
+        "detail": "Peers and backers can offer constructive feedback on milestone updates, helping creators refine their work. 'Boosts' (small virtual tokens) provide micro-encouragement, fostering a supportive and engaging creative environment."
+      },
+      {
+        "title": "Showcase & Sale Portal",
+        "detail": "Upon successful completion and verification of a Pact, the finished creative work is published to a personalized Showcase. Backers' pledges are released to the creator, and the work remains available for further sales or licensing, building an ongoing portfolio and income stream."
+      },
+      {
+        "title": "Guild Challenges & Leaderboards",
+        "detail": "Participate in weekly themed 'Guild Challenges' to push creative boundaries and earn special badges. Performance in Pacts and Challenges contributes to community leaderboards, boosting creator visibility and recognition."
+      }
+    ],
+    "audience": "Freelance artists, writers, designers, musicians, and hobbyist creatives (ages 18-45) who struggle with motivation, inconsistent income, or finding genuine client opportunities and constructive feedback to finish projects.",
+    "category": "creative tools",
+    "useCases": [
+      "A struggling indie author commits to a 'Flash Fiction Frenzy' Pact, aiming to write five 1000-word stories in a week. They receive encouraging comments and a small 'Boost' from a fellow writer, pushing them past a tricky plot point, ultimately earning a few dollars from initial backers and building their writing portfolio.",
+      "An aspiring concept artist posts a Pact to design 3 unique alien species for an imaginary game within 4 days. A small indie game developer, browsing potential talent in the 'Pacts in Progress' section, sees their compelling initial sketches and offers to back their Pact with a substantial amount, seeing the potential for a future collaboration.",
+      "A musician commits to a 'Bedroom Beat Challenge' Pact, promising to produce a 60-second lo-fi track in 2 days. The social pressure of public milestones and feedback helps them overcome procrastination, and upon completion, a small influencer looking for royalty-free music discovers their track in the Showcase and licenses it."
+    ]
+  },
+  {
+    "folder": "2026-04-08-echo-loom",
+    "appName": "Echo Loom",
+    "tagline": "Weave the world's seasonal symphony.",
+    "designSystem": {
+      "primaryColor": "#1E1B4B",
+      "secondaryColor": "#4338CA",
+      "backgroundColor": "#0F0F23",
+      "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+      "style": "AI Personalization Landing \u2014 bold, energetic, playful with geometric shapes, high color contrast, duotone effects, and depth via gradients and shadows"
+    },
+    "screens": [
+      "home",
+      "loom",
+      "weave",
+      "community",
+      "lore"
+    ],
+    "hasScreenshot": true,
+    "description": "Echo Loom is an ambient companion app where users contribute small, guided musical or sonic elements\u2014called 'echoes'\u2014to a larger, ever-evolving, collective seasonal soundscape. It offers a unique blend of creative participation, mindfulness, and discovery without demanding high skill, providing a sense of calm and connection in moments of quiet reflection or during downtime. For example, a new parent unwinding after putting their baby to sleep could choose a 'gentle stream' echo and add a 'distant chime' layer, while learning a snippet about river acoustics. The app becomes habit-forming through daily 'echoes' to unlock, engaging seasonal challenges, and the desire to hear how the collective soundscape evolves with one's unique contributions. What makes it truly new is its primary mechanic: not just passive listening, but collective, generative ambient co-creation driven by micro-interactions, leading to a truly unique and dynamic communal sonic world.",
+    "features": [
+      {
+        "title": "Daily Echo Seeds",
+        "detail": "Users receive a new, short 'echo seed'\u2014a foundational sound, melody, or rhythm\u2014inspired by the current season or a global theme, providing fresh, regular engagement and micro-learning opportunities."
+      },
+      {
+        "title": "Seasonal Weaving Challenges",
+        "detail": "Time-limited creative prompts encourage users to combine their daily echo seeds with specific sonic layers or filters, driving participation and fostering a sense of communal mastery."
+      },
+      {
+        "title": "The Collective Loom",
+        "detail": "A living, generative ambient soundscape subtly blends all community contributions for the current season; users can listen to this unique, evolving tapestry and feel their individual impact."
+      },
+      {
+        "title": "Sonic Lore & Micro-learnings",
+        "detail": "Each echo seed and sonic layer comes with a brief, optional audio snippet or text explaining its cultural origin, musical theory, or natural inspiration, fueling curiosity and deepening engagement."
+      },
+      {
+        "title": "Community Harmonics",
+        "detail": "A minimalist 'feed' allows users to 'listen in' on specific individual contributions, offer positive 'resonance' to others' weaves, and see how their echo feeds into the larger Loom, fostering belonging without social pressure."
+      }
+    ],
+    "audience": "Mindful listeners, creative individuals, and those seeking connection and gentle engagement, particularly during life transitions or periods of high stress (e.g., new parents looking for a calm, non-demanding creative outlet).",
+    "category": "music & audio",
+    "useCases": [
+      "A new parent, while nursing their baby late at night, opens Echo Loom to contribute a soft, pulsing rhythm to the 'Lunar Lullaby' challenge, finding a moment of calm and creative expression.",
+      "A remote worker taking a 10-minute break between meetings decides to add a 'winter forest bird song' to the Collective Loom, reading a brief fact about its migration pattern, feeling connected to a global community.",
+      "During a quiet Sunday morning coffee, a user explores the currently evolving 'Spring Awakens' collective soundscape, noticing how their previous week's contributions have subtly shifted its tone, enjoying the communal creation."
+    ]
+  },
+  {
+    "folder": "2026-04-08-earth-plate",
+    "appName": "Earth Plate",
+    "tagline": "Your local taste expedition.",
+    "designSystem": {
+      "primaryColor": "#DC2626",
+      "secondaryColor": "#F87171",
+      "backgroundColor": "#FEF2F2",
+      "ctaColor": "#CA8A04",
+      "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+      "style": "AI Personalization Landing \u2014 bold, energetic, playful block layout with geometric shapes, high color contrast, duotone accents, and modern gamified UI patterns"
+    },
+    "screens": [
+      "home",
+      "explore",
+      "journal",
+      "guilds",
+      "leaderboard"
+    ],
+    "hasScreenshot": true,
+    "description": "Earth Plate transforms daily cooking and dining into a localized culinary adventure and a shared identity. It\u2019s for those who believe food tells a story, connecting them not just to ingredients but to their land and community. Users embark on \"Terroir Streaks,\" challenging themselves to discover, cook with, and document hyper-local, seasonal ingredients, earning \"Regional Palate\" points for their efforts. The app helps users explore local farmers' markets, hidden artisanal producers, and traditional regional dishes, fostering a deep sense of belonging among \"Local Food Stewards.\" By actively contributing their discoveries and unique taste profiles, members collectively map their region's evolving culinary identity, fostering authentic community connection and celebrating the unsung heroes of local foodways. This isn't just about what you eat; it's about where it comes from, who made it, and the shared knowledge that builds a vibrant local food culture.",
+    "features": [
+      {
+        "title": "Terroir Streaks",
+        "detail": "Maintain daily or weekly streaks by cooking with specific local, seasonal ingredients. This gamified mechanic encourages consistent local food exploration and deepens culinary knowledge."
+      },
+      {
+        "title": "Local Ingredient Atlas",
+        "detail": "An interactive, community-curated map highlighting local farms, producers, and markets selling ingredients with unique \"terroir\" profiles. Users can add new discoveries, reviews, and tips, creating a living guide to regional food sources."
+      },
+      {
+        "title": "Flavor Profile Journal",
+        "detail": "Document the specific taste, texture, and origin stories of ingredients you use, complete with photos and personal notes. This builds a personal and community-shared compendium of local flavors and their unique characteristics."
+      },
+      {
+        "title": "Culinary Guilds & Quests",
+        "detail": "Join local \"guilds\" (e.g., \"Forager's Fellowship,\" \"Preservation Pioneers\") to collaborate on community-wide \"quests\" focused on specific culinary traditions or ingredient hunts. Guilds foster camaraderie and provide a platform for shared learning and achievement."
+      },
+      {
+        "title": "Stewards' Leaderboard",
+        "detail": "A gamified progression system displaying local users' \"Regional Palate\" points, streak duration, and contributions to the Local Ingredient Atlas. This fosters healthy competition and publicly recognizes the most dedicated \"Local Food Stewards.\""
+      }
+    ],
+    "audience": "Passionate home cooks, adventurous eaters, and local food enthusiasts aged 25-55, particularly those interested in sustainable living, farm-to-table movements, and connecting with their local community through shared culinary experiences.",
+    "category": "food & cooking",
+    "useCases": [
+      {
+        "title": "Farmer's Market Discovery",
+        "detail": "A user visits their local farmer's market, opens Earth Plate, finds a featured \"Terroir Challenge\" ingredient (e.g., specific heritage tomato variety), and gets recipe suggestions and local producer info, fulfilling their streak."
+      },
+      {
+        "title": "New Resident's Guide",
+        "detail": "A new resident wants to understand the unique culinary identity of their town; they open Earth Plate to explore the community-curated \"Local Ingredient Atlas\" and discover traditional dishes and where to find their key ingredients."
+      },
+      {
+        "title": "Culinary Skill Building",
+        "detail": "A home cook is trying to maintain their \"Regional Palate Streak\" and deepen their skills, so they browse 'Culinary Guild' quests to find a new local ingredient to experiment with for dinner, earning points and contributing to local food knowledge."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-08-chronos-weaver",
+    "appName": "Chronos Weaver",
+    "tagline": "Your off-hours muse.",
+    "designSystem": {
+      "primaryColor": "#EC4899",
+      "secondaryColor": "#F472B6",
+      "backgroundColor": "#FDF2F8",
+      "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+      "style": "AI Personalization Landing - animation-heavy with microinteractions, smooth transitions, parallax effects, and entrance animations. Dark/light dual theme with deep purple-noir dark mode and soft pink light mode."
+    },
+    "screens": [
+      "home",
+      "capture",
+      "live",
+      "reflect",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Chronos Weaver is an AI-powered app that transforms the often solitary experiences and unique perspectives of individuals with non-traditional schedules into collaborative, ephemeral art. Each \"Chronos Cycle\" begins with a daily creative prompt tailored to unconventional rhythms (e.g., \"The hum of your 3 AM world,\" \"A silent sunrise discovery\"), inviting users to respond with short, anonymous media snippets \u2013 be it text, a sound bite, an image, or a micro-video. The app's core AI then curates, remixes, and orchestrates these diverse contributions into a \"Chronos Tapestry\" \u2013 a unique, live, multimedia 'performance' broadcast at a specific, flexible time each day. This ritualistic event fosters a deep sense of shared identity and belonging among users who often feel disconnected from mainstream daily routines, turning their 'off-hours' into moments of collective artistry and creative expression, much like a collaborative creative DJ set.",
+    "features": [
+      {
+        "title": "Daily Chronos Prompts",
+        "detail": "Receive a fresh, thought-provoking creative challenge each day, designed to spark observations unique to non-traditional schedules, encouraging consistent engagement and diverse contributions."
+      },
+      {
+        "title": "Snippet Capture & Submit",
+        "detail": "Easily capture and anonymously submit micro-content \u2013 text, photos, audio clips, or short videos \u2013 directly from your phone, making creative expression accessible and immediate for any moment inspiration strikes."
+      },
+      {
+        "title": "AI Tapestry Engine",
+        "detail": "Our proprietary AI acts as a creative director, intelligently weaving user submissions into a cohesive and often surprising multimedia composition, ensuring a fresh and unique 'performance' every time."
+      },
+      {
+        "title": "Live Tapestry Broadcasts",
+        "detail": "Tune into a scheduled, ephemeral live broadcast of the \"Chronos Tapestry,\" experiencing the collective art piece as it unfolds in real-time, creating a sense of shared ritual and urgency to participate and watch."
+      },
+      {
+        "title": "Post-Tapestry Reflection",
+        "detail": "After each broadcast, receive AI-generated insights and 'curator's notes' highlighting thematic connections or standout moments from the tapestry, deepening engagement and appreciation for the collective creation."
+      }
+    ],
+    "audience": "Primarily targets night shift workers (healthcare, emergency services, logistics), remote workers across disparate time zones, and anyone whose routine deviates from typical 9-5, seeking creative outlets and a supportive, identity-based community.",
+    "category": "AI automation & agents",
+    "useCases": [
+      {
+        "title": "Finding creative connection during an off-shift moment",
+        "detail": "A security guard on a quiet night patrol captures the unusual sound of distant city hum at 4 AM and submits it to the current 'Chronos Prompt,' feeling a sense of contribution and belonging to a larger creative collective."
+      },
+      {
+        "title": "Participating in a unique digital art experience",
+        "detail": "A freelance designer, having just finished a late-night project, tunes into the live 'Chronos Tapestry' broadcast, enjoying how her submitted text snippet about 'the color of solitude' was remixed into a visual soundscape, feeling inspired and less isolated."
+      },
+      {
+        "title": "Turning unusual rhythms into inspiration",
+        "detail": "A flight attendant battling jet lag responds to a prompt about 'things seen between waking hours' with a quick photo of an unusually lit airport hallway, finding a novel way to process their disoriented state and connect with others sharing similar experiences."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-08-waypoint-whisper",
+    "appName": "Waypoint Whisper",
+    "tagline": "Cultivate calm, together, on every journey.",
+    "designSystem": {
+      "primaryColor": "#0EA5E9",
+      "secondaryColor": "#38BDF8",
+      "backgroundColor": "#F0F9FF",
+      "ctaColor": "#F97316",
+      "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+      "style": "Waitlist/Coming Soon with animation-heavy microinteractions, smooth transitions, scroll effects, parallax, entrance animations, and page transitions. Dark mode default with light mode toggle."
+    },
+    "screens": [
+      "home",
+      "explore",
+      "haven",
+      "scroll",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Waypoint Whisper transforms travel into a collaborative game of mindful discovery, designed for small groups to co-create a digital sanctuary reflecting their shared moments of tranquility. Instead of rigid itineraries, the app gently guides users through \"Wellness Waypoints\" \u2013 localized, gentle mindfulness activities inspired by their destination. Completing these waypoints progressively unlocks unique architectural elements, natural soundscapes, and calming ritual lore for a shared virtual haven. This shared creative project fosters a sense of calm and reassurance amidst the typical stresses of travel, ensuring groups return with more than just photos, but a tangible, evolving digital memory of their peaceful connections. The app incentivizes active engagement by making each contribution a unique piece of their collective art, rewarding consistency with deeper insights and aesthetic rewards. It's a fresh take on travel journaling, turning every peaceful moment into a building block for a collective digital retreat.",
+    "features": [
+      {
+        "title": "Wellness Waypoints",
+        "detail": "Discover curated, location-specific prompts for mindful activities (e.g., 'Find a quiet park bench and observe local life for 5 minutes'). These gentle challenges encourage presence and calm in new surroundings."
+      },
+      {
+        "title": "Shared Haven Build",
+        "detail": "Collaboratively construct a personalized virtual sanctuary with your travel companions. Each completed Wellness Waypoint unlocks new aesthetic elements like serene ponds, stone arches, or specific flora, fostering a sense of shared accomplishment."
+      },
+      {
+        "title": "Acoustic Footprint",
+        "detail": "Capture ambient sounds unique to your Wellness Waypoint location (e.g., gentle waves, distant birdsong, a bustling but harmonious street hum). These recordings layer into your shared sanctuary's evolving soundtrack, making each digital space truly unique and reflective of your journey's acoustic memory."
+      },
+      {
+        "title": "Ritual Lore Unlocks",
+        "detail": "As your group achieves milestones, unlock bite-sized insights and lore about local wellness practices or calming cultural traditions. This adds a rich, educational layer to your mindful explorations."
+      },
+      {
+        "title": "Tranquility Scroll",
+        "detail": "A shared, interactive journal where groups track their collective progress, celebrate completed Waypoints, and share personal reflections. This digital keepsake reinforces the emotional value of their shared journey."
+      }
+    ],
+    "audience": "Couples, families, or small groups of friends (2-4 people) who travel seeking not just adventure but also moments of genuine connection, mindfulness, and a respite from the typical stresses of tourism, especially those feeling overwhelmed by navigating new places.",
+    "category": "travel",
+    "useCases": [
+      {
+        "title": "Finding Zen in the City",
+        "detail": "A couple exploring a bustling city opens Waypoint Whisper to find a 'Wellness Waypoint' suggesting they visit a lesser-known botanical garden to observe local flora for 10 minutes. They complete it, record the gentle rustle of leaves for their sanctuary, and unlock a 'Zen Garden' element."
+      },
+      {
+        "title": "Road Trip Calm",
+        "detail": "A family on a cross-country road trip uses the app during a scenic stop to find a 'Waypoint' encouraging a shared gratitude exercise while overlooking a canyon. They capture the distant wind for their sanctuary and unlock a 'Gratitude Pillar' for their virtual space."
+      },
+      {
+        "title": "Morning Retreat",
+        "detail": "A group of friends on a wellness retreat begins their day with Waypoint Whisper, prompting them to find a quiet spot for a 15-minute guided breathwork session. After completing, they record the sounds of the morning dew and unlock a new meditation guide specific to their region for future use."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-08-cognitoshift",
+    "appName": "CognitoShift",
+    "tagline": "Remix knowledge, your way.",
+    "designSystem": {
+      "primaryColor": "#EC4899",
+      "secondaryColor": "#F472B6",
+      "ctaColor": "#06B6D4",
+      "backgroundColor": "#FDF2F8",
+      "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+      "style": "AI Personalization Landing \u2014 animation-heavy with microinteractions, smooth transitions, gradient accents, and parallax-inspired entrance animations. Pink-cyan dual-tone palette with glassmorphic navigation."
+    },
+    "screens": [
+      "home",
+      "create",
+      "lenses",
+      "weave",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "CognitoShift reimagines learning as a dynamic, creative act rather than passive consumption. Users input any digital content \u2013 a dense article, a lecture transcript, a video link, or raw notes \u2013 and instantly transform it into a personalized, engaging learning experience. At its core is the concept of 'Cognito Lenses': user-defined or community-shared frameworks that remix the information's format, style, and interactivity. Imagine converting a scientific paper into a 'cyberpunk noir detective' narrative, a history lesson into a 'Socratic debate simulator', or a new skill into a 'gamified quest tree'. The app adapts over time, learning your preferred remix styles and suggesting new lenses or transformations to keep engagement high and understanding fresh. It empowers learners to actively sculpt their educational journey, fostering deeper comprehension and a genuine love for discovery by making every piece of knowledge uniquely theirs.",
+    "features": [
+      {
+        "title": "Universal Content Scavenger",
+        "detail": "Paste any article URL, upload text documents, or record audio, and CognitoShift intelligently ingests and processes the core information, making it ready for transformation. This ensures virtually any piece of learning material can become a canvas for creativity."
+      },
+      {
+        "title": "Cognito Lens Creator",
+        "detail": "Design your own custom 'lenses' by defining parameters for narrative style, interactive elements, output format (e.g., dialogue, interactive quiz, creative brief), and even emotional tone. This empowers users to become architects of their ideal learning environments."
+      },
+      {
+        "title": "Dynamic Learning Flows",
+        "detail": "Based on your engagement patterns, successful learning outcomes, and lens preferences, the app adaptively suggests new remix approaches or lens combinations. This ensures a continuously fresh and optimally personalized learning path tailored to your evolving needs."
+      },
+      {
+        "title": "Lens Library & Workshop",
+        "detail": "Explore, share, and remix lenses created by the global CognitoShift community. Users can collaborate on sophisticated learning transformations, turning education into a shared, evolving creative endeavor reminiscent of open-source projects."
+      },
+      {
+        "title": "Knowledge Weaving & Synthesis",
+        "detail": "Combine multiple remixed pieces of content into larger, interconnected 'Knowledge Weaves' that build complex understanding across topics. This feature allows learners to synthesize information from diverse sources into a coherent, personalized curriculum."
+      }
+    ],
+    "audience": "Self-directed learners, curious professionals, university students, and lifelong knowledge seekers aged 18-45 who are tired of passive learning methods and crave dynamic, personalized, and creatively engaging educational experiences.",
+    "category": "education",
+    "useCases": [
+      {
+        "title": "Mastering a New Skill",
+        "detail": "A freelance designer needs to learn advanced Figma techniques. They input a series of tutorial articles and videos, then apply a 'Gamified Challenge' lens to transform each technique into a mini-quest with actionable steps and progressive difficulty."
+      },
+      {
+        "title": "Understanding Complex Theory",
+        "detail": "A night shift healthcare worker wants to grasp quantum mechanics during their irregular off-hours. They feed a textbook chapter into CognitoShift, applying a 'Simplified Metaphor Narrative' lens to understand abstract concepts through relatable, story-driven analogies."
+      },
+      {
+        "title": "Preparing for a Presentation",
+        "detail": "A marketing manager needs to present on AI ethics to their team. They input various research papers and news articles, then use a 'Debate Simulator' lens to practice articulating arguments and counter-arguments from different ethical standpoints."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-08-colab-sparks",
+    "appName": "CoLab Sparks",
+    "tagline": "Ignite shared focus. Build together.",
+    "designSystem": {
+      "primaryColor": "#0D9488",
+      "secondaryColor": "#14B8A6",
+      "backgroundColor": "#F0FDFA",
+      "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+      "style": "AI Personalization Landing \u2014 2D minimalist, bold colors, no shadows, clean lines, typography-focused, icon-heavy"
+    },
+    "screens": [
+      "home",
+      "campaigns",
+      "campaign",
+      "focus",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "CoLab Sparks transforms individual productivity into a playful, collaborative adventure, inspired by the engaging loop of short-form content. Users join dynamic, time-limited \"Spark Campaigns\" \u2013 themed co-op challenges like \"The Digital Oasis Restoration\" or \"Cosmic Code Cleanup.\" Within these campaigns, participants tackle a variety of micro-productivity tasks (e.g., \"Draft three compelling email headlines,\" \"Review a 15-minute learning module,\" \"Organize five files\"). The core appeal lies in the \"Narrative Mosaic\" twist: as collective tasks are completed, fragments of a visual \"Lore Map\" or a digital \"Tapestry\" are collaboratively unveiled, revealing a unique story or a beautiful digital scene tied to the campaign's theme. This fosters a constant sense of discovery, novelty, and shared achievement, turning mundane tasks into meaningful contributions within a lively, ever-evolving digital world. It makes solo work feel like part of a larger, exciting journey, leveraging loss aversion and FOMO around expiring campaigns and collective progress.",
+    "features": [
+      {
+        "title": "Spark Campaigns",
+        "detail": "Thematic, time-limited cooperative challenges (e.g., \"The Digital Oasis Restoration,\" \"Cosmic Code Cleanup\") where users contribute micro-productivity tasks towards a shared goal, infusing urgency and excitement."
+      },
+      {
+        "title": "Narrative Mosaic",
+        "detail": "This unique twist unveils fragments of a dynamic \"Lore Map\" or a visual \"Digital Tapestry\" as teams complete tasks, collectively building a story or a unique digital artifact/scene related to the campaign's theme, rewarding curiosity and collaboration."
+      },
+      {
+        "title": "Micro-Productivity Blitz",
+        "detail": "Curated, short, and actionable tasks (e.g., \"Refine 3 email subject lines,\" \"Brainstorm 5 content hooks,\" \"Review 1 learning module for 15 mins\") generated by the app, aligned with the campaign's theme and the user's selected focus areas, enabling quick wins and engagement."
+      },
+      {
+        "title": "Momentum & Streak Rewards",
+        "detail": "Personal progress within campaigns is tracked, allowing users to earn \"Glimmers\" (points) and unlock unique \"Artifacts\" or profile badges, providing tangible personal achievement and leveraging loss aversion through daily streaks."
+      },
+      {
+        "title": "Co-Op Focus Mode",
+        "detail": "An optional focus timer during task completion rewards active contribution to a Spark Campaign with an in-app \"Focus Aura\" or minor boosts, gamifying concentration and tying individual focus to collective success."
+      }
+    ],
+    "audience": "Freelancers, solopreneurs, remote professionals, students, and anyone struggling with motivation for administrative, learning, or non-urgent creative tasks, who enjoy light gamification and desire connection in their otherwise solo work.",
+    "category": "productivity",
+    "useCases": [
+      {
+        "scenario": "A freelance writer opens CoLab Sparks between client projects to contribute to \"The Idea Forge\" campaign, brainstorming article topics and refining pitches for 20 minutes to help unveil a new \"Creativity Constellation\" on the Lore Map."
+      },
+      {
+        "scenario": "A remote marketing specialist uses CoLab Sparks during a midday lull, joining \"The Digital Garden\" campaign to spend 30 minutes organizing their cloud drive and categorizing emails, seeing the collective progress blossom a virtual garden for the entire team."
+      },
+      {
+        "scenario": "A student procrastinating on personal learning objectives joins \"The Skill Ascent\" campaign, dedicating an hour to reviewing online course material through Micro-Productivity Blitz tasks, motivated by their contribution revealing a new tier on the collective \"Knowledge Tower.\""
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-08-terra-scout",
+    "appName": "Terra Scout",
+    "tagline": "Map your city, green your world.",
+    "designSystem": {
+      "primaryColor": "#059669",
+      "secondaryColor": "#10B981",
+      "backgroundColor": "#ECFDF5",
+      "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+      "style": "AI Personalization Landing with organic, nature-inspired shapes, earthy tones, flowing wellness aesthetic, and sustainable green gradients"
+    },
+    "screens": [
+      "home",
+      "explore",
+      "hunts",
+      "leaderboard",
+      "feed",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Terra Scout transforms local sustainable living into an urban exploration game. Users become 'Scouts' who discover, verify, and highlight eco-friendly points of interest (POIs) in their communities \u2013 from zero-waste shops and public composting bins to community gardens and water refill stations. The app encourages friendly competition through local and global leaderboards, where Scouts earn 'BioPoints' for verified discoveries, active participation (e.g., supporting a mapped local business), and completing themed 'Eco-Hunts.' This isn't just a directory; it's a dynamic, user-generated ecological map that rewards real-world exploration and sustainable actions, fostering a playful sense of collective progress and shared discovery in making cities greener. The surprise comes from uncovering hidden local gems or achieving a high rank in a competitive challenge, pushing users to engage with their surroundings in a meaningful way multiple times a week. It cultivates a sense of stewardship by empowering individuals to literally put their city's green efforts on the map.",
+    "features": [
+      {
+        "title": "POI Discovery & Verification",
+        "detail": "Users submit new sustainable POIs with photos and details, which other Scouts can then 'verify' by visiting and confirming. This ensures data authenticity while encouraging real-world engagement and exploration."
+      },
+      {
+        "title": "Eco-Hunts & Challenges",
+        "detail": "Themed, time-limited scavenger hunts (e.g., 'Find 5 public water fountains in your district') award bonus BioPoints and exclusive badges upon completion. These structured quests provide novel ways to interact with the environment and drive repeat engagement."
+      },
+      {
+        "title": "Local Leaderboards",
+        "detail": "Compete with friends, neighborhood groups, or city-wide against other Scouts based on BioPoints earned, verified POIs, or challenge completions. This fuels friendly competition and cultivates community pride in green initiatives."
+      },
+      {
+        "title": "BioPoints & Badges",
+        "detail": "Earn points for every contribution, verification, or challenge success, unlocking unique badges like 'Compost Champion' or 'Zero-Waste Wizard.' This gamifies self-improvement and provides visual progression for sustainable actions."
+      },
+      {
+        "title": "Community Impact Feed",
+        "detail": "A personalized feed showcases local sustainable news, upcoming community eco-events, and the collective impact achieved by Scouts in their area. This reinforces the collective good and provides social proof for individual efforts."
+      }
+    ],
+    "audience": "Eco-conscious urban dwellers aged 18-45 who are digitally native, enjoy gamified experiences, and are motivated by both personal achievement and community impact through local action.",
+    "category": "sustainability",
+    "useCases": [
+      {
+        "title": "New City Explorer",
+        "detail": "Sarah moves to a new city and uses Terra Scout to immediately discover nearby ethical coffee shops, farmer's markets, and repair cafes, feeling connected to the local sustainable scene from day one."
+      },
+      {
+        "title": "Weekend Eco-Challenge",
+        "detail": "Mark sees an 'Urban Forager Hunt' challenge appear for the weekend. He spends a Saturday afternoon exploring local parks and green spaces with his family, trying to identify and log edible wild plants while earning bonus BioPoints."
+      },
+      {
+        "title": "Night Shift Resource Finder",
+        "detail": "Alex, a nurse working night shifts, needs to find a 24-hour public transport hub or a late-night cafe that composts their waste. She uses Terra Scout to check user-verified operating hours and eco-practices for establishments that cater to irregular schedules."
+      }
+    ]
+  },
+  {
+    "folder": "2026-04-08-chronos-curator",
+    "appName": "Chronos Curator",
+    "tagline": "Discover the seasons, one moment at a time.",
+    "designSystem": {
+      "primaryColor": "#2563EB",
+      "secondaryColor": "#3B82F6",
+      "backgroundColor": "#F8FAFC",
+      "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+      "style": "AI Personalization Landing - Bold, energetic, playful with geometric shapes, high color contrast, duotone gradients, and block layout"
+    },
+    "screens": [
+      "home",
+      "chronicle",
+      "explore",
+      "profile"
+    ],
+    "hasScreenshot": true,
+    "description": "Chronos Curator transforms everyday observations into a captivating journey of discovery, acting as an ambient companion that subtly nudges users towards deeper engagement with their surroundings. Each week, users receive unique \"Temporal Echoes\"\u2014micro-challenges inspired by the current season, local environment, and historical or cultural milestones. For instance, a challenge might involve capturing the first bloom of a specific regional flower, then learning about its botanical history and its representation in art across different eras. The app integrates micro-learning directly into playful sensory engagement, encouraging users to observe, photograph, and reflect. This iterative process builds a personal 'Chronicle', a beautiful visual and intellectual diary of their year, fostering a unique blend of self-expression and intellectual status as they master seasonal lore. The satisfaction of completing themed arcs and unlocking exclusive aesthetic filters or digital artifacts fuels repeat engagement.",
+    "features": [
+      {
+        "title": "Temporal Echoes",
+        "detail": "Weekly, uniquely generated micro-challenges blending local observation with historical, artistic, or scientific learning snippets. Users capture photos responding to prompts like 'Find a silhouette against the setting sun and learn about ancient solstice rituals.' This makes learning feel like an adventure."
+      },
+      {
+        "title": "Chronicle Gallery",
+        "detail": "A personalized, evolving digital journal where users' completed Echoes and discoveries are beautifully archived. This acts as a private portfolio, showcasing their observational skills and acquired knowledge, fostering a sense of accomplishment and self-expression."
+      },
+      {
+        "title": "Seasonal Arcs & Lore Badges",
+        "detail": "Progress through multi-week themed challenges (e.g., 'Spring Awakening,' 'Harvest Moon Mysteries'). Completing these arcs unlocks exclusive cosmetic items for their Chronicle or 'Lore Badges,' which signify mastery over specific seasonal knowledge or themes, feeding status."
+      },
+      {
+        "title": "Aesthetic Enhancers",
+        "detail": "Offers generative AI-powered filters and framing suggestions tailored to each Echo's theme, enhancing user photo submissions and prompting creative composition. This elevates simple photo-taking into an art form unique to the app."
+      },
+      {
+        "title": "Wisdom Weave",
+        "detail": "After an Echo submission, the app presents a concise, context-rich 'Wisdom Weave' \u2013 a bite-sized historical anecdote, artistic movement insight, or scientific fact related to their observation. This micro-learning component deepens engagement without being didactic."
+      }
+    ],
+    "audience": "Culturally curious individuals, typically 25-45, who appreciate aesthetics, enjoy mindful observation, and seek enriching, low-pressure forms of learning and self-expression beyond typical social media.",
+    "category": "entertainment",
+    "useCases": [
+      {
+        "scenario": "Walking through a park, a user opens the app and sees the 'Golden Hour Glow' Echo, prompting them to photograph a specific quality of light and learn about Impressionist painters."
+      },
+      {
+        "scenario": "During a lunch break, a user is challenged to observe a particular type of bird common in their area, then learns about its migration patterns and folkloric significance."
+      },
+      {
+        "scenario": "On a rainy afternoon indoors, the app suggests finding an item representing 'cozy comfort' and shares the history of hygge culture, prompting a reflective photograph."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-07-shift-solace",
     "appName": "Shift Solace",
     "tagline": "Recharge and reset: Your nightly sanctuary for shift workers.",
@@ -55,69 +744,6 @@
       {
         "title": "Commute Decompression",
         "detail": "While commuting home, a user can listen to an audio-only guided session to gently detach from work-related stress and transition into a more relaxed personal space before reaching home."
-      }
-    ]
-  },
-  {
-    "folder": "2026-04-06-dropflow-ai",
-    "appName": "DropFlow AI",
-    "tagline": "T\u1ed1i \u01b0u Dropshipping. T\u1ef1 \u0111\u1ed9ng h\u00f3a L\u1ee3i Nhu\u1eadn c\u1ee7a b\u1ea1n.",
-    "designSystem": {
-      "primaryColor": "#2979FF",
-      "secondaryColor": "#FF5252",
-      "backgroundColor": "#FAFAFA",
-      "fontFamily": "system / system",
-      "style": "bold geometric"
-    },
-    "screens": [
-      "home"
-    ],
-    "hasScreenshot": false,
-    "description": "DropFlow AI l\u00e0 n\u1ec1n t\u1ea3ng qu\u1ea3n l\u00fd dropshipping di \u0111\u1ed9ng th\u00f4ng minh, gi\u00fap c\u00e1c ch\u1ee7 doanh nghi\u1ec7p th\u01b0\u01a1ng m\u1ea1i \u0111i\u1ec7n t\u1eed nh\u1ecf v\u00e0 v\u1eeba tinh gi\u1ea3n m\u1ecdi kh\u00eda c\u1ea1nh c\u1ee7a ho\u1ea1t \u0111\u1ed9ng kinh doanh. T\u1eeb vi\u1ec7c kh\u00e1m ph\u00e1 s\u1ea3n ph\u1ea9m b\u00e1n ch\u1ea1y ti\u1ec1m n\u0103ng, t\u1ef1 \u0111\u1ed9ng h\u00f3a quy tr\u00ecnh \u0111\u1eb7t h\u00e0ng, \u0111\u1ebfn qu\u1ea3n l\u00fd nh\u00e0 cung c\u1ea5p v\u00e0 v\u1eadn chuy\u1ec3n hi\u1ec7u qu\u1ea3, DropFlow AI bi\u1ebfn chi\u1ebfc \u0111i\u1ec7n tho\u1ea1i c\u1ee7a b\u1ea1n th\u00e0nh m\u1ed9t trung t\u00e2m \u0111i\u1ec1u khi\u1ec3n l\u1ee3i nhu\u1eadn. Gi\u1ea3m thi\u1ec3u c\u00f4ng vi\u1ec7c th\u1ee7 c\u00f4ng, t\u1ed1i \u0111a h\u00f3a hi\u1ec7u qu\u1ea3 v\u00e0 ph\u00e1t tri\u1ec3n doanh nghi\u1ec7p c\u1ee7a b\u1ea1n v\u1edbi s\u1ee9c m\u1ea1nh c\u1ee7a tr\u00ed tu\u1ec7 nh\u00e2n t\u1ea1o.",
-    "features": [
-      {
-        "title": "Qu\u1ea3n l\u00fd \u0110\u01a1n h\u00e0ng Th\u00f4ng minh",
-        "detail": "Theo d\u00f5i v\u00e0 x\u1eed l\u00fd \u0111\u01a1n h\u00e0ng t\u1ef1 \u0111\u1ed9ng t\u1eeb nhi\u1ec1u k\u00eanh b\u00e1n h\u00e0ng. T\u1ef1 \u0111\u1ed9ng c\u1eadp nh\u1eadt tr\u1ea1ng th\u00e1i \u0111\u01a1n h\u00e0ng cho kh\u00e1ch h\u00e0ng v\u00e0 nh\u00e0 cung c\u1ea5p, h\u1ed7 tr\u1ee3 x\u1eed l\u00fd h\u00e0ng lo\u1ea1t v\u00e0 gi\u1ea3m thi\u1ec3u sai s\u00f3t."
-      },
-      {
-        "title": "Qu\u1ea3n l\u00fd S\u1ea3n ph\u1ea9m & Danh m\u1ee5c AI",
-        "detail": "D\u1ec5 d\u00e0ng nh\u1eadp, t\u1ed5 ch\u1ee9c v\u00e0 qu\u1ea3n l\u00fd danh m\u1ee5c s\u1ea3n ph\u1ea9m t\u1eeb nhi\u1ec1u nh\u00e0 cung c\u1ea5p. AI h\u1ed7 tr\u1ee3 vi\u1ebft m\u00f4 t\u1ea3 s\u1ea3n ph\u1ea9m h\u1ea5p d\u1eabn, t\u1ed1i \u01b0u h\u00f3a h\u00ecnh \u1ea3nh v\u00e0 \u0111\u1ec1 xu\u1ea5t gi\u00e1 b\u00e1n c\u1ea1nh tranh \u0111\u1ec3 t\u1ed1i \u0111a h\u00f3a doanh thu."
-      },
-      {
-        "title": "Hub Nh\u00e0 cung c\u1ea5p & \u0110\u00e1nh gi\u00e1",
-        "detail": "Qu\u1ea3n l\u00fd h\u1ed3 s\u01a1 nh\u00e0 cung c\u1ea5p, ki\u1ec3m so\u00e1t catalog s\u1ea3n ph\u1ea9m, m\u1ee9c t\u1ed3n kho v\u00e0 hi\u1ec7u su\u1ea5t giao h\u00e0ng c\u1ee7a h\u1ecd. H\u1ec7 th\u1ed1ng AI \u0111\u00e1nh gi\u00e1 \u0111\u1ed9 tin c\u1eady c\u1ee7a nh\u00e0 cung c\u1ea5p d\u1ef1a tr\u00ean l\u1ecbch s\u1eed \u0111\u1eb7t h\u00e0ng v\u00e0 ph\u1ea3n h\u1ed3i \u0111\u1ec3 b\u1ea1n \u0111\u01b0a ra l\u1ef1a ch\u1ecdn t\u1ed1t nh\u1ea5t."
-      },
-      {
-        "title": "T\u1ed1i \u01b0u h\u00f3a V\u1eadn chuy\u1ec3n",
-        "detail": "T\u00edch h\u1ee3p v\u1edbi nhi\u1ec1u nh\u00e0 v\u1eadn chuy\u1ec3n kh\u00e1c nhau. AI t\u1ef1 \u0111\u1ed9ng so s\u00e1nh chi ph\u00ed, th\u1eddi gian giao h\u00e0ng v\u00e0 \u0111\u1ec1 xu\u1ea5t l\u1ef1a ch\u1ecdn v\u1eadn chuy\u1ec3n t\u1ed1i \u01b0u cho t\u1eebng \u0111\u01a1n h\u00e0ng. T\u1ef1 \u0111\u1ed9ng t\u1ea1o nh\u00e3n v\u1eadn chuy\u1ec3n v\u00e0 theo d\u00f5i l\u1ed9 tr\u00ecnh."
-      },
-      {
-        "title": "\u0110\u1ed9ng c\u01a1 \u0110\u1ecbnh gi\u00e1 \u0110\u1ed9ng AI",
-        "detail": "Thi\u1ebft l\u1eadp quy t\u1eafc \u0111\u1ecbnh gi\u00e1 t\u1ef1 \u0111\u1ed9ng d\u1ef1a tr\u00ean chi ph\u00ed, gi\u00e1 c\u1ee7a \u0111\u1ed1i th\u1ee7 c\u1ea1nh tranh, nhu c\u1ea7u th\u1ecb tr\u01b0\u1eddng v\u00e0 bi\u00ean l\u1ee3i nhu\u1eadn mong mu\u1ed1n. AI \u0111i\u1ec1u ch\u1ec9nh gi\u00e1 s\u1ea3n ph\u1ea9m c\u1ee7a b\u1ea1n theo th\u1eddi gian th\u1ef1c \u0111\u1ec3 duy tr\u00ec s\u1ef1 c\u1ea1nh tranh v\u00e0 t\u1ed1i \u0111a h\u00f3a l\u1ee3i nhu\u1eadn."
-      },
-      {
-        "title": "Kh\u00e1m ph\u00e1 S\u1ea3n ph\u1ea9m Hot & Ph\u00e2n t\u00edch",
-        "detail": "AI li\u00ean t\u1ee5c qu\u00e9t th\u1ecb tr\u01b0\u1eddng \u0111\u1ec3 ph\u00e1t hi\u1ec7n c\u00e1c s\u1ea3n ph\u1ea9m \u0111ang c\u00f3 xu h\u01b0\u1edbng v\u00e0 c\u00e1c ph\u00e2n kh\u00fac ng\u00e1ch ti\u1ec1m n\u0103ng. Nh\u1eadn b\u00e1o c\u00e1o ph\u00e2n t\u00edch hi\u1ec7u su\u1ea5t s\u1ea3n ph\u1ea9m v\u00e0 \u0111\u1ec1 xu\u1ea5t c\u00e1 nh\u00e2n h\u00f3a \u0111\u1ec3 \u0111a d\u1ea1ng h\u00f3a ho\u1eb7c t\u1ed1i \u01b0u h\u00f3a danh m\u1ee5c c\u1ee7a b\u1ea1n."
-      }
-    ],
-    "audience": "C\u00e1c doanh nh\u00e2n dropshipping \u0111\u1ed9c l\u1eadp, ch\u1ee7 c\u1eeda h\u00e0ng th\u01b0\u01a1ng m\u1ea1i \u0111i\u1ec7n t\u1eed nh\u1ecf v\u00e0 v\u1eeba, ho\u1eb7c b\u1ea5t k\u1ef3 ai mu\u1ed1n m\u1edf r\u1ed9ng quy m\u00f4 kinh doanh tr\u1ef1c tuy\u1ebfn v\u1edbi s\u1ef1 t\u1ef1 \u0111\u1ed9ng h\u00f3a v\u00e0 hi\u1ec7u qu\u1ea3 t\u1ed1i \u0111a.",
-    "category": "Kinh doanh & N\u0103ng su\u1ea5t",
-    "useCases": [
-      {
-        "title": "Kh\u1edfi \u0111\u1ed9ng c\u1eeda h\u00e0ng Dropshipping m\u1edbi",
-        "detail": "Nhanh ch\u00f3ng t\u00ecm ki\u1ebfm v\u00e0 nh\u1eadp c\u00e1c s\u1ea3n ph\u1ea9m b\u00e1n ch\u1ea1y, t\u1ea1o m\u00f4 t\u1ea3 s\u1ea3n ph\u1ea9m \u0111\u01b0\u1ee3c t\u1ed1i \u01b0u h\u00f3a b\u1eb1ng AI v\u00e0 b\u1eaft \u0111\u1ea7u nh\u1eadn \u0111\u01a1n h\u00e0ng ch\u1ec9 trong v\u00e0i ph\u00fat."
-      },
-      {
-        "title": "Qu\u1ea3n l\u00fd v\u00e0 m\u1edf r\u1ed9ng ho\u1ea1t \u0111\u1ed9ng hi\u1ec7n c\u00f3",
-        "detail": "D\u1ec5 d\u00e0ng \u0111\u1ed3ng b\u1ed9 h\u00f3a c\u00e1c c\u1eeda h\u00e0ng hi\u1ec7n c\u00f3, qu\u1ea3n l\u00fd h\u00e0ng tr\u0103m \u0111\u01a1n h\u00e0ng v\u00e0 s\u1ea3n ph\u1ea9m t\u1eeb nhi\u1ec1u nh\u00e0 cung c\u1ea5p v\u00e0 nh\u00e0 v\u1eadn chuy\u1ec3n th\u00f4ng qua m\u1ed9t giao di\u1ec7n t\u1eadp trung."
-      },
-      {
-        "title": "T\u1ed1i \u01b0u h\u00f3a l\u1ee3i nhu\u1eadn v\u00e0 gi\u1ea3m chi ph\u00ed",
-        "detail": "S\u1eed d\u1ee5ng \u0111\u1ed9ng c\u01a1 \u0111\u1ecbnh gi\u00e1 AI v\u00e0 c\u00f4ng c\u1ee5 so s\u00e1nh v\u1eadn chuy\u1ec3n \u0111\u1ec3 \u0111\u1ea3m b\u1ea3o b\u1ea1n lu\u00f4n c\u00f3 m\u1ee9c gi\u00e1 t\u1ed1t nh\u1ea5t v\u00e0 chi ph\u00ed v\u1eadn chuy\u1ec3n th\u1ea5p nh\u1ea5t, t\u1eeb \u0111\u00f3 t\u0103ng bi\u00ean l\u1ee3i nhu\u1eadn."
-      },
-      {
-        "title": "Ph\u1ea3n \u1ee9ng nhanh v\u1edbi xu h\u01b0\u1edbng th\u1ecb tr\u01b0\u1eddng",
-        "detail": "Nh\u1eadn c\u1ea3nh b\u00e1o v\u1ec1 c\u00e1c s\u1ea3n ph\u1ea9m \u0111ang c\u00f3 xu h\u01b0\u1edbng ho\u1eb7c c\u00e1c c\u01a1 h\u1ed9i m\u1edbi, cho ph\u00e9p b\u1ea1n nhanh ch\u00f3ng th\u00eam c\u00e1c m\u1eb7t h\u00e0ng ph\u1ed5 bi\u1ebfn v\u00e0o c\u1eeda h\u00e0ng c\u1ee7a m\u00ecnh v\u00e0 t\u1eadn d\u1ee5ng nhu c\u1ea7u c\u1ee7a th\u1ecb tr\u01b0\u1eddng."
       }
     ]
   },
