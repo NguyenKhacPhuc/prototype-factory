@@ -177,18 +177,44 @@ export class SkillRouter {
     ];
   }
 
-  /** Check if a task is creative (Opus) or routine (Sonnet) */
-  static isCreativeTask(stage: number, step: string): boolean {
-    // Use Opus only when we have higher rate limits
-    // For now, Sonnet for everything (higher rate limits, still good quality)
-    return false;
+  /** Build system prompt as plain text string (for OpenAI-compatible APIs like OpenRouter) */
+  buildSystemPromptText(stage: number, step: string, taskReqs?: string[], includeRefs = false): string {
+    const skills = this.resolve(stage, step, taskReqs);
+
+    const skillText = skills
+      .map(s => {
+        let text = `## SKILL: ${s.name}\n\n${s.content}`;
+        if (includeRefs && s.references.length > 0) {
+          text += '\n\n### References\n';
+          for (const ref of s.references) {
+            text += `\n#### ${ref.name}\n${ref.content}\n`;
+          }
+        }
+        return text;
+      })
+      .join('\n\n---\n\n');
+
+    const MAX_SYSTEM_CHARS = 48_000;
+    const cappedText = skillText.length > MAX_SYSTEM_CHARS
+      ? skillText.slice(0, MAX_SYSTEM_CHARS) + '\n[truncated]'
+      : skillText;
+
+    const totalTokens = Math.ceil(cappedText.length / 4);
+    console.log(`  Skills: [${skills.map(s => s.name).join(', ')}] ~${totalTokens} tokens`);
+
+    return cappedText + '\n\nFollow the skill instructions above precisely. You are building a production mobile app.';
   }
 
-  /** Get recommended model for this stage/step */
+  /** Get recommended model for this stage/step via OpenRouter */
   static getModel(stage: number, step: string): string {
-    // Sonnet for all stages until Opus rate limits are upgraded
-    // TODO: switch creative tasks to Opus when tier increases
-    return 'claude-sonnet-4-6';
+    switch (stage) {
+      case 0: return 'anthropic/claude-sonnet-4-6';   // Ideation — needs creativity
+      case 1: return 'anthropic/claude-sonnet-4-6';   // Design — needs design sense
+      case 2: return 'openai/gpt-4.1-mini';           // Scaffold — boilerplate
+      case 3: return 'qwen/qwen3-coder';              // Implement — bulk code
+      case 4: return 'openai/gpt-4.1-mini';           // Ship — templates
+      default: return 'openai/gpt-4.1-mini';
+    }
   }
 
   /** Summary stats */
