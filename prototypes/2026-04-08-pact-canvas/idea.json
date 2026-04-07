@@ -1,0 +1,37 @@
+{
+  "name": "Pact Canvas",
+  "tagline": "Commit. Create. Earn.",
+  "description": "Pact Canvas is a revolutionary platform where creatives transform their intentions into tangible output through public commitments. Instead of solely selling finished work, creators post 'Pacts' \u2013 specific project commitments with deadlines and target payouts, inviting 'Backers' (community members, patrons, or potential clients) to financially support or pre-order the outcome. As the creator makes progress, they update visible milestones, fostering social accountability and providing real-time insight to backers. This dynamic marketplace empowers creatives to overcome procrastination, receive structured feedback, and build a reputation for reliability, all while securing income before their project is even complete. It shifts the traditional freelance model by monetizing the creative process itself, making it habit-forming through commitment, community challenges, and the thrill of achieving goals and earning for focused effort.",
+  "features": [
+    {
+      "title": "Pact Creation & Backing",
+      "detail": "Creators propose detailed creative projects (Pacts) with deadlines and target 'Payout Goals'. Backers can pledge support, pre-purchase the completed work, or even commission a Pact, turning creative potential into immediate opportunity."
+    },
+    {
+      "title": "Transparent Milestone Tracking",
+      "detail": "Creators document their progress with timestamped updates (sketches, drafts, videos, text snippets) visible to backers and chosen community members. This ensures accountability, keeps backers engaged, and proves completion."
+    },
+    {
+      "title": "Community Critiques & Boosts",
+      "detail": "Peers and backers can offer constructive feedback on milestone updates, helping creators refine their work. 'Boosts' (small virtual tokens) provide micro-encouragement, fostering a supportive and engaging creative environment."
+    },
+    {
+      "title": "Showcase & Sale Portal",
+      "detail": "Upon successful completion and verification of a Pact, the finished creative work is published to a personalized Showcase. Backers' pledges are released to the creator, and the work remains available for further sales or licensing, building an ongoing portfolio and income stream."
+    },
+    {
+      "title": "Guild Challenges & Leaderboards",
+      "detail": "Participate in weekly themed 'Guild Challenges' to push creative boundaries and earn special badges. Performance in Pacts and Challenges contributes to community leaderboards, boosting creator visibility and recognition."
+    }
+  ],
+  "audience": "Freelance artists, writers, designers, musicians, and hobbyist creatives (ages 18-45) who struggle with motivation, inconsistent income, or finding genuine client opportunities and constructive feedback to finish projects.",
+  "category": "creative tools",
+  "useCases": [
+    "A struggling indie author commits to a 'Flash Fiction Frenzy' Pact, aiming to write five 1000-word stories in a week. They receive encouraging comments and a small 'Boost' from a fellow writer, pushing them past a tricky plot point, ultimately earning a few dollars from initial backers and building their writing portfolio.",
+    "An aspiring concept artist posts a Pact to design 3 unique alien species for an imaginary game within 4 days. A small indie game developer, browsing potential talent in the 'Pacts in Progress' section, sees their compelling initial sketches and offers to back their Pact with a substantial amount, seeing the potential for a future collaboration.",
+    "A musician commits to a 'Bedroom Beat Challenge' Pact, promising to produce a 60-second lo-fi track in 2 days. The social pressure of public milestones and feedback helps them overcome procrastination, and upon completion, a small influencer looking for royalty-free music discovers their track in the Showcase and licenses it."
+  ],
+  "engagementLoop": "Users keep coming back weekly to track progress on Pacts they've backed or committed to, participate in new Guild Challenges, give or receive peer feedback, and browse the 'Showcase & Sale' for new completed works. The blend of social accountability, variable financial rewards, and continuous opportunities for creative achievement fosters deep, sustained engagement.",
+  "trendFit": "This app strongly aligns with the growing 'Creator Economy' by empowering independent artists to monetize their process and output. It taps into the popularity of 'Community Challenges' for motivation and skill development, while leveraging 'Social Accountability' as a powerful driver for consistent progress and achievement, much like fitness or language-learning apps.",
+  "monetization": "Pact Canvas will take a percentage commission on all successful Pact payouts and subsequent sales/licensing of completed works within the Showcase. Premium features like enhanced Pact visibility or exclusive analytics could be offered via subscription."
+}
