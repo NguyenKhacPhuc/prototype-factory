@@ -1,0 +1,20 @@
+{
+  "appName": "GoalGuild",
+  "tagline": "Your Finance Club. Your Path.",
+  "designSystem": {
+    "primaryColor": "#18181B",
+    "secondaryColor": "#3F3F46",
+    "ctaColor": "#2563EB",
+    "backgroundColor": "#FAFAFA",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — animation-heavy with microinteractions, smooth transitions, scroll effects, parallax, entrance animations, and page transitions. Clean iOS-native feel with system font stack."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "guilds",
+    "guildDetail",
+    "storyboard",
+    "profile"
+  ]
+}

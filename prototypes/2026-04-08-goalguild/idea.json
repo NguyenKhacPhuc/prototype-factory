@@ -1,0 +1,46 @@
+{
+  "name": "GoalGuild",
+  "tagline": "Your Finance Club. Your Path.",
+  "description": "GoalGuild transforms personal finance into a collaborative journey of discovery and achievement. Far from a mere tracker, it\u2019s an exclusive asynchronous club where users, especially those with non-traditional schedules like night shift workers, define and share their 'financial experiments.' Members document their challenges, strategies, and breakthroughs using voice notes, text, and simple visual summaries. This user-generated content forms a rich library of real-world financial tactics. Others within the guild asynchronously review, provide feedback, and celebrate milestones, fostering a powerful sense of collective progress and accountability without revealing sensitive financial data. It's about learning by doing, sharing the 'how' and 'why', and growing together through validated financial practices and mutual encouragement.",
+  "features": [
+    {
+      "title": "Experiment Forge",
+      "detail": "Users define specific financial goals as 'experiments' (e.g., '30-day no-spend challenge,' 'Automate 15% savings'). They document their process, obstacles, and subjective outcomes via text or voice notes, focusing on learning over just results."
+    },
+    {
+      "title": "Guild Halls",
+      "detail": "Members join thematic 'Guilds' (e.g., 'Night Owl Navigators' for night shift workers, 'Early Retirement Architects'). These curated groups provide a strong sense of belonging and ensure relevant, context-specific advice and support."
+    },
+    {
+      "title": "Insight & Fork Cards",
+      "detail": "When reviewing peers' experiments, users can submit 'Insight Cards' (structured feedback or encouragement) or 'Fork Cards' (suggesting alternative approaches or related experiments). This fosters actionable learning and deep, asynchronous collaboration."
+    },
+    {
+      "title": "Milestone Badges & Mastery Paths",
+      "detail": "As users complete experiments and contribute valuable insights, they earn distinctive badges. Progress is visualized through 'Mastery Paths' within their chosen guilds, providing a gamified sense of achievement and continuous motivation."
+    },
+    {
+      "title": "Asynchronous Storyboards",
+      "detail": "Each experiment generates a visual 'storyboard' timeline, composed of voice notes, text updates, and small image uploads, showing the journey from hypothesis to outcome. This encourages narrative sharing over raw data and perfectly suits irregular schedules."
+    }
+  ],
+  "audience": "Night shift workers (e.g., healthcare, emergency services, logistics) and other individuals with irregular schedules seeking to master personal finance within a supportive, flexible community.",
+  "category": "personal finance",
+  "useCases": [
+    {
+      "title": "Post-Shift Reflection",
+      "detail": "A night shift nurse, after a 12-hour shift, opens GoalGuild to quickly record a voice note update on her 'Saving for Better Blackout Curtains' experiment, detailing how she avoided impulse online shopping during her 'post-shift wind-down'."
+    },
+    {
+      "title": "Lunch Break Learning",
+      "detail": "A logistics coordinator on their lunch break at 3 AM sees a 'Fork Card' suggestion on their 'Reducing Drive-Thru Spending' experiment from another 'Night Owl Navigators' guild member, proposing a new strategy for meal prepping during their limited daylight hours."
+    },
+    {
+      "title": "Goal-Oriented Discovery",
+      "detail": "A police officer, aspiring to buy a house, browses the 'First-Time Homebuyer Architects' guild while waiting for a call. They discover a detailed 'Experiment Forge' entry about navigating mortgage pre-approval specifically for variable shift workers, providing actionable steps."
+    }
+  ],
+  "engagementLoop": "Users continuously return to document their ongoing financial experiments, contribute valuable insights to their guild peers, and discover new strategies to adopt. The asynchronous feedback loop, coupled with visible progress and recognition through badges and mastery paths, creates a strong pull to maintain engagement and celebrate collective financial achievement.",
+  "trendFit": "This app leverages the growing trend of asynchronous collaboration for deep learning and community building, moving beyond passive content consumption to active participation. The 'club' archetype resonates with the desire for curated, identity-driven communities focused on specific growth areas, particularly catering to audiences with non-traditional schedules.",
+  "monetization": "A freemium model offering basic guild access and experiment creation, with premium subscriptions unlocking advanced analytics on personal progress, exclusive expert-led guild challenges, and custom 'Mastery Paths' for specific financial milestones."
+}
