@@ -1,0 +1,46 @@
+{
+  "name": "CognitoShift",
+  "tagline": "Remix knowledge, your way.",
+  "description": "CognitoShift reimagines learning as a dynamic, creative act rather than passive consumption. Users input any digital content \u2013 a dense article, a lecture transcript, a video link, or raw notes \u2013 and instantly transform it into a personalized, engaging learning experience. At its core is the concept of 'Cognito Lenses': user-defined or community-shared frameworks that remix the information's format, style, and interactivity. Imagine converting a scientific paper into a 'cyberpunk noir detective' narrative, a history lesson into a 'Socratic debate simulator', or a new skill into a 'gamified quest tree'. The app adapts over time, learning your preferred remix styles and suggesting new lenses or transformations to keep engagement high and understanding fresh. It empowers learners to actively sculpt their educational journey, fostering deeper comprehension and a genuine love for discovery by making every piece of knowledge uniquely theirs.",
+  "features": [
+    {
+      "title": "Universal Content Scavenger",
+      "detail": "Paste any article URL, upload text documents, or record audio, and CognitoShift intelligently ingests and processes the core information, making it ready for transformation. This ensures virtually any piece of learning material can become a canvas for creativity."
+    },
+    {
+      "title": "Cognito Lens Creator",
+      "detail": "Design your own custom 'lenses' by defining parameters for narrative style, interactive elements, output format (e.g., dialogue, interactive quiz, creative brief), and even emotional tone. This empowers users to become architects of their ideal learning environments."
+    },
+    {
+      "title": "Dynamic Learning Flows",
+      "detail": "Based on your engagement patterns, successful learning outcomes, and lens preferences, the app adaptively suggests new remix approaches or lens combinations. This ensures a continuously fresh and optimally personalized learning path tailored to your evolving needs."
+    },
+    {
+      "title": "Lens Library & Workshop",
+      "detail": "Explore, share, and remix lenses created by the global CognitoShift community. Users can collaborate on sophisticated learning transformations, turning education into a shared, evolving creative endeavor reminiscent of open-source projects."
+    },
+    {
+      "title": "Knowledge Weaving & Synthesis",
+      "detail": "Combine multiple remixed pieces of content into larger, interconnected 'Knowledge Weaves' that build complex understanding across topics. This feature allows learners to synthesize information from diverse sources into a coherent, personalized curriculum."
+    }
+  ],
+  "audience": "Self-directed learners, curious professionals, university students, and lifelong knowledge seekers aged 18-45 who are tired of passive learning methods and crave dynamic, personalized, and creatively engaging educational experiences.",
+  "category": "education",
+  "useCases": [
+    {
+      "title": "Mastering a New Skill",
+      "detail": "A freelance designer needs to learn advanced Figma techniques. They input a series of tutorial articles and videos, then apply a 'Gamified Challenge' lens to transform each technique into a mini-quest with actionable steps and progressive difficulty."
+    },
+    {
+      "title": "Understanding Complex Theory",
+      "detail": "A night shift healthcare worker wants to grasp quantum mechanics during their irregular off-hours. They feed a textbook chapter into CognitoShift, applying a 'Simplified Metaphor Narrative' lens to understand abstract concepts through relatable, story-driven analogies."
+    },
+    {
+      "title": "Preparing for a Presentation",
+      "detail": "A marketing manager needs to present on AI ethics to their team. They input various research papers and news articles, then use a 'Debate Simulator' lens to practice articulating arguments and counter-arguments from different ethical standpoints."
+    }
+  ],
+  "engagementLoop": "Users return weekly due to the endless creative possibilities of remixing new content with existing or custom 'Cognito Lenses.' The adaptive recommendations constantly introduce novel ways to learn, creating a variable reinforcement loop where each transformation offers a uniquely engaging and effective learning outcome.",
+  "trendFit": "CognitoShift aligns perfectly with the creator economy trend by allowing users to design and share their own learning lenses. It leverages adaptive personalization to cater to individual learning styles and taps into remix culture by transforming existing educational content into new, personalized formats.",
+  "monetization": "A freemium model offering a limited number of 'Cognito Lenses' and content inputs per month. Premium subscriptions unlock unlimited transformations, advanced lens creation tools, exclusive community features, and ad-free access."
+}
