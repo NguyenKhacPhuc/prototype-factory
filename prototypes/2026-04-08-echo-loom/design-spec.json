@@ -1,0 +1,18 @@
+{
+  "appName": "Echo Loom",
+  "tagline": "Weave the world's seasonal symphony.",
+  "designSystem": {
+    "primaryColor": "#1E1B4B",
+    "secondaryColor": "#4338CA",
+    "backgroundColor": "#0F0F23",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — bold, energetic, playful with geometric shapes, high color contrast, duotone effects, and depth via gradients and shadows"
+  },
+  "screens": [
+    "home",
+    "loom",
+    "weave",
+    "community",
+    "lore"
+  ]
+}
