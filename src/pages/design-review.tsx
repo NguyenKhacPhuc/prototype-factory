@@ -72,6 +72,15 @@ export function DesignReview({ jobId, navigate }: Props) {
   const isFailed = job.status === "failed";
   const isPending = job.status === "pending";
 
+  // Parse build log from live_output (stored as JSON array by worker)
+  let buildLogEntries: { message: string; files?: string[]; type: string }[] = [];
+  try {
+    if (job.live_output) buildLogEntries = JSON.parse(job.live_output);
+  } catch {
+    // Not JSON — legacy format, show as single entry
+    if (job.live_output) buildLogEntries = [{ message: job.live_output, type: "info" }];
+  }
+
   return (
     <div style={{ display: "flex", height: "100vh", overflow: "hidden" }}>
 
@@ -95,8 +104,8 @@ export function DesignReview({ jobId, navigate }: Props) {
         {/* Scrollable log area */}
         <div ref={logRef} style={{ flex: 1, overflowY: "auto", padding: "16px 20px" }}>
 
-          {/* Design summary */}
-          {screens.length > 0 && (
+          {/* Design summary (only during review, before build starts) */}
+          {isReview && screens.length > 0 && (
             <LogSection title="App Design">
               <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginBottom: 12 }}>
                 {Object.entries(colors).map(([name, hex]) => (
@@ -113,34 +122,19 @@ export function DesignReview({ jobId, navigate }: Props) {
             </LogSection>
           )}
 
-          {/* Actions performed */}
-          {files.length > 0 && (
-            <LogSection title={`Writing ${files.length} files`}>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 4 }}>
-                {files.map((f: any, i: number) => (
-                  <FileIcon key={i} path={f.path} status={f.status} />
-                ))}
-              </div>
-            </LogSection>
-          )}
-
-          {/* Progress messages */}
-          {progress.message && (isBuilding || isDone) && (
-            <LogSection title={progress.message}>
-              {job.estimated_cost_cents > 0 && (
-                <span style={{ fontSize: 11, color: "var(--text-dim)" }}>${(job.estimated_cost_cents / 100).toFixed(2)} spent</span>
+          {/* Build activity log (streamed from worker) */}
+          {buildLogEntries.map((entry, i) => (
+            <LogSection key={i} title={entry.message}>
+              {entry.files && entry.files.length > 0 && (
+                <div style={{ display: "flex", flexWrap: "wrap", gap: 4, marginTop: 4 }}>
+                  {entry.files.map((f: string, j: number) => (
+                    <FileIcon key={j} path={f} status={entry.type === "error" ? "error" : "done"} />
+                  ))}
+                  <span style={{ fontSize: 11, color: "var(--text-dim)", alignSelf: "center", marginLeft: 4 }}>{entry.files.length} actions</span>
+                </div>
               )}
             </LogSection>
-          )}
-
-          {/* Live output */}
-          {job.live_output && (
-            <LogSection title="Build output">
-              <pre style={{ margin: 0, fontSize: 11, fontFamily: "'SF Mono', monospace", color: "var(--text-dim)", whiteSpace: "pre-wrap", wordBreak: "break-word", maxHeight: 200, overflow: "auto" }}>
-                {job.live_output}
-              </pre>
-            </LogSection>
-          )}
+          ))}
 
           {/* Error */}
           {isFailed && (

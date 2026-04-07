@@ -94,56 +94,65 @@ export async function buildAppV2(jobId: string, input: { prompt: string; prototy
   const supabase = createClient(config.supabaseUrl, config.supabaseServiceKey);
   const workDir = `/tmp/builds/${jobId}`;
 
+  // Helper to push activity log entries visible on the frontend
+  const buildLog: { message: string; files?: string[]; type: 'info' | 'action' | 'success' | 'error' }[] = [];
+  async function pushLog(message: string, files?: string[], type: 'info' | 'action' | 'success' | 'error' = 'info') {
+    buildLog.push({ message, files, type });
+    await supabase.from('generation_jobs').update({ live_output: JSON.stringify(buildLog) }).eq('id', jobId);
+  }
+
   try {
     await logger.markStarted();
 
-    // ── Step 1: Template (instant) ──
+    // ── Step 1: Template ──
     await logger.updateProgress(1, 5, 'Setting up project template...');
+    await pushLog(`Building ${input.prompt.slice(0, 50)}. Setting up the Expo project...`, undefined, 'info');
     const appSlug = input.prompt.split(' ').slice(0, 3).join('-').toLowerCase().replace(/[^a-z0-9-]/g, '');
     scaffoldTemplate(workDir, appSlug);
-    logger.log({ stage: 0, step: 'template', event: 'complete', detail: 'Expo 54 template created' });
+    await pushLog('Project scaffold created.', ['package.json', 'app.json', 'tsconfig.json', 'babel.config.js', 'app/_layout.tsx'], 'action');
 
-    // ── Step 2: Design via Gemini (free) ──
+    // ── Step 2: Design ──
     await logger.updateProgress(2, 5, 'Designing your app...');
+    await pushLog('Designing the app — choosing colors, screens, and features...', undefined, 'info');
     const design = await designWithGemini(input.prompt, input.prototype_folder, logger);
     writeFileSync(join(workDir, 'specs/design.json'), JSON.stringify(design, null, 2));
-    logger.log({ stage: 1, step: 'design', event: 'complete', detail: `${design.screens?.length || 0} screens` });
-
-    // ── Step 2.5: Save design data for review page ──
+    const screenNames = (design.screens || []).map((s: any) => typeof s === 'string' ? s : s.name);
+    await pushLog(`Design complete: ${screenNames.length} screens planned.`, ['specs/design.json'], 'success');
     await supabase.from('generation_jobs').update({ design_data: design }).eq('id', jobId);
 
-    // ── Step 3: Implement ALL screens in one call ──
+    // ── Step 3: Implement ──
     await logger.updateProgress(3, 5, 'Building all screens...');
+    await pushLog('Now writing all files in a single batch:', undefined, 'info');
     const code = await implementAllScreens(input.prompt, design, logger);
     writeCodeFiles(workDir, code);
-
-    // Update files_created for live terminal
-    const filesList = Object.keys(code).map(path => ({ path, status: 'done', size: code[path].length }));
+    const codeFiles = Object.keys(code);
+    const filesList = codeFiles.map(path => ({ path, status: 'done', size: code[path].length }));
     await supabase.from('generation_jobs').update({ files_created: filesList }).eq('id', jobId);
+    await pushLog(`${codeFiles.length} files written.`, codeFiles, 'action');
 
-    logger.log({ stage: 2, step: 'implement', event: 'complete', detail: `${Object.keys(code).length} files written` });
-
-    // ── Step 3.5: Wiring check — verify all imports reference existing files ──
+    // ── Step 3.5: Wiring check ──
     const missing = wiringCheck(workDir);
     if (missing.length > 0) {
-      logger.log({ stage: 2, step: 'wiring', event: 'error', detail: `${missing.length} missing: ${missing.join(', ')}` });
-      // Create stubs for missing files so app at least compiles
+      await pushLog(`Found ${missing.length} missing imports. Creating stubs...`, missing, 'error');
       for (const m of missing) {
         const stubPath = join(workDir, m);
         mkdirSync(join(stubPath, '..'), { recursive: true });
         writeFileSync(stubPath, `// TODO: implement\nexport default function() { return null; }\n`);
       }
-      logger.log({ stage: 2, step: 'wiring', event: 'complete', detail: `Created ${missing.length} stubs` });
+      await pushLog('Stubs created for missing files.', undefined, 'action');
     } else {
-      logger.log({ stage: 2, step: 'wiring', event: 'complete', detail: 'All imports resolved' });
+      await pushLog('All imports verified — no missing files.', undefined, 'success');
     }
 
-    // ── Step 4: Install + Compile check + Fix ──
-    await logger.updateProgress(4, 5, 'Checking and fixing...');
+    // ── Step 4: Install + fix ──
+    await logger.updateProgress(4, 5, 'Installing packages and checking for errors...');
+    await pushLog('Installing packages and fixing dependency versions...', undefined, 'info');
     await installAndFix(workDir, input.prompt, design, logger);
+    await pushLog('Packages installed. Compile check done.', undefined, 'success');
 
     // ── Step 5: Package ──
     await logger.updateProgress(5, 5, 'Packaging...');
+    await pushLog('Packaging your app for download...', undefined, 'info');
     const zipPath = `/tmp/builds/${jobId}.zip`;
     execSync(`cd "${workDir}" && zip -r "${zipPath}" . -x "node_modules/*" ".git/*"`, { timeout: 30000, maxBuffer: 10 * 1024 * 1024, stdio: 'pipe' });
 
@@ -151,6 +160,8 @@ export async function buildAppV2(jobId: string, input: { prompt: string; prototy
     const zipBuffer = readFileSync(zipPath);
     await supabase.storage.from('builds').upload(`${jobId}.zip`, zipBuffer, { upsert: true });
     const { data: urlData } = supabase.storage.from('builds').getPublicUrl(`${jobId}.zip`);
+
+    await pushLog('App is ready! Download source or scan QR to test on your phone.', undefined, 'success');
 
     await logger.markCompleted({
       download_url: urlData.publicUrl,
@@ -160,6 +171,7 @@ export async function buildAppV2(jobId: string, input: { prompt: string; prototy
     await logger.persist();
 
   } catch (err: any) {
+    await pushLog(`Build failed: ${err.message?.slice(0, 100)}`, undefined, 'error');
     await logger.markFailed(err.message || 'Unknown error');
     await logger.persist();
     throw err;
