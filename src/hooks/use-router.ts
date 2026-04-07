@@ -12,6 +12,12 @@ function matchRoute(pathname: string): Route {
     return { path: "/prototype/:slug", params: { slug: protoMatch[1] } };
   }
 
+  // /design/:jobId
+  const designMatch = pathname.match(/^\/design\/([^/]+)\/?$/);
+  if (designMatch) {
+    return { path: "/design/:jobId", params: { jobId: designMatch[1] } };
+  }
+
   // /auth/callback
   if (pathname === "/auth/callback") {
     return { path: "/auth/callback", params: {} };
