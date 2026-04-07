@@ -1,13 +1,20 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { writeFileSync, readFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
 import { execSync } from 'child_process';
-import { dirname } from 'path';
+import { dirname, join } from 'path';
 import { config } from './config';
 import { SkillRouter } from './skill-router';
 import { PipelineLogger } from './pipeline-logger';
 
-// Skill reference paths that Claude might try to read
 const SKILLS_DIR = config.skillsDir;
+
+// === LIMITS (inspired by claw-code) ===
+const MAX_TOOL_OUTPUT = 16_384;        // 16KB max per tool result
+const MAX_FILE_READ = 100_000;         // 100KB max file read
+const MAX_BASH_OUTPUT = 16_384;        // 16KB max bash output
+const MAX_TOOL_LOOPS = 8;             // max tool use iterations per step
+const COMPACTION_THRESHOLD = 50_000;   // compact when context exceeds ~50K tokens
+const COMPACTION_KEEP_LAST = 4;        // keep last N messages after compaction
 
 interface Message {
   role: 'user' | 'assistant';
@@ -26,7 +33,7 @@ export class SessionManager {
   private router: SkillRouter;
   private logger: PipelineLogger;
   private workDir: string;
-  private maxMessages = 40; // prevent context overflow
+  private totalInputTokens = 0;
 
   constructor(router: SkillRouter, logger: PipelineLogger, workDir: string) {
     this.client = new Anthropic({ apiKey: config.anthropicApiKey });
@@ -38,25 +45,21 @@ export class SessionManager {
 
   /** Run a single step with appropriate skills and model */
   async runStep(stage: number, step: string, prompt: string, taskReqs?: string[]): Promise<string> {
-    // Only include references for design stage (stage 1) where theme-engine etc matter
     const includeRefs = stage === 1;
     const system = this.router.buildSystemMessage(stage, step, taskReqs, includeRefs);
     const model = SkillRouter.getModel(stage, step);
     const start = Date.now();
 
-    // Add user message
     this.messages.push({ role: 'user', content: prompt });
 
-    // Trim old messages if too long
-    if (this.messages.length > this.maxMessages) {
-      this.messages = this.messages.slice(-this.maxMessages);
-    }
+    // Compact if context is getting large
+    this.maybeCompact();
 
     let response = await this.callWithRetry(model, system, this.messages, this.getTools());
 
-    // Handle tool use loops (cap at 8 to prevent runaway cost)
+    // Handle tool use loops (capped)
     let iterations = 0;
-    while (response.stop_reason === 'tool_use' && iterations < 8) {
+    while (response.stop_reason === 'tool_use' && iterations < MAX_TOOL_LOOPS) {
       iterations++;
       const toolBlocks = response.content.filter((b: any) => b.type === 'tool_use');
       const toolResults: ToolResult[] = [];
@@ -66,24 +69,28 @@ export class SessionManager {
         toolResults.push({
           type: 'tool_result',
           tool_use_id: (block as any).id,
-          content: result,
+          content: truncate(result, MAX_TOOL_OUTPUT),
         });
         this.logger.log({
           stage, step, event: 'tool_use',
-          detail: `${(block as any).name}: ${JSON.stringify((block as any).input).slice(0, 100)}`,
+          detail: `${(block as any).name}: ${JSON.stringify((block as any).input).slice(0, 80)}`,
         });
       }
 
-      // Add assistant response + tool results
       this.messages.push({ role: 'assistant', content: response.content });
       this.messages.push({ role: 'user', content: toolResults });
+
+      // Compact mid-loop if context is growing
+      this.maybeCompact();
 
       response = await this.callWithRetry(model, system, this.messages, this.getTools());
     }
 
-    // Log API call
-    const usage = response.usage;
+    // Track tokens
     const duration = Date.now() - start;
+    const usage = response.usage;
+    this.totalInputTokens += usage.input_tokens;
+
     this.logger.log({
       stage, step, event: 'api_call',
       model,
@@ -99,14 +106,83 @@ export class SessionManager {
       (usage as any).cache_read_input_tokens ?? 0,
     );
 
-    // Add final assistant response
     this.messages.push({ role: 'assistant', content: response.content });
 
-    // Extract text content
     return response.content
       .filter((b: any) => b.type === 'text')
       .map((b: any) => b.text)
       .join('');
+  }
+
+  /** Compact conversation when it exceeds threshold */
+  private maybeCompact() {
+    const estimatedTokens = this.estimateContextTokens();
+    if (estimatedTokens < COMPACTION_THRESHOLD || this.messages.length <= COMPACTION_KEEP_LAST) return;
+
+    const oldMessages = this.messages.slice(0, -COMPACTION_KEEP_LAST);
+    const recentMessages = this.messages.slice(-COMPACTION_KEEP_LAST);
+
+    // Build structured summary of old messages
+    const summary = this.buildCompactionSummary(oldMessages);
+
+    this.messages = [
+      { role: 'user', content: `[Context summary from previous conversation]\n${summary}` },
+      { role: 'assistant', content: [{ type: 'text', text: 'Understood. I have the context from the previous conversation. Continuing.' }] },
+      ...recentMessages,
+    ];
+
+    this.logger.log({
+      stage: 0, step: 'compact', event: 'complete',
+      detail: `Compacted ${oldMessages.length} messages → summary. Context: ${estimatedTokens} → ~${this.estimateContextTokens()} tokens`,
+    });
+  }
+
+  private buildCompactionSummary(messages: Message[]): string {
+    const files: Set<string> = new Set();
+    const tools: Set<string> = new Set();
+    let userRequests: string[] = [];
+
+    for (const msg of messages) {
+      const content = typeof msg.content === 'string' ? msg.content : JSON.stringify(msg.content);
+
+      // Extract file paths
+      const fileMatches = content.match(/(?:write_file|read_file|File written).*?([a-zA-Z0-9_\-/.]+\.[a-z]{1,4})/g);
+      if (fileMatches) fileMatches.forEach(m => {
+        const f = m.match(/([a-zA-Z0-9_\-/.]+\.[a-z]{1,4})/);
+        if (f) files.add(f[1]);
+      });
+
+      // Extract tool names
+      const toolMatches = content.match(/"name":\s*"(\w+)"/g);
+      if (toolMatches) toolMatches.forEach(m => {
+        const t = m.match(/"(\w+)"$/);
+        if (t) tools.add(t[1]);
+      });
+
+      // Capture user requests
+      if (msg.role === 'user' && typeof msg.content === 'string' && msg.content.length < 200) {
+        userRequests.push(msg.content.slice(0, 100));
+      }
+    }
+
+    // Cap summary to ~1200 chars (like claw-code)
+    const lines = [
+      `## Compacted Context`,
+      `Messages compacted: ${messages.length}`,
+      `Files touched: ${[...files].slice(0, 20).join(', ')}`,
+      `Tools used: ${[...tools].join(', ')}`,
+      `Recent requests: ${userRequests.slice(-3).join(' | ')}`,
+    ];
+
+    return lines.join('\n').slice(0, 1200);
+  }
+
+  private estimateContextTokens(): number {
+    let chars = 0;
+    for (const msg of this.messages) {
+      chars += typeof msg.content === 'string' ? msg.content.length : JSON.stringify(msg.content).length;
+    }
+    return Math.ceil(chars / 4);
   }
 
   /** Pause between API calls to stay under rate limits */
@@ -120,12 +196,11 @@ export class SessionManager {
   private async callWithRetry(model: string, system: any, messages: any[], tools: any[], maxRetries = 5): Promise<any> {
     for (let attempt = 0; attempt <= maxRetries; attempt++) {
       try {
-        // Pace calls to avoid hitting rate limits
         if (attempt === 0) await this.rateLimitPause();
 
         return await this.client.messages.create({
           model,
-          max_tokens: 16000,
+          max_tokens: 8000, // reduced from 16000 — saves output tokens
           system,
           messages,
           tools,
@@ -133,7 +208,7 @@ export class SessionManager {
       } catch (err: any) {
         const isRateLimit = err.status === 429 || err.message?.includes('rate_limit');
         if (isRateLimit && attempt < maxRetries) {
-          const waitSec = 45 * Math.pow(2, attempt); // 45s, 90s, 180s, 360s
+          const waitSec = 45 * Math.pow(2, attempt);
           console.log(`  Rate limited. Waiting ${waitSec}s before retry ${attempt + 1}/${maxRetries}...`);
           this.logger.log({ stage: 0, step: 'retry', event: 'error', detail: `Rate limited, waiting ${waitSec}s` });
           await new Promise(r => setTimeout(r, waitSec * 1000));
@@ -144,7 +219,7 @@ export class SessionManager {
     }
   }
 
-  /** Clear message history (call between stages to prevent overflow) */
+  /** Clear message history */
   clearHistory() {
     this.messages = [];
   }
@@ -165,7 +240,7 @@ export class SessionManager {
       },
       {
         name: 'read_file',
-        description: 'Read content of a file.',
+        description: 'Read content of a file (max 100KB, truncated if larger).',
         input_schema: {
           type: 'object' as const,
           properties: {
@@ -176,7 +251,7 @@ export class SessionManager {
       },
       {
         name: 'run_command',
-        description: 'Run a shell command in the project directory.',
+        description: 'Run a shell command (output truncated to 16KB).',
         input_schema: {
           type: 'object' as const,
           properties: {
@@ -205,12 +280,9 @@ export class SessionManager {
             ? block.input.path
             : `${this.workDir}/${block.input.path}`;
 
-          // If file not found, try resolving from skills directory
-          // (Claude may try to read references/ files from skill context)
           if (!existsSync(fullPath)) {
             const refPath = `${SKILLS_DIR}/${block.input.path}`;
             if (existsSync(refPath)) fullPath = refPath;
-            // Also try: skill-name/references/filename
             for (const skillDir of readdirSync(SKILLS_DIR)) {
               const tryPath = join(SKILLS_DIR, skillDir, block.input.path);
               if (existsSync(tryPath)) { fullPath = tryPath; break; }
@@ -220,7 +292,8 @@ export class SessionManager {
           }
 
           if (!existsSync(fullPath)) return `Error: File not found: ${block.input.path}`;
-          return readFileSync(fullPath, 'utf-8');
+          const content = readFileSync(fullPath, 'utf-8');
+          return truncate(content, MAX_FILE_READ);
         }
         case 'run_command': {
           const result = execSync(block.input.command, {
@@ -228,13 +301,19 @@ export class SessionManager {
             timeout: 60000,
             maxBuffer: 1024 * 1024,
           });
-          return result.toString().slice(0, 4000);
+          return truncate(result.toString(), MAX_BASH_OUTPUT);
         }
         default:
           return `Unknown tool: ${block.name}`;
       }
     } catch (err: any) {
-      return `Error: ${err.message?.slice(0, 500)}`;
+      return truncate(`Error: ${err.message || 'Unknown error'}`, 2000);
     }
   }
+}
+
+/** Truncate string to max bytes, with indicator */
+function truncate(str: string, maxBytes: number): string {
+  if (str.length <= maxBytes) return str;
+  return str.slice(0, maxBytes) + `\n\n[... truncated at ${maxBytes} bytes, ${str.length - maxBytes} bytes omitted]`;
 }

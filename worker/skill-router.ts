@@ -155,13 +155,19 @@ export class SkillRouter {
       })
       .join('\n\n---\n\n');
 
-    const totalTokens = Math.ceil(skillText.length / 4);
-    console.log(`  Skills: [${skills.map(s => s.name).join(', ')}] ~${totalTokens} tokens (refs=${includeRefs})`);
+    // Cap system prompt at 12K tokens (~48K chars) like claw-code
+    const MAX_SYSTEM_CHARS = 48_000;
+    const cappedText = skillText.length > MAX_SYSTEM_CHARS
+      ? skillText.slice(0, MAX_SYSTEM_CHARS) + '\n\n[... skill text truncated to stay within token budget]'
+      : skillText;
+
+    const totalTokens = Math.ceil(cappedText.length / 4);
+    console.log(`  Skills: [${skills.map(s => s.name).join(', ')}] ~${totalTokens} tokens (refs=${includeRefs}${skillText.length > MAX_SYSTEM_CHARS ? ', TRUNCATED' : ''})`);
 
     return [
       {
         type: 'text' as const,
-        text: skillText,
+        text: cappedText,
         cache_control: { type: 'ephemeral' as const },
       },
       {
