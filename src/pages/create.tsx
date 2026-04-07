@@ -65,7 +65,7 @@ export function Create({ navigate }: Props) {
 
       if (insertError) throw insertError;
 
-      setJobId(job.id);
+      navigate(`/design/${job.id}`);
     } catch (err: any) {
       setError(err.message || "Failed to start generation. Please try again.");
     }

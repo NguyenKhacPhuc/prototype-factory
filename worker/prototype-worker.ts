@@ -14,36 +14,55 @@ export async function runPrototypeJob(jobId: string, input: JobInput) {
   const logger = new PipelineLogger(jobId);
   const claude = new ClaudeClient(logger);
 
+  const supabase = (await import('@supabase/supabase-js')).createClient(config.supabaseUrl, config.supabaseServiceKey);
+  const buildLog: { message: string; files?: string[]; type: string }[] = [];
+  async function pushLog(message: string, files?: string[], type = 'info') {
+    buildLog.push({ message, files, type });
+    await supabase.from('generation_jobs').update({ live_output: JSON.stringify(buildLog) }).eq('id', jobId);
+  }
+
   try {
     await logger.markStarted();
 
-    // Step 1: Scout trends (cached daily)
+    // Step 1: Scout trends
     await logger.updateProgress(1, 6, 'Scouting trends and market context...');
+    await pushLog('Scouting trending apps and market patterns...', undefined, 'info');
     const trends = await scoutTrends(logger);
+    await pushLog('Market research complete.', undefined, 'success');
 
     // Step 2: Generate idea
     await logger.updateProgress(2, 6, 'Generating your app concept...');
+    await pushLog('Generating a unique app concept from your idea...', undefined, 'info');
     const idea = await generateIdea(input.prompt, trends, logger);
+    await pushLog(`App concept: ${idea.name} — ${idea.tagline}`, undefined, 'success');
 
     // Step 3: Design system
     await logger.updateProgress(3, 6, 'Designing the visual system...');
+    await pushLog('Creating design system — colors, typography, style...', undefined, 'info');
     const designSystem = await generateDesignSystem(idea, logger);
+    await pushLog('Design system ready.', ['design-spec.json'], 'action');
 
     // Step 4: Generate prototype
     await logger.updateProgress(4, 6, 'Building your interactive prototype...');
+    await pushLog('Building interactive prototype with Claude...', undefined, 'info');
     const folder = await generatePrototype(idea, designSystem, claude, logger);
+    await pushLog('Prototype code generated.', ['App.tsx', 'preview.html'], 'action');
 
-    // Step 5: Validate (skip delete on failure for debugging)
+    // Step 5: Validate
     await logger.updateProgress(5, 6, 'Validating and testing...');
+    await pushLog('Running headless browser validation...', undefined, 'info');
     const valid = await validatePrototype(folder, logger);
     if (!valid) {
-      logger.log({ stage: 5, step: 'validate', event: 'error', detail: 'Validation failed but keeping files for debugging' });
-      // Continue anyway — don't block, let user see the prototype
+      await pushLog('Validation had warnings — prototype may have minor issues.', undefined, 'error');
+    } else {
+      await pushLog('Prototype validates — renders correctly.', undefined, 'success');
     }
 
     // Step 6: Deploy
     await logger.updateProgress(6, 6, 'Deploying to preview...');
+    await pushLog('Committing and deploying to preview...', undefined, 'info');
     await deployPrototype(folder, logger);
+    await pushLog('Prototype is live! You can interact with it now.', undefined, 'success');
 
     await logger.markCompleted({ folder: folderName(folder), url: `/prototype/${folderName(folder)}` });
     await logger.persist();

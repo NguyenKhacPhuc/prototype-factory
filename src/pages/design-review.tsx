@@ -71,6 +71,8 @@ export function DesignReview({ jobId, navigate }: Props) {
   const isDone = job.status === "completed";
   const isFailed = job.status === "failed";
   const isPending = job.status === "pending";
+  const isPrototype = job.type === "prototype";
+  const resultFolder = job.result?.folder || "";
 
   // Parse build log from live_output (stored as JSON array by worker)
   let buildLogEntries: { message: string; files?: string[]; type: string }[] = [];
@@ -178,9 +180,16 @@ export function DesignReview({ jobId, navigate }: Props) {
           )}
         </div>
 
-        {/* Bottom: Feedback + Actions (review mode) OR Progress bar */}
+        {/* Bottom bar */}
         <div style={{ borderTop: "1px solid var(--border)", padding: "12px 20px" }}>
-          {isReview ? (
+          {/* Prototype done — show actions */}
+          {isPrototype && isDone && resultFolder ? (
+            <div style={{ display: "flex", gap: 8 }}>
+              <button onClick={() => navigate("/gallery")} style={{ flex: 1, padding: 10, borderRadius: 8, border: "1px solid var(--border)", background: "none", color: "var(--text-muted)", fontSize: 13, cursor: "pointer" }}>Gallery</button>
+              <button onClick={() => navigate(`/prototype/${resultFolder}`)} style={{ flex: 1, padding: 10, borderRadius: 8, border: "1px solid var(--border)", background: "none", color: "var(--text-secondary)", fontSize: 13, fontWeight: 600, cursor: "pointer" }}>View Details</button>
+              <button onClick={() => {/* TODO: trigger mobile-app build from this prototype */}} style={{ flex: 2, padding: 10, borderRadius: 8, border: "none", background: "var(--accent)", color: "#fff", fontSize: 13, fontWeight: 700, cursor: "pointer" }}>Build Real App</button>
+            </div>
+          ) : isReview ? (
             <>
               <div style={{ display: "flex", gap: 8, marginBottom: 10 }}>
                 <input
@@ -226,10 +235,10 @@ export function DesignReview({ jobId, navigate }: Props) {
             background: "#111",
             position: "relative",
           }}>
-            {/* Interactive preview when prototype exists */}
-            {protoFolder && (isReview || isDone) ? (
+            {/* Interactive preview: existing prototype OR generated one */}
+            {(protoFolder && (isReview || isDone)) || (isPrototype && isDone && resultFolder) ? (
               <iframe
-                src={`/prototypes/${protoFolder}/preview.html`}
+                src={`/prototypes/${resultFolder || protoFolder}/preview.html`}
                 sandbox="allow-scripts allow-same-origin"
                 title={design.appName || "Preview"}
                 style={{ width: "100%", height: "100%", border: "none" }}
