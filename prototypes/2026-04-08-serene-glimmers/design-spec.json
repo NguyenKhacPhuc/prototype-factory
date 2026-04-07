@@ -1,0 +1,19 @@
+{
+  "appName": "Serene Glimmers",
+  "tagline": "Your camera roll, rewoven into calm.",
+  "designSystem": {
+    "primaryColor": "#0F0F23",
+    "secondaryColor": "#1E1B4B",
+    "backgroundColor": "#000000",
+    "ctaColor": "#E11D48",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "Funnel conversion with bold geometric layouts, high contrast duotone, dark-first design with calming gradients and ambient motion effects"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "player",
+    "sanctuary",
+    "settings"
+  ]
+}
