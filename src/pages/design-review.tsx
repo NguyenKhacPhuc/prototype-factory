@@ -216,55 +216,119 @@ export function DesignReview({ jobId, navigate }: Props) {
 
       {/* ═══ RIGHT: Phone Preview ═══ */}
       <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", background: "#0a0a0a", position: "relative" }}>
-        {protoFolder ? (
-          <div style={{ position: "relative" }}>
-            {/* Phone frame */}
-            <div style={{
-              width: 375, height: 812,
-              borderRadius: 44, overflow: "hidden",
-              border: "8px solid #2a2a2a",
-              boxShadow: "0 40px 80px rgba(0,0,0,0.6), inset 0 0 0 1px rgba(255,255,255,0.05)",
-              background: "#000",
-            }}>
+        {/* Phone frame — always visible */}
+        <div style={{ position: "relative" }}>
+          <div style={{
+            width: 375, height: 812,
+            borderRadius: 44, overflow: "hidden",
+            border: "8px solid #2a2a2a",
+            boxShadow: "0 40px 80px rgba(0,0,0,0.6), inset 0 0 0 1px rgba(255,255,255,0.05)",
+            background: "#111",
+            position: "relative",
+          }}>
+            {/* Interactive preview when prototype exists */}
+            {protoFolder && (isReview || isDone) ? (
               <iframe
                 src={`/prototypes/${protoFolder}/preview.html`}
                 sandbox="allow-scripts allow-same-origin"
                 title={design.appName || "Preview"}
                 style={{ width: "100%", height: "100%", border: "none" }}
               />
-            </div>
-            {/* App name badge */}
-            <div style={{
-              position: "absolute", top: -36, left: "50%", transform: "translateX(-50%)",
-              padding: "4px 16px", borderRadius: 50, fontSize: 12, fontWeight: 600,
-              background: "rgba(232,160,74,0.15)", color: "var(--accent)", border: "1px solid rgba(232,160,74,0.3)",
-              whiteSpace: "nowrap",
-            }}>
-              {design.appName || "Preview"}
-            </div>
-          </div>
-        ) : isDone ? (
-          <div style={{ textAlign: "center", color: "var(--text-muted)" }}>
-            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#22c55e" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
-              <polyline points="22 4 12 14.01 9 11.01" />
-            </svg>
-            <p style={{ fontSize: 16, fontWeight: 600, marginTop: 16 }}>App built successfully</p>
-            <p style={{ fontSize: 13, color: "var(--text-dim)" }}>Download source or scan QR to test</p>
-          </div>
-        ) : (
-          <div style={{ textAlign: "center", color: "var(--text-dim)" }}>
-            {isBuilding ? (
-              <>
-                <div style={{ width: 48, height: 48, border: "3px solid var(--border)", borderTopColor: "var(--accent)", borderRadius: "50%", animation: "spin 1s linear infinite", margin: "0 auto 16px" }} />
-                <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
-                <p style={{ fontSize: 14 }}>Building your app...</p>
-              </>
             ) : (
-              <p style={{ fontSize: 14 }}>Preview will appear here</p>
+              /* Building animation */
+              <div style={{ width: "100%", height: "100%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: 32 }}>
+                <style>{`
+                  @keyframes spin { to { transform: rotate(360deg); } }
+                  @keyframes pulse { 0%,100% { opacity: 0.3; } 50% { opacity: 1; } }
+                  @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+                  @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+                `}</style>
+
+                {isDone ? (
+                  <>
+                    <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#22c55e" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                      <polyline points="22 4 12 14.01 9 11.01" />
+                    </svg>
+                    <p style={{ color: "#22c55e", fontSize: 16, fontWeight: 700, marginTop: 16 }}>Ready!</p>
+                    <p style={{ color: "#555", fontSize: 13 }}>Download & run with Expo</p>
+                  </>
+                ) : isFailed ? (
+                  <>
+                    <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#ef4444" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="12" cy="12" r="10" /><line x1="15" y1="9" x2="9" y2="15" /><line x1="9" y1="9" x2="15" y2="15" />
+                    </svg>
+                    <p style={{ color: "#ef4444", fontSize: 14, fontWeight: 600, marginTop: 16 }}>Build failed</p>
+                  </>
+                ) : (
+                  <>
+                    {/* Animated phone skeleton */}
+                    <div style={{ width: "100%", maxWidth: 280, margin: "0 auto" }}>
+                      {/* Status bar skeleton */}
+                      <div style={{ display: "flex", justifyContent: "space-between", padding: "8px 16px", marginBottom: 20 }}>
+                        <div style={{ width: 40, height: 8, borderRadius: 4, background: "#222" }} />
+                        <div style={{ width: 60, height: 8, borderRadius: 4, background: "#222" }} />
+                      </div>
+
+                      {/* Title skeleton */}
+                      <div style={{ padding: "0 16px", marginBottom: 24 }}>
+                        <div style={{ width: "60%", height: 20, borderRadius: 6, background: "linear-gradient(90deg, #1a1a1a 25%, #252525 50%, #1a1a1a 75%)", backgroundSize: "200% 100%", animation: "shimmer 2s ease infinite" }} />
+                        <div style={{ width: "40%", height: 12, borderRadius: 4, marginTop: 8, background: "linear-gradient(90deg, #1a1a1a 25%, #252525 50%, #1a1a1a 75%)", backgroundSize: "200% 100%", animation: "shimmer 2s ease infinite 0.2s" }} />
+                      </div>
+
+                      {/* Card skeletons */}
+                      {[0, 1, 2].map(i => (
+                        <div key={i} style={{
+                          margin: "0 16px 12px", padding: 16, borderRadius: 14,
+                          border: "1px solid #1a1a1a", background: "#141414",
+                          animation: `pulse 2s ease infinite ${i * 0.3}s`,
+                        }}>
+                          <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
+                            <div style={{ width: 40, height: 40, borderRadius: 10, background: "#1a1a1a" }} />
+                            <div style={{ flex: 1 }}>
+                              <div style={{ width: "70%", height: 10, borderRadius: 4, background: "#1a1a1a", marginBottom: 6 }} />
+                              <div style={{ width: "50%", height: 8, borderRadius: 4, background: "#1a1a1a" }} />
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+
+                      {/* Nav bar skeleton */}
+                      <div style={{ position: "absolute", bottom: 20, left: 24, right: 24, display: "flex", justifyContent: "space-around", padding: "12px 0" }}>
+                        {[0, 1, 2, 3].map(i => (
+                          <div key={i} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}>
+                            <div style={{ width: 22, height: 22, borderRadius: 6, background: "#1a1a1a", animation: `pulse 2s ease infinite ${i * 0.2}s` }} />
+                            <div style={{ width: 28, height: 6, borderRadius: 3, background: "#1a1a1a" }} />
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Building text */}
+                    <div style={{ marginTop: 32, textAlign: "center" }}>
+                      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, animation: "float 3s ease infinite" }}>
+                        <div style={{ width: 16, height: 16, border: "2px solid #333", borderTopColor: "var(--accent)", borderRadius: "50%", animation: "spin 1s linear infinite" }} />
+                        <span style={{ fontSize: 13, color: "#555", fontWeight: 500 }}>
+                          {progress.message || "Preparing your app..."}
+                        </span>
+                      </div>
+                    </div>
+                  </>
+                )}
+              </div>
             )}
           </div>
-        )}
+
+          {/* App name badge */}
+          <div style={{
+            position: "absolute", top: -36, left: "50%", transform: "translateX(-50%)",
+            padding: "4px 16px", borderRadius: 50, fontSize: 12, fontWeight: 600,
+            background: "rgba(232,160,74,0.15)", color: "var(--accent)", border: "1px solid rgba(232,160,74,0.3)",
+            whiteSpace: "nowrap",
+          }}>
+            {design.appName || "Preview"}
+          </div>
+        </div>
       </div>
     </div>
   );
