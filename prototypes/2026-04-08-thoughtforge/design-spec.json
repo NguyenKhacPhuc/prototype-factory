@@ -1,0 +1,27 @@
+{
+  "appName": "ThoughtForge",
+  "tagline": "Forge concepts. Master ideas. Create.",
+  "designSystem": {
+    "primaryColor": "#2563EB",
+    "secondaryColor": "#3B82F6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F8FAFC",
+    "darkBackgroundColor": "#0F172A",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — Soft 3D, chunky, playful, toy-like, bubbly elements with thick borders (3px), double shadows, and rounded corners (16-24px). Dark mode default with light mode toggle."
+  },
+  "screens": [
+    "home",
+    "library",
+    "remix",
+    "community",
+    "profile",
+    "challenges"
+  ],
+  "features": {
+    "themeToggle": "Dark/Light mode with full theme system",
+    "animations": "fadeIn, slideUp, pulse, shimmer, slideRight, bounceIn, float, glow",
+    "navigation": "Bottom tab bar with elevated center Create button",
+    "interactivity": "Like/favorite toggles, search filtering, category filters, remix tool selection, toast notifications"
+  }
+}
