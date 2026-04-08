@@ -1,0 +1,14 @@
+{
+  "appName": "Eco Bloom",
+  "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+  "colors": {
+    "primary": "#0891B2",
+    "secondary": "#22D3EE",
+    "background": "#ECFEFF",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
