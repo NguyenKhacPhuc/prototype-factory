@@ -1,0 +1,19 @@
+{
+  "appName": "Root & Rind",
+  "tagline": "Your Local Food Story.",
+  "designSystem": {
+    "primaryColor": "#DC2626",
+    "secondaryColor": "#F87171",
+    "ctaColor": "#CA8A04",
+    "backgroundColor": "#FEF2F2",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — bold, energetic, playful block layout with geometric shapes, high color contrast, duotone accents, and gamified progression elements"
+  },
+  "screens": [
+    "home",
+    "quests",
+    "codex",
+    "gatherings",
+    "profile"
+  ]
+}
