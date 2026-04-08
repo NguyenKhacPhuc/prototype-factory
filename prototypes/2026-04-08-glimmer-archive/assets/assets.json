@@ -1,0 +1,14 @@
+{
+  "appName": "Glimmer Archive",
+  "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+  "colors": {
+    "primary": "#2563EB",
+    "secondary": "#3B82F6",
+    "background": "#F8FAFC",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

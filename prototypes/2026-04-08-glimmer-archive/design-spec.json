@@ -1,0 +1,19 @@
+{
+  "appName": "Glimmer Archive",
+  "tagline": "Curate daily curiosities.",
+  "designSystem": {
+    "primaryColor": "#2563EB",
+    "secondaryColor": "#3B82F6",
+    "backgroundColor": "#F8FAFC",
+    "ctaColor": "#F97316",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — bold, energetic, playful with geometric shapes, high color contrast, duotone accents, and block layout"
+  },
+  "screens": [
+    "home",
+    "discover",
+    "archive",
+    "seasons",
+    "profile"
+  ]
+}
