@@ -1,0 +1,18 @@
+{
+  "appName": "Nocturne Guild",
+  "tagline": "Master your night. Together.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#A78BFA",
+    "backgroundColor": "#FAF5FF",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "Community/Forum Landing — Bold, energetic, playful, block layout, geometric shapes, high color contrast, duotone, modern"
+  },
+  "screens": [
+    "home",
+    "rituals",
+    "covens",
+    "planner",
+    "whisper"
+  ]
+}
