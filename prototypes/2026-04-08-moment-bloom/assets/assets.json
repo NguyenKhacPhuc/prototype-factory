@@ -1,0 +1,14 @@
+{
+  "appName": "Moment Bloom",
+  "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+  "colors": {
+    "primary": "#0F0F23",
+    "secondary": "#1E1B4B",
+    "background": "#000000",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

@@ -1,0 +1,20 @@
+{
+  "appName": "Moment Bloom",
+  "tagline": "Your Baby's Journey, Your Calm Creations.",
+  "designSystem": {
+    "primaryColor": "#0F0F23",
+    "secondaryColor": "#1E1B4B",
+    "ctaColor": "#E11D48",
+    "backgroundColor": "#000000",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "Video-First Hero with bold geometric shapes, duotone gradients, and high color contrast. Dark-first design with calming purple undertones and energetic rose-red CTA accents."
+  },
+  "screens": [
+    "home",
+    "capture",
+    "create",
+    "timeline",
+    "sharing",
+    "profile"
+  ]
+}

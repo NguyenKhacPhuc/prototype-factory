@@ -1,0 +1,43 @@
+{
+  "name": "Moment Bloom",
+  "tagline": "Your Baby's Journey, Your Calm Creations.",
+  "description": "Moment Bloom is a unique photo & video remix app designed for new parents to transform their daily snippets into personalized, calming growth narratives. Overwhelmed parents capture countless photos and short videos, but rarely find time to organize or reflect on them meaningfully. This app adapts to your baby's unique development stage and your own emotional journey, offering adaptive 'Bloom Templates' that intuitively blend your chaotic daily captures into short, beautiful, and emotionally resonant video montages. This isn't just a highlight reel; it's a therapeutic creative outlet that visually affirms progress, provides a sense of accomplishment, and fosters a deep sense of calm and reassurance amidst the beautiful chaos of parenthood. By subtly guiding you to observe and curate your baby's evolving world, it transforms fleeting moments into lasting, personalized memories, designed to be re-watched for comfort and shared with love. Its core twist is 'Emotional Resonance Engines,' tailoring output not just to milestones but to the parent's feelings.",
+  "features": [
+    {
+      "title": "Adaptive Bloom Templates",
+      "detail": "Dynamically generated video templates (themes, music, transitions) that adapt to your baby's age, developmental milestones, and your reported emotional state, ensuring every creation feels uniquely yours. This allows for truly personalized and relevant output that evolves with your family."
+    },
+    {
+      "title": "Sentiment Stitcher",
+      "detail": "Tag photos/videos with simple emotional markers like 'sleepy,' 'giggles,' or 'discovery.' The app leverages these emotional cues, and even suggests prevalent themes based on image analysis, to intelligently inform template generation and prioritize impactful moments."
+    },
+    {
+      "title": "Growth Glow-Up Visualizer",
+      "detail": "A gentle, personalized visual timeline that subtly animates and evolves as you add content, highlighting your baby's growth and milestone achievements through mini-videos generated over time. It provides reassuring progress without the pressure of raw data."
+    },
+    {
+      "title": "Quiet Capture Prompts",
+      "detail": "Daily or weekly gentle prompts ('Capture a sleepy sigh today,' 'Notice a tiny grip') inspire specific photo/video captures that feed directly into the personalized templates. These prompts encourage mindful observation and ensure rich content for your creations."
+    },
+    {
+      "title": "Private Sanctuary Sharing",
+      "detail": "Easily export and share your personalized 'Bloom Reels' with a curated, private circle (grandparents, partners) directly from the app. This fosters a sense of shared joy and connection, while maintaining privacy for intimate family moments."
+    }
+  ],
+  "audience": "New Parents (especially those navigating the first 1-3 years of parenthood), who feel overwhelmed by the pace of change, seek reassurance about their baby's development, and desire a more meaningful, less data-driven way to document their child's early life.",
+  "category": "photo & video",
+  "useCases": [
+    {
+      "scenario": "A new mom, feeling exhausted, takes a quick video of her baby's first clumsy roll. She opens Moment Bloom, tags it 'proud moment,' and the app suggests a 'Gentle Milestones' template, transforming it into a soothing 15-second clip with soft music that reassures her of her baby's progress."
+    },
+    {
+      "scenario": "A dad wants to show his parents how much their grandchild has changed in the past month. He opens Moment Bloom, and the app presents a pre-curated 'Monthly Glow-Up' reel, complete with all the photos and videos he added, tailored with calming visuals and music, ready to share privately."
+    },
+    {
+      "scenario": "Feeling anxious about an upcoming doctor's appointment, a parent uses Moment Bloom to create a 'Comfort Recap' of their baby's happy moments from the week. Watching the short, personalized video provides a moment of calm and reminds them of the joy amidst the worries."
+    }
+  ],
+  "engagementLoop": "Users are encouraged to capture and upload a few daily moments (photos/videos) through gentle prompts. The adaptive personalization continuously offers fresh, emotionally resonant 'Bloom Templates' for remixing, ensuring the creative process feels supportive and never repetitive. The comforting visual 'Growth Glow-Up' serves as a gentle progress tracker, fostering a desire to continuously document and reflect on new milestones and parental emotional states, making it a calming daily ritual.",
+  "trendFit": "Moment Bloom aligns perfectly with the creator economy by empowering parents to be curators and storytellers of their unique family journey, moving beyond passive consumption to active, emotionally resonant creation. Its adaptive personalization speaks to the growing demand for hyper-individualized experiences, while its focus on calm and reassurance addresses the rising need for mental well-being tools, especially for overwhelmed demographics like new parents.",
+  "monetization": "A freemium model offering basic 'Bloom Templates' and storage, with a premium subscription ('Bloom Pro') unlocking exclusive cinematic templates, advanced mood-detection features, longer video exports, and expanded private sharing options."
+}
