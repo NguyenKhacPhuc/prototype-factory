@@ -1,0 +1,40 @@
+{
+  "appName": "Echo Weave",
+  "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+  "colors": {
+    "primary": "#18181B",
+    "secondary": "#3F3F46",
+    "background": "#FAFAFA",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "alert-triangle",
+    "archive",
+    "bell",
+    "chevron-right",
+    "compass",
+    "cpu",
+    "git-branch",
+    "heart",
+    "home",
+    "image",
+    "layers",
+    "lock",
+    "moon",
+    "music",
+    "plus",
+    "plus-circle",
+    "search",
+    "send",
+    "sparkles",
+    "sun",
+    "trending-up",
+    "type",
+    "user",
+    "users",
+    "zap"
+  ],
+  "fonts": [],
+  "iconCount": 25,
+  "fontFileCount": 0
+}
