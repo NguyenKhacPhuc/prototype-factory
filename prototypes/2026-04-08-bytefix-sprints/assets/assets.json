@@ -1,0 +1,14 @@
+{
+  "appName": "ByteFix Sprints",
+  "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+  "colors": {
+    "primary": "#1E293B",
+    "secondary": "#334155",
+    "background": "#0F172A",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

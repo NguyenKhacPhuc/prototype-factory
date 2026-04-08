@@ -1,0 +1,19 @@
+{
+  "appName": "ByteFix Sprints",
+  "tagline": "Quick fixes, big wins, together.",
+  "designSystem": {
+    "primaryColor": "#1E293B",
+    "secondaryColor": "#334155",
+    "backgroundColor": "#0F172A",
+    "ctaColor": "#22C55E",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — Dark theme with OLED-friendly deep blacks, midnight blue surfaces, high contrast green CTA, smooth animations, and iOS-native typography hierarchy"
+  },
+  "screens": [
+    "home",
+    "sprint",
+    "squads",
+    "submit",
+    "profile"
+  ]
+}
