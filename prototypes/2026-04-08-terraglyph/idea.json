@@ -1,0 +1,37 @@
+{
+  "name": "TerraGlyph",
+  "tagline": "Unearth local eco-rewards.",
+  "description": "TerraGlyph transforms everyday sustainable actions into a collective game that regenerates your local environment. Instead of mundane tracking, users contribute to building a unique, procedurally-generated 'TerraGlyph' \u2013 a digital monument representing their community's eco-efforts, displayed vividly on a local map. Each completed micro-challenge, like recycling correctly or choosing public transport, adds a brushstroke or pixel to the community's evolving Glyph. As a community's TerraGlyph is fully revealed and 'activated' through collective effort, it triggers surprise, real-world benefits for the area, such as a pop-up zero-waste market, a free community composting workshop, or the installation of an eco-friendly park amenity. This blend of visual progress, friendly local competition, and tangible, unexpected rewards makes sustainability feel like a delightful scavenger hunt rather than a chore, compelling users to engage daily to see what their community will unlock next.",
+  "features": [
+    {
+      "title": "Evolving Community Glyphs",
+      "detail": "Visually represent your neighborhood's collective sustainable efforts as a unique, procedurally generated digital artwork that grows and transforms with each action. This creates a powerful visual feedback loop and shared sense of accomplishment."
+    },
+    {
+      "title": "Daily Micro-Quests",
+      "detail": "Engage in bite-sized, location-aware sustainable challenges, such as 'Opt for Tap Water at the Caf\u00e9' or 'Properly Sort This Week's Recyclables.' These quests keep engagement high and translate into tangible contributions to the Glyph."
+    },
+    {
+      "title": "Surprise Local Unlocks",
+      "detail": "Once a community's TerraGlyph is complete or reaches certain milestones, it 'activates' a surprise real-world benefit like a local eco-event, a discounted offer at a sustainable business, or a community garden project. This element of 'play and surprise' drives continued participation."
+    },
+    {
+      "title": "Contribution Leaderboards",
+      "detail": "Compete with neighbors and friends to contribute the most 'Glyph Energy' through your sustainable actions. Leaderboards foster friendly competition and recognize individual impact within the community context."
+    },
+    {
+      "title": "Eco-Discovery Hub",
+      "detail": "Explore contextual information about local sustainability initiatives, eco-friendly businesses, and the environmental impact of your collective Glyph. This integrates learning and awareness seamlessly into the gamified experience."
+    }
+  ],
+  "audience": "Environmentally conscious urban and suburban dwellers, aged 20-45, who are motivated by community impact, gamified self-improvement, and unique experiential rewards beyond traditional points systems.",
+  "category": "sustainability",
+  "useCases": [
+    "A user opens TerraGlyph on their morning commute and sees a 'Bike to Work' micro-quest available, earning Glyph Energy as they track their ride.",
+    "A family checks their neighborhood's TerraGlyph status before dinner and gets excited seeing it's 80% complete, speculating what surprise eco-benefit their community might unlock soon.",
+    "A community organizer receives a notification from TerraGlyph that their local area has just unlocked a 'Free Native Tree Seedling Distribution Day' sponsored by a local nursery, encouraging them to spread the word and participate."
+  ],
+  "engagementLoop": "Users keep coming back multiple times per week driven by the curiosity of watching their community's unique TerraGlyph evolve, the anticipation of discovering what surprise local real-world reward will be unlocked next, and the desire to contribute daily to the collective progress and compete with their neighbors.",
+  "trendFit": "This app perfectly aligns with the growing trend of gamified self-improvement, where real-world actions are incentivized through play, as well as the desire for local community engagement and experiential rewards that offer genuine surprise and delight.",
+  "monetization": "TerraGlyph will monetize through strategic partnerships with local eco-friendly businesses and municipalities who sponsor the 'Surprise Local Unlocks' and offer exclusive discounts or events in exchange for brand visibility and community goodwill."
+}

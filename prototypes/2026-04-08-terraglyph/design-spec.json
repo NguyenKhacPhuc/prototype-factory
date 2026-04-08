@@ -1,0 +1,19 @@
+{
+  "appName": "TerraGlyph",
+  "tagline": "Unearth local eco-rewards.",
+  "designSystem": {
+    "primaryColor": "#059669",
+    "secondaryColor": "#10B981",
+    "ctaColor": "#0891B2",
+    "backgroundColor": "#ECFDF5",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "Funnel conversion design with dark theme support, high contrast, procedurally-generated canvas visuals, gamified eco-sustainability UI with community-driven progress mechanics"
+  },
+  "screens": [
+    "home",
+    "quests",
+    "leaderboard",
+    "discover",
+    "profile"
+  ]
+}
