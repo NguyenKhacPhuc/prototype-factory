@@ -1,0 +1,37 @@
+{
+  "appName": "Serene Grow",
+  "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+  "colors": {
+    "primary": "#1E1B4B",
+    "secondary": "#4338CA",
+    "background": "#0F0F23",
+    "accent": "#10b981"
+  },
+  "icons": [
+    "award",
+    "baby",
+    "check",
+    "check-circle",
+    "chevron-right",
+    "flame",
+    "headphones",
+    "heart",
+    "lock",
+    "message-circle",
+    "moon",
+    "pause",
+    "play",
+    "rotate-ccw",
+    "settings",
+    "skip-back",
+    "skip-forward",
+    "sparkles",
+    "star",
+    "sun",
+    "trophy",
+    "users"
+  ],
+  "fonts": [],
+  "iconCount": 22,
+  "fontFileCount": 0
+}
