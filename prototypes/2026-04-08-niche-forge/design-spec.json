@@ -1,0 +1,31 @@
+{
+  "appName": "Niche Forge",
+  "tagline": "Forge opportunities, together.",
+  "designSystem": {
+    "primaryColor": "#0D9488",
+    "secondaryColor": "#14B8A6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F0FDFA",
+    "darkBackgroundColor": "#0C1A1A",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "Funnel (3-Step Conversion) — Bold, energetic, playful, block layout, geometric shapes, high color contrast, duotone, modern"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "feed",
+    "foundry",
+    "profile",
+    "forge-detail"
+  ],
+  "features": [
+    "3-step onboarding flow",
+    "Discovery Forges with progress tracking",
+    "Micro-Challenge Feed with like/save/start actions",
+    "Opportunity Foundry with filtered insights and leaderboard",
+    "Insight Shard reward system with animations",
+    "Team matchmaking banner",
+    "Dark/Light theme toggle",
+    "Bottom tab navigation"
+  ]
+}

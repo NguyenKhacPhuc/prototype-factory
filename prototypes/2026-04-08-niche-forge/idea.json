@@ -1,0 +1,46 @@
+{
+  "name": "Niche Forge",
+  "tagline": "Forge opportunities, together.",
+  "description": "Niche Forge transforms the often solitary and unpredictable world of freelancing into a dynamic, collaborative discovery expedition. Users form small, ad-hoc teams (\"Forges\") to tackle curated, short-form \"Discovery Challenges.\" These challenges aren't about completing client work, but about collaboratively unearthing market trends, identifying underserved niches, brainstorming novel service offerings, or validating business ideas. Each step of a challenge is a bite-sized research prompt or ideation task, designed for quick engagement, mimicking short-form content consumption. The emotional hook is the thrill of collective discovery and the novelty of finding unexpected opportunities. By pooling diverse perspectives and insights, freelancers can overcome market blindness and the feast-or-famine cycle, continually generating new leads and evolving their skill sets through shared effort. The app fosters a sense of mutual growth, turning market exploration into a fun, rewarding co-op game that directly impacts their livelihood.",
+  "features": [
+    {
+      "title": "Discovery Forges",
+      "detail": "Collaborative, bite-sized \"quests\" where teams collectively research emerging trends, market gaps, or innovative service ideas. This provides structured guidance for opportunity hunting beyond typical job boards."
+    },
+    {
+      "title": "Team Matchmaking",
+      "detail": "Intelligent pairing of freelancers with complementary skills and interests for specific Forges. This ensures diverse perspectives and effective collaboration on challenges, maximizing discovery potential."
+    },
+    {
+      "title": "Insight Shard Rewards",
+      "detail": "Users earn 'Insight Shards' for unique contributions and successful Forge completions, redeemable for advanced Forge Blueprints or exclusive industry reports. This gamifies knowledge sharing and rewards high-quality input, fostering continuous engagement."
+    },
+    {
+      "title": "Opportunity Foundry",
+      "detail": "A shared, dynamic space where completed Forge insights are aggregated, curated, and validated by the community. It offers actionable leads, niche strategies, or service blueprints for team members to pursue individually or collaboratively, turning discovery into tangible assets."
+    },
+    {
+      "title": "Micro-Challenge Feed",
+      "detail": "A dynamic, scrollable feed presenting new micro-challenges within ongoing Forges or proposed new Forges, designed for quick absorption and immediate engagement. It mimics short-form content discovery to maintain high activity and constant novelty."
+    }
+  ],
+  "audience": "Independent freelancers, solopreneurs, and small agency owners experiencing \"feast-or-famine\" income, struggling with market uncertainty, or seeking novel ways to diversify their services. They are proactive individuals who value growth, collaboration, and continuous learning.",
+  "category": "productivity",
+  "useCases": [
+    {
+      "title": "Niche Identification for Designers",
+      "detail": "A freelance designer feels stuck in a saturated market. They join a 'Sustainable Brand Visuals' Forge, where their team collaboratively uncovers a niche for AI-generated ethical fashion mood boards, leading to new portfolio directions and potential client leads they hadn't imagined."
+    },
+    {
+      "title": "Service Diversification for Writers",
+      "detail": "A content writer wants to expand beyond blogging and joins a 'Niche SaaS Onboarding Flow Analysis' Forge. By researching specific pain points in obscure software, their team collectively generates a pitch for a highly specialized UX writing service they can now offer."
+    },
+    {
+      "title": "Proactive Lead Generation for Consultants",
+      "detail": "A marketing consultant has downtime between projects and browses the Micro-Challenge Feed. They jump into a 'TikTok Trend Analysis for B2B' challenge with a team, identifying an emerging content strategy that they then proactively apply to secure a new client without traditional outreach."
+    }
+  ],
+  "engagementLoop": "Users return multiple times per week due to the social accountability of their Forge teams, the variable reinforcement of discovering novel opportunities (new leads, niche ideas, skill development paths), and the continuous stream of fresh, bite-sized challenges in the Micro-Challenge Feed. The shared progress and potential for tangible career advancement create a compelling reason to stay active.",
+  "trendFit": "The app capitalizes on the \"short-form content behavior\" trend by breaking down complex market research and ideation into digestible, immediately actionable micro-challenges. It also taps into the growing desire for \"discovery and novelty\" by gamifying the often tedious process of market exploration and skill development, offering an ever-evolving landscape of opportunities.",
+  "monetization": "A freemium model offering a limited number of free 'Forges' per month. A premium subscription unlocks unlimited Forge participation, advanced analytics on team insights, and access to exclusive 'Master Forges' for high-value, deep-dive discoveries."
+}
