@@ -1,0 +1,19 @@
+{
+  "appName": "Serene Paths",
+  "tagline": "Travel mindfully, together.",
+  "designSystem": {
+    "primaryColor": "#0EA5E9",
+    "secondaryColor": "#38BDF8",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F0F9FF",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing with animation-heavy microinteractions, smooth transitions, scroll effects, and entrance animations. Dual light/dark theme support."
+  },
+  "screens": [
+    "home",
+    "journeys",
+    "sanctuary",
+    "compass",
+    "journal"
+  ]
+}
