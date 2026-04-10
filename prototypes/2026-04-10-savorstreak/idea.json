@@ -1,0 +1,54 @@
+{
+  "name": "SavorStreak",
+  "tagline": "Cook consistently, unlock your next culinary adventure.",
+  "description": "SavorStreak transforms daily cooking into an exciting game of discovery. By maintaining a cooking streak, users progressively unlock a curated world of new recipes, ingredients, and culinary techniques. The app leverages gamification to foster healthy cooking habits, offering a satisfying blend of achievement and gastronomic exploration that deepens with every dish made.",
+  "features": [
+    {
+      "title": "Streak Kitchen Dashboard",
+      "detail": "Visually track your daily cooking streak with a dynamic progress bar and motivational nudges. Losing a streak resets your progress, delaying access to exclusive content and fostering strong streak maintenance behavior (Loss Aversion)."
+    },
+    {
+      "title": "Discovery Grid",
+      "detail": "Explore a 'locked' grid of blurred recipe icons, hinting at future culinary delights. Each successful cooking streak day reveals a new, exciting recipe or unlocks an advanced cooking technique, leveraging the Scarcity Principle to motivate engagement."
+    },
+    {
+      "title": "Chef's Eye Guides",
+      "detail": "Access detailed, step-by-step visual instructions and short video tutorials for every recipe, making complex dishes approachable and enjoyable for cooks of all skill levels, inspired by visual translation tools."
+    },
+    {
+      "title": "Smart Pantry & Shopping List",
+      "detail": "Effortlessly manage your kitchen inventory and generate intelligent shopping lists. The app can suggest streak-compatible recipes based on ingredients you already have, reducing waste and simplifying meal planning."
+    },
+    {
+      "title": "Culinary Challenges & Milestones",
+      "detail": "Participate in themed cooking challenges (e.g., 'Mediterranean Week,' 'One-Pot Wonders') to earn bonus streaks, exclusive ingredient sets, and virtual badges that showcase your cooking prowess."
+    },
+    {
+      "title": "Community & Sharing",
+      "detail": "Share your culinary achievements, successful streaks, and perfected dishes with a supportive community. Get inspiration from others and showcase your newly unlocked recipes."
+    }
+  ],
+  "audience": "Home cooks seeking motivation and variety, aspiring chefs looking to expand their repertoire, food enthusiasts who enjoy gamified experiences, and individuals aiming to build consistent healthy eating habits.",
+  "category": "Food & Drink, Lifestyle, Gamified Learning",
+  "useCases": [
+    {
+      "title": "Daily Meal Inspiration",
+      "detail": "Users struggling with meal planning find fresh ideas daily, driven by the thrill of unlocking new dishes."
+    },
+    {
+      "title": "Skill Progression",
+      "detail": "Individuals wanting to improve their cooking skills follow guided recipes and gradually tackle more complex challenges."
+    },
+    {
+      "title": "Habit Formation",
+      "detail": "Leveraging loss aversion and positive reinforcement, the app helps users establish and maintain consistent home cooking habits."
+    },
+    {
+      "title": "Exploration & Discovery",
+      "detail": "Foodies can continuously explore new cuisines and ingredients, expanding their culinary horizons one streak at a time."
+    }
+  ],
+  "engagementLoop": "User completes a dish -> streak increases -> new recipe/skill is unlocked (reward/scarcity) -> user is motivated to continue streak (loss aversion of losing progress) -> discovers more recipes -> continues cooking cycle. Sharing achievements and participating in challenges further fuels engagement and social validation.",
+  "trendFit": "Aligns with trends in gamification (streaks, achievements), personalized discovery, visual learning (step-by-step guides), and habit-building apps. It taps into psychological hooks like loss aversion and the scarcity principle for sustained user engagement, similar to how productivity and language learning apps maintain user commitment.",
+  "monetization": "Freemium model with a 'SavorStreak Pro' subscription offering: ad-free experience, exclusive premium recipe packs (e.g., Michelin Star recreations, diet-specific menus), advanced ingredient filtering, personalized meal plans, and direct integration with grocery delivery services for one-tap shopping (affiliate revenue)."
+}

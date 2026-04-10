@@ -1,0 +1,14 @@
+{
+  "appName": "SavorStreak",
+  "tagline": "Cook consistently, unlock your next culinary adventure.",
+  "designSystem": {
+    "primaryColor": "#2979FF",
+    "secondaryColor": "#FF5252",
+    "backgroundColor": "#FAFAFA",
+    "fontFamily": "system / system",
+    "style": "bold geometric"
+  },
+  "screens": [
+    "home"
+  ]
+}

@@ -1,8 +1,8 @@
 [
   {
-    "folder": "2026-04-08-lunar-lull",
-    "appName": "Lunar Lull",
-    "tagline": "Your Serene Shift Companion.",
+    "folder": "2026-04-10-savorstreak",
+    "appName": "SavorStreak",
+    "tagline": "Cook consistently, unlock your next culinary adventure.",
     "designSystem": {
       "primaryColor": "#2979FF",
       "secondaryColor": "#FF5252",
@@ -14,47 +14,51 @@
       "home"
     ],
     "hasScreenshot": false,
-    "description": "Lunar Lull is a bespoke meditation and mindfulness app crafted for the unique rhythm of night-shift nurses. It provides short, targeted meditations, soothing visualscapes, and practical tools designed to help you de-stress, re-center, and find restorative calm amidst the demands of your nocturnal work and recovery.",
+    "description": "SavorStreak transforms daily cooking into an exciting game of discovery. By maintaining a cooking streak, users progressively unlock a curated world of new recipes, ingredients, and culinary techniques. The app leverages gamification to foster healthy cooking habits, offering a satisfying blend of achievement and gastronomic exploration that deepens with every dish made.",
     "features": [
       {
-        "title": "Shift-Specific Meditations",
-        "detail": "Curated audio guides (5-15 mins) for pre-shift centering, mid-shift stress release, and post-shift wind-down, addressing common nocturnal nurse challenges like fatigue and emotional processing."
+        "title": "Streak Kitchen Dashboard",
+        "detail": "Visually track your daily cooking streak with a dynamic progress bar and motivational nudges. Losing a streak resets your progress, delaying access to exclusive content and fostering strong streak maintenance behavior (Loss Aversion)."
       },
       {
-        "title": "Ambient Visualscapes",
-        "detail": "Tranquil animated backgrounds, from cosmic nebulae to gentle moonlit forests, designed to create immediate sensory calm without overstimulation, ideal for low-light environments."
+        "title": "Discovery Grid",
+        "detail": "Explore a 'locked' grid of blurred recipe icons, hinting at future culinary delights. Each successful cooking streak day reveals a new, exciting recipe or unlocks an advanced cooking technique, leveraging the Scarcity Principle to motivate engagement."
       },
       {
-        "title": "Quick-Reset Breathing Techniques",
-        "detail": "Instant access to evidence-based breathing exercises (e.g., box breathing, 4-7-8) for rapid stress reduction and improved focus during short breaks or high-stress moments."
+        "title": "Chef's Eye Guides",
+        "detail": "Access detailed, step-by-step visual instructions and short video tutorials for every recipe, making complex dishes approachable and enjoyable for cooks of all skill levels, inspired by visual translation tools."
       },
       {
-        "title": "Post-Shift Sleep Inducers",
-        "detail": "A library of gentle ambient sounds and white noise tailored to promote deep, restorative sleep after a demanding night shift, featuring adjustable sound mixes for personalized comfort."
+        "title": "Smart Pantry & Shopping List",
+        "detail": "Effortlessly manage your kitchen inventory and generate intelligent shopping lists. The app can suggest streak-compatible recipes based on ingredients you already have, reducing waste and simplifying meal planning."
       },
       {
-        "title": "Moment of Reflection Log",
-        "detail": "A private, quick-entry journal to process shift experiences, practice gratitude, and track emotional well-being, providing insights into personal stress patterns over time."
+        "title": "Culinary Challenges & Milestones",
+        "detail": "Participate in themed cooking challenges (e.g., 'Mediterranean Week,' 'One-Pot Wonders') to earn bonus streaks, exclusive ingredient sets, and virtual badges that showcase your cooking prowess."
+      },
+      {
+        "title": "Community & Sharing",
+        "detail": "Share your culinary achievements, successful streaks, and perfected dishes with a supportive community. Get inspiration from others and showcase your newly unlocked recipes."
       }
     ],
-    "audience": "Nurses and other healthcare professionals working regular night shifts (e.g., paramedics, doctors, allied health) who seek specialized tools for mental well-being, stress management, and improved rest.",
-    "category": "Health & Fitness, Wellness",
+    "audience": "Home cooks seeking motivation and variety, aspiring chefs looking to expand their repertoire, food enthusiasts who enjoy gamified experiences, and individuals aiming to build consistent healthy eating habits.",
+    "category": "Food & Drink, Lifestyle, Gamified Learning",
     "useCases": [
       {
-        "title": "Pre-Shift Centering",
-        "detail": "Before clocking in, a nurse uses a 5-minute 'Focus & Grounding' meditation to clear their mind, set positive intentions, and prepare for the demands of the shift ahead."
+        "title": "Daily Meal Inspiration",
+        "detail": "Users struggling with meal planning find fresh ideas daily, driven by the thrill of unlocking new dishes."
       },
       {
-        "title": "Mid-Shift De-stress",
-        "detail": "During a short break, a nurse accesses a 3-minute 'Rapid Calm' breathing exercise and a tranquil visualscape to reduce immediate stress from a difficult patient encounter or high workload."
+        "title": "Skill Progression",
+        "detail": "Individuals wanting to improve their cooking skills follow guided recipes and gradually tackle more complex challenges."
       },
       {
-        "title": "Post-Shift Recovery",
-        "detail": "After their shift, a nurse listens to a 'Deep Rest' guided meditation with accompanying sleep sounds to facilitate a smooth mental transition from work to restorative sleep at an unusual hour."
+        "title": "Habit Formation",
+        "detail": "Leveraging loss aversion and positive reinforcement, the app helps users establish and maintain consistent home cooking habits."
       },
       {
-        "title": "Emotional Processing & Resilience",
-        "detail": "After a particularly challenging night, a nurse uses the 'Moment of Reflection Log' to safely process their feelings, reflect on gratitude, and build emotional resilience."
+        "title": "Exploration & Discovery",
+        "detail": "Foodies can continuously explore new cuisines and ingredients, expanding their culinary horizons one streak at a time."
       }
     ]
   },
