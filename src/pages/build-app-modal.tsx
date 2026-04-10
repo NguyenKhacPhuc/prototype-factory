@@ -76,7 +76,7 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
         .insert({
           user_id: user.id,
           type: 'mobile-app',
-          status: 'pending_design_review',
+          status: 'pending',
           source: 'user',
           input: {
             prompt: safeText(prototype.description),
