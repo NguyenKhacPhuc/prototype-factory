@@ -186,7 +186,7 @@ export function DesignReview({ jobId, navigate }: Props) {
           {isPrototype && isDone && resultFolder ? (
             <div style={{ display: "flex", gap: 8 }}>
               <button onClick={() => navigate("/gallery")} style={{ flex: 1, padding: 10, borderRadius: 8, border: "1px solid var(--border)", background: "none", color: "var(--text-muted)", fontSize: 13, cursor: "pointer" }}>Gallery</button>
-              <button onClick={() => navigate(`/prototype/${resultFolder}`)} style={{ flex: 1, padding: 10, borderRadius: 8, border: "1px solid var(--border)", background: "none", color: "var(--text-secondary)", fontSize: 13, fontWeight: 600, cursor: "pointer" }}>View Details</button>
+              <a href={`/prototype/${resultFolder}`} style={{ flex: 1, padding: 10, borderRadius: 8, border: "1px solid var(--border)", background: "none", color: "var(--text-secondary)", fontSize: 13, fontWeight: 600, cursor: "pointer", textAlign: "center", textDecoration: "none", display: "flex", alignItems: "center", justifyContent: "center" }}>View Details</a>
               <button onClick={() => {/* TODO: trigger mobile-app build from this prototype */}} style={{ flex: 2, padding: 10, borderRadius: 8, border: "none", background: "var(--accent)", color: "#fff", fontSize: 13, fontWeight: 700, cursor: "pointer" }}>Build Real App</button>
             </div>
           ) : isReview ? (
