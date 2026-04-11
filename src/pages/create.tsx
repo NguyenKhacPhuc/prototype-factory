@@ -51,6 +51,14 @@ export function Create({ navigate }: Props) {
         return;
       }
 
+      // Check for selected style from Studio
+      const savedStyle = sessionStorage.getItem("selected_style");
+      let customDesign: any = undefined;
+      if (savedStyle) {
+        try { customDesign = JSON.parse(savedStyle); } catch {}
+        sessionStorage.removeItem("selected_style");
+      }
+
       // Create job
       const { data: job, error: insertError } = await supabase
         .from("generation_jobs")
@@ -58,7 +66,7 @@ export function Create({ navigate }: Props) {
           user_id: user.id,
           type: "prototype",
           source: "user",
-          input: { prompt: prompt.trim() },
+          input: { prompt: prompt.trim(), custom_design: customDesign },
         })
         .select()
         .single();

@@ -447,7 +447,16 @@ export function Styles({ navigate }: Props) {
                 <span className="styles-spec-val">{selected.radius}px</span>
               </div>
             </div>
-            <button className="btn-primary" style={{ background: selected.accent, width: "100%", justifyContent: "center", marginTop: 16 }} onClick={() => navigate("/create")}>
+            <button className="btn-primary" style={{ background: selected.accent, width: "100%", justifyContent: "center", marginTop: 16 }} onClick={() => {
+              sessionStorage.setItem("selected_style", JSON.stringify({
+                name: selected.name,
+                colors: { primary: selected.accent, background: selected.bg, surface: selected.card, text: selected.text },
+                font: selected.font,
+                radius: selected.radius,
+                style: selected.name,
+              }));
+              navigate("/create");
+            }}>
               Use This Style
             </button>
           </div>

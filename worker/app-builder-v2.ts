@@ -119,7 +119,7 @@ export async function runDesignPhase(jobId: string, input: { prompt: string; pro
 
 // ─── MAIN BUILDER (runs after design approval) ──────────────────────
 
-export async function buildAppV2(jobId: string, input: { prompt: string; prototype_folder?: string }) {
+export async function buildAppV2(jobId: string, input: { prompt: string; prototype_folder?: string; custom_design?: any }) {
   const logger = new PipelineLogger(jobId);
   const supabase = createClient(config.supabaseUrl, config.supabaseServiceKey);
   const workDir = `/tmp/builds/${jobId}`;
@@ -141,17 +141,37 @@ export async function buildAppV2(jobId: string, input: { prompt: string; prototy
     scaffoldTemplate(workDir, appSlug);
     await pushLog('Project scaffold created.', ['package.json', 'app.json', 'tsconfig.json', 'babel.config.js', 'app/_layout.tsx'], 'action');
 
-    // ── Step 2: Design (reuse from design review if available) ──
+    // ── Step 2: Design (custom > existing > generate) ──
     await logger.updateProgress(2, 5, 'Designing your app...');
-    const { data: existingJob } = await supabase.from('generation_jobs').select('design_data').eq('id', jobId).single();
     let design: any;
-    if (existingJob?.design_data) {
-      design = existingJob.design_data;
-      await pushLog('Using approved design.', ['specs/design.json'], 'success');
+    if (input.custom_design) {
+      // User picked a style from Studio
+      design = {
+        appName: input.prompt.split(' ').slice(0, 3).join(' '),
+        description: input.prompt,
+        colors: input.custom_design.colors || {},
+        style: input.custom_design.style || input.custom_design.name || '',
+        fontFamily: input.custom_design.font || '-apple-system, sans-serif',
+        screens: [],
+        features: [],
+      };
+      // Still need Gemini for screens/features
+      const geminiDesign = await designWithGemini(input.prompt, input.prototype_folder, logger);
+      design.screens = geminiDesign.screens;
+      design.features = geminiDesign.features;
+      design.appName = geminiDesign.appName || design.appName;
+      design.description = geminiDesign.description || design.description;
+      await pushLog(`Using Studio style: ${design.style}`, ['specs/design.json'], 'success');
     } else {
-      await pushLog('Designing the app — choosing colors, screens, and features...', undefined, 'info');
-      design = await designWithGemini(input.prompt, input.prototype_folder, logger);
-      await supabase.from('generation_jobs').update({ design_data: design }).eq('id', jobId);
+      const { data: existingJob } = await supabase.from('generation_jobs').select('design_data').eq('id', jobId).single();
+      if (existingJob?.design_data) {
+        design = existingJob.design_data;
+        await pushLog('Using approved design.', ['specs/design.json'], 'success');
+      } else {
+        await pushLog('Designing the app — choosing colors, screens, and features...', undefined, 'info');
+        design = await designWithGemini(input.prompt, input.prototype_folder, logger);
+        await supabase.from('generation_jobs').update({ design_data: design }).eq('id', jobId);
+      }
     }
     writeFileSync(join(workDir, 'specs/design.json'), JSON.stringify(design, null, 2));
     const screenNames = (design.screens || []).map((s: any) => typeof s === 'string' ? s : s.name);
