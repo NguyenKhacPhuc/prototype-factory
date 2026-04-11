@@ -7,14 +7,13 @@ import { buildAppV2, runDesignPhase } from './app-builder-v2';
 const supabase = createClient(config.supabaseUrl, config.supabaseServiceKey);
 
 let activeJobs = 0;
-const MAX_CONCURRENT_PROTOTYPE = 3;
-const MAX_CONCURRENT_MOBILE = 1;
+const MAX_CONCURRENT = 5; // total parallel jobs (prototypes + mobile apps)
 
 export async function startPolling() {
   console.log(`Worker started (mock=${config.mockMode}, polling every ${config.pollIntervalMs}ms)`);
 
   setInterval(async () => {
-    if (activeJobs >= MAX_CONCURRENT_PROTOTYPE + MAX_CONCURRENT_MOBILE) return;
+    if (activeJobs >= MAX_CONCURRENT) return;
 
     try {
       // Check for pending_design_review jobs first (run design only)
@@ -34,21 +33,24 @@ export async function startPolling() {
         runDesignPhase(job.id, job.input)
           .catch(err => console.error(`Design job ${job.id} failed:`, err.message))
           .finally(() => { activeJobs--; });
-        return;
+        // Don't return — check for more jobs below
       }
 
-      // Then check for approved pending jobs (full build)
+      if (activeJobs >= MAX_CONCURRENT) return;
+
+      // Check for approved pending jobs (full build) — pick up multiple
+      const slotsAvailable = MAX_CONCURRENT - activeJobs;
       const { data: jobs, error } = await supabase
         .from('generation_jobs')
         .update({ status: 'running', started_at: new Date().toISOString() })
         .eq('status', 'pending')
         .order('created_at', { ascending: true })
-        .limit(1)
+        .limit(slotsAvailable)
         .select();
 
       if (error || !jobs?.length) return;
 
-      const job = jobs[0];
+      for (const job of jobs) {
       console.log(`Picked up ${job.type} job ${job.id}: ${job.input?.prompt?.slice(0, 50)}...`);
 
       activeJobs++;
@@ -59,6 +61,7 @@ export async function startPolling() {
       runner
         .catch(err => console.error(`Job ${job.id} failed:`, err.message))
         .finally(() => { activeJobs--; });
+      }
 
     } catch (err: any) {
       console.error('Polling error:', err.message);
