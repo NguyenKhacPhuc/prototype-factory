@@ -5,7 +5,9 @@ interface Route {
   params: Record<string, string>;
 }
 
-function matchRoute(pathname: string): Route {
+function matchRoute(rawPath: string): Route {
+  // Strip query string for matching
+  const pathname = rawPath.split('?')[0];
   // /prototype/:slug
   const protoMatch = pathname.match(/^\/prototype\/([^/]+)\/?$/);
   if (protoMatch) {
