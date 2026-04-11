@@ -34,13 +34,26 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
   const [error, setError] = useState('');
   const [showPaypal, setShowPaypal] = useState(false);
   const [paypalLoaded, setPaypalLoaded] = useState(false);
+  const [buildCount, setBuildCount] = useState(0);
   const paypalRef = React.useRef<HTMLDivElement>(null);
 
-  // Skip estimation — go straight to review
+  const FREE_BUILDS = 3;
+  const PRICE = '2.99';
+  const needsPayment = buildCount >= FREE_BUILDS;
+
+  // Check user's build count + skip estimation
   useEffect(() => {
     setEstimate(fallbackEstimate(prototype));
     setStep('review');
-  }, []);
+    if (user) {
+      supabase.from('generation_jobs')
+        .select('id', { count: 'exact', head: true })
+        .eq('user_id', user.id)
+        .eq('type', 'mobile-app')
+        .in('status', ['completed', 'running', 'pending'])
+        .then(({ count }) => setBuildCount(count || 0));
+    }
+  }, [user]);
 
   // Load PayPal SDK when showing payment
   useEffect(() => {
@@ -58,7 +71,7 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
             return fetch('/api/paypal-create-order', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ amount: '9.99', description: 'Build App' }),
+              body: JSON.stringify({ amount: PRICE, description: 'Build App' }),
             }).then(function(resp) {
               console.log('PayPal create response status:', resp.status);
               return resp.json();
@@ -217,6 +230,15 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
               </div>
             </div>
 
+            {/* Free builds counter */}
+            {!needsPayment && (
+              <div style={{ marginBottom: 16, padding: '10px 16px', borderRadius: 10, background: 'rgba(34,197,94,0.1)', border: '1px solid rgba(34,197,94,0.2)', textAlign: 'center' }}>
+                <span style={{ fontSize: 13, color: '#22c55e', fontWeight: 600 }}>
+                  {FREE_BUILDS - buildCount} free build{FREE_BUILDS - buildCount !== 1 ? 's' : ''} remaining
+                </span>
+              </div>
+            )}
+
             {/* Actions */}
             {!showPaypal ? (
               <div style={{ display: 'flex', gap: 12 }}>
@@ -224,10 +246,17 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
                   flex: 1, padding: 14, borderRadius: 12, border: '1px solid var(--border)',
                   background: 'none', color: 'var(--text-secondary)', fontSize: 14, fontWeight: 600, cursor: 'pointer',
                 }}>Cancel</button>
-                <button onClick={() => setShowPaypal(true)} style={{
-                  flex: 2, padding: 14, borderRadius: 12, border: 'none',
-                  background: 'var(--accent)', color: '#fff', fontSize: 14, fontWeight: 700, cursor: 'pointer',
-                }}>Build App — $9.99</button>
+                {needsPayment ? (
+                  <button onClick={() => setShowPaypal(true)} style={{
+                    flex: 2, padding: 14, borderRadius: 12, border: 'none',
+                    background: 'var(--accent)', color: '#fff', fontSize: 14, fontWeight: 700, cursor: 'pointer',
+                  }}>Build App — ${PRICE}</button>
+                ) : (
+                  <button onClick={handleBuild} style={{
+                    flex: 2, padding: 14, borderRadius: 12, border: 'none',
+                    background: 'var(--accent)', color: '#fff', fontSize: 14, fontWeight: 700, cursor: 'pointer',
+                  }}>Build App — Free</button>
+                )}
               </div>
             ) : (
               <div>
