@@ -48,7 +48,7 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
 
     const PAYPAL_CLIENT_ID = 'AVxqysJg5cRM0IyK0A3xZ4VHhPPV43f73SDGHWPsE0rFafvHiKAeRJFQMq40Se0SQMRHaS02GQswjcAV';
     const script = document.createElement('script');
-    script.src = `https://www.paypal.com/sdk/js?client-id=${PAYPAL_CLIENT_ID}&currency=USD&intent=capture`;
+    script.src = `https://www.paypal.com/sdk/js?client-id=${PAYPAL_CLIENT_ID}&currency=USD&intent=capture&enable-funding=card`;
     script.onload = () => {
       setPaypalLoaded(true);
       if (paypalRef.current && (window as any).paypal) {
@@ -59,8 +59,18 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({ amount: '9.99', description: 'Build App' }),
-            }).then(function(resp) { return resp.json(); })
-              .then(function(order) { return order.id; });
+            }).then(function(resp) {
+              console.log('PayPal create response status:', resp.status);
+              return resp.json();
+            }).then(function(order) {
+              console.log('PayPal order:', order);
+              if (!order.id) throw new Error('No order ID: ' + JSON.stringify(order));
+              return order.id;
+            }).catch(function(err) {
+              console.error('PayPal createOrder error:', err);
+              setError('Failed to create payment: ' + err.message);
+              throw err;
+            });
           },
           onApprove: function(data: any) {
             return fetch('/api/paypal-capture-order', {
