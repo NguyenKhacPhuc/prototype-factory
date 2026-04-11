@@ -26,7 +26,7 @@ function matchRoute(rawPath: string): Route {
   }
 
   // Static routes
-  const staticRoutes = ["/", "/gallery", "/about", "/create", "/canvas", "/styles", "/profile", "/admin"];
+  const staticRoutes = ["/", "/gallery", "/about", "/create", "/canvas", "/styles", "/profile", "/admin", "/pricing"];
   const matched = staticRoutes.find((r) => r === pathname);
   return { path: matched || "/", params: {} };
 }

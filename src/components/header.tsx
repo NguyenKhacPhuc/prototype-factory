@@ -176,6 +176,7 @@ export function Header({ navigate, currentPath }: HeaderProps) {
               Studio
             </a>
             {link("/create", "Create")}
+            {link("/pricing", "Pricing")}
             {link("/about", "About")}
           </nav>
           <div className="header-actions">

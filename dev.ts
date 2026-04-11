@@ -31,6 +31,7 @@ Bun.serve({
     "/design/*": index,
     "/profile": index,
     "/admin": index,
+    "/pricing": index,
     "/auth/callback": index,
   },
   static: {

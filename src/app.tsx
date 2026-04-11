@@ -14,6 +14,7 @@ import { Profile } from "./pages/profile";
 import { Admin } from "./pages/admin";
 import { AuthCallback } from "./pages/auth-callback";
 import { DesignReview } from "./pages/design-review";
+import { Pricing } from "./pages/pricing";
 
 export function App() {
   const { path, params, navigate } = useRouter();
@@ -69,6 +70,8 @@ export function App() {
         return <Profile navigate={navigate} />;
       case "/admin":
         return <Admin navigate={navigate} />;
+      case "/pricing":
+        return <Pricing navigate={navigate} />;
       case "/design/:jobId":
         return <DesignReview jobId={params.jobId} navigate={navigate} />;
       case "/auth/callback":
