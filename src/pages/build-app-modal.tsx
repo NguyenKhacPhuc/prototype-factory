@@ -30,14 +30,65 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
   const { user } = useAuth();
   const [step, setStep] = useState<'estimating' | 'review' | 'building' | 'error'>('estimating');
   const [estimate, setEstimate] = useState<Estimate | null>(null);
-  const [framework, setFramework] = useState<'flutter' | 'react-native' | 'kmp'>('flutter');
+  const [framework, setFramework] = useState<'flutter' | 'react-native' | 'kmp'>('react-native');
   const [error, setError] = useState('');
+  const [showPaypal, setShowPaypal] = useState(false);
+  const [paypalLoaded, setPaypalLoaded] = useState(false);
+  const paypalRef = React.useRef<HTMLDivElement>(null);
 
   // Skip estimation — go straight to review
   useEffect(() => {
     setEstimate(fallbackEstimate(prototype));
     setStep('review');
   }, []);
+
+  // Load PayPal SDK when showing payment
+  useEffect(() => {
+    if (!showPaypal || paypalLoaded) return;
+
+    const PAYPAL_CLIENT_ID = 'ATddrQtYRwZXl25p9lm1d9DA1JIWxctt3mRs8KficxT-R37CveX-L7niQkI36a8z2P2OK6bt2yIKN7NM';
+    const script = document.createElement('script');
+    script.src = `https://www.paypal.com/sdk/js?client-id=${PAYPAL_CLIENT_ID}&currency=USD&intent=capture`;
+    script.onload = () => {
+      setPaypalLoaded(true);
+      if (paypalRef.current && (window as any).paypal) {
+        (window as any).paypal.Buttons({
+          style: { shape: 'rect', layout: 'vertical', color: 'gold', label: 'pay' },
+          createOrder: async () => {
+            const resp = await fetch('/api/paypal-create-order', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ amount: '9.99', description: `Build ${safeText(prototype.appName)}` }),
+            });
+            const order = await resp.json();
+            if (order.error) throw new Error(order.error);
+            return order.id;
+          },
+          onApprove: async (data: any) => {
+            const resp = await fetch('/api/paypal-capture-order', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ orderID: data.orderID }),
+            });
+            const captureData = await resp.json();
+            const status = captureData.purchase_units?.[0]?.payments?.captures?.[0]?.status;
+            if (status === 'COMPLETED') {
+              // Payment successful — start the build
+              handleBuild();
+            } else {
+              setError('Payment was not completed. Please try again.');
+            }
+          },
+          onError: (err: any) => {
+            setError('Payment failed. Please try again.');
+            console.error('PayPal error:', err);
+          },
+        }).render(paypalRef.current);
+      }
+    };
+    document.body.appendChild(script);
+    return () => { try { document.body.removeChild(script); } catch {} };
+  }, [showPaypal]);
 
   async function handleBuild() {
     if (!user) return;
@@ -159,16 +210,31 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
             </div>
 
             {/* Actions */}
-            <div style={{ display: 'flex', gap: 12 }}>
-              <button onClick={onClose} style={{
-                flex: 1, padding: 14, borderRadius: 12, border: '1px solid var(--border)',
-                background: 'none', color: 'var(--text-secondary)', fontSize: 14, fontWeight: 600, cursor: 'pointer',
-              }}>Cancel</button>
-              <button onClick={handleBuild} style={{
-                flex: 2, padding: 14, borderRadius: 12, border: 'none',
-                background: 'var(--accent)', color: '#fff', fontSize: 14, fontWeight: 700, cursor: 'pointer',
-              }}>Build App</button>
-            </div>
+            {!showPaypal ? (
+              <div style={{ display: 'flex', gap: 12 }}>
+                <button onClick={onClose} style={{
+                  flex: 1, padding: 14, borderRadius: 12, border: '1px solid var(--border)',
+                  background: 'none', color: 'var(--text-secondary)', fontSize: 14, fontWeight: 600, cursor: 'pointer',
+                }}>Cancel</button>
+                <button onClick={() => setShowPaypal(true)} style={{
+                  flex: 2, padding: 14, borderRadius: 12, border: 'none',
+                  background: 'var(--accent)', color: '#fff', fontSize: 14, fontWeight: 700, cursor: 'pointer',
+                }}>Build App — $9.99</button>
+              </div>
+            ) : (
+              <div>
+                <p style={{ fontSize: 13, color: 'var(--text-muted)', marginBottom: 12, textAlign: 'center' }}>Complete payment to start building</p>
+                <div ref={paypalRef} style={{ minHeight: 150 }}>
+                  {!paypalLoaded && (
+                    <div style={{ textAlign: 'center', padding: 20, color: 'var(--text-dim)' }}>Loading PayPal...</div>
+                  )}
+                </div>
+                <button onClick={() => setShowPaypal(false)} style={{
+                  width: '100%', marginTop: 12, padding: 10, borderRadius: 10, border: '1px solid var(--border)',
+                  background: 'none', color: 'var(--text-muted)', fontSize: 13, cursor: 'pointer',
+                }}>Back</button>
+              </div>
+            )}
           </>
         )}
 

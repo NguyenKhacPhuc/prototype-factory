@@ -128,6 +128,45 @@ Bun.serve({
       }
     }
 
+    // PayPal: create order
+    if (pathname === "/api/paypal-create-order" && req.method === "POST") {
+      try {
+        const body = await req.json() as any;
+        const BASE_URL = (process.env.PAYPAL_MODE || 'sandbox') === 'live' ? 'https://api-m.paypal.com' : 'https://api-m.sandbox.paypal.com';
+        const tokenResp = await fetch(`${BASE_URL}/v1/oauth2/token`, {
+          method: 'POST',
+          headers: { 'Authorization': `Basic ${btoa(`${process.env.PAYPAL_CLIENT_ID}:${process.env.PAYPAL_CLIENT_SECRET}`)}`, 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: 'grant_type=client_credentials',
+        });
+        const { access_token } = await tokenResp.json() as any;
+        const orderResp = await fetch(`${BASE_URL}/v2/checkout/orders`, {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer ${access_token}`, 'Content-Type': 'application/json' },
+          body: JSON.stringify({ intent: 'CAPTURE', purchase_units: [{ amount: { currency_code: 'USD', value: body.amount || '9.99' }, description: body.description || 'Appdex — Build App', custom_id: body.jobId || '' }] }),
+        });
+        return jsonResponse(await orderResp.json());
+      } catch (err: any) { return jsonResponse({ error: err.message }, 500); }
+    }
+
+    // PayPal: capture order
+    if (pathname === "/api/paypal-capture-order" && req.method === "POST") {
+      try {
+        const { orderID } = await req.json() as any;
+        const BASE_URL = (process.env.PAYPAL_MODE || 'sandbox') === 'live' ? 'https://api-m.paypal.com' : 'https://api-m.sandbox.paypal.com';
+        const tokenResp = await fetch(`${BASE_URL}/v1/oauth2/token`, {
+          method: 'POST',
+          headers: { 'Authorization': `Basic ${btoa(`${process.env.PAYPAL_CLIENT_ID}:${process.env.PAYPAL_CLIENT_SECRET}`)}`, 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: 'grant_type=client_credentials',
+        });
+        const { access_token } = await tokenResp.json() as any;
+        const captureResp = await fetch(`${BASE_URL}/v2/checkout/orders/${orderID}/capture`, {
+          method: 'POST',
+          headers: { 'Authorization': `Bearer ${access_token}`, 'Content-Type': 'application/json' },
+        });
+        return jsonResponse(await captureResp.json());
+      } catch (err: any) { return jsonResponse({ error: err.message }, 500); }
+    }
+
     // Serve static files from prototypes/ and other static dirs
     const filePath = `.${pathname}`;
     const file = Bun.file(filePath);
