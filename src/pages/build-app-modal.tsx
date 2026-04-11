@@ -28,7 +28,7 @@ const TIER_INFO: Record<string, { price: string; priceCents: number; color: stri
 
 export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
   const { user } = useAuth();
-  const [step, setStep] = useState<'estimating' | 'review' | 'building' | 'error'>('estimating');
+  const [step, setStep] = useState<'estimating' | 'review' | 'paid' | 'building' | 'error'>('estimating');
   const [estimate, setEstimate] = useState<Estimate | null>(null);
   const [framework, setFramework] = useState<'flutter' | 'react-native' | 'kmp'>('react-native');
   const [error, setError] = useState('');
@@ -94,7 +94,8 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
               .then(function(captureData: any) {
                 const status = captureData.purchase_units?.[0]?.payments?.captures?.[0]?.status;
                 if (status === 'COMPLETED') {
-                  handleBuild();
+                  setStep('paid');
+                  setTimeout(() => handleBuild(), 2000);
                 } else {
                   setError('Payment was not completed. Please try again.');
                 }
@@ -230,14 +231,32 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
               </div>
             </div>
 
-            {/* Free builds counter */}
-            {!needsPayment && (
-              <div style={{ marginBottom: 16, padding: '10px 16px', borderRadius: 10, background: 'rgba(34,197,94,0.1)', border: '1px solid rgba(34,197,94,0.2)', textAlign: 'center' }}>
-                <span style={{ fontSize: 13, color: '#22c55e', fontWeight: 600 }}>
-                  {FREE_BUILDS - buildCount} free build{FREE_BUILDS - buildCount !== 1 ? 's' : ''} remaining
-                </span>
+            {/* Plan info */}
+            <div style={{ marginBottom: 20, padding: 16, borderRadius: 12, background: 'var(--bg)', border: '1px solid var(--border)' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
+                <span style={{ fontSize: 13, fontWeight: 700, color: 'var(--text)' }}>Your Plan</span>
+                <span style={{
+                  padding: '3px 10px', borderRadius: 50, fontSize: 11, fontWeight: 600,
+                  background: needsPayment ? 'rgba(232,160,74,0.15)' : 'rgba(34,197,94,0.15)',
+                  color: needsPayment ? 'var(--accent)' : '#22c55e',
+                }}>{needsPayment ? 'Pay per build' : 'Free tier'}</span>
               </div>
-            )}
+
+              {/* Progress bar */}
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
+                <div style={{ flex: 1, height: 6, borderRadius: 3, background: 'var(--border)' }}>
+                  <div style={{ width: `${Math.min(100, (buildCount / FREE_BUILDS) * 100)}%`, height: '100%', borderRadius: 3, background: needsPayment ? 'var(--accent)' : '#22c55e', transition: 'width 0.3s' }} />
+                </div>
+                <span style={{ fontSize: 12, color: 'var(--text-dim)', whiteSpace: 'nowrap' }}>{buildCount}/{FREE_BUILDS}</span>
+              </div>
+
+              <p style={{ fontSize: 12, color: 'var(--text-dim)', margin: 0 }}>
+                {needsPayment
+                  ? `Free builds used. Additional builds are $${PRICE} each.`
+                  : `${FREE_BUILDS - buildCount} free build${FREE_BUILDS - buildCount !== 1 ? 's' : ''} remaining. No payment needed.`
+                }
+              </p>
+            </div>
 
             {/* Actions */}
             {!showPaypal ? (
@@ -273,6 +292,17 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
               </div>
             )}
           </>
+        )}
+
+        {step === 'paid' && (
+          <div style={{ textAlign: 'center', padding: '20px 0' }}>
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22c55e" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginBottom: 16 }}>
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+            <h2 style={{ fontSize: 20, fontWeight: 700, marginBottom: 8 }}>Payment Successful!</h2>
+            <p style={{ fontSize: 14, color: 'var(--text-muted)' }}>Thank you! Starting your build now...</p>
+          </div>
         )}
 
         {step === 'building' && (
