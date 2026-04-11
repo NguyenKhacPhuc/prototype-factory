@@ -54,32 +54,30 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
       if (paypalRef.current && (window as any).paypal) {
         (window as any).paypal.Buttons({
           style: { shape: 'rect', layout: 'vertical', color: 'gold', label: 'pay' },
-          createOrder: async () => {
-            const resp = await fetch('/api/paypal-create-order', {
+          createOrder: function() {
+            return fetch('/api/paypal-create-order', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ amount: '9.99', description: `Build ${safeText(prototype.appName)}` }),
-            });
-            const order = await resp.json();
-            if (order.error) throw new Error(order.error);
-            return order.id;
+              body: JSON.stringify({ amount: '9.99', description: 'Build App' }),
+            }).then(function(resp) { return resp.json(); })
+              .then(function(order) { return order.id; });
           },
-          onApprove: async (data: any) => {
-            const resp = await fetch('/api/paypal-capture-order', {
+          onApprove: function(data: any) {
+            return fetch('/api/paypal-capture-order', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({ orderID: data.orderID }),
-            });
-            const captureData = await resp.json();
-            const status = captureData.purchase_units?.[0]?.payments?.captures?.[0]?.status;
-            if (status === 'COMPLETED') {
-              // Payment successful — start the build
-              handleBuild();
-            } else {
-              setError('Payment was not completed. Please try again.');
-            }
+            }).then(function(resp) { return resp.json(); })
+              .then(function(captureData: any) {
+                const status = captureData.purchase_units?.[0]?.payments?.captures?.[0]?.status;
+                if (status === 'COMPLETED') {
+                  handleBuild();
+                } else {
+                  setError('Payment was not completed. Please try again.');
+                }
+              });
           },
-          onError: (err: any) => {
+          onError: function(err: any) {
             setError('Payment failed. Please try again.');
             console.error('PayPal error:', err);
           },
