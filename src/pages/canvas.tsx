@@ -5,7 +5,7 @@ import { CanvasFrame } from "../components/canvas-frame";
 import { CanvasInspector } from "../components/canvas-inspector";
 import { CanvasLayersPanel } from "../components/canvas-layers-panel";
 import { getNodeByPath, type DesignNode } from "../components/canvas-design-node";
-// ComingSoonModal removed — Create page now has real generation
+import { CanvasStylePanel } from "../components/canvas-style-panel";
 
 interface Props {
   navigate: (to: string) => void;
@@ -51,6 +51,9 @@ export function Canvas({ navigate }: Props) {
   const [selectedPath, setSelectedPath] = useState<string | null>(null);
   const [hoveredPath, setHoveredPath] = useState<string | null>(null);
   const [canvasSize, setCanvasSize] = useState({ w: 800, h: 600 });
+  const [showStylePanel, setShowStylePanel] = useState(true);
+  const [customColors, setCustomColors] = useState({ primary: '#2979FF', secondary: '#FF5252', bg: '#FAFAFA', text: '#111', accent: '#EC4899' });
+  const protoFolder = new URLSearchParams(typeof window !== 'undefined' ? window.location.search : '').get('proto') || '';
   const [screenPositions, setScreenPositions] = useState<{ x: number; y: number }[]>([]);
   const containerRef = useRef<HTMLDivElement>(null);
   const hasCentered = useRef(false);
@@ -185,6 +188,12 @@ export function Canvas({ navigate }: Props) {
           )}
         </div>
         <div style={{ display: "flex", gap: 8 }}>
+          <button onClick={() => setShowStylePanel(s => !s)} style={{
+            padding: "7px 16px", borderRadius: 8, fontSize: 12, fontWeight: 600, cursor: "pointer",
+            background: showStylePanel ? "rgba(232,160,74,0.15)" : "transparent",
+            border: showStylePanel ? "1px solid rgba(232,160,74,0.3)" : "1px solid rgba(255,255,255,0.08)",
+            color: showStylePanel ? "#e8a04a" : "rgba(255,255,255,0.7)",
+          }}>Styles</button>
           {["Preview", "Export", "Share"].map((l) => (
             <button key={l} onClick={() => setShowModal(true)} style={{
               padding: "7px 16px", borderRadius: 8, fontSize: 12, fontWeight: 600,
@@ -197,8 +206,25 @@ export function Canvas({ navigate }: Props) {
         </div>
       </div>
 
-      {/* Main area: layers + canvas + inspector */}
+      {/* Main area: style panel + layers + canvas + inspector */}
       <div style={{ display: "flex", flex: 1, overflow: "hidden" }}>
+        {/* Style Panel */}
+        {showStylePanel && (
+          <CanvasStylePanel
+            colors={customColors}
+            onColorsChange={setCustomColors}
+            onPresetApply={(preset) => setCustomColors({ primary: preset.accent, secondary: preset.accent, bg: preset.bg, text: preset.text, accent: preset.accent })}
+            onBuild={() => {
+              sessionStorage.setItem('selected_style', JSON.stringify({
+                name: 'Custom',
+                colors: customColors,
+                font: '-apple-system, sans-serif',
+              }));
+              navigate(`/create`);
+            }}
+          />
+        )}
+
         {/* Layers Panel */}
         {screens.length > 0 && (
           <CanvasLayersPanel
