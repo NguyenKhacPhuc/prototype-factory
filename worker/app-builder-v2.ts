@@ -260,12 +260,22 @@ async function designWithGemini(prompt: string, protoFolder: string | undefined,
       const idea = JSON.parse(readFileSync(ideaPath, 'utf-8'));
       const spec = JSON.parse(readFileSync(specPath, 'utf-8'));
       logger.log({ stage: 1, step: 'design', event: 'complete', detail: 'Reused from prototype' });
+      const ds = spec.designSystem || {};
       return {
         appName: idea.name,
         description: idea.description,
         features: idea.features,
         screens: spec.screens || ['home', 'detail', 'settings'],
-        colors: spec.designSystem || { primary: '#2979FF', background: '#FAFAFA', text: '#111' },
+        colors: {
+          primary: ds.primaryColor || '#2979FF',
+          secondary: ds.secondaryColor || '#FF5252',
+          background: ds.backgroundColor || '#FAFAFA',
+          surface: '#FFFFFF',
+          text: '#111111',
+          textSecondary: '#666666',
+        },
+        style: ds.style || '',
+        fontFamily: ds.fontFamily || "-apple-system, sans-serif",
       };
     }
   }
@@ -327,9 +337,20 @@ Description: ${design.description || prompt}
 Screens:
 ${screenList}
 
-Colors: primary=${colors.primary || '#2979FF'} secondary=${colors.secondary || '#FF5252'} background=${colors.background || '#FAFAFA'} surface=${colors.surface || '#FFF'} text=${colors.text || '#111'} textSecondary=${colors.textSecondary || '#666'}
+Design Style: ${design.style || 'modern minimal'}
+Font: ${design.fontFamily || '-apple-system, sans-serif'}
 
-Features: ${(design.features || []).join(', ')}
+Colors (USE THESE EXACT COLORS — they match the prototype the user approved):
+  primary=${colors.primary || '#2979FF'}
+  secondary=${colors.secondary || '#FF5252'}
+  background=${colors.background || '#FAFAFA'}
+  surface=${colors.surface || '#FFF'}
+  text=${colors.text || '#111'}
+  textSecondary=${colors.textSecondary || '#666'}
+
+Create a theme/colors.ts file with these exact hex values. Use them consistently across ALL screens.
+
+Features: ${(design.features || []).map((f: any) => typeof f === 'string' ? f : `${f.title}: ${f.detail}`).join(', ')}
 
 RULES:
 - Expo Router file-based routing: screens go in app/ directory
