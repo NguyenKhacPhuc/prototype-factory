@@ -89,10 +89,13 @@ export function About({ prototypeCount, navigate }: Props) {
           </div>
         </section>
 
-        <div className="about-cta">
+        <div className="about-cta" style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
           <button className="btn-primary" onClick={() => navigate("/gallery")}>
             Browse Prototypes &rarr;
           </button>
+          <a href="https://ko-fi.com/steve31" target="_blank" rel="noopener" className="btn-outline" style={{ textDecoration: "none", display: "inline-flex", alignItems: "center", gap: 6 }}>
+            ☕ Support on Ko-fi
+          </a>
         </div>
       </div>
     </div>
