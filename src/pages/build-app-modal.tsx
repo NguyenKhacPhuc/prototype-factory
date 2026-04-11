@@ -46,7 +46,7 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
   useEffect(() => {
     if (!showPaypal || paypalLoaded) return;
 
-    const PAYPAL_CLIENT_ID = 'ATddrQtYRwZXl25p9lm1d9DA1JIWxctt3mRs8KficxT-R37CveX-L7niQkI36a8z2P2OK6bt2yIKN7NM';
+    const PAYPAL_CLIENT_ID = 'AVxqysJg5cRM0IyK0A3xZ4VHhPPV43f73SDGHWPsE0rFafvHiKAeRJFQMq40Se0SQMRHaS02GQswjcAV';
     const script = document.createElement('script');
     script.src = `https://www.paypal.com/sdk/js?client-id=${PAYPAL_CLIENT_ID}&currency=USD&intent=capture`;
     script.onload = () => {
