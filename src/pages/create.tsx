@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { supabase } from "../lib/supabase";
 import { useAuth } from "../hooks/use-auth";
+import { AuthModal } from "../components/header";
 
 interface Props {
   navigate: (to: string) => void;
@@ -20,15 +21,16 @@ export function Create({ navigate }: Props) {
   const [prompt, setPrompt] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [showAuth, setShowAuth] = useState(false);
+  const [authMode, setAuthMode] = useState<"signin" | "signup">("signin");
 
   const handleGenerate = async () => {
     if (!prompt.trim() || submitting) return;
 
     // Auth gate
     if (!user) {
-      // Save prompt to sessionStorage so it survives the auth redirect
       sessionStorage.setItem("create_prompt", prompt);
-      navigate("/profile");
+      setShowAuth(true);
       return;
     }
 
@@ -81,6 +83,13 @@ export function Create({ navigate }: Props) {
 
   return (
     <div style={{ maxWidth: 720, margin: "0 auto", padding: "60px 32px 100px" }}>
+      {showAuth && (
+        <AuthModal
+          mode={authMode}
+          onClose={() => setShowAuth(false)}
+          onSwitch={() => setAuthMode(m => m === "signin" ? "signup" : "signin")}
+        />
+      )}
       <div style={{ textAlign: "center" as const, marginBottom: 40 }}>
         <span style={{
           display: "inline-block", fontSize: 11, fontWeight: 700,

@@ -6,6 +6,7 @@ import { designTreeToSvg } from "../lib/design-tree-to-svg";
 import { safeText } from "../lib/safe-text";
 import { BuildAppModal } from "./build-app-modal";
 import { GenerationProgress } from "./generation-progress";
+import { AuthModal } from "../components/header";
 
 interface Props {
   prototype: Prototype | undefined;
@@ -79,6 +80,8 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
   const { isFavorite, toggleFavorite } = useFavorites(user?.id ?? null);
   const [showBuildModal, setShowBuildModal] = useState(false);
   const [buildJobId, setBuildJobId] = useState<string | null>(null);
+  const [showAuthModal, setShowAuthModal] = useState(false);
+  const [authMode, setAuthMode] = useState<"signin" | "signup">("signin");
 
   if (!p) {
     return (
@@ -214,7 +217,7 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
                 </p>
               </div>
               <button
-                onClick={() => user ? setShowBuildModal(true) : navigate('/profile')}
+                onClick={() => user ? setShowBuildModal(true) : setShowAuthModal(true)}
                 style={{
                   padding: '12px 24px', borderRadius: 12, border: 'none',
                   background: 'var(--accent)', color: '#fff', fontSize: 14,
@@ -239,6 +242,14 @@ export function PrototypeDetail({ prototype: p, navigate }: Props) {
               jobId={buildJobId}
               onComplete={() => setBuildJobId(null)}
               onClose={() => setBuildJobId(null)}
+            />
+          )}
+
+          {showAuthModal && (
+            <AuthModal
+              mode={authMode}
+              onClose={() => setShowAuthModal(false)}
+              onSwitch={() => setAuthMode(m => m === "signin" ? "signup" : "signin")}
             />
           )}
 

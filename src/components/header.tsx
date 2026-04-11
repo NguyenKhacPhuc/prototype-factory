@@ -6,7 +6,7 @@ interface HeaderProps {
   currentPath: string;
 }
 
-function AuthModal({ mode, onClose, onSwitch }: { mode: "signin" | "signup"; onClose: () => void; onSwitch: () => void }) {
+export function AuthModal({ mode, onClose, onSwitch }: { mode: "signin" | "signup"; onClose: () => void; onSwitch: () => void }) {
   const isSignUp = mode === "signup";
   const { user, signIn, signUp, signInWithOAuth, loading, error, clearError } = useAuth();
   const [email, setEmail] = useState("");
