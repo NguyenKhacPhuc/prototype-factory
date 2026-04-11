@@ -400,26 +400,39 @@ Include ALL files needed. Example format:
 
 Create 4-6 screen files + shared components + hooks. Make it functional with real UI, not placeholder text.`;
 
-  const resp = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${config.openrouterApiKey}`,
-      'Content-Type': 'application/json',
-      'HTTP-Referer': 'https://appdex-ai.vercel.app',
-    },
-    body: JSON.stringify({
-      model: 'anthropic/claude-opus-4-6',
-      max_tokens: 16000,
-      messages: [
-        { role: 'system', content: 'You are a senior React Native (Expo Router) expert. Return ONLY a valid JSON object mapping file paths to complete file contents. No markdown fences, no explanation.' },
-        { role: 'user', content: implementPrompt },
-      ],
-      response_format: { type: 'json_object' },
-    }),
-  });
-
-  const data = await resp.json();
-  if (data.error) throw new Error(`OpenRouter: ${data.error.message}`);
+  // Retry up to 3 times on connection errors
+  let data: any;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const resp = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${config.openrouterApiKey}`,
+          'Content-Type': 'application/json',
+          'HTTP-Referer': 'https://appdex-ai.vercel.app',
+        },
+        body: JSON.stringify({
+          model: 'anthropic/claude-opus-4-6',
+          max_tokens: 16000,
+          messages: [
+            { role: 'system', content: 'You are a senior React Native (Expo Router) expert. Return ONLY a valid JSON object mapping file paths to complete file contents. No markdown fences, no explanation.' },
+            { role: 'user', content: implementPrompt },
+          ],
+          response_format: { type: 'json_object' },
+        }),
+      });
+      data = await resp.json();
+      if (data.error) throw new Error(`OpenRouter: ${data.error.message}`);
+      break;
+    } catch (err: any) {
+      if (attempt < 2) {
+        console.log(`  Implement call failed (attempt ${attempt + 1}/3): ${err.message?.slice(0, 80)}. Retrying in 10s...`);
+        await new Promise(r => setTimeout(r, 10000));
+      } else {
+        throw err;
+      }
+    }
+  }
 
   let content = data.choices[0].message.content;
 
