@@ -8,6 +8,12 @@ import { ClaudeClient } from './claude-client';
 interface JobInput {
   prompt: string;
   category?: string;
+  custom_design?: {
+    name?: string;
+    colors?: Record<string, string>;
+    font?: string;
+    style?: string;
+  };
 }
 
 export async function runPrototypeJob(jobId: string, input: JobInput) {
@@ -36,11 +42,28 @@ export async function runPrototypeJob(jobId: string, input: JobInput) {
     const idea = await generateIdea(input.prompt, trends, logger);
     await pushLog(`App concept: ${idea.name} — ${idea.tagline}`, undefined, 'success');
 
-    // Step 3: Design system
+    // Step 3: Design system (use custom_design if user picked a style)
     await logger.updateProgress(3, 6, 'Designing the visual system...');
-    await pushLog('Creating design system — colors, typography, style...', undefined, 'info');
-    const designSystem = await generateDesignSystem(idea, logger);
-    await pushLog('Design system ready.', ['design-spec.json'], 'action');
+    let designSystem: Record<string, any>;
+    if (input.custom_design?.colors) {
+      const c = input.custom_design.colors;
+      designSystem = {
+        style: input.custom_design.style || input.custom_design.name || 'custom',
+        primary: c.primary || '#2979FF',
+        secondary: c.secondary || c.primary || '#FF5252',
+        cta: c.accent || c.primary || '#EC4899',
+        bg: c.bg || c.background || '#FAFAFA',
+        text: c.text || '#111',
+        mood: input.custom_design.name || 'custom style',
+        effects: '',
+        avoid: '',
+      };
+      await pushLog(`Using custom style: ${designSystem.style}`, undefined, 'success');
+    } else {
+      await pushLog('Creating design system — colors, typography, style...', undefined, 'info');
+      designSystem = await generateDesignSystem(idea, logger);
+      await pushLog('Design system ready.', ['design-spec.json'], 'action');
+    }
 
     // Step 4: Generate prototype
     await logger.updateProgress(4, 6, 'Building your interactive prototype...');
