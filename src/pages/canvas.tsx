@@ -59,38 +59,9 @@ export function Canvas({ navigate }: Props) {
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const hasCentered = useRef(false);
 
-  // Inject CSS color overrides into the prototype iframe
-  useEffect(() => {
-    const iframe = iframeRef.current;
-    if (!iframe || !protoFolder) return;
-
-    const inject = () => {
-      try {
-        const doc = iframe.contentDocument || iframe.contentWindow?.document;
-        if (!doc) return;
-
-        let style = doc.getElementById('canvas-color-override');
-        if (!style) {
-          style = doc.createElement('style');
-          style.id = 'canvas-color-override';
-          doc.head.appendChild(style);
-        }
-        // Override CSS custom properties and common color patterns
-        style.textContent = `
-          :root {
-            --primary: ${customColors.primary} !important;
-            --accent: ${customColors.accent} !important;
-            --bg: ${customColors.bg} !important;
-            --text: ${customColors.text} !important;
-          }
-        `;
-      } catch {}
-    };
-
-    iframe.addEventListener('load', inject);
-    inject(); // try immediately too
-    return () => iframe.removeEventListener('load', inject);
-  }, [customColors, protoFolder]);
+  // Note: CSS variable injection doesn't work with inline styles.
+  // Color changes are applied when user clicks "Build App with This Style" —
+  // the selected colors go into the build prompt for the real app.
 
   // Fetch design tree
   useEffect(() => {
@@ -289,12 +260,29 @@ export function Canvas({ navigate }: Props) {
                   style={{ width: "100%", height: "100%", border: "none" }}
                 />
               </div>
+              {/* App name */}
               <div style={{
                 position: "absolute", top: -36, left: "50%", transform: "translateX(-50%)",
                 padding: "4px 16px", borderRadius: 50, fontSize: 12, fontWeight: 600,
                 background: "rgba(232,160,74,0.15)", color: "#e8a04a", border: "1px solid rgba(232,160,74,0.3)",
                 whiteSpace: "nowrap",
               }}>{designTree?.appName || protoFolder}</div>
+
+              {/* Selected color palette preview */}
+              <div style={{
+                position: "absolute", bottom: -60, left: "50%", transform: "translateX(-50%)",
+                display: "flex", alignItems: "center", gap: 12,
+                padding: "10px 20px", borderRadius: 14,
+                background: "rgba(20,20,20,0.9)", border: "1px solid rgba(255,255,255,0.08)",
+              }}>
+                <span style={{ fontSize: 11, color: "rgba(255,255,255,0.4)", marginRight: 4 }}>Style:</span>
+                {Object.entries(customColors).map(([name, hex]) => (
+                  <div key={name} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 2 }}>
+                    <div style={{ width: 24, height: 24, borderRadius: 6, background: hex, border: "1px solid rgba(255,255,255,0.15)" }} />
+                    <span style={{ fontSize: 8, color: "rgba(255,255,255,0.3)" }}>{name}</span>
+                  </div>
+                ))}
+              </div>
             </div>
           ) : (
             /* No prototype — show design tree canvas */
