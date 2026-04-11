@@ -124,26 +124,57 @@ async function generateIdea(prompt: string, trends: string, logger: PipelineLogg
 }
 
 async function generateDesignSystem(idea: Record<string, any>, logger: PipelineLogger): Promise<Record<string, any>> {
-  const keywords = `${idea.category || ''} ${idea.name || ''} ${(idea.engagementLoop || '').slice(0, 60)}`;
-
+  // Use Gemini to generate unique design for each app (free, fast, reliable)
   try {
-    const result = execSync(
-      `python3 "${config.uiuxScript}" "${keywords}" --design-system -p "${idea.name}" -f markdown`,
-      { timeout: 15000 }
-    ).toString();
+    const resp = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${config.geminiApiKey}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: `You are a mobile app design director. Create a unique, opinionated visual design system for this app.
 
-    const parsed = parseDesignSystem(result);
-    logger.log({ stage: 3, step: 'design', event: 'complete', detail: parsed.style });
-    return parsed;
-  } catch {
-    logger.log({ stage: 3, step: 'design', event: 'error', detail: 'Falling back to defaults' });
-    return {
-      style: 'bold geometric',
-      primary: '#2979FF', secondary: '#FF5252', cta: '#EC4899',
-      bg: '#FAFAFA', text: '#09090B',
-      heading_font: 'system', body_font: 'system',
-      effects: '', avoid: '', mood: 'modern and clean',
-    };
+App: ${idea.name} — ${idea.tagline}
+Category: ${idea.category}
+Description: ${(idea.description || '').slice(0, 200)}
+
+IMPORTANT: Do NOT default to blue (#2979FF) or generic colors. Be bold and specific to this app's personality.
+
+Return JSON:
+{
+  "style": "specific style name (e.g. 'warm editorial', 'neon cyberpunk', 'earthy organic', 'candy pop', 'luxury dark')",
+  "primary": "#hex (dominant brand color — NOT blue unless the app is about water/sky)",
+  "secondary": "#hex (complementary color)",
+  "cta": "#hex (call-to-action button color — high contrast)",
+  "bg": "#hex (background — light or dark depending on style)",
+  "text": "#hex (main text color)",
+  "mood": "3-5 word emotional descriptor",
+  "effects": "key visual effects (e.g. 'soft shadows, rounded cards' or 'hard edges, bold borders')",
+  "avoid": "what NOT to do with this style"
+}` }] }],
+          generationConfig: { temperature: 1.3, responseMimeType: 'application/json' },
+        }),
+      }
+    );
+    const data = await resp.json();
+    if (data.error) throw new Error(data.error.message);
+
+    const design = JSON.parse(data.candidates[0].content.parts[0].text);
+    logger.log({ stage: 3, step: 'design', event: 'complete', detail: `${design.style} — ${design.primary}` });
+    return design;
+  } catch (err: any) {
+    logger.log({ stage: 3, step: 'design', event: 'error', detail: `Gemini design failed: ${err.message?.slice(0, 80)}` });
+    // Fallback with RANDOMIZED colors so they're at least different
+    const palettes = [
+      { style: 'warm sunset', primary: '#E8654A', secondary: '#F59E0B', cta: '#DC2626', bg: '#FFF7ED', text: '#1C1917', mood: 'warm and inviting' },
+      { style: 'ocean depth', primary: '#0891B2', secondary: '#06B6D4', cta: '#0284C7', bg: '#F0F9FF', text: '#0C4A6E', mood: 'calm and trustworthy' },
+      { style: 'forest canopy', primary: '#16A34A', secondary: '#84CC16', cta: '#15803D', bg: '#F0FDF4', text: '#14532D', mood: 'natural and grounded' },
+      { style: 'berry crush', primary: '#DB2777', secondary: '#A855F7', cta: '#BE185D', bg: '#FDF2F8', text: '#831843', mood: 'bold and playful' },
+      { style: 'midnight slate', primary: '#6366F1', secondary: '#818CF8', cta: '#4F46E5', bg: '#0F172A', text: '#E2E8F0', mood: 'sleek and modern' },
+      { style: 'golden hour', primary: '#D97706', secondary: '#FBBF24', cta: '#B45309', bg: '#FFFBEB', text: '#78350F', mood: 'optimistic and energetic' },
+    ];
+    const pick = palettes[Math.floor(Math.random() * palettes.length)];
+    return { ...pick, effects: '', avoid: '' };
   }
 }
 
