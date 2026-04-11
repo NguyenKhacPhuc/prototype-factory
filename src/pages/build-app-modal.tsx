@@ -30,7 +30,7 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
   const { user } = useAuth();
   const [step, setStep] = useState<'estimating' | 'review' | 'paid' | 'building' | 'error'>('estimating');
   const [estimate, setEstimate] = useState<Estimate | null>(null);
-  const [framework, setFramework] = useState<'flutter' | 'react-native' | 'kmp'>('react-native');
+  const [framework] = useState<'react-native'>('react-native');
   const [error, setError] = useState('');
   const [showPaypal, setShowPaypal] = useState(false);
   const [paypalLoaded, setPaypalLoaded] = useState(false);
@@ -211,24 +211,11 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
               ))}
             </div>
 
-            {/* Framework Selection */}
-            <div style={{ marginBottom: 24 }}>
-              <p style={{ fontSize: 12, fontWeight: 600, color: 'var(--text-muted)', marginBottom: 8 }}>Framework</p>
-              <div style={{ display: 'flex', gap: 8 }}>
-                {(['react-native', 'flutter', 'kmp'] as const).map(fw => (
-                  <button
-                    key={fw}
-                    onClick={() => setFramework(fw)}
-                    style={{
-                      flex: 1, padding: '10px 0', borderRadius: 10, fontSize: 13, fontWeight: 600,
-                      border: `2px solid ${framework === fw ? 'var(--accent)' : 'var(--border)'}`,
-                      background: framework === fw ? 'rgba(232,160,74,0.08)' : 'none',
-                      color: framework === fw ? 'var(--accent)' : 'var(--text-secondary)',
-                      cursor: 'pointer',
-                    }}
-                  >{fw === 'kmp' ? 'KMP' : fw === 'react-native' ? 'React Native' : 'Flutter'}</button>
-                ))}
-              </div>
+            {/* Framework */}
+            <div style={{ marginBottom: 24, padding: '10px 16px', borderRadius: 10, background: 'var(--bg)', border: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: 8 }}>
+              <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>Framework:</span>
+              <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--text)' }}>React Native (Expo)</span>
+              <span style={{ fontSize: 11, color: 'var(--text-dim)', marginLeft: 'auto' }}>iOS + Android</span>
             </div>
 
             {/* Plan info */}
