@@ -7,7 +7,7 @@ import { buildAppV2, runDesignPhase } from './app-builder-v2';
 const supabase = createClient(config.supabaseUrl, config.supabaseServiceKey);
 
 let activeJobs = 0;
-const MAX_CONCURRENT = 5; // total parallel jobs (prototypes + mobile apps)
+const MAX_CONCURRENT = 20; // 10 cores, 16GB RAM — ~50MB per job
 
 export async function startPolling() {
   console.log(`Worker started (mock=${config.mockMode}, polling every ${config.pollIntervalMs}ms)`);
