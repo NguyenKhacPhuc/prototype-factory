@@ -34,36 +34,11 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
   const [error, setError] = useState('');
 
   // Estimate complexity on mount
+  // Skip estimation — go straight to review
   useEffect(() => {
-    estimateComplexity();
+    setEstimate(fallbackEstimate(prototype));
+    setStep('review');
   }, []);
-
-  async function estimateComplexity() {
-    try {
-      const desc = `${safeText(prototype.appName)}: ${safeText(prototype.description)}`;
-      const resp = await fetch('/api/estimate-complexity', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ prompt: desc }),
-      });
-
-      if (!resp.ok) {
-        setEstimate(fallbackEstimate(prototype));
-        setStep('review');
-        return;
-      }
-
-      const data = await resp.json();
-      if (data.error) {
-        setEstimate(fallbackEstimate(prototype));
-      } else {
-        setEstimate(data);
-      }
-      setStep('review');
-    } catch {
-      setEstimate(fallbackEstimate(prototype));
-      setStep('review');
-    }
   }
 
   async function handleBuild() {
@@ -125,65 +100,51 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
           </div>
         )}
 
-        {step === 'review' && estimate && tier && (
+        {step === 'review' && (
           <>
             <h2 style={{ fontSize: 22, fontWeight: 700, marginBottom: 4 }}>Build {safeText(prototype.appName)}</h2>
             <p style={{ fontSize: 14, color: 'var(--text-muted)', marginBottom: 24 }}>
               AI will build a full mobile app from this prototype.
             </p>
 
-            {/* Complexity Card */}
-            <div style={{
-              padding: 20, borderRadius: 14, border: '1px solid var(--border)',
-              background: 'var(--bg)', marginBottom: 20,
-            }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
-                <div>
-                  <span style={{
-                    display: 'inline-block', padding: '3px 12px', borderRadius: 50,
-                    fontSize: 12, fontWeight: 700, textTransform: 'uppercase',
-                    background: `${tier.color}22`, color: tier.color,
-                  }}>{estimate.tier}</span>
+            {/* What you get */}
+            <div style={{ padding: 20, borderRadius: 14, border: '1px solid var(--border)', background: 'var(--bg)', marginBottom: 20 }}>
+              <p style={{ fontSize: 13, fontWeight: 700, color: 'var(--text)', marginBottom: 12 }}>What's included</p>
+              {[
+                { icon: '📱', text: 'Full source code (iOS + Android)' },
+                { icon: '🎨', text: 'Design system + assets from your prototype' },
+                { icon: '🌐', text: 'Landing page + privacy policy' },
+                { icon: '🏪', text: 'Store listing + screenshots' },
+                { icon: '⚡', text: 'Test instantly with Expo Go on your phone' },
+              ].map(item => (
+                <div key={item.text} style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
+                  <span style={{ fontSize: 16 }}>{item.icon}</span>
+                  <span style={{ fontSize: 13, color: 'var(--text-secondary)' }}>{item.text}</span>
                 </div>
-                <span style={{ fontSize: 32, fontWeight: 800, color: 'var(--text)' }}>{tier.price}</span>
-              </div>
+              ))}
+            </div>
 
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 12, marginBottom: 16 }}>
-                {[
-                  { label: 'Screens', value: `~${estimate.estimated_screens}` },
-                  { label: 'Tasks', value: `~${estimate.task_count}` },
-                  { label: 'Score', value: `${estimate.weighted_score}/5` },
-                ].map(s => (
-                  <div key={s.label} style={{ textAlign: 'center' }}>
-                    <p style={{ fontSize: 20, fontWeight: 700, margin: 0 }}>{s.value}</p>
-                    <p style={{ fontSize: 11, color: 'var(--text-muted)', margin: 0 }}>{s.label}</p>
-                  </div>
-                ))}
-              </div>
-
-              {estimate.key_integrations?.length > 0 && (
-                <div style={{ marginBottom: 12 }}>
-                  <p style={{ fontSize: 11, fontWeight: 600, color: 'var(--text-muted)', marginBottom: 6 }}>Integrations</p>
-                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                    {estimate.key_integrations.map(k => (
-                      <span key={k} style={{
-                        padding: '3px 10px', borderRadius: 50, fontSize: 11,
-                        background: 'var(--bg-elevated)', border: '1px solid var(--border)',
-                        color: 'var(--text-secondary)',
-                      }}>{k}</span>
-                    ))}
-                  </div>
+            {/* How it works */}
+            <div style={{ padding: 20, borderRadius: 14, border: '1px solid var(--border)', background: 'var(--bg)', marginBottom: 20 }}>
+              <p style={{ fontSize: 13, fontWeight: 700, color: 'var(--text)', marginBottom: 12 }}>How it works</p>
+              {[
+                { step: '1', text: 'AI analyzes your prototype design' },
+                { step: '2', text: 'Generates all screens, components, and navigation' },
+                { step: '3', text: 'Installs packages and verifies code compiles' },
+                { step: '4', text: 'Packages for download — ready in ~3 minutes' },
+              ].map(s => (
+                <div key={s.step} style={{ display: 'flex', gap: 10, alignItems: 'center', marginBottom: 8 }}>
+                  <span style={{ width: 22, height: 22, borderRadius: '50%', background: 'var(--accent)', color: '#fff', fontSize: 11, fontWeight: 700, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>{s.step}</span>
+                  <span style={{ fontSize: 13, color: 'var(--text-secondary)' }}>{s.text}</span>
                 </div>
-              )}
-
-              <p style={{ fontSize: 12, color: 'var(--text-dim)', lineHeight: 1.5, margin: 0 }}>{estimate.reasoning}</p>
+              ))}
             </div>
 
             {/* Framework Selection */}
-            <div style={{ marginBottom: 20 }}>
+            <div style={{ marginBottom: 24 }}>
               <p style={{ fontSize: 12, fontWeight: 600, color: 'var(--text-muted)', marginBottom: 8 }}>Framework</p>
               <div style={{ display: 'flex', gap: 8 }}>
-                {(['flutter', 'react-native', 'kmp'] as const).map(fw => (
+                {(['react-native', 'flutter', 'kmp'] as const).map(fw => (
                   <button
                     key={fw}
                     onClick={() => setFramework(fw)}
@@ -199,24 +160,6 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
               </div>
             </div>
 
-            {/* Includes */}
-            <div style={{ marginBottom: 24 }}>
-              <p style={{ fontSize: 12, fontWeight: 600, color: 'var(--text-muted)', marginBottom: 8 }}>Includes</p>
-              {[
-                'Full source code (iOS + Android)',
-                'Landing page + privacy policy',
-                'Design system + assets',
-                'Store listing + screenshots',
-              ].map(item => (
-                <div key={item} style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 6 }}>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22c55e" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                    <polyline points="20 6 9 17 4 12" />
-                  </svg>
-                  <span style={{ fontSize: 13, color: 'var(--text-secondary)' }}>{item}</span>
-                </div>
-              ))}
-            </div>
-
             {/* Actions */}
             <div style={{ display: 'flex', gap: 12 }}>
               <button onClick={onClose} style={{
@@ -226,7 +169,7 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
               <button onClick={handleBuild} style={{
                 flex: 2, padding: 14, borderRadius: 12, border: 'none',
                 background: 'var(--accent)', color: '#fff', fontSize: 14, fontWeight: 700, cursor: 'pointer',
-              }}>Build for {tier.price}</button>
+              }}>Build App</button>
             </div>
           </>
         )}
