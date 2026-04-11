@@ -33,13 +33,11 @@ export function BuildAppModal({ prototype, onClose, onStarted }: Props) {
   const [framework, setFramework] = useState<'flutter' | 'react-native' | 'kmp'>('flutter');
   const [error, setError] = useState('');
 
-  // Estimate complexity on mount
   // Skip estimation — go straight to review
   useEffect(() => {
     setEstimate(fallbackEstimate(prototype));
     setStep('review');
   }, []);
-  }
 
   async function handleBuild() {
     if (!user) return;
