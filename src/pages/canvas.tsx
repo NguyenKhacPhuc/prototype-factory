@@ -56,7 +56,41 @@ export function Canvas({ navigate }: Props) {
   const protoFolder = new URLSearchParams(typeof window !== 'undefined' ? window.location.search : '').get('proto') || '';
   const [screenPositions, setScreenPositions] = useState<{ x: number; y: number }[]>([]);
   const containerRef = useRef<HTMLDivElement>(null);
+  const iframeRef = useRef<HTMLIFrameElement>(null);
   const hasCentered = useRef(false);
+
+  // Inject CSS color overrides into the prototype iframe
+  useEffect(() => {
+    const iframe = iframeRef.current;
+    if (!iframe || !protoFolder) return;
+
+    const inject = () => {
+      try {
+        const doc = iframe.contentDocument || iframe.contentWindow?.document;
+        if (!doc) return;
+
+        let style = doc.getElementById('canvas-color-override');
+        if (!style) {
+          style = doc.createElement('style');
+          style.id = 'canvas-color-override';
+          doc.head.appendChild(style);
+        }
+        // Override CSS custom properties and common color patterns
+        style.textContent = `
+          :root {
+            --primary: ${customColors.primary} !important;
+            --accent: ${customColors.accent} !important;
+            --bg: ${customColors.bg} !important;
+            --text: ${customColors.text} !important;
+          }
+        `;
+      } catch {}
+    };
+
+    iframe.addEventListener('load', inject);
+    inject(); // try immediately too
+    return () => iframe.removeEventListener('load', inject);
+  }, [customColors, protoFolder]);
 
   // Fetch design tree
   useEffect(() => {
@@ -236,47 +270,75 @@ export function Canvas({ navigate }: Props) {
           />
         )}
 
-        {/* Canvas */}
-        <div ref={containerRef} style={{ flex: 1, position: "relative", overflow: "hidden" }}>
-          <CanvasViewport transform={transform} onTransformChange={setTransform}>
-            {screens.map((screen, i) => (
-              <CanvasFrame
-                key={i}
-                screenIndex={i}
-                screen={screen}
-                viewport={vp}
-                fonts={designTree?.fonts}
-                appName={designTree?.appName || ""}
-                x={screenPositions[i]?.x ?? i * (vp.width + SCREEN_GAP)}
-                y={screenPositions[i]?.y ?? 0}
-                selectedPath={selectedPath}
-                hoveredPath={hoveredPath}
-                onHover={setHoveredPath}
-                onSelect={setSelectedPath}
-                onNodeUpdate={handleNodeUpdate}
-                onScreenMove={handleScreenMove}
-              />
-            ))}
-            {!designTree && (
+        {/* Center: Live Preview + Canvas */}
+        <div ref={containerRef} style={{ flex: 1, position: "relative", overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", background: "#080808" }}>
+          {protoFolder ? (
+            /* Live prototype iframe with CSS color injection */
+            <div style={{ position: "relative" }}>
               <div style={{
-                position: "absolute", left: "50%", top: "50%",
-                transform: "translate(-50%, -50%)",
-                textAlign: "center" as const, color: "rgba(255,255,255,0.2)",
+                width: 375, height: 812, borderRadius: 44, overflow: "hidden",
+                border: "8px solid #2a2a2a",
+                boxShadow: "0 40px 80px rgba(0,0,0,0.6), inset 0 0 0 1px rgba(255,255,255,0.05)",
+                background: "#000",
               }}>
-                <div style={{ fontSize: 48, marginBottom: 12 }}>+</div>
-                <div style={{ fontSize: 14 }}>Generate a prototype to get started</div>
+                <iframe
+                  ref={iframeRef}
+                  src={`/prototypes/${protoFolder}/preview.html`}
+                  sandbox="allow-scripts allow-same-origin"
+                  title={designTree?.appName || "Preview"}
+                  style={{ width: "100%", height: "100%", border: "none" }}
+                />
               </div>
-            )}
-          </CanvasViewport>
-
-          <ZoomControls
-            transform={transform}
-            onTransformChange={setTransform}
-            canvasWidth={canvasSize.w}
-            canvasHeight={canvasSize.h}
-            contentWidth={totalW}
-            contentHeight={vp.height + 40}
-          />
+              <div style={{
+                position: "absolute", top: -36, left: "50%", transform: "translateX(-50%)",
+                padding: "4px 16px", borderRadius: 50, fontSize: 12, fontWeight: 600,
+                background: "rgba(232,160,74,0.15)", color: "#e8a04a", border: "1px solid rgba(232,160,74,0.3)",
+                whiteSpace: "nowrap",
+              }}>{designTree?.appName || protoFolder}</div>
+            </div>
+          ) : (
+            /* No prototype — show design tree canvas */
+            <>
+              <CanvasViewport transform={transform} onTransformChange={setTransform}>
+                {screens.map((screen, i) => (
+                  <CanvasFrame
+                    key={i}
+                    screenIndex={i}
+                    screen={screen}
+                    viewport={vp}
+                    fonts={designTree?.fonts}
+                    appName={designTree?.appName || ""}
+                    x={screenPositions[i]?.x ?? i * (vp.width + SCREEN_GAP)}
+                    y={screenPositions[i]?.y ?? 0}
+                    selectedPath={selectedPath}
+                    hoveredPath={hoveredPath}
+                    onHover={setHoveredPath}
+                    onSelect={setSelectedPath}
+                    onNodeUpdate={handleNodeUpdate}
+                    onScreenMove={handleScreenMove}
+                  />
+                ))}
+                {!designTree && (
+                  <div style={{
+                    position: "absolute", left: "50%", top: "50%",
+                    transform: "translate(-50%, -50%)",
+                    textAlign: "center" as const, color: "rgba(255,255,255,0.2)",
+                  }}>
+                    <div style={{ fontSize: 48, marginBottom: 12 }}>+</div>
+                    <div style={{ fontSize: 14 }}>Generate a prototype to get started</div>
+                  </div>
+                )}
+              </CanvasViewport>
+              <ZoomControls
+                transform={transform}
+                onTransformChange={setTransform}
+                canvasWidth={canvasSize.w}
+                canvasHeight={canvasSize.h}
+                contentWidth={totalW}
+                contentHeight={vp.height + 40}
+              />
+            </>
+          )}
         </div>
 
         {/* Inspector Panel */}
