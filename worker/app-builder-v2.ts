@@ -409,7 +409,7 @@ Create 4-6 screen files + shared components + hooks. Make it functional with rea
     },
     body: JSON.stringify({
       model: 'anthropic/claude-opus-4-6',
-      max_tokens: 32000,
+      max_tokens: 16000,
       messages: [
         { role: 'system', content: 'You are a senior React Native (Expo Router) expert. Return ONLY a valid JSON object mapping file paths to complete file contents. No markdown fences, no explanation.' },
         { role: 'user', content: implementPrompt },
