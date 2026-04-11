@@ -246,7 +246,7 @@ export function DesignReview({ jobId, navigate }: Props) {
             position: "relative",
           }}>
             {/* Interactive preview: existing prototype OR generated one */}
-            {(protoFolder && (isReview || isDone)) || (isPrototype && isDone && resultFolder) ? (
+            {protoFolder || (isPrototype && isDone && resultFolder) ? (
               <iframe
                 src={`/prototypes/${resultFolder || protoFolder}/preview.html`}
                 sandbox="allow-scripts allow-same-origin"
