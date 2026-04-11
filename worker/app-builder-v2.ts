@@ -193,9 +193,16 @@ export async function buildAppV2(jobId: string, input: { prompt: string; prototy
     const zipPath = `/tmp/builds/${jobId}.zip`;
     execSync(`cd "${workDir}" && zip -r "${zipPath}" . -x "node_modules/*" ".git/*"`, { timeout: 30000, maxBuffer: 10 * 1024 * 1024, stdio: 'pipe' });
 
-    // Upload
+    // Upload (verify success)
     const zipBuffer = readFileSync(zipPath);
-    await supabase.storage.from('builds').upload(`${jobId}.zip`, zipBuffer, { upsert: true });
+    const { error: uploadErr } = await supabase.storage.from('builds').upload(`${jobId}.zip`, zipBuffer, { upsert: true, contentType: 'application/zip' });
+    if (uploadErr) {
+      await pushLog(`Upload warning: ${uploadErr.message}. Trying to create bucket...`, undefined, 'error');
+      // Auto-create bucket if missing
+      await supabase.storage.createBucket('builds', { public: true });
+      const { error: retryErr } = await supabase.storage.from('builds').upload(`${jobId}.zip`, zipBuffer, { upsert: true, contentType: 'application/zip' });
+      if (retryErr) await pushLog(`Upload failed: ${retryErr.message}`, undefined, 'error');
+    }
     const { data: urlData } = supabase.storage.from('builds').getPublicUrl(`${jobId}.zip`);
 
     await pushLog('App is ready! Download source or scan QR to test on your phone.', undefined, 'success');
