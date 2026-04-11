@@ -360,15 +360,17 @@ ${screenList}
 Design Style: ${design.style || 'modern minimal'}
 Font: ${design.fontFamily || '-apple-system, sans-serif'}
 
-Colors (USE THESE EXACT COLORS — they match the prototype the user approved):
-  primary=${colors.primary || '#2979FF'}
-  secondary=${colors.secondary || '#FF5252'}
-  background=${colors.background || '#FAFAFA'}
-  surface=${colors.surface || '#FFF'}
-  text=${colors.text || '#111'}
-  textSecondary=${colors.textSecondary || '#666'}
+MANDATORY COLOR PALETTE (you MUST use these exact hex codes — do NOT substitute):
+  const colors = {
+    primary: '${colors.primary || '#2979FF'}',
+    secondary: '${colors.secondary || '#FF5252'}',
+    background: '${colors.background || '#FAFAFA'}',
+    surface: '${colors.surface || '#FFF'}',
+    text: '${colors.text || '#111'}',
+    textSecondary: '${colors.textSecondary || '#666'}',
+  };
 
-Create a theme/colors.ts file with these exact hex values. Use them consistently across ALL screens.
+CRITICAL: Create src/theme/colors.ts with EXACTLY these hex values above. Import and use them in EVERY screen. Do NOT invent your own colors. The user chose these colors specifically.
 
 Features: ${(design.features || []).map((f: any) => typeof f === 'string' ? f : `${f.title}: ${f.detail}`).join(', ')}
 
