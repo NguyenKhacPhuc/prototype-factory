@@ -1,0 +1,14 @@
+{
+  "appName": "LigaLoot",
+  "tagline": "Predict La Liga, Compete, and Win Exclusive Digital Loot!",
+  "designSystem": {
+    "primaryColor": "#B52C32",
+    "secondaryColor": "#F4C741",
+    "backgroundColor": "#121212",
+    "fontFamily": "undefined / undefined",
+    "style": "Crimson & Gold Circuit"
+  },
+  "screens": [
+    "home"
+  ]
+}
