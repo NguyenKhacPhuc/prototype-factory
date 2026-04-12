@@ -230,7 +230,7 @@ async function generatePrototype(
   const result = await claude.generate(
     'You are a mobile app prototype generator. Write clean, working React code. Output ONLY the App.tsx code, no markdown fences, no explanations.',
     prompt,
-    'claude-opus-4-6'
+    'anthropic/claude-opus-4-6'
   );
 
   // Extract App.tsx from response
