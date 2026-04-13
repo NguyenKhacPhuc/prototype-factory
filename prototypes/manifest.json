@@ -1,5 +1,64 @@
 [
   {
+    "folder": "2026-04-13-aegiscode",
+    "appName": "AegisCode",
+    "tagline": "Your AI Guardian for Perfect Code Delivery.",
+    "designSystem": {
+      "primaryColor": "#340C48",
+      "secondaryColor": "#00D0B3",
+      "backgroundColor": "#1A1121",
+      "fontFamily": "undefined / undefined",
+      "style": "Refined Cyber-Brutalist"
+    },
+    "screens": [
+      "home"
+    ],
+    "hasScreenshot": false,
+    "description": "AegisCode is the ultimate AI-powered code review companion designed specifically for freelance developers. It goes beyond static analysis, offering context-aware, semantic, and stylistic feedback across multiple languages. By simulating a client's perspective and flagging areas for improvement, AegisCode ensures your deliverables are not just functional, but also elegant, efficient, and impeccably client-ready. It integrates seamlessly into your workflow, empowering freelancers to deliver superior code quality with confidence, accelerating project delivery and enhancing professional reputation.",
+    "features": [
+      {
+        "title": "Contextual Code Smells & Refactoring",
+        "detail": "Leveraging advanced AI (inspired by ClarifierAI's nuanced understanding), AegisCode identifies not just errors but inefficient patterns, potential security vulnerabilities, and suggests optimal architectural choices tailored to project context. It provides detailed explanations and actionable refactoring guidance."
+      },
+      {
+        "title": "Client-Centric Deliverable Analysis",
+        "detail": "The AI analyzes your codebase through the lens of common client expectations, flagging areas that might lead to maintainability issues, unclear documentation, or deviations from industry best practices specific to project types (e.g., performance for e-commerce, readability for APIs)."
+      },
+      {
+        "title": "Real-time Performance & Optimization Insights",
+        "detail": "Pinpoints bottlenecks and offers specific, actionable optimization strategies, complete with estimated performance gains, to help freelancers deliver highly efficient code without manual profiling overhead."
+      },
+      {
+        "title": "Multi-Language & Framework Mastery",
+        "detail": "Supports a comprehensive range of popular programming languages (e.g., Python, JavaScript, Go, Rust, PHP, Java) and their respective frameworks, ensuring universal applicability for diverse freelance projects."
+      },
+      {
+        "title": "Proactive Security & Compliance Scanner",
+        "detail": "Scans for common security flaws, potential data leaks, and compliance issues relevant to common regulatory standards, providing early warnings and suggested fixes to protect both the developer and the client."
+      }
+    ],
+    "audience": "Freelance software developers, independent contractors, and solo founders who prioritize delivering high-quality, maintainable code efficiently and consistently, aiming to enhance their professional reputation and secure more lucrative projects.",
+    "category": "Developer Tools & AI Productivity",
+    "useCases": [
+      {
+        "title": "Pre-Delivery Quality Assurance",
+        "detail": "Before submitting any project to a client, a freelancer runs their entire codebase through AegisCode to catch subtle bugs, optimize performance, and ensure adherence to best practices, effectively preventing rework requests and ensuring client satisfaction."
+      },
+      {
+        "title": "Learning & Skill Enhancement",
+        "detail": "A junior freelancer uses AegisCode's detailed explanations, suggested refactors, and 'Expert Insights' (akin to PackGoat's knowledge base) to understand complex coding concepts and refine their personal coding style, turning every code review into a continuous learning experience."
+      },
+      {
+        "title": "Refactoring Legacy Code",
+        "detail": "A freelancer inherits a messy or legacy codebase for maintenance. AegisCode quickly highlights technical debt, suggests modularization, and identifies critical areas for refactoring, saving hours of manual analysis and accelerating project ramp-up."
+      },
+      {
+        "title": "Showcasing Professionalism in Pitches",
+        "detail": "Freelancers can attach AegisCode's comprehensive code quality reports and 'Developer Health Score' to their project proposals, providing tangible proof of their commitment to high standards and setting them apart when pitching for new contracts."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-12-ligaloot",
     "appName": "LigaLoot",
     "tagline": "Predict La Liga, Compete, and Win Exclusive Digital Loot!",

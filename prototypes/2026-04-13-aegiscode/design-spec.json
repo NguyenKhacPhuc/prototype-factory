@@ -1,0 +1,14 @@
+{
+  "appName": "AegisCode",
+  "tagline": "Your AI Guardian for Perfect Code Delivery.",
+  "designSystem": {
+    "primaryColor": "#340C48",
+    "secondaryColor": "#00D0B3",
+    "backgroundColor": "#1A1121",
+    "fontFamily": "undefined / undefined",
+    "style": "Refined Cyber-Brutalist"
+  },
+  "screens": [
+    "home"
+  ]
+}
