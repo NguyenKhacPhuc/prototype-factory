@@ -1,5 +1,68 @@
 [
   {
+    "folder": "2026-04-13-platstreak",
+    "appName": "PlatStreak",
+    "tagline": "Master the Kitchen, One Streak at a Time.",
+    "designSystem": {
+      "primaryColor": "#A85B1B",
+      "secondaryColor": "#508272",
+      "backgroundColor": "#FFF8E1",
+      "fontFamily": "undefined / undefined",
+      "style": "Heirloom Kitchen Glow"
+    },
+    "screens": [
+      "home"
+    ],
+    "hasScreenshot": false,
+    "description": "PlatStreak transforms daily cooking into an engaging culinary quest. Users build consecutive cooking streaks by completing and logging their daily dishes, unlocking a world of exclusive recipes, advanced techniques, and gourmet challenges. It leverages psychological hooks like 'streak anxiety' and 'scarcity principle' to motivate consistent engagement and help users discover their inner chef.",
+    "features": [
+      {
+        "title": "Daily Culinary Streaks",
+        "detail": "Track your consecutive days of cooking. Successfully log a completed dish each day to extend your streak; miss a day and your streak resets, fostering a powerful 'loss aversion' to keep you cooking."
+      },
+      {
+        "title": "Tiered Recipe Unlocks",
+        "detail": "As your cooking streak grows, unlock new tiers of recipes, from foundational skills to exotic gourmet dishes. Higher streaks grant access to more challenging, exclusive, or regionally specific culinary experiences, creating 'scarcity principle' motivation."
+      },
+      {
+        "title": "Curated & Diverse Recipe Library",
+        "detail": "Explore thousands of recipes spanning global cuisines, dietary preferences, and skill levels. All recipes are professionally curated to ensure quality and success for every user."
+      },
+      {
+        "title": "Smart Ingredient Lists",
+        "detail": "Automatically generate categorized shopping lists based on your selected recipes for the week, streamlining your meal prep and grocery runs."
+      },
+      {
+        "title": "Interactive Progress Dashboard",
+        "detail": "Visualize your culinary journey with a dynamic dashboard showcasing your current streak, unlocked recipes, cooking achievements, and upcoming unlockable content."
+      },
+      {
+        "title": "Chef's Notes & Modifications",
+        "detail": "Personalize recipes by adding your own notes, ingredient substitutions, and plating photos to any dish you've cooked, building your personal culinary journal."
+      }
+    ],
+    "audience": "Aspiring home cooks eager to expand their repertoire, busy individuals seeking motivation for daily meal preparation, food enthusiasts looking for a gamified approach to culinary exploration, and anyone who thrives on achievement and consistent habit-building.",
+    "category": "Food & Drink, Lifestyle",
+    "useCases": [
+      {
+        "title": "Overcome Cooking Ruts",
+        "detail": "Provides constant inspiration and a compelling reason to try new dishes regularly, preventing monotony in meal planning."
+      },
+      {
+        "title": "Develop Culinary Skills",
+        "detail": "Encourages a natural progression from simple to complex dishes as users unlock higher difficulty tiers through consistent effort."
+      },
+      {
+        "title": "Engaging Meal Preparation",
+        "detail": "Transforms the daily task of cooking into a rewarding game, making meal prep less of a chore and more of an exciting challenge."
+      },
+      {
+        "title": "Explore Global Cuisines",
+        "detail": "Unlocks a diverse array of international recipes, allowing users to broaden their palate and cultural culinary understanding."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-13-aegiscode",
     "appName": "AegisCode",
     "tagline": "Your AI Guardian for Perfect Code Delivery.",

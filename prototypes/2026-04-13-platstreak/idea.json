@@ -1,0 +1,54 @@
+{
+  "name": "PlatStreak",
+  "tagline": "Master the Kitchen, One Streak at a Time.",
+  "description": "PlatStreak transforms daily cooking into an engaging culinary quest. Users build consecutive cooking streaks by completing and logging their daily dishes, unlocking a world of exclusive recipes, advanced techniques, and gourmet challenges. It leverages psychological hooks like 'streak anxiety' and 'scarcity principle' to motivate consistent engagement and help users discover their inner chef.",
+  "features": [
+    {
+      "title": "Daily Culinary Streaks",
+      "detail": "Track your consecutive days of cooking. Successfully log a completed dish each day to extend your streak; miss a day and your streak resets, fostering a powerful 'loss aversion' to keep you cooking."
+    },
+    {
+      "title": "Tiered Recipe Unlocks",
+      "detail": "As your cooking streak grows, unlock new tiers of recipes, from foundational skills to exotic gourmet dishes. Higher streaks grant access to more challenging, exclusive, or regionally specific culinary experiences, creating 'scarcity principle' motivation."
+    },
+    {
+      "title": "Curated & Diverse Recipe Library",
+      "detail": "Explore thousands of recipes spanning global cuisines, dietary preferences, and skill levels. All recipes are professionally curated to ensure quality and success for every user."
+    },
+    {
+      "title": "Smart Ingredient Lists",
+      "detail": "Automatically generate categorized shopping lists based on your selected recipes for the week, streamlining your meal prep and grocery runs."
+    },
+    {
+      "title": "Interactive Progress Dashboard",
+      "detail": "Visualize your culinary journey with a dynamic dashboard showcasing your current streak, unlocked recipes, cooking achievements, and upcoming unlockable content."
+    },
+    {
+      "title": "Chef's Notes & Modifications",
+      "detail": "Personalize recipes by adding your own notes, ingredient substitutions, and plating photos to any dish you've cooked, building your personal culinary journal."
+    }
+  ],
+  "audience": "Aspiring home cooks eager to expand their repertoire, busy individuals seeking motivation for daily meal preparation, food enthusiasts looking for a gamified approach to culinary exploration, and anyone who thrives on achievement and consistent habit-building.",
+  "category": "Food & Drink, Lifestyle",
+  "useCases": [
+    {
+      "title": "Overcome Cooking Ruts",
+      "detail": "Provides constant inspiration and a compelling reason to try new dishes regularly, preventing monotony in meal planning."
+    },
+    {
+      "title": "Develop Culinary Skills",
+      "detail": "Encourages a natural progression from simple to complex dishes as users unlock higher difficulty tiers through consistent effort."
+    },
+    {
+      "title": "Engaging Meal Preparation",
+      "detail": "Transforms the daily task of cooking into a rewarding game, making meal prep less of a chore and more of an exciting challenge."
+    },
+    {
+      "title": "Explore Global Cuisines",
+      "detail": "Unlocks a diverse array of international recipes, allowing users to broaden their palate and cultural culinary understanding."
+    }
+  ],
+  "engagementLoop": "Users select a recipe to cook and log its completion. This action extends their 'cooking streak.' Maintaining the streak unlocks new, exclusive recipes and content (Scarcity Principle). The looming threat of losing a hard-earned streak (Streak Anxiety / Loss Aversion) provides a strong incentive for daily engagement. Users are constantly drawn back to discover what's next to unlock and to protect their progress.",
+  "trendFit": "PlatStreak aligns with the growing trend of gamified personal development and behavioral economics in app design. It leverages established psychological principles (Streak Anxiety, Scarcity Principle) for strong repeat engagement, similar to habit-building apps, but applied to the culinary domain. The focus on personalized progression and skill acquisition through consistent action resonates with users seeking structured self-improvement.",
+  "monetization": "PlatStreak will offer a freemium model:\n\n1.  **Free Tier**: Access to a foundational set of recipes, core streak tracking, and basic features.\n2.  **PlatStreak Premium Subscription**: Unlocks exclusive 'Master Chef' recipe packs, advanced nutrition breakdowns, an 'undo' feature for one missed streak per month (Streak Shield), ad-free experience, and priority access to new features and challenges.\n3.  **In-App Purchases (IAPs)**: One-time purchases for themed recipe bundles (e.g., 'Baking Basics,' 'Mediterranean Delights'), high-definition instructional video guides, or limited-time seasonal ingredient challenge packs."
+}
