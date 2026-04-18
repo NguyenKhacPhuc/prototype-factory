@@ -216,9 +216,14 @@ export function DesignReview({ jobId, navigate }: Props) {
             </>
           ) : (
             <div>
-              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 11, color: "var(--text-dim)", marginBottom: 6 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 11, color: "var(--text-dim)", marginBottom: 6 }}>
                 <span>{progress.message || (isDone ? "Complete" : "...")}</span>
-                <span>{progress.step || 0}/{progress.total || 5}</span>
+                <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                  <span>{progress.step || 0}/{progress.total || 5}</span>
+                  {isBuilding && (
+                    <button onClick={handleCancel} style={{ padding: "3px 10px", borderRadius: 6, border: "1px solid rgba(239,68,68,0.3)", background: "none", color: "#ef4444", fontSize: 10, cursor: "pointer" }}>Cancel</button>
+                  )}
+                </div>
               </div>
               <div style={{ width: "100%", height: 3, borderRadius: 2, background: "var(--border)" }}>
                 <div style={{
