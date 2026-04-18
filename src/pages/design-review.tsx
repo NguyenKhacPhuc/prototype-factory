@@ -44,14 +44,8 @@ export function DesignReview({ jobId, navigate }: Props) {
     if (logRef.current) logRef.current.scrollTop = logRef.current.scrollHeight;
   }, [job?.live_output, job?.files_created, job?.progress]);
 
-  // Auto-navigate to prototype detail when prototype job completes
-  useEffect(() => {
-    if (job?.type === "prototype" && job?.status === "completed" && job?.result?.folder) {
-      const timer = setTimeout(() => {
-        window.location.href = `/prototype/${job.result.folder}`;
-      }, 2000);
-      return () => clearTimeout(timer);
-    }
+  // Don't auto-redirect — prototype only exists locally until git pushed.
+  // User stays on /design/:jobId which shows the preview + action buttons.
   }, [job?.status, job?.result]);
 
   async function loadJob() {
