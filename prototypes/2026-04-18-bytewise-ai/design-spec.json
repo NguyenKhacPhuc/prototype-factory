@@ -1,0 +1,14 @@
+{
+  "appName": "ByteWise AI",
+  "tagline": "Your AI partner for cleaner, more robust freelance code.",
+  "designSystem": {
+    "primaryColor": "#5A2C8A",
+    "secondaryColor": "#C7EBEE",
+    "backgroundColor": "#0E0E1E",
+    "fontFamily": "undefined / undefined",
+    "style": "Neural Synth"
+  },
+  "screens": [
+    "home"
+  ]
+}
