@@ -1,0 +1,14 @@
+{
+  "appName": "DishBloom",
+  "tagline": "Cultivate Your Culinary Journey: Unlock New Flavors with Every Streak.",
+  "designSystem": {
+    "primaryColor": "#2E5C4E",
+    "secondaryColor": "#E1C38B",
+    "backgroundColor": "#F7F7F0",
+    "fontFamily": "undefined / undefined",
+    "style": "Vibrant Gastronomy"
+  },
+  "screens": [
+    "home"
+  ]
+}

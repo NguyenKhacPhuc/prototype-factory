@@ -1,5 +1,72 @@
 [
   {
+    "folder": "2026-04-18-dishbloom",
+    "appName": "DishBloom",
+    "tagline": "Cultivate Your Culinary Journey: Unlock New Flavors with Every Streak.",
+    "designSystem": {
+      "primaryColor": "#2E5C4E",
+      "secondaryColor": "#E1C38B",
+      "backgroundColor": "#F7F7F0",
+      "fontFamily": "undefined / undefined",
+      "style": "Vibrant Gastronomy"
+    },
+    "screens": [
+      "home"
+    ],
+    "hasScreenshot": false,
+    "description": "DishBloom transforms home cooking into an engaging adventure. By logging daily meals and maintaining 'Culinary Streaks,' users earn 'Bloom Points' to progressively unlock exclusive recipes, advanced cooking techniques, and themed 'Recipe Gardens.' It gamifies the kitchen, motivating consistent cooking and expanding culinary horizons through a rewarding journey of discovery.",
+    "features": [
+      {
+        "title": "Culinary Streak Tracker",
+        "detail": "Log every meal cooked within the app to build and maintain your streak. Visual progress bars, celebratory animations, and milestone notifications keep you motivated."
+      },
+      {
+        "title": "Bloom Point Rewards System",
+        "detail": "Earn points for streak consistency, exploring new cuisine categories, and successfully mastering challenging recipes. Spend Bloom Points to unlock premium recipe packs, advanced technique guides, and virtual kitchen aesthetics."
+      },
+      {
+        "title": "Tiered Recipe Gardens",
+        "detail": "Recipes are organized into themed 'Gardens' (e.g., 'Beginner Bistro,' 'Global Gourmet,' 'Seasonal Harvest'). New Gardens and exclusive recipes within them are unlocked as your streak grows and you reach higher Bloom Tiers."
+      },
+      {
+        "title": "Interactive Guided Cooking",
+        "detail": "Step-by-step instructions with integrated timers, ingredient checklists, and optional voice guidance. Users can mark steps as complete, enhancing the cooking experience."
+      },
+      {
+        "title": "Smart Shopping List Builder",
+        "detail": "Automatically generates a consolidated shopping list from your selected recipes, with smart pantry integration to avoid purchasing duplicate ingredients."
+      },
+      {
+        "title": "Community Cook-Offs & Challenges",
+        "detail": "Participate in weekly themed cooking challenges to earn bonus Bloom Points, showcase your dishes, and connect with other culinary enthusiasts."
+      },
+      {
+        "title": "Personalized Taste Profile",
+        "detail": "AI-driven recipe recommendations evolve based on your unlocked dishes, cooking history, dietary preferences, and even recipes you've skipped or rated."
+      }
+    ],
+    "audience": "Aspiring home cooks, busy individuals seeking structure in meal planning, food enthusiasts looking for new culinary challenges, individuals aiming to build healthier cooking habits, and anyone who enjoys gamified personal development experiences.",
+    "category": "Food & Drink, Lifestyle, Gamified Health & Wellness",
+    "useCases": [
+      {
+        "title": "Breaking Culinary Monotony",
+        "detail": "Users bored with their usual repertoire are motivated to explore and unlock exciting new recipes from diverse cuisines through a progressive reward system."
+      },
+      {
+        "title": "Building Cooking Consistency",
+        "detail": "For those struggling to cook regularly, the streak mechanism provides a strong 'External Trigger' and 'Internal Trigger' to maintain the habit and improve skills consistently."
+      },
+      {
+        "title": "Skill Development & Mastery",
+        "detail": "Unlock more complex recipes and advanced techniques as a reward for sustained effort, transforming cooking into a continuous learning and mastery process."
+      },
+      {
+        "title": "Social & Competitive Cooking",
+        "detail": "Participate in community challenges and share culinary achievements, fostering a sense of belonging, friendly competition, and inspiration among users."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-18-villageflow",
     "appName": "VillageFlow",
     "tagline": "Your neighborhood's helping hand, just a tap away.",

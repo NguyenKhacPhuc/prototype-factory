@@ -1,0 +1,76 @@
+{
+  "name": "DishBloom",
+  "tagline": "Cultivate Your Culinary Journey: Unlock New Flavors with Every Streak.",
+  "description": "DishBloom transforms home cooking into an engaging adventure. By logging daily meals and maintaining 'Culinary Streaks,' users earn 'Bloom Points' to progressively unlock exclusive recipes, advanced cooking techniques, and themed 'Recipe Gardens.' It gamifies the kitchen, motivating consistent cooking and expanding culinary horizons through a rewarding journey of discovery.",
+  "features": [
+    {
+      "title": "Culinary Streak Tracker",
+      "detail": "Log every meal cooked within the app to build and maintain your streak. Visual progress bars, celebratory animations, and milestone notifications keep you motivated."
+    },
+    {
+      "title": "Bloom Point Rewards System",
+      "detail": "Earn points for streak consistency, exploring new cuisine categories, and successfully mastering challenging recipes. Spend Bloom Points to unlock premium recipe packs, advanced technique guides, and virtual kitchen aesthetics."
+    },
+    {
+      "title": "Tiered Recipe Gardens",
+      "detail": "Recipes are organized into themed 'Gardens' (e.g., 'Beginner Bistro,' 'Global Gourmet,' 'Seasonal Harvest'). New Gardens and exclusive recipes within them are unlocked as your streak grows and you reach higher Bloom Tiers."
+    },
+    {
+      "title": "Interactive Guided Cooking",
+      "detail": "Step-by-step instructions with integrated timers, ingredient checklists, and optional voice guidance. Users can mark steps as complete, enhancing the cooking experience."
+    },
+    {
+      "title": "Smart Shopping List Builder",
+      "detail": "Automatically generates a consolidated shopping list from your selected recipes, with smart pantry integration to avoid purchasing duplicate ingredients."
+    },
+    {
+      "title": "Community Cook-Offs & Challenges",
+      "detail": "Participate in weekly themed cooking challenges to earn bonus Bloom Points, showcase your dishes, and connect with other culinary enthusiasts."
+    },
+    {
+      "title": "Personalized Taste Profile",
+      "detail": "AI-driven recipe recommendations evolve based on your unlocked dishes, cooking history, dietary preferences, and even recipes you've skipped or rated."
+    }
+  ],
+  "audience": "Aspiring home cooks, busy individuals seeking structure in meal planning, food enthusiasts looking for new culinary challenges, individuals aiming to build healthier cooking habits, and anyone who enjoys gamified personal development experiences.",
+  "category": "Food & Drink, Lifestyle, Gamified Health & Wellness",
+  "useCases": [
+    {
+      "title": "Breaking Culinary Monotony",
+      "detail": "Users bored with their usual repertoire are motivated to explore and unlock exciting new recipes from diverse cuisines through a progressive reward system."
+    },
+    {
+      "title": "Building Cooking Consistency",
+      "detail": "For those struggling to cook regularly, the streak mechanism provides a strong 'External Trigger' and 'Internal Trigger' to maintain the habit and improve skills consistently."
+    },
+    {
+      "title": "Skill Development & Mastery",
+      "detail": "Unlock more complex recipes and advanced techniques as a reward for sustained effort, transforming cooking into a continuous learning and mastery process."
+    },
+    {
+      "title": "Social & Competitive Cooking",
+      "detail": "Participate in community challenges and share culinary achievements, fostering a sense of belonging, friendly competition, and inspiration among users."
+    }
+  ],
+  "engagementLoop": {
+    "trigger": "Internal: Desire for culinary discovery, hunger, personal goal to cook more frequently. External: Notifications for streak milestones, friend activity, new Garden unlocks.",
+    "action": "User opens DishBloom, selects a recipe (newly unlocked or recommended) and prepares it.",
+    "reward": "Successful meal preparation logs a streak day, earns Bloom Points, provides visual progress towards unlocking new 'Gardens' or exclusive recipes, along with celebratory feedback.",
+    "investment": "User plans future meals, adds desired recipes to a queue, customizes their profile, and commits to maintaining their streak to unlock more premium content, creating 'Internal Triggers' for future engagement."
+  },
+  "trendFit": "DishBloom perfectly aligns with the growing trend of gamification for habit formation (similar to 'Planned' or 'Dimewise'), encouraging consistent behavior through rewarding progression. It taps into the demand for personalized discovery and skill-building in lifestyle apps, while fostering community engagement around a shared passion for food.",
+  "monetization": [
+    {
+      "title": "Premium 'Culinary Pass' Subscription",
+      "detail": "Offers accelerated Bloom Point gain, exclusive 'Master Chef Gardens' with advanced techniques, ad-free experience, and priority access to new features and challenges."
+    },
+    {
+      "title": "Ingredient & Appliance Partnerships",
+      "detail": "Affiliate links or direct sales of featured premium ingredients, kitchen tools, or meal kits, subtly integrated into recipes or the smart shopping list."
+    },
+    {
+      "title": "Branded Recipe Packs",
+      "detail": "Collaborations with renowned chefs or food brands for exclusive, sponsored 'Gardens' or special event recipe packs."
+    }
+  ]
+}
