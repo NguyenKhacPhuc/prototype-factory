@@ -1,0 +1,14 @@
+{
+  "appName": "FlowSense AI",
+  "tagline": "Seamless code, intelligent review. Your freelance advantage.",
+  "designSystem": {
+    "primaryColor": "#007B87",
+    "secondaryColor": "#FFC107",
+    "backgroundColor": "#1A1E26",
+    "fontFamily": "undefined / undefined",
+    "style": "Neoteric Command"
+  },
+  "screens": [
+    "home"
+  ]
+}

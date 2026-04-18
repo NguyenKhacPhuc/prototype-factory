@@ -1,5 +1,64 @@
 [
   {
+    "folder": "2026-04-18-flowsense-ai",
+    "appName": "FlowSense AI",
+    "tagline": "Seamless code, intelligent review. Your freelance advantage.",
+    "designSystem": {
+      "primaryColor": "#007B87",
+      "secondaryColor": "#FFC107",
+      "backgroundColor": "#1A1E26",
+      "fontFamily": "undefined / undefined",
+      "style": "Neoteric Command"
+    },
+    "screens": [
+      "home"
+    ],
+    "hasScreenshot": false,
+    "description": "FlowSense AI is the essential mobile companion for freelance developers seeking to deliver high-quality, maintainable, and secure code. Utilizing advanced AI, it provides instant, comprehensive code reviews directly on your device, identifying bugs, suggesting optimizations, ensuring adherence to best practices, and even generating refactoring proposals. Empowering independent developers to elevate their craft, meet tight deadlines with confidence, and impress clients with flawless deliverables.",
+    "features": [
+      {
+        "title": "On-Demand AI Code Critiques",
+        "detail": "Get instant, comprehensive feedback on code snippets or entire files, identifying potential issues before they become problems."
+      },
+      {
+        "title": "Best Practice & Style Alignment",
+        "detail": "Automatically checks code against common industry coding standards (e.g., PEP8, Airbnb Style Guide) and allows for customizable project-specific guidelines."
+      },
+      {
+        "title": "Intelligent Optimization & Security Flags",
+        "detail": "Identifies performance bottlenecks, potential logical errors, and common security vulnerabilities with actionable recommendations."
+      },
+      {
+        "title": "Explainable Refactoring Proposals",
+        "detail": "Receives AI-generated, implementable refactoring options for cleaner and more efficient code, complete with clear explanations of their benefits."
+      },
+      {
+        "title": "Progress & Project Quality Dashboard",
+        "detail": "Track code quality metrics, monitor improvements over time, and generate professional, client-facing quality reports to build trust and transparency."
+      }
+    ],
+    "audience": "Independent software developers, freelance programmers, contractors, small development agencies, and students aspiring to professional coding standards, who prioritize code quality, efficiency, continuous learning, and client satisfaction.",
+    "category": "Developer Tools & Productivity",
+    "useCases": [
+      {
+        "title": "Pre-Submission Quality Assurance",
+        "detail": "A freelancer uses FlowSense AI to thoroughly review their completed code modules before committing to a repository or submitting to a client, ensuring high quality from the start."
+      },
+      {
+        "title": "Learning & Skill Enhancement",
+        "detail": "When FlowSense AI suggests an alternative pattern or optimization, the developer accesses built-in explanations and examples to deepen their understanding of best practices and new coding techniques."
+      },
+      {
+        "title": "Transparent Client Reporting",
+        "detail": "Generate a detailed code quality report for clients, showcasing the initial analysis, improvements made with FlowSense AI, and the final high-quality score, enhancing trust and demonstrating value."
+      },
+      {
+        "title": "Rapid Debugging & Issue Identification",
+        "detail": "When encountering a stubborn bug or an unexpected error, a developer inputs the problematic code section to receive AI-driven insights into potential flaws or logic errors."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-10-savorstreak",
     "appName": "SavorStreak",
     "tagline": "Cook consistently, unlock your next culinary adventure.",
