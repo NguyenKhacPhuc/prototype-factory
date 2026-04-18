@@ -78,6 +78,7 @@ export function DesignReview({ jobId, navigate }: Props) {
   const isPending = job.status === "pending";
   const isPrototype = job.type === "prototype";
   const resultFolder = job.result?.folder || "";
+  const previewUrl = job.result?.preview_url || (resultFolder ? `/prototypes/${resultFolder}/preview.html` : "");
 
   // Parse build log from live_output (stored as JSON array by worker)
   let buildLogEntries: { message: string; files?: string[]; type: string }[] = [];
@@ -257,9 +258,9 @@ export function DesignReview({ jobId, navigate }: Props) {
             position: "relative",
           }}>
             {/* Interactive preview: existing prototype OR generated one */}
-            {(protoFolder && !isBuilding && !isPending) || (isPrototype && isDone && resultFolder) ? (
+            {(protoFolder && !isBuilding && !isPending) || (isDone && previewUrl) ? (
               <iframe
-                src={`/prototypes/${resultFolder || protoFolder}/preview.html`}
+                src={previewUrl || `/prototypes/${protoFolder}/preview.html`}
                 sandbox="allow-scripts allow-same-origin"
                 title={design.appName || "Preview"}
                 style={{ width: "100%", height: "100%", border: "none" }}

@@ -81,13 +81,39 @@ export async function runPrototypeJob(jobId: string, input: JobInput) {
       await pushLog('Prototype validates — renders correctly.', undefined, 'success');
     }
 
-    // Step 6: Deploy
+    // Step 6: Upload to Supabase Storage + Deploy
     await logger.updateProgress(6, 6, 'Deploying to preview...');
-    await pushLog('Committing and deploying to preview...', undefined, 'info');
-    await deployPrototype(folder, logger);
-    await pushLog('Prototype is live! You can interact with it now.', undefined, 'success');
+    await pushLog('Uploading prototype for preview...', undefined, 'info');
 
-    await logger.markCompleted({ folder: folderName(folder), url: `/prototype/${folderName(folder)}` });
+    // Upload App.tsx and preview.html to Supabase Storage so they're accessible from Vercel
+    const fName = folderName(folder);
+    const appTsxContent = readFileSync(join(folder, 'App.tsx'), 'utf-8');
+    const previewHtmlContent = readFileSync(join(folder, 'preview.html'), 'utf-8');
+
+    // Create self-contained preview (App.tsx inlined into HTML)
+    const inlinedHtml = previewHtmlContent
+      .replace(
+        '<script type="text/babel" data-presets="tsx" src="App.tsx"></script>',
+        `<script type="text/babel" data-presets="tsx">\n${appTsxContent}\n</script>`
+      );
+
+    await supabase.storage.from('builds').upload(
+      `prototypes/${fName}/preview.html`,
+      new Blob([inlinedHtml], { type: 'text/html' }),
+      { upsert: true }
+    );
+
+    const { data: previewUrl } = supabase.storage.from('builds').getPublicUrl(`prototypes/${fName}/preview.html`);
+
+    await pushLog('Committing and deploying...', undefined, 'info');
+    await deployPrototype(folder, logger);
+    await pushLog('Prototype is live!', undefined, 'success');
+
+    await logger.markCompleted({
+      folder: fName,
+      url: `/prototype/${fName}`,
+      preview_url: previewUrl.publicUrl,
+    });
     await logger.persist();
 
   } catch (err: any) {
