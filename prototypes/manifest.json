@@ -1,5 +1,60 @@
 [
   {
+    "folder": "2026-04-18-vigorforge",
+    "appName": "VigorForge",
+    "tagline": "Cultivate your habits. Empower your Vigor.",
+    "designSystem": {
+      "primaryColor": "#C22047",
+      "secondaryColor": "#3A7240",
+      "backgroundColor": "#1A1A1A",
+      "fontFamily": "undefined / undefined",
+      "style": "Enchanted Growth"
+    },
+    "screens": [
+      "home"
+    ],
+    "hasScreenshot": false,
+    "description": "VigorForge transforms your daily habits into a vital, evolving entity: your Vigor Spirit. Each habit you successfully complete fortifies your Spirit, making it grow stronger, more vibrant, and visually impressive. Miss a habit, and watch your Spirit visibly weaken, its energy fading, reminding you of the tangible cost of inconsistency. This isn't just a tracker; it's a living reflection of your commitment, using the powerful psychological principle of loss aversion to keep you motivated and building unbreakable streaks.",
+    "features": [
+      {
+        "title": "Dynamic Vigor Spirit",
+        "detail": "A unique, customizable avatar that serves as your personal Vigor Spirit. It visibly evolves, gains new forms, and glows brighter with successful habit streaks, but weakens, dims, and shows signs of distress with missed habits."
+      },
+      {
+        "title": "Habit-Linked Vitality",
+        "detail": "Assign specific habits to contribute to your Vigor Spirit's overall 'Vitality' meter. Each check-in boosts it, while each skip depletes it, triggering visual changes and reactive notifications from your Spirit."
+      },
+      {
+        "title": "Loss Aversion Reminders",
+        "detail": "Receive personalized notifications framed from your Vigor Spirit's perspective, like 'Your Vigor feels a crack today \u2013 don't let it fade!' \u2013 creating a stronger emotional hook than generic alerts."
+      },
+      {
+        "title": "Milestone Mutations & Rewards",
+        "detail": "Unlock exclusive cosmetic upgrades, unique Spirit forms, and rare 'Vigor Artifacts' for your Spirit as you hit significant streak milestones, reinforcing positive behavior with tangible, visual rewards."
+      },
+      {
+        "title": "Spirit Shield Safeguards",
+        "detail": "Earn limited-use 'Spirit Shields' through consistent effort. These can be activated to prevent immediate Vigor degradation for a single missed habit, offering a strategic buffer against setbacks."
+      }
+    ],
+    "audience": "Individuals aged 18-45 seeking highly motivating habit tracking, visual learners, those who thrive on gamified experiences, and anyone struggling with consistency who benefits from a strong 'external' accountability trigger.",
+    "category": "Productivity, Self-Improvement, Gamified Wellness, Lifestyle",
+    "useCases": [
+      {
+        "title": "Building New Routines",
+        "detail": "Users wanting to establish new daily habits (e.g., meditation, exercise, reading) can visualize their progress and commitment through their Spirit's growth, making the abstract concrete."
+      },
+      {
+        "title": "Maintaining Long-Term Goals",
+        "detail": "For sustained commitments like healthy eating or learning a new skill, the visible decline of their Spirit acts as a powerful deterrent against falling off track, fostering long-term adherence."
+      },
+      {
+        "title": "Overcoming Procrastination",
+        "detail": "The 'urgent' need to protect one's Vigor Spirit provides an immediate, compelling reason to complete tasks and check off habits, overcoming the inertia of procrastination."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-17-omnipanel",
     "appName": "OmniPanel",
     "tagline": "Your Universe of Stories, Hands-Free.",
