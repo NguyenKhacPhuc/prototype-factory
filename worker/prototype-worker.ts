@@ -235,7 +235,29 @@ async function generatePrototype(
 
   // Extract App.tsx from response
   const appTsx = extractAppTsx(result.content);
-  writeFileSync(join(folderPath, 'App.tsx'), appTsx);
+
+  // Verify code is complete (not truncated)
+  const openBraces = (appTsx.match(/{/g) || []).length;
+  const closeBraces = (appTsx.match(/}/g) || []).length;
+  const braceDiff = Math.abs(openBraces - closeBraces);
+  if (braceDiff > 2) {
+    // Code is truncated — retry once with shorter prompt
+    logger.log({ stage: 4, step: 'prototype', event: 'error', detail: `Brace mismatch (${braceDiff}), retrying...` });
+    const retryResult = await claude.generate(
+      'You are a mobile app prototype generator. Write CONCISE React code. Max 800 lines. Output ONLY code, no fences.',
+      prompt,
+      'anthropic/claude-opus-4-6'
+    );
+    const retryCode = extractAppTsx(retryResult.content);
+    const retryOpen = (retryCode.match(/{/g) || []).length;
+    const retryClose = (retryCode.match(/}/g) || []).length;
+    if (Math.abs(retryOpen - retryClose) > 2) {
+      throw new Error(`Code truncated after retry (braces: ${retryOpen} open, ${retryClose} close)`);
+    }
+    writeFileSync(join(folderPath, 'App.tsx'), retryCode);
+  } else {
+    writeFileSync(join(folderPath, 'App.tsx'), appTsx);
+  }
 
   // Write design-spec.json
   writeFileSync(join(folderPath, 'design-spec.json'), JSON.stringify({
