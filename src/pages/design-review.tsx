@@ -150,29 +150,40 @@ export function DesignReview({ jobId, navigate }: Props) {
             </LogSection>
           )}
 
-          {/* Done — QR code */}
+          {/* Done */}
           {isDone && (
-            <LogSection title="Build complete!">
-              {job.result?.expo_url ? (
-                <div style={{ textAlign: "center", marginTop: 8 }}>
-                  <img
-                    src={`https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${encodeURIComponent(job.result.expo_url)}&bgcolor=1a1a1a&color=ffffff`}
-                    alt="QR"
-                    style={{ width: 180, height: 180, borderRadius: 12 }}
-                  />
-                  <p style={{ fontSize: 11, color: "var(--text-dim)", marginTop: 6 }}>Scan with Expo Go</p>
+            <LogSection title={isPrototype ? "Prototype ready!" : "Build complete!"}>
+              {isPrototype && resultFolder ? (
+                <div style={{ display: "flex", flexDirection: "column", gap: 8, marginTop: 8 }}>
+                  <a href={`/prototypes/${resultFolder}/preview.html`} target="_blank" rel="noopener" style={{
+                    display: "block", padding: 10, borderRadius: 10, background: "var(--accent)",
+                    color: "#fff", fontSize: 13, fontWeight: 600, textAlign: "center", textDecoration: "none",
+                  }}>Open Full Screen</a>
                 </div>
               ) : (
-                <div style={{ fontSize: 12, color: "var(--text-muted)" }}>
-                  <p style={{ margin: "0 0 8px" }}>Download and run:</p>
-                  <code style={{ fontSize: 11, color: "var(--accent)" }}>bun install && npx expo start</code>
-                </div>
-              )}
-              {job.result?.download_url && (
-                <a href={job.result.download_url} target="_blank" rel="noopener" style={{
-                  display: "block", marginTop: 12, padding: 10, borderRadius: 10, background: "var(--accent)",
-                  color: "#fff", fontSize: 13, fontWeight: 600, textAlign: "center", textDecoration: "none",
-                }}>Download Source</a>
+                <>
+                  {job.result?.expo_url ? (
+                    <div style={{ textAlign: "center", marginTop: 8 }}>
+                      <img
+                        src={`https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${encodeURIComponent(job.result.expo_url)}&bgcolor=1a1a1a&color=ffffff`}
+                        alt="QR"
+                        style={{ width: 180, height: 180, borderRadius: 12 }}
+                      />
+                      <p style={{ fontSize: 11, color: "var(--text-dim)", marginTop: 6 }}>Scan with Expo Go</p>
+                    </div>
+                  ) : (
+                    <div style={{ fontSize: 12, color: "var(--text-muted)" }}>
+                      <p style={{ margin: "0 0 8px" }}>Download and run:</p>
+                      <code style={{ fontSize: 11, color: "var(--accent)" }}>bun install && npx expo start</code>
+                    </div>
+                  )}
+                  {job.result?.download_url && (
+                    <a href={job.result.download_url} target="_blank" rel="noopener" style={{
+                      display: "block", marginTop: 12, padding: 10, borderRadius: 10, background: "var(--accent)",
+                      color: "#fff", fontSize: 13, fontWeight: 600, textAlign: "center", textDecoration: "none",
+                    }}>Download Source Code</a>
+                  )}
+                </>
               )}
             </LogSection>
           )}
