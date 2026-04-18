@@ -1,0 +1,14 @@
+{
+  "appName": "InnerDrive",
+  "tagline": "Unlock Your Potential. Ignite Your Inner Drive.",
+  "designSystem": {
+    "primaryColor": "#C96C01",
+    "secondaryColor": "#3E6F68",
+    "backgroundColor": "#1C1C1C",
+    "fontFamily": "undefined / undefined",
+    "style": "Radiant Introspection"
+  },
+  "screens": [
+    "home"
+  ]
+}

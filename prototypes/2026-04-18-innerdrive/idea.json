@@ -1,0 +1,50 @@
+{
+  "name": "InnerDrive",
+  "tagline": "Unlock Your Potential. Ignite Your Inner Drive.",
+  "description": "InnerDrive is a unique self-motivation ecosystem designed to help users tap into their intrinsic drivers for sustainable personal growth. Blending guided reflection, personalized skill-building pathways, and actionable psychological insights, InnerDrive transforms aspirational goals into achievable realities. It’s more than a tracker; it's a strategic partner in cultivating resilience, focus, and an unwavering belief in your own capabilities.",
+  "features": [
+    {
+      "title": "Dynamic Reflection Prompts",
+      "detail": "Personalized daily prompts that delve into your values, challenges, and aspirations, fostering deep self-awareness and identifying core motivators."
+    },
+    {
+      "title": "Adaptive Skill Pathways",
+      "detail": "Curated learning modules for skill development (e.g., public speaking, habit formation, critical thinking) that adjust to your pace and progress, featuring micro-lessons and practical exercises."
+    },
+    {
+      "title": "Psych-Insight Digests",
+      "detail": "Weekly insights delivered as concise, actionable wisdom drawn from positive psychology, cognitive behavioral therapy, and neuroscience, explaining 'why' certain strategies work and how to apply them."
+    },
+    {
+      "title": "Motivation Pulse",
+      "detail": "A customizable system that learns your internal motivation cues and suggests intelligent external triggers (e.g., 'power song' playlists, inspirational quotes, mindful breaks) to overcome inertia and maintain focus."
+    },
+    {
+      "title": "Growth Trajectory Visualization",
+      "detail": "Intuitive dashboards visualizing your progress across reflective insights, skill mastery, and sustained motivation streaks, celebrating milestones and identifying areas for growth."
+    }
+  ],
+  "audience": "Ambitious individuals, lifelong learners, professionals seeking personal and career growth, anyone struggling with self-discipline or procrastination, and those interested in applying psychological principles to enhance their lives.",
+  "category": "Personal Development, Mental Wellness, Productivity, Self-Improvement",
+  "useCases": [
+    {
+      "title": "Conquering Procrastination",
+      "detail": "Users leverage 'Motivation Pulse' and reflection prompts to identify procrastination triggers and implement psychological strategies for immediate action."
+    },
+    {
+      "title": "Mastering a New Skill",
+      "detail": "Engaging with 'Adaptive Skill Pathways' daily, users break down complex skills into manageable steps, tracking progress and receiving tailored insights."
+    },
+    {
+      "title": "Cultivating Daily Resilience",
+      "detail": "Through consistent 'Dynamic Reflection Prompts' and 'Psych-Insight Digests', users develop a stronger emotional toolkit and a proactive mindset to handle stress and setbacks."
+    },
+    {
+      "title": "Sustaining Long-Term Goals",
+      "detail": "The app helps users stay aligned with their deeper values and goals by regularly prompting reflection on their 'why' and celebrating incremental progress, preventing burnout."
+    }
+  ],
+  "engagementLoop": "Users begin with a daily reflection, setting intentions and uncovering internal motivators. Based on these insights and chosen skill pathways, the app delivers personalized learning content and 'Motivation Pulse' triggers throughout the day. Progress visualization and milestone celebrations provide positive reinforcement, encouraging continued engagement. Weekly 'Psych-Insight Digests' introduce new perspectives, further deepening the reflection and skill development cycle. The blend of daily actionable tasks, reflective introspection, and observable progress fosters intrinsic motivation and habitual usage.",
+  "trendFit": "InnerDrive directly aligns with the growing demand for personalized mental wellness and self-improvement tools, tapping into trends seen in 'SoulLink' (deep personal insight) and 'Planned' (structured goal achievement). Its emphasis on psychological insight and intrinsic motivation offers a fresh take, differentiating it from generic habit trackers. The customizable 'Motivation Pulse' resonates with the need for smart, adaptive support in an increasingly busy world, leveraging both internal and external triggers for robust engagement.",
+  "monetization": "Freemium Model:\n*   **Free Tier**: Basic reflection prompts, one foundational skill pathway, limited psych-insights, core progress tracking.\n*   **Premium Subscription**: Unlimited reflection prompts and personalized analytics, access to all premium skill pathways and advanced learning modules, full library of Psych-Insight Digests, enhanced 'Motivation Pulse' customization, guided masterclasses from experts, and community challenges.\n*   **Partnerships**: Collaborate with mental wellness coaches or educators for exclusive content or specialized pathways."
+}
