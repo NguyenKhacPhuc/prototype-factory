@@ -57,8 +57,14 @@ export class ClaudeClient {
       }),
     });
 
-    const data = await resp.json();
-    if (data.error) throw new Error(`OpenRouter: ${data.error.message}`);
+    const text = await resp.text();
+    let data: any;
+    try {
+      data = JSON.parse(text);
+    } catch {
+      throw new Error(`Failed to parse OpenRouter response (status ${resp.status}): ${text.slice(0, 200)}`);
+    }
+    if (data.error) throw new Error(`OpenRouter: ${data.error.message || JSON.stringify(data.error).slice(0, 200)}`);
 
     const duration = Date.now() - start;
     const usage = data.usage || {};
