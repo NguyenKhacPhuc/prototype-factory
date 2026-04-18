@@ -1,5 +1,68 @@
 [
   {
+    "folder": "2026-04-18-villageflow",
+    "appName": "VillageFlow",
+    "tagline": "Your neighborhood's helping hand, just a tap away.",
+    "designSystem": {
+      "primaryColor": "#5A7B69",
+      "secondaryColor": "#F4D1B2",
+      "backgroundColor": "#F9F7F5",
+      "fontFamily": "undefined / undefined",
+      "style": "Warm & Wholesome Modern"
+    },
+    "screens": [
+      "home"
+    ],
+    "hasScreenshot": false,
+    "description": "VillageFlow is a hyper-local micro-task exchange designed exclusively for busy parents. It empowers neighborhood communities to effortlessly give and receive small favors, from urgent school pickups to borrowing a cup of sugar, fostering genuine connection and easing the daily load of parenting through mutual aid.",
+    "features": [
+      {
+        "title": "Parent-Pledge Tasks",
+        "detail": "Easily post requests for micro-tasks (e.g., 'urgent school pickup at 3 PM', 'borrow an egg', 'walk my dog today') or offer your help within defined categories. Parents can quickly define their needs and available time slots."
+      },
+      {
+        "title": "Skill & Need Matching",
+        "detail": "Intelligent algorithm matches task requests with available parents nearby who have relevant skills or have expressed interest in certain types of tasks, ensuring efficient and timely assistance."
+      },
+      {
+        "title": "VillageLink Profiles",
+        "detail": "Build trusted community with verified parent profiles, including profile photos, skill badges (e.g., 'First Aid Certified', 'Dog Walker'), and a review system from other local parents."
+      },
+      {
+        "title": "Flow-Forward Scheduling",
+        "detail": "Integrated in-app calendar and direct messaging facilitate seamless communication, scheduling, and coordination for tasks, ensuring everyone is on the same page."
+      },
+      {
+        "title": "Kindness Currency (Kredits)",
+        "detail": "Earn 'Kindness Kredits' for helping neighbors, which can be 'spent' when you need a favor. This gamified system encourages a continuous cycle of giving and receiving, reinforcing community value."
+      },
+      {
+        "title": "Instant Assist Alerts",
+        "detail": "Push notifications for new tasks matching your interests or urgent requests nearby, ensuring you never miss an opportunity to help or receive help."
+      }
+    ],
+    "audience": "Busy parents, single parents, new parents, working parents, and stay-at-home parents seeking support or offering help within their immediate neighborhood.",
+    "category": "Community, Family, Productivity, Lifestyle",
+    "useCases": [
+      {
+        "title": "Emergency School Pick-Up",
+        "detail": "A parent's meeting runs late unexpectedly; they post an urgent request for a neighbor to pick up their child from school."
+      },
+      {
+        "title": "Meal-Train Lite",
+        "detail": "A new parent needs help with dinners for a few nights; nearby neighbors offer to drop off homemade meals, earning Kindness Kredits."
+      },
+      {
+        "title": "Pet Sitting Swap",
+        "detail": "Two neighbors with pets arrange to mutually cover pet-sitting duties for short trips, exchanging Kindness Kredits or directly reciprocating."
+      },
+      {
+        "title": "Borrowing Household Items",
+        "detail": "A parent needs a specific baking ingredient or a baby carrier for an hour; they post a quick request to local neighbors."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-18-auracode",
     "appName": "AuraCode",
     "tagline": "AuraCode: AI-powered code audits for freelance excellence.",

@@ -1,0 +1,14 @@
+{
+  "appName": "VillageFlow",
+  "tagline": "Your neighborhood's helping hand, just a tap away.",
+  "designSystem": {
+    "primaryColor": "#5A7B69",
+    "secondaryColor": "#F4D1B2",
+    "backgroundColor": "#F9F7F5",
+    "fontFamily": "undefined / undefined",
+    "style": "Warm & Wholesome Modern"
+  },
+  "screens": [
+    "home"
+  ]
+}
