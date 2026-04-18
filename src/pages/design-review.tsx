@@ -46,7 +46,6 @@ export function DesignReview({ jobId, navigate }: Props) {
 
   // Don't auto-redirect — prototype only exists locally until git pushed.
   // User stays on /design/:jobId which shows the preview + action buttons.
-  }, [job?.status, job?.result]);
 
   async function loadJob() {
     const { data } = await supabase.from("generation_jobs").select("*").eq("id", jobId).single();
