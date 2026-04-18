@@ -49,7 +49,7 @@ export class ClaudeClient {
       },
       body: JSON.stringify({
         model,
-        max_tokens: 16000,
+        max_tokens: 30000,
         messages: [
           { role: 'system', content: systemPrompt },
           { role: 'user', content: userPrompt },
