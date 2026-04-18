@@ -1,0 +1,14 @@
+{
+  "appName": "AuraCode",
+  "tagline": "AuraCode: AI-powered code audits for freelance excellence.",
+  "designSystem": {
+    "primaryColor": "#6C298B",
+    "secondaryColor": "#A8FF32",
+    "backgroundColor": "#1F132F",
+    "fontFamily": "undefined / undefined",
+    "style": "Ethereal Algorithmic Clarity"
+  },
+  "screens": [
+    "home"
+  ]
+}

@@ -1,5 +1,64 @@
 [
   {
+    "folder": "2026-04-18-auracode",
+    "appName": "AuraCode",
+    "tagline": "AuraCode: AI-powered code audits for freelance excellence.",
+    "designSystem": {
+      "primaryColor": "#6C298B",
+      "secondaryColor": "#A8FF32",
+      "backgroundColor": "#1F132F",
+      "fontFamily": "undefined / undefined",
+      "style": "Ethereal Algorithmic Clarity"
+    },
+    "screens": [
+      "home"
+    ],
+    "hasScreenshot": false,
+    "description": "AuraCode is a mobile-first AI-powered code review and optimization tool designed specifically for freelance developers. It goes beyond basic linting, providing insightful, contextual feedback to improve code quality, maintainability, security, and performance. Integrating seamlessly into development workflows, AuraCode helps freelancers deliver polished, client-ready code with confidence, ensuring every line shines.",
+    "features": [
+      {
+        "title": "Smart Snippet Audit",
+        "detail": "Freelancers can paste code snippets or upload small files for instant AI feedback on syntax, logic, best practices, and potential issues across multiple programming languages."
+      },
+      {
+        "title": "Project Health Check",
+        "detail": "Comprehensive, deep-dive analysis of entire project repositories (connected via Git integration), identifying complex architectural suggestions, security vulnerabilities, and potential technical debt across your codebase."
+      },
+      {
+        "title": "Explain & Rectify Assistant",
+        "detail": "AI provides clear, human-like explanations for identified issues, outlines their impact, suggests optimized code alternatives, and can even generate refactoring snippets directly within the app."
+      },
+      {
+        "title": "Customizable Review Policies",
+        "detail": "Set project-specific rules, style guides, and tech stack preferences for tailored AI feedback, ensuring strict compliance with client requirements and personal coding standards."
+      },
+      {
+        "title": "Client-Facing Quality Reports",
+        "detail": "Generate professional, easy-to-understand reports detailing code quality scores, security posture, performance metrics, and AI-validated improvements, enhancing client trust and project value."
+      }
+    ],
+    "audience": "Freelance web developers, mobile developers, backend engineers, data scientists, and independent contractors working across various programming languages. It caters to developers from intermediate to advanced levels who prioritize code quality, efficiency, and continuous learning.",
+    "category": "Developer Tools",
+    "useCases": [
+      {
+        "title": "Pre-delivery Confidence Boost",
+        "detail": "Before submitting a crucial project module or final deliverable, freelancers run a full AuraCode audit to catch subtle bugs, enforce coding standards, and ensure professional, client-ready quality."
+      },
+      {
+        "title": "Learning & Best Practice Adoption",
+        "detail": "When experimenting with a new framework, library, or language feature, users submit their code snippets to AuraCode for instant feedback on best practices, security implications, and idiomatic usage, accelerating their learning curve."
+      },
+      {
+        "title": "Efficient Refactoring & Tech Debt Reduction",
+        "detail": "Identify complex code smells or areas for performance optimization within a legacy project, utilizing AI-generated suggestions to efficiently refactor and reduce technical debt, saving valuable time."
+      },
+      {
+        "title": "Client Showcase & Validation",
+        "detail": "Generate concise, professional quality reports directly from AuraCode to demonstrate code quality, highlight improvements made, and provide tangible proof of meticulous work, building stronger client relationships."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-18-rootdoctor",
     "appName": "RootDoctor",
     "tagline": "Heal your greens, effortlessly. AI-powered plant wellness for every plant parent.",
