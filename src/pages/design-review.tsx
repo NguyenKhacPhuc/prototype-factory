@@ -30,12 +30,14 @@ export function DesignReview({ jobId, navigate }: Props) {
 
   useEffect(() => {
     loadJob();
+    // Poll every 5s as backup (Realtime can miss updates)
+    const poll = setInterval(loadJob, 5000);
     const channel = supabase
       .channel(`design-${jobId}`)
       .on("postgres_changes", { event: "UPDATE", schema: "public", table: "generation_jobs", filter: `id=eq.${jobId}` },
         (payload: any) => setJob(payload.new))
       .subscribe();
-    return () => { supabase.removeChannel(channel); };
+    return () => { clearInterval(poll); supabase.removeChannel(channel); };
   }, [jobId]);
 
   useEffect(() => {
