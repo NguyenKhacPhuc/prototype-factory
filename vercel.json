@@ -5,6 +5,16 @@
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" },
     { "source": "/prototypes/(.*)", "destination": "/prototypes/$1" },
-    { "source": "/:path((?!.*\\.).*)", "destination": "/index.html" }
+    { "source": "/gallery", "destination": "/index.html" },
+    { "source": "/about", "destination": "/index.html" },
+    { "source": "/create", "destination": "/index.html" },
+    { "source": "/styles", "destination": "/index.html" },
+    { "source": "/canvas", "destination": "/index.html" },
+    { "source": "/profile", "destination": "/index.html" },
+    { "source": "/admin", "destination": "/index.html" },
+    { "source": "/pricing", "destination": "/index.html" },
+    { "source": "/prototype/:slug", "destination": "/index.html" },
+    { "source": "/design/:id", "destination": "/index.html" },
+    { "source": "/auth/callback", "destination": "/index.html" }
   ]
 }
