@@ -1,0 +1,14 @@
+{
+  "appName": "RootDoctor",
+  "tagline": "Heal your greens, effortlessly. AI-powered plant wellness for every plant parent.",
+  "designSystem": {
+    "primaryColor": "#4C786F",
+    "secondaryColor": "#C7A28C",
+    "backgroundColor": "#F8F6F4",
+    "fontFamily": "undefined / undefined",
+    "style": "Verdant Alchemy"
+  },
+  "screens": [
+    "home"
+  ]
+}

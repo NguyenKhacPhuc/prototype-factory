@@ -1,5 +1,60 @@
 [
   {
+    "folder": "2026-04-18-rootdoctor",
+    "appName": "RootDoctor",
+    "tagline": "Heal your greens, effortlessly. AI-powered plant wellness for every plant parent.",
+    "designSystem": {
+      "primaryColor": "#4C786F",
+      "secondaryColor": "#C7A28C",
+      "backgroundColor": "#F8F6F4",
+      "fontFamily": "undefined / undefined",
+      "style": "Verdant Alchemy"
+    },
+    "screens": [
+      "home"
+    ],
+    "hasScreenshot": false,
+    "description": "RootDoctor is an intelligent mobile application designed to empower plant parents of all experience levels. Utilizing advanced AI and image recognition, RootDoctor instantly diagnoses plant ailments from a simple photo, providing detailed insights into issues like pests, diseases, and nutrient deficiencies. Beyond diagnosis, the app offers personalized, step-by-step treatment plans, proactive care schedules, and a vibrant community forum, ensuring your botanical companions not only recover but thrive. From urgent care to daily wellness, RootDoctor is your plant's personal physician.",
+    "features": [
+      {
+        "title": "AI Instant Diagnosis",
+        "detail": "Snap a photo of your ailing plant and receive an immediate, accurate diagnosis of potential issues, complete with severity indicators and likely causes. Our 'OliScan'-inspired technology gets straight to the root of the problem."
+      },
+      {
+        "title": "Personalized Treatment Plans",
+        "detail": "Get tailor-made recovery protocols and care instructions, specific to your plant species and its diagnosed ailment. Track your progress with 'Planned' reminders for treatments, watering, and feeding."
+      },
+      {
+        "title": "Proactive Wellness Dashboard",
+        "detail": "Set up individual plant profiles to receive customized preventative care schedules for watering, light exposure, humidity, and fertilization, transforming reactive problem-solving into proactive plant health management, akin to 'Dimewise' for your plants."
+      },
+      {
+        "title": "GreenThumb Community Hub",
+        "detail": "Connect with a global network of plant enthusiasts. Share photos, ask questions, exchange tips, and celebrate plant victories in a 'SoulLink'-inspired supportive forum, offering peer-to-peer insights and expert advice."
+      },
+      {
+        "title": "Plant Journey Journals",
+        "detail": "Document your plants' growth and recovery journeys with photo logs and personal notes. Observe progress over time and celebrate milestones, fostering a deeper connection with your green family."
+      }
+    ],
+    "audience": "Beginner and experienced plant parents, indoor gardeners, urban cultivators, and anyone passionate about nurturing healthy plants but sometimes struggles with complex plant care or timely problem identification.",
+    "category": "Lifestyle, Home & Garden, Utilities",
+    "useCases": [
+      {
+        "title": "Emergency Plant Consultation",
+        "detail": "A user notices yellowing leaves and brown spots (External Trigger). They immediately take a photo with RootDoctor, receive an instant diagnosis of a fungal infection, and get a step-by-step organic treatment plan, preventing further damage."
+      },
+      {
+        "title": "Preventative Care Scheduling",
+        "detail": "A user wants to ensure their new fiddle-leaf fig thrives (Internal Trigger). They create a profile in RootDoctor, which generates a customized care schedule based on their local climate and plant needs, providing reminders for watering and fertilizing."
+      },
+      {
+        "title": "Learning and Collaboration",
+        "detail": "A user identifies a strange bug on their succulent. They upload a picture to the GreenThumb Community Hub, receiving quick identification from experienced users and advice on natural pest control methods, reinforcing the 'Simply' concept of easy-to-access knowledge."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-18-aethel",
     "appName": "Aethel",
     "tagline": "Guard Your Growth. Preserve Your Presence.",
