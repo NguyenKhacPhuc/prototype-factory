@@ -7,6 +7,7 @@ await $`rm -rf dist`;
 const result = await Bun.build({
   entrypoints: ["./src/index.html"],
   outdir: "./dist",
+  publicPath: "/",
   minify: true,
   sourcemap: "none",
   naming: {
