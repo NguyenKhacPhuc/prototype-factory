@@ -1,0 +1,71 @@
+{
+  "name": "Culinary Streak",
+  "tagline": "Master your kitchen, one streak at a time.",
+  "description": "Culinary Streak is a gamified recipe platform designed to transform aspiring home cooks into kitchen virtuosos. By consistently logging meals cooked, users build powerful cooking streaks that progressively unlock an expanding universe of gourmet recipes, exotic ingredients, and advanced culinary techniques. It’s an adventure that combines the joy of discovery with the irresistible pull of habit formation, turning every meal into a step towards mastery.",
+  "features": [
+    {
+      "title": "Streak Kitchen Tracker",
+      "detail": "A visually engaging dashboard that tracks your cooking consistency. Log your meals daily to maintain and extend your streak, earning 'Streak Points' and unlocking new progress tiers."
+    },
+    {
+      "title": "Mystery Dish Reveals",
+      "detail": "At variable, unpredictable intervals within your streak progression, a 'Mystery Dish' is revealed. These curated recipes introduce new cuisines, unique flavor profiles, or innovative cooking methods, leveraging a variable ratio schedule for addictive discovery."
+    },
+    {
+      "title": "Technique Tree Progression",
+      "detail": "Unlock advanced cooking techniques (e.g., 'Perfect Poaching', 'Sauce Emulsification', 'Braising Mastery') as you hit major streak milestones. Each technique comes with guided tutorials and a set of recipes specifically designed to apply and reinforce the skill."
+    },
+    {
+      "title": "Ingredient Compass",
+      "detail": "As you cook and unlock new dishes, previously unknown ingredients are added to your 'Ingredient Compass', a personal culinary encyclopedia offering usage tips, flavor pairings, and alternative recipes for exploration."
+    },
+    {
+      "title": "Streak Saver & Boosts",
+      "detail": "A limited-use 'Streak Saver' item can be deployed to prevent your streak from breaking on a missed day, playing on loss aversion. Daily 'Micro-Tasks' (e.g., 'Plan Tomorrow's Meal', 'Quick Pantry Scan') offer small streak boosts or bonus points."
+    },
+    {
+      "title": "Community Cook-Offs",
+      "detail": "Participate in themed cooking challenges and 'cook-offs' that require using specific unlocked dishes or techniques, fostering a sense of community and friendly competition."
+    }
+  ],
+  "audience": "Aspiring home chefs, individuals looking to expand their culinary repertoire, busy professionals seeking structured meal inspiration, and anyone who enjoys gamified progression and habit-building apps.",
+  "category": "Food & Drink, Lifestyle, Gamified Learning",
+  "useCases": [
+    {
+      "title": "Breaking the Cooking Rut",
+      "detail": "Users stuck making the same few meals can use Culinary Streak to inject novelty and excitement into their cooking routine, with new dishes and techniques consistently revealed."
+    },
+    {
+      "title": "Building Consistent Cooking Habits",
+      "detail": "Individuals struggling with regular home cooking will find the streak mechanic a powerful motivator to stay consistent, turning cooking into an enjoyable daily habit rather than a chore."
+    },
+    {
+      "title": "Gradual Culinary Education",
+      "detail": "Beginners or intermediate cooks can systematically learn and master new techniques and ingredients without being overwhelmed, guided by the app's progressive unlocking system."
+    },
+    {
+      "title": "Seeking Novel Food Experiences",
+      "detail": "Adventurous eaters who love discovering new flavors and cuisines can leverage the Mystery Dish Reveals to constantly explore diverse global and niche recipes."
+    }
+  ],
+  "engagementLoop": "Users are triggered by daily notifications ('What are you cooking today?'). They act by cooking and logging a meal, reinforcing their streak. The variable reward includes increasing streak length, unlocking 'Mystery Dishes' at unpredictable intervals (variable ratio schedule), earning 'Streak Points' towards Technique Tree progression, and the inherent satisfaction of skill improvement. Investment comes from time spent cooking, exploring recipes, and potentially using 'Streak Savers'. The core motivation is strengthened by loss aversion: the fear of losing a hard-earned streak and the future rewards it promises.",
+  "trendFit": "Aligns with the growing trend of gamification for habit formation (Duolingo for cooking), personalized learning paths, and curated content delivery. It taps into the desire for continuous self-improvement and discovery, leveraging psychological hooks like loss aversion and variable ratio rewards for deep engagement, similar to effective AI-driven personalized experiences (e.g., inspired by TypeAI's adaptive content).",
+  "monetization": [
+    {
+      "title": "Freemium Model",
+      "detail": "Basic recipes and the core streak tracker are free. Premium unlocks more advanced recipes, exclusive Technique Tree branches, unlimited 'Streak Savers', and ad-free experience."
+    },
+    {
+      "title": "Subscription Tiers",
+      "detail": "Premium subscriptions ('Gourmet Pass', 'Master Chef') offering access to AI-powered personalized meal plans, nutritional tracking, and integrations with grocery delivery services (affiliate model)."
+    },
+    {
+      "title": "Curated Ingredient Kits",
+      "detail": "Partnerships with ingredient delivery services to offer 'Mystery Dish Kits' or 'Technique Tree Ingredient Bundles' directly through the app, earning affiliate revenue."
+    },
+    {
+      "title": "Digital Cookbook Packs",
+      "detail": "Sell themed digital cookbook packs or advanced technique guides that complement the app's unlocked content, for users seeking deeper dives into specific culinary areas."
+    }
+  ]
+}
