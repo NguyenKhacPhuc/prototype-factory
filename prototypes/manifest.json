@@ -1,5 +1,68 @@
 [
   {
+    "folder": "2026-04-18-parentpatch",
+    "appName": "ParentPatch",
+    "tagline": "Your Village, On-Demand: Micro-Help for Busy Parents.",
+    "designSystem": {
+      "primaryColor": "#D88D70",
+      "secondaryColor": "#8DAB96",
+      "backgroundColor": "#FBF7F1",
+      "fontFamily": "undefined / undefined",
+      "style": "Nurturing Modern Clay"
+    },
+    "screens": [
+      "home"
+    ],
+    "hasScreenshot": false,
+    "description": "ParentPatch is a hyper-local mobile app designed to ease the daily grind for busy parents by fostering a trusted network for micro-task exchanges. From borrowing an ingredient to a 15-minute kid-watch, ParentPatch empowers neighbors to give and receive small favors, reducing stress and strengthening community bonds.",
+    "features": [
+      {
+        "title": "Micro-Task Marketplace",
+        "detail": "Parents can quickly post specific, short-duration tasks (e.g., 'borrow a cup of sugar', 'walk the dog for 20 mins', 'supervise kids while I take a quick call') or offer help for nearby requests."
+      },
+      {
+        "title": "Verified Local Circles",
+        "detail": "Create or join secure, geo-fenced neighborhood groups. All members are verified (via address or social connection) to build a foundation of trust crucial for parental peace of mind."
+      },
+      {
+        "title": "PatchPoints & Reciprocity System",
+        "detail": "Earn 'PatchPoints' for helping neighbors, which can then be used to 'boost' your own requests or exchange for premium features. This system encourages a healthy cycle of giving and receiving, fostering engagement and a sense of shared responsibility."
+      },
+      {
+        "title": "Skill & Availability Matching",
+        "detail": "Users can list specific skills (e.g., 'quick repairs', 'baking help', 'tutoring') and their general availability, making it easier to find the right helper for a specific need, or vice-versa."
+      },
+      {
+        "title": "Swap & Lend Library",
+        "detail": "Beyond tasks, a dedicated section for sharing or temporarily lending items like baby gear, kids' books, tools, or party supplies within the community, promoting sustainability and resourcefulness."
+      },
+      {
+        "title": "Urgent Alert System",
+        "detail": "For truly time-sensitive needs, parents can send out 'Urgent Patch' alerts to their immediate vicinity, prompting faster responses from available neighbors."
+      }
+    ],
+    "audience": "Busy parents of toddlers to teens, living in suburban or urban neighborhoods, who often feel overwhelmed by daily demands and lack immediate support, but are willing to contribute to a mutual aid network.",
+    "category": "Community, Lifestyle, Parenting, Productivity, Local Services",
+    "useCases": [
+      {
+        "title": "Last-Minute Lifesaver",
+        "detail": "A parent suddenly needs 30 minutes of childcare to handle an unexpected work call. They post an 'Urgent Patch' and a nearby neighbor steps in for a quick, trusted favor."
+      },
+      {
+        "title": "Errand Exchange",
+        "detail": "A parent realizes they forgot a crucial ingredient for dinner and can't leave the kids. They request 'borrow 1 cup flour' and a neighbor brings it over, earning PatchPoints."
+      },
+      {
+        "title": "Skill-Based Help",
+        "detail": "A parent needs help setting up new WiFi. They browse available skills, find a tech-savvy neighbor who offers to assist in exchange for help watering their plants next week."
+      },
+      {
+        "title": "Community Resource Sharing",
+        "detail": "A family needs a specific board game for a family night. Instead of buying, they check the 'Swap & Lend Library' and borrow it from a neighbor, returning it after use."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-18-vigorforge",
     "appName": "VigorForge",
     "tagline": "Cultivate your habits. Empower your Vigor.",
