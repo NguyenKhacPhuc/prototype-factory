@@ -1,0 +1,50 @@
+{
+  "name": "Aethel",
+  "tagline": "Guard Your Growth. Preserve Your Presence.",
+  "description": "Aethel transforms habit tracking into a compelling journey of digital guardianship. Instead of merely tracking streaks, users cultivate a unique 'Vigor Avatar' that visually strengthens and evolves with consistent habit adherence. Miss a day, and your avatar's essence visibly diminishes, creating a powerful, emotionally resonant loss aversion mechanism that drives unwavering commitment and self-discipline.",
+  "features": [
+    {
+      "title": "Dynamic Vigor Avatar",
+      "detail": "Witness your personalized digital companion grow stronger, more vibrant, and acquire new forms with every successfully completed habit. Its health directly reflects your daily discipline."
+    },
+    {
+      "title": "Visible Decay & Decline",
+      "detail": "Experience the unique loss aversion mechanic: miss a habit, and your Vigor Avatar visibly weakens, its glow dulls, or it reverts to a less evolved state, providing a compelling incentive to stay on track."
+    },
+    {
+      "title": "Crisis Intervention Prompts",
+      "detail": "Receive timely, gentle reminders and motivational nudges when a habit streak is nearing a potential break, designed to help you regain focus before your avatar suffers."
+    },
+    {
+      "title": "Habit Forge Customization",
+      "detail": "Define and track any habit, from daily meditation to creative writing, with flexible scheduling, personalized reminders, and specific completion criteria."
+    },
+    {
+      "title": "Reflective Progress Journal",
+      "detail": "A dedicated space to jot down thoughts, challenges, and insights related to your habits, accessible alongside your avatar's visual transformation."
+    }
+  ],
+  "audience": "Individuals seeking novel motivation for habit formation, particularly those who respond well to gamification, visual progress, and loss aversion psychology. Ideal for users struggling with consistency who need a stronger emotional trigger than simple streaks.",
+  "category": "Gamified Productivity & Self-Improvement",
+  "useCases": [
+    {
+      "title": "Building a Consistent Fitness Routine",
+      "detail": "Track daily workouts; your avatar grows physically stronger and more agile, reflecting your body's increasing resilience. Missing a workout visibly reduces its vigor."
+    },
+    {
+      "title": "Maintaining Daily Meditation Practice",
+      "detail": "Log your meditation sessions; your avatar's aura expands and deepens, symbolizing inner calm. A missed day sees its glow dim and focus waver."
+    },
+    {
+      "title": "Overcoming Procrastination on Creative Projects",
+      "detail": "Commit to daily creative sprints (writing, drawing); your avatar's 'creative flow' or unique artistic elements blossom. Skipping a day shows signs of creative stagnation on your avatar."
+    },
+    {
+      "title": "Adhering to a Healthy Eating Plan",
+      "detail": "Check off healthy meals; your avatar's vitality and natural colors flourish. Inconsistent healthy eating visibly drains its vibrancy."
+    }
+  ],
+  "engagementLoop": "Aethel leverages both 'External Triggers' (smart notifications for approaching deadlines or nearing 'decay points') and powerful 'Internal Triggers'. Users are intrinsically motivated by the desire to see their Vigor Avatar flourish and the powerful 'fear of loss' when its essence diminishes. Daily habit completion offers immediate visual rewards (avatar growth), while missing creates a visible, emotional consequence, fueling the desire to protect their digital guardian and, by extension, their personal progress.",
+  "trendFit": "Aethel taps into the booming trend of gamified self-improvement and personalized digital well-being. By moving beyond conventional streak tracking with a unique loss aversion mechanic, it offers a fresh, emotionally engaging approach to habit formation. It aligns perfectly with the desire for more impactful motivational tools that resonate on a deeper psychological level, reminiscent of apps that build strong user attachment through continuous, visible feedback.",
+  "monetization": "Freemium model with a 'Vigor Prime' subscription. The free tier offers core habit tracking with basic avatar evolution. Premium features include: expanded avatar customization options (unique forms, animations, environmental themes), advanced analytics and progress insights, 'Reflection Journals' with AI-guided prompts tailored to habit performance, and 'Resilience Quests' – unique challenges that offer opportunities for avatar recovery (but never full reset, to preserve loss aversion) or accelerated evolution."
+}

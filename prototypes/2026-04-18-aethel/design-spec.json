@@ -1,0 +1,14 @@
+{
+  "appName": "Aethel",
+  "tagline": "Guard Your Growth. Preserve Your Presence.",
+  "designSystem": {
+    "primaryColor": "#2C5E4E",
+    "secondaryColor": "#B8926A",
+    "backgroundColor": "#1C2E2A",
+    "fontFamily": "undefined / undefined",
+    "style": "Arcane Verdant"
+  },
+  "screens": [
+    "home"
+  ]
+}
