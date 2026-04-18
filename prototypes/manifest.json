@@ -1,5 +1,60 @@
 [
   {
+    "folder": "2026-04-18-realmcrafter",
+    "appName": "RealmCrafter",
+    "tagline": "Forge Your Lore. Build Your World.",
+    "designSystem": {
+      "primaryColor": "#2F4858",
+      "secondaryColor": "#D7B079",
+      "backgroundColor": "#1C2023",
+      "fontFamily": "undefined / undefined",
+      "style": "Enchanted Codex"
+    },
+    "screens": [
+      "home"
+    ],
+    "hasScreenshot": false,
+    "description": "RealmCrafter is the ultimate collaborative platform for writers, game masters, and creatives to design, organize, and explore their own intricate story worlds. From mapping sprawling continents to detailing character histories and magic systems, it provides structured tools and a vibrant community to bring your imaginary realms to life.",
+    "features": [
+      {
+        "title": "Dynamic World Map Editor",
+        "detail": "Visually construct continents, kingdoms, cities, and biomes with intuitive tools and AI-assisted terrain generation. Populate your maps with custom icons for points of interest, political borders, and geographical features."
+      },
+      {
+        "title": "Lore Compendium & Relationship Mapper",
+        "detail": "Create and link detailed entries for characters, races, magic systems, religions, historical events, and more. Visualize their intricate connections and timelines to ensure narrative consistency and depth."
+      },
+      {
+        "title": "Prompt-Driven Exploration & Challenges",
+        "detail": "Receive daily prompts and weekly creative challenges designed to spark new ideas, expand existing lore, and overcome creative blocks, constantly pushing your world-building boundaries."
+      },
+      {
+        "title": "Collaborative Story Circles",
+        "detail": "Invite friends or join public groups to co-create shared universes. Contribute unique elements, provide feedback, and weave intricate narratives together, fostering a sense of shared ownership and inspiration."
+      },
+      {
+        "title": "Cross-Media Export & Integration",
+        "detail": "Export your entire world compendium and maps in various formats (PDF, JSON, image files) for seamless integration into your novels, TTRPG campaigns, game development projects, or personal archives."
+      }
+    ],
+    "audience": "Aspiring fantasy/sci-fi authors, Dungeon Masters (DMs) and TTRPG players, indie game designers, speculative fiction enthusiasts, collaborative storytellers, and any creative individual passionate about world-building.",
+    "category": "Creativity & Writing",
+    "useCases": [
+      {
+        "title": "Novelists & Storytellers",
+        "detail": "A writer planning their next epic fantasy saga uses RealmCrafter to meticulously flesh out their world's geography, magical rules, character backstories, and political systems before writing a single word, ensuring a rich and consistent narrative foundation."
+      },
+      {
+        "title": "Game Masters & TTRPG Players",
+        "detail": "A Dungeon Master crafts an entirely new campaign setting, utilizing the map editor to design a unique world, the lore compendium to track NPCs and factions, and the prompt system to generate new plot hooks for their players."
+      },
+      {
+        "title": "Collaborative Universe Builders",
+        "detail": "A group of friends uses RealmCrafter's collaborative features to collectively build a shared universe for fun, with each member contributing unique regions, cultures, and storylines, culminating in a complex, co-authored world."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-12-ligaloot",
     "appName": "LigaLoot",
     "tagline": "Predict La Liga, Compete, and Win Exclusive Digital Loot!",
