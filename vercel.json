@@ -3,11 +3,8 @@
   "installCommand": "bun install",
   "outputDirectory": "dist",
   "rewrites": [
-    { "source": "/api/estimate-complexity", "destination": "/api/estimate-complexity" },
-    { "source": "/api/paypal-create-order", "destination": "/api/paypal-create-order" },
-    { "source": "/api/paypal-capture-order", "destination": "/api/paypal-capture-order" },
+    { "source": "/api/(.*)", "destination": "/api/$1" },
     { "source": "/prototypes/(.*)", "destination": "/prototypes/$1" },
-    { "source": "/auth/callback", "destination": "/index.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/:path((?!.*\\.).*)", "destination": "/index.html" }
   ]
 }
