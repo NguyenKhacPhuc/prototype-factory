@@ -436,10 +436,28 @@ Create 4-6 screen files + shared components + hooks. Make it functional with rea
 
   let content = data.choices[0].message.content;
 
-  // Strip markdown fences if present (Opus sometimes wraps in ```json)
+  // Strip markdown fences if present
   content = content.replace(/^```(?:json)?\s*\n?/m, '').replace(/\n?```\s*$/m, '').trim();
 
-  const files = JSON.parse(content);
+  let files: Record<string, string>;
+  try {
+    files = JSON.parse(content);
+  } catch (parseErr) {
+    // JSON truncated — try to salvage what we can
+    // Find the last complete file entry by looking for the last "},"
+    const lastComplete = content.lastIndexOf('",\n');
+    if (lastComplete > 0) {
+      const salvaged = content.slice(0, lastComplete + 1) + '}';
+      try {
+        files = JSON.parse(salvaged);
+        console.log(`  Salvaged ${Object.keys(files).length} files from truncated response`);
+      } catch {
+        throw new Error(`JSON Parse error: ${(parseErr as Error).message}`);
+      }
+    } else {
+      throw new Error(`JSON Parse error: ${(parseErr as Error).message}`);
+    }
+  }
 
   // Track cost
   const usage = data.usage || {};

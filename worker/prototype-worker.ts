@@ -353,15 +353,30 @@ Write ONLY the App.tsx content. No markdown fences.`;
 }
 
 function extractAppTsx(content: string): string {
-  // Remove markdown code fences if present
   let code = content;
-  const fenceMatch = code.match(/```(?:tsx?|jsx?|javascript)?\s*\n([\s\S]*?)```/);
-  if (fenceMatch) code = fenceMatch[1];
 
-  // Verify it has function App()
-  if (!code.includes('function App()') && !code.includes('function App ()')) {
-    throw new Error('Generated code missing function App()');
+  // Strip markdown fences (multiple patterns)
+  code = code.replace(/^```(?:tsx?|jsx?|javascript|typescriptreact)?\s*\n?/gm, '');
+  code = code.replace(/\n?```\s*$/gm, '');
+  code = code.trim();
+
+  // If there's text before the actual code, try to find where code starts
+  if (!code.startsWith('const') && !code.startsWith('function') && !code.startsWith('//')) {
+    const codeStart = code.search(/^(const |function |\/\/)/m);
+    if (codeStart > 0) code = code.slice(codeStart);
   }
+
+  // Verify it has function App
+  if (!code.includes('function App')) {
+    // Last resort: try to find it anywhere in the original content
+    const appMatch = content.match(/((?:const|let|var|function)[\s\S]*function App[\s\S]*)/);
+    if (appMatch) {
+      code = appMatch[1];
+    } else {
+      throw new Error('Generated code missing function App()');
+    }
+  }
+
   return code.trim();
 }
 
