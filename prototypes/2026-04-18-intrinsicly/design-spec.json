@@ -1,0 +1,14 @@
+{
+  "appName": "Intrinsicly",
+  "tagline": "Uncover your authentic self, fueled by true motivation.",
+  "designSystem": {
+    "primaryColor": "#5E4D7E",
+    "secondaryColor": "#A6C1A4",
+    "backgroundColor": "#FBF9F5",
+    "fontFamily": "undefined / undefined",
+    "style": "Ethereal Bloom"
+  },
+  "screens": [
+    "home"
+  ]
+}

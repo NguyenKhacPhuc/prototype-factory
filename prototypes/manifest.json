@@ -1,5 +1,56 @@
 [
   {
+    "folder": "2026-04-18-intrinsicly",
+    "appName": "Intrinsicly",
+    "tagline": "Uncover your authentic self, fueled by true motivation.",
+    "designSystem": {
+      "primaryColor": "#5E4D7E",
+      "secondaryColor": "#A6C1A4",
+      "backgroundColor": "#FBF9F5",
+      "fontFamily": "undefined / undefined",
+      "style": "Ethereal Bloom"
+    },
+    "screens": [
+      "home"
+    ],
+    "hasScreenshot": false,
+    "description": "Intrinsicly is a pioneering app designed to help you understand and apply Self-Determination Theory (SDT) in your daily life. It guides you to identify and nurture your core psychological needs for Autonomy, Competence, and Relatedness, transforming how you pursue goals, make decisions, and connect with others for deeper well-being and sustained personal growth.",
+    "features": [
+      {
+        "title": "SDT Pulse Check",
+        "detail": "Daily self-assessments across various life domains to gauge your current levels of autonomy, competence, and relatedness. Pinpoint where your needs are met and where they might be lacking to inform your actions."
+      },
+      {
+        "title": "Motivation Map & Aligner",
+        "detail": "Visualize the intrinsic vs. extrinsic drivers behind your activities. The Action Aligner then suggests personalized micro-actions and challenges specifically designed to boost your unmet psychological needs and align your efforts with your authentic self."
+      },
+      {
+        "title": "Growth Pathways",
+        "detail": "Engage in guided multi-day or multi-week journeys focused on deepening one of your core SDT needs. Each pathway includes educational content, practical exercises, and reflective prompts to foster sustained development."
+      },
+      {
+        "title": "Connection Canvas",
+        "detail": "Reflect on your relationships and their impact on your need for relatedness. Get prompts to improve communication, foster deeper bonds, and build a supportive social network aligned with your intrinsic values."
+      }
+    ],
+    "audience": "Individuals seeking deeper self-understanding, aspiring for authentic personal growth, experiencing burnout, or looking to boost motivation in their careers, relationships, and personal projects. Ideal for those interested in evidence-based psychological frameworks for self-improvement.",
+    "category": "Personal Development & Well-being",
+    "useCases": [
+      {
+        "title": "Overcoming Professional Burnout",
+        "detail": "A user feeling drained at work utilizes the SDT Pulse Check to discover a lack of autonomy and competence. The Motivation Map identifies tasks driven by external pressures, and the Action Aligner suggests ways to introduce choice and mastery into their routine, rekindling their passion."
+      },
+      {
+        "title": "Navigating Major Life Transitions",
+        "detail": "Someone contemplating a career change or relocation uses Intrinsicly to understand if potential new paths genuinely satisfy their intrinsic needs for autonomy, competence, and relatedness, ensuring alignment with their true self rather than societal expectations."
+      },
+      {
+        "title": "Enhancing Personal Relationships",
+        "detail": "A user struggling with feelings of disconnect in a key relationship employs the Connection Canvas to reflect on their relatedness needs and receive guided prompts to improve communication and foster a more supportive and fulfilling bond."
+      }
+    ]
+  },
+  {
     "folder": "2026-04-18-bytewise-ai",
     "appName": "ByteWise AI",
     "tagline": "Your AI partner for cleaner, more robust freelance code.",
