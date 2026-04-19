@@ -1,0 +1,46 @@
+{
+  "name": "EcoLegacy",
+  "tagline": "Your stuff, its story, your score.",
+  "description": "EcoLegacy is a dynamic mobile app that transforms the daunting task of understanding and managing your environmental footprint from existing possessions into an engaging, gamified journey. Users photograph items they own \u2013 from clothing to electronics to furniture \u2013 and the app, leveraging a robust database, provides an estimated environmental footprint and material breakdown, revealing the often-hidden 'eco-story' of their stuff. Based on this insight, EcoLegacy suggests concrete, sustainable actions like repairing, donating, selling second-hand, upcycling, or specialized recycling, connecting users to local resources and communities. Each positive action taken for an item contributes to their personal 'EcoLegacy Score,' fostering a sense of progress and tangible impact. It's habit-forming through the ongoing discovery of item insights and the satisfaction of improving a quantifiable score, making conscious consumption a playful challenge rather than a chore.",
+  "features": [
+    {
+      "title": "Item Scan & Footprint",
+      "detail": "Users photograph or scan barcodes of items they own to instantly reveal their estimated environmental footprint, material composition, and origin story. This feature helps users understand the hidden impact of everyday objects, driving curiosity and awareness."
+    },
+    {
+      "title": "Legacy Action Prompts",
+      "detail": "For each scanned item, the app suggests tailored, sustainable actions such as repair guides, donation center locations, online marketplaces for selling, upcycling tutorials, or specialized recycling options. This streamlines the process of making eco-friendly decisions and empowers users to act."
+    },
+    {
+      "title": "EcoLegacy Score",
+      "detail": "A personalized, dynamic score that quantifies a user's cumulative positive environmental impact based on the sustainable actions taken for their owned items. This provides clear progress tracking and acts as a key gamified incentive for continuous engagement."
+    },
+    {
+      "title": "Community Impact Leaderboards",
+      "detail": "Users can create private groups with friends or join global leaderboards to compare their EcoLegacy Score and challenge progress. This fosters friendly competition and builds a supportive community around sustainable living."
+    },
+    {
+      "title": "Reclaim Challenges",
+      "detail": "Time-bound, themed challenges like 'Textile Transformation' or 'Tech Reuseathon' encourage specific sustainable actions for bonus EcoLegacy points and unique digital badges. These challenges provide novelty, structured goals, and additional engagement opportunities."
+    }
+  ],
+  "audience": "Conscious consumers and those feeling overwhelmed by clutter or the environmental impact of their possessions, typically aged 25-45, who are seeking tangible ways to live more sustainably and enjoy gamified self-improvement experiences.",
+  "category": "sustainability",
+  "useCases": [
+    {
+      "scenario": "While decluttering a closet, a user finds several old T-shirts they no longer wear. They scan each shirt with EcoLegacy, learn about its cotton footprint, and use the app to find nearby textile recycling bins or a local crafter who upcycles old fabrics, boosting their score.",
+      "actor": "A conscious individual seeking to declutter sustainably"
+    },
+    {
+      "scenario": "A user is considering buying a new gadget but feels guilty about their existing electronics. They use EcoLegacy to scan their current, working tablet, discover its lifespan potential, and are prompted with repair resources or ways to extend its use, deciding to keep and repair it instead of buying new.",
+      "actor": "Someone navigating mindful consumption choices"
+    },
+    {
+      "scenario": "Preparing for a move, a user needs to responsibly dispose of an old, broken chair. They scan it with EcoLegacy, identify its mixed material composition, and the app directs them to a specialized waste facility capable of recycling specific components, ensuring minimal landfill impact.",
+      "actor": "An individual managing household waste responsibly"
+    }
+  ],
+  "engagementLoop": "The continuous cycle of scanning owned items, learning their hidden environmental footprint, taking sustainable actions based on the app's guidance, and seeing their personal EcoLegacy Score improve drives repeat engagement. The friendly competition on leaderboards and the surprise of discovering unexpected item impacts also create a compelling reason to keep returning weekly.",
+  "trendFit": "EcoLegacy aligns with the surging trend of conscious consumerism, the desire for tangible impact from personal actions, and the widespread popularity of gamified self-improvement apps that transform abstract goals into trackable, competitive progress. It taps into both decluttering and sustainable living trends through a playful lens.",
+  "monetization": "A freemium model offering basic item scanning and action prompts for free, with premium subscriptions unlocking detailed material breakdowns, advanced impact analytics, exclusive upcycling workshops, or partnerships with vetted sustainable repair services."
+}

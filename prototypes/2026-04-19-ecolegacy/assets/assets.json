@@ -1,0 +1,14 @@
+{
+  "appName": "EcoLegacy",
+  "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+  "colors": {
+    "primary": "#4F46E5",
+    "secondary": "#818CF8",
+    "background": "#EEF2FF",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

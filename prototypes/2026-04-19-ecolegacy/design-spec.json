@@ -1,0 +1,33 @@
+{
+  "appName": "EcoLegacy",
+  "tagline": "Your stuff, its story, your score.",
+  "designSystem": {
+    "primaryColor": "#4F46E5",
+    "secondaryColor": "#818CF8",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#EEF2FF",
+    "darkBackground": "#0F1117",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "Marketplace / Directory with nature-inspired organic shapes, sustainable green accents, rounded flowing elements, and earthy natural textures. Gamified eco-tracking with score cards, progress bars, and achievement badges."
+  },
+  "screens": [
+    "home",
+    "items",
+    "itemDetail",
+    "challenges",
+    "community",
+    "profile"
+  ],
+  "features": [
+    "Item scanning with camera overlay and animated scan line",
+    "Environmental footprint scoring with letter grades",
+    "Material composition breakdown",
+    "Legacy action prompts with point rewards",
+    "EcoLegacy Score with progress tracking",
+    "Reclaim Challenges with deadlines and progress",
+    "Community leaderboard with podium display",
+    "Digital badges and achievements",
+    "Dark/light theme toggle",
+    "Toast notifications for score updates"
+  ]
+}
