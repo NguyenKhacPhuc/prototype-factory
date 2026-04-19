@@ -1,0 +1,19 @@
+{
+  "appName": "ChronoFlow",
+  "tagline": "Your memories, remixed for calm.",
+  "designSystem": {
+    "primaryColor": "#0F0F23",
+    "secondaryColor": "#1E1B4B",
+    "ctaColor": "#E11D48",
+    "backgroundColor": "#000000",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "Funnel (3-Step Conversion) with bold geometric shapes, high contrast duotone, energetic block layout. Dark primary (#0F0F23) and secondary (#1E1B4B) surfaces with vibrant CTA (#E11D48) accents. Light and dark theme support with smooth transitions."
+  },
+  "screens": [
+    "home",
+    "flow",
+    "explore",
+    "journal",
+    "profile"
+  ]
+}
