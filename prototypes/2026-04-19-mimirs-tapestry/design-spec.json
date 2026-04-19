@@ -1,0 +1,19 @@
+{
+  "appName": "Mimir's Tapestry",
+  "tagline": "Weave Your World of Wonder.",
+  "designSystem": {
+    "primaryColor": "#0891B2",
+    "secondaryColor": "#22D3EE",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#ECFEFF",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — Bold, energetic, playful block layout with geometric shapes, high color contrast, duotone accents, and modern energetic feel"
+  },
+  "screens": [
+    "home",
+    "tapestry",
+    "guilds",
+    "events",
+    "profile"
+  ]
+}

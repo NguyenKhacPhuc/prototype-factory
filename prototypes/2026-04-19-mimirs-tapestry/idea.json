@@ -1,0 +1,37 @@
+{
+  "name": "Mimir's Tapestry",
+  "tagline": "Weave Your World of Wonder.",
+  "description": "Mimir's Tapestry is an ambient companion app where users embark on weekly \"Curiosity Weave\" challenges to uncover fascinating, bite-sized facts about history, culture, science, and the arts (micro-learning). Each completed challenge literally adds a unique, procedurally generated thread, symbol, or color to a user's personal, ever-evolving digital \"Tapestry.\" This Tapestry becomes a visual representation of their intellectual journey, a living artwork of their acquired knowledge. It\u2019s not just about learning facts, but about curating a unique aesthetic artifact that reflects their curiosity and specific interests. Users can explore the threads of their Tapestry to revisit past discoveries, connect seemingly disparate pieces of knowledge, and proudly display their mental landscape, fostering a deep sense of self-expression and intellectual status among a community of fellow explorers. It's a mindful way to engage with knowledge, transforming passive consumption into active, creative co-creation.",
+  "features": [
+    {
+      "title": "Weekly Curiosity Weaves",
+      "detail": "Engage in themed, bite-sized challenges each week to discover fascinating facts across diverse domains. Completing these weaves rewards you with unique visual elements for your Tapestry."
+    },
+    {
+      "title": "Dynamic Tapestry Canvas",
+      "detail": "Witness your knowledge evolve into a personal, generative digital artwork. Each learned fact adds intricate patterns, colors, and symbols, making your Tapestry a unique visual fingerprint of your intellectual journey."
+    },
+    {
+      "title": "Thread Explorer",
+      "detail": "Interact with your Tapestry to zoom into individual patterns and symbols, revealing the specific curiosities you\u2019ve learned. This allows for reflective learning and helps you trace the connections between disparate pieces of knowledge."
+    },
+    {
+      "title": "Pattern Guilds",
+      "detail": "Join niche community groups based on shared intellectual interests, like 'Ancient Wonders Weavers' or 'Cosmic Thread Keepers.' Share segments of your evolving Tapestry, compare unique patterns, and engage in collaborative challenges with fellow enthusiasts."
+    },
+    {
+      "title": "Seasonal Loom Events",
+      "detail": "Participate in limited-time, grand challenges tied to real-world seasons or cultural events. These events unlock exclusive, highly detailed 'super threads' and narrative branches, enriching your Tapestry and fostering global community participation."
+    }
+  ],
+  "audience": "Intellectually curious adults (25-55) who appreciate aesthetics, enjoy learning new things in digestible formats, and value self-expression and personal growth, seeking mindful engagement over passive consumption.",
+  "category": "entertainment",
+  "useCases": [
+    "A user on their morning commute opens Mimir's Tapestry, completes a 'Daily Weave' prompt about an obscure historical invention, and adds a gear-like symbol to their evolving Tapestry.",
+    "During an evening unwind, a user browses their Tapestry via the Thread Explorer, rediscovering connections between different facts they've learned about ancient civilizations and botanical classifications, feeling a sense of quiet accomplishment.",
+    "A user shares a screenshot of a newly evolved section of their Tapestry in their 'Cosmic Thread Keepers' Pattern Guild, sparking a conversation about celestial cartography and gaining recognition for their unique knowledge collection."
+  ],
+  "engagementLoop": "Users return weekly for fresh 'Curiosity Weave' challenges, driven by the desire to expand their unique personal Tapestry, uncover exclusive seasonal patterns, and engage with like-minded individuals in Pattern Guilds to achieve status and express their growing intellectual identity.",
+  "trendFit": "The app aligns with the micro-learning trend by delivering knowledge in engaging, bite-sized formats. It taps into the desire for meaningful self-expression through digital artifacts and offers a calmer, ambient alternative to high-intensity social feeds, appealing to digital wellness.",
+  "monetization": "A premium subscription offers exclusive Tapestry styles, advanced customization tools, access to deeper research archives for each curiosity, and participation in exclusive Seasonal Loom Events."
+}
