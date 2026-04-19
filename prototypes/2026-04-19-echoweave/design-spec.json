@@ -1,0 +1,20 @@
+{
+  "appName": "EchoWeave",
+  "tagline": "Co-create live with AI currents.",
+  "designSystem": {
+    "primaryColor": "#2563EB",
+    "secondaryColor": "#3B82F6",
+    "backgroundColor": "#F8FAFC",
+    "ctaColor": "#F97316",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — Dark theme with OLED-friendly deep blacks, midnight blue surfaces, high contrast text, glowing accents, and gradient cards. Night mode optimized with power-efficient dark backgrounds."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "live",
+    "echo",
+    "channel",
+    "profile"
+  ]
+}

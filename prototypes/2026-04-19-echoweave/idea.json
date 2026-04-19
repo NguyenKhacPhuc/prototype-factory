@@ -1,0 +1,37 @@
+{
+  "name": "EchoWeave",
+  "tagline": "Co-create live with AI currents.",
+  "description": "EchoWeave transforms creative expression into a dynamic, live, community-driven ritual. Instead of static content creation, users participate in scheduled \"Current Rises\" \u2013 real-time, identity-based creative sessions orchestrated by specialized AI agents. Imagine a digital canvas or soundscape that continuously evolves: a central AI poses abstract prompts (visual, auditory, textual), and participants contribute snippets, strokes, or sounds. These individual contributions are immediately fed into other AI agents which remix, transform, and weave them into the larger, live collective artwork, reflecting the 'current's' chosen aesthetic and theme. Users don't just consume; they are integral threads in a constantly unraveling and re-weaving digital tapestry, fostering a deep sense of belonging to an emergent creative identity. The experience is less about individual output and more about the shared, transformative journey, making creativity a thrilling, collaborative, and unpredictable live event, distinct from traditional passive consumption.",
+  "features": [
+    {
+      "title": "Live Current Rises",
+      "detail": "Participate in scheduled, real-time creative sessions where an AI \"Conductor\" issues evolving prompts, pushing the collective artwork in new directions and encouraging diverse contributions."
+    },
+    {
+      "title": "AI Weavers & RemiXers",
+      "detail": "Dedicated AI agents instantly process user contributions, remixing, transforming, and seamlessly integrating them into the live collective artwork, creating an emergent, ever-changing piece."
+    },
+    {
+      "title": "Identity Currents",
+      "detail": "Subscribe to curated, AI-generated aesthetic and thematic \"channels\" (e.g., \"Glitch Garden,\" \"Dreamweave Drift,\" \"Sonic Sculptors\") that define the collaborative creative identity and style for each session."
+    },
+    {
+      "title": "Echo Trail & Attribution",
+      "detail": "A visual and auditory \"undo\" or \"rewind\" feature that displays the lineage of contributions and AI transformations within a Current, highlighting individual user impact on the evolving art piece."
+    },
+    {
+      "title": "Reactive Feedback Loop",
+      "detail": "AI-driven sentiment analysis and pattern recognition during a live event provide real-time, visual or auditory feedback on the collective mood and emerging themes, subtly guiding subsequent creative contributions."
+    }
+  ],
+  "audience": "Artists, musicians, writers, and curious individuals aged 18-40 seeking experimental, collaborative, and AI-enhanced avenues for creative expression beyond traditional social media, embracing the unpredictable nature of emergent art.",
+  "category": "AI automation & agents",
+  "useCases": [
+    "Feeling uninspired for my next digital painting, I'll join tonight's 'Dreamscape Weaver' Current Rise to contribute abstract visual elements and watch how the AI and other artists blend them into an unexpected, shared canvas.",
+    "My creative writing group wants a new challenge. We'll hop into the 'Narrative Flux' Current, each contributing fragmented sentences, and see how the AI and community remix our inputs into a surreal, evolving story.",
+    "I'm a budding electronic musician looking for new sounds. I'll join the 'Resonance Rhythm' Current, upload short audio loops, and experience how the AI manipulates and interweaves them with others' submissions into a live, generative soundscape."
+  ],
+  "engagementLoop": "Users return weekly for the thrill of scheduled \"Current Rises,\" driven by the desire to co-create with a vibrant community and see their creative contributions dynamically remixed by AI agents. The unpredictable and emergent nature of the collective artwork, combined with the real-time feedback and the sense of belonging to a shared creative identity, fosters a powerful, ongoing ritual of participation and discovery.",
+  "trendFit": "This app aligns with the surging interest in AI as a creative collaborator, the rise of identity-based digital communities, and the appeal of live, ephemeral content experiences. It taps into the human desire for creative expression, community belonging, and unique, engaging digital rituals.",
+  "monetization": "A freemium model offering access to basic Currents, with premium subscriptions unlocking exclusive 'Pro Currents' (more specialized AI agents, advanced remixing controls, private current hosting) and unique AI aesthetic packs."
+}
