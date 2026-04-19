@@ -1,0 +1,20 @@
+{
+  "appName": "Sanctuary Shards",
+  "tagline": "Collect calm, unlock worlds.",
+  "designSystem": {
+    "primaryColor": "#0EA5E9",
+    "secondaryColor": "#38BDF8",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F0F9FF",
+    "darkBackground": "#0B1120",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing with mindful, serene aesthetic. Dark mode default with light mode toggle. Fluid animations, breathing circles, typing effects, and floating map pins create a calm, meditative interface."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "ritual",
+    "atlas",
+    "community"
+  ]
+}
