@@ -1,0 +1,14 @@
+{
+  "appName": "Insight Crews",
+  "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+  "colors": {
+    "primary": "#0D9488",
+    "secondary": "#14B8A6",
+    "background": "#F0FDFA",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

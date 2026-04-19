@@ -1,0 +1,20 @@
+{
+  "appName": "Insight Crews",
+  "tagline": "Discover, Collaborate, Master. Together.",
+  "designSystem": {
+    "primaryColor": "#0D9488",
+    "secondaryColor": "#14B8A6",
+    "ctaColor": "#F97316",
+    "backgroundColor": "#F0FDFA",
+    "darkBackgroundColor": "#0A1A18",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing with dark-first design, teal-green palette, orange CTAs, card-based layout with gradient headers and micro-interactions"
+  },
+  "screens": [
+    "home",
+    "discover",
+    "crew",
+    "atlas",
+    "profile"
+  ]
+}
