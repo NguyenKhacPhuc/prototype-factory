@@ -1,0 +1,37 @@
+{
+  "name": "Logic Loom",
+  "tagline": "Weave code, solve together.",
+  "description": "Logic Loom is a groundbreaking challenge app for developers, transforming solo problem-solving into a collaborative, bite-sized adventure. Instead of competing on leaderboards, users cooperatively tackle daily or weekly 'Code Weave Challenges' \u2013 realistic, self-contained coding problems like optimizing a function, debugging a subtle error, or refactoring a legacy snippet. The core innovation is a 'Communal Solution Canvas' where developers contribute small code snippets or 'Micro-Solution' explanations (up to 60-second screen recordings or concise text) which are then algorithmically woven together, iterated upon, and improved by the community. Users earn 'Insight Points' and 'Flow Badges' not just for a correct solution, but for the elegance, clarity, and impact of their contributions, fostering a unique sense of status and self-expression through their problem-solving style. This structure creates a strong habit loop, encouraging daily engagement to contribute to, learn from, and witness the evolution of collective code.",
+  "features": [
+    {
+      "title": "Daily Code Weave Challenges",
+      "detail": "Engage with fresh, bite-sized programming problems each day, ranging from bug fixes to performance optimizations, designed to be tackled in short bursts."
+    },
+    {
+      "title": "Micro-Solution Contributions",
+      "detail": "Submit focused code snippets or short (under 60s) screen-recorded 'Logic Bites' explaining your contribution directly to a live community challenge. This allows for quick, impactful input inspired by short-form content."
+    },
+    {
+      "title": "Communal Solution Canvas",
+      "detail": "Visualize how different community contributions (code and explanations) interact and integrate on a shared canvas, evolving towards an optimal collective solution. It highlights conflicting or complementary approaches."
+    },
+    {
+      "title": "Insight Threads & Peer Learning",
+      "detail": "Engage in micro-discussions directly tied to specific lines of code or 'Logic Bites' within the canvas, facilitating rapid, context-rich peer learning and feedback."
+    },
+    {
+      "title": "Flow & Impact Metrics",
+      "detail": "Earn gamified 'Flow Points' and 'Loom Badges' based on the efficiency, elegance, clarity, and overall positive impact of your contributions to the collective solution, fostering status and self-expression."
+    }
+  ],
+  "audience": "Junior to mid-level developers, aspiring software engineers, and experienced coders seeking to hone their skills collaboratively. Users are typically 20-40 years old, highly motivated by continuous learning and peer recognition.",
+  "category": "developer tools",
+  "useCases": [
+    "A software engineering student with 15 minutes before class opens Logic Loom, quickly contributing a memory optimization snippet to today's 'Algorithm Refactor' challenge and seeing their 'Flow Score' increase.",
+    "A mid-career developer on a lunch break checks the 'Communal Solution Canvas' for a challenge they worked on yesterday, reviewing new 'Logic Bites' from peers that offer alternative approaches to the problem.",
+    "A seasoned front-end engineer scrolls through completed challenges, examining the 'Insight Threads' on highly-rated community solutions to discover clever CSS tricks or JavaScript performance patterns shared by others."
+  ],
+  "engagementLoop": "Users are drawn back daily by new, engaging 'Code Weave Challenges'. The desire to contribute unique insights, learn from diverse peer solutions, and continuously improve their 'Flow Score' and 'Loom Badges' for status and self-expression creates a powerful, intrinsic motivation to return.",
+  "trendFit": "Logic Loom leverages the popularity of short-form content by allowing 'Micro-Solution' contributions and 'Logic Bites'. It aligns with the trend of collaborative learning and community-driven knowledge sharing, while satisfying the emotional hook of status and self-expression through unique problem-solving styles.",
+  "monetization": "Premium subscriptions can unlock advanced challenge categories, deeper personal analytics on coding styles and efficiency, and exclusive 'Master Weaver' content curated by industry experts."
+}
