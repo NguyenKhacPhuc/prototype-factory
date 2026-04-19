@@ -1,0 +1,37 @@
+{
+  "appName": "SparkForge",
+  "tagline": "Forge ideas. Ignite creativity.",
+  "designSystem": {
+    "primaryColor": "#EC4899",
+    "secondaryColor": "#F472B6",
+    "ctaColor": "#06B6D4",
+    "accentColor": "#8B5CF6",
+    "backgroundColor": "#FDF2F8",
+    "darkBackgroundColor": "#0A0A0F",
+    "fontFamily": "-apple-system, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif",
+    "style": "AI Personalization Landing with dark/light themes, OLED-friendly dark mode, gradient accents, and gamification-driven UI with streak cards and progress indicators"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "circles",
+    "profile",
+    "detail"
+  ],
+  "features": {
+    "sparkDeck": "Personalized feed of creative sparks with ignite buttons and kudos rewards",
+    "ignitionEngine": "Spark detail view with participation stats, difficulty, and ignite CTA",
+    "accountabilityCircles": "Private groups with progress bars, member avatars, and nudge actions",
+    "kudosAndStreak": "Gamified streak counter with weekly progress bar and total kudos tracking",
+    "creativeChronicle": "Portfolio of completed sparks with feedback counts and share functionality"
+  },
+  "animations": [
+    "fadeIn",
+    "slideUp",
+    "pulse",
+    "shimmer"
+  ],
+  "navigation": "bottom-tabs",
+  "defaultTheme": "dark",
+  "themeToggle": true
+}
