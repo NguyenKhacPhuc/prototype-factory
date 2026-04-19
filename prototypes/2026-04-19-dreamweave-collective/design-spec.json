@@ -1,0 +1,19 @@
+{
+  "appName": "DreamWeave Collective",
+  "tagline": "Unfold collaborative AI dreams.",
+  "designSystem": {
+    "primaryColor": "#18181B",
+    "secondaryColor": "#3F3F46",
+    "ctaColor": "#EC4899",
+    "backgroundColor": "#FAFAFA",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — Bold minimalism with oversized typography, high contrast, negative space, and statement design. Dual light/dark theme with gradient dream-weave visuals."
+  },
+  "screens": [
+    "home",
+    "explore",
+    "gallery",
+    "challenges",
+    "profile"
+  ]
+}
