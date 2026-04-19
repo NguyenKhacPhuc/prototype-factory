@@ -1,0 +1,37 @@
+{
+  "name": "EcoBloom",
+  "tagline": "Cultivate wellness, grow your world.",
+  "description": "EcoBloom transforms your health and sustainability efforts into a vibrant, evolving digital ecosystem. As you engage in healthy habits like mindful eating, active transportation, and even reducing food waste through pantry scans, you accumulate 'Growth Essence'. This Essence nurtures your personal 'Biome', a unique digital world where extraordinary, procedurally generated flora and fauna organically appear and thrive. The app acts as your 'Gaia Guide,' offering personalized challenges and insights that link your actions to both your physical well-being and a positive environmental impact. Users are driven by the joyful surprise of discovering new, unique 'Spirit Sprouts' or 'Vitality Guardians' for their collection, each tied to a specific type of sustainable health behavior. It's not just tracking; it's about seeing your effort manifest as life and color in a world you actively build, fostering deep, sustained engagement through play and purpose.",
+  "features": [
+    {
+      "title": "Biome Builder",
+      "detail": "Grow and customize your unique digital ecosystem by engaging in health and sustainable actions. Each collected 'Spirit Sprout' or 'Vitality Guardian' is a unique procedural creation, inspiring continued engagement."
+    },
+    {
+      "title": "Gaia Guide",
+      "detail": "Receive personalized daily challenges and educational insights that coach you on sustainable living and wellness. This feature offers a continuous stream of new goals and learning, making health engaging."
+    },
+    {
+      "title": "Pantry Navigator",
+      "detail": "Utilize computer vision to scan your pantry, receive AI-powered meal suggestions based on existing ingredients, and track food waste reduction. This directly contributes to your EcoBloom's growth and environmental impact."
+    },
+    {
+      "title": "Essence Stream",
+      "detail": "Earn 'Growth Essence' by logging physical activity, mindful eating, sustainable transport, and waste reduction. This in-app currency is essential for discovering and nurturing new elements within your Biome."
+    },
+    {
+      "title": "Life Cycle Insights",
+      "detail": "Visualize your accumulated health and environmental impact through interactive dashboards, showing how your actions contribute to your thriving Biome. Understand your personal footprint and celebrate progress in a meaningful way."
+    }
+  ],
+  "audience": "Eco-conscious millennials and Gen Z, health and fitness enthusiasts seeking novel motivation, and individuals interested in gamified self-improvement and sustainability.",
+  "category": "health & fitness",
+  "useCases": [
+    "A user opens EcoBloom before grocery shopping, scans their fridge, and gets meal ideas to use up ingredients, earning Essence for reducing potential food waste.",
+    "During their lunch break, a user logs a plant-based meal and a 30-minute walk, immediately seeing new 'Growth Essence' added and a hint towards unlocking a rare 'Forest Whisperer' creature.",
+    "A user commuting to work chooses to bike instead of drive, logs their activity, and discovers a new 'Sky Glider' collectible for their 'Aeroscape' section of their Biome, inspiring more active transport."
+  ],
+  "engagementLoop": "Users are drawn back daily by new challenges from the Gaia Guide and the desire to collect unique, procedurally generated creatures for their evolving Biome. The surprise of discovery and visible growth of their personalized digital world provides a continuous feedback loop and emotional reward, reinforcing sustainable healthy habits.",
+  "trendFit": "EcoBloom aligns with the growing demand for sustainable living solutions, personalized gamified wellness, and digital collecting. It taps into the desire for purpose-driven app engagement and tangible rewards for positive real-world actions.",
+  "monetization": "Premium Biome themes, exclusive cosmetic customizations for collected creatures, and 'Discovery Packs' offering themed sets of unique challenges and guaranteed rare creature unlocks (not P2W, just themed collections)."
+}

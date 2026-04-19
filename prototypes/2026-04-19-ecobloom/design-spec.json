@@ -1,0 +1,19 @@
+{
+  "appName": "EcoBloom",
+  "tagline": "Cultivate wellness, grow your world.",
+  "designSystem": {
+    "primaryColor": "#F97316",
+    "secondaryColor": "#FB923C",
+    "backgroundColor": "#1F2937",
+    "ctaColor": "#22C55E",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — bold, energetic, playful, block layout, geometric shapes, high color contrast, duotone, modern"
+  },
+  "screens": [
+    "home",
+    "biome",
+    "challenges",
+    "pantry",
+    "insights"
+  ]
+}
