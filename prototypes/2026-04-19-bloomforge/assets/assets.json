@@ -1,0 +1,14 @@
+{
+  "appName": "BloomForge",
+  "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+  "colors": {
+    "primary": "#15803D",
+    "secondary": "#22C55E",
+    "background": "#F0FDF4",
+    "accent": "#10b981"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}
