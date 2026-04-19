@@ -1,0 +1,14 @@
+{
+  "appName": "Learn Loop Studio",
+  "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+  "colors": {
+    "primary": "#18181B",
+    "secondary": "#27272A",
+    "background": "#000000",
+    "accent": "#6366F1"
+  },
+  "icons": [],
+  "fonts": [],
+  "iconCount": 0,
+  "fontFileCount": 0
+}

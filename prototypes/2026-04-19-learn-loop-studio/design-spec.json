@@ -1,0 +1,26 @@
+{
+  "appName": "Learn Loop Studio",
+  "tagline": "Remix knowledge, master concepts.",
+  "designSystem": {
+    "primaryColor": "#18181B",
+    "secondaryColor": "#27272A",
+    "backgroundColor": "#000000",
+    "ctaColor": "#F8FAFC",
+    "accentColor": "#6366F1",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing — dark-first with animation-heavy microinteractions, smooth transitions, parallax entrance animations, and page transitions. Dual light/dark theme support."
+  },
+  "screens": [
+    "home",
+    "clipboard",
+    "compose",
+    "explore",
+    "profile"
+  ],
+  "features": {
+    "themeToggle": true,
+    "animations": ["fadeIn", "slideUp", "pulse", "shimmer", "float", "scaleIn", "slideInRight"],
+    "navigation": "bottom-tabs",
+    "interactiveElements": ["expandable-snippets", "toggle-switches", "ai-level-selector", "learning-style-chips", "progress-bars", "composer-tabs"]
+  }
+}
