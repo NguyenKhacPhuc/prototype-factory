@@ -1,0 +1,18 @@
+{
+  "appName": "Rune Hearth",
+  "tagline": "Shared rituals for focused flow.",
+  "designSystem": {
+    "primaryColor": "#7C3AED",
+    "secondaryColor": "#A78BFA",
+    "backgroundColor": "#FAF5FF",
+    "ctaColor": "#22C55E",
+    "fontFamily": "-apple-system, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif",
+    "style": "Community/Forum Landing — bold, energetic, playful block layout with geometric shapes, high color contrast, duotone accents, and modern visual hierarchy"
+  },
+  "screens": [
+    "home",
+    "explore",
+    "ritual",
+    "profile"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Rune Hearth",
+  "tagline": "Shared rituals for focused flow.",
+  "description": "Rune Hearth transforms personal disciplines into shared, live rituals within curated digital \"Hearth Rooms.\" Instead of merely tracking habits, users gather at scheduled times, or spontaneously, to perform focused activities like deep work, mindful meditation, creative sessions, or even digital decluttering, alongside others with similar intentions. These live sessions, which can be video-optional and often include shared timers or ambient soundscapes, create a powerful sense of collective presence and soft accountability. It's designed for individuals seeking to cultivate consistent routines and deepen their practice, finding motivation not just from self-discipline but from the quiet, encouraging presence of an identity-aligned community. The app makes the act of \"doing\" a ritualistic, communal experience, making consistency more achievable and less isolating, fostering a unique blend of personal focus and social support.",
+  "features": [
+    {
+      "title": "Hearth Rooms (Live Rituals)",
+      "detail": "Users join live, scheduled (or spontaneous) digital rooms to perform their focus rituals together. This provides a sense of shared presence and soft accountability without requiring active conversation, ensuring focused co-being."
+    },
+    {
+      "title": "Identity Circles",
+      "detail": "Discover and connect with communities based on shared goals, identities, or practices (e.g., 'Morning Meditators,' 'Deep Work Scribes,' 'Digital Detoxers'). Filter Hearth Rooms by these circles to find your perfect co-working or co-meditation partners."
+    },
+    {
+      "title": "Ritual Timers & Soundscapes",
+      "detail": "Enhance your ritual experience with customizable focus timers (like Pomodoro) and a curated library of ambient soundscapes designed to aid concentration, relaxation, or creative flow within your Hearth Room."
+    },
+    {
+      "title": "Ritual Path Progression",
+      "detail": "As users consistently complete rituals, they unlock 'Sacred Spaces' (new room backgrounds, ambient sounds) or 'Crystallized Intentions' (digital tokens representing their journey), providing motivation and a visual representation of their dedication."
+    },
+    {
+      "title": "Moment of Clarity Journal",
+      "detail": "A private, optional reflection prompt appears after each completed ritual, encouraging self-assessment and helping users cement insights or learnings from their focused session, deepening the habit loop."
+    }
+  ],
+  "audience": "Individuals (25-45) who value intentional living, personal growth, and deep work but struggle with consistency or motivation in isolation. They seek mindful connection rather than performative social media, gravitating towards identity-based communities.",
+  "category": "social & community",
+  "useCases": [
+    {
+      "title": "Deep Work Session",
+      "detail": "A freelance writer needs to finish an article. They open Rune Hearth, join a 'Deep Work Scribes' Hearth Room scheduled for 9 AM, and work silently alongside 10 other writers for 90 minutes, feeling the shared focus and accountability."
+    },
+    {
+      "title": "Morning Meditation Habit",
+      "detail": "Someone wants to establish a daily meditation habit. They set a recurring ritual, and when it's time, they join the 'Dawn Meditators' Hearth Room, sharing a quiet, focused start to their day with a small, dedicated group."
+    },
+    {
+      "title": "Creative Accountability",
+      "detail": "An artist struggling with procrastination commits to a weekly 'Creative Flow Sanctuary.' They join the live room, turn on a lofi beat, and work on their digital painting, encouraged by the visible presence of other creators pursuing their crafts."
+    }
+  ],
+  "engagementLoop": "Users are drawn by the promise of shared accountability and a quiet, focused environment for their personal goals. The positive reinforcement from consistently completing rituals within a supportive, identity-aligned community, coupled with the satisfying progression of unlocking new customization options, incentivizes them to schedule and attend more live sessions, deepening their commitment to their chosen rituals and the community.",
+  "trendFit": "This app aligns with the rising trend of identity-based micro-communities centered around shared values and personal growth, moving beyond broad, superficial social networks. It taps into the desire for authentic connection and focused presence in an increasingly distracted world, leveraging live co-presence for soft accountability without the pressure of typical social feeds.",
+  "monetization": "A freemium model offers basic Hearth Rooms and timers for free. A premium 'Hearth Keeper Pass' subscription unlocks advanced soundscapes, exclusive 'Sacred Spaces' (custom room backgrounds), priority access to popular Identity Circles, and deeper ritual analytics."
+}
