@@ -1,0 +1,19 @@
+{
+  "appName": "Echo Weave",
+  "tagline": "Craft your world's perfect sound.",
+  "designSystem": {
+    "primaryColor": "#1E1B4B",
+    "secondaryColor": "#4338CA",
+    "ctaColor": "#22C55E",
+    "backgroundColor": "#0F0F23",
+    "fontFamily": "-apple-system, SF Pro Display, SF Pro Text, Helvetica Neue, sans-serif",
+    "style": "AI Personalization Landing - Bold, energetic, playful, block layout, geometric shapes, high color contrast, duotone, modern"
+  },
+  "screens": [
+    "home",
+    "create",
+    "challenges",
+    "community",
+    "journal"
+  ]
+}
